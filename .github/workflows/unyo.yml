@@ -1,30 +1,32 @@
 name: 毎日自動運用収集
 
 on:
-  schedule:
-    - cron: '*/5 19-23 * * *'
-    - cron: '*/5 0-15 * * *'
   workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+
+permissions:
+  contents: write
 
 jobs:
   collect-data:
     runs-on: ubuntu-latest
 
     steps:
-      - name: コードをチェックアウト
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Node.jsの準備
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: 運用収集スクリプトを実行
-        run: node collect.js
+      - run: node collect.js
 
-      - name: 取得したJSONデータをGitHubに保存
-        run: |
+      - run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add today_unyo.json
-          git diff --cached --quiet || (git commit -m "運用データ自動更新" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "運用データ自動更新"
+          git push origin main
