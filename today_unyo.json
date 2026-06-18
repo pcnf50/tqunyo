@@ -539,6 +539,16 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "23:15"
+    },
+    {
+      "op": "31",
+      "form": "-",
+      "cars": "8",
+      "no": "231-232",
+      "destCode": "武蔵小山",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:20"
     }
   ],
   "meguro": [
@@ -981,8 +991,58 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "23:15"
+    },
+    {
+      "op": "16K",
+      "form": "3113F",
+      "cars": "8",
+      "no": "216-231",
+      "destCode": "相鉄線直通",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:20"
+    },
+    {
+      "op": "11",
+      "form": "-",
+      "cars": "8",
+      "no": "711-231",
+      "destCode": "元町・中華街",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:20"
+    },
+    {
+      "op": "92",
+      "form": "-",
+      "cars": "10",
+      "no": "992-231",
+      "destCode": "相鉄線直通",
+      "kind": "急行",
+      "delay": "",
+      "updated": "23:20"
+    },
+    {
+      "op": "89",
+      "form": "-",
+      "cars": "10",
+      "no": "789-222",
+      "destCode": "副都心線直通",
+      "kind": "通勤特急",
+      "delay": "",
+      "updated": "23:20"
+    },
+    {
+      "op": "31K",
+      "form": "-",
+      "cars": "8",
+      "no": "231-232",
+      "destCode": "武蔵小山",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:20"
     }
   ],
-  "lastUpdate": "23:15",
+  "lastUpdate": "23:20",
   "date": "2026-06-18"
 }
