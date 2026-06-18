@@ -9,7 +9,6 @@
     :root {
       --toyoko: #DA0442;
       --meguro: #009CD3;
-      --dento: #20a288;
       --bg-color: #f3f4f6;
       --card-bg: #ffffff;
       --text-main: #111827;
@@ -83,9 +82,7 @@
 
     .tab-button span.line-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
     .tab-button.toyoko span.line-dot { background: var(--toyoko); }
-    .tab-button.meguro span.line-dot { background: var(--meguro); }
-    .tab-button.dento span.line-dot { background: var(--dento); }
-    .tab-button.active { border-color: #111827; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); }
+    .tab-button.meguro span.line-dot { background: var(--meguro); }    .tab-button.active { border-color: #111827; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); }
 
     .line-panel { display: none; }
     .line-panel.active { display: block; }
@@ -110,8 +107,6 @@
     }
     .panel-toyoko .refresh-btn { background: var(--toyoko); }
     .panel-meguro .refresh-btn { background: var(--meguro); }
-    .panel-dento .refresh-btn { background: var(--dento); }
-
     .table-container {
       background: var(--card-bg);
       border-radius: 8px;
@@ -173,10 +168,7 @@
     <button class="tab-button meguro" data-line="meguro">
       <span class="line-dot"></span><span>目黒線</span>
     </button>
-    <button class="tab-button dento" data-line="dento">
-      <span class="line-dot"></span><span>田園都市線</span>
-    </button>
-  </div>
+</div>
 
   <section id="toyokoPanel" class="line-panel panel-toyoko active">
     <div class="top-bar">
@@ -189,8 +181,7 @@
           <tr>
             <th style="width: 20%;" data-sort="op">運用</th>
             <th style="width: 25%;" data-sort="form">編成</th>
-            <th style="width: 15%;" class="text-center" data-sort="cars">両数</th>
-            <th style="width: 40%;">直近列番 / 種別・行先</th>
+            <th style="width: 30%;">種別</th>
           </tr>
         </thead>
         <tbody id="toyokoTableBody"></tbody>
@@ -210,8 +201,7 @@
           <tr>
             <th style="width: 20%;" data-sort="op">運用</th>
             <th style="width: 25%;" data-sort="form">編成</th>
-            <th style="width: 15%;" class="text-center" data-sort="cars">両数</th>
-            <th style="width: 40%;">直近列番 / 種別・行先</th>
+            <th style="width: 30%;">種別</th>
           </tr>
         </thead>
         <tbody id="meguroTableBody"></tbody>
@@ -219,32 +209,10 @@
       <div id="meguroNoData" class="no-data" style="display:none;">データがありません。</div>
     </div>
   </section>
-
-  <section id="dentoPanel" class="line-panel panel-dento">
-    <div class="top-bar">
-      <button class="refresh-btn" id="refreshDento">更新</button>
-      <div class="timestamp" id="dentoTimestamp"></div>
-    </div>
-    <div class="table-container">
-      <table>
-        <thead>
-          <tr>
-            <th style="width: 20%;" data-sort="op">運用</th>
-            <th style="width: 25%;" data-sort="form">編成</th>
-            <th style="width: 15%;" class="text-center" data-sort="cars">両数</th>
-            <th style="width: 40%;">直近列番 / 種別・行先</th>
-          </tr>
-        </thead>
-        <tbody id="dentoTableBody"></tbody>
-      </table>
-      <div id="dentoNoData" class="no-data" style="display:none;">データがありません。</div>
-    </div>
-  </section>
 </main>
 
 <script>
   const TOKYU_JSON_URL = "https://nfhanyo.web.fc2.com/tokyu/tokyu_data.json";
-  const DENTO_JSON_URL = "https://nfhanyo.web.fc2.com/tokyu/tokyu_dentodata.json";
   
   let masterDataLoaded = false;
   let activeTab = "toyoko";
@@ -252,33 +220,15 @@
 
   let sortState = {
     toyoko: { key: "op", asc: true },
-    meguro: { key: "op", asc: true },
-    dento: { key: "op", asc: true }
+    meguro: { key: "op", asc: true }
   };
 
-  let toyokoDestMap = {};
-  let meguroDestMap = {};
-  let dentoDestMap = {};
+  
 
-  async function loadMasterData(){
-    if(masterDataLoaded) return;
-    try {
-      const [tokyuRes, dentoRes] = await Promise.all([
-        fetch(TOKYU_JSON_URL, {cache:"no-store"}).then(r => r.json()),
-        fetch(DENTO_JSON_URL, {cache:"no-store"}).then(r => r.json())
-      ]);
-      toyokoDestMap = tokyuRes.destination_map || {};
-      meguroDestMap = tokyuRes.destination_map || {};
-      dentoDestMap = dentoRes.destination_map || {};
-      masterDataLoaded = true;
-    } catch(e) {
-      console.error("マスタデータの読み込みに失敗しました", e);
-    }
-  }
+  
 
   async function loadUnyoData() {
     try {
-      await loadMasterData();
       
       const res = await fetch("./today_unyo.json", {cache:"no-store"});
       if(!res.ok) throw new Error("No data file");
@@ -286,16 +236,13 @@
 
       renderTable("toyoko");
       renderTable("meguro");
-      renderTable("dento");
 
       const tsText = `本日分データ (${rawUnyoData.lastUpdate || ""} 時点)`;
       document.getElementById("toyokoTimestamp").textContent = tsText;
       document.getElementById("meguroTimestamp").textContent = tsText;
-      document.getElementById("dentoTimestamp").textContent = tsText;
     } catch(e) {
       document.getElementById("toyokoNoData").style.display = "block";
       document.getElementById("meguroNoData").style.display = "block";
-      document.getElementById("dentoNoData").style.display = "block";
     }
   }
 
@@ -331,21 +278,14 @@
       }
     });
 
-    const mapSelector = { toyoko: toyokoDestMap, meguro: meguroDestMap, dento: dentoDestMap };
-    const currentDestMap = mapSelector[line] || {};
-
     list.forEach(t => {
       const tr = document.createElement("tr");
       const delayHtml = t.delay ? `<span class="delay-badge">${t.delay}</span>` : "";
       
-      const codeStr = (t.destCode !== undefined && t.destCode !== null) ? String(t.destCode).trim() : "";
-      const destName = currentDestMap[codeStr] || (codeStr ? `駅コード:${codeStr}` : "不明");
-
       tr.innerHTML = `
         <td><b>${t.op}</b></td>
         <td>${t.form}</td>
-        <td class="text-center">${t.cars}両</td>
-        <td>${t.no} [${t.kind}] ${destName}${delayHtml}</td>
+        <td>${t.kind}${delayHtml}</td>
       `;
       tbody.appendChild(tr);
     });
@@ -393,8 +333,7 @@
 
       const titleMap = { 
         toyoko: "東横線 運用・編成一覧", 
-        meguro: "目黒線 運用・編成一覧",
-        dento: "田園都市線 運用・編成一覧"
+        meguro: "目黒線 運用・編成一覧"
       };
       const mainTitle = document.getElementById("mainTitle");
       if(mainTitle) {
@@ -406,10 +345,8 @@
 
   const refreshToyoko = document.getElementById("refreshToyoko");
   const refreshMeguro = document.getElementById("refreshMeguro");
-  const refreshDento = document.getElementById("refreshDento");
   if(refreshToyoko) refreshToyoko.onclick = loadUnyoData;
   if(refreshMeguro) refreshMeguro.onclick = loadUnyoData;
-  if(refreshDento) refreshDento.onclick = loadUnyoData;
 
   loadUnyoData();
   setInterval(loadUnyoData, 10000);
