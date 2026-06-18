@@ -155,7 +155,7 @@
 
 <header>
   <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-  <div class="version-tag">v1.3.1</div>
+  <div class="version-tag">v1.3.2</div>
 </header>
 
 <main>
@@ -197,13 +197,8 @@
     toyoko: { key: "op", asc: true }
   };
 
-  
-
-  
-
   async function loadUnyoData() {
     try {
-      
       const res = await fetch("./today_unyo.json", {cache:"no-store"});
       if(!res.ok) throw new Error("No data file");
       rawUnyoData = await res.json();
@@ -223,6 +218,7 @@
     if (!tbody) return;
     tbody.innerHTML = "";
 
+    // ★重要: 目黒線データが混ざらないよう、指定された路線のデータのみを厳密に抽出
     const dataObj = rawUnyoData[line] || {};
     const list = Object.values(dataObj);
 
@@ -233,26 +229,38 @@
     if(noData) noData.style.display = "none";
 
     const state = sortState[line];
+    
+    // K, S, M, T, G の順序を定義
+    const alphaOrder = ["K", "S", "M", "T", "G"];
+
     list.sort((a, b) => {
       let valA = a[state.key] !== undefined ? String(a[state.key]) : "";
       let valB = b[state.key] !== undefined ? String(b[state.key]) : "";
 
       if (state.key === "op") {
-        // アルファベット（末尾の文字）と数値（前方の数字）を分離
+        // 数字部分とアルファベット部分を正確に分解する正規表現に変更 (例: "05S" -> "05", "S")
         const matchA = valA.match(/^(\d+)([a-zA-Z]+)$/);
         const matchB = valB.match(/^(\d+)([a-zA-Z]+)$/);
 
         if (matchA && matchB) {
           const numA = parseInt(matchA[1], 10);
-          const alphaA = matchA[2];
+          const alphaA = matchA[2].toUpperCase();
           const numB = parseInt(matchB[1], 10);
-          const alphaB = matchB[2];
+          const alphaB = matchB[2].toUpperCase();
 
-          // 1. まずアルファベットで比較 (K, S, M, T, G の順など)
-          if (alphaA !== alphaB) {
-            return state.asc ? alphaA.localeCompare(alphaB) : alphaB.localeCompare(alphaA);
+          // 1. 指定順序 (K > S > M > T > G) に基づいてアルファベット順を決定
+          let idxA = alphaOrder.indexOf(alphaA);
+          let idxB = alphaOrder.indexOf(alphaB);
+          
+          // 定義外のアルファベットは後ろに回す
+          if (idxA === -1) idxA = 999;
+          if (idxB === -1) idxB = 999;
+
+          if (idxA !== idxB) {
+            return state.asc ? idxA - idxB : idxB - idxA;
           }
-          // 2. 同じアルファベットなら数字で比較
+          
+          // 2. アルファベットが同じなら数字で比較
           return state.asc ? numA - numB : numB - numA;
         }
       }
