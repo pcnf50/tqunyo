@@ -819,6 +819,26 @@
       "kind": "回送",
       "delay": "1分遅れ",
       "updated": "00:35"
+    },
+    {
+      "op": "12",
+      "form": "-",
+      "cars": "8",
+      "no": "212-241",
+      "destCode": "元住吉",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:40"
+    },
+    {
+      "op": "44K",
+      "form": "Y517F",
+      "cars": "8",
+      "no": "044-242",
+      "destCode": "元住吉",
+      "kind": "回送",
+      "delay": "",
+      "updated": "00:40"
     }
   ],
   "meguro": [
@@ -1611,8 +1631,28 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "00:35"
+    },
+    {
+      "op": "16",
+      "form": "-",
+      "cars": "8",
+      "no": "016-241",
+      "destCode": "元住吉",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:40"
+    },
+    {
+      "op": "38K",
+      "form": "-",
+      "cars": "0",
+      "no": "238-241",
+      "destCode": "武蔵小山",
+      "kind": "回送",
+      "delay": "1分遅れ",
+      "updated": "00:40"
     }
   ],
-  "lastUpdate": "00:35",
+  "lastUpdate": "00:40",
   "date": "2026-06-19"
 }
