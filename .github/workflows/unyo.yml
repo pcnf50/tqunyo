@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  collect-data:
+  collect:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,5 +28,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add today_unyo.json
           git diff --cached --quiet && exit 0
-          git commit -m "運用データ自動更新"
+          git commit -m "auto update"
           git push origin main
