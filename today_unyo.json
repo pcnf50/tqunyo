@@ -609,6 +609,16 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "23:35"
+    },
+    {
+      "op": "01",
+      "form": "-",
+      "cars": "8",
+      "no": "201-231",
+      "destCode": "新横浜",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:40"
     }
   ],
   "meguro": [
@@ -1171,8 +1181,28 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "23:35"
+    },
+    {
+      "op": "20K",
+      "form": "-",
+      "cars": "8",
+      "no": "020-231",
+      "destCode": "元住吉",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:40"
+    },
+    {
+      "op": "8",
+      "form": "-",
+      "cars": "8",
+      "no": "008-232",
+      "destCode": "自由が丘",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:40"
     }
   ],
-  "lastUpdate": "23:35",
+  "lastUpdate": "23:40",
   "date": "2026-06-18"
 }
