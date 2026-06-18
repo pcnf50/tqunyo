@@ -185,7 +185,7 @@
 
     let list = Array.isArray(rawUnyoData[line]) ? [...rawUnyoData[line]] : [];
 
-    // noの完全に1文字目だけを判定して2,3,4,5,6を除外
+    // 1. noの完全に1文字目だけを判定して2,3,4,5,6を除外
     list = list.filter(t => {
       const noStr = t.no ? String(t.no) : "";
       if (noStr.length > 0) {
@@ -195,6 +195,35 @@
         }
       }
       return true;
+    });
+
+    // ★2. 追加: 同じ運番内で「編成情報があるもの」と「ないもの(-)」が重複した時、ないものを除外
+    // まず各運番に紐づく編成リストを調査
+    const opFormMap = {};
+    list.forEach(t => {
+      const op = t.op || "";
+      const form = t.form || "";
+      if (!opFormMap[op]) {
+        opFormMap[op] = new Set();
+      }
+      opFormMap[op].add(form);
+    });
+
+    // 実際に表示するリストをフィルタリング
+    list = list.filter(t => {
+      const op = t.op || "";
+      const form = t.form || "";
+      const allFormsForOp = opFormMap[op];
+
+      // もし同じ運番内で、「-」以外の正規の編成があり、かつ自分自身が「-」だった場合は非表示
+      if (form === "-" && allFormsForOp.size > 1) {
+        // 「-」以外の要素が1つでも含まれているか確認
+        const hasValidForm = Array.from(allFormsForOp).some(f => f !== "-");
+        if (hasValidForm) {
+          return false; // 「ないほう」なので表示しない
+        }
+      }
+      return true; // 編成が違う者同士、または「-」しか存在しない場合はそのまま表示
     });
 
     if(list.length === 0) {
