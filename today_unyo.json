@@ -859,6 +859,28 @@
       "kind": "回送",
       "delay": "2分遅れ",
       "updated": "00:55"
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      "op": "99",
+      "form": "5153F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
     }
   ],
   "meguro": [
@@ -1683,6 +1705,6 @@
       "updated": "00:45"
     }
   ],
-  "lastUpdate": "01:15",
+  "lastUpdate": "01:18",
   "date": "2026-06-19"
 }
