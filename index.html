@@ -208,7 +208,6 @@
   let activeTab = "toyoko";
   let rawUnyoData = {};
 
-  // 各路線の現在のソート状態を記憶するオブジェクト
   let sortState = {
     toyoko: { key: "op", asc: true },
     meguro: { key: "op", asc: true }
@@ -216,13 +215,11 @@
 
   let stationMap = {};
 
-  // マスタデータから駅名定義を取得
   async function loadMasterData(){
     if(masterDataLoaded) return;
     try {
       const res = await fetch(TOKYU_JSON_URL, {cache:"no-store"});
       const d = await res.json();
-      // マスタ内の station_map または stations から駅名マップを構築
       stationMap = d.station_map || d.stations || {};
       masterDataLoaded = true;
     } catch(e) {
@@ -230,7 +227,6 @@
     }
   }
 
-  // クラウドで蓄積されたデータを読み込む
   async function loadUnyoData() {
     try {
       await loadMasterData();
@@ -239,7 +235,6 @@
       if(!res.ok) throw new Error("No data file");
       rawUnyoData = await res.json();
 
-      // 各テーブルをレンダリング
       renderTable("toyoko");
       renderTable("meguro");
 
@@ -266,13 +261,11 @@
     }
     noData.style.display = "none";
 
-    // ソート処理
     const state = sortState[line];
     list.sort((a, b) => {
       let valA = a[state.key] !== undefined ? a[state.key] : "";
       let valB = b[state.key] !== undefined ? b[state.key] : "";
 
-      // 数値化できる場合は数値で比較、それ以外は文字列として比較
       const numA = parseFloat(valA);
       const numB = parseFloat(valB);
       
@@ -285,13 +278,12 @@
       }
     });
 
-    // 行の生成
     list.forEach(t => {
       const tr = document.createElement("tr");
       const delayHtml = t.delay ? `<span class="delay-badge">${t.delay}</span>` : "";
       
-      // 行き先コードから駅名を取得（なければコード自体を表示）
-      const destName = stationMap[t.destCode] || `駅コード:${t.destCode}`;
+      // 文字列・数値のどちらでもマッピングから引けるように String() で確実に固定
+      const destName = stationMap[String(t.destCode)] || `駅コード:${t.destCode}`;
 
       tr.innerHTML = `
         <td><b>${t.op}</b></td>
@@ -302,7 +294,6 @@
       tbody.appendChild(tr);
     });
 
-    // ヘッダーの▲▼表示を更新
     updateHeaderUI(line);
   }
 
@@ -317,17 +308,14 @@
     });
   }
 
-  // 並び替えイベントの設定
   document.querySelectorAll("th[data-sort]").forEach(th => {
     th.addEventListener("click", () => {
       const line = th.closest("section").id.replace("Panel", "");
       const sortKey = th.getAttribute("data-sort");
       
       if(sortState[line].key === sortKey) {
-        // 同じ列なら昇順/降順を反転
         sortState[line].asc = !sortState[line].asc;
       } else {
-        // 別の列なら新しく昇順でセット
         sortState[line].key = sortKey;
         sortState[line].asc = true;
       }
@@ -335,7 +323,6 @@
     });
   });
 
-  // タブ切り替え制御
   document.querySelectorAll(".tab-button").forEach(btn => {
     btn.addEventListener("click", () => {
       activeTab = btn.getAttribute("data-line");
@@ -354,7 +341,6 @@
   document.getElementById("refreshToyoko").onclick = loadUnyoData;
   document.getElementById("refreshMeguro").onclick = loadUnyoData;
 
-  // 初回読み込みと10秒ごとの自動リロード
   loadUnyoData();
   setInterval(loadUnyoData, 10000);
 </script>
