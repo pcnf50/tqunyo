@@ -9,7 +9,6 @@
     :root {
       --toyoko: #DA0442;
       --meguro: #009CD3;
-      --dento: #20a288;
       --bg-color: #f3f4f6;
       --card-bg: #ffffff;
       --text-main: #111827;
@@ -43,7 +42,7 @@
     .tab-bar {
       display: flex;
       justify-content: center;
-      gap: 8px;
+      gap: 15px;
       margin-bottom: 15px;
       position: sticky;
       top: 0;
@@ -53,22 +52,24 @@
     }
 
     .tab-button {
-      padding: 8px 16px;
+      flex: 1;
+      max-width: 150px;
+      padding: 10px;
       border-radius: 999px;
       border: 1px solid #d1d5db;
       background: #ffffff;
-      font-size: 13px;
+      font-size: 14px;
       font-weight: bold;
       cursor: pointer;
       display: flex;
       align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
     .tab-button span.line-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
     .tab-button.toyoko span.line-dot { background: var(--toyoko); }
     .tab-button.meguro span.line-dot { background: var(--meguro); }
-    .tab-button.dento span.line-dot { background: var(--dento); }
     .tab-button.active { border-color: #111827; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); }
 
     .line-panel { display: none; }
@@ -94,7 +95,6 @@
     }
     .panel-toyoko .refresh-btn { background: var(--toyoko); }
     .panel-meguro .refresh-btn { background: var(--meguro); }
-    .panel-dento .refresh-btn { background: var(--dento); }
 
     .table-container {
       background: var(--card-bg);
@@ -112,7 +112,7 @@
     }
 
     th, td {
-      padding: 10px 12px;
+      padding: 12px 10px;
       border-bottom: 1px solid var(--border-color);
     }
 
@@ -120,7 +120,13 @@
       background-color: #f9fafb;
       font-weight: 700;
       color: #4b5563;
+      cursor: pointer;
+      user-select: none;
+      position: relative;
     }
+    th:active { background-color: #f3f4f6; }
+    th.sort-asc::after { content: " ▲"; font-size: 9px; color: #9ca3af; }
+    th.sort-desc::after { content: " ▼"; font-size: 9px; color: #9ca3af; }
 
     tr:last-child td { border-bottom: none; }
     tr:hover { background-color: #f9fafb; }
@@ -150,9 +156,6 @@
     <button class="tab-button meguro" data-line="meguro">
       <span class="line-dot"></span><span>目黒線</span>
     </button>
-    <button class="tab-button dento" data-line="dento">
-      <span class="line-dot"></span><span>田園都市線</span>
-    </button>
   </div>
 
   <section id="toyokoPanel" class="line-panel panel-toyoko active">
@@ -164,9 +167,9 @@
       <table>
         <thead>
           <tr>
-            <th style="width: 20%;">運用</th>
-            <th style="width: 25%;">編成</th>
-            <th style="width: 20%;" class="text-center">両数</th>
+            <th style="width: 20%;" data-sort="op">運用</th>
+            <th style="width: 25%;" data-sort="form">編成</th>
+            <th style="width: 20%;" class="text-center" data-sort="cars">両数</th>
             <th style="width: 35%;">直近列番 / 行先</th>
           </tr>
         </thead>
@@ -185,9 +188,9 @@
       <table>
         <thead>
           <tr>
-            <th style="width: 20%;">運用</th>
-            <th style="width: 25%;">編成</th>
-            <th style="width: 20%;" class="text-center">両数</th>
+            <th style="width: 20%;" data-sort="op">運用</th>
+            <th style="width: 25%;" data-sort="form">編成</th>
+            <th style="width: 20%;" class="text-center" data-sort="cars">両数</th>
             <th style="width: 35%;">直近列番 / 行先</th>
           </tr>
         </thead>
@@ -196,87 +199,66 @@
       <div id="meguroNoData" class="no-data" style="display:none;">データがありません。</div>
     </div>
   </section>
-
-  <section id="dentoPanel" class="line-panel panel-dento">
-    <div class="top-bar">
-      <button class="refresh-btn" id="refreshDento">更新</button>
-      <div class="timestamp" id="dentoTimestamp"></div>
-    </div>
-    <div class="table-container">
-      <table>
-        <thead>
-          <tr>
-            <th style="width: 25%;">運用</th>
-            <th style="width: 35%;">直近列番</th>
-            <th style="width: 40%;">種別 / 行先</th>
-          </tr>
-        </thead>
-        <tbody id="dentoTableBody"></tbody>
-      </table>
-      <div id="dentoNoData" class="no-data" style="display:none;">データがありません。</div>
-    </div>
-  </section>
 </main>
 
 <script>
   const TOKYU_JSON_URL = "https://nfhanyo.web.fc2.com/tokyu/tokyu_data.json";
-  const DENTO_JSON_URL = "https://nfhanyo.web.fc2.com/tokyu/tokyu_dentodata.json";
   
-  let tokyoDataLoaded = false;
-  let dentoDataLoaded = false;
+  let masterDataLoaded = false;
   let activeTab = "toyoko";
+  let rawUnyoData = {};
 
-  let toyokoDestinationMap = {}, meguroDestinationMap = {}, dentoDestinationMap = {};
+  // 各路線の現在のソート状態を記憶するオブジェクト
+  let sortState = {
+    toyoko: { key: "op", asc: true },
+    meguro: { key: "op", asc: true }
+  };
 
+  let stationMap = {};
+
+  // マスタデータから駅名定義を取得
   async function loadMasterData(){
-    if(tokyoDataLoaded && dentoDataLoaded) return;
+    if(masterDataLoaded) return;
     try {
-      const [res1, res2] = await Promise.all([
-        fetch(TOKYU_JSON_URL, {cache:"no-store"}),
-        fetch(DENTO_JSON_URL, {cache:"no-store"})
-      ]);
-      const d1 = await res1.json();
-      const d2 = await res2.json();
-      
-      toyokoDestinationMap = d1.destination_map || {};
-      meguroDestinationMap = d1.destination_map || {};
-      dentoDestinationMap = d2.destination_map || {};
-      
-      tokyoDataLoaded = true;
-      dentoDataLoaded = true;
-    } catch(e) {}
+      const res = await fetch(TOKYU_JSON_URL, {cache:"no-store"});
+      const d = await res.json();
+      // マスタ内の station_map または stations から駅名マップを構築
+      stationMap = d.station_map || d.stations || {};
+      masterDataLoaded = true;
+    } catch(e) {
+      console.error("マスタデータの読み込みに失敗しました", e);
+    }
   }
 
-  // クラウドで蓄積された「today_unyo.json」を読み込んで画面に分配する
+  // クラウドで蓄積されたデータを読み込む
   async function loadUnyoData() {
     try {
       await loadMasterData();
       
-      // 自動収集されたファイルを取得
       const res = await fetch("./today_unyo.json", {cache:"no-store"});
       if(!res.ok) throw new Error("No data file");
-      const data = await res.json();
+      rawUnyoData = await res.json();
 
-      // 各路線のデータをパースしてレンダリング
-      renderTable("toyoko", Object.values(data.toyoko || {}), toyokoDestinationMap);
-      renderTable("meguro", Object.values(data.meguro || {}), meguroDestinationMap);
-      renderTable("dento", Object.values(data.dento || {}), dentoDestinationMap);
+      // 各テーブルをレンダリング
+      renderTable("toyoko");
+      renderTable("meguro");
 
-      const tsText = `本日分データ (${data.lastUpdate || ""} 時点)`;
+      const tsText = `本日分データ (${rawUnyoData.lastUpdate || ""} 時点)`;
       document.getElementById("toyokoTimestamp").textContent = tsText;
       document.getElementById("meguroTimestamp").textContent = tsText;
-      document.getElementById("dentoTimestamp").textContent = tsText;
     } catch(e) {
       document.getElementById("toyokoNoData").style.display = "block";
       document.getElementById("meguroNoData").style.display = "block";
-      document.getElementById("dentoNoData").style.display = "block";
     }
   }
 
-  function renderTable(line, list, destMap) {
+  function renderTable(line) {
     const tbody = document.getElementById(`${line}TableBody`);
     const noData = document.getElementById(`${line}NoData`);
     tbody.innerHTML = "";
+
+    const dataObj = rawUnyoData[line] || {};
+    const list = Object.values(dataObj);
 
     if(list.length === 0) {
       noData.style.display = "block";
@@ -284,31 +266,74 @@
     }
     noData.style.display = "none";
 
-    // 運用番号順にソート
-    list.sort((a, b) => a.op.localeCompare(b.op, undefined, {numeric: true}));
+    // ソート処理
+    const state = sortState[line];
+    list.sort((a, b) => {
+      let valA = a[state.key] !== undefined ? a[state.key] : "";
+      let valB = b[state.key] !== undefined ? b[state.key] : "";
 
+      // 数値化できる場合は数値で比較、それ以外は文字列として比較
+      const numA = parseFloat(valA);
+      const numB = parseFloat(valB);
+      
+      if (!isNaN(numA) && !isNaN(numB)) {
+        return state.asc ? numA - numB : numB - numA;
+      } else {
+        const strA = String(valA);
+        const strB = String(valB);
+        return state.asc ? strA.localeCompare(strB, undefined, {numeric: true}) : strB.localeCompare(strA, undefined, {numeric: true});
+      }
+    });
+
+    // 行の生成
     list.forEach(t => {
       const tr = document.createElement("tr");
       const delayHtml = t.delay ? `<span class="delay-badge">${t.delay}</span>` : "";
-      const destName = destMap[t.destCode] || "不明";
+      
+      // 行き先コードから駅名を取得（なければコード自体を表示）
+      const destName = stationMap[t.destCode] || `駅コード:${t.destCode}`;
 
-      if(line === "dento") {
-        tr.innerHTML = `
-          <td><b>${t.op}</b></td>
-          <td>${t.no}</td>
-          <td>${t.kind} 行き先: ${destName}${delayHtml}</td>
-        `;
-      } else {
-        tr.innerHTML = `
-          <td><b>${t.op}</b></td>
-          <td>${t.form}</td>
-          <td class="text-center">${t.cars}両</td>
-          <td>${t.no} (${destName})${delayHtml}</td>
-        `;
-      }
+      tr.innerHTML = `
+        <td><b>${t.op}</b></td>
+        <td>${t.form}</td>
+        <td class="text-center">${t.cars}両</td>
+        <td>${t.no} (${destName})${delayHtml}</td>
+      `;
       tbody.appendChild(tr);
     });
+
+    // ヘッダーの▲▼表示を更新
+    updateHeaderUI(line);
   }
+
+  function updateHeaderUI(line) {
+    const thElements = document.querySelectorAll(`#${line}Panel th[data-sort]`);
+    const state = sortState[line];
+    thElements.forEach(th => {
+      th.classList.remove("sort-asc", "sort-desc");
+      if(th.getAttribute("data-sort") === state.key) {
+        th.classList.add(state.asc ? "sort-asc" : "sort-desc");
+      }
+    });
+  }
+
+  // 並び替えイベントの設定
+  document.querySelectorAll("th[data-sort]").forEach(th => {
+    th.addEventListener("click", () => {
+      const line = th.closest("section").id.replace("Panel", "");
+      const sortKey = th.getAttribute("data-sort");
+      
+      if(sortState[line].key === sortKey) {
+        // 同じ列なら昇順/降順を反転
+        sortState[line].asc = !sortState[line].asc;
+      } else {
+        // 別の列なら新しく昇順でセット
+        sortState[line].key = sortKey;
+        sortState[line].asc = true;
+      }
+      renderTable(line);
+    });
+  });
 
   // タブ切り替え制御
   document.querySelectorAll(".tab-button").forEach(btn => {
@@ -319,7 +344,7 @@
       document.querySelectorAll(".line-panel").forEach(p => p.classList.remove("active"));
       document.getElementById(activeTab + "Panel").classList.add("active");
 
-      const titleMap = { toyoko: "東横線 運用・編成一覧", meguro: "目黒線 運用・編成一覧", dento: "田園都市線 運用・編成一覧" };
+      const titleMap = { toyoko: "東横線 運用・編成一覧", meguro: "目黒線 運用・編成一覧" };
       const mainTitle = document.getElementById("mainTitle");
       mainTitle.textContent = titleMap[activeTab];
       mainTitle.style.color = `var(--${activeTab})`;
@@ -328,7 +353,6 @@
 
   document.getElementById("refreshToyoko").onclick = loadUnyoData;
   document.getElementById("refreshMeguro").onclick = loadUnyoData;
-  document.getElementById("refreshDento").onclick = loadUnyoData;
 
   // 初回読み込みと10秒ごとの自動リロード
   loadUnyoData();
