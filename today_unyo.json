@@ -569,6 +569,26 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "21:50"
+    },
+    {
+      "op": "11K",
+      "form": "-",
+      "cars": "0",
+      "no": "011-211",
+      "destCode": "元町・中華街",
+      "kind": "各駅停車",
+      "delay": "1分遅れ",
+      "updated": "21:55"
+    },
+    {
+      "op": "65K",
+      "form": "-",
+      "cars": "10",
+      "no": "065-212",
+      "destCode": "武蔵小杉",
+      "kind": "急行",
+      "delay": "",
+      "updated": "21:55"
     }
   ],
   "meguro": [
@@ -1021,8 +1041,48 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "21:50"
+    },
+    {
+      "op": "12",
+      "form": "-",
+      "cars": "8",
+      "no": "012-212",
+      "destCode": "渋谷",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "21:55"
+    },
+    {
+      "op": "31K",
+      "form": "5182F",
+      "cars": "8",
+      "no": "231-211",
+      "destCode": "相鉄線直通",
+      "kind": "急行",
+      "delay": "",
+      "updated": "21:55"
+    },
+    {
+      "op": "13",
+      "form": "-",
+      "cars": "8",
+      "no": "013-211",
+      "destCode": "元住吉",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "21:55"
+    },
+    {
+      "op": "65G",
+      "form": "-",
+      "cars": "10",
+      "no": "065-212",
+      "destCode": "武蔵小杉",
+      "kind": "急行",
+      "delay": "",
+      "updated": "21:55"
     }
   ],
-  "lastUpdate": "21:50",
+  "lastUpdate": "21:55",
   "date": "2026-06-18"
 }
