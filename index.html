@@ -159,7 +159,7 @@
 
 <header>
   <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-  <div class="version-tag">v1.1.0</div>
+  <div class="version-tag">v1.1.1</div>
 </header>
 
 <main>
@@ -229,7 +229,6 @@
 
   let destinationMap = {};
 
-  // 正しいマスタの「destination_map」を読み込む
   async function loadMasterData(){
     if(masterDataLoaded) return;
     try {
@@ -298,8 +297,8 @@
       const tr = document.createElement("tr");
       const delayHtml = t.delay ? `<span class="delay-badge">${t.delay}</span>` : "";
       
-      // 正しいキーでマッピングから駅名を検索
-      const codeStr = String(t.destCode);
+      // ★型違い対策：t.destCode が数値でも未定義でも安全に文字列化して照合
+      const codeStr = (t.destCode !== undefined && t.destCode !== null) ? String(t.destCode).trim() : "";
       const destName = destinationMap[codeStr] || `駅コード:${t.destCode}`;
 
       tr.innerHTML = `
