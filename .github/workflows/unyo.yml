@@ -22,4 +22,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add today_unyo.json
-          git diff --cached --quiet || (git commit -m "運用データ自動更新" && git push)
+          git diff --cached --quiet || (git commit -m "auto update" && git push)
