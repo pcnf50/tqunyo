@@ -234,18 +234,36 @@
 
     const state = sortState[line];
     list.sort((a, b) => {
-      let valA = a[state.key] !== undefined ? a[state.key] : "";
-      let valB = b[state.key] !== undefined ? b[state.key] : "";
+      let valA = a[state.key] !== undefined ? String(a[state.key]) : "";
+      let valB = b[state.key] !== undefined ? String(b[state.key]) : "";
 
+      if (state.key === "op") {
+        // アルファベット（末尾の文字）と数値（前方の数字）を分離
+        const matchA = valA.match(/^(\d+)([a-zA-Z]+)$/);
+        const matchB = valB.match(/^(\d+)([a-zA-Z]+)$/);
+
+        if (matchA && matchB) {
+          const numA = parseInt(matchA[1], 10);
+          const alphaA = matchA[2];
+          const numB = parseInt(matchB[1], 10);
+          const alphaB = matchB[2];
+
+          // 1. まずアルファベットで比較 (K, S, M, T, G の順など)
+          if (alphaA !== alphaB) {
+            return state.asc ? alphaA.localeCompare(alphaB) : alphaB.localeCompare(alphaA);
+          }
+          // 2. 同じアルファベットなら数字で比較
+          return state.asc ? numA - numB : numB - numA;
+        }
+      }
+
+      // 運用キー以外、または正規パターンに一致しない場合は従来通りの比較
       const numA = parseFloat(valA);
       const numB = parseFloat(valB);
-      
       if (!isNaN(numA) && !isNaN(numB)) {
         return state.asc ? numA - numB : numB - numA;
       } else {
-        const strA = String(valA);
-        const strB = String(valB);
-        return state.asc ? strA.localeCompare(strB, undefined, {numeric: true}) : strB.localeCompare(strA, undefined, {numeric: true});
+        return state.asc ? valA.localeCompare(valB, undefined, {numeric: true}) : valB.localeCompare(valA, undefined, {numeric: true});
       }
     });
 
