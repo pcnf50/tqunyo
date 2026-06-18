@@ -1,4 +1,25 @@
+name: 毎日自動運用収集
+
 on:
   workflow_dispatch:
   schedule:
     - cron: '*/10 * * * *'
+
+jobs:
+  collect-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: node collect.js
+
+      - run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add today_unyo.json
+          git diff --cached --quiet || (git commit -m "運用データ自動更新" && git push)
