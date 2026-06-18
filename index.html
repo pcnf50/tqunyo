@@ -220,7 +220,9 @@
     try {
       const res = await fetch(TOKYU_JSON_URL, {cache:"no-store"});
       const d = await res.json();
-      stationMap = d.station_map || d.stations || {};
+      
+      // station_map、stations、あるいは destination_map から取れるように安全策を強化
+      stationMap = d.station_map || d.stations || d.destination_map || {};
       masterDataLoaded = true;
     } catch(e) {
       console.error("マスタデータの読み込みに失敗しました", e);
@@ -250,16 +252,17 @@
   function renderTable(line) {
     const tbody = document.getElementById(`${line}TableBody`);
     const noData = document.getElementById(`${line}NoData`);
+    if (!tbody) return;
     tbody.innerHTML = "";
 
     const dataObj = rawUnyoData[line] || {};
     const list = Object.values(dataObj);
 
     if(list.length === 0) {
-      noData.style.display = "block";
+      if(noData) noData.style.display = "block";
       return;
     }
-    noData.style.display = "none";
+    if(noData) noData.style.display = "none";
 
     const state = sortState[line];
     list.sort((a, b) => {
@@ -282,8 +285,10 @@
       const tr = document.createElement("tr");
       const delayHtml = t.delay ? `<span class="delay-badge">${t.delay}</span>` : "";
       
-      // 文字列・数値のどちらでもマッピングから引けるように String() で確実に固定
-      const destName = stationMap[String(t.destCode)] || `駅コード:${t.destCode}`;
+      // 文字列キーと数値キーの両方から駅名探索
+      const codeStr = String(t.destCode);
+      const codeNum = Number(t.destCode);
+      const destName = stationMap[codeStr] || stationMap[codeNum] || `駅コード:${t.destCode}`;
 
       tr.innerHTML = `
         <td><b>${t.op}</b></td>
@@ -310,7 +315,9 @@
 
   document.querySelectorAll("th[data-sort]").forEach(th => {
     th.addEventListener("click", () => {
-      const line = th.closest("section").id.replace("Panel", "");
+      const section = th.closest("section");
+      if(!section) return;
+      const line = section.id.replace("Panel", "");
       const sortKey = th.getAttribute("data-sort");
       
       if(sortState[line].key === sortKey) {
@@ -323,23 +330,29 @@
     });
   });
 
-  document.querySelectorAll(".tab-button").forEach(btn => {
+  document.querySelectorAll(".tab-bar .tab-button").forEach(btn => {
     btn.addEventListener("click", () => {
       activeTab = btn.getAttribute("data-line");
-      document.querySelectorAll(".tab-button").forEach(b => b.classList.remove("active"));
+      document.querySelectorAll(".tab-bar .tab-button").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
       document.querySelectorAll(".line-panel").forEach(p => p.classList.remove("active"));
-      document.getElementById(activeTab + "Panel").classList.add("active");
+      
+      const targetPanel = document.getElementById(activeTab + "Panel");
+      if(targetPanel) targetPanel.classList.add("active");
 
       const titleMap = { toyoko: "東横線 運用・編成一覧", meguro: "目黒線 運用・編成一覧" };
       const mainTitle = document.getElementById("mainTitle");
-      mainTitle.textContent = titleMap[activeTab];
-      mainTitle.style.color = `var(--${activeTab})`;
+      if(mainTitle) {
+        mainTitle.textContent = titleMap[activeTab];
+        mainTitle.style.color = `var(--${activeTab})`;
+      }
     });
   });
 
-  document.getElementById("refreshToyoko").onclick = loadUnyoData;
-  document.getElementById("refreshMeguro").onclick = loadUnyoData;
+  const refreshToyoko = document.getElementById("refreshToyoko");
+  const refreshMeguro = document.getElementById("refreshMeguro");
+  if(refreshToyoko) refreshToyoko.onclick = loadUnyoData;
+  if(refreshMeguro) refreshMeguro.onclick = loadUnyoData;
 
   loadUnyoData();
   setInterval(loadUnyoData, 10000);
