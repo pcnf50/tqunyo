@@ -648,7 +648,17 @@
       "destCode": "日吉",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:50"
+      "updated": "23:55"
+    },
+    {
+      "op": "03K",
+      "form": "5151F",
+      "cars": "8",
+      "no": "003-231",
+      "destCode": "元住吉",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:55"
     },
     {
       "op": "01K",
@@ -658,7 +668,7 @@
       "destCode": "元町・中華街",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:50"
+      "updated": "23:55"
     },
     {
       "op": "99G",
@@ -668,17 +678,17 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "23:50"
+      "updated": "23:55"
     },
     {
       "op": "52K",
       "form": "-",
-      "cars": "10",
-      "no": "052-232",
-      "destCode": "新横浜",
-      "kind": "各駅停車",
+      "cars": "0",
+      "no": "052-241",
+      "destCode": "相鉄線直通",
+      "kind": "特急",
       "delay": "",
-      "updated": "23:50"
+      "updated": "23:55"
     }
   ],
   "meguro": [
@@ -1280,17 +1290,17 @@
       "destCode": "元町・中華街",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:50"
+      "updated": "23:55"
     },
     {
-      "op": "99",
-      "form": "5182F",
+      "op": "5M",
+      "form": "5192F",
       "cars": "8",
-      "no": "999-990",
-      "destCode": "",
+      "no": "005-231",
+      "destCode": "菊名",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:50"
+      "updated": "23:55"
     },
     {
       "op": "85",
@@ -1300,19 +1310,29 @@
       "destCode": "渋谷",
       "kind": "通勤特急",
       "delay": "",
-      "updated": "23:50"
+      "updated": "23:55"
+    },
+    {
+      "op": "08K",
+      "form": "5181F",
+      "cars": "8",
+      "no": "208-231",
+      "destCode": "日吉",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:55"
     },
     {
       "op": "52M",
       "form": "-",
-      "cars": "10",
-      "no": "052-232",
-      "destCode": "新横浜",
-      "kind": "各駅停車",
+      "cars": "0",
+      "no": "052-241",
+      "destCode": "相鉄線直通",
+      "kind": "特急",
       "delay": "",
-      "updated": "23:50"
+      "updated": "23:55"
     }
   ],
-  "lastUpdate": "23:50",
+  "lastUpdate": "23:55",
   "date": "2026-06-18"
 }
