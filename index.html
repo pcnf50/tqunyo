@@ -164,7 +164,9 @@
 
   async function loadUnyoData() {
     try {
-      const res = await fetch("./today_unyo.json", {cache:"no-store"});
+      // ★キャッシュ対策: URLの末尾に現在のタイムスタンプ（?_=[数字]）を強制付与してキャッシュを完全に回避
+      const cacheBuster = `?_=${Date.now()}`;
+      const res = await fetch("./today_unyo.json" + cacheBuster, {cache:"no-store"});
       if(!res.ok) throw new Error("No data file");
       rawUnyoData = await res.json();
 
@@ -197,8 +199,7 @@
       return true;
     });
 
-    // ★2. 追加: 同じ運番内で「編成情報があるもの」と「ないもの(-)」が重複した時、ないものを除外
-    // まず各運番に紐づく編成リストを調査
+    // 2. 同じ運番内で「編成情報があるもの」と「ないもの(-设计)」が重複した時、ないものを除外
     const opFormMap = {};
     list.forEach(t => {
       const op = t.op || "";
@@ -209,21 +210,18 @@
       opFormMap[op].add(form);
     });
 
-    // 実際に表示するリストをフィルタリング
     list = list.filter(t => {
       const op = t.op || "";
       const form = t.form || "";
       const allFormsForOp = opFormMap[op];
 
-      // もし同じ運番内で、「-」以外の正規の編成があり、かつ自分自身が「-」だった場合は非表示
       if (form === "-" && allFormsForOp.size > 1) {
-        // 「-」以外の要素が1つでも含まれているか確認
         const hasValidForm = Array.from(allFormsForOp).some(f => f !== "-");
         if (hasValidForm) {
-          return false; // 「ないほう」なので表示しない
+          return false;
         }
       }
-      return true; // 編成が違う者同士、または「-」しか存在しない場合はそのまま表示
+      return true;
     });
 
     if(list.length === 0) {
