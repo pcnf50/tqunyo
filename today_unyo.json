@@ -409,6 +409,46 @@
       "kind": "回送",
       "delay": "",
       "updated": "22:55"
+    },
+    {
+      "op": "64K",
+      "form": "4112F",
+      "cars": "10",
+      "no": "064-222",
+      "destCode": "渋谷",
+      "kind": "急行",
+      "delay": "",
+      "updated": "23:00"
+    },
+    {
+      "op": "62K",
+      "form": "4105F",
+      "cars": "10",
+      "no": "062-231",
+      "destCode": "元町・中華街",
+      "kind": "通勤特急",
+      "delay": "",
+      "updated": "23:00"
+    },
+    {
+      "op": "43",
+      "form": "-",
+      "cars": "8",
+      "no": "643-221",
+      "destCode": "相鉄線直通",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:00"
+    },
+    {
+      "op": "17K",
+      "form": "Y511F",
+      "cars": "8",
+      "no": "017-221",
+      "destCode": "元町・中華街",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:00"
     }
   ],
   "meguro": [
@@ -701,8 +741,58 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "22:55"
+    },
+    {
+      "op": "71T",
+      "form": "6512F",
+      "cars": "8",
+      "no": "471-221",
+      "destCode": "日吉",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:00"
+    },
+    {
+      "op": "6G",
+      "form": "-",
+      "cars": "8",
+      "no": "006-222",
+      "destCode": "副都心線直通",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:00"
+    },
+    {
+      "op": "85",
+      "form": "-",
+      "cars": "10",
+      "no": "785-221",
+      "destCode": "元町・中華街",
+      "kind": "通勤特急",
+      "delay": "",
+      "updated": "23:00"
+    },
+    {
+      "op": "99",
+      "form": "-",
+      "cars": "0",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:00"
+    },
+    {
+      "op": "07",
+      "form": "-",
+      "cars": "8",
+      "no": "707-221",
+      "destCode": "元町・中華街",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:00"
     }
   ],
-  "lastUpdate": "22:55",
+  "lastUpdate": "23:00",
   "date": "2026-06-18"
 }
