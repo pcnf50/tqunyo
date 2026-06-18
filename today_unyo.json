@@ -491,6 +491,36 @@
       "updated": "23:05"
     },
     {
+      "op": "71",
+      "form": "-",
+      "cars": "8",
+      "no": "471-221",
+      "destCode": "日吉",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:15"
+    },
+    {
+      "op": "94",
+      "form": "-",
+      "cars": "6",
+      "no": "594-231",
+      "destCode": "新横浜",
+      "kind": "急行",
+      "delay": "",
+      "updated": "23:15"
+    },
+    {
+      "op": "61K",
+      "form": "4101F",
+      "cars": "10",
+      "no": "061-231",
+      "destCode": "元町・中華街",
+      "kind": "通勤特急",
+      "delay": "",
+      "updated": "23:15"
+    },
+    {
       "op": "86",
       "form": "-",
       "cars": "6",
@@ -498,7 +528,7 @@
       "destCode": "日吉",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:10"
+      "updated": "23:15"
     },
     {
       "op": "18K",
@@ -508,7 +538,7 @@
       "destCode": "元町・中華街",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:10"
+      "updated": "23:15"
     }
   ],
   "meguro": [
@@ -873,6 +903,36 @@
       "updated": "23:05"
     },
     {
+      "op": "64G",
+      "form": "-",
+      "cars": "10",
+      "no": "064-222",
+      "destCode": "渋谷",
+      "kind": "急行",
+      "delay": "",
+      "updated": "23:15"
+    },
+    {
+      "op": "62G",
+      "form": "-",
+      "cars": "10",
+      "no": "062-231",
+      "destCode": "元町・中華街",
+      "kind": "通勤特急",
+      "delay": "",
+      "updated": "23:15"
+    },
+    {
+      "op": "2K",
+      "form": "-",
+      "cars": "8",
+      "no": "002-222",
+      "destCode": "渋谷",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:15"
+    },
+    {
       "op": "91",
       "form": "-",
       "cars": "10",
@@ -880,7 +940,17 @@
       "destCode": "相鉄線直通",
       "kind": "急行",
       "delay": "",
-      "updated": "23:10"
+      "updated": "23:15"
+    },
+    {
+      "op": "16K",
+      "form": "-",
+      "cars": "0",
+      "no": "216-231",
+      "destCode": "相鉄線直通",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:15"
     },
     {
       "op": "75T",
@@ -890,7 +960,7 @@
       "destCode": "元住吉",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:10"
+      "updated": "23:15"
     },
     {
       "op": "7",
@@ -900,19 +970,19 @@
       "destCode": "渋谷",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:10"
+      "updated": "23:15"
     },
     {
-      "op": "99",
+      "op": "17",
       "form": "-",
-      "cars": "0",
-      "no": "999-990",
-      "destCode": "",
+      "cars": "8",
+      "no": "017-221",
+      "destCode": "元町・中華街",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:10"
+      "updated": "23:15"
     }
   ],
-  "lastUpdate": "23:10",
+  "lastUpdate": "23:15",
   "date": "2026-06-18"
 }
