@@ -749,6 +749,36 @@
       "kind": "不明",
       "delay": "",
       "updated": "00:15"
+    },
+    {
+      "op": "36",
+      "form": "-",
+      "cars": "8",
+      "no": "236-241",
+      "destCode": "新横浜",
+      "kind": "各駅停車",
+      "delay": "1分遅れ",
+      "updated": "00:20"
+    },
+    {
+      "op": "16K",
+      "form": "5177F",
+      "cars": "8",
+      "no": "016-241",
+      "destCode": "元住吉",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:20"
+    },
+    {
+      "op": "18",
+      "form": "-",
+      "cars": "8",
+      "no": "218-242",
+      "destCode": "奥沢",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:20"
     }
   ],
   "meguro": [
@@ -1461,8 +1491,38 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "00:15"
+    },
+    {
+      "op": "22K",
+      "form": "-",
+      "cars": "8",
+      "no": "022-241",
+      "destCode": "横浜",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:20"
+    },
+    {
+      "op": "12K",
+      "form": "3107F",
+      "cars": "8",
+      "no": "212-241",
+      "destCode": "元住吉",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:20"
+    },
+    {
+      "op": "18K",
+      "form": "-",
+      "cars": "8",
+      "no": "218-242",
+      "destCode": "奥沢",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:20"
     }
   ],
-  "lastUpdate": "00:15",
+  "lastUpdate": "00:20",
   "date": "2026-06-19"
 }
