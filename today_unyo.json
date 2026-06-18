@@ -719,6 +719,26 @@
       "kind": "不明",
       "delay": "",
       "updated": "00:05"
+    },
+    {
+      "op": "23K",
+      "form": "5174F",
+      "cars": "8",
+      "no": "023-241",
+      "destCode": "菊名",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:10"
+    },
+    {
+      "op": "08",
+      "form": "-",
+      "cars": "8",
+      "no": "208-231",
+      "destCode": "日吉",
+      "kind": "各駅停車",
+      "delay": "1分遅れ",
+      "updated": "00:10"
     }
   ],
   "meguro": [
@@ -1401,8 +1421,18 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "00:05"
+    },
+    {
+      "op": "3S",
+      "form": "-",
+      "cars": "8",
+      "no": "003-231",
+      "destCode": "元住吉",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:10"
     }
   ],
-  "lastUpdate": "00:05",
+  "lastUpdate": "00:10",
   "date": "2026-06-19"
 }
