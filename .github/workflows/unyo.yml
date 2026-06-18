@@ -1,17 +1,32 @@
-name: cron test
+name: 毎日自動運用収集
 
 on:
-  schedule:
-    - cron: '* * * * *'
   workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+
+permissions:
+  contents: write
 
 jobs:
-  test:
+  collect:
     runs-on: ubuntu-latest
 
     steps:
-      - name: time check
-        run: date
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: alive check
-        run: echo "cron is alive"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: node collect.js
+
+      - run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add today_unyo.json
+          git diff --cached --quiet && exit 0
+          git commit -m "auto update"
+          git push origin main
