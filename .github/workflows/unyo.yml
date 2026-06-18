@@ -28,3 +28,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add today_unyo.json
           git diff --cached --quiet || (git commit -m "運用データ自動更新" && git push)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
