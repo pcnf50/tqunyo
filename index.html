@@ -297,7 +297,7 @@
       const tr = document.createElement("tr");
       const delayHtml = t.delay ? `<span class="delay-badge">${t.delay}</span>` : "";
       
-      // ★型違い対策：t.destCode が数値でも未定義でも安全に文字列化して照合
+      // ★型違い対策：t.destCode が数値でも未定義でも安全に文字列化し照合
       const codeStr = (t.destCode !== undefined && t.destCode !== null) ? String(t.destCode).trim() : "";
       const destName = destinationMap[codeStr] || `駅コード:${t.destCode}`;
 
