@@ -159,7 +159,7 @@
 
 <header>
   <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-  <div class="version-tag">v1.0.1</div>
+  <div class="version-tag">v1.1.0</div>
 </header>
 
 <main>
@@ -227,14 +227,15 @@
     meguro: { key: "op", asc: true }
   };
 
-  let stationMap = {};
+  let destinationMap = {};
 
+  // 正しいマスタの「destination_map」を読み込む
   async function loadMasterData(){
     if(masterDataLoaded) return;
     try {
       const res = await fetch(TOKYU_JSON_URL, {cache:"no-store"});
       const d = await res.json();
-      stationMap = d.station_map || d.stations || d.destination_map || {};
+      destinationMap = d.destination_map || {};
       masterDataLoaded = true;
     } catch(e) {
       console.error("マスタデータの読み込みに失敗しました", e);
@@ -297,9 +298,9 @@
       const tr = document.createElement("tr");
       const delayHtml = t.delay ? `<span class="delay-badge">${t.delay}</span>` : "";
       
+      // 正しいキーでマッピングから駅名を検索
       const codeStr = String(t.destCode);
-      const codeNum = Number(t.destCode);
-      const destName = stationMap[codeStr] || stationMap[codeNum] || `駅コード:${t.destCode}`;
+      const destName = destinationMap[codeStr] || `駅コード:${t.destCode}`;
 
       tr.innerHTML = `
         <td><b>${t.op}</b></td>
