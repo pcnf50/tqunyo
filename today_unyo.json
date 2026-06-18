@@ -689,6 +689,26 @@
       "kind": "特急",
       "delay": "",
       "updated": "23:55"
+    },
+    {
+      "op": "83",
+      "form": "-",
+      "cars": "6",
+      "no": "483-231",
+      "destCode": "新横浜",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:00"
+    },
+    {
+      "op": "99G",
+      "form": "Y514F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "00:00"
     }
   ],
   "meguro": [
@@ -1331,8 +1351,18 @@
       "kind": "特急",
       "delay": "",
       "updated": "23:55"
+    },
+    {
+      "op": "99",
+      "form": "5182F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:00"
     }
   ],
-  "lastUpdate": "23:55",
-  "date": "2026-06-18"
+  "lastUpdate": "00:00",
+  "date": "2026-06-19"
 }
