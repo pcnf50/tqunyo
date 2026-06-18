@@ -797,28 +797,8 @@
       "no": "104-081",
       "destCode": "元町・中華街",
       "kind": "通",
-      "delay": "",
-      "updated": "08:35"
-    },
-    {
-      "op": "10K",
-      "form": "5174F",
-      "cars": "8",
-      "no": "010-081",
-      "destCode": "元町・中華街",
-      "kind": "普",
-      "delay": "2分遅れ",
-      "updated": "08:35"
-    },
-    {
-      "op": "07",
-      "form": "-",
-      "cars": "8",
-      "no": "207-081",
-      "destCode": "日吉",
-      "kind": "普",
       "delay": "1分遅れ",
-      "updated": "08:35"
+      "updated": "08:40"
     },
     {
       "op": "61K",
@@ -828,7 +808,67 @@
       "destCode": "渋谷",
       "kind": "急",
       "delay": "",
-      "updated": "08:35"
+      "updated": "08:40"
+    },
+    {
+      "op": "10K",
+      "form": "5174F",
+      "cars": "8",
+      "no": "010-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "08:40"
+    },
+    {
+      "op": "25K",
+      "form": "5172F",
+      "cars": "8",
+      "no": "025-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "08:40"
+    },
+    {
+      "op": "11S",
+      "form": "-",
+      "cars": "0",
+      "no": "711-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "08:40"
+    },
+    {
+      "op": "30",
+      "form": "-",
+      "cars": "6",
+      "no": "330-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:40"
+    },
+    {
+      "op": "07",
+      "form": "-",
+      "cars": "8",
+      "no": "207-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:40"
+    },
+    {
+      "op": "37",
+      "form": "-",
+      "cars": "8",
+      "no": "437-081",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:40"
     },
     {
       "op": "22",
@@ -838,7 +878,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "08:35"
+      "updated": "08:40"
     }
   ],
   "meguro": [
@@ -1570,7 +1610,7 @@
       "destCode": "副都心線直通",
       "kind": "通",
       "delay": "",
-      "updated": "08:35"
+      "updated": "08:40"
     },
     {
       "op": "27K",
@@ -1580,7 +1620,17 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "3分遅れ",
-      "updated": "08:35"
+      "updated": "08:40"
+    },
+    {
+      "op": "59M",
+      "form": "-",
+      "cars": "10",
+      "no": "059-081",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "1分遅れ",
+      "updated": "08:40"
     },
     {
       "op": "8",
@@ -1590,7 +1640,17 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "",
-      "updated": "08:35"
+      "updated": "08:40"
+    },
+    {
+      "op": "13",
+      "form": "-",
+      "cars": "8",
+      "no": "013-082",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:40"
     },
     {
       "op": "75T",
@@ -1599,18 +1659,28 @@
       "no": "475-081",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "08:35"
+      "delay": "1分遅れ",
+      "updated": "08:40"
     },
     {
       "op": "38S",
-      "form": "-",
-      "cars": "0",
+      "form": "9113F",
+      "cars": "6",
       "no": "338-081",
       "destCode": "元住吉",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "08:35"
+      "updated": "08:40"
+    },
+    {
+      "op": "35T",
+      "form": "6502F",
+      "cars": "8",
+      "no": "435-081",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "08:40"
     },
     {
       "op": "34",
@@ -1619,8 +1689,8 @@
       "no": "134-081",
       "destCode": "元町・中華街",
       "kind": "急",
-      "delay": "2分遅れ",
-      "updated": "08:35"
+      "delay": "3分遅れ",
+      "updated": "08:40"
     },
     {
       "op": "22K",
@@ -1630,9 +1700,9 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "08:35"
+      "updated": "08:40"
     }
   ],
-  "lastUpdate": "08:35",
+  "lastUpdate": "08:40",
   "date": "2026-06-19"
 }
