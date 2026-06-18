@@ -1,359 +1,538 @@
 {
-  "toyoko": {
-    "21K": {
+  "toyoko": [
+    {
       "op": "21K",
       "form": "5170F",
       "cars": "8",
-      "no": "021-222",
-      "destCode": "武蔵小杉",
+      "no": "021-221",
+      "destCode": "元住吉",
       "kind": "回送",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "64K": {
+    {
       "op": "64K",
       "form": "4112F",
       "cars": "10",
       "no": "064-221",
       "destCode": "元町・中華街",
       "kind": "急行",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "57K": {
+    {
       "op": "57K",
       "form": "4114F",
       "cars": "10",
       "no": "057-221",
       "destCode": "元町・中華街",
       "kind": "急行",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "56K": {
+    {
       "op": "56K",
       "form": "4113F",
       "cars": "10",
       "no": "056-222",
       "destCode": "武蔵小杉",
       "kind": "急行",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "12K": {
+    {
+      "op": "31K",
+      "form": "5178F",
+      "cars": "8",
+      "no": "031-221",
+      "destCode": "元町・中華街",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "22:40"
+    },
+    {
+      "op": "06K",
+      "form": "5157F",
+      "cars": "8",
+      "no": "006-222",
+      "destCode": "副都心線直通",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "22:40"
+    },
+    {
       "op": "12K",
       "form": "5175F",
       "cars": "8",
       "no": "012-221",
       "destCode": "元町・中華街",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "10K": {
+    {
+      "op": "29",
+      "form": "-",
+      "cars": "8",
+      "no": "229-221",
+      "destCode": "相鉄線直通",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "22:40"
+    },
+    {
       "op": "10K",
       "form": "Y517F",
       "cars": "8",
       "no": "010-222",
       "destCode": "渋谷",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "91G": {
+    {
       "op": "91G",
       "form": "20104F",
       "cars": "10",
       "no": "991-222",
       "destCode": "渋谷",
       "kind": "急行",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "33S": {
+    {
       "op": "33S",
       "form": "10122F",
       "cars": "10",
       "no": "733-222",
       "destCode": "副都心線直通",
       "kind": "通勤特急",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "85S": {
+    {
       "op": "85S",
       "form": "10125F",
       "cars": "10",
-      "no": "785-212",
-      "destCode": "渋谷",
+      "no": "785-221",
+      "destCode": "元町・中華街",
       "kind": "通勤特急",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "63K": {
+    {
       "op": "63K",
       "form": "4107F",
       "cars": "10",
       "no": "063-221",
       "destCode": "相鉄線直通",
       "kind": "急行",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "11K": {
+    {
+      "op": "32",
+      "form": "-",
+      "cars": "8",
+      "no": "632-221",
+      "destCode": "相鉄線直通",
+      "kind": "急行",
+      "delay": "",
+      "updated": "22:40"
+    },
+    {
       "op": "11K",
       "form": "5172F",
       "cars": "8",
       "no": "011-211",
       "destCode": "元町・中華街",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "18M": {
+    {
       "op": "18M",
       "form": "40164F",
       "cars": "10",
       "no": "118-221",
       "destCode": "元町・中華街",
       "kind": "急行",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "30M": {
+    {
       "op": "30M",
       "form": "6114F",
       "cars": "10",
       "no": "130-222",
       "destCode": "渋谷",
       "kind": "通勤特急",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "11S": {
+    {
       "op": "11S",
       "form": "17183F",
       "cars": "8",
       "no": "711-212",
       "destCode": "渋谷",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "03S": {
+    {
       "op": "03S",
       "form": "17188F",
       "cars": "8",
       "no": "703-221",
       "destCode": "元町・中華街",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "13S": {
+    {
       "op": "13S",
       "form": "17193F",
       "cars": "8",
       "no": "713-221",
       "destCode": "元町・中華街",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "08K": {
+    {
       "op": "08K",
       "form": "5158F",
       "cars": "8",
       "no": "008-221",
       "destCode": "元町・中華街",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "19S": {
+    {
       "op": "19S",
       "form": "17185F",
       "cars": "8",
       "no": "719-222",
       "destCode": "副都心線直通",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "09K": {
+    {
       "op": "09K",
       "form": "5152F",
       "cars": "8",
       "no": "009-222",
       "destCode": "副都心線直通",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "10M": {
+    {
       "op": "10M",
       "form": "6116F",
       "cars": "10",
       "no": "110-222",
       "destCode": "副都心線直通",
       "kind": "急行",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "07S": {
+    {
       "op": "07S",
       "form": "17191F",
       "cars": "8",
       "no": "707-221",
       "destCode": "元町・中華街",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "05S": {
+    {
       "op": "05S",
       "form": "17187F",
       "cars": "8",
       "no": "705-212",
       "destCode": "副都心線直通",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "09S": {
+    {
       "op": "09S",
       "form": "17186F",
       "cars": "8",
       "no": "709-222",
       "destCode": "副都心線直通",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "89S": {
+    {
       "op": "89S",
       "form": "10103F",
       "cars": "10",
       "no": "789-221",
       "destCode": "元町・中華街",
       "kind": "通勤特急",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "30K": {
+    {
+      "op": "47",
+      "form": "-",
+      "cars": "8",
+      "no": "247-222",
+      "destCode": "三田線直通",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "22:40"
+    },
+    {
       "op": "30K",
       "form": "5161F",
       "cars": "8",
       "no": "030-221",
       "destCode": "元町・中華街",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "51K": {
+    {
       "op": "51K",
       "form": "4111F",
       "cars": "10",
       "no": "051-221",
       "destCode": "元町・中華街",
       "kind": "通勤特急",
-      "delay": ""
-    }
-  },
-  "meguro": {
-    "18": {
-      "op": "18",
+      "delay": "",
+      "updated": "22:40"
+    },
+    {
+      "op": "82",
+      "form": "-",
+      "cars": "6",
+      "no": "582-222",
+      "destCode": "南北線直通",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "22:40"
+    },
+    {
+      "op": "59",
+      "form": "-",
+      "cars": "6",
+      "no": "459-222",
+      "destCode": "三田線直通",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "22:40"
+    },
+    {
+      "op": "94G",
       "form": "-",
       "cars": "10",
-      "no": "118-221",
-      "destCode": "元町・中華街",
+      "no": "994-222",
+      "destCode": "渋谷",
       "kind": "急行",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "42S": {
+    {
+      "op": "61",
+      "form": "-",
+      "cars": "6",
+      "no": "461-221",
+      "destCode": "新横浜",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "22:40"
+    }
+  ],
+  "meguro": [
+    {
+      "op": "21K",
+      "form": "-",
+      "cars": "8",
+      "no": "021-221",
+      "destCode": "元住吉",
+      "kind": "回送",
+      "delay": "",
+      "updated": "22:40"
+    },
+    {
       "op": "42S",
       "form": "9102F",
       "cars": "6",
       "no": "342-222",
       "destCode": "南北線直通",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "29K": {
+    {
       "op": "29K",
       "form": "3106F",
       "cars": "8",
       "no": "229-221",
       "destCode": "相鉄線直通",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "81T": {
+    {
       "op": "81T",
       "form": "6506F",
       "cars": "8",
       "no": "481-221",
       "destCode": "日吉",
       "kind": "各駅停車",
-      "delay": "1分遅れ"
+      "delay": "1分遅れ",
+      "updated": "22:40"
     },
-    "32G": {
+    {
+      "op": "33",
+      "form": "-",
+      "cars": "10",
+      "no": "733-222",
+      "destCode": "副都心線直通",
+      "kind": "通勤特急",
+      "delay": "",
+      "updated": "22:40"
+    },
+    {
       "op": "32G",
       "form": "21107F",
       "cars": "8",
       "no": "632-221",
       "destCode": "相鉄線直通",
       "kind": "急行",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "45T": {
-      "op": "45T",
-      "form": "6513F",
-      "cars": "8",
-      "no": "445-222",
-      "destCode": "三田線直通",
-      "kind": "各駅停車",
-      "delay": ""
+    {
+      "op": "18",
+      "form": "-",
+      "cars": "10",
+      "no": "118-221",
+      "destCode": "元町・中華街",
+      "kind": "急行",
+      "delay": "",
+      "updated": "22:40"
     },
-    "46S": {
+    {
       "op": "46S",
       "form": "9111F",
       "cars": "8",
       "no": "346-222",
       "destCode": "南北線直通",
       "kind": "回送",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "61T": {
-      "op": "61T",
-      "form": "6328F",
-      "cars": "6",
-      "no": "461-221",
-      "destCode": "新横浜",
+    {
+      "op": "03",
+      "form": "-",
+      "cars": "8",
+      "no": "703-221",
+      "destCode": "元町・中華街",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "79T": {
+    {
       "op": "79T",
       "form": "6502F",
       "cars": "8",
       "no": "479-222",
       "destCode": "三田線直通",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "33G": {
+    {
+      "op": "9",
+      "form": "-",
+      "cars": "8",
+      "no": "009-222",
+      "destCode": "副都心線直通",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "22:40"
+    },
+    {
       "op": "33G",
       "form": "21103F",
       "cars": "8",
       "no": "633-221",
       "destCode": "相鉄線直通",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "47K": {
+    {
+      "op": "09",
+      "form": "-",
+      "cars": "8",
+      "no": "709-222",
+      "destCode": "副都心線直通",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "22:40"
+    },
+    {
       "op": "47K",
       "form": "5187F",
       "cars": "8",
       "no": "247-222",
       "destCode": "三田線直通",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "82M": {
+    {
       "op": "82M",
       "form": "9106F",
       "cars": "6",
       "no": "582-222",
       "destCode": "南北線直通",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
     },
-    "59T": {
+    {
       "op": "59T",
       "form": "6316F",
       "cars": "6",
       "no": "459-222",
       "destCode": "三田線直通",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "22:40"
+    },
+    {
+      "op": "94",
+      "form": "-",
+      "cars": "10",
+      "no": "994-222",
+      "destCode": "渋谷",
+      "kind": "急行",
+      "delay": "",
+      "updated": "22:40"
+    },
+    {
+      "op": "61T",
+      "form": "6328F",
+      "cars": "6",
+      "no": "461-221",
+      "destCode": "新横浜",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "22:40"
     }
-  },
-  "lastUpdate": "22:38",
+  ],
+  "lastUpdate": "22:40",
   "date": "2026-06-18"
 }
