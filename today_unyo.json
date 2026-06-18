@@ -1,0 +1,517 @@
+{
+  "date": "2026-06-18",
+  "toyoko": {
+    "29S": {
+      "op": "29S",
+      "form": "10136F",
+      "cars": "10",
+      "no": "729-121",
+      "destCode": 103,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "08K": {
+      "op": "08K",
+      "form": "5159F",
+      "cars": "8",
+      "no": "008-121",
+      "destCode": 103,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "02K": {
+      "op": "02K",
+      "form": "5176F",
+      "cars": "8",
+      "no": "002-121",
+      "destCode": 103,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "16K": {
+      "op": "16K",
+      "form": "5177F",
+      "cars": "8",
+      "no": "016-121",
+      "destCode": 103,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "12K": {
+      "op": "12K",
+      "form": "5175F",
+      "cars": "8",
+      "no": "012-122",
+      "destCode": 33,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "14K": {
+      "op": "14K",
+      "form": "5162F",
+      "cars": "8",
+      "no": "014-121",
+      "destCode": 103,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "02S": {
+      "op": "02S",
+      "form": "17194F",
+      "cars": "8",
+      "no": "702-122",
+      "destCode": 33,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "87S": {
+      "op": "87S",
+      "form": "10126F",
+      "cars": "10",
+      "no": "787-122",
+      "destCode": 33,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "03K": {
+      "op": "03K",
+      "form": "5151F",
+      "cars": "8",
+      "no": "003-121",
+      "destCode": 103,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "95G": {
+      "op": "95G",
+      "form": "20101F",
+      "cars": "10",
+      "no": "995-122",
+      "destCode": 33,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "13K": {
+      "op": "13K",
+      "form": "5165F",
+      "cars": "8",
+      "no": "013-112",
+      "destCode": 33,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "79S": {
+      "op": "79S",
+      "form": "10121F",
+      "cars": "10",
+      "no": "779-121",
+      "destCode": 103,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "47S": {
+      "op": "47S",
+      "form": "10113F",
+      "cars": "10",
+      "no": "747-122",
+      "destCode": 33,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "09S": {
+      "op": "09S",
+      "form": "17186F",
+      "cars": "8",
+      "no": "709-122",
+      "destCode": 33,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "01K": {
+      "op": "01K",
+      "form": "Y513F",
+      "cars": "8",
+      "no": "001-122",
+      "destCode": 33,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "15S": {
+      "op": "15S",
+      "form": "17192F",
+      "cars": "8",
+      "no": "715-121",
+      "destCode": 103,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "23K": {
+      "op": "23K",
+      "form": "5174F",
+      "cars": "8",
+      "no": "023-121",
+      "destCode": 103,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "04K": {
+      "op": "04K",
+      "form": "5164F",
+      "cars": "8",
+      "no": "004-122",
+      "destCode": 33,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "94G": {
+      "op": "94G",
+      "form": "20102F",
+      "cars": "10",
+      "no": "994-121",
+      "destCode": 111,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "29K": {
+      "op": "29K",
+      "form": "Y515F",
+      "cars": "8",
+      "no": "029-112",
+      "destCode": 78,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "05K": {
+      "op": "05K",
+      "form": "5122F",
+      "cars": "8",
+      "no": "005-121",
+      "destCode": 103,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "55K": {
+      "op": "55K",
+      "form": "4110F",
+      "cars": "10",
+      "no": "055-122",
+      "destCode": 78,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "21K": {
+      "op": "21K",
+      "form": "5170F",
+      "cars": "8",
+      "no": "021-122",
+      "destCode": 78,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "57K": {
+      "op": "57K",
+      "form": "4114F",
+      "cars": "10",
+      "no": "057-121",
+      "destCode": 111,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    }
+  },
+  "meguro": {
+    "59T": {
+      "op": "59T",
+      "form": "6316F",
+      "cars": "6",
+      "no": "459-121",
+      "destCode": 90,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "81T": {
+      "op": "81T",
+      "form": "6506F",
+      "cars": "8",
+      "no": "481-122",
+      "destCode": 54,
+      "delay": "+1",
+      "updatedAt": "12:48:21"
+    },
+    "12K": {
+      "op": "12K",
+      "form": "3107F",
+      "cars": "8",
+      "no": "212-122",
+      "destCode": 67,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "68S": {
+      "op": "68S",
+      "form": "9104F",
+      "cars": "6",
+      "no": "368-121",
+      "destCode": 108,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "46S": {
+      "op": "46S",
+      "form": "9111F",
+      "cars": "8",
+      "no": "346-122",
+      "destCode": 67,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "27K": {
+      "op": "27K",
+      "form": "5184F",
+      "cars": "8",
+      "no": "227-122",
+      "destCode": 54,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "44G": {
+      "op": "44G",
+      "form": "21109F",
+      "cars": "8",
+      "no": "644-121",
+      "destCode": 108,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "45T": {
+      "op": "45T",
+      "form": "6513F",
+      "cars": "8",
+      "no": "445-121",
+      "destCode": 90,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "31T": {
+      "op": "31T",
+      "form": "6503F",
+      "cars": "8",
+      "no": "431-122",
+      "destCode": 54,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "62S": {
+      "op": "62S",
+      "form": "9119F",
+      "cars": "6",
+      "no": "362-122",
+      "destCode": 67,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "25K": {
+      "op": "25K",
+      "form": "5186F",
+      "cars": "8",
+      "no": "225-121",
+      "destCode": 111,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    }
+  },
+  "dento": {
+    "66T": {
+      "op": "66T",
+      "no": "066-112",
+      "kind": "各駅停車",
+      "destCode": 45,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "93S": {
+      "op": "93S",
+      "no": "093-121",
+      "kind": "準急",
+      "destCode": 91,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "55S": {
+      "op": "55S",
+      "no": "055-121",
+      "kind": "各駅停車",
+      "destCode": 91,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "17K": {
+      "op": "17K",
+      "no": "017-122",
+      "kind": "各駅停車",
+      "destCode": 45,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "18K": {
+      "op": "18K",
+      "no": "018-121",
+      "kind": "準急",
+      "destCode": 91,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "07K": {
+      "op": "07K",
+      "no": "007-122",
+      "kind": "準急",
+      "destCode": 45,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "64T": {
+      "op": "64T",
+      "no": "064-112",
+      "kind": "各駅停車",
+      "destCode": 45,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "20K": {
+      "op": "20K",
+      "no": "020-122",
+      "kind": "急行",
+      "destCode": 45,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "05K": {
+      "op": "05K",
+      "no": "005-111",
+      "kind": "各駅停車",
+      "destCode": 91,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "21K": {
+      "op": "21K",
+      "no": "021-121",
+      "kind": "急行",
+      "destCode": 91,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "71S": {
+      "op": "71S",
+      "no": "071-121",
+      "kind": "各駅停車",
+      "destCode": 91,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "60T": {
+      "op": "60T",
+      "no": "060-121",
+      "kind": "各駅停車",
+      "destCode": 78,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "72T": {
+      "op": "72T",
+      "no": "072-122",
+      "kind": "急行",
+      "destCode": 45,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "02K": {
+      "op": "02K",
+      "no": "002-121",
+      "kind": "急行",
+      "destCode": 91,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "03K": {
+      "op": "03K",
+      "no": "003-121",
+      "kind": "各駅停車",
+      "destCode": 91,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "70T": {
+      "op": "70T",
+      "no": "070-122",
+      "kind": "各駅停車",
+      "destCode": 45,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "04K": {
+      "op": "04K",
+      "no": "004-121",
+      "kind": "準急",
+      "destCode": 91,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "91S": {
+      "op": "91S",
+      "no": "091-111",
+      "kind": "各駅停車",
+      "destCode": 91,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "23K": {
+      "op": "23K",
+      "no": "023-121",
+      "kind": "各駅停車",
+      "destCode": 91,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "74T": {
+      "op": "74T",
+      "no": "074-122",
+      "kind": "各駅停車",
+      "destCode": 45,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "63S": {
+      "op": "63S",
+      "no": "063-122",
+      "kind": "準急",
+      "destCode": 45,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "10K": {
+      "op": "10K",
+      "no": "010-122",
+      "kind": "各駅停車",
+      "destCode": 45,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "06K": {
+      "op": "06K",
+      "no": "006-122",
+      "kind": "各駅停車",
+      "destCode": 45,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    },
+    "77S": {
+      "op": "77S",
+      "no": "077-122",
+      "kind": "準急",
+      "destCode": 45,
+      "delay": "",
+      "updatedAt": "12:48:21"
+    }
+  },
+  "lastUpdate": "12:48"
+}
