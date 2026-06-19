@@ -189,7 +189,7 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.6.0</div>
+    <div class="version-tag">v1.6.1</div>
   </header>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
@@ -233,7 +233,6 @@
     return "weekday";                 
   }
 
-  // スマホのセキュリティ制限を回避してデータを受信するコールバック関数
   window.callback = function(data) {
     rawYosokuData = data;
   };
@@ -244,19 +243,18 @@
       if(errDiv) errDiv.style.display = "none";
       const cacheBuster = `?_=${Date.now()}`;
       
-      // 1. 本日の運用データを取得
       const resUnyo = await fetch("./today_unyo.json" + cacheBuster, {cache:"no-store"});
       if(!resUnyo.ok) throw new Error("本日の運用ファイル(today_unyo.json)が読み込めません。");
       rawUnyoData = await resUnyo.json();
 
-      // 2. スマホ制限回避用のスクリプト読み込み通信（JSONP）
       await new Promise((resolve, reject) => {
-        // 古いスクリプトタグがあれば削除
         const oldScript = document.getElementById("yosokuScript");
         if(oldScript) oldScript.remove();
 
         const script = document.createElement("script");
         script.id = "yosokuScript";
+        // 日本語（元検など）の文字化けによるエラーを防止
+        script.charset = "UTF-8";
         script.src = "https://nfhanyo.web.fc2.com/tokyu/tyunyoyosoku.json" + cacheBuster;
         
         script.onload = () => resolve();
@@ -272,7 +270,6 @@
       const tsText = `本日分データ (${rawUnyoData.lastUpdate || ""} 時点)`;
       document.getElementById("toyokoTimestamp").textContent = tsText;
     } catch(e) {
-      // 予測データが無くてもテーブル自体は描画する
       renderTable("toyoko");
       if(errDiv) {
         errDiv.textContent = `【警告】${e.message}`;
