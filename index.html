@@ -68,7 +68,6 @@
       font-weight: 600; 
     }
 
-    /* 日付選択と更新ボタンの右側グループ */
     .control-group {
       display: flex;
       align-items: center;
@@ -111,6 +110,32 @@
     }
     .refresh-btn:active {
       background: #e2e8f0;
+    }
+
+    /* 「今日に戻る」用のボタンスタイル */
+    .today-back-btn {
+      font-size: 13px;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 6px;
+      border: 1px solid var(--toyoko);
+      background: var(--toyoko);
+      color: #ffffff;
+      cursor: pointer;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+      transition: opacity 0.2s;
+      min-height: 36px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    @media (hover: hover) {
+      .today-back-btn:hover {
+        opacity: 0.9;
+      }
+    }
+    .today-back-btn:active {
+      opacity: 0.8;
     }
 
     .search-container {
@@ -218,7 +243,7 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.9.0</div>
+    <div class="version-tag">v1.9.1</div>
   </header>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
@@ -229,6 +254,7 @@
       <div class="control-group">
         <input type="date" id="archiveDate" class="date-input" aria-label="日付選択">
         <button class="refresh-btn" id="refreshToyoko">更新</button>
+        <button class="today-back-btn" id="backToToday" style="display: none;">今日に戻る</button>
       </div>
     </div>
 
@@ -259,10 +285,15 @@
   let sortState = { toyoko: { key: "op", asc: true } };
   let autoRefreshInterval = null;
 
-  // 今日の日付(yyyy-mm-dd)を取得して初期設定
   const todayStr = new Date().toLocaleDateString('sv-SE');
   const archiveDateInput = document.getElementById("archiveDate");
-  if(archiveDateInput) archiveDateInput.value = todayStr;
+  const backToTodayBtn = document.getElementById("backToToday");
+
+  if(archiveDateInput) {
+    archiveDateInput.value = todayStr;
+    // カレンダーの選択上限を「今日」までに制限（未来を選択不可に）
+    archiveDateInput.max = todayStr;
+  }
 
   function getYosokuKey(offset = 1, baseDate = new Date()) {
     const d = new Date(baseDate.getTime());
@@ -288,9 +319,9 @@
       if(errDiv) errDiv.style.display = "none";
       const cacheBuster = `?_=${Date.now()}`;
 
-      // 選択された日付が「今日」の場合の通常処理
       if (selectedDate === todayStr) {
         if(refreshBtn) refreshBtn.style.display = "inline-flex";
+        if(backToTodayBtn) backToTodayBtn.style.display = "none";
         if(yosokuHeader) yosokuHeader.textContent = "明日 ➔ 翌々日";
 
         const resUnyo = await fetch("./today_unyo.json" + cacheBuster, {cache:"no-store"});
@@ -317,20 +348,18 @@
         const tsText = `本日分データ (${rawUnyoData.lastUpdate || ""} 時点)`;
         document.getElementById("toyokoTimestamp").textContent = tsText;
 
-        // 自動更新を再開
         startTimer();
 
       } else {
-        // 「過去のアーカイブ」を読み込む場合の処理
         if(refreshBtn) refreshBtn.style.display = "none";
+        if(backToTodayBtn) backToTodayBtn.style.display = "inline-flex";
         if(yosokuHeader) yosokuHeader.textContent = "予測データ";
-        // 自動更新タイマーを停止
         stopTimer();
 
         const resArchive = await fetch(`./archive/${selectedDate}.json` + cacheBuster, {cache:"no-store"});
         if(!resArchive.ok) throw new Error(`${selectedDate} のアーカイブデータが見つかりません。`);
         rawUnyoData = await resArchive.json();
-        rawYosokuData = {}; // 過去データ表示時はFC2予測は空にする
+        rawYosokuData = {}; 
 
         document.getElementById("toyokoTimestamp").textContent = `${selectedDate} の実績データ`;
       }
@@ -393,7 +422,6 @@
     list = list.map(t => {
       const op = (t.op || "").toUpperCase();
       
-      // アーカイブデータ側にもともと予測値が文字列として記録されている場合はそれを優先
       if (selectedDate !== todayStr && t.yosoku) {
         return t;
       }
@@ -555,6 +583,16 @@
 
   if (archiveDateInput) {
     archiveDateInput.addEventListener("change", loadData);
+  }
+
+  // 「今日に戻る」ボタンタップ時の処理
+  if (backToTodayBtn) {
+    backToTodayBtn.addEventListener("click", () => {
+      if (archiveDateInput) {
+        archiveDateInput.value = todayStr;
+        loadData();
+      }
+    });
   }
 
   const refreshToyoko = document.getElementById("refreshToyoko");
