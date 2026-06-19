@@ -889,6 +889,16 @@
       "kind": "普",
       "delay": "",
       "updated": "13:35"
+    },
+    {
+      "op": "35",
+      "form": "-",
+      "cars": "8",
+      "no": "635-131",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "13:40"
     }
   ],
   "meguro": [
@@ -1783,6 +1793,6 @@
       "updated": "13:35"
     }
   ],
-  "lastUpdate": "13:35",
+  "lastUpdate": "13:40",
   "date": "2026-06-19"
 }
