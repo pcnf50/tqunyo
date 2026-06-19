@@ -1649,6 +1649,16 @@
       "kind": "急",
       "delay": "",
       "updated": "21:20"
+    },
+    {
+      "op": "16",
+      "form": "5119F",
+      "cars": "8",
+      "no": "216-212",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "21:25"
     }
   ],
   "meguro": [
@@ -3371,8 +3381,18 @@
       "kind": "急",
       "delay": "",
       "updated": "21:20"
+    },
+    {
+      "op": "16K",
+      "form": "5189F",
+      "cars": "8",
+      "no": "216-212",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "21:25"
     }
   ],
-  "lastUpdate": "21:20",
+  "lastUpdate": "21:25",
   "date": "2026-06-19"
 }
