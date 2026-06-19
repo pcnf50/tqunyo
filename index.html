@@ -165,9 +165,10 @@
       font-weight: 700;
     }
 
+    /* 明日予測のカラーを黒に変更 */
     .yosoku-val {
       font-weight: 700;
-      color: #0284c7;
+      color: var(--text-main);
     }
 
     .no-data { padding: 40px 16px; text-align: center; color: var(--text-sub); font-size: 14px; }
@@ -189,7 +190,7 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.5.2</div>
+    <div class="version-tag">v1.5.3</div>
   </header>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
@@ -239,12 +240,10 @@
       if(errDiv) errDiv.style.display = "none";
       const cacheBuster = `?_=${Date.now()}`;
       
-      // 1. 本日の運用データ（足元のGitHub内を参照）
       const resUnyo = await fetch("./today_unyo.json" + cacheBuster, {cache:"no-store"});
       if(!resUnyo.ok) throw new Error("本日の運用ファイル(today_unyo.json)が読み込めません。");
       rawUnyoData = await resUnyo.json();
 
-      // 2. 明日予測データ（外部のFC2サーバーを直接参照）
       try {
         const resYosoku = await fetch("https://nfhanyo.web.fc2.com/tokyu/tyunyoyosoku.json" + cacheBuster, {
           method: "GET",
