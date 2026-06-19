@@ -165,7 +165,6 @@
       font-weight: 700;
     }
 
-    /* 明日予測のカラーを黒に変更 */
     .yosoku-val {
       font-weight: 700;
       color: var(--text-main);
@@ -190,7 +189,7 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.5.3</div>
+    <div class="version-tag">v1.6.0</div>
   </header>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
@@ -234,46 +233,49 @@
     return "weekday";                 
   }
 
+  // スマホのセキュリティ制限を回避してデータを受信するコールバック関数
+  window.callback = function(data) {
+    rawYosokuData = data;
+  };
+
   async function loadUnyoData() {
     const errDiv = document.getElementById("errorDisplay");
     try {
       if(errDiv) errDiv.style.display = "none";
       const cacheBuster = `?_=${Date.now()}`;
       
+      // 1. 本日の運用データを取得
       const resUnyo = await fetch("./today_unyo.json" + cacheBuster, {cache:"no-store"});
       if(!resUnyo.ok) throw new Error("本日の運用ファイル(today_unyo.json)が読み込めません。");
       rawUnyoData = await resUnyo.json();
 
-      try {
-        const resYosoku = await fetch("https://nfhanyo.web.fc2.com/tokyu/tyunyoyosoku.json" + cacheBuster, {
-          method: "GET",
-          mode: "cors",
-          cache: "no-store"
-        });
-        if(!resYosoku.ok) {
-          throw new Error(`予測ファイル読み込みエラー (Status: ${resYosoku.status})`);
-        }
-        rawYosokuData = await resYosoku.json();
-      } catch(e) {
-        rawYosokuData = {};
-        if(errDiv) {
-          let errMsg = e.message;
-          if (e.name === 'TypeError' && errMsg.includes('Failed to fetch')) {
-            errMsg = "FC2サーバーのCORS制限（外部接続拒否）によりブロックされました。";
-          }
-          errDiv.textContent = `【警告】予測データの取得に失敗しました。原因: ${errMsg}`;
-          errDiv.style.display = "block";
-        }
-      }
+      // 2. スマホ制限回避用のスクリプト読み込み通信（JSONP）
+      await new Promise((resolve, reject) => {
+        // 古いスクリプトタグがあれば削除
+        const oldScript = document.getElementById("yosokuScript");
+        if(oldScript) oldScript.remove();
+
+        const script = document.createElement("script");
+        script.id = "yosokuScript";
+        script.src = "https://nfhanyo.web.fc2.com/tokyu/tyunyoyosoku.json" + cacheBuster;
+        
+        script.onload = () => resolve();
+        script.onerror = () => {
+          rawYosokuData = {};
+          reject(new Error("予測データの通信に失敗しました(404またはネットワークエラー)"));
+        };
+        document.body.appendChild(script);
+      });
 
       renderTable("toyoko");
 
       const tsText = `本日分データ (${rawUnyoData.lastUpdate || ""} 時点)`;
       document.getElementById("toyokoTimestamp").textContent = tsText;
     } catch(e) {
-      document.getElementById("toyokoNoData").style.display = "block";
+      // 予測データが無くてもテーブル自体は描画する
+      renderTable("toyoko");
       if(errDiv) {
-        errDiv.textContent = `【エラー】${e.message}`;
+        errDiv.textContent = `【警告】${e.message}`;
         errDiv.style.display = "block";
       }
     }
