@@ -1669,6 +1669,16 @@
       "kind": "通",
       "delay": "",
       "updated": "21:35"
+    },
+    {
+      "op": "05T",
+      "form": "51076F",
+      "cars": "10",
+      "no": "805-221",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "22:00"
     }
   ],
   "meguro": [
@@ -3430,9 +3440,9 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "21:55"
+      "updated": "22:00"
     }
   ],
-  "lastUpdate": "21:55",
+  "lastUpdate": "22:00",
   "date": "2026-06-19"
 }
