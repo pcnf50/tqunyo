@@ -2211,8 +2211,28 @@
       "kind": "Ｆ",
       "delay": "",
       "updated": "15:55"
+    },
+    {
+      "op": "99",
+      "form": "-",
+      "cars": "0",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "16:10"
+    },
+    {
+      "op": "39G",
+      "form": "-",
+      "cars": "8",
+      "no": "639-162",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "16:10"
     }
   ],
-  "lastUpdate": "16:05",
+  "lastUpdate": "16:10",
   "date": "2026-06-19"
 }
