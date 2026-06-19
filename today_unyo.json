@@ -898,7 +898,7 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "1分遅れ",
-      "updated": "13:40"
+      "updated": "13:45"
     }
   ],
   "meguro": [
@@ -1791,8 +1791,28 @@
       "kind": "普",
       "delay": "1分遅れ",
       "updated": "13:35"
+    },
+    {
+      "op": "86M",
+      "form": "9105F",
+      "cars": "6",
+      "no": "586-131",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "13:45"
+    },
+    {
+      "op": "85T",
+      "form": "6324F",
+      "cars": "6",
+      "no": "485-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:45"
     }
   ],
-  "lastUpdate": "13:40",
+  "lastUpdate": "13:45",
   "date": "2026-06-19"
 }
