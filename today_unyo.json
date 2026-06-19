@@ -1629,6 +1629,16 @@
       "kind": "急",
       "delay": "3分遅れ",
       "updated": "20:55"
+    },
+    {
+      "op": "61K",
+      "form": "-",
+      "cars": "10",
+      "no": "061-212",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "21:15"
     }
   ],
   "meguro": [
@@ -3343,6 +3353,6 @@
       "updated": "21:05"
     }
   ],
-  "lastUpdate": "21:10",
+  "lastUpdate": "21:15",
   "date": "2026-06-19"
 }
