@@ -1738,7 +1738,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "00:00"
+      "updated": "00:05"
     }
   ],
   "meguro": [
@@ -3561,8 +3561,18 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "23:45"
+    },
+    {
+      "op": "88M",
+      "form": "-",
+      "cars": "0",
+      "no": "588-241",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:05"
     }
   ],
-  "lastUpdate": "00:00",
+  "lastUpdate": "00:05",
   "date": "2026-06-20"
 }
