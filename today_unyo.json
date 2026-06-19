@@ -4081,8 +4081,18 @@
       "kind": "普",
       "delay": "",
       "updated": "05:25"
+    },
+    {
+      "op": "37T",
+      "form": "6512F",
+      "cars": "8",
+      "no": "437-051",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:30"
     }
   ],
-  "lastUpdate": "05:25",
+  "lastUpdate": "05:30",
   "date": "2026-06-20"
 }
