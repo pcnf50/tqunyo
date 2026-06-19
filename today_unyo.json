@@ -1079,6 +1079,16 @@
       "kind": "急",
       "delay": "",
       "updated": "16:05"
+    },
+    {
+      "op": "95G",
+      "form": "-",
+      "cars": "10",
+      "no": "995-162",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "16:35"
     }
   ],
   "meguro": [
@@ -2223,6 +2233,6 @@
       "updated": "16:15"
     }
   ],
-  "lastUpdate": "16:30",
+  "lastUpdate": "16:35",
   "date": "2026-06-19"
 }
