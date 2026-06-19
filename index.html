@@ -255,7 +255,7 @@
         script.id = "yosokuScript";
         // 日本語（元検など）の文字化けによるエラーを防止
         script.charset = "UTF-8";
-        script.src = "https://nfhanyo.web.fc2.com/tokyu/tyunyoyosoku.json" + cacheBuster;
+        script.src = "https://nfhanyo.web.fc2.com/tokyu/tyunyoyosoku.js" + cacheBuster;
         
         script.onload = () => resolve();
         script.onerror = () => {
