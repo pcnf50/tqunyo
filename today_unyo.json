@@ -531,6 +531,16 @@
       "updated": "12:05"
     },
     {
+      "op": "46",
+      "form": "-",
+      "cars": "6",
+      "no": "346-111",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:15"
+    },
+    {
       "op": "22M",
       "form": "40152F",
       "cars": "10",
@@ -538,7 +548,7 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "12:10"
+      "updated": "12:15"
     },
     {
       "op": "17",
@@ -548,7 +558,17 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "12:10"
+      "updated": "12:15"
+    },
+    {
+      "op": "23K",
+      "form": "5175F",
+      "cars": "8",
+      "no": "023-121",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:15"
     },
     {
       "op": "39",
@@ -558,7 +578,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "12:10"
+      "updated": "12:15"
     }
   ],
   "meguro": [
@@ -1000,7 +1020,27 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "12:10"
+      "updated": "12:15"
+    },
+    {
+      "op": "69T",
+      "form": "6323F",
+      "cars": "6",
+      "no": "469-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:15"
+    },
+    {
+      "op": "15",
+      "form": "-",
+      "cars": "8",
+      "no": "015-112",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:15"
     },
     {
       "op": "20",
@@ -1010,29 +1050,29 @@
       "destCode": "副都心線直通",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "12:10"
+      "updated": "12:15"
     },
     {
-      "op": "99",
-      "form": "-",
-      "cars": "0",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "各駅停車",
+      "op": "62S",
+      "form": "9115F",
+      "cars": "8",
+      "no": "362-121",
+      "destCode": "新横浜",
+      "kind": "急",
       "delay": "",
-      "updated": "12:10"
+      "updated": "12:15"
     },
     {
       "op": "39G",
-      "form": "-",
+      "form": "21105F",
       "cars": "8",
       "no": "639-122",
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "12:10"
+      "updated": "12:15"
     }
   ],
-  "lastUpdate": "12:10",
+  "lastUpdate": "12:15",
   "date": "2026-06-19"
 }
