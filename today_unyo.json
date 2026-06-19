@@ -1078,7 +1078,17 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "3分遅れ",
-      "updated": "09:15"
+      "updated": "09:20"
+    },
+    {
+      "op": "85",
+      "form": "-",
+      "cars": "6",
+      "no": "485-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "09:20"
     },
     {
       "op": "52K",
@@ -1088,7 +1098,17 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "09:15"
+      "updated": "09:20"
+    },
+    {
+      "op": "03K",
+      "form": "Y514F",
+      "cars": "8",
+      "no": "003-091",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:20"
     },
     {
       "op": "81",
@@ -1097,18 +1117,8 @@
       "no": "481-081",
       "destCode": "新横浜",
       "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "09:15"
-    },
-    {
-      "op": "57K",
-      "form": "-",
-      "cars": "10",
-      "no": "057-092",
-      "destCode": "副都心線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "09:15"
+      "delay": "4分遅れ",
+      "updated": "09:20"
     }
   ],
   "meguro": [
@@ -2209,8 +2219,8 @@
       "no": "487-091",
       "destCode": "日吉",
       "kind": "急",
-      "delay": "2分遅れ",
-      "updated": "09:15"
+      "delay": "1分遅れ",
+      "updated": "09:20"
     },
     {
       "op": "14",
@@ -2219,8 +2229,28 @@
       "no": "014-081",
       "destCode": "元町・中華街",
       "kind": "普",
+      "delay": "",
+      "updated": "09:20"
+    },
+    {
+      "op": "70S",
+      "form": "-",
+      "cars": "0",
+      "no": "370-091",
+      "destCode": "新横浜",
+      "kind": "普",
       "delay": "1分遅れ",
-      "updated": "09:15"
+      "updated": "09:20"
+    },
+    {
+      "op": "36K",
+      "form": "5190F",
+      "cars": "8",
+      "no": "236-091",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "09:20"
     },
     {
       "op": "33",
@@ -2229,20 +2259,20 @@
       "no": "733-091",
       "destCode": "元町・中華街",
       "kind": "特",
-      "delay": "",
-      "updated": "09:15"
+      "delay": "1分遅れ",
+      "updated": "09:20"
     },
     {
       "op": "25T",
-      "form": "-",
-      "cars": "0",
+      "form": "6318F",
+      "cars": "6",
       "no": "425-091",
       "destCode": "元住吉",
       "kind": "普",
       "delay": "1分遅れ",
-      "updated": "09:15"
+      "updated": "09:20"
     }
   ],
-  "lastUpdate": "09:15",
+  "lastUpdate": "09:20",
   "date": "2026-06-19"
 }
