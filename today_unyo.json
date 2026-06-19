@@ -3331,8 +3331,18 @@
       "kind": "急",
       "delay": "3分遅れ",
       "updated": "20:55"
+    },
+    {
+      "op": "84M",
+      "form": "-",
+      "cars": "0",
+      "no": "584-211",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "21:05"
     }
   ],
-  "lastUpdate": "21:00",
+  "lastUpdate": "21:05",
   "date": "2026-06-19"
 }
