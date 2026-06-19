@@ -2231,8 +2231,18 @@
       "kind": "急",
       "delay": "",
       "updated": "16:15"
+    },
+    {
+      "op": "99",
+      "form": "-",
+      "cars": "0",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "16:40"
     }
   ],
-  "lastUpdate": "16:35",
+  "lastUpdate": "16:40",
   "date": "2026-06-19"
 }
