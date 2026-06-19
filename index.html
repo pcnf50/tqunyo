@@ -25,7 +25,7 @@
     }
 
     main {
-      max-width: 600px;
+      max-width: 650px;
       margin: 0 auto;
     }
 
@@ -93,7 +93,6 @@
       background: #e2e8f0;
     }
 
-    /* 検索エリアのスタイリング */
     .search-container {
       margin-bottom: 12px;
       padding: 0 4px;
@@ -109,7 +108,7 @@
       background: var(--card-bg);
       color: var(--text-main);
       box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
-      min-height: 44px; /* UD基準: タップ・入力しやすい高さ */
+      min-height: 44px;
     }
     .search-input:focus {
       outline: none;
@@ -166,6 +165,11 @@
       font-weight: 700;
     }
 
+    .yosoku-val {
+      font-weight: 700;
+      color: #0284c7;
+    }
+
     .no-data { padding: 40px 16px; text-align: center; color: var(--text-sub); font-size: 14px; }
   </style>
 </head>
@@ -174,7 +178,7 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.4.1</div>
+    <div class="version-tag">v1.5.0</div>
   </header>
 
   <section id="toyokoPanel" class="line-panel panel-toyoko">
@@ -184,15 +188,16 @@
     </div>
 
     <div class="search-container">
-      <input type="search" id="searchBar" class="search-input" placeholder="運用番号または編成で絞り込み..." aria-label="運用または編成の検索">
+      <input type="search" id="searchBar" class="search-input" placeholder="運用番号、編成、予測で絞り込み..." aria-label="運用の検索">
     </div>
 
     <div class="table-container">
       <table>
         <thead>
           <tr>
-            <th style="width: 40%;" data-sort="op">運用</th>
-            <th style="width: 60%;" data-sort="form">編成</th>
+            <th style="width: 30%;" data-sort="op">運用</th>
+            <th style="width: 40%;" data-sort="form">編成</th>
+            <th style="width: 30%;">明日予測</th>
           </tr>
         </thead>
         <tbody id="toyokoTableBody"></tbody>
@@ -204,16 +209,31 @@
 
 <script>
   let rawUnyoData = {};
-  let sortState = {
-    toyoko: { key: "op", asc: true }
-  };
+  let rawYosokuData = {};
+  let sortState = { toyoko: { key: "op", asc: true } };
+
+  function getYosokuKey() {
+    const day = new Date().getDay(); 
+    if (day === 5) return "friday";   // 金曜 (JavaScriptの5は金曜日)
+    if (day === 6) return "saturday"; // 土曜
+    if (day === 0) return "sunday";   // 日曜
+    return "weekday";                 // 月〜木
+  }
 
   async function loadUnyoData() {
     try {
       const cacheBuster = `?_=${Date.now()}`;
-      const res = await fetch("./today_unyo.json" + cacheBuster, {cache:"no-store"});
-      if(!res.ok) throw new Error("No data file");
-      rawUnyoData = await res.json();
+      
+      const resUnyo = await fetch("./today_unyo.json" + cacheBuster, {cache:"no-store"});
+      if(!resUnyo.ok) throw new Error("No unyo file");
+      rawUnyoData = await resUnyo.json();
+
+      try {
+        const resYosoku = await fetch("./tyunyoyosoku.json" + cacheBuster, {cache:"no-store"});
+        if(resYosoku.ok) rawYosokuData = await resYosoku.json();
+      } catch(e) {
+        rawYosokuData = {};
+      }
 
       renderTable("toyoko");
 
@@ -232,26 +252,20 @@
 
     let list = Array.isArray(rawUnyoData[line]) ? [...rawUnyoData[line]] : [];
 
-    // 1. noの完全に1文字目だけを判定して2,3,4,5,6を除外
     list = list.filter(t => {
       const noStr = t.no ? String(t.no) : "";
       if (noStr.length > 0) {
         const firstChar = noStr.charAt(0);
-        if (["2", "3", "4", "5", "6"].includes(firstChar)) {
-          return false;
-        }
+        if (["2", "3", "4", "5", "6"].includes(firstChar)) return false;
       }
       return true;
     });
 
-    // 2. 同じ運番内で「編成情報があるもの」と「ないもの」が重複した時、ないものを除外
     const opFormMap = {};
     list.forEach(t => {
       const op = t.op || "";
       const form = t.form || "";
-      if (!opFormMap[op]) {
-        opFormMap[op] = new Set();
-      }
+      if (!opFormMap[op]) opFormMap[op] = new Set();
       opFormMap[op].add(form);
     });
 
@@ -259,23 +273,38 @@
       const op = t.op || "";
       const form = t.form || "";
       const allFormsForOp = opFormMap[op];
-
       if (form === "-" && allFormsForOp.size > 1) {
         const hasValidForm = Array.from(allFormsForOp).some(f => f !== "-");
-        if (hasValidForm) {
-          return false;
-        }
+        if (hasValidForm) return false;
       }
       return true;
     });
 
-    // ★追加機能: 検索キーワードによるリアルタイム絞り込み
+    const currentKey = getYosokuKey();
+    const yosokuBlock = rawYosokuData[currentKey] || {};
+
+    list = list.map(t => {
+      const op = (t.op || "").toUpperCase();
+      const pred = yosokuBlock[op];
+      let yosokuText = "-";
+
+      if (pred) {
+        if (Array.isArray(pred)) {
+          yosokuText = pred.join(" / ");
+        } else {
+          yosokuText = pred;
+        }
+      }
+      return { ...t, yosoku: yosokuText };
+    });
+
     const searchQuery = document.getElementById("searchBar") ? document.getElementById("searchBar").value.trim().toLowerCase() : "";
     if (searchQuery) {
       list = list.filter(t => {
         const opStr = (t.op || "").toLowerCase();
         const formStr = (t.form || "").toLowerCase();
-        return opStr.includes(searchQuery) || formStr.includes(searchQuery);
+        const yosokuStr = (t.yosoku || "").toLowerCase();
+        return opStr.includes(searchQuery) || formStr.includes(searchQuery) || yosokuStr.includes(searchQuery);
       });
     }
 
@@ -295,27 +324,19 @@
       if (state.key === "op") {
         const matchA = valA.match(/^(\d+)([a-zA-Z]*)$/);
         const matchB = valB.match(/^(\d+)([a-zA-Z]*)$/);
-
         if (matchA && matchB) {
           const numA = parseInt(matchA[1], 10);
           const alphaA = matchA[2].toUpperCase();
           const numB = parseInt(matchB[1], 10);
           const alphaB = matchB[2].toUpperCase();
-
           let idxA = alphaA ? alphaOrder.indexOf(alphaA) : 998;
           let idxB = alphaB ? alphaOrder.indexOf(alphaB) : 998;
-          
           if (idxA === -1) idxA = 999;
           if (idxB === -1) idxB = 999;
-
-          if (idxA !== idxB) {
-            return state.asc ? idxA - idxB : idxB - idxA;
-          }
-          
+          if (idxA !== idxB) return state.asc ? idxA - idxB : idxB - idxA;
           return state.asc ? numA - numB : numB - numA;
         }
       }
-
       const numA = parseFloat(valA);
       const numB = parseFloat(valB);
       if (!isNaN(numA) && !isNaN(numB)) {
@@ -327,10 +348,10 @@
 
     list.forEach(t => {
       const tr = document.createElement("tr");
-      
       tr.innerHTML = `
         <td><b>${t.op}</b></td>
         <td>${t.form}</td>
+        <td class="yosoku-val">${t.yosoku}</td>
       `;
       tbody.appendChild(tr);
     });
@@ -355,7 +376,6 @@
       if(!section) return;
       const line = section.id.replace("Panel", "");
       const sortKey = th.getAttribute("data-sort");
-      
       if(sortState[line].key === sortKey) {
         sortState[line].asc = !sortState[line].asc;
       } else {
@@ -366,12 +386,9 @@
     });
   });
 
-  // 検索窓への入力イベントを設定
   const searchBar = document.getElementById("searchBar");
   if (searchBar) {
-    searchBar.addEventListener("input", () => {
-      renderTable("toyoko");
-    });
+    searchBar.addEventListener("input", () => renderTable("toyoko"));
   }
 
   const refreshToyoko = document.getElementById("refreshToyoko");
