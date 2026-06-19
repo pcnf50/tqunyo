@@ -2080,29 +2080,19 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "15:10"
+      "updated": "15:15"
     },
     {
-      "op": "99",
-      "form": "-",
-      "cars": "0",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "各駅停車",
-      "delay": "",
-      "updated": "15:10"
-    },
-    {
-      "op": "35G",
-      "form": "-",
+      "op": "79T",
+      "form": "6504F",
       "cars": "8",
-      "no": "635-152",
-      "destCode": "三田線直通",
-      "kind": "急",
+      "no": "479-151",
+      "destCode": "日吉",
+      "kind": "普",
       "delay": "",
-      "updated": "15:10"
+      "updated": "15:15"
     }
   ],
-  "lastUpdate": "15:10",
+  "lastUpdate": "15:15",
   "date": "2026-06-19"
 }
