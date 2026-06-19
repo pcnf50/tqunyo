@@ -172,7 +172,6 @@
 
     .no-data { padding: 40px 16px; text-align: center; color: var(--text-sub); font-size: 14px; }
     
-    /* エラー通知用スタイル */
     .error-notice {
       margin: 10px 4px;
       padding: 10px;
@@ -190,7 +189,7 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.5.1</div>
+    <div class="version-tag">v1.5.2</div>
   </header>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
@@ -240,20 +239,30 @@
       if(errDiv) errDiv.style.display = "none";
       const cacheBuster = `?_=${Date.now()}`;
       
+      // 1. 本日の運用データ（足元のGitHub内を参照）
       const resUnyo = await fetch("./today_unyo.json" + cacheBuster, {cache:"no-store"});
       if(!resUnyo.ok) throw new Error("本日の運用ファイル(today_unyo.json)が読み込めません。");
       rawUnyoData = await resUnyo.json();
 
+      // 2. 明日予測データ（外部のFC2サーバーを直接参照）
       try {
-        const resYosoku = await fetch("./tyunyoyosoku.json" + cacheBuster, {cache:"no-store"});
+        const resYosoku = await fetch("https://nfhanyo.web.fc2.com/tokyu/tyunyoyosoku.json" + cacheBuster, {
+          method: "GET",
+          mode: "cors",
+          cache: "no-store"
+        });
         if(!resYosoku.ok) {
-          throw new Error(`tyunyoyosoku.jsonの読み込みエラー (Status: ${resYosoku.status})`);
+          throw new Error(`予測ファイル読み込みエラー (Status: ${resYosoku.status})`);
         }
         rawYosokuData = await resYosoku.json();
       } catch(e) {
         rawYosokuData = {};
         if(errDiv) {
-          errDiv.textContent = `【警告】予測データの解析に失敗しました。原因: ${e.message}`;
+          let errMsg = e.message;
+          if (e.name === 'TypeError' && errMsg.includes('Failed to fetch')) {
+            errMsg = "FC2サーバーのCORS制限（外部接続拒否）によりブロックされました。";
+          }
+          errDiv.textContent = `【警告】予測データの取得に失敗しました。原因: ${errMsg}`;
           errDiv.style.display = "block";
         }
       }
