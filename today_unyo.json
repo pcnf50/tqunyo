@@ -2213,26 +2213,16 @@
       "updated": "15:55"
     },
     {
-      "op": "99",
+      "op": "67",
       "form": "-",
-      "cars": "0",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "各駅停車",
-      "delay": "",
-      "updated": "16:10"
-    },
-    {
-      "op": "39G",
-      "form": "-",
-      "cars": "8",
-      "no": "639-162",
-      "destCode": "三田線直通",
+      "cars": "10",
+      "no": "767-151",
+      "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "16:10"
+      "updated": "16:15"
     }
   ],
-  "lastUpdate": "16:10",
+  "lastUpdate": "16:15",
   "date": "2026-06-19"
 }
