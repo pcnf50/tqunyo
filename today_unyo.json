@@ -1089,6 +1089,16 @@
       "kind": "急",
       "delay": "",
       "updated": "16:35"
+    },
+    {
+      "op": "92",
+      "form": "-",
+      "cars": "6",
+      "no": "592-161",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "16:45"
     }
   ],
   "meguro": [
@@ -2233,6 +2243,16 @@
       "updated": "16:15"
     },
     {
+      "op": "20K",
+      "form": "3111F",
+      "cars": "8",
+      "no": "220-161",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "16:45"
+    },
+    {
       "op": "99",
       "form": "-",
       "cars": "0",
@@ -2240,9 +2260,9 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "16:40"
+      "updated": "16:45"
     }
   ],
-  "lastUpdate": "16:40",
+  "lastUpdate": "16:45",
   "date": "2026-06-19"
 }
