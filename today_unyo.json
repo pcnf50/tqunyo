@@ -959,6 +959,26 @@
       "kind": "普",
       "delay": "",
       "updated": "14:25"
+    },
+    {
+      "op": "73",
+      "form": "-",
+      "cars": "6",
+      "no": "473-141",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "14:30"
+    },
+    {
+      "op": "94G",
+      "form": "-",
+      "cars": "10",
+      "no": "994-142",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "14:30"
     }
   ],
   "meguro": [
@@ -1941,8 +1961,38 @@
       "kind": "普",
       "delay": "",
       "updated": "14:25"
+    },
+    {
+      "op": "53M",
+      "form": "-",
+      "cars": "10",
+      "no": "053-141",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "14:30"
+    },
+    {
+      "op": "99",
+      "form": "-",
+      "cars": "0",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "14:30"
+    },
+    {
+      "op": "96M",
+      "form": "9102F",
+      "cars": "6",
+      "no": "596-141",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "14:30"
     }
   ],
-  "lastUpdate": "14:25",
+  "lastUpdate": "14:30",
   "date": "2026-06-19"
 }
