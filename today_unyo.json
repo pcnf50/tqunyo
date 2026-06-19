@@ -3031,8 +3031,18 @@
       "kind": "急",
       "delay": "",
       "updated": "19:20"
+    },
+    {
+      "op": "25T",
+      "form": "6318F",
+      "cars": "6",
+      "no": "425-192",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:25"
     }
   ],
-  "lastUpdate": "19:20",
+  "lastUpdate": "19:25",
   "date": "2026-06-19"
 }
