@@ -1328,7 +1328,7 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "18:20"
+      "updated": "18:25"
     }
   ],
   "meguro": [
@@ -2720,7 +2720,7 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "18:20"
+      "updated": "18:25"
     },
     {
       "op": "40S",
@@ -2729,8 +2729,8 @@
       "no": "340-181",
       "destCode": "元住吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "18:20"
+      "delay": "",
+      "updated": "18:25"
     },
     {
       "op": "10K",
@@ -2740,9 +2740,9 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:20"
+      "updated": "18:25"
     }
   ],
-  "lastUpdate": "18:20",
+  "lastUpdate": "18:25",
   "date": "2026-06-19"
 }
