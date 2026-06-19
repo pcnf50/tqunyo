@@ -171,6 +171,18 @@
     }
 
     .no-data { padding: 40px 16px; text-align: center; color: var(--text-sub); font-size: 14px; }
+    
+    /* エラー通知用スタイル */
+    .error-notice {
+      margin: 10px 4px;
+      padding: 10px;
+      background: #fee2e2;
+      border: 1px solid #fca5a5;
+      color: #b91c1c;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+    }
   </style>
 </head>
 <body>
@@ -178,8 +190,10 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.5.0</div>
+    <div class="version-tag">v1.5.1</div>
   </header>
+
+  <div id="errorDisplay" class="error-notice" style="display: none;"></div>
 
   <section id="toyokoPanel" class="line-panel panel-toyoko">
     <div class="top-bar">
@@ -214,25 +228,34 @@
 
   function getYosokuKey() {
     const day = new Date().getDay(); 
-    if (day === 5) return "friday";   // 金曜 (JavaScriptの5は金曜日)
-    if (day === 6) return "saturday"; // 土曜
-    if (day === 0) return "sunday";   // 日曜
-    return "weekday";                 // 月〜木
+    if (day === 5) return "friday";   
+    if (day === 6) return "saturday"; 
+    if (day === 0) return "sunday";   
+    return "weekday";                 
   }
 
   async function loadUnyoData() {
+    const errDiv = document.getElementById("errorDisplay");
     try {
+      if(errDiv) errDiv.style.display = "none";
       const cacheBuster = `?_=${Date.now()}`;
       
       const resUnyo = await fetch("./today_unyo.json" + cacheBuster, {cache:"no-store"});
-      if(!resUnyo.ok) throw new Error("No unyo file");
+      if(!resUnyo.ok) throw new Error("本日の運用ファイル(today_unyo.json)が読み込めません。");
       rawUnyoData = await resUnyo.json();
 
       try {
         const resYosoku = await fetch("./tyunyoyosoku.json" + cacheBuster, {cache:"no-store"});
-        if(resYosoku.ok) rawYosokuData = await resYosoku.json();
+        if(!resYosoku.ok) {
+          throw new Error(`tyunyoyosoku.jsonの読み込みエラー (Status: ${resYosoku.status})`);
+        }
+        rawYosokuData = await resYosoku.json();
       } catch(e) {
         rawYosokuData = {};
+        if(errDiv) {
+          errDiv.textContent = `【警告】予測データの解析に失敗しました。原因: ${e.message}`;
+          errDiv.style.display = "block";
+        }
       }
 
       renderTable("toyoko");
@@ -241,6 +264,10 @@
       document.getElementById("toyokoTimestamp").textContent = tsText;
     } catch(e) {
       document.getElementById("toyokoNoData").style.display = "block";
+      if(errDiv) {
+        errDiv.textContent = `【エラー】${e.message}`;
+        errDiv.style.display = "block";
+      }
     }
   }
 
