@@ -189,7 +189,7 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.6.1</div>
+    <div class="version-tag">v1.6.2</div>
   </header>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
@@ -253,8 +253,8 @@
 
         const script = document.createElement("script");
         script.id = "yosokuScript";
-        // 日本語（元検など）の文字化けによるエラーを防止
         script.charset = "UTF-8";
+        // 読み込み先を .json から .js に変更
         script.src = "https://nfhanyo.web.fc2.com/tokyu/tyunyoyosoku.js" + cacheBuster;
         
         script.onload = () => resolve();
