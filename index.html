@@ -242,7 +242,7 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.9.3</div>
+    <div class="version-tag">v1.9.4</div>
   </header>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
@@ -259,7 +259,7 @@
 
     <div class="search-container">
       <input type="search" id="searchOp" class="search-input" placeholder="運番検索 (例: 01K)" aria-label="運用番号の検索">
-      <input type="search" id="searchForm" class="search-input" placeholder="編成検索 (例: 4101)" aria-label="編成 of 検索">
+      <input type="search" id="searchForm" class="search-input" placeholder="編成検索 (例: 4101)" aria-label="編成の検索">
     </div>
 
     <div class="table-container">
@@ -290,9 +290,7 @@
 
   if(archiveDateInput) {
     archiveDateInput.value = todayStr;
-    // アーカイブ開始日（2026-06-19）以降を選択可能にする
     archiveDateInput.min = "2026-06-19";
-    // 未来の日付は選択不可に制限
     archiveDateInput.max = todayStr;
   }
 
@@ -389,6 +387,11 @@
         const firstChar = noStr.charAt(0);
         if (["2", "3", "4", "5", "6"].includes(firstChar)) return false;
       }
+      
+      // 99G運用を除外するフィルタ
+      const opStr = t.op ? String(t.op).trim().toUpperCase() : "";
+      if (opStr === "99G") return false;
+
       return true;
     });
 
