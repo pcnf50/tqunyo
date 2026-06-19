@@ -189,7 +189,7 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.6.2</div>
+    <div class="version-tag">v1.7.0</div>
   </header>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
@@ -210,7 +210,7 @@
           <tr>
             <th style="width: 30%;" data-sort="op">運用</th>
             <th style="width: 40%;" data-sort="form">編成</th>
-            <th style="width: 30%;">明日予測</th>
+            <th style="width: 30%;">明日 ➔ 翌々日</th>
           </tr>
         </thead>
         <tbody id="toyokoTableBody"></tbody>
@@ -225,8 +225,11 @@
   let rawYosokuData = {};
   let sortState = { toyoko: { key: "op", asc: true } };
 
-  function getYosokuKey() {
-    const day = new Date().getDay(); 
+  // 指定された日数後の曜日キーを取得する関数
+  function getYosokuKey(offset = 1) {
+    const d = new Date();
+    d.setDate(d.getDate() + (offset - 1)); // 基準日を設定（offset=1なら今日基準、offset=2なら明日基準）
+    const day = d.getDay(); 
     if (day === 5) return "friday";   
     if (day === 6) return "saturday"; 
     if (day === 0) return "sunday";   
@@ -254,7 +257,6 @@
         const script = document.createElement("script");
         script.id = "yosokuScript";
         script.charset = "UTF-8";
-        // 読み込み先を .json から .js に変更
         script.src = "https://nfhanyo.web.fc2.com/tokyu/tyunyoyosoku.js" + cacheBuster;
         
         script.onload = () => resolve();
@@ -314,22 +316,55 @@
       return true;
     });
 
-    const currentKey = getYosokuKey();
-    const yosokuBlock = rawYosokuData[currentKey] || {};
+    // 今日➔明日、明日➔翌々日の各曜日ブロックを取得
+    const tomorrowKey = getYosokuKey(1);
+    const dayAfterTomorrowKey = getYosokuKey(2);
+    
+    const yosokuTomorrowBlock = rawYosokuData[tomorrowKey] || {};
+    const yosokuDayAfterBlock = rawYosokuData[dayAfterTomorrowKey] || {};
 
     list = list.map(t => {
       const op = (t.op || "").toUpperCase();
-      const pred = yosokuBlock[op];
-      let yosokuText = "-";
+      const predTomorrow = yosokuTomorrowBlock[op];
+      
+      let tomorrowArray = [];
+      let tomorrowText = "-";
 
-      if (pred) {
-        if (Array.isArray(pred)) {
-          yosokuText = pred.join(" / ");
-        } else {
-          yosokuText = pred;
+      if (predTomorrow) {
+        tomorrowArray = Array.isArray(predTomorrow) ? predTomorrow : [predTomorrow];
+        tomorrowText = tomorrowArray.join(" / ");
+      }
+
+      // 翌々日予測の計算
+      let dayAfterText = "-";
+      if (tomorrowArray.length > 0) {
+        let dayAfterArray = [];
+        
+        tomorrowArray.forEach(tomOp => {
+          const tomOpUpper = tomOp.trim().toUpperCase();
+          // 明日予測が「元検」なら翌々日は計算しない
+          if (tomOpUpper === "元検") return;
+
+          const predDayAfter = yosokuDayAfterBlock[tomOpUpper];
+          if (predDayAfter) {
+            if (Array.isArray(predDayAfter)) {
+              dayAfterArray.push(...predDayAfter);
+            } else {
+              dayAfterArray.push(predDayAfter);
+            }
+          }
+        });
+
+        if (dayAfterArray.length > 0) {
+          // 重複を削除して結合
+          dayAfterText = Array.from(new Set(dayAfterArray)).join(" / ");
         }
       }
-      return { ...t, yosoku: yosokuText };
+
+      // 明日 ➔ 翌々日 の表示形式を作成
+      const combinedYosoku = `${tomorrowText} ➔ ${dayAfterText}`;
+
+      return { ...t, yosoku: combinedYosoku };
     });
 
     const searchQuery = document.getElementById("searchBar") ? document.getElementById("searchBar").value.trim().toLowerCase() : "";
