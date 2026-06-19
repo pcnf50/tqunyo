@@ -1938,17 +1938,27 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:10"
+      "updated": "05:15"
+    },
+    {
+      "op": "03",
+      "form": "-",
+      "cars": "8",
+      "no": "203-051",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:15"
     },
     {
       "op": "85K",
       "form": "5178F",
       "cars": "8",
-      "no": "085-052",
-      "destCode": "武蔵小杉",
+      "no": "085-051",
+      "destCode": "菊名",
       "kind": "回",
       "delay": "",
-      "updated": "05:10"
+      "updated": "05:15"
     },
     {
       "op": "09K",
@@ -1958,7 +1968,7 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:10"
+      "updated": "05:15"
     },
     {
       "op": "57K",
@@ -1968,7 +1978,17 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "05:10"
+      "updated": "05:15"
+    },
+    {
+      "op": "03S",
+      "form": "17192F",
+      "cars": "8",
+      "no": "703-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:15"
     }
   ],
   "meguro": [
@@ -3953,6 +3973,16 @@
       "updated": "05:05"
     },
     {
+      "op": "2K",
+      "form": "5192F",
+      "cars": "8",
+      "no": "002-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:15"
+    },
+    {
       "op": "37K",
       "form": "3122F",
       "cars": "8",
@@ -3960,7 +3990,7 @@
       "destCode": "目黒",
       "kind": "普",
       "delay": "",
-      "updated": "05:10"
+      "updated": "05:15"
     },
     {
       "op": "26K",
@@ -3970,9 +4000,29 @@
       "destCode": "相鉄線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:10"
+      "updated": "05:15"
+    },
+    {
+      "op": "38S",
+      "form": "9112F",
+      "cars": "8",
+      "no": "338-051",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:15"
+    },
+    {
+      "op": "21T",
+      "form": "6325F",
+      "cars": "6",
+      "no": "421-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:15"
     }
   ],
-  "lastUpdate": "05:10",
+  "lastUpdate": "05:15",
   "date": "2026-06-20"
 }
