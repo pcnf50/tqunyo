@@ -1911,8 +1911,18 @@
       "kind": "Ｆ",
       "delay": "",
       "updated": "14:05"
+    },
+    {
+      "op": "99",
+      "form": "-",
+      "cars": "0",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "14:10"
     }
   ],
-  "lastUpdate": "14:05",
+  "lastUpdate": "14:10",
   "date": "2026-06-19"
 }
