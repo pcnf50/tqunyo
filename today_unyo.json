@@ -3411,8 +3411,18 @@
       "kind": "急",
       "delay": "",
       "updated": "21:35"
+    },
+    {
+      "op": "33",
+      "form": "-",
+      "cars": "10",
+      "no": "733-211",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "21:45"
     }
   ],
-  "lastUpdate": "21:40",
+  "lastUpdate": "21:45",
   "date": "2026-06-19"
 }
