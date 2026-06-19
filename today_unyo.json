@@ -638,7 +638,27 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "12:30"
+      "updated": "12:35"
+    },
+    {
+      "op": "60",
+      "form": "-",
+      "cars": "6",
+      "no": "360-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:35"
+    },
+    {
+      "op": "15S",
+      "form": "17189F",
+      "cars": "8",
+      "no": "715-121",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:35"
     },
     {
       "op": "08K",
@@ -648,17 +668,17 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "12:30"
+      "updated": "12:35"
     },
     {
       "op": "95G",
-      "form": "-",
+      "form": "20102F",
       "cars": "10",
       "no": "995-122",
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "12:30"
+      "updated": "12:35"
     }
   ],
   "meguro": [
@@ -1220,7 +1240,27 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "12:30"
+      "updated": "12:35"
+    },
+    {
+      "op": "02",
+      "form": "-",
+      "cars": "8",
+      "no": "702-122",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:35"
+    },
+    {
+      "op": "29",
+      "form": "-",
+      "cars": "10",
+      "no": "729-121",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "12:35"
     },
     {
       "op": "25K",
@@ -1230,7 +1270,7 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "12:30"
+      "updated": "12:35"
     },
     {
       "op": "68S",
@@ -1240,17 +1280,7 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "12:30"
-    },
-    {
-      "op": "99",
-      "form": "-",
-      "cars": "0",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "各駅停車",
-      "delay": "",
-      "updated": "12:30"
+      "updated": "12:35"
     },
     {
       "op": "23K",
@@ -1260,7 +1290,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "12:30"
+      "updated": "12:35"
     },
     {
       "op": "29K",
@@ -1269,8 +1299,8 @@
       "no": "029-112",
       "destCode": "渋谷",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "12:30"
+      "delay": "",
+      "updated": "12:35"
     },
     {
       "op": "95",
@@ -1280,9 +1310,9 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "12:30"
+      "updated": "12:35"
     }
   ],
-  "lastUpdate": "12:30",
+  "lastUpdate": "12:35",
   "date": "2026-06-19"
 }
