@@ -112,7 +112,6 @@
       background: #e2e8f0;
     }
 
-    /* 「今日に戻る」用のボタンスタイル */
     .today-back-btn {
       font-size: 13px;
       font-weight: 700;
@@ -243,7 +242,7 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.9.1</div>
+    <div class="version-tag">v1.9.3</div>
   </header>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
@@ -260,7 +259,7 @@
 
     <div class="search-container">
       <input type="search" id="searchOp" class="search-input" placeholder="運番検索 (例: 01K)" aria-label="運用番号の検索">
-      <input type="search" id="searchForm" class="search-input" placeholder="編成検索 (例: 4101)" aria-label="編成の検索">
+      <input type="search" id="searchForm" class="search-input" placeholder="編成検索 (例: 4101)" aria-label="編成 of 検索">
     </div>
 
     <div class="table-container">
@@ -291,7 +290,9 @@
 
   if(archiveDateInput) {
     archiveDateInput.value = todayStr;
-    // カレンダーの選択上限を「今日」までに制限（未来を選択不可に）
+    // アーカイブ開始日（2026-06-19）以降を選択可能にする
+    archiveDateInput.min = "2026-06-19";
+    // 未来の日付は選択不可に制限
     archiveDateInput.max = todayStr;
   }
 
@@ -585,7 +586,6 @@
     archiveDateInput.addEventListener("change", loadData);
   }
 
-  // 「今日に戻る」ボタンタップ時の処理
   if (backToTodayBtn) {
     backToTodayBtn.addEventListener("click", () => {
       if (archiveDateInput) {
