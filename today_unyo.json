@@ -1129,6 +1129,16 @@
       "kind": "急",
       "delay": "",
       "updated": "17:05"
+    },
+    {
+      "op": "48",
+      "form": "-",
+      "cars": "8",
+      "no": "248-172",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:15"
     }
   ],
   "meguro": [
@@ -2330,9 +2340,29 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "17:10"
+      "updated": "17:15"
+    },
+    {
+      "op": "48K",
+      "form": "3123F",
+      "cars": "8",
+      "no": "248-172",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:15"
+    },
+    {
+      "op": "07K",
+      "form": "3122F",
+      "cars": "8",
+      "no": "207-171",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "17:15"
     }
   ],
-  "lastUpdate": "17:10",
+  "lastUpdate": "17:15",
   "date": "2026-06-19"
 }
