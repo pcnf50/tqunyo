@@ -93,7 +93,11 @@
       background: #e2e8f0;
     }
 
+    /* 検索ボックスの2並び用コンテナ */
     .search-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
       margin-bottom: 12px;
       padding: 0 4px;
     }
@@ -101,8 +105,8 @@
     .search-input {
       width: 100%;
       box-sizing: border-box;
-      font-size: 15px;
-      padding: 10px 14px;
+      font-size: 14px;
+      padding: 10px 12px;
       border-radius: 8px;
       border: 1px solid var(--border-color);
       background: var(--card-bg);
@@ -168,7 +172,7 @@
     .yosoku-val {
       font-weight: 700;
       color: var(--text-main);
-      white-space: nowrap; /* 余計な改行を防ぎ1行に収める設定 */
+      white-space: nowrap;
     }
 
     .no-data { padding: 40px 16px; text-align: center; color: var(--text-sub); font-size: 14px; }
@@ -190,7 +194,7 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.7.1</div>
+    <div class="version-tag">v1.8.0</div>
   </header>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
@@ -202,7 +206,8 @@
     </div>
 
     <div class="search-container">
-      <input type="search" id="searchBar" class="search-input" placeholder="運用番号、編成、予測で絞り込み..." aria-label="運用の検索">
+      <input type="search" id="searchOp" class="search-input" placeholder="運番検索 (例: 01K)" aria-label="運用番号の検索">
+      <input type="search" id="searchForm" class="search-input" placeholder="編成検索 (例: 4101)" aria-label="編成の検索">
     </div>
 
     <div class="table-container">
@@ -357,20 +362,20 @@
         }
       }
 
-      // ➔ の前後のスペースを詰め、改行を取り除く形式に変更
       const combinedYosoku = `${tomorrowText}➔${dayAfterText}`;
 
       return { ...t, yosoku: combinedYosoku };
     });
 
-    const searchQuery = document.getElementById("searchBar") ? document.getElementById("searchBar").value.trim().toLowerCase() : "";
-    if (searchQuery) {
-      list = list.filter(t => {
-        const opStr = (t.op || "").toLowerCase();
-        const formStr = (t.form || "").toLowerCase();
-        const yosokuStr = (t.yosoku || "").toLowerCase();
-        return opStr.includes(searchQuery) || formStr.includes(searchQuery) || yosokuStr.includes(searchQuery);
-      });
+    // 運番検索と編成検索の個別処理
+    const queryOp = document.getElementById("searchOp") ? document.getElementById("searchOp").value.trim().toLowerCase() : "";
+    const queryForm = document.getElementById("searchForm") ? document.getElementById("searchForm").value.trim().toLowerCase() : "";
+
+    if (queryOp) {
+      list = list.filter(t => (t.op || "").toLowerCase().includes(queryOp));
+    }
+    if (queryForm) {
+      list = list.filter(t => (t.form || "").toLowerCase().includes(queryForm));
     }
 
     if(list.length === 0) {
@@ -451,10 +456,11 @@
     });
   });
 
-  const searchBar = document.getElementById("searchBar");
-  if (searchBar) {
-    searchBar.addEventListener("input", () => renderTable("toyoko"));
-  }
+  // 両方の入力ボックスにイベントを設定
+  const searchOp = document.getElementById("searchOp");
+  const searchForm = document.getElementById("searchForm");
+  if (searchOp) searchOp.addEventListener("input", () => renderTable("toyoko"));
+  if (searchForm) searchForm.addEventListener("input", () => renderTable("toyoko"));
 
   const refreshToyoko = document.getElementById("refreshToyoko");
   if(refreshToyoko) refreshToyoko.onclick = loadUnyoData;
