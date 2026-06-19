@@ -59,12 +59,32 @@
       justify-content: space-between;
       margin-bottom: 10px;
       padding: 0 4px;
+      gap: 8px;
     }
 
     .timestamp { 
       font-size: 12px; 
       color: var(--text-sub); 
       font-weight: 600; 
+    }
+
+    /* 日付選択と更新ボタンの右側グループ */
+    .control-group {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .date-input {
+      font-size: 13px;
+      font-weight: 700;
+      padding: 5px 8px;
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+      background: var(--card-bg);
+      color: var(--text-main);
+      min-height: 36px;
+      box-sizing: border-box;
     }
     
     .refresh-btn {
@@ -93,7 +113,6 @@
       background: #e2e8f0;
     }
 
-    /* 検索ボックスの2並び用コンテナ */
     .search-container {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -175,6 +194,11 @@
       white-space: nowrap;
     }
 
+    .changed-form {
+      color: var(--toyoko);
+      font-weight: 700;
+    }
+
     .no-data { padding: 40px 16px; text-align: center; color: var(--text-sub); font-size: 14px; }
     
     .error-notice {
@@ -194,7 +218,7 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.8.0</div>
+    <div class="version-tag">v1.9.0</div>
   </header>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
@@ -202,7 +226,10 @@
   <section id="toyokoPanel" class="line-panel panel-toyoko">
     <div class="top-bar">
       <div class="timestamp" id="toyokoTimestamp"></div>
-      <button class="refresh-btn" id="refreshToyoko">更新</button>
+      <div class="control-group">
+        <input type="date" id="archiveDate" class="date-input" aria-label="日付選択">
+        <button class="refresh-btn" id="refreshToyoko">更新</button>
+      </div>
     </div>
 
     <div class="search-container">
@@ -216,7 +243,7 @@
           <tr>
             <th style="width: 30%;" data-sort="op">運用</th>
             <th style="width: 40%;" data-sort="form">編成</th>
-            <th style="width: 30%;">明日 ➔ 翌々日</th>
+            <th style="width: 30%;" id="yosokuHeaderTitle">明日 ➔ 翌々日</th>
           </tr>
         </thead>
         <tbody id="toyokoTableBody"></tbody>
@@ -230,9 +257,15 @@
   let rawUnyoData = {};
   let rawYosokuData = {};
   let sortState = { toyoko: { key: "op", asc: true } };
+  let autoRefreshInterval = null;
 
-  function getYosokuKey(offset = 1) {
-    const d = new Date();
+  // 今日の日付(yyyy-mm-dd)を取得して初期設定
+  const todayStr = new Date().toLocaleDateString('sv-SE');
+  const archiveDateInput = document.getElementById("archiveDate");
+  if(archiveDateInput) archiveDateInput.value = todayStr;
+
+  function getYosokuKey(offset = 1, baseDate = new Date()) {
+    const d = new Date(baseDate.getTime());
     d.setDate(d.getDate() + (offset - 1)); 
     const day = d.getDay(); 
     if (day === 5) return "friday";   
@@ -245,37 +278,64 @@
     rawYosokuData = data;
   };
 
-  async function loadUnyoData() {
+  async function loadData() {
     const errDiv = document.getElementById("errorDisplay");
+    const refreshBtn = document.getElementById("refreshToyoko");
+    const yosokuHeader = document.getElementById("yosokuHeaderTitle");
+    const selectedDate = archiveDateInput ? archiveDateInput.value : todayStr;
+    
     try {
       if(errDiv) errDiv.style.display = "none";
       const cacheBuster = `?_=${Date.now()}`;
-      
-      const resUnyo = await fetch("./today_unyo.json" + cacheBuster, {cache:"no-store"});
-      if(!resUnyo.ok) throw new Error("本日の運用ファイル(today_unyo.json)が読み込めません。");
-      rawUnyoData = await resUnyo.json();
 
-      await new Promise((resolve, reject) => {
-        const oldScript = document.getElementById("yosokuScript");
-        if(oldScript) oldScript.remove();
+      // 選択された日付が「今日」の場合の通常処理
+      if (selectedDate === todayStr) {
+        if(refreshBtn) refreshBtn.style.display = "inline-flex";
+        if(yosokuHeader) yosokuHeader.textContent = "明日 ➔ 翌々日";
 
-        const script = document.createElement("script");
-        script.id = "yosokuScript";
-        script.charset = "UTF-8";
-        script.src = "https://nfhanyo.web.fc2.com/tokyu/tyunyoyosoku.js" + cacheBuster;
-        
-        script.onload = () => resolve();
-        script.onerror = () => {
-          rawYosokuData = {};
-          reject(new Error("予測データの通信に失敗しました(404またはネットワークエラー)"));
-        };
-        document.body.appendChild(script);
-      });
+        const resUnyo = await fetch("./today_unyo.json" + cacheBuster, {cache:"no-store"});
+        if(!resUnyo.ok) throw new Error("本日の運用ファイル(today_unyo.json)が読み込めません。");
+        rawUnyoData = await resUnyo.json();
+
+        await new Promise((resolve, reject) => {
+          const oldScript = document.getElementById("yosokuScript");
+          if(oldScript) oldScript.remove();
+
+          const script = document.createElement("script");
+          script.id = "yosokuScript";
+          script.charset = "UTF-8";
+          script.src = "https://nfhanyo.web.fc2.com/tokyu/tyunyoyosoku.js" + cacheBuster;
+          
+          script.onload = () => resolve();
+          script.onerror = () => {
+            rawYosokuData = {};
+            reject(new Error("予測データの通信に失敗しました(404またはネットワークエラー)"));
+          };
+          document.body.appendChild(script);
+        });
+
+        const tsText = `本日分データ (${rawUnyoData.lastUpdate || ""} 時点)`;
+        document.getElementById("toyokoTimestamp").textContent = tsText;
+
+        // 自動更新を再開
+        startTimer();
+
+      } else {
+        // 「過去のアーカイブ」を読み込む場合の処理
+        if(refreshBtn) refreshBtn.style.display = "none";
+        if(yosokuHeader) yosokuHeader.textContent = "予測データ";
+        // 自動更新タイマーを停止
+        stopTimer();
+
+        const resArchive = await fetch(`./archive/${selectedDate}.json` + cacheBuster, {cache:"no-store"});
+        if(!resArchive.ok) throw new Error(`${selectedDate} のアーカイブデータが見つかりません。`);
+        rawUnyoData = await resArchive.json();
+        rawYosokuData = {}; // 過去データ表示時はFC2予測は空にする
+
+        document.getElementById("toyokoTimestamp").textContent = `${selectedDate} の実績データ`;
+      }
 
       renderTable("toyoko");
-
-      const tsText = `本日分データ (${rawUnyoData.lastUpdate || ""} 時点)`;
-      document.getElementById("toyokoTimestamp").textContent = tsText;
     } catch(e) {
       renderTable("toyoko");
       if(errDiv) {
@@ -321,16 +381,24 @@
       return true;
     });
 
-    const tomorrowKey = getYosokuKey(1);
-    const dayAfterTomorrowKey = getYosokuKey(2);
+    const selectedDate = archiveDateInput ? archiveDateInput.value : todayStr;
+    const baseDate = new Date(selectedDate);
+
+    const tomorrowKey = getYosokuKey(1, baseDate);
+    const dayAfterTomorrowKey = getYosokuKey(2, baseDate);
     
     const yosokuTomorrowBlock = rawYosokuData[tomorrowKey] || {};
     const yosokuDayAfterBlock = rawYosokuData[dayAfterTomorrowKey] || {};
 
     list = list.map(t => {
       const op = (t.op || "").toUpperCase();
-      const predTomorrow = yosokuTomorrowBlock[op];
       
+      // アーカイブデータ側にもともと予測値が文字列として記録されている場合はそれを優先
+      if (selectedDate !== todayStr && t.yosoku) {
+        return t;
+      }
+
+      const predTomorrow = yosokuTomorrowBlock[op];
       let tomorrowArray = [];
       let tomorrowText = "-";
 
@@ -363,11 +431,9 @@
       }
 
       const combinedYosoku = `${tomorrowText}➔${dayAfterText}`;
-
       return { ...t, yosoku: combinedYosoku };
     });
 
-    // 運番検索と編成検索の個別処理
     const queryOp = document.getElementById("searchOp") ? document.getElementById("searchOp").value.trim().toLowerCase() : "";
     const queryForm = document.getElementById("searchForm") ? document.getElementById("searchForm").value.trim().toLowerCase() : "";
 
@@ -416,12 +482,25 @@
       }
     });
 
+    const opRenderedCount = {};
+
     list.forEach(t => {
+      const opKey = (t.op || "").toUpperCase();
+      
+      if (opRenderedCount[opKey] === undefined) {
+        opRenderedCount[opKey] = 0;
+      } else {
+        opRenderedCount[opKey]++;
+      }
+
+      const isChanged = opRenderedCount[opKey] > 0;
+      const formClass = isChanged ? ' class="changed-form"' : '';
+
       const tr = document.createElement("tr");
       tr.innerHTML = `
         <td><b>${t.op}</b></td>
-        <td>${t.form}</td>
-        <td class="yosoku-val">${t.yosoku}</td>
+        <td${formClass}>${t.form}</td>
+        <td class="yosoku-val">${t.yosoku || "-"}</td>
       `;
       tbody.appendChild(tr);
     });
@@ -440,6 +519,19 @@
     });
   }
 
+  function startTimer() {
+    if (!autoRefreshInterval) {
+      autoRefreshInterval = setInterval(loadData, 10000);
+    }
+  }
+
+  function stopTimer() {
+    if (autoRefreshInterval) {
+      clearInterval(autoRefreshInterval);
+      autoRefreshInterval = null;
+    }
+  }
+
   document.querySelectorAll("th[data-sort]").forEach(th => {
     th.addEventListener("click", () => {
       const section = th.closest("section");
@@ -456,17 +548,19 @@
     });
   });
 
-  // 両方の入力ボックスにイベントを設定
   const searchOp = document.getElementById("searchOp");
   const searchForm = document.getElementById("searchForm");
   if (searchOp) searchOp.addEventListener("input", () => renderTable("toyoko"));
   if (searchForm) searchForm.addEventListener("input", () => renderTable("toyoko"));
 
-  const refreshToyoko = document.getElementById("refreshToyoko");
-  if(refreshToyoko) refreshToyoko.onclick = loadUnyoData;
+  if (archiveDateInput) {
+    archiveDateInput.addEventListener("change", loadData);
+  }
 
-  loadUnyoData();
-  setInterval(loadUnyoData, 10000);
+  const refreshToyoko = document.getElementById("refreshToyoko");
+  if(refreshToyoko) refreshToyoko.onclick = loadData;
+
+  loadData();
 </script>
 </body>
 </html>
