@@ -1091,8 +1091,18 @@
       "kind": "普",
       "delay": "",
       "updated": "07:10"
+    },
+    {
+      "op": "71",
+      "form": "-",
+      "cars": "10",
+      "no": "171-071",
+      "destCode": "元町・中華街",
+      "kind": "回",
+      "delay": "",
+      "updated": "07:15"
     }
   ],
-  "lastUpdate": "07:10",
+  "lastUpdate": "07:15",
   "date": "2026-06-20"
 }
