@@ -319,6 +319,66 @@
       "kind": "急",
       "delay": "",
       "updated": "11:35"
+    },
+    {
+      "op": "87S",
+      "form": "17102F",
+      "cars": "10",
+      "no": "787-111",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "11:40"
+    },
+    {
+      "op": "19T",
+      "form": "9106F",
+      "cars": "10",
+      "no": "819-112",
+      "destCode": "副都心線直通",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "11:40"
+    },
+    {
+      "op": "05K",
+      "form": "Y517F",
+      "cars": "8",
+      "no": "005-112",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:40"
+    },
+    {
+      "op": "21",
+      "form": "-",
+      "cars": "6",
+      "no": "421-112",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:40"
+    },
+    {
+      "op": "13",
+      "form": "-",
+      "cars": "8",
+      "no": "213-111",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "11:40"
+    },
+    {
+      "op": "01",
+      "form": "-",
+      "cars": "8",
+      "no": "201-112",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "11:40"
     }
   ],
   "meguro": [
@@ -521,8 +581,48 @@
       "kind": "急",
       "delay": "",
       "updated": "11:35"
+    },
+    {
+      "op": "60G",
+      "form": "-",
+      "cars": "10",
+      "no": "060-112",
+      "destCode": "副都心線直通",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "11:40"
+    },
+    {
+      "op": "12",
+      "form": "-",
+      "cars": "8",
+      "no": "012-111",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:40"
+    },
+    {
+      "op": "21T",
+      "form": "6330F",
+      "cars": "6",
+      "no": "421-112",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:40"
+    },
+    {
+      "op": "01K",
+      "form": "5185F",
+      "cars": "8",
+      "no": "201-112",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "11:40"
     }
   ],
-  "lastUpdate": "11:35",
+  "lastUpdate": "11:40",
   "date": "2026-06-19"
 }
