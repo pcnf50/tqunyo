@@ -3938,8 +3938,18 @@
       "kind": "急",
       "delay": "",
       "updated": "22:55"
+    },
+    {
+      "op": "06K",
+      "form": "-",
+      "cars": "8",
+      "no": "206-232",
+      "destCode": "武蔵小山",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:05"
     }
   ],
-  "lastUpdate": "23:00",
+  "lastUpdate": "23:05",
   "date": "2026-06-20"
 }
