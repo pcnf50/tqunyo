@@ -2080,6 +2080,26 @@
       "updated": "05:15"
     },
     {
+      "op": "04S",
+      "form": "17193F",
+      "cars": "8",
+      "no": "704-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
+      "op": "58K",
+      "form": "4111F",
+      "cars": "10",
+      "no": "058-051",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
       "op": "12K",
       "form": "5178F",
       "cars": "8",
@@ -2087,7 +2107,37 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:20"
+      "updated": "05:25"
+    },
+    {
+      "op": "07K",
+      "form": "-",
+      "cars": "0",
+      "no": "007-052",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
+      "op": "99G",
+      "form": "5165F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
+      "op": "26",
+      "form": "-",
+      "cars": "8",
+      "no": "226-051",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
     }
   ],
   "meguro": [
@@ -4387,8 +4437,18 @@
       "kind": "普",
       "delay": "",
       "updated": "05:15"
+    },
+    {
+      "op": "06K",
+      "form": "3122F",
+      "cars": "8",
+      "no": "206-051",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
     }
   ],
-  "lastUpdate": "05:20",
+  "lastUpdate": "05:25",
   "date": "2026-06-21"
 }
