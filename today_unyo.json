@@ -2361,8 +2361,18 @@
       "kind": "普",
       "delay": "",
       "updated": "09:35"
+    },
+    {
+      "op": "37G",
+      "form": "-",
+      "cars": "0",
+      "no": "637-092",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:40"
     }
   ],
-  "lastUpdate": "09:35",
+  "lastUpdate": "09:40",
   "date": "2026-06-20"
 }
