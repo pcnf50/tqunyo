@@ -3720,16 +3720,26 @@
       "updated": "20:35"
     },
     {
-      "op": "29K",
-      "form": "-",
-      "cars": "8",
-      "no": "229-202",
-      "destCode": "三田線直通",
-      "kind": "急",
+      "op": "68S",
+      "form": "9121F",
+      "cars": "6",
+      "no": "368-201",
+      "destCode": "元住吉",
+      "kind": "普",
       "delay": "",
-      "updated": "20:40"
+      "updated": "20:45"
+    },
+    {
+      "op": "43T",
+      "form": "-",
+      "cars": "0",
+      "no": "443-201",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
     }
   ],
-  "lastUpdate": "20:40",
+  "lastUpdate": "20:45",
   "date": "2026-06-20"
 }
