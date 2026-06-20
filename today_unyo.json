@@ -2741,8 +2741,18 @@
       "kind": "急",
       "delay": "",
       "updated": "11:10"
+    },
+    {
+      "op": "21T",
+      "form": "6325F",
+      "cars": "6",
+      "no": "421-111",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:35"
     }
   ],
-  "lastUpdate": "11:30",
+  "lastUpdate": "11:35",
   "date": "2026-06-20"
 }
