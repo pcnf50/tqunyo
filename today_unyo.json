@@ -2711,8 +2711,28 @@
       "kind": "普",
       "delay": "",
       "updated": "11:00"
+    },
+    {
+      "op": "61",
+      "form": "-",
+      "cars": "10",
+      "no": "761-101",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "11:10"
+    },
+    {
+      "op": "25K",
+      "form": "-",
+      "cars": "8",
+      "no": "225-112",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "11:10"
     }
   ],
-  "lastUpdate": "11:05",
+  "lastUpdate": "11:10",
   "date": "2026-06-20"
 }
