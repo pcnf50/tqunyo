@@ -242,7 +242,7 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.9.4</div>
+    <div class="version-tag">v1.9.5</div>
   </header>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
@@ -388,9 +388,9 @@
         if (["2", "3", "4", "5", "6"].includes(firstChar)) return false;
       }
       
-      // 99G運用を除外するフィルタ
+      // 「99」から始まるすべての運用を除外するフィルタ
       const opStr = t.op ? String(t.op).trim().toUpperCase() : "";
-      if (opStr === "99G") return false;
+      if (opStr.startsWith("99")) return false;
 
       return true;
     });
