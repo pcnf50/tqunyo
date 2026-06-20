@@ -1967,7 +1967,7 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50"
+      "updated": "04:55"
     },
     {
       "op": "02K",
@@ -1977,7 +1977,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "04:50"
+      "updated": "04:55"
     },
     {
       "op": "05K",
@@ -1987,17 +1987,27 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "04:50"
+      "updated": "04:55"
     },
     {
-      "op": "99G",
+      "op": "08K",
       "form": "Y514F",
       "cars": "8",
-      "no": "999-000",
-      "destCode": "",
-      "kind": "不明",
+      "no": "008-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
       "delay": "",
-      "updated": "04:50"
+      "updated": "04:55"
+    },
+    {
+      "op": "01",
+      "form": "-",
+      "cars": "8",
+      "no": "201-051",
+      "destCode": "新横浜",
+      "kind": "回",
+      "delay": "",
+      "updated": "04:55"
     }
   ],
   "meguro": [
@@ -4156,7 +4166,7 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50"
+      "updated": "04:55"
     },
     {
       "op": "09K",
@@ -4166,7 +4176,7 @@
       "destCode": "相鉄線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50"
+      "updated": "04:55"
     },
     {
       "op": "11K",
@@ -4176,7 +4186,7 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50"
+      "updated": "04:55"
     },
     {
       "op": "15K",
@@ -4186,19 +4196,29 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50"
+      "updated": "04:55"
     },
     {
-      "op": "99",
+      "op": "03K",
       "form": "3112F",
       "cars": "8",
-      "no": "999-000",
-      "destCode": "",
-      "kind": "各駅停車",
+      "no": "203-051",
+      "destCode": "新横浜",
+      "kind": "普",
       "delay": "",
-      "updated": "04:50"
+      "updated": "04:55"
+    },
+    {
+      "op": "01K",
+      "form": "5184F",
+      "cars": "8",
+      "no": "201-051",
+      "destCode": "新横浜",
+      "kind": "回",
+      "delay": "",
+      "updated": "04:55"
     }
   ],
-  "lastUpdate": "04:50",
+  "lastUpdate": "04:55",
   "date": "2026-06-21"
 }
