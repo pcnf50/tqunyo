@@ -4067,8 +4067,18 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "00:30"
+    },
+    {
+      "op": "40K",
+      "form": "3102F",
+      "cars": "8",
+      "no": "240-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "00:35"
     }
   ],
-  "lastUpdate": "00:30",
+  "lastUpdate": "00:35",
   "date": "2026-06-21"
 }
