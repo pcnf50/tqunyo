@@ -719,6 +719,46 @@
       "kind": "急",
       "delay": "5分遅れ",
       "updated": "08:15"
+    },
+    {
+      "op": "16K",
+      "form": "5161F",
+      "cars": "8",
+      "no": "016-082",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "10分遅れ",
+      "updated": "08:20"
+    },
+    {
+      "op": "52K",
+      "form": "4109F",
+      "cars": "10",
+      "no": "052-081",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:20"
+    },
+    {
+      "op": "20",
+      "form": "-",
+      "cars": "8",
+      "no": "220-081",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:20"
+    },
+    {
+      "op": "03",
+      "form": "-",
+      "cars": "8",
+      "no": "203-082",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:20"
     }
   ],
   "meguro": [
@@ -1411,8 +1451,58 @@
       "kind": "急",
       "delay": "",
       "updated": "08:15"
+    },
+    {
+      "op": "4T",
+      "form": "-",
+      "cars": "8",
+      "no": "004-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:20"
+    },
+    {
+      "op": "16",
+      "form": "-",
+      "cars": "8",
+      "no": "016-082",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "10分遅れ",
+      "updated": "08:20"
+    },
+    {
+      "op": "39",
+      "form": "-",
+      "cars": "10",
+      "no": "739-081",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "08:20"
+    },
+    {
+      "op": "30S",
+      "form": "9117F",
+      "cars": "6",
+      "no": "330-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:20"
+    },
+    {
+      "op": "03K",
+      "form": "-",
+      "cars": "8",
+      "no": "203-082",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:20"
     }
   ],
-  "lastUpdate": "08:15",
+  "lastUpdate": "08:20",
   "date": "2026-06-21"
 }
