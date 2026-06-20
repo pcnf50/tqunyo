@@ -2307,7 +2307,7 @@
       "destCode": "元住吉",
       "kind": "特",
       "delay": "7分遅れ",
-      "updated": "06:20"
+      "updated": "06:25"
     },
     {
       "op": "17K",
@@ -2315,9 +2315,19 @@
       "cars": "8",
       "no": "017-062",
       "destCode": "副都心線直通",
-      "kind": "回",
+      "kind": "普",
       "delay": "",
-      "updated": "06:20"
+      "updated": "06:25"
+    },
+    {
+      "op": "22K",
+      "form": "5165F",
+      "cars": "8",
+      "no": "022-061",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "06:25"
     }
   ],
   "meguro": [
@@ -4737,8 +4747,18 @@
       "kind": "普",
       "delay": "",
       "updated": "06:15"
+    },
+    {
+      "op": "22K",
+      "form": "5186F",
+      "cars": "8",
+      "no": "222-061",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:25"
     }
   ],
-  "lastUpdate": "06:20",
+  "lastUpdate": "06:25",
   "date": "2026-06-21"
 }
