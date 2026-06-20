@@ -3239,18 +3239,8 @@
       "kind": "急",
       "delay": "",
       "updated": "17:20"
-    },
-    {
-      "op": "50S",
-      "form": "-",
-      "cars": "0",
-      "no": "350-171",
-      "destCode": "新横浜",
-      "kind": "普",
-      "delay": "",
-      "updated": "17:25"
     }
   ],
-  "lastUpdate": "17:25",
+  "lastUpdate": "17:30",
   "date": "2026-06-20"
 }
