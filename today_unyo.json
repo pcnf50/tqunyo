@@ -3878,8 +3878,18 @@
       "kind": "普",
       "delay": "",
       "updated": "22:15"
+    },
+    {
+      "op": "27K",
+      "form": "-",
+      "cars": "8",
+      "no": "227-222",
+      "destCode": "目黒",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:40"
     }
   ],
-  "lastUpdate": "22:35",
+  "lastUpdate": "22:40",
   "date": "2026-06-20"
 }
