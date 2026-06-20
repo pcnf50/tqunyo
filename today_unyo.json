@@ -457,8 +457,18 @@
       "no": "453-071",
       "destCode": "日吉",
       "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "07:45"
+    },
+    {
+      "op": "55",
+      "form": "-",
+      "cars": "8",
+      "no": "455-071",
+      "destCode": "日吉",
+      "kind": "普",
       "delay": "",
-      "updated": "07:40"
+      "updated": "07:45"
     },
     {
       "op": "08",
@@ -468,7 +478,7 @@
       "destCode": "相鉄線直通",
       "kind": "普",
       "delay": "",
-      "updated": "07:40"
+      "updated": "07:45"
     },
     {
       "op": "10M",
@@ -478,7 +488,17 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "07:40"
+      "updated": "07:45"
+    },
+    {
+      "op": "56K",
+      "form": "4110F",
+      "cars": "10",
+      "no": "056-071",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:45"
     },
     {
       "op": "60K",
@@ -487,8 +507,8 @@
       "no": "060-072",
       "destCode": "渋谷",
       "kind": "急",
-      "delay": "",
-      "updated": "07:40"
+      "delay": "4分遅れ",
+      "updated": "07:45"
     }
   ],
   "meguro": [
@@ -909,8 +929,48 @@
       "no": "704-071",
       "destCode": "元町・中華街",
       "kind": "普",
-      "delay": "2分遅れ",
-      "updated": "07:40"
+      "delay": "3分遅れ",
+      "updated": "07:45"
+    },
+    {
+      "op": "24",
+      "form": "-",
+      "cars": "10",
+      "no": "124-071",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "07:45"
+    },
+    {
+      "op": "09",
+      "form": "-",
+      "cars": "8",
+      "no": "709-072",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "11分遅れ",
+      "updated": "07:45"
+    },
+    {
+      "op": "15",
+      "form": "-",
+      "cars": "8",
+      "no": "015-071",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "07:45"
+    },
+    {
+      "op": "27K",
+      "form": "5181F",
+      "cars": "8",
+      "no": "227-071",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:45"
     },
     {
       "op": "60G",
@@ -919,10 +979,10 @@
       "no": "060-072",
       "destCode": "渋谷",
       "kind": "急",
-      "delay": "",
-      "updated": "07:40"
+      "delay": "4分遅れ",
+      "updated": "07:45"
     }
   ],
-  "lastUpdate": "07:40",
+  "lastUpdate": "07:45",
   "date": "2026-06-21"
 }
