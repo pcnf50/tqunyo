@@ -4049,6 +4049,16 @@
       "updated": "00:20"
     },
     {
+      "op": "35K",
+      "form": "3101F",
+      "cars": "8",
+      "no": "235-242",
+      "destCode": "奥沢",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:30"
+    },
+    {
       "op": "99",
       "form": "6326F",
       "cars": "6",
@@ -4056,19 +4066,9 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "00:25"
-    },
-    {
-      "op": "35K",
-      "form": "3101F",
-      "cars": "8",
-      "no": "235-242",
-      "destCode": "奥沢",
-      "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "00:25"
+      "updated": "00:30"
     }
   ],
-  "lastUpdate": "00:25",
+  "lastUpdate": "00:30",
   "date": "2026-06-21"
 }
