@@ -3559,8 +3559,28 @@
       "kind": "普",
       "delay": "",
       "updated": "19:05"
+    },
+    {
+      "op": "98K",
+      "form": "-",
+      "cars": "0",
+      "no": "298-191",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "19:10"
+    },
+    {
+      "op": "49",
+      "form": "-",
+      "cars": "10",
+      "no": "749-182",
+      "destCode": "副都心線直通",
+      "kind": "特",
+      "delay": "",
+      "updated": "19:10"
     }
   ],
-  "lastUpdate": "19:05",
+  "lastUpdate": "19:10",
   "date": "2026-06-20"
 }
