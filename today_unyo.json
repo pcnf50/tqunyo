@@ -1709,6 +1709,16 @@
       "kind": "急",
       "delay": "",
       "updated": "18:30"
+    },
+    {
+      "op": "63K",
+      "form": "-",
+      "cars": "10",
+      "no": "063-182",
+      "destCode": "渋谷",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:35"
     }
   ],
   "meguro": [
@@ -3461,6 +3471,6 @@
       "updated": "18:20"
     }
   ],
-  "lastUpdate": "18:30",
+  "lastUpdate": "18:35",
   "date": "2026-06-20"
 }
