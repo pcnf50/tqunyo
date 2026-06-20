@@ -1929,6 +1929,16 @@
       "kind": "急",
       "delay": "",
       "updated": "23:15"
+    },
+    {
+      "op": "45S",
+      "form": "10105F",
+      "cars": "10",
+      "no": "745-231",
+      "destCode": "横浜",
+      "kind": "特",
+      "delay": "",
+      "updated": "23:25"
     }
   ],
   "meguro": [
@@ -3960,6 +3970,6 @@
       "updated": "23:05"
     }
   ],
-  "lastUpdate": "23:20",
+  "lastUpdate": "23:25",
   "date": "2026-06-20"
 }
