@@ -2631,8 +2631,18 @@
       "kind": "Ｓ",
       "delay": "",
       "updated": "10:30"
+    },
+    {
+      "op": "31K",
+      "form": "-",
+      "cars": "8",
+      "no": "231-102",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "10:40"
     }
   ],
-  "lastUpdate": "10:35",
+  "lastUpdate": "10:40",
   "date": "2026-06-20"
 }
