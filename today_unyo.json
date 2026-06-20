@@ -3928,8 +3928,18 @@
       "kind": "急",
       "delay": "",
       "updated": "22:50"
+    },
+    {
+      "op": "13K",
+      "form": "5181F",
+      "cars": "8",
+      "no": "213-222",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "22:55"
     }
   ],
-  "lastUpdate": "22:50",
+  "lastUpdate": "22:55",
   "date": "2026-06-20"
 }
