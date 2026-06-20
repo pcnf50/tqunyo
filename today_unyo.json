@@ -3718,8 +3718,18 @@
       "kind": "急",
       "delay": "",
       "updated": "20:35"
+    },
+    {
+      "op": "29K",
+      "form": "-",
+      "cars": "8",
+      "no": "229-202",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:40"
     }
   ],
-  "lastUpdate": "20:35",
+  "lastUpdate": "20:40",
   "date": "2026-06-20"
 }
