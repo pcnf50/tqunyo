@@ -1,4 +1,7 @@
 # 東横線運用表自動生成ツール
 
-現在テスト中
-https://pcnf50.github.io/tqunyo/
+自動で車両データを取得し、運用表を作成します。
+
+### サイト
+* 現在テスト中
+* https://pcnf50.github.io/tqunyo/
