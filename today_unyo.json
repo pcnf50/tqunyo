@@ -3778,8 +3778,28 @@
       "kind": "回",
       "delay": "",
       "updated": "21:00"
+    },
+    {
+      "op": "47",
+      "form": "-",
+      "cars": "10",
+      "no": "747-201",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "21:05"
+    },
+    {
+      "op": "42K",
+      "form": "3103F",
+      "cars": "8",
+      "no": "242-212",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "21:05"
     }
   ],
-  "lastUpdate": "21:00",
+  "lastUpdate": "21:05",
   "date": "2026-06-20"
 }
