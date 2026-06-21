@@ -1766,9 +1766,9 @@
       "cars": "6",
       "no": "467-221",
       "destCode": "元住吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "22:20"
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "22:25"
     }
   ],
   "meguro": [
@@ -3603,6 +3603,6 @@
       "updated": "22:15"
     }
   ],
-  "lastUpdate": "22:20",
+  "lastUpdate": "22:25",
   "date": "2026-06-21"
 }
