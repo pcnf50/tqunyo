@@ -249,6 +249,46 @@
       "kind": "普",
       "delay": "",
       "updated": "05:25"
+    },
+    {
+      "op": "57K",
+      "form": "4113F",
+      "cars": "10",
+      "no": "057-052",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:30"
+    },
+    {
+      "op": "21",
+      "form": "-",
+      "cars": "6",
+      "no": "421-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:30"
+    },
+    {
+      "op": "28K",
+      "form": "5174F",
+      "cars": "8",
+      "no": "028-052",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:30"
+    },
+    {
+      "op": "09K",
+      "form": "5161F",
+      "cars": "8",
+      "no": "009-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:30"
     }
   ],
   "meguro": [
@@ -481,8 +521,58 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "05:25"
+    },
+    {
+      "op": "57M",
+      "form": "-",
+      "cars": "10",
+      "no": "057-052",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:30"
+    },
+    {
+      "op": "37T",
+      "form": "6504F",
+      "cars": "8",
+      "no": "437-051",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "05:30"
+    },
+    {
+      "op": "88K",
+      "form": "-",
+      "cars": "0",
+      "no": "288-051",
+      "destCode": "日吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:30"
+    },
+    {
+      "op": "03",
+      "form": "-",
+      "cars": "8",
+      "no": "703-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:30"
+    },
+    {
+      "op": "21T",
+      "form": "6320F",
+      "cars": "6",
+      "no": "421-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:30"
     }
   ],
-  "lastUpdate": "05:25",
+  "lastUpdate": "05:30",
   "date": "2026-06-22"
 }
