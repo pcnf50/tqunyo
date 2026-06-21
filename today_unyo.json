@@ -3711,8 +3711,18 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "23:35"
+    },
+    {
+      "op": "88K",
+      "form": "5187F",
+      "cars": "8",
+      "no": "288-232",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "23:45"
     }
   ],
-  "lastUpdate": "23:40",
+  "lastUpdate": "23:45",
   "date": "2026-06-21"
 }
