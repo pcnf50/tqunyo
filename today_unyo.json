@@ -191,6 +191,26 @@
       "updated": "05:15"
     },
     {
+      "op": "04S",
+      "form": "17189F",
+      "cars": "8",
+      "no": "704-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
+      "op": "60K",
+      "form": "4107F",
+      "cars": "10",
+      "no": "060-051",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
       "op": "12K",
       "form": "5172F",
       "cars": "8",
@@ -198,7 +218,7 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:20"
+      "updated": "05:25"
     },
     {
       "op": "28K",
@@ -208,7 +228,7 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "05:20"
+      "updated": "05:25"
     },
     {
       "op": "99G",
@@ -218,7 +238,17 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "05:20"
+      "updated": "05:25"
+    },
+    {
+      "op": "38",
+      "form": "-",
+      "cars": "8",
+      "no": "238-051",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
     }
   ],
   "meguro": [
@@ -403,6 +433,26 @@
       "updated": "05:15"
     },
     {
+      "op": "13",
+      "form": "-",
+      "cars": "8",
+      "no": "013-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
+      "op": "60G",
+      "form": "-",
+      "cars": "10",
+      "no": "060-051",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
       "op": "28K",
       "form": "-",
       "cars": "0",
@@ -410,19 +460,29 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "05:20"
+      "updated": "05:25"
+    },
+    {
+      "op": "07K",
+      "form": "5183F",
+      "cars": "8",
+      "no": "207-051",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
     },
     {
       "op": "99",
-      "form": "5183F",
+      "form": "3122F",
       "cars": "8",
       "no": "999-000",
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "05:20"
+      "updated": "05:25"
     }
   ],
-  "lastUpdate": "05:20",
+  "lastUpdate": "05:25",
   "date": "2026-06-22"
 }
