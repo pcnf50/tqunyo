@@ -1829,6 +1829,16 @@
       "kind": "特",
       "delay": "",
       "updated": "23:25"
+    },
+    {
+      "op": "99G",
+      "form": "Y515F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "23:35"
     }
   ],
   "meguro": [
@@ -3681,8 +3691,28 @@
       "kind": "急",
       "delay": "",
       "updated": "23:05"
+    },
+    {
+      "op": "45",
+      "form": "-",
+      "cars": "10",
+      "no": "745-231",
+      "destCode": "横浜",
+      "kind": "特",
+      "delay": "",
+      "updated": "23:35"
+    },
+    {
+      "op": "99",
+      "form": "3122F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:35"
     }
   ],
-  "lastUpdate": "23:30",
+  "lastUpdate": "23:35",
   "date": "2026-06-21"
 }
