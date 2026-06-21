@@ -1771,14 +1771,24 @@
       "updated": "22:25"
     },
     {
+      "op": "19T",
+      "form": "51074F",
+      "cars": "10",
+      "no": "819-222",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "22:35"
+    },
+    {
       "op": "68",
       "form": "-",
       "cars": "8",
-      "no": "368-221",
-      "destCode": "新横浜",
+      "no": "368-222",
+      "destCode": "南北線直通",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "22:30"
+      "delay": "",
+      "updated": "22:35"
     }
   ],
   "meguro": [
@@ -3613,6 +3623,6 @@
       "updated": "22:15"
     }
   ],
-  "lastUpdate": "22:30",
+  "lastUpdate": "22:35",
   "date": "2026-06-21"
 }
