@@ -1309,6 +1309,16 @@
       "kind": "急",
       "delay": "",
       "updated": "10:35"
+    },
+    {
+      "op": "60",
+      "form": "-",
+      "cars": "6",
+      "no": "360-101",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:45"
     }
   ],
   "meguro": [
@@ -2543,26 +2553,36 @@
       "updated": "10:35"
     },
     {
-      "op": "89",
-      "form": "-",
-      "cars": "10",
-      "no": "789-101",
-      "destCode": "元町・中華街",
-      "kind": "特",
-      "delay": "",
-      "updated": "10:40"
-    },
-    {
-      "op": "31K",
+      "op": "42T",
       "form": "-",
       "cars": "8",
-      "no": "231-102",
-      "destCode": "三田線直通",
+      "no": "042-101",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "2分遅れ",
+      "updated": "10:45"
+    },
+    {
+      "op": "67",
+      "form": "-",
+      "cars": "10",
+      "no": "767-101",
+      "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "10:40"
+      "updated": "10:45"
+    },
+    {
+      "op": "31T",
+      "form": "6501F",
+      "cars": "8",
+      "no": "431-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:45"
     }
   ],
-  "lastUpdate": "10:40",
+  "lastUpdate": "10:45",
   "date": "2026-06-21"
 }
