@@ -1019,6 +1019,36 @@
       "kind": "急",
       "delay": "1分遅れ",
       "updated": "09:15"
+    },
+    {
+      "op": "55K",
+      "form": "4101F",
+      "cars": "10",
+      "no": "055-091",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:20"
+    },
+    {
+      "op": "80",
+      "form": "-",
+      "cars": "6",
+      "no": "580-091",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "09:20"
+    },
+    {
+      "op": "95",
+      "form": "-",
+      "cars": "8",
+      "no": "295-091",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "09:20"
     }
   ],
   "meguro": [
@@ -2031,8 +2061,38 @@
       "kind": "急",
       "delay": "",
       "updated": "09:15"
+    },
+    {
+      "op": "82M",
+      "form": "9106F",
+      "cars": "6",
+      "no": "582-091",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:20"
+    },
+    {
+      "op": "58M",
+      "form": "-",
+      "cars": "10",
+      "no": "058-091",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "09:20"
+    },
+    {
+      "op": "95K",
+      "form": "5183F",
+      "cars": "8",
+      "no": "295-091",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "09:20"
     }
   ],
-  "lastUpdate": "09:15",
+  "lastUpdate": "09:20",
   "date": "2026-06-21"
 }
