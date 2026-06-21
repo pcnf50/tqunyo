@@ -1,6 +1,108 @@
 {
-  "toyoko": {},
-  "meguro": {},
-  "lastUpdate": "04:28",
+  "toyoko": [
+    {
+      "op": "16",
+      "form": "5118F",
+      "cars": "8",
+      "no": "216-042",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "05K",
+      "form": "Y511F",
+      "cars": "8",
+      "no": "005-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "13",
+      "form": "-",
+      "cars": "8",
+      "no": "213-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "99G",
+      "form": "5175F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "04:50"
+    }
+  ],
+  "meguro": [
+    {
+      "op": "16K",
+      "form": "5188F",
+      "cars": "8",
+      "no": "216-042",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "36K",
+      "form": "5184F",
+      "cars": "8",
+      "no": "236-041",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "11K",
+      "form": "3109F",
+      "cars": "8",
+      "no": "211-042",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "5M",
+      "form": "-",
+      "cars": "8",
+      "no": "005-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "13K",
+      "form": "3103F",
+      "cars": "8",
+      "no": "213-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "99",
+      "form": "-",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "04:50"
+    }
+  ],
+  "lastUpdate": "04:50",
   "date": "2026-06-22"
 }
