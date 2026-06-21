@@ -3309,10 +3309,20 @@
       "no": "787-182",
       "destCode": "副都心線直通",
       "kind": "急",
-      "delay": "2分遅れ",
-      "updated": "18:50"
+      "delay": "3分遅れ",
+      "updated": "18:55"
+    },
+    {
+      "op": "30",
+      "form": "-",
+      "cars": "10",
+      "no": "130-181",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "18:55"
     }
   ],
-  "lastUpdate": "18:50",
+  "lastUpdate": "18:55",
   "date": "2026-06-21"
 }
