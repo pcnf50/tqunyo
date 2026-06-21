@@ -3721,8 +3721,18 @@
       "kind": "回",
       "delay": "",
       "updated": "23:45"
+    },
+    {
+      "op": "37K",
+      "form": "3101F",
+      "cars": "8",
+      "no": "237-242",
+      "destCode": "目黒",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "00:05"
     }
   ],
-  "lastUpdate": "00:00",
+  "lastUpdate": "00:05",
   "date": "2026-06-22"
 }
