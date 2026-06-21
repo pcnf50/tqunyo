@@ -163,28 +163,68 @@
       box-shadow: 0 0 0 3px rgba(218, 4, 66, 0.15);
     }
 
-    .filter-container {
-      padding: 0 4px;
-      margin-bottom: 12px;
+    /* 畳む形式（アコーディオン）用のスタイル */
+    .filter-accordion {
+      margin: 0 4px 12px 4px;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      background: var(--card-bg);
+      overflow: hidden;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
     }
 
-    .filter-select {
-      width: 100%;
-      box-sizing: border-box;
+    .accordion-summary {
+      padding: 10px 12px;
       font-size: 14px;
       font-weight: 700;
-      padding: 10px 12px;
-      border-radius: 8px;
-      border: 1px solid var(--border-color);
-      background: var(--card-bg);
       color: var(--text-main);
-      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-      min-height: 44px;
       cursor: pointer;
-    }
-    .filter-select:focus {
+      background: #f8fafc;
+      user-select: none;
       outline: none;
-      border-color: var(--toyoko);
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .accordion-summary::-webkit-details-marker {
+      display: none;
+    }
+    .accordion-summary::after {
+      content: "＋";
+      font-size: 14px;
+      color: var(--text-sub);
+      font-weight: bold;
+    }
+    .filter-accordion[open] .accordion-summary::after {
+      content: "－";
+    }
+
+    .accordion-content {
+      padding: 12px;
+      border-top: 1px solid var(--border-color);
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 8px 12px;
+      background: var(--card-bg);
+    }
+
+    .checkbox-label {
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-main);
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .checkbox-label input[type="checkbox"] {
+      margin-right: 6px;
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+      accent-color: var(--toyoko);
     }
 
     .table-container {
@@ -266,7 +306,7 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.9.7</div>
+    <div class="version-tag">v1.9.8</div>
   </header>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
@@ -286,25 +326,25 @@
       <input type="search" id="searchForm" class="search-input" placeholder="編成検索 (例: 4101)" aria-label="編成の検索">
     </div>
 
-    <div class="filter-container">
-      <select id="filterType" class="filter-select" aria-label="形式絞り込み">
-        <option value="">すべての形式</option>
-        <option value="5050_4000">5050系4000番台</option>
-        <option value="5000">5000系</option>
-        <option value="5050">5050系</option>
-        <option value="Y500">Y500系</option>
-        <option value="17000">17000系</option>
-        <option value="10000">10000系</option>
-        <option value="50070">50070型</option>
-        <option value="9000">9000系</option>
-        <option value="9050">9050系</option>
-        <option value="40000">40000系</option>
-        <option value="40050">40050系</option>
-        <option value="6000">6000系</option>
-        <option value="6050">6050系</option>
-        <option value="20000">20000系</option>
-      </select>
-    </div>
+    <details class="filter-accordion" id="filterAccordion">
+      <summary class="accordion-summary" id="accordionSummaryText">形式で絞り込み</summary>
+      <div class="accordion-content" id="checkboxGroup">
+        <label class="checkbox-label"><input type="checkbox" value="5050_4000">5050系4000</label>
+        <label class="checkbox-label"><input type="checkbox" value="5000">5000系</label>
+        <label class="checkbox-label"><input type="checkbox" value="5050">5050系</label>
+        <label class="checkbox-label"><input type="checkbox" value="Y500">Y500系</label>
+        <label class="checkbox-label"><input type="checkbox" value="17000">17000系</label>
+        <label class="checkbox-label"><input type="checkbox" value="10000">10000系</label>
+        <label class="checkbox-label"><input type="checkbox" value="50070">50070型</label>
+        <label class="checkbox-label"><input type="checkbox" value="9000">9000系</label>
+        <label class="checkbox-label"><input type="checkbox" value="9050">9050系</label>
+        <label class="checkbox-label"><input type="checkbox" value="40000">40000系</label>
+        <label class="checkbox-label"><input type="checkbox" value="40050">40050系</label>
+        <label class="checkbox-label"><input type="checkbox" value="6000">6000系</label>
+        <label class="checkbox-label"><input type="checkbox" value="6050">6050系</label>
+        <label class="checkbox-label"><input type="checkbox" value="20000">20000系</label>
+      </div>
+    </details>
 
     <div class="table-container">
       <table>
@@ -511,7 +551,6 @@
 
     const queryOp = document.getElementById("searchOp") ? document.getElementById("searchOp").value.trim().toLowerCase() : "";
     const queryForm = document.getElementById("searchForm") ? document.getElementById("searchForm").value.trim().toLowerCase() : "";
-    const selectedType = document.getElementById("filterType") ? document.getElementById("filterType").value : "";
 
     if (queryOp) {
       list = list.filter(t => (t.op || "").toLowerCase().includes(queryOp));
@@ -520,46 +559,43 @@
       list = list.filter(t => (t.form || "").toLowerCase().includes(queryForm));
     }
 
-    // 形式絞り込みロジック
-    if (selectedType) {
+    // 複数選択チェックボックスの絞り込みロジック
+    const checkedBoxes = Array.from(document.querySelectorAll('#checkboxGroup input[type="checkbox"]:checked'));
+    const selectedTypes = checkedBoxes.map(cb => cb.value);
+
+    if (selectedTypes.length > 0) {
       list = list.filter(t => {
         const formStr = t.form ? String(t.form).trim() : "";
         const fNum = parseInt(formStr.match(/\d+/)?.[0] || "0", 10);
         if (!fNum) return false;
 
-        switch (selectedType) {
-          case "5050_4000": // 5050系4000番台
-            return fNum >= 4101 && fNum <= 4115;
-          case "5000": // 5000系
-            return fNum >= 5118 && fNum <= 5122;
-          case "5050": // 5050系（4000番台を除く純粋な5050系）
-            return fNum >= 5151 && fNum <= 5178; 
-          case "Y500": // Y500系
-            return formStr.toUpperCase().startsWith("Y5") || (fNum >= 511 && fNum <= 517);
-          case "17000": // 17000系
-            return fNum >= 17101 && fNum <= 17195;
-          case "10000": // 10000系
-            return fNum >= 10101 && fNum <= 10136;
-          case "50070": // 50070型
-            return fNum >= 51071 && fNum <= 51077;
-          case "9000": // 9000系
-            return fNum >= 9101 && fNum <= 9108;
-          case "9050": // 9050系
-            return fNum >= 9151 && fNum <= 9152;
-          case "40000": // 40000系
-            return fNum >= 40101 && fNum <= 40106;
-          case "40050": // 40050系
-            return fNum >= 40151 && fNum <= 40169;
-          case "6000": // 6000系 (6101〜6117)
-            return fNum >= 6101 && fNum <= 6117;
-          case "6050": // 6050系 (6151〜6158)
-            return fNum >= 6151 && fNum <= 6158;
-          case "20000": // 20000系 (21000系は除外)
-            return fNum >= 20101 && fNum <= 20107;
-          default:
-            return true;
-        }
+        // チェックされた形式のいずれかに該当すれば通過（OR条件）
+        return selectedTypes.some(type => {
+          switch (type) {
+            case "5050_4000": return fNum >= 4101 && fNum <= 4115;
+            case "5000":      return fNum >= 5118 && fNum <= 5122;
+            case "5050":      return fNum >= 5151 && fNum <= 5178; 
+            case "Y500":      return formStr.toUpperCase().startsWith("Y5") || (fNum >= 511 && fNum <= 517);
+            case "17000":     return fNum >= 17101 && fNum <= 17195;
+            case "10000":     return fNum >= 10101 && fNum <= 10136;
+            case "50070":     return fNum >= 51071 && fNum <= 51077;
+            case "9000":      return fNum >= 9101 && fNum <= 9108;
+            case "9050":      return fNum >= 9151 && fNum <= 9152;
+            case "40000":     return fNum >= 40101 && fNum <= 40106;
+            case "40050":     return fNum >= 40151 && fNum <= 40169;
+            case "6000":      return fNum >= 6101 && fNum <= 6117;
+            case "6050":      return fNum >= 6151 && fNum <= 6158;
+            case "20000":     return fNum >= 20101 && fNum <= 20107;
+            default:          return false;
+          }
+        });
       });
+    }
+
+    // アコーディオンのタイトル部分に選択件数を表示
+    const summaryText = document.getElementById("accordionSummaryText");
+    if (summaryText) {
+      summaryText.textContent = selectedTypes.length > 0 ? `形式で絞り込み (${selectedTypes.length}つ選択中)` : "形式で絞り込み";
     }
 
     if(list.length === 0) {
@@ -668,11 +704,14 @@
 
   const searchOp = document.getElementById("searchOp");
   const searchForm = document.getElementById("searchForm");
-  const filterType = document.getElementById("filterType");
-
+  
   if (searchOp) searchOp.addEventListener("input", () => renderTable("toyoko"));
   if (searchForm) searchForm.addEventListener("input", () => renderTable("toyoko"));
-  if (filterType) filterType.addEventListener("change", () => renderTable("toyoko"));
+
+  // 全てのチェックボックスに変更イベントを監視
+  document.querySelectorAll('#checkboxGroup input[type="checkbox"]').forEach(cb => {
+    cb.addEventListener("change", () => renderTable("toyoko"));
+  });
 
   if (archiveDateInput) {
     archiveDateInput.addEventListener("change", loadData);
