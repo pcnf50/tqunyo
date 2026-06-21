@@ -2900,9 +2900,19 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "13:50"
+      "updated": "13:55"
+    },
+    {
+      "op": "84M",
+      "form": "-",
+      "cars": "0",
+      "no": "584-131",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:55"
     }
   ],
-  "lastUpdate": "13:50",
+  "lastUpdate": "13:55",
   "date": "2026-06-21"
 }
