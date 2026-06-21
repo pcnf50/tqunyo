@@ -3111,8 +3111,18 @@
       "kind": "急",
       "delay": "",
       "updated": "17:05"
+    },
+    {
+      "op": "18K",
+      "form": "-",
+      "cars": "8",
+      "no": "218-172",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:20"
     }
   ],
-  "lastUpdate": "17:15",
+  "lastUpdate": "17:20",
   "date": "2026-06-21"
 }
