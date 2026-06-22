@@ -59,6 +59,56 @@
       "kind": "不明",
       "delay": "",
       "updated": "04:55"
+    },
+    {
+      "op": "36",
+      "form": "-",
+      "cars": "8",
+      "no": "236-041",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:00"
+    },
+    {
+      "op": "01S",
+      "form": "17193F",
+      "cars": "8",
+      "no": "701-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:00"
+    },
+    {
+      "op": "11K",
+      "form": "5176F",
+      "cars": "8",
+      "no": "011-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:00"
+    },
+    {
+      "op": "99G",
+      "form": "-",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "05:00"
+    },
+    {
+      "op": "89",
+      "form": "-",
+      "cars": "8",
+      "no": "289-044",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:00"
     }
   ],
   "meguro": [
@@ -131,8 +181,18 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "04:55"
+    },
+    {
+      "op": "89K",
+      "form": "3103F",
+      "cars": "8",
+      "no": "289-044",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:00"
     }
   ],
-  "lastUpdate": "04:55",
+  "lastUpdate": "05:00",
   "date": "2026-06-23"
 }
