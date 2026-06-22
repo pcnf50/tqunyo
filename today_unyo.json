@@ -3880,8 +3880,28 @@
       "kind": "普",
       "delay": "",
       "updated": "18:15"
+    },
+    {
+      "op": "40S",
+      "form": "9108F",
+      "cars": "6",
+      "no": "340-181",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:20"
+    },
+    {
+      "op": "35G",
+      "form": "-",
+      "cars": "0",
+      "no": "635-181",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:20"
     }
   ],
-  "lastUpdate": "18:15",
+  "lastUpdate": "18:20",
   "date": "2026-06-22"
 }
