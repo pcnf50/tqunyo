@@ -1437,8 +1437,8 @@
       "no": "487-091",
       "destCode": "日吉",
       "kind": "急",
-      "delay": "6分遅れ",
-      "updated": "09:30"
+      "delay": "5分遅れ",
+      "updated": "09:35"
     }
   ],
   "meguro": [
@@ -2972,6 +2972,6 @@
       "updated": "09:25"
     }
   ],
-  "lastUpdate": "09:30",
+  "lastUpdate": "09:35",
   "date": "2026-06-22"
 }
