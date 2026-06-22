@@ -1797,8 +1797,8 @@
       "no": "590-181",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "2分遅れ",
-      "updated": "18:30"
+      "delay": "1分遅れ",
+      "updated": "18:35"
     },
     {
       "op": "10",
@@ -1808,7 +1808,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:30"
+      "updated": "18:35"
     }
   ],
   "meguro": [
@@ -3919,7 +3919,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "18:30"
+      "updated": "18:35"
     },
     {
       "op": "10K",
@@ -3929,7 +3929,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:30"
+      "updated": "18:35"
     },
     {
       "op": "34S",
@@ -3939,9 +3939,9 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "18:30"
+      "updated": "18:35"
     }
   ],
-  "lastUpdate": "18:30",
+  "lastUpdate": "18:35",
   "date": "2026-06-22"
 }
