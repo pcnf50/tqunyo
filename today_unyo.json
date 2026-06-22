@@ -1367,18 +1367,38 @@
       "no": "212-082",
       "destCode": "南北線直通",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "09:10"
+      "delay": "",
+      "updated": "09:15"
     },
     {
-      "op": "26K",
+      "op": "94",
       "form": "-",
-      "cars": "8",
-      "no": "026-091",
+      "cars": "6",
+      "no": "594-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "09:15"
+    },
+    {
+      "op": "52K",
+      "form": "4111F",
+      "cars": "10",
+      "no": "052-091",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:15"
+    },
+    {
+      "op": "92",
+      "form": "-",
+      "cars": "6",
+      "no": "592-081",
       "destCode": "元住吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "09:10"
+      "delay": "5分遅れ",
+      "updated": "09:15"
     },
     {
       "op": "15S",
@@ -1387,8 +1407,8 @@
       "no": "715-091",
       "destCode": "元町・中華街",
       "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "09:10"
+      "delay": "2分遅れ",
+      "updated": "09:15"
     }
   ],
   "meguro": [
@@ -2878,20 +2898,10 @@
       "no": "212-082",
       "destCode": "南北線直通",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "09:10"
-    },
-    {
-      "op": "24",
-      "form": "-",
-      "cars": "10",
-      "no": "124-081",
-      "destCode": "元町・中華街",
-      "kind": "通",
-      "delay": "2分遅れ",
-      "updated": "09:10"
+      "delay": "",
+      "updated": "09:15"
     }
   ],
-  "lastUpdate": "09:10",
+  "lastUpdate": "09:15",
   "date": "2026-06-22"
 }
