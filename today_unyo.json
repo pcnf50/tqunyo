@@ -4260,8 +4260,18 @@
       "kind": "普",
       "delay": "",
       "updated": "22:15"
+    },
+    {
+      "op": "47K",
+      "form": "3112F",
+      "cars": "8",
+      "no": "247-222",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:35"
     }
   ],
-  "lastUpdate": "22:30",
+  "lastUpdate": "22:35",
   "date": "2026-06-22"
 }
