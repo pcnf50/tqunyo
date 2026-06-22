@@ -3889,19 +3889,9 @@
       "destCode": "元住吉",
       "kind": "普",
       "delay": "",
-      "updated": "18:20"
-    },
-    {
-      "op": "35G",
-      "form": "-",
-      "cars": "0",
-      "no": "635-181",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "18:20"
+      "updated": "18:25"
     }
   ],
-  "lastUpdate": "18:20",
+  "lastUpdate": "18:25",
   "date": "2026-06-22"
 }
