@@ -1528,7 +1528,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "10:50"
+      "updated": "10:55"
     }
   ],
   "meguro": [
@@ -3162,6 +3162,16 @@
       "updated": "10:45"
     },
     {
+      "op": "85",
+      "form": "-",
+      "cars": "10",
+      "no": "785-102",
+      "destCode": "副都心線直通",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "10:55"
+    },
+    {
       "op": "37G",
       "form": "21109F",
       "cars": "8",
@@ -3169,9 +3179,9 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "10:50"
+      "updated": "10:55"
     }
   ],
-  "lastUpdate": "10:50",
+  "lastUpdate": "10:55",
   "date": "2026-06-22"
 }
