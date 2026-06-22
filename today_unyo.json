@@ -3460,8 +3460,18 @@
       "kind": "普",
       "delay": "",
       "updated": "12:35"
+    },
+    {
+      "op": "32S",
+      "form": "-",
+      "cars": "0",
+      "no": "332-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:50"
     }
   ],
-  "lastUpdate": "12:45",
+  "lastUpdate": "12:50",
   "date": "2026-06-22"
 }
