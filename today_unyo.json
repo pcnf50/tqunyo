@@ -2159,6 +2159,16 @@
       "kind": "普",
       "delay": "7分遅れ",
       "updated": "00:25"
+    },
+    {
+      "op": "41K",
+      "form": "17182F",
+      "cars": "8",
+      "no": "041-241",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "27分遅れ",
+      "updated": "00:45"
     }
   ],
   "meguro": [
@@ -4429,9 +4439,19 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "00:40"
+      "updated": "00:45"
+    },
+    {
+      "op": "43K",
+      "form": "3109F",
+      "cars": "8",
+      "no": "243-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "11分遅れ",
+      "updated": "00:45"
     }
   ],
-  "lastUpdate": "00:40",
+  "lastUpdate": "00:45",
   "date": "2026-06-24"
 }
