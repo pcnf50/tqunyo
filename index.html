@@ -145,11 +145,16 @@
       padding: 0 4px;
     }
 
+    .search-wrapper {
+      position: relative;
+      width: 100%;
+    }
+
     .search-input {
       width: 100%;
       box-sizing: border-box;
       font-size: 14px;
-      padding: 10px 12px;
+      padding: 10px 32px 10px 12px;
       border-radius: 8px;
       border: 1px solid var(--border-color);
       background: var(--card-bg);
@@ -162,19 +167,42 @@
       border-color: var(--toyoko);
       box-shadow: 0 0 0 3px rgba(218, 4, 66, 0.15);
     }
+    /* 検索クリアボタン */
+    .clear-search-btn {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #cbd5e1;
+      color: #ffffff;
+      border: none;
+      border-radius: 50%;
+      width: 18px;
+      height: 18px;
+      font-size: 11px;
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      padding: 0;
+    }
+    .clear-search-btn:hover {
+      background: #94a3b8;
+    }
 
-    /* 畳む形式（アコーディオン）用のスタイル */
+    /* 折りたたみアコーディオンの洗練化 */
     .filter-accordion {
       margin: 0 4px 12px 4px;
       border: 1px solid var(--border-color);
       border-radius: 8px;
       background: var(--card-bg);
       overflow: hidden;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     }
 
     .accordion-summary {
-      padding: 10px 12px;
+      padding: 12px;
       font-size: 14px;
       font-weight: 700;
       color: var(--text-main);
@@ -184,47 +212,104 @@
       outline: none;
       list-style: none;
       display: flex;
-      justify-content: space-between;
-      align-items: center;
+      flex-direction: column;
+      gap: 6px;
     }
     .accordion-summary::-webkit-details-marker {
       display: none;
     }
-    .accordion-summary::after {
+
+    .summary-header {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+    }
+    .summary-header::after {
       content: "＋";
       font-size: 14px;
       color: var(--text-sub);
-      font-weight: bold;
     }
-    .filter-accordion[open] .accordion-summary::after {
+    .filter-accordion[open] .summary-header::after {
       content: "－";
+    }
+
+    /* 選択中バッジ表示エリア */
+    .selected-badges-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .badge-item {
+      font-size: 11px;
+      background: #fee2e2;
+      color: var(--toyoko);
+      padding: 2px 8px;
+      border-radius: 20px;
+      font-weight: 700;
+      border: 1px solid rgba(218, 4, 66, 0.15);
     }
 
     .accordion-content {
       padding: 12px;
       border-top: 1px solid var(--border-color);
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-      gap: 8px 12px;
       background: var(--card-bg);
+    }
+
+    /* 全選択・解除ボタン群 */
+    .bulk-action-bar {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .action-link {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--toyoko);
+      background: #fff5f7;
+      border: 1px solid rgba(218, 4, 66, 0.2);
+      padding: 4px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .action-link:hover {
+      background: #ffe4e8;
+    }
+
+    /* ボタン風のチェックボックスグリッド */
+    .checkbox-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+      gap: 8px;
     }
 
     .checkbox-label {
       display: flex;
       align-items: center;
+      justify-content: center;
       font-size: 13px;
-      font-weight: 600;
-      color: var(--text-main);
+      font-weight: 700;
+      color: var(--text-sub);
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      padding: 8px 6px;
+      border-radius: 6px;
       cursor: pointer;
       user-select: none;
+      transition: all 0.15s;
+      text-align: center;
     }
 
     .checkbox-label input[type="checkbox"] {
-      margin-right: 6px;
-      width: 16px;
-      height: 16px;
-      cursor: pointer;
-      accent-color: var(--toyoko);
+      display: none; /* 標準チェックボックスは隠す */
+    }
+
+    /* チェックが入ったときのボタン風スタイル */
+    .checkbox-label:has(input[type="checkbox"]:checked) {
+      background: var(--toyoko);
+      color: #ffffff;
+      border-color: var(--toyoko);
+      box-shadow: 0 2px 4px rgba(218, 4, 66, 0.15);
     }
 
     .table-container {
@@ -306,7 +391,7 @@
 <main>
   <header>
     <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v1.9.8</div>
+    <div class="version-tag">v2.0.0</div>
   </header>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
@@ -322,27 +407,44 @@
     </div>
 
     <div class="search-container">
-      <input type="search" id="searchOp" class="search-input" placeholder="運番検索 (例: 01K)" aria-label="運用番号の検索">
-      <input type="search" id="searchForm" class="search-input" placeholder="編成検索 (例: 4101)" aria-label="編成の検索">
+      <div class="search-wrapper">
+        <input type="search" id="searchOp" class="search-input" placeholder="運番検索 (例: 01K)" aria-label="運用番号の検索">
+        <button class="clear-search-btn" id="clearOpBtn" aria-label="クリア">×</button>
+      </div>
+      <div class="search-wrapper">
+        <input type="search" id="searchForm" class="search-input" placeholder="編成検索 (例: 4101)" aria-label="編成の検索">
+        <button class="clear-search-btn" id="clearFormBtn" aria-label="クリア">×</button>
+      </div>
     </div>
 
     <details class="filter-accordion" id="filterAccordion">
-      <summary class="accordion-summary" id="accordionSummaryText">形式で絞り込み</summary>
-      <div class="accordion-content" id="checkboxGroup">
-        <label class="checkbox-label"><input type="checkbox" value="5050_4000">5050系4000</label>
-        <label class="checkbox-label"><input type="checkbox" value="5000">5000系</label>
-        <label class="checkbox-label"><input type="checkbox" value="5050">5050系</label>
-        <label class="checkbox-label"><input type="checkbox" value="Y500">Y500系</label>
-        <label class="checkbox-label"><input type="checkbox" value="17000">17000系</label>
-        <label class="checkbox-label"><input type="checkbox" value="10000">10000系</label>
-        <label class="checkbox-label"><input type="checkbox" value="50070">50070型</label>
-        <label class="checkbox-label"><input type="checkbox" value="9000">9000系</label>
-        <label class="checkbox-label"><input type="checkbox" value="9050">9050系</label>
-        <label class="checkbox-label"><input type="checkbox" value="40000">40000系</label>
-        <label class="checkbox-label"><input type="checkbox" value="40050">40050系</label>
-        <label class="checkbox-label"><input type="checkbox" value="6000">6000系</label>
-        <label class="checkbox-label"><input type="checkbox" value="6050">6050系</label>
-        <label class="checkbox-label"><input type="checkbox" value="20000">20000系</label>
+      <summary class="accordion-summary">
+        <div class="summary-header">
+          <span id="accordionSummaryText" style="font-size:13px;">形式で絞り込み</span>
+        </div>
+        <div class="selected-badges-container" id="selectedBadges"></div>
+      </summary>
+      <div class="accordion-content">
+        <div class="bulk-action-bar">
+          <button type="button" class="action-link" id="selectAllTypes">すべて選択</button>
+          <button type="button" class="action-link" id="clearAllTypes">全解除</button>
+        </div>
+        <div class="checkbox-grid" id="checkboxGroup">
+          <label class="checkbox-label"><input type="checkbox" value="5050_4000" data-label="5050系4000">5050系4000</label>
+          <label class="checkbox-label"><input type="checkbox" value="5000" data-label="5000系">5000系</label>
+          <label class="checkbox-label"><input type="checkbox" value="5050" data-label="5050系">5050系</label>
+          <label class="checkbox-label"><input type="checkbox" value="Y500" data-label="Y500系">Y500系</label>
+          <label class="checkbox-label"><input type="checkbox" value="17000" data-label="17000系">17000系</label>
+          <label class="checkbox-label"><input type="checkbox" value="10000" data-label="10000系">10000系</label>
+          <label class="checkbox-label"><input type="checkbox" value="50070" data-label="50070型">50070型</label>
+          <label class="checkbox-label"><input type="checkbox" value="9000" data-label="9000系">9000系</label>
+          <label class="checkbox-label"><input type="checkbox" value="9050" data-label="9050系">9050系</label>
+          <label class="checkbox-label"><input type="checkbox" value="40000" data-label="40000系">40000系</label>
+          <label class="checkbox-label"><input type="checkbox" value="40050" data-label="40050系">40050系</label>
+          <label class="checkbox-label"><input type="checkbox" value="6000" data-label="6000系">6000系</label>
+          <label class="checkbox-label"><input type="checkbox" value="6050" data-label="6050系">6050系</label>
+          <label class="checkbox-label"><input type="checkbox" value="20000" data-label="20000系">20000系</label>
+        </div>
       </div>
     </details>
 
@@ -549,8 +651,16 @@
       return { ...t, yosoku: combinedYosoku };
     });
 
-    const queryOp = document.getElementById("searchOp") ? document.getElementById("searchOp").value.trim().toLowerCase() : "";
-    const queryForm = document.getElementById("searchForm") ? document.getElementById("searchForm").value.trim().toLowerCase() : "";
+    const searchOp = document.getElementById("searchOp");
+    const searchForm = document.getElementById("searchForm");
+    const queryOp = searchOp ? searchOp.value.trim().toLowerCase() : "";
+    const queryForm = searchForm ? searchForm.value.trim().toLowerCase() : "";
+
+    // 検索クリアボタンの表示制御
+    const clearOpBtn = document.getElementById("clearOpBtn");
+    const clearFormBtn = document.getElementById("clearFormBtn");
+    if(clearOpBtn) clearOpBtn.style.display = queryOp ? "flex" : "none";
+    if(clearFormBtn) clearFormBtn.style.display = queryForm ? "flex" : "none";
 
     if (queryOp) {
       list = list.filter(t => (t.op || "").toLowerCase().includes(queryOp));
@@ -563,13 +673,28 @@
     const checkedBoxes = Array.from(document.querySelectorAll('#checkboxGroup input[type="checkbox"]:checked'));
     const selectedTypes = checkedBoxes.map(cb => cb.value);
 
+    // バッジ表示とアコーディオンタイトルの更新
+    const badgesContainer = document.getElementById("selectedBadges");
+    const summaryText = document.getElementById("accordionSummaryText");
+    if (badgesContainer) {
+      badgesContainer.innerHTML = "";
+      checkedBoxes.forEach(cb => {
+        const badge = document.createElement("span");
+        badge.className = "badge-item";
+        badge.textContent = cb.getAttribute("data-label");
+        badgesContainer.appendChild(badge);
+      });
+    }
+    if (summaryText) {
+      summaryText.textContent = selectedTypes.length > 0 ? `形式で絞り込み (${selectedTypes.length}つ選択中)` : "形式で絞り込み";
+    }
+
     if (selectedTypes.length > 0) {
       list = list.filter(t => {
         const formStr = t.form ? String(t.form).trim() : "";
         const fNum = parseInt(formStr.match(/\d+/)?.[0] || "0", 10);
         if (!fNum) return false;
 
-        // チェックされた形式のいずれかに該当すれば通過（OR条件）
         return selectedTypes.some(type => {
           switch (type) {
             case "5050_4000": return fNum >= 4101 && fNum <= 4115;
@@ -590,12 +715,6 @@
           }
         });
       });
-    }
-
-    // アコーディオンのタイトル部分に選択件数を表示
-    const summaryText = document.getElementById("accordionSummaryText");
-    if (summaryText) {
-      summaryText.textContent = selectedTypes.length > 0 ? `形式で絞り込み (${selectedTypes.length}つ選択中)` : "形式で絞り込み";
     }
 
     if(list.length === 0) {
@@ -708,10 +827,36 @@
   if (searchOp) searchOp.addEventListener("input", () => renderTable("toyoko"));
   if (searchForm) searchForm.addEventListener("input", () => renderTable("toyoko"));
 
-  // 全てのチェックボックスに変更イベントを監視
+  // 検索クリアボタンのイベント登録
+  const clearOpBtn = document.getElementById("clearOpBtn");
+  const clearFormBtn = document.getElementById("clearFormBtn");
+  if(clearOpBtn) {
+    clearOpBtn.onclick = () => { if(searchOp) { searchOp.value = ""; renderTable("toyoko"); } };
+  }
+  if(clearFormBtn) {
+    clearFormBtn.onclick = () => { if(searchForm) { searchForm.value = ""; renderTable("toyoko"); } };
+  }
+
+  // 各種チェックボックス関連イベント監視
   document.querySelectorAll('#checkboxGroup input[type="checkbox"]').forEach(cb => {
     cb.addEventListener("change", () => renderTable("toyoko"));
   });
+
+  // 一括選択・一括解除ロジック
+  const selectAllBtn = document.getElementById("selectAllTypes");
+  const clearAllBtn = document.getElementById("clearAllTypes");
+  if(selectAllBtn) {
+    selectAllBtn.onclick = () => {
+      document.querySelectorAll('#checkboxGroup input[type="checkbox"]').forEach(cb => cb.checked = true);
+      renderTable("toyoko");
+    };
+  }
+  if(clearAllBtn) {
+    clearAllBtn.onclick = () => {
+      document.querySelectorAll('#checkboxGroup input[type="checkbox"]').forEach(cb => cb.checked = false);
+      renderTable("toyoko");
+    };
+  }
 
   if (archiveDateInput) {
     archiveDateInput.addEventListener("change", loadData);
