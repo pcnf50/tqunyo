@@ -2019,6 +2019,16 @@
       "kind": "普",
       "delay": "",
       "updated": "22:05"
+    },
+    {
+      "op": "65K",
+      "form": "4110F",
+      "cars": "10",
+      "no": "065-221",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "22:10"
     }
   ],
   "meguro": [
@@ -4220,8 +4230,18 @@
       "kind": "普",
       "delay": "",
       "updated": "22:05"
+    },
+    {
+      "op": "65G",
+      "form": "-",
+      "cars": "10",
+      "no": "065-221",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "22:10"
     }
   ],
-  "lastUpdate": "22:05",
+  "lastUpdate": "22:10",
   "date": "2026-06-23"
 }
