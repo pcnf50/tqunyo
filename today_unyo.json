@@ -2039,6 +2039,26 @@
       "kind": "急",
       "delay": "",
       "updated": "22:55"
+    },
+    {
+      "op": "04K",
+      "form": "-",
+      "cars": "8",
+      "no": "004-231",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:30"
+    },
+    {
+      "op": "30K",
+      "form": "17188F",
+      "cars": "8",
+      "no": "030-232",
+      "destCode": "武蔵小杉",
+      "kind": "普",
+      "delay": "7分遅れ",
+      "updated": "23:30"
     }
   ],
   "meguro": [
@@ -4272,6 +4292,6 @@
       "updated": "22:35"
     }
   ],
-  "lastUpdate": "23:25",
+  "lastUpdate": "23:30",
   "date": "2026-06-23"
 }
