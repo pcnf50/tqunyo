@@ -2138,7 +2138,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "00:10"
+      "updated": "00:15"
     },
     {
       "op": "31K",
@@ -2147,8 +2147,8 @@
       "no": "031-232",
       "destCode": "武蔵小杉",
       "kind": "普",
-      "delay": "2分遅れ",
-      "updated": "00:10"
+      "delay": "7分遅れ",
+      "updated": "00:15"
     }
   ],
   "meguro": [
@@ -4409,9 +4409,9 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "00:10"
+      "updated": "00:15"
     }
   ],
-  "lastUpdate": "00:10",
+  "lastUpdate": "00:15",
   "date": "2026-06-24"
 }
