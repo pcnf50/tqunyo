@@ -2059,6 +2059,26 @@
       "kind": "普",
       "delay": "11分遅れ",
       "updated": "23:35"
+    },
+    {
+      "op": "08K",
+      "form": "Y515F",
+      "cars": "8",
+      "no": "008-232",
+      "destCode": "自由が丘",
+      "kind": "普",
+      "delay": "8分遅れ",
+      "updated": "23:40"
+    },
+    {
+      "op": "51K",
+      "form": "4108F",
+      "cars": "10",
+      "no": "051-232",
+      "destCode": "渋谷",
+      "kind": "通",
+      "delay": "9分遅れ",
+      "updated": "23:40"
     }
   ],
   "meguro": [
@@ -4292,6 +4312,6 @@
       "updated": "22:35"
     }
   ],
-  "lastUpdate": "23:35",
+  "lastUpdate": "23:40",
   "date": "2026-06-23"
 }
