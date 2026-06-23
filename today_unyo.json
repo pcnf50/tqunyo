@@ -1150,6 +1150,26 @@
       "updated": "08:00"
     },
     {
+      "op": "64",
+      "form": "-",
+      "cars": "6",
+      "no": "364-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "08:10"
+    },
+    {
+      "op": "09",
+      "form": "5118F",
+      "cars": "8",
+      "no": "209-082",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:10"
+    },
+    {
       "op": "28M",
       "form": "40155F",
       "cars": "10",
@@ -1157,7 +1177,17 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "08:05"
+      "updated": "08:10"
+    },
+    {
+      "op": "93G",
+      "form": "20104F",
+      "cars": "10",
+      "no": "993-082",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:10"
     },
     {
       "op": "59",
@@ -1166,8 +1196,8 @@
       "no": "459-071",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "08:05"
+      "delay": "",
+      "updated": "08:10"
     }
   ],
   "meguro": [
@@ -2353,13 +2383,43 @@
     },
     {
       "op": "27K",
-      "form": "-",
-      "cars": "0",
+      "form": "5181F",
+      "cars": "8",
       "no": "227-081",
       "destCode": "日吉",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "08:05"
+      "updated": "08:10"
+    },
+    {
+      "op": "25",
+      "form": "-",
+      "cars": "10",
+      "no": "725-071",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "08:10"
+    },
+    {
+      "op": "09K",
+      "form": "5188F",
+      "cars": "8",
+      "no": "209-082",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:10"
+    },
+    {
+      "op": "93",
+      "form": "-",
+      "cars": "10",
+      "no": "993-082",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:10"
     },
     {
       "op": "42S",
@@ -2368,10 +2428,10 @@
       "no": "342-081",
       "destCode": "日吉",
       "kind": "急",
-      "delay": "3分遅れ",
-      "updated": "08:05"
+      "delay": "1分遅れ",
+      "updated": "08:10"
     }
   ],
-  "lastUpdate": "08:05",
+  "lastUpdate": "08:10",
   "date": "2026-06-24"
 }
