@@ -2149,6 +2149,16 @@
       "kind": "普",
       "delay": "7分遅れ",
       "updated": "00:15"
+    },
+    {
+      "op": "17K",
+      "form": "Y513F",
+      "cars": "8",
+      "no": "017-232",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "7分遅れ",
+      "updated": "00:25"
     }
   ],
   "meguro": [
@@ -4412,6 +4422,6 @@
       "updated": "00:15"
     }
   ],
-  "lastUpdate": "00:20",
+  "lastUpdate": "00:25",
   "date": "2026-06-24"
 }
