@@ -1030,14 +1030,24 @@
       "updated": "07:40"
     },
     {
-      "op": "23",
+      "op": "23S",
+      "form": "10118F",
+      "cars": "10",
+      "no": "723-071",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:50"
+    },
+    {
+      "op": "57",
       "form": "-",
       "cars": "8",
-      "no": "223-071",
-      "destCode": "元住吉",
+      "no": "457-071",
+      "destCode": "日吉",
       "kind": "普",
-      "delay": "4分遅れ",
-      "updated": "07:45"
+      "delay": "1分遅れ",
+      "updated": "07:50"
     },
     {
       "op": "56K",
@@ -1047,7 +1057,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "07:45"
+      "updated": "07:50"
     },
     {
       "op": "04",
@@ -1057,7 +1067,17 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:45"
+      "updated": "07:50"
+    },
+    {
+      "op": "54",
+      "form": "-",
+      "cars": "6",
+      "no": "354-071",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "07:50"
     }
   ],
   "meguro": [
@@ -2122,6 +2142,16 @@
       "updated": "07:40"
     },
     {
+      "op": "59T",
+      "form": "6323F",
+      "cars": "6",
+      "no": "459-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "07:50"
+    },
+    {
       "op": "04K",
       "form": "5183F",
       "cars": "8",
@@ -2129,7 +2159,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:45"
+      "updated": "07:50"
     },
     {
       "op": "10",
@@ -2139,7 +2169,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "07:45"
+      "updated": "07:50"
     },
     {
       "op": "25K",
@@ -2148,10 +2178,20 @@
       "no": "225-071",
       "destCode": "相鉄線直通",
       "kind": "急",
-      "delay": "2分遅れ",
-      "updated": "07:45"
+      "delay": "3分遅れ",
+      "updated": "07:50"
+    },
+    {
+      "op": "84M",
+      "form": "9107F",
+      "cars": "6",
+      "no": "584-071",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "07:50"
     }
   ],
-  "lastUpdate": "07:45",
+  "lastUpdate": "07:50",
   "date": "2026-06-24"
 }
