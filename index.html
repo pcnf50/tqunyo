@@ -431,7 +431,7 @@
   <header>
     <div class="header-left">
       <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-      <div class="version-tag">v2.2.0</div>
+      <div class="version-tag">v2.2.1</div>
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
@@ -668,6 +668,13 @@
       return true;
     });
 
+    // 【重要】検索や絞り込みをかける前の、純粋な全件データ状態から各運番の出現回数をカウント
+    const originalOpCounts = {};
+    list.forEach(t => {
+      const opKey = (t.op || "").toUpperCase();
+      originalOpCounts[opKey] = (originalOpCounts[opKey] || 0) + 1;
+    });
+
     const selectedDate = archiveDateInput ? archiveDateInput.value : todayStr;
     const baseDate = new Date(selectedDate);
 
@@ -835,16 +842,6 @@
       }
     });
 
-    const opRenderedCount = {};
-    list.forEach(t => {
-      const opKey = (t.op || "").toUpperCase();
-      if (opRenderedCount[opKey] === undefined) {
-        opRenderedCount[opKey] = 0;
-      } else {
-        opRenderedCount[opKey]++;
-      }
-    });
-
     list.forEach(t => {
       const opKey = (t.op || "").toUpperCase();
       const formStr = t.form ? String(t.form).trim() : "";
@@ -858,7 +855,7 @@
                             formStr.toUpperCase().startsWith("Y5") || 
                             (fNum >= 511 && fNum <= 517);
 
-      // メトロ車、東武車、西武車、相鉄車の所属判定フラグ
+      // 他社車の所属判定フラグ
       const isMetro  = (fNum >= 17101 && fNum <= 17195) || (fNum >= 10101 && fNum <= 10136);
       const isTobu   = (fNum >= 51071 && fNum <= 51077) || (fNum >= 9101 && fNum <= 9108) || (fNum >= 9151 && fNum <= 9152);
       const isSeibu  = (fNum >= 40101 && fNum <= 40106) || (fNum >= 40151 && fNum <= 40169) || (fNum >= 6101 && fNum <= 6117) || (fNum >= 6151 && fNum <= 6158);
@@ -873,10 +870,10 @@
         else if (lastChar === "G" && !isSotetsu) isDaiso = true;
       }
 
-      // 車両交換（同一運番に複数データ）が発生しているか
-      const isExchanged = opRenderedCount[opKey] > 1;
+      // 車両交換判定：全件データ中で、この運番が2回以上登場するかどうか
+      const isExchanged = (originalOpCounts[opKey] || 0) > 1;
 
-      // クラス割り当て（車両交換による複数表示がある場合はそちらを優先して色変え）
+      // クラス割り当て（車両交換による複数表示がある場合は最優先して色変え）
       let formClass = '';
       if (isExchanged) {
         formClass = ' class="changed-form"';
