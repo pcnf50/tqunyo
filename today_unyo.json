@@ -4230,8 +4230,28 @@
       "kind": "普",
       "delay": "",
       "updated": "22:15"
+    },
+    {
+      "op": "47K",
+      "form": "3113F",
+      "cars": "8",
+      "no": "247-222",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:35"
+    },
+    {
+      "op": "81T",
+      "form": "-",
+      "cars": "0",
+      "no": "481-221",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:35"
     }
   ],
-  "lastUpdate": "22:30",
+  "lastUpdate": "22:35",
   "date": "2026-06-23"
 }
