@@ -4170,18 +4170,8 @@
       "kind": "急",
       "delay": "",
       "updated": "20:35"
-    },
-    {
-      "op": "43T",
-      "form": "-",
-      "cars": "0",
-      "no": "443-201",
-      "destCode": "新横浜",
-      "kind": "普",
-      "delay": "",
-      "updated": "20:40"
     }
   ],
-  "lastUpdate": "20:40",
+  "lastUpdate": "20:45",
   "date": "2026-06-23"
 }
