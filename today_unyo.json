@@ -2198,7 +2198,7 @@
       "destCode": "武蔵小杉",
       "kind": "急",
       "delay": "40分遅れ",
-      "updated": "01:00"
+      "updated": "01:05"
     }
   ],
   "meguro": [
@@ -4492,6 +4492,6 @@
       "updated": "00:55"
     }
   ],
-  "lastUpdate": "01:00",
+  "lastUpdate": "01:05",
   "date": "2026-06-24"
 }
