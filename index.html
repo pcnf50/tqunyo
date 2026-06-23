@@ -13,6 +13,25 @@
       --text-main: #0f172a;
       --text-sub: #475569;
       --border-color: #cbd5e1;
+      --header-bg: #f8fafc;
+      --table-stripe: #f8fafc;
+      --badge-bg: #fee2e2;
+      --badge-text: #DA0442;
+      --badge-border: rgba(218, 4, 66, 0.15);
+    }
+
+    /* ダークモード用の変数定義 */
+    [data-theme="dark"] {
+      --bg-color: #0f172a;
+      --card-bg: #1e293b;
+      --text-main: #f8fafc;
+      --text-sub: #94a3b8;
+      --border-color: #334155;
+      --header-bg: #1e293b;
+      --table-stripe: #1e293b;
+      --badge-bg: #4c0519;
+      --badge-text: #fda4af;
+      --badge-border: rgba(253, 164, 175, 0.2);
     }
 
     body {
@@ -22,6 +41,7 @@
       padding: 16px;
       color: var(--text-main);
       line-height: 1.5;
+      transition: background-color 0.3s, color 0.3s;
     }
 
     main {
@@ -35,6 +55,12 @@
       align-items: center;
       margin-bottom: 16px;
       padding: 0 4px;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
 
     h1 {
@@ -51,6 +77,24 @@
       background: #e2e8f0;
       padding: 2px 6px;
       border-radius: 4px;
+    }
+    [data-theme="dark"] .version-tag {
+      background: #334155;
+    }
+
+    /* テーマ切り替えボタン */
+    .theme-toggle-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 6px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
     }
 
     .top-bar {
@@ -104,12 +148,9 @@
     }
     @media (hover: hover) {
       .refresh-btn:hover {
-        background: #f8fafc;
-        border-color: #94a3b8;
+        background: var(--header-bg);
+        border-color: var(--text-sub);
       }
-    }
-    .refresh-btn:active {
-      background: #e2e8f0;
     }
 
     .today-back-btn {
@@ -127,14 +168,6 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-    }
-    @media (hover: hover) {
-      .today-back-btn:hover {
-        opacity: 0.9;
-      }
-    }
-    .today-back-btn:active {
-      opacity: 0.8;
     }
 
     .search-container {
@@ -167,7 +200,6 @@
       border-color: var(--toyoko);
       box-shadow: 0 0 0 3px rgba(218, 4, 66, 0.15);
     }
-    /* 検索クリアボタン */
     .clear-search-btn {
       position: absolute;
       right: 10px;
@@ -187,11 +219,11 @@
       font-weight: bold;
       padding: 0;
     }
-    .clear-search-btn:hover {
-      background: #94a3b8;
+    [data-theme="dark"] .clear-search-btn {
+      background: #475569;
     }
 
-    /* 折りたたみアコーディオンの洗練化 */
+    /* 形式絞り込みアコーディオン（項目2: 最大高さ制限とスクロール化） */
     .filter-accordion {
       margin: 0 4px 12px 4px;
       border: 1px solid var(--border-color);
@@ -207,7 +239,7 @@
       font-weight: 700;
       color: var(--text-main);
       cursor: pointer;
-      background: #f8fafc;
+      background: var(--header-bg);
       user-select: none;
       outline: none;
       list-style: none;
@@ -234,7 +266,6 @@
       content: "－";
     }
 
-    /* 選択中バッジ表示エリア */
     .selected-badges-container {
       display: flex;
       flex-wrap: wrap;
@@ -242,21 +273,23 @@
     }
     .badge-item {
       font-size: 11px;
-      background: #fee2e2;
-      color: var(--toyoko);
+      background: var(--badge-bg);
+      color: var(--badge-text);
       padding: 2px 8px;
       border-radius: 20px;
       font-weight: 700;
-      border: 1px solid rgba(218, 4, 66, 0.15);
+      border: 1px solid var(--badge-border);
     }
 
+    /* 項目2: アコーディオン内のコンテンツエリアにスクロールを設定 */
     .accordion-content {
       padding: 12px;
       border-top: 1px solid var(--border-color);
       background: var(--card-bg);
+      max-height: 200px;
+      overflow-y: auto;
     }
 
-    /* 全選択・解除ボタン群 */
     .bulk-action-bar {
       display: flex;
       gap: 8px;
@@ -266,17 +299,18 @@
       font-size: 12px;
       font-weight: 700;
       color: var(--toyoko);
-      background: #fff5f7;
+      background: rgba(218, 4, 66, 0.05);
       border: 1px solid rgba(218, 4, 66, 0.2);
       padding: 4px 10px;
       border-radius: 4px;
       cursor: pointer;
     }
-    .action-link:hover {
-      background: #ffe4e8;
+    [data-theme="dark"] .action-link {
+      color: #fda4af;
+      background: rgba(253, 164, 175, 0.05);
+      border: 1px solid rgba(253, 164, 175, 0.2);
     }
 
-    /* ボタン風のチェックボックスグリッド */
     .checkbox-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
@@ -290,7 +324,7 @@
       font-size: 13px;
       font-weight: 700;
       color: var(--text-sub);
-      background: #f8fafc;
+      background: var(--header-bg);
       border: 1px solid var(--border-color);
       padding: 8px 6px;
       border-radius: 6px;
@@ -299,12 +333,9 @@
       transition: all 0.15s;
       text-align: center;
     }
-
     .checkbox-label input[type="checkbox"] {
-      display: none; /* 標準チェックボックスは隠す */
+      display: none;
     }
-
-    /* チェックが入ったときのボタン風スタイル */
     .checkbox-label:has(input[type="checkbox"]:checked) {
       background: var(--toyoko);
       color: #ffffff;
@@ -333,7 +364,7 @@
     }
 
     th {
-      background-color: #f8fafc;
+      background-color: var(--header-bg);
       font-weight: 700;
       color: var(--text-sub);
       cursor: pointer;
@@ -343,18 +374,11 @@
       text-transform: uppercase;
       letter-spacing: 0.05em;
     }
-    @media (hover: hover) {
-      th:hover { background-color: #f1f5f9; }
-    }
     th.sort-asc::after { content: " ▴"; color: var(--toyoko); font-size: 12px; }
     th.sort-desc::after { content: " ▾"; color: var(--toyoko); font-size: 12px; }
 
     tr:last-child td { border-bottom: none; }
-    tr:nth-child(even) { background-color: #f8fafc; }
-    
-    @media (hover: hover) {
-      tr:hover { background-color: #f1f5f9; }
-    }
+    tr:nth-child(even) { background-color: var(--table-stripe); }
 
     td b {
       font-size: 15px;
@@ -367,9 +391,19 @@
       white-space: nowrap;
     }
 
+    /* 予測データが無い場合の「-」を減光 */
+    .yosoku-none {
+      color: var(--text-sub);
+      opacity: 0.4;
+      font-weight: normal;
+    }
+
     .changed-form {
       color: var(--toyoko);
       font-weight: 700;
+    }
+    [data-theme="dark"] .changed-form {
+      color: #fda4af;
     }
 
     .no-data { padding: 40px 16px; text-align: center; color: var(--text-sub); font-size: 14px; }
@@ -390,8 +424,11 @@
 
 <main>
   <header>
-    <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-    <div class="version-tag">v2.0.0</div>
+    <div class="header-left">
+      <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
+      <div class="version-tag">v2.1.0</div>
+    </div>
+    <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
@@ -465,6 +502,34 @@
 </main>
 
 <script>
+  // --- テーマ管理（自動検出と手動切り替え） ---
+  const themeToggleBtn = document.getElementById("themeToggle");
+  
+  function initTheme() {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+      document.documentElement.setAttribute("data-theme", savedTheme);
+      themeToggleBtn.textContent = savedTheme === "dark" ? "☀️" : "🌙";
+    } else {
+      // システム設定の自動検出
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      const defaultTheme = prefersDark ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", defaultTheme);
+      themeToggleBtn.textContent = defaultTheme === "dark" ? "☀️" : "🌙";
+    }
+  }
+
+  themeToggleBtn.addEventListener("click", () => {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", newTheme);
+    localStorage.setItem("theme", newTheme);
+    themeToggleBtn.textContent = newTheme === "dark" ? "☀️" : "🌙";
+  });
+
+  initTheme();
+
+  // --- メインロジック系 ---
   let rawUnyoData = {};
   let rawYosokuData = {};
   let sortState = { toyoko: { key: "op", asc: true } };
@@ -656,7 +721,6 @@
     const queryOp = searchOp ? searchOp.value.trim().toLowerCase() : "";
     const queryForm = searchForm ? searchForm.value.trim().toLowerCase() : "";
 
-    // 検索クリアボタンの表示制御
     const clearOpBtn = document.getElementById("clearOpBtn");
     const clearFormBtn = document.getElementById("clearFormBtn");
     if(clearOpBtn) clearOpBtn.style.display = queryOp ? "flex" : "none";
@@ -669,21 +733,35 @@
       list = list.filter(t => (t.form || "").toLowerCase().includes(queryForm));
     }
 
-    // 複数選択チェックボックスの絞り込みロジック
     const checkedBoxes = Array.from(document.querySelectorAll('#checkboxGroup input[type="checkbox"]:checked'));
     const selectedTypes = checkedBoxes.map(cb => cb.value);
 
-    // バッジ表示とアコーディオンタイトルの更新
+    // 項目2: 選択バッジの格納と上限を超えた場合の省略ロジック
     const badgesContainer = document.getElementById("selectedBadges");
     const summaryText = document.getElementById("accordionSummaryText");
     if (badgesContainer) {
       badgesContainer.innerHTML = "";
-      checkedBoxes.forEach(cb => {
-        const badge = document.createElement("span");
-        badge.className = "badge-item";
-        badge.textContent = cb.getAttribute("data-label");
-        badgesContainer.appendChild(badge);
-      });
+      if (checkedBoxes.length <= 3) {
+        checkedBoxes.forEach(cb => {
+          const badge = document.createElement("span");
+          badge.className = "badge-item";
+          badge.textContent = cb.getAttribute("data-label");
+          badgesContainer.appendChild(badge);
+        });
+      } else {
+        // 4つ以上の場合は上位3つだけ出して残りを省略表記
+        for (let i = 0; i < 3; i++) {
+          const badge = document.createElement("span");
+          badge.className = "badge-item";
+          badge.textContent = checkedBoxes[i].getAttribute("data-label");
+          badgesContainer.appendChild(badge);
+        }
+        const omitBadge = document.createElement("span");
+        omitBadge.className = "badge-item";
+        omitBadge.style.opacity = "0.7";
+        omitBadge.textContent = `+他${checkedBoxes.length - 3}件`;
+        badgesContainer.appendChild(omitBadge);
+      }
     }
     if (summaryText) {
       summaryText.textContent = selectedTypes.length > 0 ? `形式で絞り込み (${selectedTypes.length}つ選択中)` : "形式で絞り込み";
@@ -769,11 +847,17 @@
       const isChanged = opRenderedCount[opKey] > 0;
       const formClass = isChanged ? ' class="changed-form"' : '';
 
+      // 予測値に有効データがない場合（-➔-）の見栄え対策調整
+      let yosokuDisplay = t.yosoku || "-";
+      if (yosokuDisplay === "-➔-") {
+        yosokuDisplay = `<span class="yosoku-none">-➔-</span>`;
+      }
+
       const tr = document.createElement("tr");
       tr.innerHTML = `
         <td><b>${t.op}</b></td>
         <td${formClass}>${t.form}</td>
-        <td class="yosoku-val">${t.yosoku || "-"}</td>
+        <td class="yosoku-val">${yosokuDisplay}</td>
       `;
       tbody.appendChild(tr);
     });
@@ -827,7 +911,6 @@
   if (searchOp) searchOp.addEventListener("input", () => renderTable("toyoko"));
   if (searchForm) searchForm.addEventListener("input", () => renderTable("toyoko"));
 
-  // 検索クリアボタンのイベント登録
   const clearOpBtn = document.getElementById("clearOpBtn");
   const clearFormBtn = document.getElementById("clearFormBtn");
   if(clearOpBtn) {
@@ -837,12 +920,10 @@
     clearFormBtn.onclick = () => { if(searchForm) { searchForm.value = ""; renderTable("toyoko"); } };
   }
 
-  // 各種チェックボックス関連イベント監視
   document.querySelectorAll('#checkboxGroup input[type="checkbox"]').forEach(cb => {
     cb.addEventListener("change", () => renderTable("toyoko"));
   });
 
-  // 一括選択・一括解除ロジック
   const selectAllBtn = document.getElementById("selectAllTypes");
   const clearAllBtn = document.getElementById("clearAllTypes");
   if(selectAllBtn) {
