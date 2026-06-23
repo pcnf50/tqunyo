@@ -3600,8 +3600,18 @@
       "kind": "普",
       "delay": "",
       "updated": "14:35"
+    },
+    {
+      "op": "71T",
+      "form": "-",
+      "cars": "0",
+      "no": "471-151",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "15:05"
     }
   ],
-  "lastUpdate": "15:00",
+  "lastUpdate": "15:05",
   "date": "2026-06-23"
 }
