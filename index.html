@@ -431,7 +431,7 @@
   <header>
     <div class="header-left">
       <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-      <div class="version-tag">v2.2.1</div>
+      <div class="version-tag">v2.2.2</div>
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
@@ -668,7 +668,6 @@
       return true;
     });
 
-    // 【重要】検索や絞り込みをかける前の、純粋な全件データ状態から各運番の出現回数をカウント
     const originalOpCounts = {};
     list.forEach(t => {
       const opKey = (t.op || "").toUpperCase();
@@ -870,12 +869,12 @@
         else if (lastChar === "G" && !isSotetsu) isDaiso = true;
       }
 
-      // 車両交換判定：全件データ中で、この運番が2回以上登場するかどうか
+      // 車両交換判定
       const isExchanged = (originalOpCounts[opKey] || 0) > 1;
 
-      // クラス割り当て（車両交換による複数表示がある場合は最優先して色変え）
+      // クラス割り当て（車両交換があっても、その行が代走（isDaiso）の場合のみ最優先でピンクに変える）
       let formClass = '';
-      if (isExchanged) {
+      if (isExchanged && isDaiso) {
         formClass = ' class="changed-form"';
       } else if (isDaiso) {
         formClass = ' class="daiso-form"';
