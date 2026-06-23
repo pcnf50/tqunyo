@@ -841,11 +841,18 @@
       }
     });
 
+    // 描画した運番の出現数を記録するオブジェクト
+    const opRenderCounts = {};
+
     list.forEach(t => {
       const opKey = (t.op || "").toUpperCase();
       const formStr = t.form ? String(t.form).trim() : "";
       const fNum = parseInt(formStr.match(/\d+/)?.[0] || "0", 10);
       const lastChar = opKey.slice(-1);
+
+      // 運番の描画回数をインクリメント
+      opRenderCounts[opKey] = (opRenderCounts[opKey] || 0) + 1;
+      const currentOpIndex = opRenderCounts[opKey]; // この行が何番目の列車か (1列車目なら1, 2列車目なら2...)
 
       // 自社車（東急およびY500系）の判定フラグ
       const isTokyuOrY500 = (fNum >= 4101 && fNum <= 4115) || 
@@ -869,19 +876,19 @@
         else if (lastChar === "G" && !isSotetsu) isDaiso = true;
       }
 
-      // 車両交換判定
+      // 車両交換判定（全体で2つ以上のデータが存在するか）
       const isExchanged = (originalOpCounts[opKey] || 0) > 1;
 
       // クラス割り当ての判定ロジック
       let formClass = '';
-      if (isExchanged) {
-        // 代走である・なしに関わらず、車両交換なら赤文字
+      if (isExchanged && currentOpIndex >= 2) {
+        // 車両交換が発生しており、かつ2列車目以降の場合は最優先で赤文字
         formClass = ' class="changed-form"';
       } else if (isDaiso) {
-        // 車両交換ではなく、代走のみなら黒太文字
+        // 1列車目の交換車両、または単なる代走は黒太文字
         formClass = ' class="daiso-form"';
       } else {
-        // 代走でなく車両交換でもない場合は普通の文字
+        // 通常列車は普通の文字
         formClass = '';
       }
 
