@@ -1871,16 +1871,6 @@
       "updated": "17:55"
     },
     {
-      "op": "85S",
-      "form": "-",
-      "cars": "0",
-      "no": "785-181",
-      "destCode": "元町・中華街",
-      "kind": "通",
-      "delay": "1分遅れ",
-      "updated": "18:00"
-    },
-    {
       "op": "30K",
       "form": "5175F",
       "cars": "8",
@@ -1888,7 +1878,7 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "18:00"
+      "updated": "18:05"
     }
   ],
   "meguro": [
@@ -3879,9 +3869,9 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "18:00"
+      "updated": "18:05"
     }
   ],
-  "lastUpdate": "18:00",
+  "lastUpdate": "18:05",
   "date": "2026-06-23"
 }
