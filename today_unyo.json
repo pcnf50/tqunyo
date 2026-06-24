@@ -2660,8 +2660,28 @@
       "kind": "普",
       "delay": "7分遅れ",
       "updated": "08:40"
+    },
+    {
+      "op": "73T",
+      "form": "6321F",
+      "cars": "6",
+      "no": "473-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "6分遅れ",
+      "updated": "08:45"
+    },
+    {
+      "op": "35T",
+      "form": "6508F",
+      "cars": "8",
+      "no": "435-081",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "7分遅れ",
+      "updated": "08:45"
     }
   ],
-  "lastUpdate": "08:40",
+  "lastUpdate": "08:45",
   "date": "2026-06-25"
 }
