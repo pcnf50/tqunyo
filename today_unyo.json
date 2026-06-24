@@ -3178,8 +3178,18 @@
       "kind": "特",
       "delay": "",
       "updated": "10:20"
+    },
+    {
+      "op": "71T",
+      "form": "6503F",
+      "cars": "8",
+      "no": "471-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:25"
     }
   ],
-  "lastUpdate": "10:20",
+  "lastUpdate": "10:25",
   "date": "2026-06-24"
 }
