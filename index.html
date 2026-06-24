@@ -18,6 +18,7 @@
       --badge-bg: #fee2e2;
       --badge-text: #DA0442;
       --badge-border: rgba(218, 4, 66, 0.15);
+      --overlay-bg: rgba(15, 23, 42, 0.4);
     }
 
     /* ダークモード用の変数定義 */
@@ -32,6 +33,7 @@
       --badge-bg: #4c0519;
       --badge-text: #fda4af;
       --badge-border: rgba(253, 164, 175, 0.2);
+      --overlay-bg: rgba(0, 0, 0, 0.6);
     }
 
     body {
@@ -434,6 +436,72 @@
       font-size: 13px;
       font-weight: 600;
     }
+
+    /* --- 確認時刻表示用 モーダルUI --- */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: var(--overlay-bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s, visibility 0.2s;
+      backdrop-filter: blur(2px);
+    }
+    .modal-overlay.is-active {
+      opacity: 1;
+      visibility: visible;
+    }
+    .modal-content {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      width: 280px;
+      padding: 20px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+      transform: scale(0.95);
+      transition: transform 0.2s;
+      text-align: center;
+    }
+    .modal-overlay.is-active .modal-content {
+      transform: scale(1);
+    }
+    .modal-title {
+      font-size: 14px;
+      color: var(--text-sub);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .modal-body {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 20px;
+      letter-spacing: -0.01em;
+    }
+    .modal-close-btn {
+      width: 100%;
+      background-color: var(--header-bg);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      font-size: 14px;
+      font-weight: 700;
+      padding: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.15s;
+    }
+    @media (hover: hover) {
+      .modal-close-btn:hover {
+        background-color: var(--border-color);
+      }
+    }
   </style>
 </head>
 <body>
@@ -442,7 +510,7 @@
   <header>
     <div class="header-left">
       <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-      <div class="version-tag">v2.2.4</div>
+      <div class="version-tag">v2.2.5</div>
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
@@ -517,6 +585,14 @@
   </section>
 </main>
 
+<div class="modal-overlay" id="timeModalOverlay">
+  <div class="modal-content">
+    <div class="modal-title" id="modalOpTitle">01K 運用確認時刻</div>
+    <div class="modal-body" id="modalTimeBody">--:--</div>
+    <button type="button" class="modal-close-btn" id="modalCloseBtn">閉じる</button>
+  </div>
+</div>
+
 <script>
   // --- テーマ管理 ---
   const themeToggleBtn = document.getElementById("themeToggle");
@@ -553,6 +629,12 @@
   const todayStr = new Date().toLocaleDateString('sv-SE');
   const archiveDateInput = document.getElementById("archiveDate");
   const backToTodayBtn = document.getElementById("backToToday");
+
+  // モーダル用要素
+  const timeModalOverlay = document.getElementById("timeModalOverlay");
+  const modalOpTitle = document.getElementById("modalOpTitle");
+  const modalTimeBody = document.getElementById("modalTimeBody");
+  const modalCloseBtn = document.getElementById("modalCloseBtn");
 
   if(archiveDateInput) {
     archiveDateInput.value = todayStr;
@@ -639,10 +721,23 @@
     }
   }
 
-  // 確認時刻のアラート表示用関数
+  // 確認時刻のUI表示用関数（モーダル）
   function showUpdateTime(op, updatedTime) {
-    const displayTime = (updatedTime && updatedTime.trim() !== "") ? updatedTime : "未登録";
-    alert(`運用番号: ${op}\n確認時刻: ${displayTime}`);
+    if(!timeModalOverlay || !modalOpTitle || !modalTimeBody) return;
+    modalOpTitle.textContent = `${op} 運用確認時刻`;
+    modalTimeBody.textContent = (updatedTime && updatedTime.trim() !== "") ? updatedTime : "未登録";
+    timeModalOverlay.classList.add("is-active");
+  }
+
+  function closeModal() {
+    if(timeModalOverlay) timeModalOverlay.classList.remove("is-active");
+  }
+
+  if(modalCloseBtn) modalCloseBtn.addEventListener("click", closeModal);
+  if(timeModalOverlay) {
+    timeModalOverlay.addEventListener("click", (e) => {
+      if(e.target === timeModalOverlay) closeModal();
+    });
   }
 
   function renderTable(line) {
@@ -858,7 +953,6 @@
       }
     });
 
-    // 描画した運番の出現数を記録するオブジェクト
     const opRenderCounts = {};
 
     list.forEach(t => {
@@ -867,18 +961,15 @@
       const fNum = parseInt(formStr.match(/\d+/)?.[0] || "0", 10);
       const lastChar = opKey.slice(-1);
 
-      // 運番の描画回数をインクリメント
       opRenderCounts[opKey] = (opRenderCounts[opKey] || 0) + 1;
-      const currentOpIndex = opRenderCounts[opKey]; // この行が何番目の列車か (1列車目なら1, 2列車目なら2...)
+      const currentOpIndex = opRenderCounts[opKey];
 
-      // 自社車（東急およびY500系）の判定フラグ
       const isTokyuOrY500 = (fNum >= 4101 && fNum <= 4115) || 
                             (fNum >= 5118 && fNum <= 5122) || 
                             (fNum >= 5151 && fNum <= 5178) || 
                             formStr.toUpperCase().startsWith("Y5") || 
                             (fNum >= 511 && fNum <= 517);
 
-      // 他社車の所属判定フラグ
       const isMetro  = (fNum >= 17101 && fNum <= 17195) || (fNum >= 10101 && fNum <= 10136);
       const isTobu   = (fNum >= 51071 && fNum <= 51077) || (fNum >= 9101 && fNum <= 9108) || (fNum >= 9151 && fNum <= 9152);
       const isSeibu  = (fNum >= 40101 && fNum <= 40106) || (fNum >= 40151 && fNum <= 40169) || (fNum >= 6101 && fNum <= 6117) || (fNum >= 6151 && fNum <= 6158);
@@ -893,19 +984,14 @@
         else if (lastChar === "G" && !isSotetsu) isDaiso = true;
       }
 
-      // 車両交換判定（全体で2つ以上のデータが存在するか）
       const isExchanged = (originalOpCounts[opKey] || 0) > 1;
 
-      // クラス割り当ての判定ロジック
       let formClass = '';
       if (isExchanged && currentOpIndex >= 2) {
-        // 車両交換が発生しており、かつ2列車目以降の場合は最優先で赤文字
         formClass = ' class="changed-form"';
       } else if (isDaiso) {
-        // 1列車目の交換車両、または単なる代走は黒太文字
         formClass = ' class="daiso-form"';
       } else {
-        // 通常列車は普通の文字
         formClass = '';
       }
 
@@ -914,7 +1000,6 @@
         yosokuDisplay = `<span class="yosoku-none">-➔-</span>`;
       }
 
-      // エスケープや不要なバグを防ぐため、安全に文字列を渡せる形式で onclick イベントを付与
       const safeOp = (t.op || "").replace(/'/g, "\\'");
       const safeUpdated = (t.updated || "").replace(/'/g, "\\'");
 
