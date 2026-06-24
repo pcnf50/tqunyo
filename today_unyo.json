@@ -3638,8 +3638,28 @@
       "kind": "回",
       "delay": "1分遅れ",
       "updated": "16:00"
+    },
+    {
+      "op": "61T",
+      "form": "-",
+      "cars": "0",
+      "no": "461-161",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "16:10"
+    },
+    {
+      "op": "67",
+      "form": "-",
+      "cars": "10",
+      "no": "767-151",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "16:10"
     }
   ],
-  "lastUpdate": "16:05",
+  "lastUpdate": "16:10",
   "date": "2026-06-24"
 }
