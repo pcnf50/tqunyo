@@ -1189,6 +1189,36 @@
       "kind": "普",
       "delay": "",
       "updated": "08:05"
+    },
+    {
+      "op": "93G",
+      "form": "20105F",
+      "cars": "10",
+      "no": "993-082",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:10"
+    },
+    {
+      "op": "64",
+      "form": "-",
+      "cars": "8",
+      "no": "364-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:10"
+    },
+    {
+      "op": "28M",
+      "form": "6113F",
+      "cars": "10",
+      "no": "128-081",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "4分遅れ",
+      "updated": "08:10"
     }
   ],
   "meguro": [
@@ -2440,8 +2470,28 @@
       "kind": "急",
       "delay": "",
       "updated": "08:05"
+    },
+    {
+      "op": "93",
+      "form": "-",
+      "cars": "10",
+      "no": "993-082",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:10"
+    },
+    {
+      "op": "41T",
+      "form": "6324F",
+      "cars": "6",
+      "no": "441-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:10"
     }
   ],
-  "lastUpdate": "08:05",
+  "lastUpdate": "08:10",
   "date": "2026-06-25"
 }
