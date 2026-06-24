@@ -959,6 +959,46 @@
       "kind": "普",
       "delay": "",
       "updated": "07:20"
+    },
+    {
+      "op": "95G",
+      "form": "20103F",
+      "cars": "10",
+      "no": "995-072",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:25"
+    },
+    {
+      "op": "11",
+      "form": "-",
+      "cars": "8",
+      "no": "211-071",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:25"
+    },
+    {
+      "op": "55",
+      "form": "-",
+      "cars": "8",
+      "no": "455-071",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:25"
+    },
+    {
+      "op": "62K",
+      "form": "-",
+      "cars": "0",
+      "no": "062-071",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:25"
     }
   ],
   "meguro": [
@@ -1981,8 +2021,38 @@
       "kind": "急",
       "delay": "",
       "updated": "07:20"
+    },
+    {
+      "op": "95",
+      "form": "-",
+      "cars": "10",
+      "no": "995-072",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:25"
+    },
+    {
+      "op": "23K",
+      "form": "3101F",
+      "cars": "8",
+      "no": "223-071",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:25"
+    },
+    {
+      "op": "23K",
+      "form": "-",
+      "cars": "8",
+      "no": "023-062",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:25"
     }
   ],
-  "lastUpdate": "07:20",
+  "lastUpdate": "07:25",
   "date": "2026-06-25"
 }
