@@ -2640,8 +2640,28 @@
       "kind": "通",
       "delay": "",
       "updated": "08:35"
+    },
+    {
+      "op": "87",
+      "form": "-",
+      "cars": "10",
+      "no": "787-081",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "12分遅れ",
+      "updated": "08:40"
+    },
+    {
+      "op": "75T",
+      "form": "6329F",
+      "cars": "6",
+      "no": "475-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "7分遅れ",
+      "updated": "08:40"
     }
   ],
-  "lastUpdate": "08:35",
+  "lastUpdate": "08:40",
   "date": "2026-06-25"
 }
