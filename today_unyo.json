@@ -1608,6 +1608,16 @@
       "kind": "普",
       "delay": "",
       "updated": "11:00"
+    },
+    {
+      "op": "20M",
+      "form": "6111F",
+      "cars": "10",
+      "no": "120-111",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "11:10"
     }
   ],
   "meguro": [
@@ -3268,8 +3278,18 @@
       "kind": "普",
       "delay": "",
       "updated": "11:00"
+    },
+    {
+      "op": "89T",
+      "form": "6336F",
+      "cars": "6",
+      "no": "489-111",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:10"
     }
   ],
-  "lastUpdate": "11:05",
+  "lastUpdate": "11:10",
   "date": "2026-06-24"
 }
