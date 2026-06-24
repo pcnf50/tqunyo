@@ -384,6 +384,17 @@
       font-weight: 700;
     }
 
+    /* 運番セル内のクリック可能デザイン */
+    .clickable-op {
+      cursor: pointer;
+      user-select: none;
+    }
+    @media (hover: hover) {
+      .clickable-op:hover {
+        text-decoration: underline;
+      }
+    }
+
     .yosoku-val {
       font-weight: 700;
       color: var(--text-main);
@@ -431,7 +442,7 @@
   <header>
     <div class="header-left">
       <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-      <div class="version-tag">v2.2.2</div>
+      <div class="version-tag">v2.2.4</div>
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
@@ -626,6 +637,12 @@
         errDiv.style.display = "block";
       }
     }
+  }
+
+  // 確認時刻のアラート表示用関数
+  function showUpdateTime(op, updatedTime) {
+    const displayTime = (updatedTime && updatedTime.trim() !== "") ? updatedTime : "未登録";
+    alert(`運用番号: ${op}\n確認時刻: ${displayTime}`);
   }
 
   function renderTable(line) {
@@ -897,9 +914,13 @@
         yosokuDisplay = `<span class="yosoku-none">-➔-</span>`;
       }
 
+      // エスケープや不要なバグを防ぐため、安全に文字列を渡せる形式で onclick イベントを付与
+      const safeOp = (t.op || "").replace(/'/g, "\\'");
+      const safeUpdated = (t.updated || "").replace(/'/g, "\\'");
+
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td><b>${t.op}</b></td>
+        <td class="clickable-op" onclick="showUpdateTime('${safeOp}', '${safeUpdated}')"><b>${t.op}</b></td>
         <td${formClass}>${t.form}</td>
         <td class="yosoku-val">${yosokuDisplay}</td>
       `;
