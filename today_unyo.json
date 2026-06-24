@@ -2018,6 +2018,16 @@
       "kind": "通",
       "delay": "1分遅れ",
       "updated": "19:45"
+    },
+    {
+      "op": "29",
+      "form": "-",
+      "cars": "8",
+      "no": "229-192",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:55"
     }
   ],
   "meguro": [
@@ -4128,8 +4138,18 @@
       "kind": "普",
       "delay": "",
       "updated": "19:50"
+    },
+    {
+      "op": "29K",
+      "form": "3103F",
+      "cars": "8",
+      "no": "229-192",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:55"
     }
   ],
-  "lastUpdate": "19:50",
+  "lastUpdate": "19:55",
   "date": "2026-06-24"
 }
