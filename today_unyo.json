@@ -3518,8 +3518,18 @@
       "kind": "普",
       "delay": "1分遅れ",
       "updated": "13:30"
+    },
+    {
+      "op": "86M",
+      "form": "9108F",
+      "cars": "6",
+      "no": "586-131",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "13:45"
     }
   ],
-  "lastUpdate": "13:41",
+  "lastUpdate": "13:45",
   "date": "2026-06-24"
 }
