@@ -729,6 +729,26 @@
       "kind": "回",
       "delay": "1分遅れ",
       "updated": "06:40"
+    },
+    {
+      "op": "92G",
+      "form": "20101F",
+      "cars": "10",
+      "no": "992-062",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:45"
+    },
+    {
+      "op": "32",
+      "form": "-",
+      "cars": "6",
+      "no": "332-062",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:45"
     }
   ],
   "meguro": [
@@ -1521,8 +1541,48 @@
       "kind": "回",
       "delay": "1分遅れ",
       "updated": "06:40"
+    },
+    {
+      "op": "92",
+      "form": "-",
+      "cars": "10",
+      "no": "992-062",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:45"
+    },
+    {
+      "op": "43K",
+      "form": "-",
+      "cars": "0",
+      "no": "243-061",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "",
+      "updated": "06:45"
+    },
+    {
+      "op": "32S",
+      "form": "9114F",
+      "cars": "6",
+      "no": "332-062",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:45"
+    },
+    {
+      "op": "15",
+      "form": "-",
+      "cars": "8",
+      "no": "015-062",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:45"
     }
   ],
-  "lastUpdate": "06:41",
+  "lastUpdate": "06:45",
   "date": "2026-06-25"
 }
