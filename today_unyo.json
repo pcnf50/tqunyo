@@ -1587,7 +1587,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "10:35"
+      "updated": "10:40"
     }
   ],
   "meguro": [
@@ -3207,9 +3207,19 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "10:35"
+      "updated": "10:40"
+    },
+    {
+      "op": "77T",
+      "form": "6333F",
+      "cars": "6",
+      "no": "477-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:40"
     }
   ],
-  "lastUpdate": "10:35",
+  "lastUpdate": "10:40",
   "date": "2026-06-24"
 }
