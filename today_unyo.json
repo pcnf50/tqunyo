@@ -1309,6 +1309,16 @@
       "kind": "普",
       "delay": "6分遅れ",
       "updated": "08:50"
+    },
+    {
+      "op": "73",
+      "form": "-",
+      "cars": "6",
+      "no": "473-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "09:00"
     }
   ],
   "meguro": [
@@ -2748,10 +2758,20 @@
       "no": "592-081",
       "destCode": "元住吉",
       "kind": "普",
-      "delay": "6分遅れ",
-      "updated": "08:55"
+      "delay": "4分遅れ",
+      "updated": "09:00"
+    },
+    {
+      "op": "94M",
+      "form": "-",
+      "cars": "0",
+      "no": "594-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "7分遅れ",
+      "updated": "09:00"
     }
   ],
-  "lastUpdate": "08:55",
+  "lastUpdate": "09:00",
   "date": "2026-06-25"
 }
