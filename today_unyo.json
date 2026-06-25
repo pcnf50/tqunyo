@@ -3010,8 +3010,28 @@
       "kind": "普",
       "delay": "6分遅れ",
       "updated": "09:30"
+    },
+    {
+      "op": "52M",
+      "form": "-",
+      "cars": "10",
+      "no": "052-091",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "9分遅れ",
+      "updated": "09:35"
+    },
+    {
+      "op": "35G",
+      "form": "-",
+      "cars": "0",
+      "no": "635-091",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "8分遅れ",
+      "updated": "09:35"
     }
   ],
-  "lastUpdate": "09:30",
+  "lastUpdate": "09:35",
   "date": "2026-06-25"
 }
