@@ -1499,6 +1499,16 @@
       "kind": "特",
       "delay": "5分遅れ",
       "updated": "09:45"
+    },
+    {
+      "op": "58K",
+      "form": "-",
+      "cars": "0",
+      "no": "058-091",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "2分遅れ",
+      "updated": "09:50"
     }
   ],
   "meguro": [
@@ -3072,6 +3082,6 @@
       "updated": "09:45"
     }
   ],
-  "lastUpdate": "09:45",
+  "lastUpdate": "09:50",
   "date": "2026-06-25"
 }
