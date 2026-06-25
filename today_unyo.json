@@ -4360,8 +4360,18 @@
       "kind": "急",
       "delay": "",
       "updated": "20:50"
+    },
+    {
+      "op": "39G",
+      "form": "-",
+      "cars": "0",
+      "no": "639-211",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "21:35"
     }
   ],
-  "lastUpdate": "21:30",
+  "lastUpdate": "21:35",
   "date": "2026-06-25"
 }
