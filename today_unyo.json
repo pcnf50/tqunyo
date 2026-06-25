@@ -2159,6 +2159,16 @@
       "kind": "普",
       "delay": "",
       "updated": "23:00"
+    },
+    {
+      "op": "99G",
+      "form": "5175F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "23:50"
     }
   ],
   "meguro": [
@@ -4459,9 +4469,9 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:45"
+      "updated": "23:50"
     }
   ],
-  "lastUpdate": "23:45",
+  "lastUpdate": "23:50",
   "date": "2026-06-25"
 }
