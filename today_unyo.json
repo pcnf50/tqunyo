@@ -59,6 +59,36 @@
       "kind": "不明",
       "delay": "",
       "updated": "04:50"
+    },
+    {
+      "op": "08K",
+      "form": "5164F",
+      "cars": "8",
+      "no": "008-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:55"
+    },
+    {
+      "op": "41",
+      "form": "-",
+      "cars": "8",
+      "no": "241-051",
+      "destCode": "新横浜",
+      "kind": "回",
+      "delay": "",
+      "updated": "04:55"
+    },
+    {
+      "op": "99G",
+      "form": "-",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "04:55"
     }
   ],
   "meguro": [
@@ -131,9 +161,39 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "04:50"
+    },
+    {
+      "op": "05K",
+      "form": "5186F",
+      "cars": "8",
+      "no": "205-051",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:55"
+    },
+    {
+      "op": "41K",
+      "form": "3104F",
+      "cars": "8",
+      "no": "241-051",
+      "destCode": "新横浜",
+      "kind": "回",
+      "delay": "",
+      "updated": "04:55"
+    },
+    {
+      "op": "99",
+      "form": "3113F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "04:55"
     }
   ],
-  "lastUpdate": "04:50",
+  "lastUpdate": "04:55",
   "date": "2026-06-26",
   "resetDone": false
 }
