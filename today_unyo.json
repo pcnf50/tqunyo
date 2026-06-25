@@ -1482,14 +1482,13 @@
       "updated": "05:25"
     },
     {
-      "op": "30K",
-      "form": "5183F",
-      "cars": "8",
-      "no": "230-052",
-      "destCode": "奥沢",
-      "kind": "回",
-      "delay": "",
-      "updated": "05:25"
+      "op": "22",
+      "form": "-",
+      "cars": "10",
+      "no": "122-072",
+      "destCode": "副都心線直通",
+      "kind": "通勤特急",
+      "delay": ""
     },
     {
       "op": "28K",
@@ -2552,7 +2551,7 @@
       "updated": "08:15"
     }
   ],
-  "lastUpdate": "08:15",
+  "lastUpdate": "08:17",
   "date": "2026-06-26",
   "resetDone": false
 }
