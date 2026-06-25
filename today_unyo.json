@@ -758,6 +758,86 @@
       "kind": "普",
       "delay": "",
       "updated": "06:45"
+    },
+    {
+      "op": "52",
+      "form": "-",
+      "cars": "6",
+      "no": "352-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "06:55"
+    },
+    {
+      "op": "39",
+      "form": "-",
+      "cars": "6",
+      "no": "439-062",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:55"
+    },
+    {
+      "op": "17K",
+      "form": "Y515F",
+      "cars": "8",
+      "no": "017-062",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:55"
+    },
+    {
+      "op": "47",
+      "form": "-",
+      "cars": "6",
+      "no": "447-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:55"
+    },
+    {
+      "op": "25",
+      "form": "-",
+      "cars": "6",
+      "no": "425-062",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:55"
+    },
+    {
+      "op": "63K",
+      "form": "4102F",
+      "cars": "10",
+      "no": "063-061",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:55"
+    },
+    {
+      "op": "45",
+      "form": "-",
+      "cars": "8",
+      "no": "445-061",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "06:55"
+    },
+    {
+      "op": "19S",
+      "form": "17183F",
+      "cars": "8",
+      "no": "719-061",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:55"
     }
   ],
   "meguro": [
@@ -1580,9 +1660,39 @@
       "kind": "普",
       "delay": "1分遅れ",
       "updated": "06:50"
+    },
+    {
+      "op": "25T",
+      "form": "6329F",
+      "cars": "6",
+      "no": "425-062",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:55"
+    },
+    {
+      "op": "49T",
+      "form": "6337F",
+      "cars": "6",
+      "no": "449-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:55"
+    },
+    {
+      "op": "22K",
+      "form": "5184F",
+      "cars": "8",
+      "no": "222-061",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:55"
     }
   ],
-  "lastUpdate": "06:52",
+  "lastUpdate": "06:55",
   "date": "2026-06-26",
   "resetDone": false
 }
