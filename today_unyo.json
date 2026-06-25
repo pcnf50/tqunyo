@@ -1949,6 +1949,16 @@
       "kind": "急",
       "delay": "",
       "updated": "17:35"
+    },
+    {
+      "op": "62K",
+      "form": "4111F",
+      "cars": "10",
+      "no": "062-171",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:40"
     }
   ],
   "meguro": [
@@ -3942,6 +3952,6 @@
       "updated": "17:35"
     }
   ],
-  "lastUpdate": "17:35",
+  "lastUpdate": "17:40",
   "date": "2026-06-25"
 }
