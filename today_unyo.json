@@ -3360,8 +3360,28 @@
       "kind": "普",
       "delay": "",
       "updated": "11:10"
+    },
+    {
+      "op": "29K",
+      "form": "-",
+      "cars": "8",
+      "no": "029-111",
+      "destCode": "元町・中華街",
+      "kind": "回",
+      "delay": "",
+      "updated": "11:25"
+    },
+    {
+      "op": "20",
+      "form": "-",
+      "cars": "10",
+      "no": "120-111",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "1分遅れ",
+      "updated": "11:25"
     }
   ],
-  "lastUpdate": "11:20",
+  "lastUpdate": "11:25",
   "date": "2026-06-25"
 }
