@@ -1550,9 +1550,39 @@
       "kind": "普",
       "delay": "",
       "updated": "06:45"
+    },
+    {
+      "op": "43K",
+      "form": "3102F",
+      "cars": "8",
+      "no": "243-063",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "06:50"
+    },
+    {
+      "op": "62S",
+      "form": "9112F",
+      "cars": "8",
+      "no": "362-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:50"
+    },
+    {
+      "op": "23T",
+      "form": "6314F",
+      "cars": "6",
+      "no": "423-062",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "06:50"
     }
   ],
-  "lastUpdate": "06:45",
+  "lastUpdate": "06:50",
   "date": "2026-06-26",
   "resetDone": false
 }
