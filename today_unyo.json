@@ -1137,17 +1137,47 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "08:00"
+      "updated": "08:05"
+    },
+    {
+      "op": "59",
+      "form": "-",
+      "cars": "6",
+      "no": "459-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "08:05"
+    },
+    {
+      "op": "28M",
+      "form": "40164F",
+      "cars": "10",
+      "no": "128-081",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:05"
+    },
+    {
+      "op": "01K",
+      "form": "5161F",
+      "cars": "8",
+      "no": "001-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:05"
     },
     {
       "op": "57",
       "form": "-",
       "cars": "8",
-      "no": "457-071",
-      "destCode": "日吉",
+      "no": "457-082",
+      "destCode": "三田線直通",
       "kind": "普",
-      "delay": "4分遅れ",
-      "updated": "08:00"
+      "delay": "1分遅れ",
+      "updated": "08:05"
     },
     {
       "op": "84",
@@ -1155,9 +1185,9 @@
       "cars": "6",
       "no": "584-071",
       "destCode": "元住吉",
-      "kind": "急",
+      "kind": "回",
       "delay": "4分遅れ",
-      "updated": "08:00"
+      "updated": "08:05"
     },
     {
       "op": "53K",
@@ -1167,7 +1197,7 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "08:00"
+      "updated": "08:05"
     },
     {
       "op": "50",
@@ -1177,7 +1207,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "5分遅れ",
-      "updated": "08:00"
+      "updated": "08:05"
     },
     {
       "op": "44",
@@ -1187,7 +1217,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "08:00"
+      "updated": "08:05"
     }
   ],
   "meguro": [
@@ -2412,14 +2442,14 @@
       "updated": "07:55"
     },
     {
-      "op": "05K",
-      "form": "-",
-      "cars": "0",
-      "no": "205-071",
-      "destCode": "相鉄線直通",
-      "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "08:00"
+      "op": "42S",
+      "form": "9106F",
+      "cars": "6",
+      "no": "342-081",
+      "destCode": "日吉",
+      "kind": "急",
+      "delay": "2分遅れ",
+      "updated": "08:05"
     },
     {
       "op": "64S",
@@ -2428,8 +2458,8 @@
       "no": "364-071",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "4分遅れ",
-      "updated": "08:00"
+      "delay": "3分遅れ",
+      "updated": "08:05"
     },
     {
       "op": "44G",
@@ -2439,10 +2469,10 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "08:00"
+      "updated": "08:05"
     }
   ],
-  "lastUpdate": "08:00",
+  "lastUpdate": "08:05",
   "date": "2026-06-26",
   "resetDone": false
 }
