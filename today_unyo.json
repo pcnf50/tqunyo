@@ -3830,8 +3830,18 @@
       "kind": "回",
       "delay": "",
       "updated": "16:55"
+    },
+    {
+      "op": "38K",
+      "form": "5190F",
+      "cars": "8",
+      "no": "238-172",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:10"
     }
   ],
-  "lastUpdate": "17:05",
+  "lastUpdate": "17:10",
   "date": "2026-06-25"
 }
