@@ -4470,18 +4470,8 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "23:50"
-    },
-    {
-      "op": "36K",
-      "form": "-",
-      "cars": "0",
-      "no": "236-241",
-      "destCode": "新横浜",
-      "kind": "普",
-      "delay": "",
-      "updated": "00:00"
     }
   ],
-  "lastUpdate": "00:00",
+  "lastUpdate": "00:05",
   "date": "2026-06-26"
 }
