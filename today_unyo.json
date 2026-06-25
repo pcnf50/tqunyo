@@ -1731,6 +1731,16 @@
       "updated": "11:50"
     },
     {
+      "op": "11S",
+      "form": "5172F",
+      "cars": "8",
+      "no": "711-111",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "12:00"
+    },
+    {
       "op": "47S",
       "form": "10126F",
       "cars": "10",
@@ -1738,7 +1748,7 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "11:55"
+      "updated": "12:00"
     }
   ],
   "meguro": [
@@ -3482,6 +3492,16 @@
       "updated": "11:50"
     },
     {
+      "op": "11",
+      "form": "5192F",
+      "cars": "8",
+      "no": "011-111",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "12:00"
+    },
+    {
       "op": "1",
       "form": "-",
       "cars": "8",
@@ -3489,9 +3509,9 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "4分遅れ",
-      "updated": "11:55"
+      "updated": "12:00"
     }
   ],
-  "lastUpdate": "11:55",
+  "lastUpdate": "12:00",
   "date": "2026-06-25"
 }
