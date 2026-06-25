@@ -4070,8 +4070,18 @@
       "kind": "通",
       "delay": "2分遅れ",
       "updated": "18:35"
+    },
+    {
+      "op": "50S",
+      "form": "-",
+      "cars": "0",
+      "no": "350-181",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:40"
     }
   ],
-  "lastUpdate": "18:35",
+  "lastUpdate": "18:40",
   "date": "2026-06-25"
 }
