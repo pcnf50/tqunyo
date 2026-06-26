@@ -3519,9 +3519,19 @@
       "kind": "回",
       "delay": "2分遅れ",
       "updated": "13:30"
+    },
+    {
+      "op": "81K",
+      "form": "-",
+      "cars": "0",
+      "no": "281-132",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "13:40"
     }
   ],
-  "lastUpdate": "13:35",
+  "lastUpdate": "13:40",
   "date": "2026-06-26",
   "resetDone": false
 }
