@@ -3559,9 +3559,19 @@
       "kind": "急",
       "delay": "5分遅れ",
       "updated": "13:50"
+    },
+    {
+      "op": "42T",
+      "form": "5188F",
+      "cars": "8",
+      "no": "042-131",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "14:15"
     }
   ],
-  "lastUpdate": "14:10",
+  "lastUpdate": "14:15",
   "date": "2026-06-26",
   "resetDone": false
 }
