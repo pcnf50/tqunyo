@@ -3229,9 +3229,19 @@
       "kind": "普",
       "delay": "1分遅れ",
       "updated": "10:40"
+    },
+    {
+      "op": "77T",
+      "form": "6322F",
+      "cars": "6",
+      "no": "477-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:45"
     }
   ],
-  "lastUpdate": "10:40",
+  "lastUpdate": "10:45",
   "date": "2026-06-26",
   "resetDone": false
 }
