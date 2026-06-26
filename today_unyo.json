@@ -1648,6 +1648,16 @@
       "kind": "Ｆ",
       "delay": "",
       "updated": "12:25"
+    },
+    {
+      "op": "69",
+      "form": "-",
+      "cars": "6",
+      "no": "469-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:30"
     }
   ],
   "meguro": [
@@ -3429,9 +3439,19 @@
       "kind": "普",
       "delay": "",
       "updated": "12:25"
+    },
+    {
+      "op": "29K",
+      "form": "-",
+      "cars": "8",
+      "no": "029-112",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:30"
     }
   ],
-  "lastUpdate": "12:25",
+  "lastUpdate": "12:30",
   "date": "2026-06-26",
   "resetDone": false
 }
