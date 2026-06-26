@@ -4188,9 +4188,19 @@
       "kind": "回",
       "delay": "",
       "updated": "20:50"
+    },
+    {
+      "op": "73T",
+      "form": "-",
+      "cars": "0",
+      "no": "473-201",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:55"
     }
   ],
-  "lastUpdate": "20:50",
+  "lastUpdate": "20:55",
   "date": "2026-06-26",
   "resetDone": false
 }
