@@ -1678,16 +1678,6 @@
       "kind": "Ｆ",
       "delay": "4分遅れ",
       "updated": "13:00"
-    },
-    {
-      "op": "52K",
-      "form": "-",
-      "cars": "0",
-      "no": "052-131",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "4分遅れ",
-      "updated": "13:20"
     }
   ],
   "meguro": [
@@ -3491,7 +3481,7 @@
       "updated": "12:35"
     }
   ],
-  "lastUpdate": "13:20",
+  "lastUpdate": "13:25",
   "date": "2026-06-26",
   "resetDone": false
 }
