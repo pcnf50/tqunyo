@@ -3019,9 +3019,19 @@
       "kind": "急",
       "delay": "",
       "updated": "09:25"
+    },
+    {
+      "op": "35G",
+      "form": "-",
+      "cars": "0",
+      "no": "635-091",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "09:30"
     }
   ],
-  "lastUpdate": "09:25",
+  "lastUpdate": "09:30",
   "date": "2026-06-26",
   "resetDone": false
 }
