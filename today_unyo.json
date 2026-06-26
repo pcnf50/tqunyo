@@ -1578,6 +1578,16 @@
       "kind": "Ｆ",
       "delay": "",
       "updated": "11:10"
+    },
+    {
+      "op": "66",
+      "form": "-",
+      "cars": "6",
+      "no": "366-101",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "11:15"
     }
   ],
   "meguro": [
@@ -3301,7 +3311,7 @@
       "updated": "11:10"
     }
   ],
-  "lastUpdate": "11:10",
+  "lastUpdate": "11:15",
   "date": "2026-06-26",
   "resetDone": false
 }
