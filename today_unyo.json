@@ -1988,6 +1988,16 @@
       "kind": "回",
       "delay": "",
       "updated": "20:50"
+    },
+    {
+      "op": "03T",
+      "form": "-",
+      "cars": "0",
+      "no": "803-211",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "21:05"
     }
   ],
   "meguro": [
@@ -4210,7 +4220,7 @@
       "updated": "21:00"
     }
   ],
-  "lastUpdate": "21:00",
+  "lastUpdate": "21:05",
   "date": "2026-06-26",
   "resetDone": false
 }
