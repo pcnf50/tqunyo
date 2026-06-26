@@ -4158,9 +4158,19 @@
       "kind": "急",
       "delay": "",
       "updated": "20:30"
+    },
+    {
+      "op": "46K",
+      "form": "-",
+      "cars": "0",
+      "no": "246-201",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:35"
     }
   ],
-  "lastUpdate": "20:30",
+  "lastUpdate": "20:35",
   "date": "2026-06-26",
   "resetDone": false
 }
