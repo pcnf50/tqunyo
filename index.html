@@ -437,7 +437,7 @@
       font-weight: 600;
     }
 
-    /* --- 確認時刻表示用 モーダルUI --- */
+    /* --- 確認時刻・運用表表示用 モーダルUI --- */
     .modal-overlay {
       position: fixed;
       top: 0;
@@ -462,29 +462,97 @@
       background-color: var(--card-bg);
       border: 1px solid var(--border-color);
       border-radius: 12px;
-      width: 280px;
+      width: 90%;
+      max-width: 440px;
+      max-height: 80vh;
       padding: 20px;
       box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
       transform: scale(0.95);
       transition: transform 0.2s;
-      text-align: center;
+      display: flex;
+      flex-direction: column;
     }
     .modal-overlay.is-active .modal-content {
       transform: scale(1);
+    }
+    .modal-header-area {
+      text-align: center;
+      margin-bottom: 12px;
+      flex-shrink: 0;
     }
     .modal-title {
       font-size: 14px;
       color: var(--text-sub);
       font-weight: 700;
-      margin-bottom: 8px;
+      margin-bottom: 4px;
     }
     .modal-body {
-      font-size: 24px;
+      font-size: 20px;
       font-weight: 800;
       color: var(--text-main);
-      margin-bottom: 20px;
       letter-spacing: -0.01em;
+      margin-bottom: 8px;
     }
+    
+    /* 運用表タイムライン表示領域 */
+    .modal-unyohyo-container {
+      flex-grow: 1;
+      overflow-y: auto;
+      border-top: 1px solid var(--border-color);
+      padding-top: 12px;
+      margin-bottom: 16px;
+      text-align: left;
+    }
+    .modal-unyo-card {
+      background: var(--table-stripe);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 10px;
+      margin-bottom: 8px;
+      font-size: 13px;
+    }
+    .modal-unyo-card-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 4px;
+      margin-bottom: 6px;
+      color: var(--toyoko);
+    }
+    [data-theme="dark"] .modal-unyo-card-header {
+      color: #fda4af;
+    }
+    .modal-unyo-services {
+      font-size: 11px;
+      color: var(--text-sub);
+      margin-bottom: 4px;
+    }
+    .modal-unyo-route {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+    }
+    .modal-unyo-stops-toggle {
+      font-size: 11px;
+      color: var(--text-sub);
+      cursor: pointer;
+      margin-top: 4px;
+      display: inline-block;
+      text-decoration: underline;
+    }
+    .modal-unyo-stops-detail {
+      margin-top: 6px;
+      padding-left: 8px;
+      border-left: 2px solid var(--border-color);
+      font-size: 12px;
+    }
+    .modal-unyo-stop-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 2px;
+    }
+
     .modal-close-btn {
       width: 100%;
       background-color: var(--header-bg);
@@ -496,6 +564,7 @@
       border-radius: 8px;
       cursor: pointer;
       transition: background-color 0.15s;
+      flex-shrink: 0;
     }
     @media (hover: hover) {
       .modal-close-btn:hover {
@@ -587,8 +656,11 @@
 
 <div class="modal-overlay" id="timeModalOverlay">
   <div class="modal-content">
-    <div class="modal-title" id="modalOpTitle">01K 運用確認時刻</div>
-    <div class="modal-body" id="modalTimeBody">--:--</div>
+    <div class="modal-header-area">
+      <div class="modal-title" id="modalOpTitle">01K 運用確認時刻</div>
+      <div class="modal-body" id="modalTimeBody">--:--</div>
+    </div>
+    <div class="modal-unyohyo-container" id="modalUnyohyoContainer"></div>
     <button type="button" class="modal-close-btn" id="modalCloseBtn">閉じる</button>
   </div>
 </div>
@@ -623,6 +695,7 @@
   // --- メインロジック系 ---
   let rawUnyoData = {};
   let rawYosokuData = {};
+  let globalUnyohyoData = {}; // 運用表JSONを保持するグローバル変数
   let sortState = { toyoko: { key: "op", asc: true } };
   let autoRefreshInterval = null;
 
@@ -634,6 +707,7 @@
   const timeModalOverlay = document.getElementById("timeModalOverlay");
   const modalOpTitle = document.getElementById("modalOpTitle");
   const modalTimeBody = document.getElementById("modalTimeBody");
+  const modalUnyohyoContainer = document.getElementById("modalUnyohyoContainer");
   const modalCloseBtn = document.getElementById("modalCloseBtn");
 
   if(archiveDateInput) {
@@ -665,6 +739,16 @@
     try {
       if(errDiv) errDiv.style.display = "none";
       const cacheBuster = `?_=${Date.now()}`;
+
+      // 運用表JSONのロード（初回または切替時）
+      try {
+        const resUnyohyo = await fetch("./unyohyo.json" + cacheBuster, {cache:"no-store"});
+        if(resUnyohyo.ok) {
+          globalUnyohyoData = await resUnyohyo.json();
+        }
+      } catch (e) {
+        console.warn("運用表(unyohyo.json)の読み込みに失敗しました:", e);
+      }
 
       if (selectedDate === todayStr) {
         if(refreshBtn) refreshBtn.style.display = "inline-flex";
@@ -721,11 +805,86 @@
     }
   }
 
-  // 確認時刻のUI表示用関数（モーダル）
+  // 確認時刻と運用表のUI表示用関数（モーダル）
   function showUpdateTime(op, updatedTime) {
-    if(!timeModalOverlay || !modalOpTitle || !modalTimeBody) return;
+    if(!timeModalOverlay || !modalOpTitle || !modalTimeBody || !modalUnyohyoContainer) return;
+    
     modalOpTitle.textContent = `${op} 運用確認時刻`;
     modalTimeBody.textContent = (updatedTime && updatedTime.trim() !== "") ? updatedTime : "未登録";
+    
+    // 運用表コンテナの初期化
+    modalUnyohyoContainer.innerHTML = "";
+
+    // 選択された日付の曜日種別を判定
+    const selectedDate = archiveDateInput ? archiveDateInput.value : todayStr;
+    const day = new Date(selectedDate).getDay();
+    const dayKey = (day === 0 || day === 6) ? "saturdayholiday" : "weekday";
+
+    // 該当する運番のスケジュールデータを取得
+    const unyoSchedule = (globalUnyohyoData[dayKey] && globalUnyohyoData[dayKey][op]) ? globalUnyohyoData[dayKey][op] : null;
+
+    if (unyoSchedule && unyoSchedule.length > 0) {
+      unyoSchedule.forEach((train, index) => {
+        const card = document.createElement("div");
+        card.className = "modal-unyo-card";
+
+        // 各社線内の種別文字列を作成
+        const svcArray = [];
+        if (train.services) {
+          for (const [lineName, svcName] of Object.entries(train.services)) {
+            svcArray.push(`${lineName}:${svcName}`);
+          }
+        }
+        const svcText = svcArray.length > 0 ? svcArray.join(" / ") : "種別情報なし";
+
+        card.innerHTML = `
+          <div class="modal-unyo-card-header">
+            <span>列車番号: ${train.train_no || "不明"}</span>
+            <span>${train.direction === "kudari" ? "下り ↓" : "上り ↑"}</span>
+          </div>
+          <div class="modal-unyo-services">${svcText}</div>
+          <div class="modal-unyo-route">
+            <span>${train.from || "始発駅不明"} (${train.dep || "--:--"})</span>
+            <span>➔</span>
+            <span>${train.to || "終着駅不明"} (${train.arr || "--:--"})</span>
+          </div>
+          <div class="modal-unyo-stops-toggle" id="toggleStops_${index}">▼ 停車駅の時刻を表示</div>
+          <div class="modal-unyo-stops-detail" id="stopsDetail_${index}" style="display: none;"></div>
+        `;
+
+        modalUnyohyoContainer.appendChild(card);
+
+        // 停車駅アコーディオンのイベント設定
+        const toggleBtn = card.querySelector(`#toggleStops_${index}`);
+        const stopsDetail = card.querySelector(`#stopsDetail_${index}`);
+        
+        if (toggleBtn && stopsDetail) {
+          if (train.stops && train.stops.length > 0) {
+            train.stops.forEach(stop => {
+              const stopRow = document.createElement("div");
+              stopRow.className = "modal-unyo-stop-row";
+              stopRow.innerHTML = `<span>${stop.station}</span><span>${stop.time}</span>`;
+              stopsDetail.appendChild(stopRow);
+            });
+
+            toggleBtn.addEventListener("click", () => {
+              if (stopsDetail.style.display === "none") {
+                stopsDetail.style.display = "block";
+                toggleBtn.textContent = "▲ 停車駅の時刻を閉じる";
+              } else {
+                stopsDetail.style.display = "none";
+                toggleBtn.textContent = "▼ 停車駅の時刻を表示";
+              }
+            });
+          } else {
+            toggleBtn.style.display = "none";
+          }
+        }
+      });
+    } else {
+      modalUnyohyoContainer.innerHTML = `<div style="text-align:center; color:var(--text-sub); font-size:13px; padding:20px 0;">この日の運用表スケジュールデータはありません。</div>`;
+    }
+
     timeModalOverlay.classList.add("is-active");
   }
 
@@ -1005,31 +1164,22 @@
 
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td class="clickable-op" onclick="showUpdateTime('${safeOp}', '${safeUpdated}')"><b>${t.op}</b></td>
-        <td${formClass}>${t.form}</td>
+        <td class="clickable-op" onclick="showUpdateTime('${safeOp}', '${safeUpdated}')"><b>${t.op || "-"}</b></td>
+        <td${formClass}>${t.form || "-"}</td>
         <td class="yosoku-val">${yosokuDisplay}</td>
       `;
       tbody.appendChild(tr);
     });
-
-    updateHeaderUI(line);
   }
 
-  function updateHeaderUI(line) {
-    const thElements = document.querySelectorAll(`#${line}Panel th[data-sort]`);
-    const state = sortState[line];
-    thElements.forEach(th => {
-      th.classList.remove("sort-asc", "sort-desc");
-      if(th.getAttribute("data-sort") === state.key) {
-        th.classList.add(state.asc ? "sort-asc" : "sort-desc");
-      }
-    });
-  }
-
+  // --- タイマーとイベント監視設定 ---
   function startTimer() {
-    if (!autoRefreshInterval) {
-      autoRefreshInterval = setInterval(loadData, 10000);
-    }
+    stopTimer();
+    autoRefreshInterval = setInterval(() => {
+      if ((archiveDateInput ? archiveDateInput.value : todayStr) === todayStr) {
+        loadData();
+      }
+    }, 30000);
   }
 
   function stopTimer() {
@@ -1039,73 +1189,61 @@
     }
   }
 
+  // 検索・絞り込み関連のイベントハンドラ登録
+  document.getElementById("searchOp")?.addEventListener("input", () => renderTable("toyoko"));
+  document.getElementById("searchForm")?.addEventListener("input", () => renderTable("toyoko"));
+  
+  document.getElementById("clearOpBtn")?.addEventListener("click", () => {
+    const input = document.getElementById("searchOp");
+    if(input) { input.value = ""; renderTable("toyoko"); }
+  });
+  document.getElementById("clearFormBtn")?.addEventListener("click", () => {
+    const input = document.getElementById("searchForm");
+    if(input) { input.value = ""; renderTable("toyoko"); }
+  });
+
+  document.getElementById("checkboxGroup")?.addEventListener("change", () => renderTable("toyoko"));
+
+  document.getElementById("selectAllTypes")?.addEventListener("click", () => {
+    document.querySelectorAll('#checkboxGroup input[type="checkbox"]').forEach(cb => cb.checked = true);
+    renderTable("toyoko");
+  });
+  document.getElementById("clearAllTypes")?.addEventListener("click", () => {
+    document.querySelectorAll('#checkboxGroup input[type="checkbox"]').forEach(cb => cb.checked = false);
+    renderTable("toyoko");
+  });
+
+  // テーブルソート設定
   document.querySelectorAll("th[data-sort]").forEach(th => {
     th.addEventListener("click", () => {
-      const section = th.closest("section");
-      if(!section) return;
-      const line = section.id.replace("Panel", "");
-      const sortKey = th.getAttribute("data-sort");
-      if(sortState[line].key === sortKey) {
-        sortState[line].asc = !sortState[line].asc;
+      const key = th.getAttribute("data-sort");
+      const current = sortState.toyoko;
+      if (current.key === key) {
+        current.asc = !current.asc;
       } else {
-        sortState[line].key = sortKey;
-        sortState[line].asc = true;
+        current.key = key;
+        current.asc = true;
       }
-      renderTable(line);
+      document.querySelectorAll("th[data-sort]").forEach(item => {
+        item.classList.remove("sort-asc", "sort-desc");
+      });
+      th.classList.add(current.asc ? "sort-asc" : "sort-desc");
+      renderTable("toyoko");
     });
   });
 
-  const searchOp = document.getElementById("searchOp");
-  const searchForm = document.getElementById("searchForm");
-  
-  if (searchOp) searchOp.addEventListener("input", () => renderTable("toyoko"));
-  if (searchForm) searchForm.addEventListener("input", () => renderTable("toyoko"));
-
-  const clearOpBtn = document.getElementById("clearOpBtn");
-  const clearFormBtn = document.getElementById("clearFormBtn");
-  if(clearOpBtn) {
-    clearOpBtn.onclick = () => { if(searchOp) { searchOp.value = ""; renderTable("toyoko"); } };
-  }
-  if(clearFormBtn) {
-    clearFormBtn.onclick = () => { if(searchForm) { searchForm.value = ""; renderTable("toyoko"); } };
-  }
-
-  document.querySelectorAll('#checkboxGroup input[type="checkbox"]').forEach(cb => {
-    cb.addEventListener("change", () => renderTable("toyoko"));
+  // 日付アーカイブ管理
+  archiveDateInput?.addEventListener("change", loadData);
+  document.getElementById("refreshToyoko")?.addEventListener("click", loadData);
+  backToTodayBtn?.addEventListener("click", () => {
+    if(archiveDateInput) {
+      archiveDateInput.value = todayStr;
+      loadData();
+    }
   });
 
-  const selectAllBtn = document.getElementById("selectAllTypes");
-  const clearAllBtn = document.getElementById("clearAllTypes");
-  if(selectAllBtn) {
-    selectAllBtn.onclick = () => {
-      document.querySelectorAll('#checkboxGroup input[type="checkbox"]').forEach(cb => cb.checked = true);
-      renderTable("toyoko");
-    };
-  }
-  if(clearAllBtn) {
-    clearAllBtn.onclick = () => {
-      document.querySelectorAll('#checkboxGroup input[type="checkbox"]').forEach(cb => cb.checked = false);
-      renderTable("toyoko");
-    };
-  }
-
-  if (archiveDateInput) {
-    archiveDateInput.addEventListener("change", loadData);
-  }
-
-  if (backToTodayBtn) {
-    backToTodayBtn.addEventListener("click", () => {
-      if (archiveDateInput) {
-        archiveDateInput.value = todayStr;
-        loadData();
-      }
-    });
-  }
-
-  const refreshToyoko = document.getElementById("refreshToyoko");
-  if(refreshToyoko) refreshToyoko.onclick = loadData;
-
-  loadData();
+  // 初回ロード実行
+  window.addEventListener("DOMContentLoaded", loadData);
 </script>
 </body>
 </html>
