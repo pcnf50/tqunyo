@@ -1781,13 +1781,13 @@
     },
     {
       "op": "99G",
-      "form": "5153F",
+      "form": "5119F",
       "cars": "8",
       "no": "999-990",
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "00:30"
+      "updated": "00:35"
     }
   ],
   "meguro": [
@@ -3671,6 +3671,6 @@
       "updated": "00:10"
     }
   ],
-  "lastUpdate": "00:30",
+  "lastUpdate": "00:35",
   "date": "2026-06-28"
 }
