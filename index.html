@@ -811,7 +811,7 @@
     }
   }
 
-  // 確認時刻と運用表のUI表示用関数（モーダル）
+// 確認時刻と運用表のUI表示用関数（モーダル）
   function showUpdateTime(op, updatedTime, form) {
     if(!timeModalOverlay || !modalOpTitle || !modalTimeBody || !modalFormTitle || !modalUnyohyoContainer) return;
     
@@ -837,22 +837,12 @@
         const card = document.createElement("div");
         card.className = "modal-unyo-card";
 
-        // 各社線内の種別文字列を作成
-        const svcArray = [];
-        if (train.services) {
-          for (const [lineName, svcName] of Object.entries(train.services)) {
-            svcArray.push(`${lineName}:${svcName}`);
-          }
-        }
-        const svcText = svcArray.length > 0 ? svcArray.join(" / ") : "種別情報なし";
-
+        // 種別と上り下り（direction）を完全に排除し、列番と経路のみに絞り込み
         card.innerHTML = `
           <div class="modal-unyo-card-header">
             <span>列車番号: ${train.train_no || "不明"}</span>
-            <span>${train.direction === "kudari" ? "下り ↓" : "上り ↑"}</span>
           </div>
-          <div class="modal-unyo-services">${svcText}</div>
-          <div class="modal-unyo-route">
+          <div class="modal-unyo-route" style="margin-top: 4px;">
             <span>${train.from || "始発駅不明"} (${train.dep || "--:--"})</span>
             <span>➔</span>
             <span>${train.to || "終着駅不明"} (${train.arr || "--:--"})</span>
