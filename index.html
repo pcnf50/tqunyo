@@ -437,7 +437,7 @@
       font-weight: 600;
     }
 
-    /* --- 確認時刻・運用表表示用 モーダルUI --- */
+    /* --- 確認時刻表示用 モーダルUI --- */
     .modal-overlay {
       position: fixed;
       top: 0;
@@ -462,70 +462,40 @@
       background-color: var(--card-bg);
       border: 1px solid var(--border-color);
       border-radius: 12px;
-      width: 340px;
-      max-width: 90%;
-      max-height: 85vh;
-      padding: 14px;
+      width: 280px;
+      padding: 20px;
       box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
       transform: scale(0.95);
       transition: transform 0.2s;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
+      text-align: center;
     }
     .modal-overlay.is-active .modal-content {
       transform: scale(1);
     }
-    .modal-header-area {
-      text-align: center;
-      margin-bottom: 6px;
-      flex-shrink: 0;
-    }
     .modal-title {
-      font-size: 12px;
+      font-size: 14px;
       color: var(--text-sub);
       font-weight: 700;
-      margin-bottom: 2px;
+      margin-bottom: 8px;
     }
     .modal-body {
-      font-size: 19px;
+      font-size: 24px;
       font-weight: 800;
       color: var(--text-main);
-      margin-bottom: 2px;
+      margin-bottom: 20px;
       letter-spacing: -0.01em;
-    }
-    /* 運用表テキスト表示エリア (等幅フォント) */
-    .modal-unyohyo-area {
-      background-color: var(--header-bg);
-      border: 1px solid var(--border-color);
-      border-radius: 6px;
-      padding: 6px 8px;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      font-size: 11px;
-      line-height: 1.2;
-      white-space: pre;
-      overflow-x: auto;
-      overflow-y: auto;
-      -webkit-overflow-scrolling: touch;
-      text-align: left;
-      flex-grow: 1;
-      flex-shrink: 0; /* iOS WebKitのFlexバグ対策 */
-      min-height: 200px;
-      margin-bottom: 10px;
-      color: var(--text-main);
     }
     .modal-close-btn {
       width: 100%;
       background-color: var(--header-bg);
       border: 1px solid var(--border-color);
       color: var(--text-main);
-      font-size: 13px;
+      font-size: 14px;
       font-weight: 700;
-      padding: 8px;
+      padding: 10px;
       border-radius: 8px;
       cursor: pointer;
       transition: background-color 0.15s;
-      flex-shrink: 0;
     }
     @media (hover: hover) {
       .modal-close-btn:hover {
@@ -540,7 +510,7 @@
   <header>
     <div class="header-left">
       <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-      <div class="version-tag">v2.3.4</div>
+      <div class="version-tag">v2.2.5</div>
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
@@ -617,11 +587,8 @@
 
 <div class="modal-overlay" id="timeModalOverlay">
   <div class="modal-content">
-    <div class="modal-header-area">
-      <div class="modal-title" id="modalOpTitle">01K 運用確認時刻</div>
-      <div class="modal-body" id="modalTimeBody">--:--</div>
-    </div>
-    <div class="modal-unyohyo-area" id="modalUnyohyoBody" style="display: block;"> </div>
+    <div class="modal-title" id="modalOpTitle">01K 運用確認時刻</div>
+    <div class="modal-body" id="modalTimeBody">--:--</div>
     <button type="button" class="modal-close-btn" id="modalCloseBtn">閉じる</button>
   </div>
 </div>
@@ -656,8 +623,6 @@
   // --- メインロジック系 ---
   let rawUnyoData = {};
   let rawYosokuData = {};
-  let globalUnyohyoData = { weekday: {}, holiday: {} }; // 読み込んだ運用表データを保持
-  let holidaysList = {}; // 祝日一覧オブジェクト
   let sortState = { toyoko: { key: "op", asc: true } };
   let autoRefreshInterval = null;
 
@@ -669,51 +634,12 @@
   const timeModalOverlay = document.getElementById("timeModalOverlay");
   const modalOpTitle = document.getElementById("modalOpTitle");
   const modalTimeBody = document.getElementById("modalTimeBody");
-  const modalUnyohyoBody = document.getElementById("modalUnyohyoBody");
   const modalCloseBtn = document.getElementById("modalCloseBtn");
 
   if(archiveDateInput) {
     archiveDateInput.value = todayStr;
     archiveDateInput.min = "2026-06-19";
     archiveDateInput.max = todayStr;
-  }
-
-  // 日本の祝日データを外部から自動取得する関数
-  async function fetchHolidays() {
-    try {
-      const res = await fetch("https://holidays-jp.github.io/api/v1/date.json");
-      if (res.ok) {
-        holidaysList = await res.json();
-      }
-    } catch (e) {
-      console.error("祝日データの取得に失敗しました", e);
-    }
-  }
-
-  // 固定の運用表テキストJSONを読み込む関数
-  async function fetchUnyohyo() {
-    try {
-      const cacheBuster = `?_=${Date.now()}`;
-      const res = await fetch("https://nfhanyo.web.fc2.com/tokyu/unyohyo.json" + cacheBuster);
-      if (res.ok) {
-        globalUnyohyoData = await res.json();
-      }
-    } catch (e) {
-      console.error("運用表データの読み込みに失敗しました", e);
-    }
-  }
-
-  // 選択日または対象日が「平日(weekday)」か「土休日(holiday)」かを判定する内部ロジック（祝日考慮）
-  function getDiaType(dateStr) {
-    if (holidaysList[dateStr]) {
-      return "holiday"; // 祝日の場合は土休日ダイヤ
-    }
-    const d = new Date(dateStr);
-    const day = d.getDay();
-    if (day === 0 || day === 6) {
-      return "holiday"; // 土日の場合は土休日ダイヤ
-    }
-    return "weekday"; // 平日
   }
 
   function getYosokuKey(offset = 1, baseDate = new Date()) {
@@ -739,10 +665,6 @@
     try {
       if(errDiv) errDiv.style.display = "none";
       const cacheBuster = `?_=${Date.now()}`;
-
-      // 祝日データと運用表データが未取得ならここで同期取得
-      if (Object.keys(holidaysList).length === 0) await fetchHolidays();
-      if (Object.keys(globalUnyohyoData.weekday).length === 0 && Object.keys(globalUnyohyoData.holiday).length === 0) await fetchUnyohyo();
 
       if (selectedDate === todayStr) {
         if(refreshBtn) refreshBtn.style.display = "inline-flex";
@@ -799,45 +721,12 @@
     }
   }
 
-  // 確認時刻および運用表のUI表示用関数（モーダル）
+  // 確認時刻のUI表示用関数（モーダル）
   function showUpdateTime(op, updatedTime) {
-    if(!timeModalOverlay || !modalOpTitle || !modalTimeBody || !modalUnyohyoBody) return;
-    
+    if(!timeModalOverlay || !modalOpTitle || !modalTimeBody) return;
     modalOpTitle.textContent = `${op} 運用確認時刻`;
     modalTimeBody.textContent = (updatedTime && updatedTime.trim() !== "") ? updatedTime : "未登録";
-    
-    // 表示中カレンダー日付のダイヤ型（平日or土休日）を自動取得
-    const selectedDate = archiveDateInput ? archiveDateInput.value : todayStr;
-    const diaType = getDiaType(selectedDate);
-    
-    // 対象運番のテキストデータを抽出
-    const opKey = String(op).trim().toUpperCase();
-    const unyohyoText = globalUnyohyoData[diaType] ? globalUnyohyoData[diaType][opKey] : null;
-    
-    // ★強制表示の決定打：最初にダミーのテキスト（半角スペース）を入れてレイアウトを強制確定させる
-    if (unyohyoText && unyohyoText.trim() !== "") {
-      modalUnyohyoBody.textContent = " ";
-      modalUnyohyoBody.style.display = "block";
-    } else {
-      modalUnyohyoBody.textContent = " ";
-      modalUnyohyoBody.style.display = "none";
-    }
-
-    // ★モーダルを表示（この時点ではダミーのスペースが見えている状態）
     timeModalOverlay.classList.add("is-active");
-
-    // ★iOSがモーダル展開を終えてレイアウトツリーを再計算するのを待ってから、本物のテキストを強制流し込み＋リフローさせる
-    setTimeout(() => {
-      if (unyohyoText && unyohyoText.trim() !== "") {
-        modalUnyohyoBody.textContent = unyohyoText;
-        modalUnyohyoBody.style.display = "block";
-      } else {
-        modalUnyohyoBody.textContent = " ";
-        modalUnyohyoBody.style.display = "none";
-      }
-      // 強制再描画（リフロー）
-      void modalUnyohyoBody.offsetHeight;
-    }, 50);
   }
 
   function closeModal() {
