@@ -3140,8 +3140,18 @@
       "kind": "Ｆ",
       "delay": "",
       "updated": "17:50"
+    },
+    {
+      "op": "33K",
+      "form": "3112F",
+      "cars": "8",
+      "no": "233-172",
+      "destCode": "目黒",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "17:55"
     }
   ],
-  "lastUpdate": "17:50",
+  "lastUpdate": "17:55",
   "date": "2026-06-27"
 }
