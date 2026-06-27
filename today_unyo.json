@@ -3050,8 +3050,18 @@
       "kind": "普",
       "delay": "",
       "updated": "17:10"
+    },
+    {
+      "op": "50S",
+      "form": "-",
+      "cars": "0",
+      "no": "350-171",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:25"
     }
   ],
-  "lastUpdate": "17:20",
+  "lastUpdate": "17:25",
   "date": "2026-06-27"
 }
