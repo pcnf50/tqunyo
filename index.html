@@ -579,7 +579,7 @@
   <header>
     <div class="header-left">
       <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-      <div class="version-tag">v2.3.0</div>
+      <div class="version-tag">v2.3.1</div>
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
@@ -815,13 +815,15 @@
     // 運用表コンテナの初期化
     modalUnyohyoContainer.innerHTML = "";
 
-    // 選択された日付の曜日種別を判定
+    // 選択された日付文字列から、時差の影響を受けない安全な方法で曜日を取得 (JST固定)
     const selectedDate = archiveDateInput ? archiveDateInput.value : todayStr;
-    const day = new Date(selectedDate).getDay();
+    const dateParts = selectedDate.split("-");
+    const day = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]).getDay();
     const dayKey = (day === 0 || day === 6) ? "saturdayholiday" : "weekday";
 
-    // 該当する運番のスケジュールデータを取得
-    const unyoSchedule = (globalUnyohyoData[dayKey] && globalUnyohyoData[dayKey][op]) ? globalUnyohyoData[dayKey][op] : null;
+    // 比較時のズレをなくすため、運番キーをトリム・大文字化して完全一致で検索
+    const searchOpKey = op.trim().toUpperCase();
+    const unyoSchedule = (globalUnyohyoData[dayKey] && globalUnyohyoData[dayKey][searchOpKey]) ? globalUnyohyoData[dayKey][searchOpKey] : null;
 
     if (unyoSchedule && unyoSchedule.length > 0) {
       unyoSchedule.forEach((train, index) => {
