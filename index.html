@@ -742,7 +742,7 @@
 
       // 運用表JSONのロード（初回または切替時）
       try {
-        const resUnyohyo = await fetch("./unyohyo.json" + cacheBuster, {cache:"no-store"});
+        const resUnyohyo = await fetch("https://nfhanyo.web.fc2.com/tokyu/unyohyo.json" + cacheBuster, {cache:"no-store"});
         if(resUnyohyo.ok) {
           globalUnyohyoData = await resUnyohyo.json();
         }
