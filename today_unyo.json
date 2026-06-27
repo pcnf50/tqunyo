@@ -3529,8 +3529,18 @@
       "kind": "回",
       "delay": "",
       "updated": "22:10"
+    },
+    {
+      "op": "09K",
+      "form": "-",
+      "cars": "0",
+      "no": "209-221",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:30"
     }
   ],
-  "lastUpdate": "22:25",
+  "lastUpdate": "22:30",
   "date": "2026-06-27"
 }
