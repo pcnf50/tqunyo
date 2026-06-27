@@ -1588,6 +1588,16 @@
       "kind": "普",
       "delay": "",
       "updated": "18:20"
+    },
+    {
+      "op": "81",
+      "form": "-",
+      "cars": "8",
+      "no": "281-181",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "18:25"
     }
   ],
   "meguro": [
@@ -3232,6 +3242,6 @@
       "updated": "18:20"
     }
   ],
-  "lastUpdate": "18:20",
+  "lastUpdate": "18:25",
   "date": "2026-06-27"
 }
