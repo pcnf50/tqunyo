@@ -403,6 +403,30 @@
       }
     }
 
+    /* 編成セル内のクリック可能デザイン */
+    .clickable-form-cell {
+      cursor: pointer;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    @media (hover: hover) {
+      .clickable-form-cell:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .modal-history-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 6px;
+      border-bottom: 1px solid var(--border-color);
+      font-size: 13px;
+    }
+    .modal-history-row:last-child {
+      border-bottom: none;
+    }
+
     .yosoku-val {
       font-weight: 700;
       color: var(--text-main);
@@ -574,7 +598,7 @@
   <header>
     <div class="header-left">
       <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-      <div class="version-tag">v2.5.0</div>
+      <div class="version-tag">v2.5.1</div>
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
@@ -661,6 +685,17 @@
   </div>
 </div>
 
+<div class="modal-overlay" id="formHistoryModalOverlay">
+  <div class="modal-content">
+    <div class="modal-header-area">
+      <div class="modal-title">編成運用履歴 (直近1週間)</div>
+      <div class="modal-body" id="modalHistoryFormTitle">----</div>
+    </div>
+    <div class="modal-unyohyo-container" id="modalHistoryContainer"></div>
+    <button type="button" class="modal-close-btn" id="historyModalCloseBtn">閉じる</button>
+  </div>
+</div>
+
 <script>
   // --- テーマ管理 ---
   const themeToggleBtn = document.getElementById("themeToggle");
@@ -706,6 +741,12 @@
   const modalFormTitle = document.getElementById("modalFormTitle");
   const modalUnyohyoContainer = document.getElementById("modalUnyohyoContainer");
   const modalCloseBtn = document.getElementById("modalCloseBtn");
+
+  // 編成履歴モーダル用要素
+  const formHistoryModalOverlay = document.getElementById("formHistoryModalOverlay");
+  const modalHistoryFormTitle = document.getElementById("modalHistoryFormTitle");
+  const modalHistoryContainer = document.getElementById("modalHistoryContainer");
+  const historyModalCloseBtn = document.getElementById("historyModalCloseBtn");
 
   if(archiveDateInput) {
     archiveDateInput.value = todayStr;
@@ -874,6 +915,83 @@
   if(timeModalOverlay) {
     timeModalOverlay.addEventListener("click", (e) => {
       if(e.target === timeModalOverlay) closeModal();
+    });
+  }
+
+  // 編成履歴取得用ロジック
+  async function showFormHistory(form) {
+    if(!form || form === "-" || !formHistoryModalOverlay || !modalHistoryFormTitle || !modalHistoryContainer) return;
+
+    modalHistoryFormTitle.textContent = form;
+    modalHistoryContainer.innerHTML = `<div style="text-align:center; padding:20px; font-size:13px; color:var(--text-sub);">直近1週間の履歴を取得中...</div>`;
+    modalHistoryContainer.scrollTop = 0;
+
+    document.body.classList.add("modal-open");
+    formHistoryModalOverlay.classList.add("is-active");
+
+    const cacheBuster = `?_=${Date.now()}`;
+    const historyRows = [];
+
+    // 本日を起点に直近7日分を非同期でフェッチ
+    for(let i = 0; i < 7; i++) {
+      const d = new Date();
+      d.setDate(d.getDate() - i);
+      const dateStr = d.toLocaleDateString('sv-SE');
+
+      let fetchUrl = `./archive/${dateStr}.json` + cacheBuster;
+      if (dateStr === todayStr) {
+        fetchUrl = "./today_unyo.json" + cacheBuster;
+      }
+
+      try {
+        const res = await fetch(fetchUrl, {cache: "no-store"});
+        if (res.ok) {
+          const json = await res.json();
+          const targetLine = json["toyoko"] || [];
+          const matchedOps = targetLine.filter(t => (t.form || "").trim() === form).map(t => t.op || "-");
+          
+          if (matchedOps.length > 0) {
+            historyRows.push({ date: dateStr, op: Array.from(new Set(matchedOps)).join(", ") });
+          } else {
+            historyRows.push({ date: dateStr, op: "運用なし" });
+          }
+        } else {
+          historyRows.push({ date: dateStr, op: "データなし" });
+        }
+      } catch (e) {
+        historyRows.push({ date: dateStr, op: "エラー" });
+      }
+    }
+
+    modalHistoryContainer.innerHTML = "";
+    historyRows.forEach(row => {
+      const rowDiv = document.createElement("div");
+      rowDiv.className = "modal-history-row";
+      
+      let opStyle = 'font-weight:700; color:var(--toyoko);';
+      if (row.op === "運用なし" || row.op === "データなし" || row.op === "エラー") {
+        opStyle = 'font-weight:normal; color:var(--text-sub); opacity:0.6;';
+      }
+
+      rowDiv.innerHTML = `
+        <span style="font-weight:700;">${row.date}</span>
+        <span style="${opStyle}">${row.op}</span>
+      `;
+      modalHistoryContainer.appendChild(rowDiv);
+    });
+  }
+
+  function closeHistoryModal() {
+    if(formHistoryModalOverlay) {
+      formHistoryModalOverlay.classList.remove("is-active");
+      document.body.classList.remove("modal-open");
+    }
+  }
+
+  if(historyModalCloseBtn) historyModalCloseBtn.addEventListener("click", closeHistoryModal);
+  if(formHistoryModalOverlay) {
+    formHistoryModalOverlay.addEventListener("click", (e) => {
+      if(e.target === formHistoryModalOverlay) closeHistoryModal();
     });
   }
 
@@ -1123,13 +1241,11 @@
 
       const isExchanged = (originalOpCounts[opKey] || 0) > 1;
 
-      let formClass = '';
+      let formClass = 'clickable-form-cell';
       if (isExchanged && currentOpIndex >= 2) {
-        formClass = ' class="changed-form"';
+        formClass += ' changed-form';
       } else if (isDaiso) {
-        formClass = ' class="daiso-form"';
-      } else {
-        formClass = '';
+        formClass += ' daiso-form';
       }
 
       let yosokuDisplay = t.yosoku || "-";
@@ -1144,7 +1260,7 @@
       const tr = document.createElement("tr");
       tr.innerHTML = `
         <td class="clickable-op" onclick="showUpdateTime('${safeOp}', '${safeUpdated}', '${safeForm}')"><b>${t.op || "-"}</b></td>
-        <td${formClass}>${t.form || "-"}</td>
+        <td class="${formClass}" onclick="showFormHistory('${safeForm}')">${t.form || "-"}</td>
         <td class="yosoku-val">${yosokuDisplay}</td>
       `;
       tbody.appendChild(tr);
