@@ -409,7 +409,7 @@
       font-weight: normal;
     }
 
-    /* 車両交換時のスタイル（最優先・赤文字化） */
+    /* 車早交換時のスタイル（最優先・赤文字化） */
     .changed-form {
       color: var(--toyoko);
       font-weight: 700;
@@ -465,13 +465,13 @@
       width: 340px;
       max-width: 90%;
       max-height: 85vh;
-      padding: 14px; /* パディングをさらに少し縮小 */
+      padding: 14px;
       box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
       transform: scale(0.95);
       transition: transform 0.2s;
       display: flex;
       flex-direction: column;
-      overflow: hidden; /* コンテンツのはみ出しによる崩れを防止 */
+      overflow: hidden;
     }
     .modal-overlay.is-active .modal-content {
       transform: scale(1);
@@ -482,13 +482,13 @@
       flex-shrink: 0;
     }
     .modal-title {
-      font-size: 12px; /* 13pxから微縮小 */
+      font-size: 12px;
       color: var(--text-sub);
       font-weight: 700;
       margin-bottom: 2px;
     }
     .modal-body {
-      font-size: 19px; /* 20pxから微縮小 */
+      font-size: 19px;
       font-weight: 800;
       color: var(--text-main);
       margin-bottom: 2px;
@@ -499,16 +499,17 @@
       background-color: var(--header-bg);
       border: 1px solid var(--border-color);
       border-radius: 6px;
-      padding: 6px 8px; /* 内側の余白を削減 */
+      padding: 6px 8px;
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      font-size: 11px; /* 11.5pxからさらに縮小しスマホでの表示領域を確保 */
-      line-height: 1.2; /* 行間を限界まで詰め気味に設定 */
+      font-size: 11px;
+      line-height: 1.2;
       white-space: pre;
       overflow-x: auto;
       overflow-y: auto;
-      -webkit-overflow-scrolling: touch; /* iOSスマホ等のスクロール操作を滑らかにする設定 */
+      -webkit-overflow-scrolling: touch;
       text-align: left;
       flex-grow: 1;
+      min-height: 200px; /* ★重要: スマホ画面で高さが0に潰れるバグを防ぐ */
       margin-bottom: 10px;
       color: var(--text-main);
     }
@@ -538,7 +539,7 @@
   <header>
     <div class="header-left">
       <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-      <div class="version-tag">v2.3.0</div>
+      <div class="version-tag">v2.3.1</div>
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
