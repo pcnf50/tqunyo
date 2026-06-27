@@ -390,6 +390,7 @@
     .clickable-op {
       cursor: pointer;
       user-select: none;
+      -webkit-tap-highlight-color: transparent;
     }
     @media (hover: hover) {
       .clickable-op:hover {
@@ -464,13 +465,14 @@
       border-radius: 12px;
       width: 90%;
       max-width: 440px;
-      max-height: 80vh;
+      max-height: 85vh; /* スマホ向けに高さを少し拡張 */
       padding: 20px;
       box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
       transform: scale(0.95);
       transition: transform 0.2s;
       display: flex;
       flex-direction: column;
+      box-sizing: border-box;
     }
     .modal-overlay.is-active .modal-content {
       transform: scale(1);
@@ -502,6 +504,7 @@
       padding-top: 12px;
       margin-bottom: 16px;
       text-align: left;
+      -webkit-overflow-scrolling: touch; /* スマホでのスクロールを滑らかに */
     }
     .modal-unyo-card {
       background: var(--table-stripe);
@@ -533,25 +536,6 @@
       justify-content: space-between;
       font-weight: 700;
     }
-    .modal-unyo-stops-toggle {
-      font-size: 11px;
-      color: var(--text-sub);
-      cursor: pointer;
-      margin-top: 4px;
-      display: inline-block;
-      text-decoration: underline;
-    }
-    .modal-unyo-stops-detail {
-      margin-top: 6px;
-      padding-left: 8px;
-      border-left: 2px solid var(--border-color);
-      font-size: 12px;
-    }
-    .modal-unyo-stop-row {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 2px;
-    }
 
     .modal-close-btn {
       width: 100%;
@@ -560,11 +544,12 @@
       color: var(--text-main);
       font-size: 14px;
       font-weight: 700;
-      padding: 10px;
+      padding: 12px; /* タップしやすく少し太く */
       border-radius: 8px;
       cursor: pointer;
       transition: background-color 0.15s;
       flex-shrink: 0;
+      min-height: 44px; /* スマホのタップ領域規格 */
     }
     @media (hover: hover) {
       .modal-close-btn:hover {
@@ -579,7 +564,7 @@
   <header>
     <div class="header-left">
       <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-      <div class="version-tag">v2.4.0</div>
+      <div class="version-tag">v2.4.1</div>
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
@@ -740,7 +725,7 @@
       if(errDiv) errDiv.style.display = "none";
       const cacheBuster = `?_=${Date.now()}`;
 
-      // 運用表JSONのロード（初回または切替時）
+      // 絶対URLから固定で読み込み
       try {
         const resUnyohyo = await fetch("https://nfhanyo.web.fc2.com/tokyu/unyohyo.json" + cacheBuster, {cache:"no-store"});
         if(resUnyohyo.ok) {
@@ -815,18 +800,18 @@
     // 運用表コンテナの初期化
     modalUnyohyoContainer.innerHTML = "";
 
-    // 選択された日付文字列から、時差の影響を受けない安全な方法で曜日を取得 (JST固定)
+    // 選択された日付文字列から曜日を安全に取得 (JST固定)
     const selectedDate = archiveDateInput ? archiveDateInput.value : todayStr;
     const dateParts = selectedDate.split("-");
     const day = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]).getDay();
     const dayKey = (day === 0 || day === 6) ? "saturdayholiday" : "weekday";
 
-    // 比較時のズレをなくすため、運番キーをトリム・大文字化して完全一致で検索
+    // 運番キーを大文字化・トリムして完全一致検索
     const searchOpKey = op.trim().toUpperCase();
     const unyoSchedule = (globalUnyohyoData[dayKey] && globalUnyohyoData[dayKey][searchOpKey]) ? globalUnyohyoData[dayKey][searchOpKey] : null;
 
     if (unyoSchedule && unyoSchedule.length > 0) {
-      unyoSchedule.forEach((train, index) => {
+      unyoSchedule.forEach((train) => {
         const card = document.createElement("div");
         card.className = "modal-unyo-card";
 
@@ -839,6 +824,7 @@
         }
         const svcText = svcArray.length > 0 ? svcArray.join(" / ") : "種別情報なし";
 
+        // 停車駅の一覧表示・切り替え機能を完全削除し、始発・終着のみのシンプル構成に変更
         card.innerHTML = `
           <div class="modal-unyo-card-header">
             <span>列車番号: ${train.train_no || "不明"}</span>
@@ -850,38 +836,9 @@
             <span>➔</span>
             <span>${train.to || "終着駅不明"} (${train.arr || "--:--"})</span>
           </div>
-          <div class="modal-unyo-stops-toggle" id="toggleStops_${index}">▼ 停車駅の時刻を表示</div>
-          <div class="modal-unyo-stops-detail" id="stopsDetail_${index}" style="display: none;"></div>
         `;
 
         modalUnyohyoContainer.appendChild(card);
-
-        // 停車駅アコーディオンのイベント設定
-        const toggleBtn = card.querySelector(`#toggleStops_${index}`);
-        const stopsDetail = card.querySelector(`#stopsDetail_${index}`);
-        
-        if (toggleBtn && stopsDetail) {
-          if (train.stops && train.stops.length > 0) {
-            train.stops.forEach(stop => {
-              const stopRow = document.createElement("div");
-              stopRow.className = "modal-unyo-stop-row";
-              stopRow.innerHTML = `<span>${stop.station}</span><span>${stop.time}</span>`;
-              stopsDetail.appendChild(stopRow);
-            });
-
-            toggleBtn.addEventListener("click", () => {
-              if (stopsDetail.style.display === "none") {
-                stopsDetail.style.display = "block";
-                toggleBtn.textContent = "▲ 停車駅の時刻を閉じる";
-              } else {
-                stopsDetail.style.display = "none";
-                toggleBtn.textContent = "▼ 停車駅の時刻を表示";
-              }
-            });
-          } else {
-            toggleBtn.style.display = "none";
-          }
-        }
       });
     } else {
       modalUnyohyoContainer.innerHTML = `<div style="text-align:center; color:var(--text-sub); font-size:13px; padding:20px 0;">この日の運用表スケジュールデータはありません。</div>`;
