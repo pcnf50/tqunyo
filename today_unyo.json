@@ -2880,8 +2880,18 @@
       "kind": "普",
       "delay": "",
       "updated": "12:35"
+    },
+    {
+      "op": "35T",
+      "form": "-",
+      "cars": "0",
+      "no": "435-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:40"
     }
   ],
-  "lastUpdate": "13:35",
+  "lastUpdate": "13:40",
   "date": "2026-06-27"
 }
