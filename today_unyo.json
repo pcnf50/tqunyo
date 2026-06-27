@@ -209,6 +209,66 @@
       "kind": "普",
       "delay": "",
       "updated": "05:20"
+    },
+    {
+      "op": "04S",
+      "form": "17184F",
+      "cars": "8",
+      "no": "704-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
+      "op": "58K",
+      "form": "4109F",
+      "cars": "10",
+      "no": "058-052",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "05:25"
+    },
+    {
+      "op": "35",
+      "form": "-",
+      "cars": "8",
+      "no": "235-052",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "2分遅れ",
+      "updated": "05:25"
+    },
+    {
+      "op": "07K",
+      "form": "-",
+      "cars": "0",
+      "no": "007-052",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
+      "op": "99G",
+      "form": "5152F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
+      "op": "26",
+      "form": "-",
+      "cars": "8",
+      "no": "226-051",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
     }
   ],
   "meguro": [
@@ -421,8 +481,78 @@
       "kind": "普",
       "delay": "",
       "updated": "05:20"
+    },
+    {
+      "op": "13",
+      "form": "-",
+      "cars": "8",
+      "no": "013-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
+      "op": "58M",
+      "form": "-",
+      "cars": "10",
+      "no": "058-052",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "05:25"
+    },
+    {
+      "op": "37T",
+      "form": "-",
+      "cars": "0",
+      "no": "437-051",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
+      "op": "35K",
+      "form": "5183F",
+      "cars": "8",
+      "no": "235-052",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "2分遅れ",
+      "updated": "05:25"
+    },
+    {
+      "op": "7",
+      "form": "-",
+      "cars": "0",
+      "no": "007-052",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
+      "op": "06K",
+      "form": "5190F",
+      "cars": "8",
+      "no": "206-051",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
+      "op": "99",
+      "form": "3102F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "05:25"
     }
   ],
-  "lastUpdate": "05:20",
+  "lastUpdate": "05:25",
   "date": "2026-06-28"
 }
