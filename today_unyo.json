@@ -1308,6 +1308,16 @@
       "kind": "普",
       "delay": "",
       "updated": "10:30"
+    },
+    {
+      "op": "90",
+      "form": "-",
+      "cars": "6",
+      "no": "590-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:35"
     }
   ],
   "meguro": [
@@ -2650,8 +2660,18 @@
       "kind": "Ｓ",
       "delay": "",
       "updated": "10:30"
+    },
+    {
+      "op": "30K",
+      "form": "5186F",
+      "cars": "8",
+      "no": "230-102",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "10:35"
     }
   ],
-  "lastUpdate": "10:30",
+  "lastUpdate": "10:35",
   "date": "2026-06-27"
 }
