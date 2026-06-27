@@ -818,6 +818,8 @@
     modalOpTitle.textContent = `${op} 運用確認時刻`;
     modalTimeBody.textContent = (updatedTime && updatedTime.trim() !== "") ? updatedTime : "未登録";
     modalFormTitle.textContent = `編成: ${form && form.trim() !== "" ? form : "未登録"}`;
+
+    modalUnyohyoContainer.scrollTop = 0;
     
     // 運用表コンテナの初期化
     modalUnyohyoContainer.innerHTML = "";
