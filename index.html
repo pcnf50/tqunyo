@@ -465,7 +465,7 @@
       width: 340px;
       max-width: 90%;
       max-height: 85vh;
-      padding: 20px;
+      padding: 16px; /* 20pxから少し縮小 */
       box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
       transform: scale(0.95);
       transition: transform 0.2s;
@@ -477,20 +477,20 @@
     }
     .modal-header-area {
       text-align: center;
-      margin-bottom: 12px;
+      margin-bottom: 8px; /* 12pxから縮小 */
       flex-shrink: 0;
     }
     .modal-title {
-      font-size: 14px;
+      font-size: 13px; /* 14pxから縮小 */
       color: var(--text-sub);
       font-weight: 700;
-      margin-bottom: 4px;
+      margin-bottom: 2px;
     }
     .modal-body {
-      font-size: 24px;
+      font-size: 20px; /* 24pxから縮小 */
       font-weight: 800;
       color: var(--text-main);
-      margin-bottom: 8px;
+      margin-bottom: 4px;
       letter-spacing: -0.01em;
     }
     /* 運用表テキスト表示エリア (等幅フォント) */
@@ -498,16 +498,16 @@
       background-color: var(--header-bg);
       border: 1px solid var(--border-color);
       border-radius: 6px;
-      padding: 12px;
+      padding: 8px 10px; /* パディングを縮小 */
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      font-size: 13px;
-      line-height: 1.4;
+      font-size: 11.5px; /* 13pxから縮小してスマホで見やすく */
+      line-height: 1.25; /* 1.4から行間を詰め気味に調整 */
       white-space: pre;
       overflow-x: auto;
       overflow-y: auto;
       text-align: left;
       flex-grow: 1;
-      margin-bottom: 16px;
+      margin-bottom: 12px; /* 16pxから縮小 */
       color: var(--text-main);
     }
     .modal-close-btn {
@@ -515,9 +515,9 @@
       background-color: var(--header-bg);
       border: 1px solid var(--border-color);
       color: var(--text-main);
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 700;
-      padding: 10px;
+      padding: 8px; /* 10pxから縮小 */
       border-radius: 8px;
       cursor: pointer;
       transition: background-color 0.15s;
@@ -536,7 +536,7 @@
   <header>
     <div class="header-left">
       <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-      <div class="version-tag">v2.2.8</div>
+      <div class="version-tag">v2.2.9</div>
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
