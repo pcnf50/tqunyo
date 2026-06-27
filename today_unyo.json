@@ -1358,16 +1358,6 @@
       "kind": "普",
       "delay": "",
       "updated": "11:15"
-    },
-    {
-      "op": "22K",
-      "form": "-",
-      "cars": "8",
-      "no": "022-102",
-      "destCode": "副都心線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "11:30"
     }
   ],
   "meguro": [
@@ -2762,6 +2752,6 @@
       "updated": "11:00"
     }
   ],
-  "lastUpdate": "11:30",
+  "lastUpdate": "11:35",
   "date": "2026-06-27"
 }
