@@ -46,6 +46,11 @@
       transition: background-color 0.3s, color 0.3s;
     }
 
+    /* モーダル表示時に背景スクロールを禁止するクラス */
+    body.modal-open {
+      overflow: hidden;
+    }
+
     main {
       max-width: 650px;
       margin: 0 auto;
@@ -493,7 +498,12 @@
       font-weight: 800;
       color: var(--text-main);
       letter-spacing: -0.01em;
-      margin-bottom: 8px;
+      margin-bottom: 4px;
+    }
+    .modal-subtitle {
+      font-size: 13px;
+      color: var(--text-sub);
+      font-weight: 700;
     }
     
     /* 運用表タイムライン表示領域 */
@@ -564,7 +574,7 @@
   <header>
     <div class="header-left">
       <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-      <div class="version-tag">v2.4.2</div>
+      <div class="version-tag">v2.4.1</div>
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
@@ -644,6 +654,7 @@
     <div class="modal-header-area">
       <div class="modal-title" id="modalOpTitle">01K 運用確認時刻</div>
       <div class="modal-body" id="modalTimeBody">--:--</div>
+      <div class="modal-subtitle" id="modalFormTitle">編成: ----</div>
     </div>
     <div class="modal-unyohyo-container" id="modalUnyohyoContainer"></div>
     <button type="button" class="modal-close-btn" id="modalCloseBtn">閉じる</button>
@@ -692,6 +703,7 @@
   const timeModalOverlay = document.getElementById("timeModalOverlay");
   const modalOpTitle = document.getElementById("modalOpTitle");
   const modalTimeBody = document.getElementById("modalTimeBody");
+  const modalFormTitle = document.getElementById("modalFormTitle");
   const modalUnyohyoContainer = document.getElementById("modalUnyohyoContainer");
   const modalCloseBtn = document.getElementById("modalCloseBtn");
 
@@ -726,7 +738,7 @@
       const cacheBuster = `?_=${Date.now()}`;
 
       // 絶対URLから固定で読み込み
-     try {
+      try {
         await new Promise(r => {
           const s = document.createElement("script");
           s.src = "https://nfhanyo.web.fc2.com/tokyu/unyohyo.js" + cacheBuster;
@@ -743,6 +755,7 @@
       } catch (e) {
         console.warn("運用表処理でエラーが発生しました:", e);
       }
+
       if (selectedDate === todayStr) {
         if(refreshBtn) refreshBtn.style.display = "inline-flex";
         if(backToTodayBtn) backToTodayBtn.style.display = "none";
@@ -799,11 +812,12 @@
   }
 
   // 確認時刻と運用表のUI表示用関数（モーダル）
-  function showUpdateTime(op, updatedTime) {
-    if(!timeModalOverlay || !modalOpTitle || !modalTimeBody || !modalUnyohyoContainer) return;
+  function showUpdateTime(op, updatedTime, form) {
+    if(!timeModalOverlay || !modalOpTitle || !modalTimeBody || !modalFormTitle || !modalUnyohyoContainer) return;
     
     modalOpTitle.textContent = `${op} 運用確認時刻`;
     modalTimeBody.textContent = (updatedTime && updatedTime.trim() !== "") ? updatedTime : "未登録";
+    modalFormTitle.textContent = `編成: ${form && form.trim() !== "" ? form : "未登録"}`;
     
     // 運用表コンテナの初期化
     modalUnyohyoContainer.innerHTML = "";
@@ -832,7 +846,6 @@
         }
         const svcText = svcArray.length > 0 ? svcArray.join(" / ") : "種別情報なし";
 
-        // 停車駅の一覧表示・切り替え機能を完全削除し、始発・終着のみのシンプル構成に変更
         card.innerHTML = `
           <div class="modal-unyo-card-header">
             <span>列車番号: ${train.train_no || "不明"}</span>
@@ -852,11 +865,17 @@
       modalUnyohyoContainer.innerHTML = `<div style="text-align:center; color:var(--text-sub); font-size:13px; padding:20px 0;">この日の運用表スケジュールデータはありません。</div>`;
     }
 
+    // 背景のスクロールを禁止
+    document.body.classList.add("modal-open");
     timeModalOverlay.classList.add("is-active");
   }
 
   function closeModal() {
-    if(timeModalOverlay) timeModalOverlay.classList.remove("is-active");
+    if(timeModalOverlay) {
+      timeModalOverlay.classList.remove("is-active");
+      // 背景のスクロール制限を解除
+      document.body.classList.remove("modal-open");
+    }
   }
 
   if(modalCloseBtn) modalCloseBtn.addEventListener("click", closeModal);
@@ -1128,10 +1147,11 @@
 
       const safeOp = (t.op || "").replace(/'/g, "\\'");
       const safeUpdated = (t.updated || "").replace(/'/g, "\\'");
+      const safeForm = (t.form || "").replace(/'/g, "\\'");
 
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td class="clickable-op" onclick="showUpdateTime('${safeOp}', '${safeUpdated}')"><b>${t.op || "-"}</b></td>
+        <td class="clickable-op" onclick="showUpdateTime('${safeOp}', '${safeUpdated}', '${safeForm}')"><b>${t.op || "-"}</b></td>
         <td${formClass}>${t.form || "-"}</td>
         <td class="yosoku-val">${yosokuDisplay}</td>
       `;
