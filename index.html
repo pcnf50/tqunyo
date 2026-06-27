@@ -536,7 +536,7 @@
   <header>
     <div class="header-left">
       <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-      <div class="version-tag">v2.2.7</div>
+      <div class="version-tag">v2.2.8</div>
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
@@ -937,8 +937,8 @@
 
     const clearOpBtn = document.getElementById("clearOpBtn");
     const clearFormBtn = document.getElementById("clearFormBtn");
-    if(clearOpBtn) { pointerEvents: "auto"; clearOpBtn.style.display = queryOp ? "flex" : "none"; }
-    if(clearFormBtn) { pointerEvents: "auto"; clearFormBtn.style.display = queryForm ? "flex" : "none"; }
+    if(clearOpBtn) { clearOpBtn.style.display = queryOp ? "flex" : "none"; }
+    if(clearFormBtn) { clearFormBtn.style.display = queryForm ? "flex" : "none"; }
 
     if (queryOp) {
       list = list.filter(t => (t.op || "").toLowerCase().includes(queryOp));
