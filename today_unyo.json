@@ -1577,7 +1577,7 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "18:10"
+      "updated": "18:15"
     }
   ],
   "meguro": [
@@ -3208,10 +3208,10 @@
       "no": "281-181",
       "destCode": "元住吉",
       "kind": "回",
-      "delay": "3分遅れ",
-      "updated": "18:10"
+      "delay": "",
+      "updated": "18:15"
     }
   ],
-  "lastUpdate": "18:10",
+  "lastUpdate": "18:15",
   "date": "2026-06-27"
 }
