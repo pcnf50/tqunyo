@@ -2840,8 +2840,18 @@
       "kind": "普",
       "delay": "",
       "updated": "12:25"
+    },
+    {
+      "op": "65T",
+      "form": "6513F",
+      "cars": "8",
+      "no": "465-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:35"
     }
   ],
-  "lastUpdate": "12:30",
+  "lastUpdate": "12:35",
   "date": "2026-06-27"
 }
