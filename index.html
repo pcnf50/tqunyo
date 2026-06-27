@@ -726,15 +726,23 @@
       const cacheBuster = `?_=${Date.now()}`;
 
       // 絶対URLから固定で読み込み
-      try {
-        const resUnyohyo = await fetch("https://nfhanyo.web.fc2.com/tokyu/unyohyo.json" + cacheBuster, {cache:"no-store"});
-        if(resUnyohyo.ok) {
-          globalUnyohyoData = await resUnyohyo.json();
-        }
+     try {
+        await new Promise(r => {
+          const s = document.createElement("script");
+          s.src = "https://nfhanyo.web.fc2.com/tokyu/unyohyo.js" + cacheBuster;
+          s.onload = () => {
+            globalUnyohyoData = window.unyohyoCallback || {};
+            r();
+          };
+          s.onerror = () => {
+            console.warn("運用表(unyohyo.js)の読み込みに失敗しました");
+            r();
+          };
+          document.body.appendChild(s);
+        });
       } catch (e) {
-        console.warn("運用表(unyohyo.json)の読み込みに失敗しました:", e);
+        console.warn("運用表処理でエラーが発生しました:", e);
       }
-
       if (selectedDate === todayStr) {
         if(refreshBtn) refreshBtn.style.display = "inline-flex";
         if(backToTodayBtn) backToTodayBtn.style.display = "none";
