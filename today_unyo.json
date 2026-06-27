@@ -3499,8 +3499,18 @@
       "kind": "普",
       "delay": "1分遅れ",
       "updated": "22:05"
+    },
+    {
+      "op": "44K",
+      "form": "5190F",
+      "cars": "8",
+      "no": "244-222",
+      "destCode": "南北線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "22:10"
     }
   ],
-  "lastUpdate": "22:05",
+  "lastUpdate": "22:10",
   "date": "2026-06-27"
 }
