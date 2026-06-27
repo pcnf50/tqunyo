@@ -409,7 +409,7 @@
       font-weight: normal;
     }
 
-    /* 車早交換時のスタイル（最優先・赤文字化） */
+    /* 車両交換時のスタイル（最優先・赤文字化） */
     .changed-form {
       color: var(--toyoko);
       font-weight: 700;
@@ -437,7 +437,7 @@
       font-weight: 600;
     }
 
-    /* --- 確認時刻・運用表表示用 モーダルUI --- */
+    /* --- 確認時刻・運用表表示用 モーダルUI (iOSバグ完全修正版) --- */
     .modal-overlay {
       position: fixed;
       top: 0;
@@ -464,21 +464,22 @@
       border-radius: 12px;
       width: 340px;
       max-width: 90%;
-      max-height: 85vh;
+      max-height: 80vh; /* スマホ画面の8割に制限し突き抜けを防止 */
       padding: 14px;
       box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
       transform: scale(0.95);
       transition: transform 0.2s;
+      
+      /* iOSのSafariで子要素のスクロール枠が消滅するのを防ぐため、柔軟なFlex配置を設定 */
       display: flex;
       flex-direction: column;
-      overflow: hidden;
     }
     .modal-overlay.is-active .modal-content {
       transform: scale(1);
     }
     .modal-header-area {
       text-align: center;
-      margin-bottom: 6px;
+      margin-bottom: 8px;
       flex-shrink: 0;
     }
     .modal-title {
@@ -491,28 +492,37 @@
       font-size: 19px;
       font-weight: 800;
       color: var(--text-main);
-      margin-bottom: 2px;
+      margin-bottom: 4px;
       letter-spacing: -0.01em;
     }
-    /* 運用表テキスト表示エリア (等幅フォント) */
+    
+    /* 運用表テキスト表示エリア (等幅フォント・iOS可視化対応) */
     .modal-unyohyo-area {
       background-color: var(--header-bg);
       border: 1px solid var(--border-color);
       border-radius: 6px;
-      padding: 6px 8px;
+      padding: 8px 10px;
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
       font-size: 11px;
-      line-height: 1.2;
+      line-height: 1.3;
       white-space: pre;
+      
+      /* スクロール設定 */
       overflow-x: auto;
       overflow-y: auto;
       -webkit-overflow-scrolling: touch;
       text-align: left;
+      
+      /* Flex内の高さ縮小・拡大を厳密に定義し、0に潰れる現象を完全ガード */
       flex-grow: 1;
-      min-height: 200px; /* ★重要: スマホ画面で高さが0に潰れるバグを防ぐ */
-      margin-bottom: 10px;
+      flex-shrink: 1;
+      min-height: 160px; 
+      
+      margin-bottom: 12px;
       color: var(--text-main);
+      display: block; /* JS制御とCSSの整合性を維持 */
     }
+    
     .modal-close-btn {
       width: 100%;
       background-color: var(--header-bg);
@@ -520,11 +530,11 @@
       color: var(--text-main);
       font-size: 13px;
       font-weight: 700;
-      padding: 8px;
+      padding: 10px;
       border-radius: 8px;
       cursor: pointer;
       transition: background-color 0.15s;
-      flex-shrink: 0;
+      flex-shrink: 0; /* 絶対に潰さない */
     }
     @media (hover: hover) {
       .modal-close-btn:hover {
@@ -539,7 +549,7 @@
   <header>
     <div class="header-left">
       <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-      <div class="version-tag">v2.3.1</div>
+      <div class="version-tag">v2.3.2</div>
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
@@ -620,7 +630,7 @@
       <div class="modal-title" id="modalOpTitle">01K 運用確認時刻</div>
       <div class="modal-body" id="modalTimeBody">--:--</div>
     </div>
-    <div class="modal-unyohyo-area" id="modalUnyohyoBody" style="display: none;"></div>
+    <div class="modal-unyohyo-area" id="modalUnyohyoBody"></div>
     <button type="button" class="modal-close-btn" id="modalCloseBtn">閉じる</button>
   </div>
 </div>
