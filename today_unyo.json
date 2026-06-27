@@ -3409,8 +3409,18 @@
       "kind": "普",
       "delay": "",
       "updated": "20:20"
+    },
+    {
+      "op": "57",
+      "form": "-",
+      "cars": "10",
+      "no": "757-201",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:30"
     }
   ],
-  "lastUpdate": "20:25",
+  "lastUpdate": "20:30",
   "date": "2026-06-27"
 }
