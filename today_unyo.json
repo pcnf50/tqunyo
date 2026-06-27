@@ -1558,6 +1558,16 @@
       "kind": "急",
       "delay": "",
       "updated": "17:50"
+    },
+    {
+      "op": "70",
+      "form": "-",
+      "cars": "6",
+      "no": "370-171",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:05"
     }
   ],
   "meguro": [
@@ -3160,8 +3170,28 @@
       "kind": "急",
       "delay": "",
       "updated": "18:00"
+    },
+    {
+      "op": "34G",
+      "form": "21105F",
+      "cars": "8",
+      "no": "634-172",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:05"
+    },
+    {
+      "op": "81K",
+      "form": "3109F",
+      "cars": "8",
+      "no": "281-172",
+      "destCode": "目黒",
+      "kind": "回",
+      "delay": "3分遅れ",
+      "updated": "18:05"
     }
   ],
-  "lastUpdate": "18:00",
+  "lastUpdate": "18:05",
   "date": "2026-06-27"
 }
