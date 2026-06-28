@@ -801,6 +801,16 @@
       "updated": "18:10"
     },
     {
+      "op": "09",
+      "form": "-",
+      "cars": "8",
+      "no": "209-182",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:20"
+    },
+    {
       "op": "21K",
       "form": "5165F",
       "cars": "8",
@@ -808,7 +818,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "18:15"
+      "updated": "18:20"
     },
     {
       "op": "52",
@@ -818,7 +828,7 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "18:15"
+      "updated": "18:20"
     }
   ],
   "meguro": [
@@ -1533,6 +1543,16 @@
       "updated": "18:10"
     },
     {
+      "op": "09K",
+      "form": "3103F",
+      "cars": "8",
+      "no": "209-182",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:20"
+    },
+    {
       "op": "30K",
       "form": "3109F",
       "cars": "8",
@@ -1540,7 +1560,27 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:15"
+      "updated": "18:20"
+    },
+    {
+      "op": "51M",
+      "form": "-",
+      "cars": "10",
+      "no": "051-172",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:20"
+    },
+    {
+      "op": "36S",
+      "form": "9106F",
+      "cars": "6",
+      "no": "336-181",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:20"
     },
     {
       "op": "49T",
@@ -1550,7 +1590,17 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "18:15"
+      "updated": "18:20"
+    },
+    {
+      "op": "49",
+      "form": "-",
+      "cars": "10",
+      "no": "749-181",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "18:20"
     },
     {
       "op": "54M",
@@ -1560,10 +1610,10 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:15"
+      "updated": "18:20"
     }
   ],
-  "lastUpdate": "18:15",
+  "lastUpdate": "18:20",
   "date": "2026-06-28",
   "resetDone": false
 }
