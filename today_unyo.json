@@ -1329,6 +1329,16 @@
       "kind": "普",
       "delay": "",
       "updated": "21:40"
+    },
+    {
+      "op": "24M",
+      "form": "40153F",
+      "cars": "10",
+      "no": "124-211",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "21:55"
     }
   ],
   "meguro": [
@@ -2633,7 +2643,7 @@
       "updated": "21:20"
     }
   ],
-  "lastUpdate": "21:54",
+  "lastUpdate": "21:55",
   "date": "2026-06-28",
   "resetDone": false
 }
