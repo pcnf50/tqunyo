@@ -1398,7 +1398,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "23:00"
+      "updated": "23:05"
     }
   ],
   "meguro": [
@@ -2780,10 +2780,10 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "23:00"
+      "updated": "23:05"
     }
   ],
-  "lastUpdate": "23:00",
+  "lastUpdate": "23:05",
   "date": "2026-06-28",
   "resetDone": false
 }
