@@ -1327,8 +1327,8 @@
       "no": "991-102",
       "destCode": "副都心線直通",
       "kind": "急",
-      "delay": "",
-      "updated": "10:40"
+      "delay": "1分遅れ",
+      "updated": "10:45"
     }
   ],
   "meguro": [
@@ -2710,9 +2710,9 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "10:40"
+      "updated": "10:45"
     }
   ],
-  "lastUpdate": "10:40",
+  "lastUpdate": "10:45",
   "date": "2026-06-28"
 }
