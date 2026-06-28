@@ -2451,9 +2451,19 @@
       "kind": "急",
       "delay": "",
       "updated": "20:30"
+    },
+    {
+      "op": "53M",
+      "form": "-",
+      "cars": "10",
+      "no": "053-201",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "20:35"
     }
   ],
-  "lastUpdate": "20:30",
+  "lastUpdate": "20:35",
   "date": "2026-06-28",
   "resetDone": false
 }
