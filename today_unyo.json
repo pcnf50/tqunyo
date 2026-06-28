@@ -2641,9 +2641,29 @@
       "kind": "普",
       "delay": "",
       "updated": "21:20"
+    },
+    {
+      "op": "67T",
+      "form": "6331F",
+      "cars": "6",
+      "no": "467-221",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:05"
+    },
+    {
+      "op": "24",
+      "form": "-",
+      "cars": "10",
+      "no": "124-211",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "22:05"
     }
   ],
-  "lastUpdate": "22:00",
+  "lastUpdate": "22:05",
   "date": "2026-06-28",
   "resetDone": false
 }
