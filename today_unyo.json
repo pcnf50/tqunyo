@@ -189,6 +189,46 @@
       "kind": "回",
       "delay": "",
       "updated": "05:15"
+    },
+    {
+      "op": "12K",
+      "form": "5174F",
+      "cars": "8",
+      "no": "012-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:20"
+    },
+    {
+      "op": "30",
+      "form": "-",
+      "cars": "8",
+      "no": "230-052",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:20"
+    },
+    {
+      "op": "28K",
+      "form": "-",
+      "cars": "0",
+      "no": "028-052",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:20"
+    },
+    {
+      "op": "99G",
+      "form": "5170F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "05:20"
     }
   ],
   "meguro": [
@@ -381,8 +421,38 @@
       "kind": "普",
       "delay": "",
       "updated": "05:15"
+    },
+    {
+      "op": "30K",
+      "form": "3105F",
+      "cars": "8",
+      "no": "230-052",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:20"
+    },
+    {
+      "op": "28K",
+      "form": "-",
+      "cars": "0",
+      "no": "028-052",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:20"
+    },
+    {
+      "op": "99",
+      "form": "3123F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "05:20"
     }
   ],
-  "lastUpdate": "05:15",
+  "lastUpdate": "05:20",
   "date": "2026-06-29"
 }
