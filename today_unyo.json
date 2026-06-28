@@ -2911,9 +2911,19 @@
       "kind": "普",
       "delay": "",
       "updated": "00:10"
+    },
+    {
+      "op": "03K",
+      "form": "5185F",
+      "cars": "8",
+      "no": "203-241",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:15"
     }
   ],
-  "lastUpdate": "00:10",
+  "lastUpdate": "00:15",
   "date": "2026-06-29",
   "resetDone": false
 }
