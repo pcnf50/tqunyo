@@ -991,13 +991,14 @@
       "updated": "19:00"
     },
     {
-      "op": "99",
-      "form": "5176F",
-      "cars": "8",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "不明",
-      "delay": ""
+      "op": "74M",
+      "form": "40101F",
+      "cars": "10",
+      "no": "174-181",
+      "destCode": "元町・中華街",
+      "kind": "Ｓ",
+      "delay": "",
+      "updated": "19:00"
     },
     {
       "op": "63",
@@ -2892,7 +2893,7 @@
       "updated": "23:35"
     }
   ],
-  "lastUpdate": "23:47",
+  "lastUpdate": "23:50",
   "date": "2026-06-28",
   "resetDone": false
 }
