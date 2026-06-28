@@ -659,6 +659,36 @@
       "kind": "普",
       "delay": "",
       "updated": "17:45"
+    },
+    {
+      "op": "57",
+      "form": "-",
+      "cars": "6",
+      "no": "457-171",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:50"
+    },
+    {
+      "op": "11S",
+      "form": "-",
+      "cars": "0",
+      "no": "711-171",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:50"
+    },
+    {
+      "op": "33",
+      "form": "-",
+      "cars": "8",
+      "no": "233-172",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:50"
     }
   ],
   "meguro": [
@@ -1251,9 +1281,49 @@
       "kind": "普",
       "delay": "",
       "updated": "17:45"
+    },
+    {
+      "op": "70S",
+      "form": "9113F",
+      "cars": "6",
+      "no": "370-171",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:50"
+    },
+    {
+      "op": "85",
+      "form": "-",
+      "cars": "10",
+      "no": "785-171",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "17:50"
+    },
+    {
+      "op": "33K",
+      "form": "3104F",
+      "cars": "8",
+      "no": "233-172",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:50"
+    },
+    {
+      "op": "09",
+      "form": "-",
+      "cars": "8",
+      "no": "709-172",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:50"
     }
   ],
-  "lastUpdate": "17:45",
+  "lastUpdate": "17:50",
   "date": "2026-06-28",
   "resetDone": false
 }
