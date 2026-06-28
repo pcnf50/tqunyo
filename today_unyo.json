@@ -1341,14 +1341,14 @@
       "updated": "21:55"
     },
     {
-      "op": "67",
-      "form": "-",
-      "cars": "6",
-      "no": "467-221",
-      "destCode": "元住吉",
-      "kind": "普",
+      "op": "61S",
+      "form": "17102F",
+      "cars": "10",
+      "no": "761-221",
+      "destCode": "元町・中華街",
+      "kind": "特",
       "delay": "",
-      "updated": "22:20"
+      "updated": "22:25"
     }
   ],
   "meguro": [
@@ -2693,7 +2693,7 @@
       "updated": "22:15"
     }
   ],
-  "lastUpdate": "22:20",
+  "lastUpdate": "22:25",
   "date": "2026-06-28",
   "resetDone": false
 }
