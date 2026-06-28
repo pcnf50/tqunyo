@@ -2991,8 +2991,18 @@
       "kind": "回",
       "delay": "",
       "updated": "16:30"
+    },
+    {
+      "op": "61T",
+      "form": "-",
+      "cars": "0",
+      "no": "461-161",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "16:40"
     }
   ],
-  "lastUpdate": "16:35",
+  "lastUpdate": "16:40",
   "date": "2026-06-28"
 }
