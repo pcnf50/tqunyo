@@ -2491,9 +2491,19 @@
       "kind": "普",
       "delay": "",
       "updated": "20:40"
+    },
+    {
+      "op": "68S",
+      "form": "9121F",
+      "cars": "6",
+      "no": "368-201",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
     }
   ],
-  "lastUpdate": "20:40",
+  "lastUpdate": "20:45",
   "date": "2026-06-28",
   "resetDone": false
 }
