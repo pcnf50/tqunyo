@@ -571,26 +571,6 @@
       font-weight: 700;
     }
 
-    .modal-action-btn {
-      width: 100%;
-      background-color: var(--toyoko);
-      border: 1px solid var(--toyoko);
-      color: #ffffff;
-      font-size: 13px;
-      font-weight: 700;
-      padding: 10px;
-      border-radius: 8px;
-      cursor: pointer;
-      margin-bottom: 8px;
-      flex-shrink: 0;
-      min-height: 40px;
-    }
-    [data-theme="dark"] .modal-action-btn {
-      background-color: #4c0519;
-      border-color: var(--badge-border);
-      color: var(--badge-text);
-    }
-
     .modal-close-btn {
       width: 100%;
       background-color: var(--header-bg);
@@ -618,7 +598,7 @@
   <header>
     <div class="header-left">
       <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-      <div class="version-tag">v2.6.0</div>
+      <div class="version-tag">v2.5.0</div>
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
@@ -701,7 +681,6 @@
       <div class="modal-subtitle" id="modalFormTitle">編成: ----</div>
     </div>
     <div class="modal-unyohyo-container" id="modalUnyohyoContainer"></div>
-    <button type="button" class="modal-action-btn" id="modalOpHistoryBtn">過去1週間の充当編成履歴を見る</button>
     <button type="button" class="modal-close-btn" id="modalCloseBtn">閉じる</button>
   </div>
 </div>
@@ -709,7 +688,7 @@
 <div class="modal-overlay" id="formHistoryModalOverlay">
   <div class="modal-content">
     <div class="modal-header-area">
-      <div class="modal-title" id="modalHistoryTitle">編成運用履歴 (直近1週間)</div>
+      <div class="modal-title">編成運用履歴 (直近1週間)</div>
       <div class="modal-body" id="modalHistoryFormTitle">----</div>
     </div>
     <div class="modal-unyohyo-container" id="modalHistoryContainer"></div>
@@ -762,11 +741,9 @@
   const modalFormTitle = document.getElementById("modalFormTitle");
   const modalUnyohyoContainer = document.getElementById("modalUnyohyoContainer");
   const modalCloseBtn = document.getElementById("modalCloseBtn");
-  const modalOpHistoryBtn = document.getElementById("modalOpHistoryBtn");
 
   // 編成履歴モーダル用要素
   const formHistoryModalOverlay = document.getElementById("formHistoryModalOverlay");
-  const modalHistoryTitle = document.getElementById("modalHistoryTitle");
   const modalHistoryFormTitle = document.getElementById("modalHistoryFormTitle");
   const modalHistoryContainer = document.getElementById("modalHistoryContainer");
   const historyModalCloseBtn = document.getElementById("historyModalCloseBtn");
@@ -875,9 +852,9 @@
     }
   }
 
-// 確認時刻と運用表のUI表示用関数（モーダル）
+  // 確認時刻と運用表のUI表示用関数（モーダル）
   function showUpdateTime(op, updatedTime, form) {
-    if(!timeModalOverlay || !modalOpTitle || !modalTimeBody || !modalFormTitle || !modalUnyohyoContainer || !modalOpHistoryBtn) return;
+    if(!timeModalOverlay || !modalOpTitle || !modalTimeBody || !modalFormTitle || !modalUnyohyoContainer) return;
     
     modalOpTitle.textContent = `${op} 運用確認時刻`;
     modalTimeBody.textContent = (updatedTime && updatedTime.trim() !== "") ? updatedTime : "未登録";
@@ -921,12 +898,6 @@
       modalUnyohyoContainer.innerHTML = `<div style="text-align:center; color:var(--text-sub); font-size:13px; padding:20px 0;">この日の運用表スケジュールデータはありません。</div>`;
     }
 
-    // ボタンに現在の運番を設定して、クリック時に過去履歴を呼べるようにする
-    modalOpHistoryBtn.onclick = () => {
-      closeModal();
-      showOpHistory(searchOpKey);
-    };
-
     // 背景のスクロールを禁止
     document.body.classList.add("modal-open");
     timeModalOverlay.classList.add("is-active");
@@ -947,88 +918,10 @@
     });
   }
 
-  // 運番履歴取得用ロジック
-  async function showOpHistory(op) {
-    if(!op || !formHistoryModalOverlay || !modalHistoryTitle || !modalHistoryFormTitle || !modalHistoryContainer) return;
-
-    modalHistoryTitle.textContent = "運用充当履歴 (直近1週間)";
-    modalHistoryFormTitle.textContent = op;
-    modalHistoryContainer.innerHTML = `<div style="text-align:center; padding:20px; font-size:13px; color:var(--text-sub);">直近1週間の履歴を取得中...</div>`;
-    modalHistoryContainer.scrollTop = 0;
-
-    document.body.classList.add("modal-open");
-    formHistoryModalOverlay.classList.add("is-active");
-
-    const cacheBuster = `?_=${Date.now()}`;
-    const historyRows = [];
-
-    for(let i = 0; i < 7; i++) {
-      const d = new Date();
-      d.setDate(d.getDate() - i);
-      const dateStr = d.toLocaleDateString('sv-SE');
-
-      let fetchUrl = `./archive/${dateStr}.json` + cacheBuster;
-      if (dateStr === todayStr) {
-        fetchUrl = "./today_unyo.json" + cacheBuster;
-      }
-
-      try {
-        const res = await fetch(fetchUrl, {cache: "no-store"});
-        if (res.ok) {
-          const json = await res.json();
-          let targetLine = json["toyoko"] || [];
-          
-          targetLine = targetLine.filter(t => {
-            const noStr = t.no ? String(t.no) : "";
-            if (noStr.length > 0) {
-              const firstChar = noStr.charAt(0);
-              if (["2", "3", "4", "5", "6"].includes(firstChar)) return false;
-            }
-            
-            const opStr = t.op ? String(t.op).trim().toUpperCase() : "";
-            if (opStr.startsWith("99")) return false;
-
-            return true;
-          });
-
-          const matchedForms = targetLine.filter(t => (t.op || "").trim().toUpperCase() === op).map(t => t.form || "-");
-          
-          if (matchedForms.length > 0) {
-            historyRows.push({ date: dateStr, displayVal: Array.from(new Set(matchedForms)).join(", ") });
-          } else {
-            historyRows.push({ date: dateStr, displayVal: "運用なし" });
-          }
-        } else {
-          historyRows.push({ date: dateStr, displayVal: "データなし" });
-        }
-      } catch (e) {
-        historyRows.push({ date: dateStr, displayVal: "エラー" });
-      }
-    }
-
-    modalHistoryContainer.innerHTML = "";
-    historyRows.forEach(row => {
-      const rowDiv = document.createElement("div");
-      rowDiv.className = "modal-history-row";
-      
-      let valStyle = 'font-weight:700; color:var(--text-main);';
-      if (row.displayVal === "運用なし" || row.displayVal === "データなし" || row.displayVal === "エラー") {
-        valStyle = 'font-weight:normal; color:var(--text-sub); opacity:0.6;';
-      }
-
-      rowDiv.innerHTML = `
-        <span style="font-weight:700;">${row.date}</span>
-        <span style="${valStyle}">${row.displayVal}</span>
-      `;
-      modalHistoryContainer.appendChild(rowDiv);
-    });
-  }
-
   // 編成履歴取得用ロジック
   async function showFormHistory(form) {
-    if(!form || form === "-" || !formHistoryModalOverlay || !modalHistoryTitle || !modalHistoryFormTitle || !modalHistoryContainer) return;
+    if(!form || form === "-" || !formHistoryModalOverlay || !modalHistoryFormTitle || !modalHistoryContainer) return;
 
-    modalHistoryTitle.textContent = "編成運用履歴 (直近1週間)";
     modalHistoryFormTitle.textContent = form;
     modalHistoryContainer.innerHTML = `<div style="text-align:center; padding:20px; font-size:13px; color:var(--text-sub);">直近1週間の履歴を取得中...</div>`;
     modalHistoryContainer.scrollTop = 0;
@@ -1054,54 +947,41 @@
         const res = await fetch(fetchUrl, {cache: "no-store"});
         if (res.ok) {
           const json = await res.json();
-          let targetLine = json["toyoko"] || [];
+          const targetLine = json["toyoko"] || [];
           
-          // メインテーブルと同様の運番除外ロジックを追加
-          targetLine = targetLine.filter(t => {
-            const noStr = t.no ? String(t.no) : "";
-            if (noStr.length > 0) {
-              const firstChar = noStr.charAt(0);
-              if (["2", "3", "4", "5", "6"].includes(firstChar)) return false;
-            }
-            
-            const opStr = t.op ? String(t.op).trim().toUpperCase() : "";
-            if (opStr.startsWith("99")) return false;
-
-            return true;
-          });
-
-          const matchedOps = targetLine.filter(t => (t.form || "").trim() === form).map(t => t.op || "-");
+          // opがハイフン「-」のデータを除外してフィルタリング
+          const matchedOps = targetLine
+            .filter(t => (t.form || "").trim() === form && t.op && t.op.trim() !== "" && t.op.trim() !== "-")
+            .map(t => t.op);
           
           if (matchedOps.length > 0) {
-            historyRows.push({ date: dateStr, displayVal: Array.from(new Set(matchedOps)).join(", ") });
-          } else {
-            historyRows.push({ date: dateStr, displayVal: "運用なし" });
+            historyRows.push({ date: dateStr, op: Array.from(new Set(matchedOps)).join(", ") });
           }
-        } else {
-          historyRows.push({ date: dateStr, displayVal: "データなし" });
         }
       } catch (e) {
-        historyRows.push({ date: dateStr, displayVal: "エラー" });
+        console.warn(`${dateStr}の履歴取得に失敗しました:`, e);
       }
     }
 
     modalHistoryContainer.innerHTML = "";
-    historyRows.forEach(row => {
-      const rowDiv = document.createElement("div");
-      rowDiv.className = "modal-history-row";
-      
-      // 運用があった場合の運番テキストカラーを var(--text-main)（通常の文字色）に変更
-      let valStyle = 'font-weight:700; color:var(--text-main);';
-      if (row.displayVal === "運用なし" || row.displayVal === "データなし" || row.displayVal === "エラー") {
-        valStyle = 'font-weight:normal; color:var(--text-sub); opacity:0.6;';
-      }
-
-      rowDiv.innerHTML = `
-        <span style="font-weight:700;">${row.date}</span>
-        <span style="${valStyle}">${row.displayVal}</span>
-      `;
-      modalHistoryContainer.appendChild(rowDiv);
-    });
+    
+    // 有効な履歴データが1件以上ある場合のみ行を生成して追加
+    if (historyRows.length > 0) {
+      historyRows.forEach(row => {
+        const rowDiv = document.createElement("div");
+        rowDiv.className = "modal-history-row";
+        
+        let opStyle = 'font-weight:700; color:var(--toyoko);';
+        rowDiv.innerHTML = `
+          <span style="font-weight:700;">${row.date}</span>
+          <span style="${opStyle}">${row.op}</span>
+        `;
+        modalHistoryContainer.appendChild(rowDiv);
+      });
+    } else {
+      // 履歴が1件も取得できなかった場合の案内表示
+      modalHistoryContainer.innerHTML = `<div style="text-align:center; color:var(--text-sub); font-size:13px; padding:20px 0;">直近1週間の履歴はありません。</div>`;
+    }
   }
 
   function closeHistoryModal() {
