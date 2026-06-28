@@ -2471,8 +2471,18 @@
       "kind": "回",
       "delay": "",
       "updated": "09:20"
+    },
+    {
+      "op": "33T",
+      "form": "6321F",
+      "cars": "6",
+      "no": "433-091",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:35"
     }
   ],
-  "lastUpdate": "09:30",
+  "lastUpdate": "09:35",
   "date": "2026-06-28"
 }
