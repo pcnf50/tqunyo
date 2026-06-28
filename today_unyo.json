@@ -1499,6 +1499,16 @@
       "kind": "不明",
       "delay": "",
       "updated": "00:35"
+    },
+    {
+      "op": "99G",
+      "form": "-",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "00:40"
     }
   ],
   "meguro": [
@@ -2971,9 +2981,29 @@
       "kind": "普",
       "delay": "",
       "updated": "00:30"
+    },
+    {
+      "op": "99",
+      "form": "5185F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:40"
+    },
+    {
+      "op": "20K",
+      "form": "5191F",
+      "cars": "8",
+      "no": "020-241",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:40"
     }
   ],
-  "lastUpdate": "00:35",
+  "lastUpdate": "00:40",
   "date": "2026-06-29",
   "resetDone": false
 }
