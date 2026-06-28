@@ -541,6 +541,16 @@
       "updated": "17:25"
     },
     {
+      "op": "52K",
+      "form": "4107F",
+      "cars": "10",
+      "no": "052-171",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:35"
+    },
+    {
       "op": "65",
       "form": "-",
       "cars": "8",
@@ -548,7 +558,7 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "17:30"
+      "updated": "17:35"
     },
     {
       "op": "15K",
@@ -558,7 +568,37 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "17:30"
+      "updated": "17:35"
+    },
+    {
+      "op": "84",
+      "form": "-",
+      "cars": "6",
+      "no": "584-171",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:35"
+    },
+    {
+      "op": "10K",
+      "form": "5152F",
+      "cars": "8",
+      "no": "010-171",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:35"
+    },
+    {
+      "op": "18",
+      "form": "5119F",
+      "cars": "8",
+      "no": "218-172",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:35"
     }
   ],
   "meguro": [
@@ -1003,6 +1043,16 @@
       "updated": "17:25"
     },
     {
+      "op": "57T",
+      "form": "6332F",
+      "cars": "6",
+      "no": "457-171",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:35"
+    },
+    {
       "op": "9",
       "form": "-",
       "cars": "8",
@@ -1010,17 +1060,17 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "17:30"
+      "updated": "17:35"
     },
     {
-      "op": "51M",
+      "op": "1",
       "form": "-",
-      "cars": "10",
-      "no": "051-171",
-      "destCode": "元町・中華街",
-      "kind": "急",
+      "cars": "8",
+      "no": "001-172",
+      "destCode": "副都心線直通",
+      "kind": "普",
       "delay": "",
-      "updated": "17:30"
+      "updated": "17:35"
     },
     {
       "op": "25K",
@@ -1029,11 +1079,31 @@
       "no": "225-171",
       "destCode": "相鉄線直通",
       "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "17:35"
+    },
+    {
+      "op": "18K",
+      "form": "5189F",
+      "cars": "8",
+      "no": "218-172",
+      "destCode": "南北線直通",
+      "kind": "急",
       "delay": "",
-      "updated": "17:30"
+      "updated": "17:35"
+    },
+    {
+      "op": "67",
+      "form": "-",
+      "cars": "10",
+      "no": "767-172",
+      "destCode": "渋谷",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:35"
     }
   ],
-  "lastUpdate": "17:30",
+  "lastUpdate": "17:35",
   "date": "2026-06-28",
   "resetDone": false
 }
