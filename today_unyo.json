@@ -4281,8 +4281,18 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "23:45"
+    },
+    {
+      "op": "38K",
+      "form": "-",
+      "cars": "0",
+      "no": "238-241",
+      "destCode": "武蔵小山",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "00:40"
     }
   ],
-  "lastUpdate": "00:35",
+  "lastUpdate": "00:40",
   "date": "2026-06-30"
 }
