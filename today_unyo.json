@@ -3931,8 +3931,18 @@
       "kind": "急",
       "delay": "",
       "updated": "18:35"
+    },
+    {
+      "op": "04K",
+      "form": "-",
+      "cars": "0",
+      "no": "204-181",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:50"
     }
   ],
-  "lastUpdate": "18:45",
+  "lastUpdate": "18:50",
   "date": "2026-06-29"
 }
