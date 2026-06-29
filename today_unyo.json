@@ -1148,7 +1148,17 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "1分遅れ",
-      "updated": "07:50"
+      "updated": "07:55"
+    },
+    {
+      "op": "50",
+      "form": "-",
+      "cars": "6",
+      "no": "350-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "07:55"
     },
     {
       "op": "57",
@@ -1158,7 +1168,27 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "07:50"
+      "updated": "07:55"
+    },
+    {
+      "op": "53K",
+      "form": "4102F",
+      "cars": "10",
+      "no": "053-072",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:55"
+    },
+    {
+      "op": "84",
+      "form": "-",
+      "cars": "6",
+      "no": "584-071",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:55"
     }
   ],
   "meguro": [
@@ -2303,6 +2333,16 @@
       "updated": "07:45"
     },
     {
+      "op": "64S",
+      "form": "-",
+      "cars": "0",
+      "no": "364-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "07:55"
+    },
+    {
       "op": "31G",
       "form": "21102F",
       "cars": "8",
@@ -2310,7 +2350,27 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:50"
+      "updated": "07:55"
+    },
+    {
+      "op": "45",
+      "form": "-",
+      "cars": "10",
+      "no": "745-071",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "07:55"
+    },
+    {
+      "op": "53M",
+      "form": "-",
+      "cars": "10",
+      "no": "053-072",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:55"
     },
     {
       "op": "84M",
@@ -2319,10 +2379,10 @@
       "no": "584-071",
       "destCode": "元住吉",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "07:50"
+      "delay": "",
+      "updated": "07:55"
     }
   ],
-  "lastUpdate": "07:50",
+  "lastUpdate": "07:55",
   "date": "2026-06-30"
 }
