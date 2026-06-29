@@ -181,6 +181,16 @@
       "updated": "05:15"
     },
     {
+      "op": "60K",
+      "form": "4108F",
+      "cars": "10",
+      "no": "060-051",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
       "op": "12K",
       "form": "5157F",
       "cars": "8",
@@ -188,7 +198,7 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:20"
+      "updated": "05:25"
     },
     {
       "op": "30",
@@ -198,7 +208,7 @@
       "destCode": "奥沢",
       "kind": "回",
       "delay": "",
-      "updated": "05:20"
+      "updated": "05:25"
     },
     {
       "op": "34",
@@ -208,7 +218,7 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:20"
+      "updated": "05:25"
     },
     {
       "op": "28K",
@@ -218,7 +228,7 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "05:20"
+      "updated": "05:25"
     },
     {
       "op": "99G",
@@ -228,92 +238,27 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "05:20"
+      "updated": "05:25"
     },
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
     {
-      "op": "99",
-      "form": "5178F",
+      "op": "04S",
+      "form": "17190F",
       "cars": "8",
-      "no": "999-000",
-      "destCode": "",
-      "kind": "不明",
-      "delay": ""
+      "no": "704-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
+      "op": "38",
+      "form": "-",
+      "cars": "8",
+      "no": "238-051",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
     }
   ],
   "meguro": [
@@ -488,6 +433,26 @@
       "updated": "05:15"
     },
     {
+      "op": "13",
+      "form": "-",
+      "cars": "8",
+      "no": "013-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
+      "op": "60G",
+      "form": "-",
+      "cars": "10",
+      "no": "060-051",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "05:25"
+    },
+    {
       "op": "30K",
       "form": "3106F",
       "cars": "8",
@@ -495,7 +460,7 @@
       "destCode": "奥沢",
       "kind": "回",
       "delay": "",
-      "updated": "05:20"
+      "updated": "05:25"
     },
     {
       "op": "34K",
@@ -505,7 +470,7 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:20"
+      "updated": "05:25"
     },
     {
       "op": "28K",
@@ -515,19 +480,29 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "05:20"
+      "updated": "05:25"
+    },
+    {
+      "op": "07K",
+      "form": "3101F",
+      "cars": "8",
+      "no": "207-051",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25"
     },
     {
       "op": "99",
-      "form": "3101F",
+      "form": "5189F",
       "cars": "8",
       "no": "999-000",
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "05:20"
+      "updated": "05:25"
     }
   ],
-  "lastUpdate": "05:23",
+  "lastUpdate": "05:25",
   "date": "2026-06-30"
 }
