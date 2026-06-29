@@ -3431,8 +3431,18 @@
       "kind": "Ｆ",
       "delay": "4分遅れ",
       "updated": "12:15"
+    },
+    {
+      "op": "39G",
+      "form": "21101F",
+      "cars": "8",
+      "no": "639-122",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "12:20"
     }
   ],
-  "lastUpdate": "12:15",
+  "lastUpdate": "12:20",
   "date": "2026-06-29"
 }
