@@ -3511,8 +3511,18 @@
       "kind": "普",
       "delay": "",
       "updated": "13:25"
+    },
+    {
+      "op": "53T",
+      "form": "-",
+      "cars": "0",
+      "no": "453-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:35"
     }
   ],
-  "lastUpdate": "13:30",
+  "lastUpdate": "13:35",
   "date": "2026-06-29"
 }
