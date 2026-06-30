@@ -2864,6 +2864,16 @@
       "kind": "普",
       "delay": "",
       "updated": "23:55"
+    },
+    {
+      "op": "22K",
+      "form": "-",
+      "cars": "0",
+      "no": "022-241",
+      "destCode": "横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:00"
     }
   ],
   "meguro": [
@@ -5855,8 +5865,28 @@
       "kind": "普",
       "delay": "",
       "updated": "23:55"
+    },
+    {
+      "op": "36K",
+      "form": "-",
+      "cars": "0",
+      "no": "236-241",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:00"
+    },
+    {
+      "op": "99",
+      "form": "5188F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:00"
     }
   ],
-  "lastUpdate": "23:55",
-  "date": "2026-06-30"
+  "lastUpdate": "00:00",
+  "date": "2026-07-01"
 }
