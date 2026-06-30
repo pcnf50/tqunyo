@@ -3540,8 +3540,18 @@
       "kind": "急",
       "delay": "7分遅れ",
       "updated": "13:55"
+    },
+    {
+      "op": "70S",
+      "form": "3112F",
+      "cars": "8",
+      "no": "370-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "8分遅れ",
+      "updated": "14:00"
     }
   ],
-  "lastUpdate": "13:55",
+  "lastUpdate": "14:00",
   "date": "2026-06-30"
 }
