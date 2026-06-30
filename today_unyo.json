@@ -2744,6 +2744,16 @@
       "kind": "普",
       "delay": "",
       "updated": "22:25"
+    },
+    {
+      "op": "91G",
+      "form": "4102F",
+      "cars": "10",
+      "no": "991-222",
+      "destCode": "渋谷",
+      "kind": "急",
+      "delay": "8分遅れ",
+      "updated": "22:30"
     }
   ],
   "meguro": [
@@ -5687,6 +5697,6 @@
       "updated": "22:25"
     }
   ],
-  "lastUpdate": "22:25",
+  "lastUpdate": "22:30",
   "date": "2026-06-30"
 }
