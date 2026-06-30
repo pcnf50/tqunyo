@@ -5815,8 +5815,18 @@
       "kind": "急",
       "delay": "1分遅れ",
       "updated": "23:05"
+    },
+    {
+      "op": "70S",
+      "form": "5190F",
+      "cars": "8",
+      "no": "370-231",
+      "destCode": "日吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "23:35"
     }
   ],
-  "lastUpdate": "23:30",
+  "lastUpdate": "23:35",
   "date": "2026-06-30"
 }
