@@ -3240,8 +3240,28 @@
       "kind": "Ｆ",
       "delay": "",
       "updated": "10:55"
+    },
+    {
+      "op": "66S",
+      "form": "9102F",
+      "cars": "6",
+      "no": "366-101",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "11:00"
+    },
+    {
+      "op": "37G",
+      "form": "21104F",
+      "cars": "8",
+      "no": "637-102",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "6分遅れ",
+      "updated": "11:00"
     }
   ],
-  "lastUpdate": "10:55",
+  "lastUpdate": "11:00",
   "date": "2026-06-30"
 }
