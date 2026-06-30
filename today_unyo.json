@@ -1699,6 +1699,16 @@
       "kind": "普",
       "delay": "1分遅れ",
       "updated": "13:05"
+    },
+    {
+      "op": "99G",
+      "form": "5152F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "14:10"
     }
   ],
   "meguro": [
@@ -3552,6 +3562,6 @@
       "updated": "14:05"
     }
   ],
-  "lastUpdate": "14:05",
+  "lastUpdate": "14:10",
   "date": "2026-06-30"
 }
