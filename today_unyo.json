@@ -5908,15 +5908,35 @@
     },
     {
       "op": "99",
-      "form": "3122F",
-      "cars": "8",
+      "form": "9106F",
+      "cars": "6",
       "no": "999-990",
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "00:40"
+      "updated": "00:45"
+    },
+    {
+      "op": "41K",
+      "form": "5186F",
+      "cars": "8",
+      "no": "241-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "00:45"
+    },
+    {
+      "op": "76K",
+      "form": "3102F",
+      "cars": "8",
+      "no": "276-000",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:45"
     }
   ],
-  "lastUpdate": "00:40",
+  "lastUpdate": "00:45",
   "date": "2026-07-01"
 }
