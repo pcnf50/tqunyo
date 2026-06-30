@@ -5553,10 +5553,20 @@
       "no": "342-211",
       "destCode": "新横浜",
       "kind": "普",
-      "delay": "5分遅れ",
-      "updated": "21:40"
+      "delay": "4分遅れ",
+      "updated": "21:45"
+    },
+    {
+      "op": "45T",
+      "form": "6333F",
+      "cars": "6",
+      "no": "445-211",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "21:45"
     }
   ],
-  "lastUpdate": "21:40",
+  "lastUpdate": "21:45",
   "date": "2026-06-30"
 }
