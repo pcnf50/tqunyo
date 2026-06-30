@@ -2191,9 +2191,49 @@
       "cars": "8",
       "no": "340-181",
       "destCode": "元住吉",
-      "kind": "普",
-      "delay": "4分遅れ",
-      "updated": "18:40"
+      "kind": "回",
+      "delay": "5分遅れ",
+      "updated": "18:45"
+    },
+    {
+      "op": "51K",
+      "form": "20103F",
+      "cars": "10",
+      "no": "051-181",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:45"
+    },
+    {
+      "op": "64K",
+      "form": "4115F",
+      "cars": "10",
+      "no": "064-182",
+      "destCode": "渋谷",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:45"
+    },
+    {
+      "op": "28M",
+      "form": "9106F",
+      "cars": "10",
+      "no": "128-182",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "18:45"
+    },
+    {
+      "op": "53S",
+      "form": "10135F",
+      "cars": "10",
+      "no": "753-181",
+      "destCode": "元住吉",
+      "kind": "通",
+      "delay": "",
+      "updated": "18:45"
     }
   ],
   "meguro": [
@@ -4573,8 +4613,8 @@
       "no": "334-181",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "8分遅れ",
-      "updated": "18:40"
+      "delay": "9分遅れ",
+      "updated": "18:45"
     },
     {
       "op": "77T",
@@ -4583,10 +4623,30 @@
       "no": "477-181",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "6分遅れ",
-      "updated": "18:40"
+      "delay": "4分遅れ",
+      "updated": "18:45"
+    },
+    {
+      "op": "44G",
+      "form": "-",
+      "cars": "0",
+      "no": "644-181",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "10分遅れ",
+      "updated": "18:45"
+    },
+    {
+      "op": "39G",
+      "form": "21103F",
+      "cars": "8",
+      "no": "639-181",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "18:45"
     }
   ],
-  "lastUpdate": "18:40",
+  "lastUpdate": "18:45",
   "date": "2026-06-30"
 }
