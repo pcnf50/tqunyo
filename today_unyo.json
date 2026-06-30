@@ -1708,7 +1708,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "14:10"
+      "updated": "14:15"
     }
   ],
   "meguro": [
@@ -3560,8 +3560,18 @@
       "kind": "普",
       "delay": "13分遅れ",
       "updated": "14:05"
+    },
+    {
+      "op": "44S",
+      "form": "6332F",
+      "cars": "6",
+      "no": "344-131",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "17分遅れ",
+      "updated": "14:15"
     }
   ],
-  "lastUpdate": "14:10",
+  "lastUpdate": "14:15",
   "date": "2026-06-30"
 }
