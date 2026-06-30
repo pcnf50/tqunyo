@@ -1887,8 +1887,18 @@
       "no": "018-161",
       "destCode": "元町・中華街",
       "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "16:55"
+    },
+    {
+      "op": "21K",
+      "form": "5161F",
+      "cars": "8",
+      "no": "021-161",
+      "destCode": "元町・中華街",
+      "kind": "普",
       "delay": "",
-      "updated": "16:50"
+      "updated": "16:55"
     }
   ],
   "meguro": [
@@ -3909,9 +3919,9 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "3分遅れ",
-      "updated": "16:50"
+      "updated": "16:55"
     }
   ],
-  "lastUpdate": "16:50",
+  "lastUpdate": "16:55",
   "date": "2026-06-30"
 }
