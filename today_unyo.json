@@ -5195,8 +5195,28 @@
       "kind": "急",
       "delay": "11分遅れ",
       "updated": "20:05"
+    },
+    {
+      "op": "94M",
+      "form": "9101F",
+      "cars": "6",
+      "no": "594-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "14分遅れ",
+      "updated": "20:10"
+    },
+    {
+      "op": "01K",
+      "form": "-",
+      "cars": "0",
+      "no": "201-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "12分遅れ",
+      "updated": "20:10"
     }
   ],
-  "lastUpdate": "20:05",
+  "lastUpdate": "20:10",
   "date": "2026-06-30"
 }
