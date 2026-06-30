@@ -5545,8 +5545,18 @@
       "kind": "急",
       "delay": "13分遅れ",
       "updated": "21:35"
+    },
+    {
+      "op": "42S",
+      "form": "-",
+      "cars": "8",
+      "no": "342-211",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "5分遅れ",
+      "updated": "21:40"
     }
   ],
-  "lastUpdate": "21:35",
+  "lastUpdate": "21:40",
   "date": "2026-06-30"
 }
