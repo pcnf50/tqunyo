@@ -3570,8 +3570,18 @@
       "kind": "普",
       "delay": "17分遅れ",
       "updated": "14:15"
+    },
+    {
+      "op": "01K",
+      "form": "5184F",
+      "cars": "8",
+      "no": "201-131",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "19分遅れ",
+      "updated": "14:20"
     }
   ],
-  "lastUpdate": "14:15",
+  "lastUpdate": "14:20",
   "date": "2026-06-30"
 }
