@@ -1017,7 +1017,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "07:30"
+      "updated": "07:35"
     },
     {
       "op": "62K",
@@ -1027,7 +1027,7 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:30"
+      "updated": "07:35"
     },
     {
       "op": "46",
@@ -1037,7 +1037,17 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:30"
+      "updated": "07:35"
+    },
+    {
+      "op": "10M",
+      "form": "40151F",
+      "cars": "10",
+      "no": "110-071",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:35"
     }
   ],
   "meguro": [
@@ -2109,7 +2119,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "07:30"
+      "updated": "07:35"
     },
     {
       "op": "54S",
@@ -2119,7 +2129,7 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "07:30"
+      "updated": "07:35"
     },
     {
       "op": "41",
@@ -2129,7 +2139,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "07:30"
+      "updated": "07:35"
     },
     {
       "op": "46K",
@@ -2139,9 +2149,19 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:30"
+      "updated": "07:35"
+    },
+    {
+      "op": "57T",
+      "form": "6511F",
+      "cars": "8",
+      "no": "457-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:35"
     }
   ],
-  "lastUpdate": "07:30",
+  "lastUpdate": "07:35",
   "date": "2026-07-01"
 }
