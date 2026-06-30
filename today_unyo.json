@@ -2753,7 +2753,7 @@
       "destCode": "渋谷",
       "kind": "急",
       "delay": "8分遅れ",
-      "updated": "22:30"
+      "updated": "22:35"
     }
   ],
   "meguro": [
@@ -5695,8 +5695,18 @@
       "kind": "普",
       "delay": "",
       "updated": "22:25"
+    },
+    {
+      "op": "47K",
+      "form": "5187F",
+      "cars": "8",
+      "no": "247-222",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:35"
     }
   ],
-  "lastUpdate": "22:30",
+  "lastUpdate": "22:35",
   "date": "2026-06-30"
 }
