@@ -2783,7 +2783,7 @@
       "destCode": "元住吉",
       "kind": "急",
       "delay": "",
-      "updated": "22:50"
+      "updated": "22:55"
     }
   ],
   "meguro": [
@@ -5735,8 +5735,18 @@
       "kind": "普",
       "delay": "",
       "updated": "22:35"
+    },
+    {
+      "op": "54S",
+      "form": "9103F",
+      "cars": "6",
+      "no": "354-221",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "5分遅れ",
+      "updated": "22:55"
     }
   ],
-  "lastUpdate": "22:50",
+  "lastUpdate": "22:55",
   "date": "2026-06-30"
 }
