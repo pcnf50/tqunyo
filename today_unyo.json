@@ -2784,6 +2784,16 @@
       "kind": "急",
       "delay": "",
       "updated": "22:55"
+    },
+    {
+      "op": "94G",
+      "form": "4108F",
+      "cars": "10",
+      "no": "994-222",
+      "destCode": "渋谷",
+      "kind": "急",
+      "delay": "7分遅れ",
+      "updated": "23:00"
     }
   ],
   "meguro": [
@@ -5745,8 +5755,18 @@
       "kind": "普",
       "delay": "5分遅れ",
       "updated": "22:55"
+    },
+    {
+      "op": "71T",
+      "form": "-",
+      "cars": "0",
+      "no": "471-221",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "23:00"
     }
   ],
-  "lastUpdate": "22:55",
+  "lastUpdate": "23:00",
   "date": "2026-06-30"
 }
