@@ -1,16 +1,108 @@
 {
-  "toyoko": {
-    "99": {
+  "toyoko": [
+    {
+      "op": "16",
+      "form": "-",
+      "cars": "8",
+      "no": "216-042",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "05K",
+      "form": "5171F",
+      "cars": "8",
+      "no": "005-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "13",
+      "form": "-",
+      "cars": "8",
+      "no": "213-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "99G",
+      "form": "5163F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "04:50"
+    }
+  ],
+  "meguro": [
+    {
+      "op": "16K",
+      "form": "3122F",
+      "cars": "8",
+      "no": "216-042",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "36K",
+      "form": "3102F",
+      "cars": "8",
+      "no": "236-041",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "11K",
+      "form": "3109F",
+      "cars": "8",
+      "no": "211-042",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "5M",
+      "form": "-",
+      "cars": "8",
+      "no": "005-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "13K",
+      "form": "5186F",
+      "cars": "8",
+      "no": "213-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
       "op": "99",
       "form": "-",
       "cars": "8",
-      "no": "999-990",
+      "no": "999-000",
       "destCode": "",
-      "kind": "不明",
-      "delay": ""
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "04:50"
     }
-  },
-  "meguro": {},
-  "lastUpdate": "03:08",
+  ],
+  "lastUpdate": "04:50",
   "date": "2026-07-01"
 }
