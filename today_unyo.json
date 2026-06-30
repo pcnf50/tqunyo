@@ -5905,8 +5905,18 @@
       "kind": "普",
       "delay": "",
       "updated": "00:35"
+    },
+    {
+      "op": "99",
+      "form": "3122F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:40"
     }
   ],
-  "lastUpdate": "00:35",
+  "lastUpdate": "00:40",
   "date": "2026-07-01"
 }
