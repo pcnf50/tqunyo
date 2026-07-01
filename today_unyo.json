@@ -2148,6 +2148,16 @@
       "kind": "回",
       "delay": "",
       "updated": "22:10"
+    },
+    {
+      "op": "46K",
+      "form": "4108F",
+      "cars": "10",
+      "no": "046-222",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "22:40"
     }
   ],
   "meguro": [
@@ -4509,9 +4519,9 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "22:35"
+      "updated": "22:40"
     }
   ],
-  "lastUpdate": "22:35",
+  "lastUpdate": "22:40",
   "date": "2026-07-01"
 }
