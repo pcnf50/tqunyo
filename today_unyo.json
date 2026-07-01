@@ -4420,8 +4420,18 @@
       "kind": "急",
       "delay": "",
       "updated": "21:05"
+    },
+    {
+      "op": "49T",
+      "form": "-",
+      "cars": "10",
+      "no": "049-211",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "3分遅れ",
+      "updated": "21:50"
     }
   ],
-  "lastUpdate": "21:45",
+  "lastUpdate": "21:50",
   "date": "2026-07-01"
 }
