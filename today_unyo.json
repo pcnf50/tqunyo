@@ -3420,8 +3420,18 @@
       "kind": "Ｆ",
       "delay": "",
       "updated": "12:05"
+    },
+    {
+      "op": "69T",
+      "form": "6337F",
+      "cars": "6",
+      "no": "469-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:15"
     }
   ],
-  "lastUpdate": "12:10",
+  "lastUpdate": "12:15",
   "date": "2026-07-01"
 }
