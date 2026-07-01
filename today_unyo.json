@@ -1797,7 +1797,7 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "15:15"
+      "updated": "15:20"
     }
   ],
   "meguro": [
@@ -3669,7 +3669,7 @@
       "destCode": "元住吉",
       "kind": "回",
       "delay": "",
-      "updated": "15:15"
+      "updated": "15:20"
     },
     {
       "op": "96M",
@@ -3679,9 +3679,9 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "15:15"
+      "updated": "15:20"
     }
   ],
-  "lastUpdate": "15:15",
+  "lastUpdate": "15:20",
   "date": "2026-07-01"
 }
