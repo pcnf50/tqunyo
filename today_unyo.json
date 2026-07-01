@@ -3180,8 +3180,18 @@
       "kind": "普",
       "delay": "",
       "updated": "10:25"
+    },
+    {
+      "op": "79T",
+      "form": "6503F",
+      "cars": "8",
+      "no": "479-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:35"
     }
   ],
-  "lastUpdate": "10:34",
+  "lastUpdate": "10:35",
   "date": "2026-07-01"
 }
