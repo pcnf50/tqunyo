@@ -1798,6 +1798,16 @@
       "kind": "普",
       "delay": "",
       "updated": "15:20"
+    },
+    {
+      "op": "81",
+      "form": "5119F",
+      "cars": "8",
+      "no": "281-152",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "15:25"
     }
   ],
   "meguro": [
@@ -3680,8 +3690,18 @@
       "kind": "普",
       "delay": "",
       "updated": "15:20"
+    },
+    {
+      "op": "81K",
+      "form": "5189F",
+      "cars": "8",
+      "no": "281-152",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "15:25"
     }
   ],
-  "lastUpdate": "15:20",
+  "lastUpdate": "15:25",
   "date": "2026-07-01"
 }
