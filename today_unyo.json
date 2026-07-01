@@ -1518,6 +1518,16 @@
       "kind": "特",
       "delay": "",
       "updated": "10:10"
+    },
+    {
+      "op": "63",
+      "form": "-",
+      "cars": "6",
+      "no": "463-091",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:15"
     }
   ],
   "meguro": [
@@ -3142,6 +3152,6 @@
       "updated": "10:10"
     }
   ],
-  "lastUpdate": "10:10",
+  "lastUpdate": "10:15",
   "date": "2026-07-01"
 }
