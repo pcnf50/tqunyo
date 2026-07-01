@@ -2088,6 +2088,26 @@
       "kind": "急",
       "delay": "",
       "updated": "21:15"
+    },
+    {
+      "op": "52K",
+      "form": "-",
+      "cars": "0",
+      "no": "052-211",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "2分遅れ",
+      "updated": "21:25"
+    },
+    {
+      "op": "49K",
+      "form": "4101F",
+      "cars": "10",
+      "no": "049-211",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "21:25"
     }
   ],
   "meguro": [
@@ -4402,6 +4422,6 @@
       "updated": "21:05"
     }
   ],
-  "lastUpdate": "21:20",
+  "lastUpdate": "21:25",
   "date": "2026-07-01"
 }
