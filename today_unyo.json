@@ -3580,8 +3580,18 @@
       "kind": "回",
       "delay": "",
       "updated": "13:45"
+    },
+    {
+      "op": "01K",
+      "form": "-",
+      "cars": "0",
+      "no": "201-131",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "14:00"
     }
   ],
-  "lastUpdate": "13:55",
+  "lastUpdate": "14:00",
   "date": "2026-07-01"
 }
