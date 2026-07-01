@@ -31,6 +31,16 @@
       "updated": "04:50"
     },
     {
+      "op": "36",
+      "form": "-",
+      "cars": "8",
+      "no": "236-041",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:00"
+    },
+    {
       "op": "06K",
       "form": "5151F",
       "cars": "8",
@@ -38,7 +48,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "04:55"
+      "updated": "05:00"
     },
     {
       "op": "02K",
@@ -48,7 +58,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "04:55"
+      "updated": "05:00"
     },
     {
       "op": "08K",
@@ -58,17 +68,57 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:55"
+      "updated": "05:00"
+    },
+    {
+      "op": "41",
+      "form": "-",
+      "cars": "8",
+      "no": "241-051",
+      "destCode": "新横浜",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:00"
+    },
+    {
+      "op": "34",
+      "form": "-",
+      "cars": "8",
+      "no": "234-052",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:00"
+    },
+    {
+      "op": "01S",
+      "form": "17187F",
+      "cars": "8",
+      "no": "701-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:00"
     },
     {
       "op": "99G",
-      "form": "-",
+      "form": "5175F",
       "cars": "8",
       "no": "999-000",
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "04:55"
+      "updated": "05:00"
+    },
+    {
+      "op": "89",
+      "form": "-",
+      "cars": "8",
+      "no": "289-044",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:00"
     }
   ],
   "meguro": [
@@ -140,17 +190,27 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "04:55"
+      "updated": "05:00"
     },
     {
-      "op": "99",
+      "op": "41K",
       "form": "3109F",
       "cars": "8",
-      "no": "999-000",
-      "destCode": "",
-      "kind": "各駅停車",
+      "no": "241-051",
+      "destCode": "新横浜",
+      "kind": "回",
       "delay": "",
-      "updated": "04:55"
+      "updated": "05:00"
+    },
+    {
+      "op": "34K",
+      "form": "3105F",
+      "cars": "8",
+      "no": "234-052",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:00"
     },
     {
       "op": "05K",
@@ -160,9 +220,19 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "04:55"
+      "updated": "05:00"
+    },
+    {
+      "op": "89K",
+      "form": "3113F",
+      "cars": "8",
+      "no": "289-044",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:00"
     }
   ],
-  "lastUpdate": "04:55",
+  "lastUpdate": "05:00",
   "date": "2026-07-02"
 }
