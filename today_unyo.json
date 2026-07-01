@@ -4320,8 +4320,28 @@
       "kind": "回",
       "delay": "1分遅れ",
       "updated": "20:30"
+    },
+    {
+      "op": "77",
+      "form": "-",
+      "cars": "10",
+      "no": "777-202",
+      "destCode": "副都心線直通",
+      "kind": "通",
+      "delay": "",
+      "updated": "20:35"
+    },
+    {
+      "op": "81K",
+      "form": "5185F",
+      "cars": "8",
+      "no": "281-202",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "20:35"
     }
   ],
-  "lastUpdate": "20:30",
+  "lastUpdate": "20:35",
   "date": "2026-07-01"
 }
