@@ -2048,6 +2048,16 @@
       "kind": "通",
       "delay": "",
       "updated": "20:15"
+    },
+    {
+      "op": "82",
+      "form": "5119F",
+      "cars": "8",
+      "no": "282-201",
+      "destCode": "日吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "20:25"
     }
   ],
   "meguro": [
@@ -4290,8 +4300,18 @@
       "kind": "通",
       "delay": "",
       "updated": "20:15"
+    },
+    {
+      "op": "82K",
+      "form": "5189F",
+      "cars": "8",
+      "no": "282-201",
+      "destCode": "日吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "20:25"
     }
   ],
-  "lastUpdate": "20:20",
+  "lastUpdate": "20:25",
   "date": "2026-07-01"
 }
