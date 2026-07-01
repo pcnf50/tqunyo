@@ -1818,6 +1818,16 @@
       "kind": "Ｆ",
       "delay": "",
       "updated": "15:40"
+    },
+    {
+      "op": "64K",
+      "form": "4114F",
+      "cars": "10",
+      "no": "064-152",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "15:45"
     }
   ],
   "meguro": [
@@ -3710,8 +3720,28 @@
       "kind": "回",
       "delay": "1分遅れ",
       "updated": "15:25"
+    },
+    {
+      "op": "64G",
+      "form": "-",
+      "cars": "10",
+      "no": "064-152",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "15:45"
+    },
+    {
+      "op": "80M",
+      "form": "9119F",
+      "cars": "6",
+      "no": "580-151",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "15:45"
     }
   ],
-  "lastUpdate": "15:40",
+  "lastUpdate": "15:45",
   "date": "2026-07-01"
 }
