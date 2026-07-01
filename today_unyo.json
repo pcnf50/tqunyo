@@ -2056,8 +2056,8 @@
       "no": "282-201",
       "destCode": "日吉",
       "kind": "回",
-      "delay": "",
-      "updated": "20:25"
+      "delay": "1分遅れ",
+      "updated": "20:30"
     }
   ],
   "meguro": [
@@ -4302,16 +4302,26 @@
       "updated": "20:15"
     },
     {
+      "op": "43G",
+      "form": "21101F",
+      "cars": "8",
+      "no": "643-202",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:30"
+    },
+    {
       "op": "82K",
       "form": "5189F",
       "cars": "8",
       "no": "282-201",
       "destCode": "日吉",
       "kind": "回",
-      "delay": "",
-      "updated": "20:25"
+      "delay": "1分遅れ",
+      "updated": "20:30"
     }
   ],
-  "lastUpdate": "20:25",
+  "lastUpdate": "20:30",
   "date": "2026-07-01"
 }
