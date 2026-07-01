@@ -2168,6 +2168,16 @@
       "kind": "急",
       "delay": "",
       "updated": "22:55"
+    },
+    {
+      "op": "62K",
+      "form": "-",
+      "cars": "0",
+      "no": "062-231",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "23:00"
     }
   ],
   "meguro": [
@@ -4532,6 +4542,6 @@
       "updated": "22:40"
     }
   ],
-  "lastUpdate": "22:55",
+  "lastUpdate": "23:00",
   "date": "2026-07-01"
 }
