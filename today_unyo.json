@@ -3980,8 +3980,18 @@
       "kind": "回",
       "delay": "",
       "updated": "18:00"
+    },
+    {
+      "op": "46K",
+      "form": "3121F",
+      "cars": "8",
+      "no": "246-182",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:10"
     }
   ],
-  "lastUpdate": "18:05",
+  "lastUpdate": "18:10",
   "date": "2026-07-01"
 }
