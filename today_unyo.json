@@ -820,14 +820,24 @@
       "updated": "06:50"
     },
     {
+      "op": "02",
+      "form": "-",
+      "cars": "8",
+      "no": "202-061",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:00"
+    },
+    {
       "op": "52",
       "form": "-",
       "cars": "8",
       "no": "352-061",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "06:55"
+      "delay": "",
+      "updated": "07:00"
     },
     {
       "op": "63K",
@@ -837,7 +847,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "06:55"
+      "updated": "07:00"
     },
     {
       "op": "25",
@@ -845,9 +855,19 @@
       "cars": "6",
       "no": "425-062",
       "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:00"
+    },
+    {
+      "op": "07K",
+      "form": "5172F",
+      "cars": "8",
+      "no": "007-062",
+      "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "06:55"
+      "updated": "07:00"
     },
     {
       "op": "47",
@@ -857,7 +877,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "06:55"
+      "updated": "07:00"
     }
   ],
   "meguro": [
@@ -1742,14 +1762,24 @@
       "updated": "06:50"
     },
     {
+      "op": "51T",
+      "form": "6317F",
+      "cars": "6",
+      "no": "451-061",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:00"
+    },
+    {
       "op": "49T",
       "form": "6336F",
       "cars": "6",
       "no": "449-061",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "06:55"
+      "delay": "",
+      "updated": "07:00"
     },
     {
       "op": "25T",
@@ -1757,9 +1787,19 @@
       "cars": "6",
       "no": "425-062",
       "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:00"
+    },
+    {
+      "op": "7",
+      "form": "-",
+      "cars": "8",
+      "no": "007-062",
+      "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "06:55"
+      "updated": "07:00"
     },
     {
       "op": "22K",
@@ -1769,9 +1809,19 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "06:55"
+      "updated": "07:00"
+    },
+    {
+      "op": "22K",
+      "form": "3102F",
+      "cars": "8",
+      "no": "222-061",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "07:00"
     }
   ],
-  "lastUpdate": "06:55",
+  "lastUpdate": "07:00",
   "date": "2026-07-03"
 }
