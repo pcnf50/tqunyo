@@ -3568,8 +3568,18 @@
       "kind": "回",
       "delay": "1分遅れ",
       "updated": "13:00"
+    },
+    {
+      "op": "75T",
+      "form": "-",
+      "cars": "0",
+      "no": "475-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:05"
     }
   ],
-  "lastUpdate": "13:00",
+  "lastUpdate": "13:05",
   "date": "2026-07-02"
 }
