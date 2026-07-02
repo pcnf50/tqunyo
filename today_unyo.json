@@ -1518,6 +1518,16 @@
       "kind": "普",
       "delay": "1分遅れ",
       "updated": "10:15"
+    },
+    {
+      "op": "65",
+      "form": "-",
+      "cars": "6",
+      "no": "465-101",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:20"
     }
   ],
   "meguro": [
@@ -3150,6 +3160,6 @@
       "updated": "10:10"
     }
   ],
-  "lastUpdate": "10:15",
+  "lastUpdate": "10:20",
   "date": "2026-07-02"
 }
