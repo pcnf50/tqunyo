@@ -4218,8 +4218,18 @@
       "kind": "通",
       "delay": "",
       "updated": "19:30"
+    },
+    {
+      "op": "52S",
+      "form": "-",
+      "cars": "0",
+      "no": "352-191",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:35"
     }
   ],
-  "lastUpdate": "19:30",
+  "lastUpdate": "19:35",
   "date": "2026-07-02"
 }
