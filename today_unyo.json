@@ -2128,6 +2128,16 @@
       "kind": "普",
       "delay": "",
       "updated": "23:20"
+    },
+    {
+      "op": "20K",
+      "form": "5175F",
+      "cars": "8",
+      "no": "020-231",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:25"
     }
   ],
   "meguro": [
@@ -4450,6 +4460,6 @@
       "updated": "22:35"
     }
   ],
-  "lastUpdate": "23:20",
+  "lastUpdate": "23:25",
   "date": "2026-07-02"
 }
