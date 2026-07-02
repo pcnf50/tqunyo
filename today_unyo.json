@@ -1487,7 +1487,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "09:45"
+      "updated": "09:50"
     }
   ],
   "meguro": [
@@ -3060,14 +3060,14 @@
       "updated": "09:40"
     },
     {
-      "op": "62S",
+      "op": "39G",
       "form": "-",
       "cars": "0",
-      "no": "362-091",
-      "destCode": "新横浜",
+      "no": "639-091",
+      "destCode": "相鉄線直通",
       "kind": "普",
       "delay": "",
-      "updated": "09:45"
+      "updated": "09:50"
     },
     {
       "op": "17K",
@@ -3077,9 +3077,9 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "09:45"
+      "updated": "09:50"
     }
   ],
-  "lastUpdate": "09:45",
+  "lastUpdate": "09:50",
   "date": "2026-07-02"
 }
