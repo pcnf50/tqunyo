@@ -1141,13 +1141,13 @@
     },
     {
       "op": "23S",
-      "form": "-",
-      "cars": "0",
+      "form": "10116F",
+      "cars": "10",
       "no": "723-071",
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "3分遅れ",
-      "updated": "07:50"
+      "updated": "07:55"
     },
     {
       "op": "57",
@@ -1156,8 +1156,8 @@
       "no": "457-071",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "07:50"
+      "delay": "",
+      "updated": "07:55"
     },
     {
       "op": "45S",
@@ -1166,8 +1166,38 @@
       "no": "745-071",
       "destCode": "元町・中華街",
       "kind": "通",
-      "delay": "5分遅れ",
-      "updated": "07:50"
+      "delay": "4分遅れ",
+      "updated": "07:55"
+    },
+    {
+      "op": "50",
+      "form": "-",
+      "cars": "6",
+      "no": "350-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:55"
+    },
+    {
+      "op": "53K",
+      "form": "4105F",
+      "cars": "10",
+      "no": "053-072",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:55"
+    },
+    {
+      "op": "84",
+      "form": "-",
+      "cars": "6",
+      "no": "584-071",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:55"
     }
   ],
   "meguro": [
@@ -2391,6 +2421,36 @@
       "updated": "07:45"
     },
     {
+      "op": "64S",
+      "form": "-",
+      "cars": "0",
+      "no": "364-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "07:55"
+    },
+    {
+      "op": "31G",
+      "form": "21109F",
+      "cars": "8",
+      "no": "631-072",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "07:55"
+    },
+    {
+      "op": "53M",
+      "form": "-",
+      "cars": "10",
+      "no": "053-072",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:55"
+    },
+    {
       "op": "59T",
       "form": "6320F",
       "cars": "6",
@@ -2398,9 +2458,9 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "07:50"
+      "updated": "07:55"
     }
   ],
-  "lastUpdate": "07:50",
+  "lastUpdate": "07:55",
   "date": "2026-07-03"
 }
