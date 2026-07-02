@@ -698,6 +698,36 @@
       "kind": "普",
       "delay": "",
       "updated": "06:30"
+    },
+    {
+      "op": "33",
+      "form": "-",
+      "cars": "8",
+      "no": "633-062",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:35"
+    },
+    {
+      "op": "20",
+      "form": "-",
+      "cars": "8",
+      "no": "220-061",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:35"
+    },
+    {
+      "op": "18M",
+      "form": "6114F",
+      "cars": "10",
+      "no": "118-061",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:35"
     }
   ],
   "meguro": [
@@ -1390,8 +1420,48 @@
       "kind": "普",
       "delay": "",
       "updated": "06:30"
+    },
+    {
+      "op": "33G",
+      "form": "21101F",
+      "cars": "8",
+      "no": "633-062",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:35"
+    },
+    {
+      "op": "11",
+      "form": "-",
+      "cars": "8",
+      "no": "711-061",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:35"
+    },
+    {
+      "op": "02K",
+      "form": "5185F",
+      "cars": "8",
+      "no": "202-062",
+      "destCode": "目黒",
+      "kind": "回",
+      "delay": "",
+      "updated": "06:35"
+    },
+    {
+      "op": "45T",
+      "form": "6508F",
+      "cars": "8",
+      "no": "445-061",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:35"
     }
   ],
-  "lastUpdate": "06:30",
+  "lastUpdate": "06:35",
   "date": "2026-07-03"
 }
