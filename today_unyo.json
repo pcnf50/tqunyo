@@ -1696,8 +1696,8 @@
       "no": "122-121",
       "destCode": "元町・中華街",
       "kind": "Ｆ",
-      "delay": "1分遅れ",
-      "updated": "12:15"
+      "delay": "",
+      "updated": "12:20"
     }
   ],
   "meguro": [
@@ -3460,16 +3460,26 @@
       "updated": "12:10"
     },
     {
+      "op": "39G",
+      "form": "21104F",
+      "cars": "8",
+      "no": "639-122",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "12:20"
+    },
+    {
       "op": "69T",
       "form": "6325F",
       "cars": "6",
       "no": "469-121",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "",
-      "updated": "12:15"
+      "delay": "1分遅れ",
+      "updated": "12:20"
     }
   ],
-  "lastUpdate": "12:15",
+  "lastUpdate": "12:20",
   "date": "2026-07-02"
 }
