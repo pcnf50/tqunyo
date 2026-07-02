@@ -1578,6 +1578,16 @@
       "kind": "急",
       "delay": "",
       "updated": "11:05"
+    },
+    {
+      "op": "20M",
+      "form": "40158F",
+      "cars": "10",
+      "no": "120-111",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "11:10"
     }
   ],
   "meguro": [
@@ -3280,6 +3290,6 @@
       "updated": "11:05"
     }
   ],
-  "lastUpdate": "11:05",
+  "lastUpdate": "11:10",
   "date": "2026-07-02"
 }
