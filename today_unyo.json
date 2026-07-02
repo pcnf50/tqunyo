@@ -4222,14 +4222,14 @@
     {
       "op": "52S",
       "form": "-",
-      "cars": "0",
+      "cars": "8",
       "no": "352-191",
       "destCode": "新横浜",
       "kind": "急",
       "delay": "",
-      "updated": "19:35"
+      "updated": "19:40"
     }
   ],
-  "lastUpdate": "19:35",
+  "lastUpdate": "19:40",
   "date": "2026-07-02"
 }
