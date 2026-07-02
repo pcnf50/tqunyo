@@ -4328,8 +4328,18 @@
       "kind": "通",
       "delay": "",
       "updated": "20:15"
+    },
+    {
+      "op": "43G",
+      "form": "21109F",
+      "cars": "8",
+      "no": "643-202",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:30"
     }
   ],
-  "lastUpdate": "20:25",
+  "lastUpdate": "20:30",
   "date": "2026-07-02"
 }
