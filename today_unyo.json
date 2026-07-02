@@ -3687,7 +3687,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "15:00"
+      "updated": "15:05"
     },
     {
       "op": "54K",
@@ -3697,9 +3697,9 @@
       "destCode": "南北線直通",
       "kind": "回",
       "delay": "",
-      "updated": "15:00"
+      "updated": "15:05"
     }
   ],
-  "lastUpdate": "15:00",
+  "lastUpdate": "15:05",
   "date": "2026-07-02"
 }
