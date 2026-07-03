@@ -3559,8 +3559,18 @@
       "kind": "Ｆ",
       "delay": "",
       "updated": "12:40"
+    },
+    {
+      "op": "79",
+      "form": "-",
+      "cars": "10",
+      "no": "779-121",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "12:50"
     }
   ],
-  "lastUpdate": "12:45",
+  "lastUpdate": "12:50",
   "date": "2026-07-03"
 }
