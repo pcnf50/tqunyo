@@ -1,25 +1,158 @@
 {
-  "toyoko": {
-    "99": {
+  "toyoko": [
+    {
+      "op": "11K",
+      "form": "Y514F",
+      "cars": "8",
+      "no": "011-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "18",
+      "form": "-",
+      "cars": "8",
+      "no": "218-042",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "06K",
+      "form": "5163F",
+      "cars": "8",
+      "no": "006-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "15",
+      "form": "-",
+      "cars": "8",
+      "no": "215-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "02K",
+      "form": "Y513F",
+      "cars": "8",
+      "no": "002-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "99G",
+      "form": "5164F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "84K",
+      "form": "Y515F",
+      "cars": "8",
+      "no": "084-042",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "04:50"
+    }
+  ],
+  "meguro": [
+    {
+      "op": "18K",
+      "form": "3106F",
+      "cars": "8",
+      "no": "218-042",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "09K",
+      "form": "5182F",
+      "cars": "8",
+      "no": "209-041",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "11K",
+      "form": "3110F",
+      "cars": "8",
+      "no": "211-042",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "6G",
+      "form": "-",
+      "cars": "8",
+      "no": "006-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "15K",
+      "form": "5186F",
+      "cars": "8",
+      "no": "215-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
       "op": "99",
-      "form": "5161F",
+      "form": "3123F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "84",
+      "form": "-",
+      "cars": "8",
+      "no": "084-042",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "04:50"
+    },
+    {
+      "op": "99",
+      "form": "5185F",
       "cars": "8",
       "no": "999-990",
       "destCode": "",
-      "kind": "不明",
-      "delay": ""
-    },
-    "84K": {
-      "op": "84K",
-      "form": "5164F",
-      "cars": "8",
-      "no": "084-241",
-      "destCode": "菊名",
-      "kind": "回送",
-      "delay": "6分遅れ"
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "04:50"
     }
-  },
-  "meguro": {},
-  "lastUpdate": "03:13",
+  ],
+  "lastUpdate": "04:50",
   "date": "2026-07-04"
 }
