@@ -4278,8 +4278,18 @@
       "kind": "通",
       "delay": "",
       "updated": "20:15"
+    },
+    {
+      "op": "63",
+      "form": "-",
+      "cars": "10",
+      "no": "763-192",
+      "destCode": "副都心線直通",
+      "kind": "通",
+      "delay": "",
+      "updated": "20:20"
     }
   ],
-  "lastUpdate": "20:15",
+  "lastUpdate": "20:20",
   "date": "2026-07-03"
 }
