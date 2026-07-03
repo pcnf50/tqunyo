@@ -4148,8 +4148,18 @@
       "kind": "通",
       "delay": "",
       "updated": "19:15"
+    },
+    {
+      "op": "64S",
+      "form": "9123F",
+      "cars": "6",
+      "no": "364-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:20"
     }
   ],
-  "lastUpdate": "19:15",
+  "lastUpdate": "19:20",
   "date": "2026-07-03"
 }
