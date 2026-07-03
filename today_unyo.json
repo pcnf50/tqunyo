@@ -2357,6 +2357,16 @@
       "kind": "回",
       "delay": "2分遅れ",
       "updated": "00:45"
+    },
+    {
+      "op": "84K",
+      "form": "5164F",
+      "cars": "8",
+      "no": "084-241",
+      "destCode": "菊名",
+      "kind": "回",
+      "delay": "6分遅れ",
+      "updated": "00:55"
     }
   ],
   "meguro": [
@@ -4797,8 +4807,18 @@
       "kind": "回",
       "delay": "2分遅れ",
       "updated": "00:45"
+    },
+    {
+      "op": "84",
+      "form": "-",
+      "cars": "8",
+      "no": "084-241",
+      "destCode": "菊名",
+      "kind": "回",
+      "delay": "6分遅れ",
+      "updated": "00:55"
     }
   ],
-  "lastUpdate": "00:50",
+  "lastUpdate": "00:55",
   "date": "2026-07-04"
 }
