@@ -1740,6 +1740,16 @@
       "updated": "13:05"
     },
     {
+      "op": "04K",
+      "form": "5153F",
+      "cars": "8",
+      "no": "004-122",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "13:15"
+    },
+    {
       "op": "42K",
       "form": "5170F",
       "cars": "8",
@@ -1747,7 +1757,7 @@
       "destCode": "元住吉",
       "kind": "回",
       "delay": "",
-      "updated": "13:10"
+      "updated": "13:15"
     }
   ],
   "meguro": [
@@ -3611,6 +3621,6 @@
       "updated": "13:05"
     }
   ],
-  "lastUpdate": "13:10",
+  "lastUpdate": "13:15",
   "date": "2026-07-03"
 }
