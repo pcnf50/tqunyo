@@ -4698,8 +4698,18 @@
       "kind": "急",
       "delay": "",
       "updated": "22:05"
+    },
+    {
+      "op": "36K",
+      "form": "5181F",
+      "cars": "8",
+      "no": "236-222",
+      "destCode": "南北線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "22:10"
     }
   ],
-  "lastUpdate": "22:05",
+  "lastUpdate": "22:10",
   "date": "2026-07-03"
 }
