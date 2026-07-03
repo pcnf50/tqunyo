@@ -1818,6 +1818,16 @@
       "kind": "急",
       "delay": "",
       "updated": "16:50"
+    },
+    {
+      "op": "31K",
+      "form": "5160F",
+      "cars": "8",
+      "no": "031-162",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "16:55"
     }
   ],
   "meguro": [
@@ -3788,8 +3798,18 @@
       "kind": "普",
       "delay": "",
       "updated": "16:50"
+    },
+    {
+      "op": "31S",
+      "form": "-",
+      "cars": "8",
+      "no": "031-162",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "16:55"
     }
   ],
-  "lastUpdate": "16:50",
+  "lastUpdate": "16:55",
   "date": "2026-07-03"
 }
