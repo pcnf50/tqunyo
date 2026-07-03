@@ -4198,8 +4198,18 @@
       "kind": "通",
       "delay": "",
       "updated": "19:45"
+    },
+    {
+      "op": "32G",
+      "form": "21109F",
+      "cars": "8",
+      "no": "632-192",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:50"
     }
   ],
-  "lastUpdate": "19:45",
+  "lastUpdate": "19:50",
   "date": "2026-07-03"
 }
