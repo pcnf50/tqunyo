@@ -2028,6 +2028,256 @@
       "kind": "通",
       "delay": "",
       "updated": "20:15"
+    },
+    {
+      "op": "16K",
+      "form": "-",
+      "cars": "8",
+      "no": "016-201",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "01K",
+      "form": "-",
+      "cars": "8",
+      "no": "001-201",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "31K",
+      "form": "-",
+      "cars": "8",
+      "no": "031-202",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "75S",
+      "form": "-",
+      "cars": "10",
+      "no": "775-201",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "06K",
+      "form": "-",
+      "cars": "8",
+      "no": "006-202",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "23S",
+      "form": "-",
+      "cars": "10",
+      "no": "723-202",
+      "destCode": "副都心線直通",
+      "kind": "通",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "23K",
+      "form": "-",
+      "cars": "8",
+      "no": "023-202",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "91S",
+      "form": "-",
+      "cars": "10",
+      "no": "791-201",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "19S",
+      "form": "-",
+      "cars": "8",
+      "no": "719-202",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "13S",
+      "form": "-",
+      "cars": "8",
+      "no": "713-202",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "11S",
+      "form": "-",
+      "cars": "8",
+      "no": "711-201",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "17K",
+      "form": "-",
+      "cars": "8",
+      "no": "017-202",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "57K",
+      "form": "-",
+      "cars": "10",
+      "no": "057-202",
+      "destCode": "渋谷",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "64K",
+      "form": "-",
+      "cars": "10",
+      "no": "064-201",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "09S",
+      "form": "-",
+      "cars": "8",
+      "no": "709-192",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "87S",
+      "form": "-",
+      "cars": "10",
+      "no": "787-201",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "07S",
+      "form": "-",
+      "cars": "8",
+      "no": "707-201",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "12K",
+      "form": "-",
+      "cars": "8",
+      "no": "012-201",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "03S",
+      "form": "-",
+      "cars": "8",
+      "no": "703-201",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "07K",
+      "form": "-",
+      "cars": "8",
+      "no": "007-202",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "29K",
+      "form": "-",
+      "cars": "8",
+      "no": "029-201",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "77S",
+      "form": "-",
+      "cars": "10",
+      "no": "777-202",
+      "destCode": "副都心線直通",
+      "kind": "通",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "05S",
+      "form": "-",
+      "cars": "8",
+      "no": "705-201",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "53K",
+      "form": "-",
+      "cars": "10",
+      "no": "053-202",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "14K",
+      "form": "-",
+      "cars": "8",
+      "no": "014-201",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "20:45"
     }
   ],
   "meguro": [
@@ -4308,8 +4558,78 @@
       "kind": "急",
       "delay": "",
       "updated": "20:35"
+    },
+    {
+      "op": "85T",
+      "form": "-",
+      "cars": "6",
+      "no": "485-201",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "20:45"
+    },
+    {
+      "op": "43G",
+      "form": "-",
+      "cars": "8",
+      "no": "643-202",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "69T",
+      "form": "-",
+      "cars": "6",
+      "no": "469-201",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "94M",
+      "form": "-",
+      "cars": "6",
+      "no": "594-202",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "83T",
+      "form": "-",
+      "cars": "6",
+      "no": "483-201",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "43T",
+      "form": "-",
+      "cars": "8",
+      "no": "443-201",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
+    },
+    {
+      "op": "63T",
+      "form": "-",
+      "cars": "6",
+      "no": "463-202",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:45"
     }
   ],
-  "lastUpdate": "20:40",
+  "lastUpdate": "20:45",
   "date": "2026-07-03"
 }
