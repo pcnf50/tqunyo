@@ -1537,7 +1537,7 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "10:10"
+      "updated": "10:15"
     }
   ],
   "meguro": [
@@ -3181,16 +3181,6 @@
       "updated": "10:00"
     },
     {
-      "op": "85",
-      "form": "-",
-      "cars": "10",
-      "no": "785-091",
-      "destCode": "元町・中華街",
-      "kind": "特",
-      "delay": "",
-      "updated": "10:10"
-    },
-    {
       "op": "65T",
       "form": "6314F",
       "cars": "6",
@@ -3198,9 +3188,9 @@
       "destCode": "元住吉",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "10:10"
+      "updated": "10:15"
     }
   ],
-  "lastUpdate": "10:10",
+  "lastUpdate": "10:15",
   "date": "2026-07-03"
 }
