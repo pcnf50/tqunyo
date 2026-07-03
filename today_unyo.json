@@ -599,6 +599,46 @@
       "kind": "急",
       "delay": "",
       "updated": "06:35"
+    },
+    {
+      "op": "32",
+      "form": "-",
+      "cars": "6",
+      "no": "332-061",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "06:40"
+    },
+    {
+      "op": "31S",
+      "form": "10134F",
+      "cars": "10",
+      "no": "731-061",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "06:40"
+    },
+    {
+      "op": "55K",
+      "form": "4104F",
+      "cars": "10",
+      "no": "055-062",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:40"
+    },
+    {
+      "op": "61K",
+      "form": "4115F",
+      "cars": "10",
+      "no": "061-061",
+      "destCode": "菊名",
+      "kind": "回",
+      "delay": "",
+      "updated": "06:40"
     }
   ],
   "meguro": [
@@ -1211,8 +1251,38 @@
       "kind": "普",
       "delay": "",
       "updated": "06:35"
+    },
+    {
+      "op": "22K",
+      "form": "-",
+      "cars": "8",
+      "no": "022-061",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:40"
+    },
+    {
+      "op": "62G",
+      "form": "-",
+      "cars": "10",
+      "no": "062-062",
+      "destCode": "副都心線直通",
+      "kind": "特",
+      "delay": "",
+      "updated": "06:40"
+    },
+    {
+      "op": "55M",
+      "form": "-",
+      "cars": "10",
+      "no": "055-062",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:40"
     }
   ],
-  "lastUpdate": "06:35",
+  "lastUpdate": "06:40",
   "date": "2026-07-04"
 }
