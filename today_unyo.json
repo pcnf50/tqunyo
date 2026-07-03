@@ -1558,6 +1558,16 @@
       "kind": "普",
       "delay": "",
       "updated": "10:25"
+    },
+    {
+      "op": "71",
+      "form": "-",
+      "cars": "8",
+      "no": "471-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:40"
     }
   ],
   "meguro": [
@@ -3239,8 +3249,28 @@
       "kind": "普",
       "delay": "",
       "updated": "10:35"
+    },
+    {
+      "op": "77T",
+      "form": "6316F",
+      "cars": "6",
+      "no": "477-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:40"
+    },
+    {
+      "op": "79",
+      "form": "-",
+      "cars": "10",
+      "no": "779-102",
+      "destCode": "副都心線直通",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "10:40"
     }
   ],
-  "lastUpdate": "10:35",
+  "lastUpdate": "10:40",
   "date": "2026-07-03"
 }
