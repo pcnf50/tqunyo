@@ -88,7 +88,17 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "05:00"
+      "updated": "05:05"
+    },
+    {
+      "op": "13K",
+      "form": "5153F",
+      "cars": "8",
+      "no": "013-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:05"
     },
     {
       "op": "09",
@@ -98,7 +108,17 @@
       "destCode": "相鉄線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:00"
+      "updated": "05:05"
+    },
+    {
+      "op": "37",
+      "form": "-",
+      "cars": "8",
+      "no": "237-052",
+      "destCode": "目黒",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:05"
     },
     {
       "op": "20",
@@ -108,7 +128,7 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:00"
+      "updated": "05:05"
     },
     {
       "op": "01S",
@@ -118,7 +138,7 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:00"
+      "updated": "05:05"
     },
     {
       "op": "05K",
@@ -128,7 +148,17 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "05:00"
+      "updated": "05:05"
+    },
+    {
+      "op": "14K",
+      "form": "5160F",
+      "cars": "8",
+      "no": "014-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:05"
     }
   ],
   "meguro": [
@@ -223,6 +253,16 @@
       "updated": "04:55"
     },
     {
+      "op": "37K",
+      "form": "3109F",
+      "cars": "8",
+      "no": "237-052",
+      "destCode": "目黒",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:05"
+    },
+    {
       "op": "20K",
       "form": "3102F",
       "cars": "8",
@@ -230,7 +270,7 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:00"
+      "updated": "05:05"
     },
     {
       "op": "99",
@@ -240,19 +280,29 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "05:00"
+      "updated": "05:05"
     },
     {
-      "op": "5M",
+      "op": "14",
       "form": "-",
       "cars": "8",
-      "no": "005-051",
+      "no": "014-051",
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "05:00"
+      "updated": "05:05"
+    },
+    {
+      "op": "26K",
+      "form": "-",
+      "cars": "0",
+      "no": "226-051",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:05"
     }
   ],
-  "lastUpdate": "05:00",
+  "lastUpdate": "05:05",
   "date": "2026-07-04"
 }
