@@ -1637,7 +1637,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "11:35"
+      "updated": "11:40"
     }
   ],
   "meguro": [
@@ -3388,9 +3388,9 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "11:35"
+      "updated": "11:40"
     }
   ],
-  "lastUpdate": "11:35",
+  "lastUpdate": "11:40",
   "date": "2026-07-03"
 }
