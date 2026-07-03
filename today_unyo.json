@@ -1486,8 +1486,8 @@
       "no": "487-091",
       "destCode": "日吉",
       "kind": "急",
-      "delay": "3分遅れ",
-      "updated": "09:25"
+      "delay": "4分遅れ",
+      "updated": "09:30"
     }
   ],
   "meguro": [
@@ -3087,8 +3087,8 @@
       "no": "052-091",
       "destCode": "元町・中華街",
       "kind": "急",
-      "delay": "2分遅れ",
-      "updated": "09:25"
+      "delay": "1分遅れ",
+      "updated": "09:30"
     },
     {
       "op": "70S",
@@ -3098,9 +3098,9 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "09:25"
+      "updated": "09:30"
     }
   ],
-  "lastUpdate": "09:25",
+  "lastUpdate": "09:30",
   "date": "2026-07-03"
 }
