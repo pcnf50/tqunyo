@@ -2861,8 +2861,18 @@
       "kind": "普",
       "delay": "",
       "updated": "12:35"
+    },
+    {
+      "op": "25T",
+      "form": "-",
+      "cars": "0",
+      "no": "425-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:10"
     }
   ],
-  "lastUpdate": "13:05",
+  "lastUpdate": "13:10",
   "date": "2026-07-04"
 }
