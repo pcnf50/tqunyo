@@ -1477,8 +1477,8 @@
       "no": "173-161",
       "destCode": "元町・中華街",
       "kind": "回",
-      "delay": "",
-      "updated": "16:30"
+      "delay": "1分遅れ",
+      "updated": "16:35"
     }
   ],
   "meguro": [
@@ -2943,6 +2943,6 @@
       "updated": "15:55"
     }
   ],
-  "lastUpdate": "16:30",
+  "lastUpdate": "16:35",
   "date": "2026-07-04"
 }
