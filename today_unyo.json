@@ -2681,8 +2681,18 @@
       "kind": "急",
       "delay": "",
       "updated": "10:45"
+    },
+    {
+      "op": "84M",
+      "form": "9110F",
+      "cars": "6",
+      "no": "584-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:50"
     }
   ],
-  "lastUpdate": "10:45",
+  "lastUpdate": "10:50",
   "date": "2026-07-04"
 }
