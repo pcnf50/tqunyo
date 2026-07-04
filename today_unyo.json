@@ -3660,9 +3660,19 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "00:40"
+      "updated": "00:45"
+    },
+    {
+      "op": "45K",
+      "form": "5187F",
+      "cars": "8",
+      "no": "245-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "2分遅れ",
+      "updated": "00:45"
     }
   ],
-  "lastUpdate": "00:40",
+  "lastUpdate": "00:45",
   "date": "2026-07-05"
 }
