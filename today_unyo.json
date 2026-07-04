@@ -3481,8 +3481,18 @@
       "kind": "普",
       "delay": "",
       "updated": "22:05"
+    },
+    {
+      "op": "44K",
+      "form": "3122F",
+      "cars": "8",
+      "no": "244-222",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:15"
     }
   ],
-  "lastUpdate": "22:10",
+  "lastUpdate": "22:15",
   "date": "2026-07-04"
 }
