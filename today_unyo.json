@@ -2781,8 +2781,18 @@
       "kind": "Ｆ",
       "delay": "",
       "updated": "11:55"
+    },
+    {
+      "op": "61T",
+      "form": "6315F",
+      "cars": "6",
+      "no": "461-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:05"
     }
   ],
-  "lastUpdate": "12:00",
+  "lastUpdate": "12:05",
   "date": "2026-07-04"
 }
