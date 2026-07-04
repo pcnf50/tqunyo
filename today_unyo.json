@@ -1689,16 +1689,6 @@
       "kind": "急",
       "delay": "",
       "updated": "20:15"
-    },
-    {
-      "op": "81",
-      "form": "-",
-      "cars": "8",
-      "no": "281-201",
-      "destCode": "新横浜",
-      "kind": "回",
-      "delay": "",
-      "updated": "20:40"
     }
   ],
   "meguro": [
@@ -3363,16 +3353,16 @@
       "updated": "20:35"
     },
     {
-      "op": "81K",
-      "form": "3112F",
-      "cars": "8",
-      "no": "281-201",
-      "destCode": "新横浜",
-      "kind": "回",
+      "op": "68S",
+      "form": "9117F",
+      "cars": "6",
+      "no": "368-201",
+      "destCode": "元住吉",
+      "kind": "普",
       "delay": "",
-      "updated": "20:40"
+      "updated": "20:45"
     }
   ],
-  "lastUpdate": "20:40",
+  "lastUpdate": "20:45",
   "date": "2026-07-04"
 }
