@@ -2205,8 +2205,8 @@
       "no": "003-212",
       "destCode": "副都心線直通",
       "kind": "普",
-      "delay": "11分遅れ",
-      "updated": "22:12"
+      "delay": "10分遅れ",
+      "updated": "22:13"
     }
   ],
   "meguro": [
@@ -4098,9 +4098,9 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "22:12"
+      "updated": "22:13"
     }
   ],
-  "lastUpdate": "22:12",
+  "lastUpdate": "22:13",
   "date": "2026-07-05"
 }
