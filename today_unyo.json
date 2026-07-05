@@ -2166,7 +2166,7 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "22:08"
+      "updated": "22:10"
     },
     {
       "op": "85S",
@@ -2176,17 +2176,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "22:08"
-    },
-    {
-      "op": "17S",
-      "form": "17194F",
-      "cars": "8",
-      "no": "717-221",
-      "destCode": "元町・中華街",
-      "kind": "普",
-      "delay": "",
-      "updated": "22:08"
+      "updated": "22:10"
     },
     {
       "op": "02S",
@@ -2196,7 +2186,17 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "22:09"
+      "updated": "22:10"
+    },
+    {
+      "op": "17S",
+      "form": "17194F",
+      "cars": "8",
+      "no": "717-221",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:10"
     }
   ],
   "meguro": [
@@ -4068,7 +4068,7 @@
       "destCode": "元住吉",
       "kind": "普",
       "delay": "",
-      "updated": "22:08"
+      "updated": "22:10"
     },
     {
       "op": "84K",
@@ -4078,9 +4078,9 @@
       "destCode": "武蔵小杉",
       "kind": "普",
       "delay": "",
-      "updated": "22:08"
+      "updated": "22:10"
     }
   ],
-  "lastUpdate": "22:09",
+  "lastUpdate": "22:10",
   "date": "2026-07-05"
 }
