@@ -2129,14 +2129,14 @@
       "updated": "21:43"
     },
     {
-      "op": "64K",
-      "form": "-",
-      "cars": "0",
-      "no": "064-211",
-      "destCode": "相鉄線直通",
+      "op": "49K",
+      "form": "4114F",
+      "cars": "10",
+      "no": "049-212",
+      "destCode": "渋谷",
       "kind": "急",
-      "delay": "",
-      "updated": "21:45"
+      "delay": "3分遅れ",
+      "updated": "21:50"
     }
   ],
   "meguro": [
@@ -3989,18 +3989,8 @@
       "kind": "普",
       "delay": "13分遅れ",
       "updated": "21:25"
-    },
-    {
-      "op": "84K",
-      "form": "3113F",
-      "cars": "8",
-      "no": "284-211",
-      "destCode": "新横浜",
-      "kind": "回",
-      "delay": "2分遅れ",
-      "updated": "21:45"
     }
   ],
-  "lastUpdate": "21:45",
+  "lastUpdate": "21:50",
   "date": "2026-07-05"
 }
