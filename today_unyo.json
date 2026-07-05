@@ -1429,6 +1429,16 @@
       "updated": "12:50"
     },
     {
+      "op": "03K",
+      "form": "-",
+      "cars": "8",
+      "no": "003-122",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:00"
+    },
+    {
       "op": "11T",
       "form": "10108F",
       "cars": "10",
@@ -1436,7 +1446,7 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "12:55"
+      "updated": "13:00"
     }
   ],
   "meguro": [
@@ -2881,6 +2891,6 @@
       "updated": "12:40"
     }
   ],
-  "lastUpdate": "12:55",
+  "lastUpdate": "13:00",
   "date": "2026-07-05"
 }
