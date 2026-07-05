@@ -2416,6 +2416,16 @@
       "kind": "普",
       "delay": "",
       "updated": "00:00"
+    },
+    {
+      "op": "03K",
+      "form": "17193F",
+      "cars": "8",
+      "no": "003-241",
+      "destCode": "菊名",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:10"
     }
   ],
   "meguro": [
@@ -4380,6 +4390,16 @@
       "updated": "23:30"
     },
     {
+      "op": "45",
+      "form": "-",
+      "cars": "10",
+      "no": "745-232",
+      "destCode": "武蔵小杉",
+      "kind": "急",
+      "delay": "",
+      "updated": "00:10"
+    },
+    {
       "op": "37K",
       "form": "3123F",
       "cars": "8",
@@ -4387,9 +4407,19 @@
       "destCode": "目黒",
       "kind": "回",
       "delay": "",
-      "updated": "00:05"
+      "updated": "00:10"
+    },
+    {
+      "op": "46S",
+      "form": "9101F",
+      "cars": "6",
+      "no": "346-241",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:10"
     }
   ],
-  "lastUpdate": "00:05",
+  "lastUpdate": "00:10",
   "date": "2026-07-06"
 }
