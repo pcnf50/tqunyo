@@ -1576,7 +1576,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "18:05"
+      "updated": "18:10"
     }
   ],
   "meguro": [
@@ -3188,9 +3188,19 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:05"
+      "updated": "18:10"
+    },
+    {
+      "op": "49T",
+      "form": "-",
+      "cars": "0",
+      "no": "449-181",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:10"
     }
   ],
-  "lastUpdate": "18:05",
+  "lastUpdate": "18:10",
   "date": "2026-07-05"
 }
