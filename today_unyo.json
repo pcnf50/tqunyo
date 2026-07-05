@@ -2446,6 +2446,16 @@
       "kind": "不明",
       "delay": "",
       "updated": "00:30"
+    },
+    {
+      "op": "45",
+      "form": "5118F",
+      "cars": "8",
+      "no": "245-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "00:45"
     }
   ],
   "meguro": [
@@ -4448,8 +4458,18 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "00:40"
+    },
+    {
+      "op": "45K",
+      "form": "5188F",
+      "cars": "8",
+      "no": "245-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "00:45"
     }
   ],
-  "lastUpdate": "00:40",
+  "lastUpdate": "00:45",
   "date": "2026-07-06"
 }
