@@ -2329,8 +2329,28 @@
       "kind": "普",
       "delay": "",
       "updated": "09:05"
+    },
+    {
+      "op": "63T",
+      "form": "6503F",
+      "cars": "8",
+      "no": "463-091",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:10"
+    },
+    {
+      "op": "73",
+      "form": "-",
+      "cars": "10",
+      "no": "773-081",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:10"
     }
   ],
-  "lastUpdate": "09:05",
+  "lastUpdate": "09:10",
   "date": "2026-07-05"
 }
