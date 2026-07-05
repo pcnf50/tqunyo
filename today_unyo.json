@@ -4019,8 +4019,18 @@
       "kind": "急",
       "delay": "",
       "updated": "21:55"
+    },
+    {
+      "op": "82K",
+      "form": "3108F",
+      "cars": "8",
+      "no": "282-212",
+      "destCode": "武蔵小杉",
+      "kind": "普",
+      "delay": "",
+      "updated": "21:59"
     }
   ],
-  "lastUpdate": "21:56",
+  "lastUpdate": "21:59",
   "date": "2026-07-05"
 }
