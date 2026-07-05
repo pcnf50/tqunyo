@@ -2979,8 +2979,18 @@
       "kind": "普",
       "delay": "",
       "updated": "15:30"
+    },
+    {
+      "op": "39T",
+      "form": "-",
+      "cars": "0",
+      "no": "439-151",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "15:40"
     }
   ],
-  "lastUpdate": "15:35",
+  "lastUpdate": "15:40",
   "date": "2026-07-05"
 }
