@@ -1547,6 +1547,16 @@
       "kind": "急",
       "delay": "",
       "updated": "17:00"
+    },
+    {
+      "op": "64K",
+      "form": "4104F",
+      "cars": "10",
+      "no": "064-171",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:40"
     }
   ],
   "meguro": [
@@ -3119,8 +3129,18 @@
       "kind": "回",
       "delay": "3分遅れ",
       "updated": "17:00"
+    },
+    {
+      "op": "64G",
+      "form": "-",
+      "cars": "10",
+      "no": "064-171",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:40"
     }
   ],
-  "lastUpdate": "17:35",
+  "lastUpdate": "17:40",
   "date": "2026-07-05"
 }
