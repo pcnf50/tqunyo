@@ -1487,6 +1487,16 @@
       "kind": "普",
       "delay": "",
       "updated": "15:50"
+    },
+    {
+      "op": "96",
+      "form": "-",
+      "cars": "6",
+      "no": "596-151",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "16:05"
     }
   ],
   "meguro": [
@@ -3021,6 +3031,6 @@
       "updated": "15:50"
     }
   ],
-  "lastUpdate": "16:00",
+  "lastUpdate": "16:05",
   "date": "2026-07-05"
 }
