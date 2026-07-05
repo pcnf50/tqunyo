@@ -2105,8 +2105,8 @@
       "no": "711-211",
       "destCode": "元町・中華街",
       "kind": "普",
-      "delay": "",
-      "updated": "21:29"
+      "delay": "1分遅れ",
+      "updated": "21:30"
     }
   ],
   "meguro": [
@@ -3961,6 +3961,6 @@
       "updated": "21:25"
     }
   ],
-  "lastUpdate": "21:29",
+  "lastUpdate": "21:30",
   "date": "2026-07-05"
 }
