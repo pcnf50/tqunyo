@@ -1816,7 +1816,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:45"
+      "updated": "19:50"
     },
     {
       "op": "18K",
@@ -1825,8 +1825,8 @@
       "no": "018-191",
       "destCode": "元町・中華街",
       "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "19:45"
+      "delay": "4分遅れ",
+      "updated": "19:50"
     }
   ],
   "meguro": [
@@ -3558,9 +3558,9 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:45"
+      "updated": "19:50"
     }
   ],
-  "lastUpdate": "19:45",
+  "lastUpdate": "19:50",
   "date": "2026-07-05"
 }
