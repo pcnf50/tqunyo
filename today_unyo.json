@@ -2406,6 +2406,16 @@
       "kind": "普",
       "delay": "",
       "updated": "23:50"
+    },
+    {
+      "op": "22K",
+      "form": "5160F",
+      "cars": "8",
+      "no": "022-241",
+      "destCode": "横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:00"
     }
   ],
   "meguro": [
@@ -4370,6 +4380,6 @@
       "updated": "23:30"
     }
   ],
-  "lastUpdate": "23:55",
-  "date": "2026-07-05"
+  "lastUpdate": "00:00",
+  "date": "2026-07-06"
 }
