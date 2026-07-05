@@ -2017,6 +2017,26 @@
       "kind": "急",
       "delay": "15分遅れ",
       "updated": "21:00"
+    },
+    {
+      "op": "04K",
+      "form": "Y514F",
+      "cars": "8",
+      "no": "004-211",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "21:05"
+    },
+    {
+      "op": "56K",
+      "form": "4102F",
+      "cars": "10",
+      "no": "056-202",
+      "destCode": "渋谷",
+      "kind": "急",
+      "delay": "",
+      "updated": "21:05"
     }
   ],
   "meguro": [
@@ -3819,8 +3839,18 @@
       "kind": "普",
       "delay": "",
       "updated": "20:50"
+    },
+    {
+      "op": "42K",
+      "form": "3109F",
+      "cars": "8",
+      "no": "242-212",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "21:05"
     }
   ],
-  "lastUpdate": "21:00",
+  "lastUpdate": "21:05",
   "date": "2026-07-05"
 }
