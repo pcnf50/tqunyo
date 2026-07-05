@@ -2739,8 +2739,18 @@
       "kind": "特",
       "delay": "",
       "updated": "11:10"
+    },
+    {
+      "op": "46S",
+      "form": "9112F",
+      "cars": "8",
+      "no": "346-111",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "11:45"
     }
   ],
-  "lastUpdate": "11:40",
+  "lastUpdate": "11:45",
   "date": "2026-07-05"
 }
