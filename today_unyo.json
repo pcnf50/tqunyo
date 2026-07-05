@@ -2216,7 +2216,7 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "8分遅れ",
-      "updated": "22:20"
+      "updated": "22:24"
     },
     {
       "op": "67",
@@ -2224,9 +2224,9 @@
       "cars": "6",
       "no": "467-221",
       "destCode": "元住吉",
-      "kind": "普",
+      "kind": "回",
       "delay": "",
-      "updated": "22:20"
+      "updated": "22:24"
     }
   ],
   "meguro": [
@@ -4121,6 +4121,6 @@
       "updated": "22:13"
     }
   ],
-  "lastUpdate": "22:20",
+  "lastUpdate": "22:24",
   "date": "2026-07-05"
 }
