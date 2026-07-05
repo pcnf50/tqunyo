@@ -4199,8 +4199,18 @@
       "kind": "普",
       "delay": "8分遅れ",
       "updated": "22:30"
+    },
+    {
+      "op": "7",
+      "form": "5191F",
+      "cars": "8",
+      "no": "007-221",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "2分遅れ",
+      "updated": "22:45"
     }
   ],
-  "lastUpdate": "22:40",
+  "lastUpdate": "22:45",
   "date": "2026-07-05"
 }
