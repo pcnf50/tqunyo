@@ -1838,7 +1838,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:16"
+      "updated": "17:15"
     },
     {
       "op": "48",
@@ -1848,7 +1848,7 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "17:16"
+      "updated": "17:15"
     }
   ],
   "meguro": [
@@ -3900,7 +3900,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:16"
+      "updated": "17:15"
     },
     {
       "op": "48K",
@@ -3910,7 +3910,7 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "17:16"
+      "updated": "17:15"
     }
   ],
   "lastUpdate": "17:17",
