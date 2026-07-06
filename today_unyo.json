@@ -3980,7 +3980,7 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:33"
+      "updated": "17:34"
     },
     {
       "op": "75",
@@ -3990,9 +3990,9 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "17:33"
+      "updated": "17:34"
     }
   ],
-  "lastUpdate": "17:33",
+  "lastUpdate": "17:34",
   "date": "2026-07-06"
 }
