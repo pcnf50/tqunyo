@@ -1908,7 +1908,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "18:15"
+      "updated": "18:18"
     }
   ],
   "meguro": [
@@ -4079,8 +4079,8 @@
       "no": "590-181",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "",
-      "updated": "18:15"
+      "delay": "1分遅れ",
+      "updated": "18:18"
     },
     {
       "op": "40S",
