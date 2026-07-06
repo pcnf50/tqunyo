@@ -3483,14 +3483,24 @@
       "updated": "12:10"
     },
     {
+      "op": "62S",
+      "form": "9115F",
+      "cars": "8",
+      "no": "362-121",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "12:20"
+    },
+    {
       "op": "69T",
       "form": "6315F",
       "cars": "6",
       "no": "469-121",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "2分遅れ",
-      "updated": "12:15"
+      "delay": "1分遅れ",
+      "updated": "12:20"
     },
     {
       "op": "42T",
@@ -3499,10 +3509,10 @@
       "no": "042-121",
       "destCode": "元住吉",
       "kind": "回",
-      "delay": "",
-      "updated": "12:15"
+      "delay": "8分遅れ",
+      "updated": "12:20"
     }
   ],
-  "lastUpdate": "12:15",
+  "lastUpdate": "12:20",
   "date": "2026-07-06"
 }
