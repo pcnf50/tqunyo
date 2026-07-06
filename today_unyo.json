@@ -4161,8 +4161,18 @@
       "kind": "急",
       "delay": "",
       "updated": "18:29"
+    },
+    {
+      "op": "44G",
+      "form": "3105F",
+      "cars": "8",
+      "no": "644-181",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:35"
     }
   ],
-  "lastUpdate": "18:34",
+  "lastUpdate": "18:35",
   "date": "2026-07-06"
 }
