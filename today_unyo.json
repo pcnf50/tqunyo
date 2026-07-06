@@ -3201,8 +3201,38 @@
       "kind": "普",
       "delay": "21分遅れ",
       "updated": "10:50"
+    },
+    {
+      "op": "50S",
+      "form": "9112F",
+      "cars": "8",
+      "no": "350-101",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "9分遅れ",
+      "updated": "10:55"
+    },
+    {
+      "op": "77T",
+      "form": "6330F",
+      "cars": "6",
+      "no": "477-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "10分遅れ",
+      "updated": "10:55"
+    },
+    {
+      "op": "37G",
+      "form": "21109F",
+      "cars": "8",
+      "no": "637-102",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "10:55"
     }
   ],
-  "lastUpdate": "10:50",
+  "lastUpdate": "10:55",
   "date": "2026-07-06"
 }
