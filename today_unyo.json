@@ -2069,16 +2069,6 @@
       "kind": "通",
       "delay": "2分遅れ",
       "updated": "22:03"
-    },
-    {
-      "op": "13S",
-      "form": "-",
-      "cars": "0",
-      "no": "713-221",
-      "destCode": "元町・中華街",
-      "kind": "普",
-      "delay": "",
-      "updated": "22:24"
     }
   ],
   "meguro": [
@@ -4583,6 +4573,6 @@
       "updated": "22:14"
     }
   ],
-  "lastUpdate": "22:24",
+  "lastUpdate": "22:25",
   "date": "2026-07-06"
 }
