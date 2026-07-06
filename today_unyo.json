@@ -1577,8 +1577,8 @@
       "no": "463-091",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "8分遅れ",
-      "updated": "10:25"
+      "delay": "6分遅れ",
+      "updated": "10:30"
     }
   ],
   "meguro": [
@@ -3159,10 +3159,10 @@
       "no": "455-101",
       "destCode": "元住吉",
       "kind": "普",
-      "delay": "11分遅れ",
-      "updated": "10:25"
+      "delay": "9分遅れ",
+      "updated": "10:30"
     }
   ],
-  "lastUpdate": "10:28",
+  "lastUpdate": "10:30",
   "date": "2026-07-06"
 }
