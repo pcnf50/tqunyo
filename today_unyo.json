@@ -3924,15 +3924,35 @@
     },
     {
       "op": "56S",
+      "form": "-",
+      "cars": "0",
+      "no": "356-171",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "17:25"
+    },
+    {
+      "op": "56S",
       "form": "9107F",
       "cars": "6",
       "no": "356-171",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "17:27"
+      "delay": "",
+      "updated": "17:28"
+    },
+    {
+      "op": "83T",
+      "form": "-",
+      "cars": "0",
+      "no": "483-171",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:28"
     }
   ],
-  "lastUpdate": "17:27",
+  "lastUpdate": "17:28",
   "date": "2026-07-06"
 }
