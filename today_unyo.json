@@ -1007,8 +1007,8 @@
       "no": "211-071",
       "destCode": "相鉄線直通",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "07:24"
+      "delay": "",
+      "updated": "07:25"
     }
   ],
   "meguro": [
@@ -2021,8 +2021,28 @@
       "kind": "急",
       "delay": "",
       "updated": "07:23"
+    },
+    {
+      "op": "23K",
+      "form": "5189F",
+      "cars": "8",
+      "no": "023-062",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:25"
+    },
+    {
+      "op": "23K",
+      "form": "-",
+      "cars": "0",
+      "no": "223-071",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "07:25"
     }
   ],
-  "lastUpdate": "07:24",
+  "lastUpdate": "07:25",
   "date": "2026-07-07"
 }
