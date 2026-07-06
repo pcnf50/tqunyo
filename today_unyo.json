@@ -4371,6 +4371,16 @@
       "kind": "急",
       "delay": "",
       "updated": "19:37"
+    },
+    {
+      "op": "14K",
+      "form": "-",
+      "cars": "0",
+      "no": "214-191",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:41"
     }
   ],
   "lastUpdate": "19:41",
