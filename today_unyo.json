@@ -2138,7 +2138,17 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "00:45"
+      "updated": "00:46"
+    },
+    {
+      "op": "84K",
+      "form": "5177F",
+      "cars": "8",
+      "no": "084-241",
+      "destCode": "菊名",
+      "kind": "回",
+      "delay": "",
+      "updated": "00:46"
     },
     {
       "op": "45K",
@@ -2147,8 +2157,8 @@
       "no": "045-242",
       "destCode": "武蔵小杉",
       "kind": "回",
-      "delay": "2分遅れ",
-      "updated": "00:45"
+      "delay": "3分遅れ",
+      "updated": "00:46"
     }
   ],
   "meguro": [
@@ -4693,14 +4703,14 @@
       "updated": "00:34"
     },
     {
-      "op": "41K",
-      "form": "5190F",
+      "op": "84",
+      "form": "-",
       "cars": "8",
-      "no": "241-242",
-      "destCode": "武蔵小杉",
+      "no": "084-241",
+      "destCode": "菊名",
       "kind": "回",
       "delay": "",
-      "updated": "00:45"
+      "updated": "00:46"
     },
     {
       "op": "45T",
@@ -4709,8 +4719,8 @@
       "no": "045-242",
       "destCode": "武蔵小杉",
       "kind": "回",
-      "delay": "2分遅れ",
-      "updated": "00:45"
+      "delay": "3分遅れ",
+      "updated": "00:46"
     },
     {
       "op": "44T",
@@ -4719,10 +4729,10 @@
       "no": "044-242",
       "destCode": "元住吉",
       "kind": "回",
-      "delay": "",
-      "updated": "00:45"
+      "delay": "1分遅れ",
+      "updated": "00:46"
     }
   ],
-  "lastUpdate": "00:45",
+  "lastUpdate": "00:46",
   "date": "2026-07-07"
 }
