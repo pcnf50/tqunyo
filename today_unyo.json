@@ -2049,6 +2049,16 @@
       "kind": "通",
       "delay": "",
       "updated": "20:15"
+    },
+    {
+      "op": "65K",
+      "form": "4105F",
+      "cars": "10",
+      "no": "065-201",
+      "destCode": "相鉄線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "20:49"
     }
   ],
   "meguro": [
@@ -4491,8 +4501,18 @@
       "kind": "急",
       "delay": "",
       "updated": "20:35"
+    },
+    {
+      "op": "65G",
+      "form": "-",
+      "cars": "10",
+      "no": "065-201",
+      "destCode": "相鉄線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "20:49"
     }
   ],
-  "lastUpdate": "20:48",
+  "lastUpdate": "20:49",
   "date": "2026-07-06"
 }
