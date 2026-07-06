@@ -4483,16 +4483,16 @@
       "updated": "20:30"
     },
     {
-      "op": "43T",
+      "op": "46K",
       "form": "-",
       "cars": "0",
-      "no": "443-201",
-      "destCode": "新横浜",
-      "kind": "普",
+      "no": "246-201",
+      "destCode": "相鉄線直通",
+      "kind": "急",
       "delay": "",
-      "updated": "20:40"
+      "updated": "20:35"
     }
   ],
-  "lastUpdate": "20:40",
+  "lastUpdate": "20:41",
   "date": "2026-07-06"
 }
