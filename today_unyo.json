@@ -3911,6 +3911,16 @@
       "kind": "普",
       "delay": "",
       "updated": "17:15"
+    },
+    {
+      "op": "44S",
+      "form": "-",
+      "cars": "0",
+      "no": "344-171",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:18"
     }
   ],
   "lastUpdate": "17:18",
