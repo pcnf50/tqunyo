@@ -1949,6 +1949,16 @@
       "kind": "通",
       "delay": "",
       "updated": "18:46"
+    },
+    {
+      "op": "53K",
+      "form": "-",
+      "cars": "0",
+      "no": "053-181",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "18:55"
     }
   ],
   "meguro": [
@@ -4213,6 +4223,6 @@
       "updated": "18:53"
     }
   ],
-  "lastUpdate": "18:54",
+  "lastUpdate": "18:55",
   "date": "2026-07-06"
 }
