@@ -2028,7 +2028,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:55"
+      "updated": "19:56"
     }
   ],
   "meguro": [
@@ -4410,7 +4410,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:55"
+      "updated": "19:56"
     },
     {
       "op": "94M",
@@ -4420,9 +4420,9 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "1分遅れ",
-      "updated": "19:55"
+      "updated": "19:56"
     }
   ],
-  "lastUpdate": "19:55",
+  "lastUpdate": "19:56",
   "date": "2026-07-06"
 }
