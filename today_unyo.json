@@ -1687,8 +1687,8 @@
       "no": "201-112",
       "destCode": "三田線直通",
       "kind": "急",
-      "delay": "4分遅れ",
-      "updated": "11:55"
+      "delay": "3分遅れ",
+      "updated": "12:00"
     },
     {
       "op": "47S",
@@ -1698,7 +1698,7 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "11:55"
+      "updated": "12:00"
     }
   ],
   "meguro": [
@@ -3429,8 +3429,8 @@
       "no": "201-112",
       "destCode": "三田線直通",
       "kind": "急",
-      "delay": "4分遅れ",
-      "updated": "11:55"
+      "delay": "3分遅れ",
+      "updated": "12:00"
     },
     {
       "op": "12K",
@@ -3439,20 +3439,20 @@
       "no": "212-111",
       "destCode": "新横浜",
       "kind": "急",
-      "delay": "9分遅れ",
-      "updated": "11:55"
+      "delay": "8分遅れ",
+      "updated": "12:00"
     },
     {
       "op": "54S",
-      "form": "-",
-      "cars": "0",
+      "form": "9119F",
+      "cars": "6",
       "no": "354-111",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "5分遅れ",
-      "updated": "11:55"
+      "delay": "4分遅れ",
+      "updated": "12:00"
     }
   ],
-  "lastUpdate": "11:55",
+  "lastUpdate": "12:00",
   "date": "2026-07-06"
 }
