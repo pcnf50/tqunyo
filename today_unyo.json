@@ -4354,15 +4354,25 @@
     },
     {
       "op": "52S",
+      "form": "-",
+      "cars": "0",
+      "no": "352-191",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:35"
+    },
+    {
+      "op": "52S",
       "form": "9119F",
       "cars": "6",
       "no": "352-191",
       "destCode": "新横浜",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "19:40"
+      "delay": "",
+      "updated": "19:37"
     }
   ],
-  "lastUpdate": "19:40",
+  "lastUpdate": "19:41",
   "date": "2026-07-06"
 }
