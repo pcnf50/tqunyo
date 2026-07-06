@@ -4531,18 +4531,8 @@
       "kind": "急",
       "delay": "",
       "updated": "21:01"
-    },
-    {
-      "op": "82M",
-      "form": "-",
-      "cars": "0",
-      "no": "582-211",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "21:54"
     }
   ],
-  "lastUpdate": "21:54",
+  "lastUpdate": "21:55",
   "date": "2026-07-06"
 }
