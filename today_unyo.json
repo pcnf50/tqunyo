@@ -4531,18 +4531,8 @@
       "kind": "急",
       "delay": "",
       "updated": "21:01"
-    },
-    {
-      "op": "45T",
-      "form": "-",
-      "cars": "0",
-      "no": "445-211",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "21:41"
     }
   ],
-  "lastUpdate": "21:41",
+  "lastUpdate": "21:42",
   "date": "2026-07-06"
 }
