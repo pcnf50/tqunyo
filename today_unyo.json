@@ -4193,16 +4193,26 @@
       "updated": "18:35"
     },
     {
+      "op": "33K",
+      "form": "3108F",
+      "cars": "8",
+      "no": "233-182",
+      "destCode": "三田線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "18:52"
+    },
+    {
       "op": "04K",
       "form": "21102F",
       "cars": "8",
       "no": "204-181",
       "destCode": "相鉄線直通",
       "kind": "急",
-      "delay": "",
-      "updated": "18:51"
+      "delay": "1分遅れ",
+      "updated": "18:52"
     }
   ],
-  "lastUpdate": "18:51",
+  "lastUpdate": "18:52",
   "date": "2026-07-06"
 }
