@@ -2079,6 +2079,16 @@
       "kind": "急",
       "delay": "",
       "updated": "22:50"
+    },
+    {
+      "op": "05K",
+      "form": "-",
+      "cars": "0",
+      "no": "005-231",
+      "destCode": "菊名",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:34"
     }
   ],
   "meguro": [
@@ -4593,6 +4603,6 @@
       "updated": "22:40"
     }
   ],
-  "lastUpdate": "23:33",
+  "lastUpdate": "23:34",
   "date": "2026-07-06"
 }
