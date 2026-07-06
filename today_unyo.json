@@ -1909,6 +1909,16 @@
       "kind": "通",
       "delay": "",
       "updated": "18:15"
+    },
+    {
+      "op": "95G",
+      "form": "-",
+      "cars": "0",
+      "no": "995-181",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:24"
     }
   ],
   "meguro": [
@@ -4103,6 +4113,6 @@
       "updated": "18:20"
     }
   ],
-  "lastUpdate": "18:23",
+  "lastUpdate": "18:24",
   "date": "2026-07-06"
 }
