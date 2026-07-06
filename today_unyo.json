@@ -2138,7 +2138,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "00:46"
+      "updated": "00:47"
     },
     {
       "op": "84K",
@@ -2148,17 +2148,17 @@
       "destCode": "菊名",
       "kind": "回",
       "delay": "",
-      "updated": "00:46"
+      "updated": "00:47"
     },
     {
       "op": "45K",
       "form": "5164F",
       "cars": "8",
-      "no": "045-242",
-      "destCode": "武蔵小杉",
+      "no": "045-241",
+      "destCode": "元住吉",
       "kind": "回",
-      "delay": "3分遅れ",
-      "updated": "00:46"
+      "delay": "",
+      "updated": "00:47"
     }
   ],
   "meguro": [
@@ -4710,29 +4710,19 @@
       "destCode": "菊名",
       "kind": "回",
       "delay": "",
-      "updated": "00:46"
+      "updated": "00:47"
     },
     {
       "op": "45T",
       "form": "-",
       "cars": "8",
-      "no": "045-242",
-      "destCode": "武蔵小杉",
-      "kind": "回",
-      "delay": "3分遅れ",
-      "updated": "00:46"
-    },
-    {
-      "op": "44T",
-      "form": "-",
-      "cars": "8",
-      "no": "044-242",
+      "no": "045-241",
       "destCode": "元住吉",
       "kind": "回",
-      "delay": "1分遅れ",
-      "updated": "00:46"
+      "delay": "",
+      "updated": "00:47"
     }
   ],
-  "lastUpdate": "00:46",
+  "lastUpdate": "00:47",
   "date": "2026-07-07"
 }
