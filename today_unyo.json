@@ -1918,7 +1918,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:29"
+      "updated": "18:30"
     },
     {
       "op": "90",
@@ -1927,8 +1927,8 @@
       "no": "590-181",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "18:29"
+      "delay": "2分遅れ",
+      "updated": "18:30"
     }
   ],
   "meguro": [
@@ -4150,7 +4150,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "18:29"
+      "updated": "18:30"
     },
     {
       "op": "10K",
@@ -4160,7 +4160,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:29"
+      "updated": "18:30"
     }
   ],
   "lastUpdate": "18:30",
