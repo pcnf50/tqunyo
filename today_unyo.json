@@ -2082,23 +2082,13 @@
     },
     {
       "op": "05K",
-      "form": "-",
-      "cars": "8",
-      "no": "005-231",
-      "destCode": "菊名",
-      "kind": "普",
-      "delay": "",
-      "updated": "23:35"
-    },
-    {
-      "op": "05K",
       "form": "Y511F",
       "cars": "8",
       "no": "005-231",
       "destCode": "菊名",
       "kind": "普",
       "delay": "",
-      "updated": "23:40"
+      "updated": "23:38"
     }
   ],
   "meguro": [
