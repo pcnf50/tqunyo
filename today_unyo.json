@@ -3931,8 +3931,18 @@
       "kind": "普",
       "delay": "1分遅れ",
       "updated": "17:25"
+    },
+    {
+      "op": "56S",
+      "form": "9107F",
+      "cars": "6",
+      "no": "356-171",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:26"
     }
   ],
-  "lastUpdate": "17:25",
+  "lastUpdate": "17:26",
   "date": "2026-07-06"
 }
