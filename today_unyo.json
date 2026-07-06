@@ -1826,9 +1826,9 @@
       "cars": "8",
       "no": "031-162",
       "destCode": "副都心線直通",
-      "kind": "回",
+      "kind": "普",
       "delay": "",
-      "updated": "16:55"
+      "updated": "16:58"
     }
   ],
   "meguro": [
@@ -3860,9 +3860,9 @@
       "destCode": "副都心線直通",
       "kind": "回",
       "delay": "",
-      "updated": "16:55"
+      "updated": "16:58"
     }
   ],
-  "lastUpdate": "17:00",
+  "lastUpdate": "17:01",
   "date": "2026-07-06"
 }
