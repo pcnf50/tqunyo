@@ -1829,6 +1829,16 @@
       "kind": "普",
       "delay": "",
       "updated": "16:58"
+    },
+    {
+      "op": "03T",
+      "form": "-",
+      "cars": "0",
+      "no": "803-171",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "16:59"
     }
   ],
   "meguro": [
