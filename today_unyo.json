@@ -4601,6 +4601,16 @@
       "kind": "普",
       "delay": "",
       "updated": "22:40"
+    },
+    {
+      "op": "99",
+      "form": "3112F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:45"
     }
   ],
   "lastUpdate": "23:45",
