@@ -1586,9 +1586,9 @@
       "cars": "6",
       "no": "465-101",
       "destCode": "元住吉",
-      "kind": "普",
+      "kind": "回",
       "delay": "14分遅れ",
-      "updated": "10:35"
+      "updated": "10:40"
     }
   ],
   "meguro": [
@@ -3171,8 +3171,18 @@
       "kind": "普",
       "delay": "9分遅れ",
       "updated": "10:30"
+    },
+    {
+      "op": "79",
+      "form": "-",
+      "cars": "10",
+      "no": "779-102",
+      "destCode": "副都心線直通",
+      "kind": "Ｆ",
+      "delay": "1分遅れ",
+      "updated": "10:40"
     }
   ],
-  "lastUpdate": "10:35",
+  "lastUpdate": "10:40",
   "date": "2026-07-06"
 }
