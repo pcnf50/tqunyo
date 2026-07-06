@@ -4531,8 +4531,18 @@
       "kind": "急",
       "delay": "",
       "updated": "21:01"
+    },
+    {
+      "op": "31K",
+      "form": "-",
+      "cars": "0",
+      "no": "231-211",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "21:52"
     }
   ],
-  "lastUpdate": "21:51",
+  "lastUpdate": "21:52",
   "date": "2026-07-06"
 }
