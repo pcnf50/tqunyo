@@ -1269,6 +1269,16 @@
       "kind": "急",
       "delay": "",
       "updated": "08:25"
+    },
+    {
+      "op": "67",
+      "form": "-",
+      "cars": "6",
+      "no": "467-081",
+      "destCode": "日吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:30"
     }
   ],
   "meguro": [
@@ -2611,8 +2621,28 @@
       "kind": "通",
       "delay": "",
       "updated": "08:25"
+    },
+    {
+      "op": "88M",
+      "form": "9101F",
+      "cars": "6",
+      "no": "588-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "08:30"
+    },
+    {
+      "op": "31K",
+      "form": "3104F",
+      "cars": "8",
+      "no": "231-082",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "08:30"
     }
   ],
-  "lastUpdate": "08:25",
+  "lastUpdate": "08:30",
   "date": "2026-07-07"
 }
