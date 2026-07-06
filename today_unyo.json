@@ -2018,7 +2018,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "19:30"
+      "updated": "19:31"
     }
   ],
   "meguro": [
@@ -4350,9 +4350,9 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "1分遅れ",
-      "updated": "19:30"
+      "updated": "19:31"
     }
   ],
-  "lastUpdate": "19:30",
+  "lastUpdate": "19:31",
   "date": "2026-07-06"
 }
