@@ -2089,6 +2089,16 @@
       "kind": "普",
       "delay": "",
       "updated": "23:38"
+    },
+    {
+      "op": "99G",
+      "form": "5174F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "23:52"
     }
   ],
   "meguro": [
@@ -4613,6 +4623,6 @@
       "updated": "23:49"
     }
   ],
-  "lastUpdate": "23:51",
+  "lastUpdate": "23:52",
   "date": "2026-07-06"
 }
