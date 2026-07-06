@@ -4200,7 +4200,7 @@
       "destCode": "三田線直通",
       "kind": "回",
       "delay": "",
-      "updated": "18:52"
+      "updated": "18:53"
     },
     {
       "op": "04K",
@@ -4210,9 +4210,9 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "1分遅れ",
-      "updated": "18:52"
+      "updated": "18:53"
     }
   ],
-  "lastUpdate": "18:52",
+  "lastUpdate": "18:53",
   "date": "2026-07-06"
 }
