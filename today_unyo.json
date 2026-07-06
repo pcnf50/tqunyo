@@ -4611,18 +4611,8 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "23:49"
-    },
-    {
-      "op": "08K",
-      "form": "-",
-      "cars": "0",
-      "no": "208-231",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "23:50"
     }
   ],
-  "lastUpdate": "23:50",
+  "lastUpdate": "23:51",
   "date": "2026-07-06"
 }
