@@ -2039,6 +2039,16 @@
       "kind": "通",
       "delay": "",
       "updated": "20:03"
+    },
+    {
+      "op": "91G",
+      "form": "-",
+      "cars": "0",
+      "no": "991-201",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:08"
     }
   ],
   "meguro": [
