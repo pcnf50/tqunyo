@@ -1879,6 +1879,16 @@
       "kind": "普",
       "delay": "",
       "updated": "17:50"
+    },
+    {
+      "op": "30K",
+      "form": "5119F",
+      "cars": "8",
+      "no": "030-172",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "17:59"
     }
   ],
   "meguro": [
@@ -4021,8 +4031,18 @@
       "kind": "普",
       "delay": "",
       "updated": "17:57"
+    },
+    {
+      "op": "30S",
+      "form": "5189F",
+      "cars": "8",
+      "no": "030-172",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "17:59"
     }
   ],
-  "lastUpdate": "17:58",
+  "lastUpdate": "17:59",
   "date": "2026-07-06"
 }
