@@ -1868,7 +1868,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:29"
+      "updated": "17:30"
     }
   ],
   "meguro": [
@@ -3950,7 +3950,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "17:29"
+      "updated": "17:30"
     },
     {
       "op": "15K",
@@ -3960,7 +3960,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:29"
+      "updated": "17:30"
     },
     {
       "op": "83T",
@@ -3970,9 +3970,9 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "17:29"
+      "updated": "17:30"
     }
   ],
-  "lastUpdate": "17:29",
+  "lastUpdate": "17:30",
   "date": "2026-07-06"
 }
