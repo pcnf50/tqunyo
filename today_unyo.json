@@ -3841,8 +3841,18 @@
       "kind": "急",
       "delay": "",
       "updated": "16:15"
+    },
+    {
+      "op": "81T",
+      "form": "-",
+      "cars": "0",
+      "no": "481-161",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "16:40"
     }
   ],
-  "lastUpdate": "16:39",
+  "lastUpdate": "16:40",
   "date": "2026-07-06"
 }
