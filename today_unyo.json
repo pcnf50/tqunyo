@@ -1919,6 +1919,16 @@
       "kind": "急",
       "delay": "",
       "updated": "18:29"
+    },
+    {
+      "op": "90",
+      "form": "-",
+      "cars": "6",
+      "no": "590-181",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "18:29"
     }
   ],
   "meguro": [
