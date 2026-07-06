@@ -1942,13 +1942,13 @@
     },
     {
       "op": "53S",
-      "form": "-",
-      "cars": "0",
+      "form": "10123F",
+      "cars": "10",
       "no": "753-181",
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "18:43"
+      "updated": "18:44"
     }
   ],
   "meguro": [
@@ -4193,6 +4193,6 @@
       "updated": "18:35"
     }
   ],
-  "lastUpdate": "18:43",
+  "lastUpdate": "18:44",
   "date": "2026-07-06"
 }
