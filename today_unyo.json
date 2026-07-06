@@ -4161,6 +4161,16 @@
       "kind": "急",
       "delay": "",
       "updated": "18:29"
+    },
+    {
+      "op": "77T",
+      "form": "-",
+      "cars": "0",
+      "no": "477-181",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:31"
     }
   ],
   "lastUpdate": "18:31",
