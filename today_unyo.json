@@ -4561,18 +4561,8 @@
       "kind": "普",
       "delay": "",
       "updated": "22:03"
-    },
-    {
-      "op": "59T",
-      "form": "-",
-      "cars": "0",
-      "no": "459-221",
-      "destCode": "新横浜",
-      "kind": "急",
-      "delay": "",
-      "updated": "22:07"
     }
   ],
-  "lastUpdate": "22:07",
+  "lastUpdate": "22:08",
   "date": "2026-07-06"
 }
