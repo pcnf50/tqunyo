@@ -2018,7 +2018,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "19:31"
+      "updated": "19:33"
     }
   ],
   "meguro": [
@@ -4349,8 +4349,18 @@
       "no": "763-191",
       "destCode": "元町・中華街",
       "kind": "通",
+      "delay": "2分遅れ",
+      "updated": "19:33"
+    },
+    {
+      "op": "52S",
+      "form": "-",
+      "cars": "0",
+      "no": "352-191",
+      "destCode": "新横浜",
+      "kind": "急",
       "delay": "",
-      "updated": "19:31"
+      "updated": "19:35"
     }
   ],
   "lastUpdate": "19:35",
