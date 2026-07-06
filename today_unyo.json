@@ -3181,8 +3181,18 @@
       "kind": "Ｆ",
       "delay": "1分遅れ",
       "updated": "10:40"
+    },
+    {
+      "op": "71T",
+      "form": "6321F",
+      "cars": "6",
+      "no": "471-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "20分遅れ",
+      "updated": "10:45"
     }
   ],
-  "lastUpdate": "10:40",
+  "lastUpdate": "10:45",
   "date": "2026-07-06"
 }
