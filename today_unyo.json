@@ -2251,6 +2251,16 @@
       "kind": "急",
       "delay": "",
       "updated": "07:45"
+    },
+    {
+      "op": "84M",
+      "form": "9110F",
+      "cars": "6",
+      "no": "584-071",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:45"
     }
   ],
   "lastUpdate": "07:45",
