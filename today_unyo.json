@@ -881,6 +881,16 @@
       "updated": "07:00"
     },
     {
+      "op": "22M",
+      "form": "6115F",
+      "cars": "10",
+      "no": "122-071",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:10"
+    },
+    {
       "op": "62",
       "form": "-",
       "cars": "6",
@@ -888,7 +898,17 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "07:05"
+      "updated": "07:10"
+    },
+    {
+      "op": "49",
+      "form": "-",
+      "cars": "6",
+      "no": "449-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "07:10"
     },
     {
       "op": "22",
@@ -898,7 +918,7 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:05"
+      "updated": "07:10"
     }
   ],
   "meguro": [
@@ -1783,6 +1803,16 @@
       "updated": "07:00"
     },
     {
+      "op": "91",
+      "form": "-",
+      "cars": "10",
+      "no": "791-061",
+      "destCode": "元町・中華街",
+      "kind": "回",
+      "delay": "",
+      "updated": "07:10"
+    },
+    {
       "op": "40S",
       "form": "9119F",
       "cars": "6",
@@ -1790,7 +1820,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "07:05"
+      "updated": "07:10"
     },
     {
       "op": "02",
@@ -1800,7 +1830,17 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:05"
+      "updated": "07:10"
+    },
+    {
+      "op": "56S",
+      "form": "-",
+      "cars": "0",
+      "no": "356-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:10"
     },
     {
       "op": "63G",
@@ -1810,7 +1850,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "07:05"
+      "updated": "07:10"
     },
     {
       "op": "53T",
@@ -1820,9 +1860,19 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "07:05"
+      "updated": "07:10"
+    },
+    {
+      "op": "55T",
+      "form": "6501F",
+      "cars": "8",
+      "no": "455-071",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "07:10"
     }
   ],
-  "lastUpdate": "07:05",
+  "lastUpdate": "07:10",
   "date": "2026-07-07"
 }
