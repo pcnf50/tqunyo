@@ -1708,7 +1708,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "11分遅れ",
-      "updated": "12:05"
+      "updated": "12:10"
     }
   ],
   "meguro": [
@@ -3469,8 +3469,8 @@
       "no": "346-111",
       "destCode": "新横浜",
       "kind": "普",
-      "delay": "5分遅れ",
-      "updated": "12:05"
+      "delay": "6分遅れ",
+      "updated": "12:10"
     },
     {
       "op": "47",
@@ -3480,9 +3480,9 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "12:05"
+      "updated": "12:10"
     }
   ],
-  "lastUpdate": "12:05",
+  "lastUpdate": "12:10",
   "date": "2026-07-06"
 }
