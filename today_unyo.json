@@ -2058,7 +2058,7 @@
       "destCode": "相鉄線直通",
       "kind": "回",
       "delay": "",
-      "updated": "20:50"
+      "updated": "20:49"
     }
   ],
   "meguro": [
@@ -4520,7 +4520,17 @@
       "destCode": "相鉄線直通",
       "kind": "回",
       "delay": "",
-      "updated": "20:50"
+      "updated": "20:49"
+    },
+    {
+      "op": "48K",
+      "form": "-",
+      "cars": "0",
+      "no": "248-201",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:49"
     }
   ],
   "lastUpdate": "20:53",
