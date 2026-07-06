@@ -4561,8 +4561,18 @@
       "kind": "普",
       "delay": "",
       "updated": "22:01"
+    },
+    {
+      "op": "68S",
+      "form": "9108F",
+      "cars": "6",
+      "no": "368-221",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:02"
     }
   ],
-  "lastUpdate": "22:01",
+  "lastUpdate": "22:02",
   "date": "2026-07-06"
 }
