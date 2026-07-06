@@ -4194,15 +4194,15 @@
     },
     {
       "op": "04K",
-      "form": "-",
-      "cars": "0",
+      "form": "21102F",
+      "cars": "8",
       "no": "204-181",
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:49"
+      "updated": "18:50"
     }
   ],
-  "lastUpdate": "18:49",
+  "lastUpdate": "18:50",
   "date": "2026-07-06"
 }
