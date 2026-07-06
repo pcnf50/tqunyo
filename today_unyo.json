@@ -999,6 +999,16 @@
       "kind": "普",
       "delay": "",
       "updated": "07:23"
+    },
+    {
+      "op": "11",
+      "form": "-",
+      "cars": "8",
+      "no": "211-071",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "07:24"
     }
   ],
   "meguro": [
@@ -2013,6 +2023,6 @@
       "updated": "07:23"
     }
   ],
-  "lastUpdate": "07:23",
+  "lastUpdate": "07:24",
   "date": "2026-07-07"
 }
