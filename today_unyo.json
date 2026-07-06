@@ -2069,6 +2069,16 @@
       "kind": "通",
       "delay": "2分遅れ",
       "updated": "22:03"
+    },
+    {
+      "op": "13T",
+      "form": "9106F",
+      "cars": "10",
+      "no": "813-221",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "22:49"
     }
   ],
   "meguro": [
@@ -4583,6 +4593,6 @@
       "updated": "22:40"
     }
   ],
-  "lastUpdate": "22:48",
+  "lastUpdate": "22:49",
   "date": "2026-07-06"
 }
