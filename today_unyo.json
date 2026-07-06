@@ -1147,8 +1147,8 @@
       "no": "053-072",
       "destCode": "副都心線直通",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "07:53"
+      "delay": "",
+      "updated": "07:54"
     }
   ],
   "meguro": [
@@ -2339,10 +2339,10 @@
       "no": "053-072",
       "destCode": "副都心線直通",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "07:53"
+      "delay": "",
+      "updated": "07:54"
     }
   ],
-  "lastUpdate": "07:53",
+  "lastUpdate": "07:54",
   "date": "2026-07-07"
 }
