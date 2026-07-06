@@ -4521,6 +4521,16 @@
       "kind": "回",
       "delay": "",
       "updated": "20:50"
+    },
+    {
+      "op": "04K",
+      "form": "3105F",
+      "cars": "8",
+      "no": "204-202",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:59"
     }
   ],
   "lastUpdate": "20:59",
