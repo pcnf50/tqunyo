@@ -2008,7 +2008,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "22:00"
+      "updated": "22:05"
     }
   ],
   "meguro": [
@@ -4322,6 +4322,16 @@
       "updated": "21:45"
     },
     {
+      "op": "68S",
+      "form": "9108F",
+      "cars": "6",
+      "no": "368-221",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:05"
+    },
+    {
       "op": "21K",
       "form": "3101F",
       "cars": "8",
@@ -4329,9 +4339,9 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "22:00"
+      "updated": "22:05"
     }
   ],
-  "lastUpdate": "22:00",
+  "lastUpdate": "22:05",
   "date": "2026-07-07"
 }
