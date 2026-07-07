@@ -4362,6 +4362,16 @@
       "updated": "22:10"
     },
     {
+      "op": "29K",
+      "form": "-",
+      "cars": "0",
+      "no": "229-221",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:20"
+    },
+    {
       "op": "36K",
       "form": "5181F",
       "cars": "8",
@@ -4369,9 +4379,9 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "22:15"
+      "updated": "22:20"
     }
   ],
-  "lastUpdate": "22:15",
+  "lastUpdate": "22:20",
   "date": "2026-07-07"
 }
