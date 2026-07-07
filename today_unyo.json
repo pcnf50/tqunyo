@@ -1366,8 +1366,8 @@
       "no": "475-081",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "08:50"
+      "delay": "2分遅れ",
+      "updated": "08:55"
     }
   ],
   "meguro": [
@@ -2807,8 +2807,8 @@
       "no": "346-081",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "7分遅れ",
-      "updated": "08:50"
+      "delay": "6分遅れ",
+      "updated": "08:55"
     },
     {
       "op": "73T",
@@ -2818,9 +2818,9 @@
       "destCode": "元住吉",
       "kind": "普",
       "delay": "7分遅れ",
-      "updated": "08:50"
+      "updated": "08:55"
     }
   ],
-  "lastUpdate": "08:50",
+  "lastUpdate": "08:55",
   "date": "2026-07-08"
 }
