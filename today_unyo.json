@@ -1918,6 +1918,16 @@
       "kind": "通",
       "delay": "",
       "updated": "18:20"
+    },
+    {
+      "op": "09S",
+      "form": "-",
+      "cars": "8",
+      "no": "709-172",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:25"
     }
   ],
   "meguro": [
@@ -3990,6 +4000,6 @@
       "updated": "18:20"
     }
   ],
-  "lastUpdate": "18:20",
+  "lastUpdate": "18:25",
   "date": "2026-07-08"
 }
