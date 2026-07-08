@@ -1736,8 +1736,8 @@
       "no": "461-111",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "8分遅れ",
-      "updated": "12:00"
+      "delay": "7分遅れ",
+      "updated": "12:05"
     }
   ],
   "meguro": [
@@ -3517,9 +3517,19 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "9分遅れ",
-      "updated": "12:00"
+      "updated": "12:05"
+    },
+    {
+      "op": "47",
+      "form": "-",
+      "cars": "10",
+      "no": "747-111",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "12:05"
     }
   ],
-  "lastUpdate": "12:00",
+  "lastUpdate": "12:05",
   "date": "2026-07-08"
 }
