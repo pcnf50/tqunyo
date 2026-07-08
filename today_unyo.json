@@ -3431,15 +3431,15 @@
     },
     {
       "op": "36S",
-      "form": "-",
-      "cars": "0",
+      "form": "3105F",
+      "cars": "8",
       "no": "336-111",
       "destCode": "新横浜",
       "kind": "普",
       "delay": "5分遅れ",
-      "updated": "11:30"
+      "updated": "11:35"
     }
   ],
-  "lastUpdate": "11:30",
+  "lastUpdate": "11:35",
   "date": "2026-07-08"
 }
