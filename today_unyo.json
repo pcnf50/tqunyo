@@ -2581,9 +2581,19 @@
       "kind": "普",
       "delay": "",
       "updated": "22:15"
+    },
+    {
+      "op": "33G",
+      "form": "21102F",
+      "cars": "8",
+      "no": "633-221",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:30"
     }
   ],
-  "lastUpdate": "22:25",
+  "lastUpdate": "22:30",
   "date": "2026-07-08",
   "resetDone": false
 }
