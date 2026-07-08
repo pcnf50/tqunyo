@@ -2701,9 +2701,19 @@
       "kind": "普",
       "delay": "",
       "updated": "23:15"
+    },
+    {
+      "op": "18",
+      "form": "5188F",
+      "cars": "8",
+      "no": "018-231",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:30"
     }
   ],
-  "lastUpdate": "23:25",
+  "lastUpdate": "23:30",
   "date": "2026-07-08",
   "resetDone": false
 }
