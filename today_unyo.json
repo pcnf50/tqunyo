@@ -1878,6 +1878,16 @@
       "kind": "急",
       "delay": "",
       "updated": "17:35"
+    },
+    {
+      "op": "65",
+      "form": "-",
+      "cars": "6",
+      "no": "465-172",
+      "destCode": "三田線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "17:40"
     }
   ],
   "meguro": [
@@ -3900,6 +3910,6 @@
       "updated": "17:35"
     }
   ],
-  "lastUpdate": "17:35",
+  "lastUpdate": "17:40",
   "date": "2026-07-08"
 }
