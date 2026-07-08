@@ -3688,8 +3688,18 @@
       "kind": "普",
       "delay": "",
       "updated": "14:25"
+    },
+    {
+      "op": "49T",
+      "form": "6333F",
+      "cars": "6",
+      "no": "449-141",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "14:35"
     }
   ],
-  "lastUpdate": "14:30",
+  "lastUpdate": "14:35",
   "date": "2026-07-08"
 }
