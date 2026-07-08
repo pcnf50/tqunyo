@@ -1618,6 +1618,16 @@
       "kind": "普",
       "delay": "13分遅れ",
       "updated": "10:55"
+    },
+    {
+      "op": "79",
+      "form": "-",
+      "cars": "8",
+      "no": "479-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "9分遅れ",
+      "updated": "11:00"
     }
   ],
   "meguro": [
@@ -3308,8 +3318,18 @@
       "kind": "特",
       "delay": "",
       "updated": "10:55"
+    },
+    {
+      "op": "50S",
+      "form": "9108F",
+      "cars": "6",
+      "no": "350-101",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "13分遅れ",
+      "updated": "11:00"
     }
   ],
-  "lastUpdate": "10:55",
+  "lastUpdate": "11:00",
   "date": "2026-07-08"
 }
