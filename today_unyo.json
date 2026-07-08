@@ -2731,9 +2731,19 @@
       "kind": "普",
       "delay": "",
       "updated": "23:40"
+    },
+    {
+      "op": "88K",
+      "form": "5181F",
+      "cars": "8",
+      "no": "288-232",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "23:45"
     }
   ],
-  "lastUpdate": "23:40",
+  "lastUpdate": "23:45",
   "date": "2026-07-08",
   "resetDone": false
 }
