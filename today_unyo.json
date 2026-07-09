@@ -1592,13 +1592,13 @@
     },
     {
       "op": "99G",
-      "form": "5174F",
+      "form": "17185F",
       "cars": "8",
       "no": "999-990",
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "00:30"
+      "updated": "00:35"
     }
   ],
   "meguro": [
@@ -3191,9 +3191,19 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "23:50"
+    },
+    {
+      "op": "43K",
+      "form": "3103F",
+      "cars": "8",
+      "no": "243-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "2分遅れ",
+      "updated": "00:35"
     }
   ],
-  "lastUpdate": "00:30",
+  "lastUpdate": "00:35",
   "date": "2026-07-10",
   "resetDone": false
 }
