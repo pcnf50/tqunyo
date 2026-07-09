@@ -881,14 +881,14 @@
       "updated": "17:06"
     },
     {
-      "op": "06K",
+      "op": "70",
       "form": "-",
-      "cars": "8",
-      "no": "006-171",
-      "destCode": "元町・中華街",
+      "cars": "6",
+      "no": "370-161",
+      "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "17:11"
+      "updated": "17:16"
     },
     {
       "op": "37",
@@ -898,7 +898,17 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:11"
+      "updated": "17:16"
+    },
+    {
+      "op": "14",
+      "form": "-",
+      "cars": "8",
+      "no": "214-172",
+      "destCode": "武蔵小杉",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:16"
     }
   ],
   "meguro": [
@@ -1750,20 +1760,30 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:11"
+      "updated": "17:16"
     },
     {
       "op": "07K",
-      "form": "-",
-      "cars": "0",
+      "form": "5185F",
+      "cars": "8",
       "no": "207-171",
       "destCode": "相鉄線直通",
       "kind": "普",
       "delay": "",
-      "updated": "17:11"
+      "updated": "17:16"
+    },
+    {
+      "op": "14K",
+      "form": "3111F",
+      "cars": "8",
+      "no": "214-172",
+      "destCode": "武蔵小杉",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:16"
     }
   ],
-  "lastUpdate": "17:11",
+  "lastUpdate": "17:16",
   "date": "2026-07-09",
   "resetDone": false
 }
