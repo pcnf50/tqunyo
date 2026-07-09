@@ -1008,7 +1008,7 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:46"
+      "updated": "17:51"
     },
     {
       "op": "83",
@@ -1018,7 +1018,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "17:46"
+      "updated": "17:51"
     },
     {
       "op": "18",
@@ -1028,7 +1028,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:46"
+      "updated": "17:51"
     },
     {
       "op": "28M",
@@ -1038,7 +1038,17 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "17:46"
+      "updated": "17:51"
+    },
+    {
+      "op": "55",
+      "form": "-",
+      "cars": "8",
+      "no": "455-172",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:51"
     }
   ],
   "meguro": [
@@ -2030,17 +2040,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "17:46"
-    },
-    {
-      "op": "89",
-      "form": "-",
-      "cars": "10",
-      "no": "789-171",
-      "destCode": "元町・中華街",
-      "kind": "通",
-      "delay": "",
-      "updated": "17:46"
+      "updated": "17:51"
     },
     {
       "op": "18K",
@@ -2050,7 +2050,17 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:46"
+      "updated": "17:51"
+    },
+    {
+      "op": "55T",
+      "form": "6513F",
+      "cars": "8",
+      "no": "455-172",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:51"
     },
     {
       "op": "75T",
@@ -2060,10 +2070,20 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "17:46"
+      "updated": "17:51"
+    },
+    {
+      "op": "31G",
+      "form": "21106F",
+      "cars": "8",
+      "no": "631-171",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:51"
     }
   ],
-  "lastUpdate": "17:46",
+  "lastUpdate": "17:51",
   "date": "2026-07-09",
   "resetDone": false
 }
