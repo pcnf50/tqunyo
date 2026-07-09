@@ -2541,9 +2541,19 @@
       "kind": "通",
       "delay": "1分遅れ",
       "updated": "19:06"
+    },
+    {
+      "op": "59T",
+      "form": "6318F",
+      "cars": "6",
+      "no": "459-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:11"
     }
   ],
-  "lastUpdate": "19:06",
+  "lastUpdate": "19:11",
   "date": "2026-07-09",
   "resetDone": false
 }
