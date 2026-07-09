@@ -1589,6 +1589,16 @@
       "kind": "不明",
       "delay": "",
       "updated": "00:05"
+    },
+    {
+      "op": "99G",
+      "form": "5174F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "00:30"
     }
   ],
   "meguro": [
@@ -3183,7 +3193,7 @@
       "updated": "23:50"
     }
   ],
-  "lastUpdate": "00:25",
+  "lastUpdate": "00:30",
   "date": "2026-07-10",
   "resetDone": false
 }
