@@ -2431,9 +2431,29 @@
       "kind": "普",
       "delay": "",
       "updated": "18:46"
+    },
+    {
+      "op": "28",
+      "form": "-",
+      "cars": "10",
+      "no": "128-182",
+      "destCode": "副都心線直通",
+      "kind": "通",
+      "delay": "",
+      "updated": "18:51"
+    },
+    {
+      "op": "04K",
+      "form": "5190F",
+      "cars": "8",
+      "no": "204-181",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:51"
     }
   ],
-  "lastUpdate": "18:46",
+  "lastUpdate": "18:51",
   "date": "2026-07-09",
   "resetDone": false
 }
