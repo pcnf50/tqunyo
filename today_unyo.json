@@ -1099,6 +1099,16 @@
       "kind": "普",
       "delay": "2分遅れ",
       "updated": "18:06"
+    },
+    {
+      "op": "60",
+      "form": "-",
+      "cars": "6",
+      "no": "360-171",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:11"
     }
   ],
   "meguro": [
@@ -2181,9 +2191,29 @@
       "kind": "回",
       "delay": "",
       "updated": "18:06"
+    },
+    {
+      "op": "46K",
+      "form": "3113F",
+      "cars": "8",
+      "no": "246-182",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "18:11"
+    },
+    {
+      "op": "41T",
+      "form": "6326F",
+      "cars": "6",
+      "no": "441-181",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:11"
     }
   ],
-  "lastUpdate": "18:06",
+  "lastUpdate": "18:11",
   "date": "2026-07-09",
   "resetDone": false
 }
