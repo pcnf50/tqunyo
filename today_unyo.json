@@ -1519,6 +1519,16 @@
       "kind": "通",
       "delay": "",
       "updated": "22:05"
+    },
+    {
+      "op": "65K",
+      "form": "4108F",
+      "cars": "10",
+      "no": "065-212",
+      "destCode": "武蔵小杉",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "22:10"
     }
   ],
   "meguro": [
@@ -3061,9 +3071,19 @@
       "kind": "普",
       "delay": "",
       "updated": "22:05"
+    },
+    {
+      "op": "65G",
+      "form": "-",
+      "cars": "10",
+      "no": "065-212",
+      "destCode": "武蔵小杉",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "22:10"
     }
   ],
-  "lastUpdate": "22:05",
+  "lastUpdate": "22:10",
   "date": "2026-07-09",
   "resetDone": false
 }
