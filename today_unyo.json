@@ -2873,17 +2873,17 @@
       "updated": "20:35"
     },
     {
-      "op": "43T",
+      "op": "69T",
       "form": "-",
       "cars": "0",
-      "no": "443-201",
-      "destCode": "新横浜",
+      "no": "469-201",
+      "destCode": "元住吉",
       "kind": "普",
       "delay": "",
-      "updated": "20:40"
+      "updated": "20:45"
     }
   ],
-  "lastUpdate": "20:40",
+  "lastUpdate": "20:45",
   "date": "2026-07-09",
   "resetDone": false
 }
