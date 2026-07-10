@@ -2019,6 +2019,16 @@
       "kind": "通",
       "delay": "",
       "updated": "19:35"
+    },
+    {
+      "op": "61K",
+      "form": "4105F",
+      "cars": "10",
+      "no": "061-191",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:40"
     }
   ],
   "meguro": [
@@ -4111,6 +4121,6 @@
       "updated": "19:35"
     }
   ],
-  "lastUpdate": "19:35",
+  "lastUpdate": "19:40",
   "date": "2026-07-10"
 }
