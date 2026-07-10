@@ -2149,6 +2149,16 @@
       "kind": "不明",
       "delay": "",
       "updated": "23:55"
+    },
+    {
+      "op": "99G",
+      "form": "5162F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "00:50"
     }
   ],
   "meguro": [
@@ -4411,6 +4421,6 @@
       "updated": "00:45"
     }
   ],
-  "lastUpdate": "00:45",
+  "lastUpdate": "00:50",
   "date": "2026-07-11"
 }
