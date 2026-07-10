@@ -1767,8 +1767,8 @@
       "no": "767-151",
       "destCode": "元町・中華街",
       "kind": "急",
-      "delay": "",
-      "updated": "16:00"
+      "delay": "1分遅れ",
+      "updated": "16:05"
     }
   ],
   "meguro": [
@@ -3612,6 +3612,6 @@
       "updated": "15:55"
     }
   ],
-  "lastUpdate": "16:00",
+  "lastUpdate": "16:05",
   "date": "2026-07-10"
 }
