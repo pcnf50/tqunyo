@@ -1558,7 +1558,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "18:30"
+      "updated": "18:35"
     }
   ],
   "meguro": [
@@ -3141,18 +3141,8 @@
       "kind": "特",
       "delay": "",
       "updated": "18:25"
-    },
-    {
-      "op": "39G",
-      "form": "-",
-      "cars": "0",
-      "no": "639-181",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "18:30"
     }
   ],
-  "lastUpdate": "18:30",
+  "lastUpdate": "18:35",
   "date": "2026-07-11"
 }
