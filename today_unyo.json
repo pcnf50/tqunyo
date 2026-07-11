@@ -1789,6 +1789,16 @@
       "kind": "不明",
       "delay": "",
       "updated": "23:35"
+    },
+    {
+      "op": "37",
+      "form": "5119F",
+      "cars": "8",
+      "no": "237-242",
+      "destCode": "目黒",
+      "kind": "回",
+      "delay": "",
+      "updated": "00:05"
     }
   ],
   "meguro": [
@@ -3593,16 +3603,16 @@
       "updated": "23:35"
     },
     {
-      "op": "22K",
-      "form": "-",
-      "cars": "0",
-      "no": "222-241",
-      "destCode": "新横浜",
-      "kind": "普",
+      "op": "37K",
+      "form": "5189F",
+      "cars": "8",
+      "no": "237-242",
+      "destCode": "目黒",
+      "kind": "回",
       "delay": "",
-      "updated": "00:00"
+      "updated": "00:05"
     }
   ],
-  "lastUpdate": "00:00",
+  "lastUpdate": "00:05",
   "date": "2026-07-12"
 }
