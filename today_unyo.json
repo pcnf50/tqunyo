@@ -1349,6 +1349,16 @@
       "kind": "普",
       "delay": "",
       "updated": "11:25"
+    },
+    {
+      "op": "47K",
+      "form": "4110F",
+      "cars": "10",
+      "no": "047-111",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "11:35"
     }
   ],
   "meguro": [
@@ -2703,6 +2713,6 @@
       "updated": "11:25"
     }
   ],
-  "lastUpdate": "11:30",
+  "lastUpdate": "11:35",
   "date": "2026-07-11"
 }
