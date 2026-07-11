@@ -2871,8 +2871,18 @@
       "kind": "普",
       "delay": "1分遅れ",
       "updated": "13:55"
+    },
+    {
+      "op": "35G",
+      "form": "-",
+      "cars": "0",
+      "no": "635-131",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "14:00"
     }
   ],
-  "lastUpdate": "13:55",
+  "lastUpdate": "14:00",
   "date": "2026-07-11"
 }
