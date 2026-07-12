@@ -1908,6 +1908,26 @@
       "kind": "不明",
       "delay": "",
       "updated": "00:35"
+    },
+    {
+      "op": "99G",
+      "form": "5170F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "00:40"
+    },
+    {
+      "op": "89",
+      "form": "5118F",
+      "cars": "8",
+      "no": "289-241",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "00:40"
     }
   ],
   "meguro": [
@@ -3820,8 +3840,28 @@
       "kind": "普",
       "delay": "",
       "updated": "00:15"
+    },
+    {
+      "op": "99",
+      "form": "3105F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:40"
+    },
+    {
+      "op": "89K",
+      "form": "5188F",
+      "cars": "8",
+      "no": "289-241",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "00:40"
     }
   ],
-  "lastUpdate": "00:35",
+  "lastUpdate": "00:40",
   "date": "2026-07-13"
 }
