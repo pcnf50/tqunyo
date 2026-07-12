@@ -1499,6 +1499,16 @@
       "kind": "普",
       "delay": "1分遅れ",
       "updated": "15:55"
+    },
+    {
+      "op": "96",
+      "form": "-",
+      "cars": "6",
+      "no": "596-151",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "16:10"
     }
   ],
   "meguro": [
@@ -3011,8 +3021,18 @@
       "kind": "普",
       "delay": "4分遅れ",
       "updated": "16:05"
+    },
+    {
+      "op": "42S",
+      "form": "9107F",
+      "cars": "6",
+      "no": "342-151",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "12分遅れ",
+      "updated": "16:10"
     }
   ],
-  "lastUpdate": "16:05",
+  "lastUpdate": "16:10",
   "date": "2026-07-12"
 }
