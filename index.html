@@ -635,6 +635,20 @@
       </div>
     </div>
 
+    <!-- AI運用予測管理用パネル (デザインシステム統合) -->
+    <div style="margin: 0 4px 10px 4px; padding: 12px; background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; font-size: 13px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+      <div style="font-weight: 700; color: var(--toyoko); display: flex; justify-content: space-between; align-items: center;">
+        <span style="display: flex; align-items: center; gap: 4px;">🤖 Gemini AI 運用予測生成</span>
+        <button type="button" id="toggleAiPanel" class="action-link" style="margin:0; padding:2px 8px;">表示</button>
+      </div>
+      <div id="aiPanelContent" style="display: none; flex-direction: column; gap: 8px; margin-top: 8px;">
+        <div style="display: flex; justify-content: flex-end;">
+          <button type="button" id="runAiYosoku" class="refresh-btn" style="width: 100%; min-height: 38px; background: var(--toyoko); color: white; border-color: var(--toyoko);">AI予測実行</button>
+        </div>
+        <div id="aiStatus" style="font-size: 11px; color: var(--text-sub); font-weight: 600;">過去3週間の実績データを基にAIが周期推論します。</div>
+      </div>
+    </div>
+
     <div class="search-container">
       <div class="search-wrapper">
         <input type="search" id="searchOp" class="search-input" placeholder="運番検索 (例: 01K)" aria-label="運用番号の検索">
@@ -642,7 +656,7 @@
       </div>
       <div class="search-wrapper">
         <input type="search" id="searchForm" class="search-input" placeholder="編成検索 (例: 4101)" aria-label="編成の検索">
-        <button class="clear-search-btn" id="clearFormBtn" aria-label="クリア">×</button>
+        <button class="clear-search-btn" id="clearFormBtn" aria-label="クリア">?</button>
       </div>
     </div>
 
@@ -683,7 +697,7 @@
           <tr>
             <th style="width: 30%;" data-sort="op">運用</th>
             <th style="width: 40%;" data-sort="form">編成</th>
-            <th style="width: 30%;" id="yosokuHeaderTitle">明日 ➔ 翌々日</th>
+            <th style="width: 30%;" id="yosokuHeaderTitle">明日 ? 翌々日</th>
           </tr>
         </thead>
         <tbody id="toyokoTableBody"></tbody>
@@ -823,7 +837,7 @@
       if (selectedDate === todayStr) {
         if(refreshBtn) refreshBtn.style.display = "inline-flex";
         if(backToTodayBtn) backToTodayBtn.style.display = "none";
-        if(yosokuHeader) yosokuHeader.textContent = "明日 ➔ 翌々日";
+        if(yosokuHeader) yosokuHeader.textContent = "明日 ? 翌々日";
 
         const resUnyo = await fetch("./today_unyo.json" + cacheBuster, {cache:"no-store"});
         if(!resUnyo.ok) throw new Error("本日の運用ファイル(today_unyo.json)が読み込めません。");
@@ -910,7 +924,7 @@
           </div>
           <div class="modal-unyo-route" style="margin-top: 4px;">
             <span>${train.from || "始発駅不明"} (${train.dep || "--:--"})</span>
-            <span>➔</span>
+            <span>?</span>
             <span>${train.to || "終着駅不明"} (${train.arr || "--:--"})</span>
           </div>
         `;
@@ -1056,7 +1070,7 @@
           const json = await res.json();
           let targetLine = json["toyoko"] || [];
           
-          // メインテーブルと同様の運番除外ロジックを追加
+          // メメインテーブルと同様の運番除外ロジックを追加
           targetLine = targetLine.filter(t => {
             const noStr = t.no ? String(t.no) : "";
             if (noStr.length > 0) {
@@ -1212,7 +1226,7 @@
         }
       }
 
-      const combinedYosoku = `${tomorrowText}➔${dayAfterText}`;
+      const combinedYosoku = `${tomorrowText}?${dayAfterText}`;
       return { ...t, yosoku: combinedYosoku };
     });
 
@@ -1372,8 +1386,8 @@
       }
 
       let yosokuDisplay = t.yosoku || "-";
-      if (yosokuDisplay === "-➔-") {
-        yosokuDisplay = `<span class="yosoku-none">-➔-</span>`;
+      if (yosokuDisplay === "-?-") {
+        yosokuDisplay = `<span class="yosoku-none">-?-</span>`;
       }
 
       const safeOp = (t.op || "").replace(/'/g, "\\'");
@@ -1462,6 +1476,162 @@
 
   // 初回ロード実行
   window.addEventListener("DOMContentLoaded", loadData);
+
+  // ==========================================
+  // ? 追加: Gemini AI 運用予測ロジック
+  // ==========================================
+  const toggleAiPanelBtn = document.getElementById("toggleAiPanel");
+  const aiPanelContent = document.getElementById("aiPanelContent");
+  const runAiYosokuBtn = document.getElementById("runAiYosoku");
+  const aiStatus = document.getElementById("aiStatus");
+
+  toggleAiPanelBtn?.addEventListener("click", () => {
+    if (aiPanelContent.style.display === "none") {
+      aiPanelContent.style.display = "flex";
+      toggleAiPanelBtn.textContent = "閉じる";
+    } else {
+      aiPanelContent.style.display = "none";
+      toggleAiPanelBtn.textContent = "表示";
+    }
+  });
+
+  runAiYosokuBtn?.addEventListener("click", async () => {
+    // --- 自身のAPIキーに書き換えてください ---
+    const apiKey = "AQ.Ab8RN6LovgYktk5nbTng_S8Pg4RwDicIcmMwCGStEBtAsrNwmg";
+    
+    if (!apiKey || apiKey === "AQ.Ab8RN6LovgYktk5nbTng_S8Pg4RwDicIcmMwCGStEBtAsrNwmg") {
+      aiStatus.textContent = "?? コード内のapiKey設定部分に正しいAPIキーを設定してください。";
+      aiStatus.style.color = "#b91c1c";
+      return;
+    }
+
+    runAiYosokuBtn.disabled = true;
+    aiStatus.style.color = "var(--text-sub)";
+    aiStatus.textContent = "? 過去3週間の運用実績データを収集中...";
+
+    try {
+      const selectedDateStr = archiveDateInput ? archiveDateInput.value : todayStr;
+      const baseDate = new Date(selectedDateStr);
+      
+      const historyData = [];
+      const cacheBuster = `?_=${Date.now()}`;
+
+      // 過去3週間（21日間）の実績をFetchループ
+      for (let i = 21; i >= 0; i--) {
+        const d = new Date(baseDate.getTime());
+        d.setDate(d.getDate() - i);
+        const dateStr = d.toLocaleDateString('sv-SE');
+        
+        let url = `./archive/${dateStr}.json` + cacheBuster;
+        if (dateStr === todayStr) {
+          url = "./today_unyo.json" + cacheBuster;
+        }
+
+        try {
+          const res = await fetch(url, { cache: "no-store" });
+          if (res.ok) {
+            const json = await res.json();
+            if (json && json.toyoko) {
+              // トークン節約のためにマッピング
+              const dayData = json.toyoko.map(t => ({
+                op: t.op,
+                form: t.form
+              })).filter(t => t.op && t.form && t.form !== "-");
+              
+              historyData.push({
+                date: dateStr,
+                dayOfWeek: d.getDay(), 
+                unyo: dayData
+              });
+            }
+          }
+        } catch (e) {
+          console.warn(`${dateStr} データ取得スキップ:`, e);
+        }
+      }
+
+      if (historyData.length === 0) {
+        throw new Error("過去の運用履歴データを読み込めませんでした。");
+      }
+
+      aiStatus.textContent = "? Gemini API 周期パターンを解析中...";
+
+      const tomorrowKey = getYosokuKey(1, baseDate);
+      const dayAfterTomorrowKey = getYosokuKey(2, baseDate);
+
+      // 構造化出力を求めるシステムプロンプトの構成
+      const prompt = `あなたは鉄道の運用計画・分析のエキスパートです。
+提示された過去3週間の東横線の運用実績データ（各日付における、運用番号[op]と充当された編成番号[form]のペア）を徹底分析し、同じ編成が翌日にどの運用番号へ流れるか（周期性・規則性、平日・土休日の流れパターンの違い）を特定してください。
+
+その分析結果に基づき、基準日「${selectedDateStr}」の翌日（予測対象キー: "${tomorrowKey}"）および翌々日（予測対象キー: "${dayAfterTomorrowKey}"）において、各運用番号（例: "01K", "51K", "02S" など）が「翌日にどの運用番号に流れるか」を論理的に予測してください。
+
+【過去3週間の運用実績データ】
+${JSON.stringify(historyData, null, 2)}
+
+【必須出力フォーマット】
+必ず、以下のJSONフォーマットのテキストのみを返答してください。余計な解説文や、Markdownのコードブロック（\`\`\`jsonなど）は絶対に含めないでください。
+{
+  "${tomorrowKey}": {
+    "01K": "02K",
+    "02K": "03K"
+  },
+  "${dayAfterTomorrowKey}": {
+    "01K": "02K",
+    "02K": "03K"
+  }
+}
+※もし1つの運用から翌日複数の運用へ流れる可能性（周期の分岐）が推論される場合は、"01K": ["02K", "03K"] のように配列形式で格納してください。`;
+
+      // Gemini 2.5 Flash APIへのリクエスト (Response MimeTypeにJSONを指定)
+      const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+      const response = await fetch(apiUrl, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: {
+            responseMimeType: "application/json"
+          }
+        })
+      });
+
+      if (!response.ok) {
+        const errJson = await response.json();
+        throw new Error(errJson.error?.message || "Gemini APIの通信に失敗しました。");
+      }
+
+      const resData = await response.json();
+      let aiText = resData.candidates?.[0]?.content?.parts?.[0]?.text;
+      
+      if (!aiText) {
+        throw new Error("Geminiから正常なレスポンスが返りませんでした。");
+      }
+
+      aiText = aiText.replace(/```json/g, "").replace(/```/g, "").trim();
+      const aiYosokuJson = JSON.parse(aiText);
+
+      // 既存の予測用オブジェクト変数(rawYosokuData)にAI予測データを上書きセット
+      if (aiYosokuJson[tomorrowKey]) {
+        rawYosokuData[tomorrowKey] = aiYosokuJson[tomorrowKey];
+      }
+      if (aiYosokuJson[dayAfterTomorrowKey]) {
+        rawYosokuData[dayAfterTomorrowKey] = aiYosokuJson[dayAfterTomorrowKey];
+      }
+
+      // テーブルの再描画
+      renderTable("toyoko");
+
+      aiStatus.style.color = "#16a34a";
+      aiStatus.textContent = "? Gemini AI による3週間解析の運用予測を反映しました！";
+
+    } catch (error) {
+      console.error(error);
+      aiStatus.style.color = "#b91c1c";
+      aiStatus.textContent = `? エラー: ${error.message}`;
+    } finally {
+      runAiYosokuBtn.disabled = false;
+    }
+  });
 </script>
 </body>
 </html>
