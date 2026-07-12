@@ -21,6 +21,7 @@
       --overlay-bg: rgba(15, 23, 42, 0.4);
     }
 
+    /* ダークモード用の変数定義 */
     [data-theme="dark"] {
       --bg-color: #0f172a;
       --card-bg: #1e293b;
@@ -45,6 +46,7 @@
       transition: background-color 0.3s, color 0.3s;
     }
 
+    /* モーダル表示時に背景スクロールを禁止するクラス */
     body.modal-open {
       overflow: hidden;
     }
@@ -87,6 +89,7 @@
       background: #334155;
     }
 
+    /* テーマ切り替えボタン */
     .theme-toggle-btn {
       background: var(--card-bg);
       border: 1px solid var(--border-color);
@@ -227,6 +230,7 @@
       background: #475569;
     }
 
+    /* 形式絞り込みアコーディオン */
     .filter-accordion {
       margin: 0 4px 12px 4px;
       border: 1px solid var(--border-color);
@@ -345,28 +349,6 @@
       box-shadow: 0 2px 4px rgba(218, 4, 66, 0.15);
     }
 
-    .ai-summary-box {
-      margin: 0 4px 12px 4px;
-      padding: 12px;
-      background: var(--card-bg);
-      border: 1px solid var(--border-color);
-      border-radius: 8px;
-      font-size: 13px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-    }
-    .ai-summary-title {
-      font-weight: 800;
-      color: var(--toyoko);
-      margin-bottom: 6px;
-    }
-    [data-theme="dark"] .ai-summary-title {
-      color: #fda4af;
-    }
-    .ai-summary-content {
-      margin: 0;
-      padding-left: 18px;
-    }
-
     .table-container {
       background: var(--card-bg);
       border-radius: 8px;
@@ -409,6 +391,7 @@
       font-weight: 700;
     }
 
+    /* 運番セル内のクリック可能デザイン */
     .clickable-op {
       cursor: pointer;
       user-select: none;
@@ -420,6 +403,7 @@
       }
     }
 
+    /* 編成セル内のクリック可能デザイン */
     .clickable-form-cell {
       cursor: pointer;
       user-select: none;
@@ -455,6 +439,7 @@
       font-weight: normal;
     }
 
+    /* 車両交換時のスタイル（最優先・赤文字化） */
     .changed-form {
       color: var(--toyoko);
       font-weight: 700;
@@ -463,6 +448,7 @@
       color: #fda4af;
     }
 
+    /* 代走時のスタイル（黒字のまま太字） */
     .daiso-form {
       color: var(--text-main);
       font-weight: 800;
@@ -481,6 +467,7 @@
       font-weight: 600;
     }
 
+    /* --- 確認時刻・運用表表示用 モーダルUI --- */
     .modal-overlay {
       position: fixed;
       top: 0;
@@ -507,7 +494,7 @@
       border-radius: 12px;
       width: 90%;
       max-width: 440px;
-      max-height: 85vh;
+      max-height: 85vh; /* スマホ向けに高さを少し拡張 */
       padding: 20px;
       box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
       transform: scale(0.95);
@@ -543,6 +530,7 @@
       font-weight: 700;
     }
     
+    /* 運用表タイムライン表示領域 */
     .modal-unyohyo-container {
       flex-grow: 1;
       overflow-y: auto;
@@ -550,7 +538,7 @@
       padding-top: 12px;
       margin-bottom: 16px;
       text-align: left;
-      -webkit-overflow-scrolling: touch;
+      -webkit-overflow-scrolling: touch; /* スマホでのスクロールを滑らかに */
     }
     .modal-unyo-card {
       background: var(--table-stripe);
@@ -610,12 +598,12 @@
       color: var(--text-main);
       font-size: 14px;
       font-weight: 700;
-      padding: 12px;
+      padding: 12px; /* タップしやすく少し太く */
       border-radius: 8px;
       cursor: pointer;
       transition: background-color 0.15s;
       flex-shrink: 0;
-      min-height: 44px;
+      min-height: 44px; /* スマホのタップ領域規格 */
     }
     @media (hover: hover) {
       .modal-close-btn:hover {
@@ -630,7 +618,7 @@
   <header>
     <div class="header-left">
       <h1 id="mainTitle" style="color: var(--toyoko);">東横線 運用・編成一覧</h1>
-      <div class="version-tag">v3.0.0</div>
+      <div class="version-tag">v2.6.0</div>
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
@@ -689,11 +677,6 @@
       </div>
     </details>
 
-    <div class="ai-summary-box" id="aiSummaryBox" style="display: none;">
-      <div class="ai-summary-title">🤖 AI 運用動向分析 (事実のみ)</div>
-      <ul class="ai-summary-content" id="aiSummaryContent"></ul>
-    </div>
-
     <div class="table-container">
       <table>
         <thead>
@@ -735,6 +718,7 @@
 </div>
 
 <script>
+  // --- テーマ管理 ---
   const themeToggleBtn = document.getElementById("themeToggle");
   
   function initTheme() {
@@ -760,9 +744,10 @@
 
   initTheme();
 
+  // --- メインロジック系 ---
   let rawUnyoData = {};
-  let aiYosokuData = {};
-  let globalUnyohyoData = {};
+  let rawYosokuData = {};
+  let globalUnyohyoData = {}; // 運用表JSONを保持するグローバル変数
   let sortState = { toyoko: { key: "op", asc: true } };
   let autoRefreshInterval = null;
 
@@ -770,6 +755,7 @@
   const archiveDateInput = document.getElementById("archiveDate");
   const backToTodayBtn = document.getElementById("backToToday");
 
+  // モーダル用要素
   const timeModalOverlay = document.getElementById("timeModalOverlay");
   const modalOpTitle = document.getElementById("modalOpTitle");
   const modalTimeBody = document.getElementById("modalTimeBody");
@@ -778,6 +764,7 @@
   const modalCloseBtn = document.getElementById("modalCloseBtn");
   const modalOpHistoryBtn = document.getElementById("modalOpHistoryBtn");
 
+  // 編成履歴モーダル用要素
   const formHistoryModalOverlay = document.getElementById("formHistoryModalOverlay");
   const modalHistoryTitle = document.getElementById("modalHistoryTitle");
   const modalHistoryFormTitle = document.getElementById("modalHistoryFormTitle");
@@ -790,77 +777,19 @@
     archiveDateInput.max = todayStr;
   }
 
-  const API_KEY = "AQ.Ab8RN6LovgYktk5nbTng_S8Pg4RwDicIcmMwCGStEBtAsrNwmg";
-
-  async function fetchArchiveDataForThreeWeeks() {
-    const archiveDataList = [];
-    const cacheBuster = `?_=${Date.now()}`;
-    for (let i = 1; i <= 21; i++) {
-      const d = new Date();
-      d.setDate(d.getDate() - i);
-      const dateStr = d.toLocaleDateString('sv-SE');
-      try {
-        const res = await fetch(`./archive/${dateStr}.json` + cacheBuster, {cache: "no-store"});
-        if (res.ok) {
-          const json = await res.json();
-          archiveDataList.push({ date: dateStr, data: json.toyoko || [] });
-        }
-      } catch (e) {}
-    }
-    return archiveDataList;
+  function getYosokuKey(offset = 1, baseDate = new Date()) {
+    const d = new Date(baseDate.getTime());
+    d.setDate(d.getDate() + (offset - 1)); 
+    const day = d.getDay(); 
+    if (day === 5) return "friday";   
+    if (day === 6) return "saturday"; 
+    if (day === 0) return "sunday";   
+    return "weekday";                 
   }
 
-  async function generateAiAnalysis(todayUnyo, archiveData) {
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
-    
-    const dayOfWeek = new Date().getDay();
-    const days = ["日", "月", "火", "水", "木", "金", "土"];
-    const currentDayName = days[dayOfWeek];
-
-    const prompt = `
-あなたは鉄道の運用表データ処理専門のAIです。提供されたデータソースの事実のみに基づき、指定のJSON形式で出力してください。独自の推測、解説、挨拶などは一切含めないでください。
-
-【本日の曜日】
-${currentDayName}曜日
-
-【本日の実績データ】
-${JSON.stringify(todayUnyo)}
-
-【過去3週間の実績データ】
-${JSON.stringify(archiveData)}
-
-【出力JSONフォーマット】
-{
-  "predictions": {
-    "運番(例:01K)": "明日予測➔翌々日予測"
-  },
-  "today_summary": [
-    "事実に基づく当日の運用動向・代走・車両交換の状況（箇条書き用文字列）"
-  ]
-}
-
-※predictionsは本日の全運番に対して明日と翌々日の予測を一括生成してください。
-※today_summaryにはデータから完全に確認できる代走や交換の事実、編成の稼働のみを記載してください。
-`;
-
-    try {
-      const response = await fetch(url, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: { responseMimeType: "application/json" }
-        })
-      });
-      if (response.ok) {
-        const resJson = await response.json();
-        const contentText = resJson.candidates[0].content.parts[0].text;
-        aiYosokuData = JSON.parse(contentText);
-      }
-    } catch (e) {
-      console.error("Gemini API Error:", e);
-    }
-  }
+  window.callback = function(data) {
+    rawYosokuData = data;
+  };
 
   async function loadData() {
     const errDiv = document.getElementById("errorDisplay");
@@ -872,6 +801,7 @@ ${JSON.stringify(archiveData)}
       if(errDiv) errDiv.style.display = "none";
       const cacheBuster = `?_=${Date.now()}`;
 
+      // 絶対URLから固定で読み込み
       try {
         await new Promise(r => {
           const s = document.createElement("script");
@@ -880,10 +810,15 @@ ${JSON.stringify(archiveData)}
             globalUnyohyoData = window.unyohyoCallback || {};
             r();
           };
-          s.onerror = () => { r(); };
+          s.onerror = () => {
+            console.warn("運用表(unyohyo.js)の読み込みに失敗しました");
+            r();
+          };
           document.body.appendChild(s);
         });
-      } catch (e) {}
+      } catch (e) {
+        console.warn("運用表処理でエラーが発生しました:", e);
+      }
 
       if (selectedDate === todayStr) {
         if(refreshBtn) refreshBtn.style.display = "inline-flex";
@@ -894,34 +829,38 @@ ${JSON.stringify(archiveData)}
         if(!resUnyo.ok) throw new Error("本日の運用ファイル(today_unyo.json)が読み込めません。");
         rawUnyoData = await resUnyo.json();
 
-        const archiveThreeWeeks = await fetchArchiveDataForThreeWeeks();
-        await generateAiAnalysis(rawUnyoData.toyoko || [], archiveThreeWeeks);
+        await new Promise((resolve, reject) => {
+          const oldScript = document.getElementById("yosokuScript");
+          if(oldScript) oldScript.remove();
+
+          const script = document.createElement("script");
+          script.id = "yosokuScript";
+          script.charset = "UTF-8";
+          script.src = "https://nfhanyo.web.fc2.com/tokyu/tyunyoyosoku.js" + cacheBuster;
+          
+          script.onload = () => resolve();
+          script.onerror = () => {
+            rawYosokuData = {};
+            reject(new Error("予測データの通信に失敗しました(404またはネットワークエラー)"));
+          };
+          document.body.appendChild(script);
+        });
 
         const tsText = `本日分データ (${rawUnyoData.lastUpdate || ""} 時点)`;
         document.getElementById("toyokoTimestamp").textContent = tsText;
 
-        const summaryBox = document.getElementById("aiSummaryBox");
-        const summaryContent = document.getElementById("aiSummaryContent");
-        if (summaryBox && summaryContent && aiYosokuData.today_summary && aiYosokuData.today_summary.length > 0) {
-          summaryContent.innerHTML = aiYosokuData.today_summary.map(item => `<li>${item}</li>`).join("");
-          summaryBox.style.display = "block";
-        } else if (summaryBox) {
-          summaryBox.style.display = "none";
-        }
-
         startTimer();
+
       } else {
         if(refreshBtn) refreshBtn.style.display = "none";
         if(backToTodayBtn) backToTodayBtn.style.display = "inline-flex";
         if(yosokuHeader) yosokuHeader.textContent = "予測データ";
         stopTimer();
 
-        document.getElementById("aiSummaryBox").style.display = "none";
-
         const resArchive = await fetch(`./archive/${selectedDate}.json` + cacheBuster, {cache:"no-store"});
         if(!resArchive.ok) throw new Error(`${selectedDate} のアーカイブデータが見つかりません。`);
         rawUnyoData = await resArchive.json();
-        aiYosokuData = {}; 
+        rawYosokuData = {}; 
 
         document.getElementById("toyokoTimestamp").textContent = `${selectedDate} の実績データ`;
       }
@@ -936,6 +875,7 @@ ${JSON.stringify(archiveData)}
     }
   }
 
+// 確認時刻と運用表のUI表示用関数（モーダル）
   function showUpdateTime(op, updatedTime, form) {
     if(!timeModalOverlay || !modalOpTitle || !modalTimeBody || !modalFormTitle || !modalUnyohyoContainer || !modalOpHistoryBtn) return;
     
@@ -944,13 +884,17 @@ ${JSON.stringify(archiveData)}
     modalFormTitle.textContent = `編成: ${form && form.trim() !== "" ? form : "未登録"}`;
 
     modalUnyohyoContainer.scrollTop = 0;
+    
+    // 運用表コンテナの初期化
     modalUnyohyoContainer.innerHTML = "";
 
+    // 選択された日付文字列から曜日を安全に取得 (JST固定)
     const selectedDate = archiveDateInput ? archiveDateInput.value : todayStr;
     const dateParts = selectedDate.split("-");
     const day = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]).getDay();
     const dayKey = (day === 0 || day === 6) ? "saturdayholiday" : "weekday";
 
+    // 運番キーを大文字化・トリムして完全一致検索
     const searchOpKey = op.trim().toUpperCase();
     const unyoSchedule = (globalUnyohyoData[dayKey] && globalUnyohyoData[dayKey][searchOpKey]) ? globalUnyohyoData[dayKey][searchOpKey] : null;
 
@@ -958,6 +902,8 @@ ${JSON.stringify(archiveData)}
       unyoSchedule.forEach((train) => {
         const card = document.createElement("div");
         card.className = "modal-unyo-card";
+
+        // 種別と上り下り（direction）を完全に排除し、列番と経路のみに絞り込み
         card.innerHTML = `
           <div class="modal-unyo-card-header">
             <span>列車番号: ${train.train_no || "不明"}</span>
@@ -968,17 +914,20 @@ ${JSON.stringify(archiveData)}
             <span>${train.to || "終着駅不明"} (${train.arr || "--:--"})</span>
           </div>
         `;
+
         modalUnyohyoContainer.appendChild(card);
       });
     } else {
       modalUnyohyoContainer.innerHTML = `<div style="text-align:center; color:var(--text-sub); font-size:13px; padding:20px 0;">この日の運用表スケジュールデータはありません。</div>`;
     }
 
+    // ボタンに現在の運番を設定して、クリック時に過去履歴を呼べるようにする
     modalOpHistoryBtn.onclick = () => {
       closeModal();
       showOpHistory(searchOpKey);
     };
 
+    // 背景のスクロールを禁止
     document.body.classList.add("modal-open");
     timeModalOverlay.classList.add("is-active");
   }
@@ -986,6 +935,7 @@ ${JSON.stringify(archiveData)}
   function closeModal() {
     if(timeModalOverlay) {
       timeModalOverlay.classList.remove("is-active");
+      // 背景のスクロール制限を解除
       document.body.classList.remove("modal-open");
     }
   }
@@ -997,6 +947,7 @@ ${JSON.stringify(archiveData)}
     });
   }
 
+  // 運番履歴取得用ロジック
   async function showOpHistory(op) {
     if(!op || !formHistoryModalOverlay || !modalHistoryTitle || !modalHistoryFormTitle || !modalHistoryContainer) return;
 
@@ -1033,12 +984,15 @@ ${JSON.stringify(archiveData)}
               const firstChar = noStr.charAt(0);
               if (["2", "3", "4", "5", "6"].includes(firstChar)) return false;
             }
+            
             const opStr = t.op ? String(t.op).trim().toUpperCase() : "";
             if (opStr.startsWith("99")) return false;
+
             return true;
           });
 
           const matchedForms = targetLine.filter(t => (t.op || "").trim().toUpperCase() === op).map(t => t.form || "-");
+          
           if (matchedForms.length > 0) {
             historyRows.push({ date: dateStr, displayVal: Array.from(new Set(matchedForms)).join(", ") });
           } else {
@@ -1056,10 +1010,12 @@ ${JSON.stringify(archiveData)}
     historyRows.forEach(row => {
       const rowDiv = document.createElement("div");
       rowDiv.className = "modal-history-row";
+      
       let valStyle = 'font-weight:700; color:var(--text-main);';
       if (row.displayVal === "運用なし" || row.displayVal === "データなし" || row.displayVal === "エラー") {
         valStyle = 'font-weight:normal; color:var(--text-sub); opacity:0.6;';
       }
+
       rowDiv.innerHTML = `
         <span style="font-weight:700;">${row.date}</span>
         <span style="${valStyle}">${row.displayVal}</span>
@@ -1068,6 +1024,7 @@ ${JSON.stringify(archiveData)}
     });
   }
 
+  // 編成履歴取得用ロジック
   async function showFormHistory(form) {
     if(!form || form === "-" || !formHistoryModalOverlay || !modalHistoryTitle || !modalHistoryFormTitle || !modalHistoryContainer) return;
 
@@ -1082,6 +1039,7 @@ ${JSON.stringify(archiveData)}
     const cacheBuster = `?_=${Date.now()}`;
     const historyRows = [];
 
+    // 本日を起点に直近7日分を非同期でフェッチ
     for(let i = 0; i < 7; i++) {
       const d = new Date();
       d.setDate(d.getDate() - i);
@@ -1098,18 +1056,22 @@ ${JSON.stringify(archiveData)}
           const json = await res.json();
           let targetLine = json["toyoko"] || [];
           
+          // メインテーブルと同様の運番除外ロジックを追加
           targetLine = targetLine.filter(t => {
             const noStr = t.no ? String(t.no) : "";
             if (noStr.length > 0) {
               const firstChar = noStr.charAt(0);
               if (["2", "3", "4", "5", "6"].includes(firstChar)) return false;
             }
+            
             const opStr = t.op ? String(t.op).trim().toUpperCase() : "";
             if (opStr.startsWith("99")) return false;
+
             return true;
           });
 
           const matchedOps = targetLine.filter(t => (t.form || "").trim() === form).map(t => t.op || "-");
+          
           if (matchedOps.length > 0) {
             historyRows.push({ date: dateStr, displayVal: Array.from(new Set(matchedOps)).join(", ") });
           } else {
@@ -1127,10 +1089,13 @@ ${JSON.stringify(archiveData)}
     historyRows.forEach(row => {
       const rowDiv = document.createElement("div");
       rowDiv.className = "modal-history-row";
+      
+      // 運用があった場合の運番テキストカラーを var(--text-main)（通常の文字色）に変更
       let valStyle = 'font-weight:700; color:var(--text-main);';
       if (row.displayVal === "運用なし" || row.displayVal === "データなし" || row.displayVal === "エラー") {
         valStyle = 'font-weight:normal; color:var(--text-sub); opacity:0.6;';
       }
+
       rowDiv.innerHTML = `
         <span style="font-weight:700;">${row.date}</span>
         <span style="${valStyle}">${row.displayVal}</span>
@@ -1167,8 +1132,10 @@ ${JSON.stringify(archiveData)}
         const firstChar = noStr.charAt(0);
         if (["2", "3", "4", "5", "6"].includes(firstChar)) return false;
       }
+      
       const opStr = t.op ? String(t.op).trim().toUpperCase() : "";
       if (opStr.startsWith("99")) return false;
+
       return true;
     });
 
@@ -1198,16 +1165,54 @@ ${JSON.stringify(archiveData)}
     });
 
     const selectedDate = archiveDateInput ? archiveDateInput.value : todayStr;
+    const baseDate = new Date(selectedDate);
+
+    const tomorrowKey = getYosokuKey(1, baseDate);
+    const dayAfterTomorrowKey = getYosokuKey(2, baseDate);
+    
+    const yosokuTomorrowBlock = rawYosokuData[tomorrowKey] || {};
+    const yosokuDayAfterBlock = rawYosokuData[dayAfterTomorrowKey] || {};
 
     list = list.map(t => {
       const op = (t.op || "").toUpperCase();
+      
       if (selectedDate !== todayStr && t.yosoku) {
         return t;
       }
-      let combinedYosoku = "-➔-";
-      if (aiYosokuData.predictions && aiYosokuData.predictions[op]) {
-        combinedYosoku = aiYosokuData.predictions[op];
+
+      const predTomorrow = yosokuTomorrowBlock[op];
+      let tomorrowArray = [];
+      let tomorrowText = "-";
+
+      if (predTomorrow) {
+        tomorrowArray = Array.isArray(predTomorrow) ? predTomorrow : [predTomorrow];
+        tomorrowText = tomorrowArray.join(" / ");
       }
+
+      let dayAfterText = "-";
+      if (tomorrowArray.length > 0) {
+        let dayAfterArray = [];
+        
+        tomorrowArray.forEach(tomOp => {
+          const tomOpUpper = tomOp.trim().toUpperCase();
+          if (tomOpUpper === "元検") return;
+
+          const predDayAfter = yosokuDayAfterBlock[tomOpUpper];
+          if (predDayAfter) {
+            if (Array.isArray(predDayAfter)) {
+              dayAfterArray.push(...predDayAfter);
+            } else {
+              dayAfterArray.push(predDayAfter);
+            }
+          }
+        });
+
+        if (dayAfterArray.length > 0) {
+          dayAfterText = Array.from(new Set(dayAfterArray)).join(" / ");
+        }
+      }
+
+      const combinedYosoku = `${tomorrowText}➔${dayAfterText}`;
       return { ...t, yosoku: combinedYosoku };
     });
 
@@ -1385,6 +1390,7 @@ ${JSON.stringify(archiveData)}
     });
   }
 
+  // --- タイマーとイベント監視設定 ---
   function startTimer() {
     stopTimer();
     autoRefreshInterval = setInterval(() => {
@@ -1401,6 +1407,7 @@ ${JSON.stringify(archiveData)}
     }
   }
 
+  // 検索・絞り込み関連のイベントハンドラ登録
   document.getElementById("searchOp")?.addEventListener("input", () => renderTable("toyoko"));
   document.getElementById("searchForm")?.addEventListener("input", () => renderTable("toyoko"));
   
@@ -1424,6 +1431,7 @@ ${JSON.stringify(archiveData)}
     renderTable("toyoko");
   });
 
+  // テーブルソート設定
   document.querySelectorAll("th[data-sort]").forEach(th => {
     th.addEventListener("click", () => {
       const key = th.getAttribute("data-sort");
@@ -1442,6 +1450,7 @@ ${JSON.stringify(archiveData)}
     });
   });
 
+  // 日付アーカイブ管理
   archiveDateInput?.addEventListener("change", loadData);
   document.getElementById("refreshToyoko")?.addEventListener("click", loadData);
   backToTodayBtn?.addEventListener("click", () => {
@@ -1451,6 +1460,7 @@ ${JSON.stringify(archiveData)}
     }
   });
 
+  // 初回ロード実行
   window.addEventListener("DOMContentLoaded", loadData);
 </script>
 </body>
