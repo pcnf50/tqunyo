@@ -1719,6 +1719,16 @@
       "kind": "急",
       "delay": "",
       "updated": "21:15"
+    },
+    {
+      "op": "51K",
+      "form": "4115F",
+      "cars": "10",
+      "no": "051-211",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "21:20"
     }
   ],
   "meguro": [
@@ -3523,6 +3533,6 @@
       "updated": "21:05"
     }
   ],
-  "lastUpdate": "21:15",
+  "lastUpdate": "21:20",
   "date": "2026-07-12"
 }
