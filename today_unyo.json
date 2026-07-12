@@ -3001,8 +3001,18 @@
       "kind": "普",
       "delay": "6分遅れ",
       "updated": "15:35"
+    },
+    {
+      "op": "96M",
+      "form": "9102F",
+      "cars": "6",
+      "no": "596-151",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "16:00"
     }
   ],
-  "lastUpdate": "15:55",
+  "lastUpdate": "16:00",
   "date": "2026-07-12"
 }
