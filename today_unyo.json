@@ -1507,8 +1507,8 @@
       "no": "596-151",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "4分遅れ",
-      "updated": "16:10"
+      "delay": "3分遅れ",
+      "updated": "16:15"
     }
   ],
   "meguro": [
@@ -3029,10 +3029,10 @@
       "no": "342-151",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "12分遅れ",
-      "updated": "16:10"
+      "delay": "14分遅れ",
+      "updated": "16:15"
     }
   ],
-  "lastUpdate": "16:12",
+  "lastUpdate": "16:15",
   "date": "2026-07-12"
 }
