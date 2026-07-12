@@ -3571,8 +3571,18 @@
       "kind": "特",
       "delay": "",
       "updated": "21:55"
+    },
+    {
+      "op": "67T",
+      "form": "6316F",
+      "cars": "6",
+      "no": "467-221",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:05"
     }
   ],
-  "lastUpdate": "22:00",
+  "lastUpdate": "22:05",
   "date": "2026-07-12"
 }
