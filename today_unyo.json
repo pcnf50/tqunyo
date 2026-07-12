@@ -1546,9 +1546,9 @@
       "cars": "8",
       "no": "023-162",
       "destCode": "渋谷",
-      "kind": "回",
+      "kind": "普",
       "delay": "2分遅れ",
-      "updated": "17:00"
+      "updated": "17:05"
     },
     {
       "op": "14",
@@ -1558,7 +1558,7 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "4分遅れ",
-      "updated": "17:00"
+      "updated": "17:05"
     }
   ],
   "meguro": [
@@ -3118,11 +3118,11 @@
       "cars": "8",
       "no": "023-162",
       "destCode": "渋谷",
-      "kind": "回",
+      "kind": "普",
       "delay": "2分遅れ",
-      "updated": "17:00"
+      "updated": "17:05"
     }
   ],
-  "lastUpdate": "17:00",
+  "lastUpdate": "17:05",
   "date": "2026-07-12"
 }
