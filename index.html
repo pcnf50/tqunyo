@@ -610,6 +610,12 @@
         background-color: var(--border-color);
       }
     }
+    .analysis-panel { margin: 0 4px 12px; padding: 12px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--card-bg); }
+    .analysis-button { width: 100%; min-height: 40px; border: 1px solid var(--toyoko); border-radius: 6px; background: var(--toyoko); color: #fff; cursor: pointer; font-size: 14px; font-weight: 700; }
+    .analysis-button:disabled { opacity: .65; cursor: wait; }
+    .analysis-status { margin-top: 8px; font-size: 13px; color: var(--text-sub); }
+    .analysis-error { margin-top: 8px; font-size: 13px; color: #dc2626; }
+    .analysis-results { margin: 8px 0 0; padding-left: 20px; font-size: 13px; }
   </style>
 </head>
 <body>
@@ -634,6 +640,13 @@
         <button class="today-back-btn" id="backToToday" style="display: none;">今日に戻る</button>
       </div>
     </div>
+
+    <section class="analysis-panel" aria-live="polite">
+      <button type="button" class="analysis-button" id="analyzeToday">今日の車両動向を分析</button>
+      <div class="analysis-status" id="analysisStatus" hidden>分析中です…</div>
+      <div class="analysis-error" id="analysisError" hidden></div>
+      <ul class="analysis-results" id="analysisResults" hidden></ul>
+    </section>
 
     <div class="search-container">
       <div class="search-wrapper">
@@ -1462,6 +1475,43 @@
 
   // 初回ロード実行
   window.addEventListener("DOMContentLoaded", loadData);
+  // AI vehicle movement analysis
+  const analyzeTodayButton = document.getElementById("analyzeToday");
+  const analysisStatus = document.getElementById("analysisStatus");
+  const analysisError = document.getElementById("analysisError");
+  const analysisResults = document.getElementById("analysisResults");
+
+  analyzeTodayButton?.addEventListener("click", async () => {
+    analyzeTodayButton.disabled = true;
+    analysisStatus.hidden = false;
+    analysisError.hidden = true;
+    analysisResults.hidden = true;
+    analysisResults.replaceChildren();
+    try {
+      const response = await fetch("/api/analyze", { cache: "no-store" });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) throw new Error(payload.error || "分析を実行できませんでした。");
+      const summary = Array.isArray(payload.summary) ? payload.summary : [];
+      if (summary.length === 0) {
+        const item = document.createElement("li");
+        item.textContent = "車両交換・代走は確認されませんでした。";
+        analysisResults.appendChild(item);
+      } else {
+        summary.forEach((text) => {
+          const item = document.createElement("li");
+          item.textContent = text;
+          analysisResults.appendChild(item);
+        });
+      }
+      analysisResults.hidden = false;
+    } catch (error) {
+      analysisError.textContent = error instanceof Error ? error.message : "分析を実行できませんでした。";
+      analysisError.hidden = false;
+    } finally {
+      analysisStatus.hidden = true;
+      analyzeTodayButton.disabled = false;
+    }
+  });
 </script>
 </body>
 </html>
