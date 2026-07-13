@@ -2860,8 +2860,18 @@
       "kind": "急",
       "delay": "",
       "updated": "23:35"
+    },
+    {
+      "op": "20K",
+      "form": "-",
+      "cars": "8",
+      "no": "020-231",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "23:40"
     }
   ],
-  "lastUpdate": "23:35",
+  "lastUpdate": "23:40",
   "date": "2026-07-13"
 }
