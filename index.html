@@ -21,7 +21,6 @@
       --overlay-bg: rgba(15, 23, 42, 0.4);
     }
 
-    /* ダークモード用の変数定義 */
     [data-theme="dark"] {
       --bg-color: #0f172a;
       --card-bg: #1e293b;
@@ -46,570 +45,123 @@
       transition: background-color 0.3s, color 0.3s;
     }
 
-    /* モーダル表示時に背景スクロールを禁止するクラス */
-    body.modal-open {
-      overflow: hidden;
-    }
+    body.modal-open { overflow: hidden; }
+    main { max-width: 650px; margin: 0 auto; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; padding: 0 4px; }
+    .header-left { display: flex; align-items: center; gap: 8px; }
+    h1 { margin: 0; font-size: 20px; font-weight: 800; letter-spacing: -0.02em; }
+    .version-tag { font-size: 11px; color: var(--text-sub); font-weight: 700; background: #e2e8f0; padding: 2px 6px; border-radius: 4px; }
+    [data-theme="dark"] .version-tag { background: #334155; }
 
-    main {
-      max-width: 650px;
-      margin: 0 auto;
-    }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 16px;
-      padding: 0 4px;
-    }
-
-    .header-left {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 20px;
-      font-weight: 800;
-      letter-spacing: -0.02em;
-    }
-
-    .version-tag {
-      font-size: 11px;
-      color: var(--text-sub);
-      font-weight: 700;
-      background: #e2e8f0;
-      padding: 2px 6px;
-      border-radius: 4px;
-    }
-    [data-theme="dark"] .version-tag {
-      background: #334155;
-    }
-
-    /* テーマ切り替えボタン */
     .theme-toggle-btn {
-      background: var(--card-bg);
-      border: 1px solid var(--border-color);
-      color: var(--text-main);
-      padding: 6px 10px;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 14px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+      background: var(--card-bg); border: 1px solid var(--border-color); color: var(--text-main);
+      padding: 6px 10px; border-radius: 6px; cursor: pointer; font-size: 14px;
+      display: flex; align-items: center; justify-content: center; box-shadow: 0 1px 2px rgba(0,0,0,0.05);
     }
 
-    .top-bar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 10px;
-      padding: 0 4px;
-      gap: 8px;
+    /* 車両動向分析セクションのスタイル */
+    .analysis-container {
+      margin: 0 4px 16px 4px; padding: 12px; background: var(--card-bg);
+      border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     }
+    .analysis-btn {
+      width: 100%; font-size: 13px; font-weight: 700; padding: 8px; border-radius: 6px;
+      border: 1px solid var(--toyoko); background: transparent; color: var(--toyoko); cursor: pointer;
+      transition: background-color 0.2s; display: inline-flex; align-items: center; justify-content: center;
+    }
+    .analysis-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+    [data-theme="dark"] .analysis-btn { border-color: #fda4af; color: #fda4af; }
+    .analysis-result {
+      margin-top: 10px; font-size: 13px; font-weight: 600; color: var(--text-main);
+      padding: 8px 12px; background: var(--header-bg); border-radius: 6px; border-left: 3px solid var(--toyoko);
+    }
+    [data-theme="dark"] .analysis-result { border-left-color: #fda4af; }
 
-    .timestamp { 
-      font-size: 12px; 
-      color: var(--text-sub); 
-      font-weight: 600; 
-    }
-
-    .control-group {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .date-input {
-      font-size: 13px;
-      font-weight: 700;
-      padding: 5px 8px;
-      border-radius: 6px;
-      border: 1px solid var(--border-color);
-      background: var(--card-bg);
-      color: var(--text-main);
-      min-height: 36px;
-      box-sizing: border-box;
-    }
+    .top-bar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; padding: 0 4px; gap: 8px; }
+    .timestamp { font-size: 12px; color: var(--text-sub); font-weight: 600; }
+    .control-group { display: flex; align-items: center; gap: 6px; }
+    .date-input { font-size: 13px; font-weight: 700; padding: 5px 8px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--card-bg); color: var(--text-main); min-height: 36px; box-sizing: border-box; }
     
     .refresh-btn {
-      font-size: 13px;
-      font-weight: 700;
-      padding: 6px 16px;
-      border-radius: 6px;
-      border: 1px solid var(--border-color);
-      background: var(--card-bg);
-      color: var(--text-main);
-      cursor: pointer;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-      transition: background-color 0.2s, border-color 0.2s;
-      min-height: 36px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
+      font-size: 13px; font-weight: 700; padding: 6px 16px; border-radius: 6px; border: 1px solid var(--border-color);
+      background: var(--card-bg); color: var(--text-main); cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+      transition: background-color 0.2s, border-color 0.2s; min-height: 36px; display: inline-flex; align-items: center; justify-content: center;
     }
-    @media (hover: hover) {
-      .refresh-btn:hover {
-        background: var(--header-bg);
-        border-color: var(--text-sub);
-      }
-    }
+    @media (hover: hover) { .refresh-btn:hover { background: var(--header-bg); border-color: var(--text-sub); } }
+    .today-back-btn { font-size: 13px; font-weight: 700; padding: 6px 14px; border-radius: 6px; border: 1px solid var(--toyoko); background: var(--toyoko); color: #ffffff; cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.05); transition: opacity 0.2s; min-height: 36px; display: inline-flex; align-items: center; justify-content: center; }
 
-    .today-back-btn {
-      font-size: 13px;
-      font-weight: 700;
-      padding: 6px 14px;
-      border-radius: 6px;
-      border: 1px solid var(--toyoko);
-      background: var(--toyoko);
-      color: #ffffff;
-      cursor: pointer;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-      transition: opacity 0.2s;
-      min-height: 36px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-    }
+    .search-container { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px; padding: 0 4px; }
+    .search-wrapper { position: relative; width: 100%; }
+    .search-input { width: 100%; box-sizing: border-box; font-size: 14px; padding: 10px 32px 10px 12px; border-radius: 8px; border: 1px solid var(--border-color); background: var(--card-bg); color: var(--text-main); box-shadow: inset 0 1px 2px rgba(0,0,0,0.05); min-height: 44px; }
+    .search-input:focus { outline: none; border-color: var(--toyoko); box-shadow: 0 0 0 3px rgba(218, 4, 66, 0.15); }
+    .clear-search-btn { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: #cbd5e1; color: #ffffff; border: none; border-radius: 50%; width: 18px; height: 18px; font-size: 11px; cursor: pointer; display: none; align-items: center; justify-content: center; font-weight: bold; padding: 0; }
+    [data-theme="dark"] .clear-search-btn { background: #475569; }
 
-    .search-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
-      margin-bottom: 8px;
-      padding: 0 4px;
-    }
+    .filter-accordion { margin: 0 4px 12px 4px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--card-bg); overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    .accordion-summary { padding: 12px; font-size: 14px; font-weight: 700; color: var(--text-main); cursor: pointer; background: var(--header-bg); user-select: none; outline: none; list-style: none; display: flex; flex-direction: column; gap: 6px; }
+    .accordion-summary::-webkit-details-marker { display: none; }
+    .summary-header { display: flex; justify-content: space-between; width: 100%; align-items: center; }
+    .summary-header::after { content: "＋"; font-size: 14px; color: var(--text-sub); }
+    .filter-accordion[open] .summary-header::after { content: "－"; }
+    .selected-badges-container { display: flex; flex-wrap: wrap; gap: 4px; }
+    .badge-item { font-size: 11px; background: var(--badge-bg); color: var(--badge-text); padding: 2px 8px; border-radius: 20px; font-weight: 700; border: 1px solid var(--badge-border); }
 
-    .search-wrapper {
-      position: relative;
-      width: 100%;
-    }
+    .accordion-content { padding: 12px; border-top: 1px solid var(--border-color); background: var(--card-bg); max-height: 200px; overflow-y: auto; }
+    .bulk-action-bar { display: flex; gap: 8px; margin-bottom: 12px; }
+    .action-link { font-size: 12px; font-weight: 700; color: var(--toyoko); background: rgba(218, 4, 66, 0.05); border: 1px solid rgba(218, 4, 66, 0.2); padding: 4px 10px; border-radius: 4px; cursor: pointer; }
+    [data-theme="dark"] .action-link { color: #fda4af; background: rgba(253, 164, 175, 0.05); border: 1px solid rgba(253, 164, 175, 0.2); }
 
-    .search-input {
-      width: 100%;
-      box-sizing: border-box;
-      font-size: 14px;
-      padding: 10px 32px 10px 12px;
-      border-radius: 8px;
-      border: 1px solid var(--border-color);
-      background: var(--card-bg);
-      color: var(--text-main);
-      box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
-      min-height: 44px;
-    }
-    .search-input:focus {
-      outline: none;
-      border-color: var(--toyoko);
-      box-shadow: 0 0 0 3px rgba(218, 4, 66, 0.15);
-    }
-    .clear-search-btn {
-      position: absolute;
-      right: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-      background: #cbd5e1;
-      color: #ffffff;
-      border: none;
-      border-radius: 50%;
-      width: 18px;
-      height: 18px;
-      font-size: 11px;
-      cursor: pointer;
-      display: none;
-      align-items: center;
-      justify-content: center;
-      font-weight: bold;
-      padding: 0;
-    }
-    [data-theme="dark"] .clear-search-btn {
-      background: #475569;
-    }
+    .checkbox-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(135px, 1fr)); gap: 8px; }
+    .checkbox-label { display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; color: var(--text-sub); background: var(--header-bg); border: 1px solid var(--border-color); padding: 8px 6px; border-radius: 6px; cursor: pointer; user-select: none; transition: all 0.15s; text-align: center; }
+    .checkbox-label input[type="checkbox"] { display: none; }
+    .checkbox-label:has(input[type="checkbox"]:checked) { background: var(--toyoko); color: #ffffff; border-color: var(--toyoko); box-shadow: 0 2px 4px rgba(218, 4, 66, 0.15); }
 
-    /* 形式絞り込みアコーディオン */
-    .filter-accordion {
-      margin: 0 4px 12px 4px;
-      border: 1px solid var(--border-color);
-      border-radius: 8px;
-      background: var(--card-bg);
-      overflow: hidden;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-    }
-
-    .accordion-summary {
-      padding: 12px;
-      font-size: 14px;
-      font-weight: 700;
-      color: var(--text-main);
-      cursor: pointer;
-      background: var(--header-bg);
-      user-select: none;
-      outline: none;
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
-    .accordion-summary::-webkit-details-marker {
-      display: none;
-    }
-
-    .summary-header {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      align-items: center;
-    }
-    .summary-header::after {
-      content: "＋";
-      font-size: 14px;
-      color: var(--text-sub);
-    }
-    .filter-accordion[open] .summary-header::after {
-      content: "－";
-    }
-
-    .selected-badges-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 4px;
-    }
-    .badge-item {
-      font-size: 11px;
-      background: var(--badge-bg);
-      color: var(--badge-text);
-      padding: 2px 8px;
-      border-radius: 20px;
-      font-weight: 700;
-      border: 1px solid var(--badge-border);
-    }
-
-    .accordion-content {
-      padding: 12px;
-      border-top: 1px solid var(--border-color);
-      background: var(--card-bg);
-      max-height: 200px;
-      overflow-y: auto;
-    }
-
-    .bulk-action-bar {
-      display: flex;
-      gap: 8px;
-      margin-bottom: 12px;
-    }
-    .action-link {
-      font-size: 12px;
-      font-weight: 700;
-      color: var(--toyoko);
-      background: rgba(218, 4, 66, 0.05);
-      border: 1px solid rgba(218, 4, 66, 0.2);
-      padding: 4px 10px;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    [data-theme="dark"] .action-link {
-      color: #fda4af;
-      background: rgba(253, 164, 175, 0.05);
-      border: 1px solid rgba(253, 164, 175, 0.2);
-    }
-
-    .checkbox-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
-      gap: 8px;
-    }
-
-    .checkbox-label {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 13px;
-      font-weight: 700;
-      color: var(--text-sub);
-      background: var(--header-bg);
-      border: 1px solid var(--border-color);
-      padding: 8px 6px;
-      border-radius: 6px;
-      cursor: pointer;
-      user-select: none;
-      transition: all 0.15s;
-      text-align: center;
-    }
-    .checkbox-label input[type="checkbox"] {
-      display: none;
-    }
-    .checkbox-label:has(input[type="checkbox"]:checked) {
-      background: var(--toyoko);
-      color: #ffffff;
-      border-color: var(--toyoko);
-      box-shadow: 0 2px 4px rgba(218, 4, 66, 0.15);
-    }
-
-    .table-container {
-      background: var(--card-bg);
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -2px rgba(0,0,0,0.05);
-      border: 1px solid var(--border-color);
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      text-align: left;
-      font-size: 14px;
-    }
-
-    th, td {
-      padding: 12px 16px;
-      border-bottom: 1px solid var(--border-color);
-    }
-
-    th {
-      background-color: var(--header-bg);
-      font-weight: 700;
-      color: var(--text-sub);
-      cursor: pointer;
-      user-select: none;
-      position: relative;
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
+    .table-container { background: var(--card-bg); border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -2px rgba(0,0,0,0.05); border: 1px solid var(--border-color); }
+    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; }
+    th, td { padding: 12px 16px; border-bottom: 1px solid var(--border-color); }
+    th { background-color: var(--header-bg); font-weight: 700; color: var(--text-sub); cursor: pointer; user-select: none; position: relative; font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
     th.sort-asc::after { content: " ▴"; color: var(--toyoko); font-size: 12px; }
     th.sort-desc::after { content: " ▾"; color: var(--toyoko); font-size: 12px; }
 
     tr:last-child td { border-bottom: none; }
     tr:nth-child(even) { background-color: var(--table-stripe); }
+    td b { font-size: 15px; font-weight: 700; }
+    .clickable-op { cursor: pointer; user-select: none; -webkit-tap-highlight-color: transparent; }
+    @media (hover: hover) { .clickable-op:hover { text-decoration: underline; } }
+    .clickable-form-cell { cursor: pointer; user-select: none; -webkit-tap-highlight-color: transparent; }
+    @media (hover: hover) { .clickable-form-cell:hover { text-decoration: underline; } }
 
-    td b {
-      font-size: 15px;
-      font-weight: 700;
-    }
+    .modal-history-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 6px; border-bottom: 1px solid var(--border-color); font-size: 13px; }
+    .modal-history-row:last-child { border-bottom: none; }
+    .yosoku-val { font-weight: 700; color: var(--text-main); white-space: nowrap; }
+    .yosoku-none { color: var(--text-sub); opacity: 0.4; font-weight: normal; }
 
-    /* 運番セル内のクリック可能デザイン */
-    .clickable-op {
-      cursor: pointer;
-      user-select: none;
-      -webkit-tap-highlight-color: transparent;
-    }
-    @media (hover: hover) {
-      .clickable-op:hover {
-        text-decoration: underline;
-      }
-    }
-
-    /* 編成セル内のクリック可能デザイン */
-    .clickable-form-cell {
-      cursor: pointer;
-      user-select: none;
-      -webkit-tap-highlight-color: transparent;
-    }
-    @media (hover: hover) {
-      .clickable-form-cell:hover {
-        text-decoration: underline;
-      }
-    }
-
-    .modal-history-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 6px;
-      border-bottom: 1px solid var(--border-color);
-      font-size: 13px;
-    }
-    .modal-history-row:last-child {
-      border-bottom: none;
-    }
-
-    .yosoku-val {
-      font-weight: 700;
-      color: var(--text-main);
-      white-space: nowrap;
-    }
-
-    .yosoku-none {
-      color: var(--text-sub);
-      opacity: 0.4;
-      font-weight: normal;
-    }
-
-    /* 車両交換時のスタイル（最優先・赤文字化） */
-    .changed-form {
-      color: var(--toyoko);
-      font-weight: 700;
-    }
-    [data-theme="dark"] .changed-form {
-      color: #fda4af;
-    }
-
-    /* 代走時のスタイル（黒字のまま太字） */
-    .daiso-form {
-      color: var(--text-main);
-      font-weight: 800;
-    }
+    .changed-form { color: var(--toyoko); font-weight: 700; }
+    [data-theme="dark"] .changed-form { color: #fda4af; }
+    .daiso-form { color: var(--text-main); font-weight: 800; }
 
     .no-data { padding: 40px 16px; text-align: center; color: var(--text-sub); font-size: 14px; }
+    .error-notice { margin: 10px 4px; padding: 10px; background: #fee2e2; border: 1px solid #fca5a5; color: #b91c1c; border-radius: 6px; font-size: 13px; font-weight: 600; }
+
+    .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: var(--overlay-bg); display: flex; align-items: center; justify-content: center; z-index: 1000; opacity: 0; visibility: hidden; transition: opacity 0.2s, visibility 0.2s; backdrop-filter: blur(2px); }
+    .modal-overlay.is-active { opacity: 1; visibility: visible; }
+    .modal-content { background-color: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; width: 90%; max-width: 440px; max-height: 85vh; padding: 20px; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); transform: scale(0.95); transition: transform 0.2s; display: flex; flex-direction: column; box-sizing: border-box; }
+    .modal-overlay.is-active .modal-content { transform: scale(1); }
+    .modal-header-area { text-align: center; margin-bottom: 12px; flex-shrink: 0; }
+    .modal-title { font-size: 14px; color: var(--text-sub); font-weight: 700; margin-bottom: 4px; }
+    .modal-body { font-size: 20px; font-weight: 800; color: var(--text-main); letter-spacing: -0.01em; margin-bottom: 4px; }
+    .modal-subtitle { font-size: 13px; color: var(--text-sub); font-weight: 700; }
     
-    .error-notice {
-      margin: 10px 4px;
-      padding: 10px;
-      background: #fee2e2;
-      border: 1px solid #fca5a5;
-      color: #b91c1c;
-      border-radius: 6px;
-      font-size: 13px;
-      font-weight: 600;
-    }
+    .modal-unyohyo-container { flex-grow: 1; overflow-y: auto; border-top: 1px solid var(--border-color); padding-top: 12px; margin-bottom: 16px; text-align: left; -webkit-overflow-scrolling: touch; }
+    .modal-unyo-card { background: var(--table-stripe); border: 1px solid var(--border-color); border-radius: 6px; padding: 10px; margin-bottom: 8px; font-size: 13px; }
+    .modal-unyo-card-header { display: flex; justify-content: space-between; font-weight: 700; border-bottom: 1px solid var(--border-color); padding-bottom: 4px; margin-bottom: 6px; color: var(--toyoko); }
+    [data-theme="dark"] .modal-unyo-card-header { color: #fda4af; }
+    .modal-unyo-route { display: flex; justify-content: space-between; font-weight: 700; }
 
-    /* --- 確認時刻・運用表表示用 モーダルUI --- */
-    .modal-overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: var(--overlay-bg);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 1000;
-      opacity: 0;
-      visibility: hidden;
-      transition: opacity 0.2s, visibility 0.2s;
-      backdrop-filter: blur(2px);
-    }
-    .modal-overlay.is-active {
-      opacity: 1;
-      visibility: visible;
-    }
-    .modal-content {
-      background-color: var(--card-bg);
-      border: 1px solid var(--border-color);
-      border-radius: 12px;
-      width: 90%;
-      max-width: 440px;
-      max-height: 85vh; /* スマホ向けに高さを少し拡張 */
-      padding: 20px;
-      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
-      transform: scale(0.95);
-      transition: transform 0.2s;
-      display: flex;
-      flex-direction: column;
-      box-sizing: border-box;
-    }
-    .modal-overlay.is-active .modal-content {
-      transform: scale(1);
-    }
-    .modal-header-area {
-      text-align: center;
-      margin-bottom: 12px;
-      flex-shrink: 0;
-    }
-    .modal-title {
-      font-size: 14px;
-      color: var(--text-sub);
-      font-weight: 700;
-      margin-bottom: 4px;
-    }
-    .modal-body {
-      font-size: 20px;
-      font-weight: 800;
-      color: var(--text-main);
-      letter-spacing: -0.01em;
-      margin-bottom: 4px;
-    }
-    .modal-subtitle {
-      font-size: 13px;
-      color: var(--text-sub);
-      font-weight: 700;
-    }
-    
-    /* 運用表タイムライン表示領域 */
-    .modal-unyohyo-container {
-      flex-grow: 1;
-      overflow-y: auto;
-      border-top: 1px solid var(--border-color);
-      padding-top: 12px;
-      margin-bottom: 16px;
-      text-align: left;
-      -webkit-overflow-scrolling: touch; /* スマホでのスクロールを滑らかに */
-    }
-    .modal-unyo-card {
-      background: var(--table-stripe);
-      border: 1px solid var(--border-color);
-      border-radius: 6px;
-      padding: 10px;
-      margin-bottom: 8px;
-      font-size: 13px;
-    }
-    .modal-unyo-card-header {
-      display: flex;
-      justify-content: space-between;
-      font-weight: 700;
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 4px;
-      margin-bottom: 6px;
-      color: var(--toyoko);
-    }
-    [data-theme="dark"] .modal-unyo-card-header {
-      color: #fda4af;
-    }
-    .modal-unyo-services {
-      font-size: 11px;
-      color: var(--text-sub);
-      margin-bottom: 4px;
-    }
-    .modal-unyo-route {
-      display: flex;
-      justify-content: space-between;
-      font-weight: 700;
-    }
-
-    .modal-action-btn {
-      width: 100%;
-      background-color: var(--toyoko);
-      border: 1px solid var(--toyoko);
-      color: #ffffff;
-      font-size: 13px;
-      font-weight: 700;
-      padding: 10px;
-      border-radius: 8px;
-      cursor: pointer;
-      margin-bottom: 8px;
-      flex-shrink: 0;
-      min-height: 40px;
-    }
-    [data-theme="dark"] .modal-action-btn {
-      background-color: #4c0519;
-      border-color: var(--badge-border);
-      color: var(--badge-text);
-    }
-
-    .modal-close-btn {
-      width: 100%;
-      background-color: var(--header-bg);
-      border: 1px solid var(--border-color);
-      color: var(--text-main);
-      font-size: 14px;
-      font-weight: 700;
-      padding: 12px; /* タップしやすく少し太く */
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background-color 0.15s;
-      flex-shrink: 0;
-      min-height: 44px; /* スマホのタップ領域規格 */
-    }
-    @media (hover: hover) {
-      .modal-close-btn:hover {
-        background-color: var(--border-color);
-      }
-    }
+    .modal-action-btn { width: 100%; background-color: var(--toyoko); border: 1px solid var(--toyoko); color: #ffffff; font-size: 13px; font-weight: 700; padding: 10px; border-radius: 8px; cursor: pointer; margin-bottom: 8px; flex-shrink: 0; min-height: 40px; }
+    [data-theme="dark"] .modal-action-btn { background-color: #4c0519; border-color: var(--badge-border); color: var(--badge-text); }
+    .modal-close-btn { width: 100%; background-color: var(--header-bg); border: 1px solid var(--border-color); color: var(--text-main); font-size: 14px; font-weight: 700; padding: 12px; border-radius: 8px; cursor: pointer; transition: background-color 0.15s; flex-shrink: 0; min-height: 44px; }
+    @media (hover: hover) { .modal-close-btn:hover { background-color: var(--border-color); } }
   </style>
 </head>
 <body>
@@ -622,6 +174,12 @@
     </div>
     <button class="theme-toggle-btn" id="themeToggle" aria-label="テーマ切り替え">🌙</button>
   </header>
+
+  <!-- 車両動向分析の手動トリガーエリアを追加 -->
+  <section class="analysis-container">
+    <button id="runAnalysisBtn" class="analysis-btn">🔍 車両動向を分析 (事実要約)</button>
+    <div id="analysisResultArea" class="analysis-result" style="display: none;"></div>
+  </section>
 
   <div id="errorDisplay" class="error-notice" style="display: none;"></div>
 
@@ -747,7 +305,7 @@
   // --- メインロジック系 ---
   let rawUnyoData = {};
   let rawYosokuData = {};
-  let globalUnyohyoData = {}; // 運用表JSONを保持するグローバル変数
+  let globalUnyohyoData = {}; 
   let sortState = { toyoko: { key: "op", asc: true } };
   let autoRefreshInterval = null;
 
@@ -755,7 +313,6 @@
   const archiveDateInput = document.getElementById("archiveDate");
   const backToTodayBtn = document.getElementById("backToToday");
 
-  // モーダル用要素
   const timeModalOverlay = document.getElementById("timeModalOverlay");
   const modalOpTitle = document.getElementById("modalOpTitle");
   const modalTimeBody = document.getElementById("modalTimeBody");
@@ -764,7 +321,6 @@
   const modalCloseBtn = document.getElementById("modalCloseBtn");
   const modalOpHistoryBtn = document.getElementById("modalOpHistoryBtn");
 
-  // 編成履歴モーダル用要素
   const formHistoryModalOverlay = document.getElementById("formHistoryModalOverlay");
   const modalHistoryTitle = document.getElementById("modalHistoryTitle");
   const modalHistoryFormTitle = document.getElementById("modalHistoryFormTitle");
@@ -775,6 +331,39 @@
     archiveDateInput.value = todayStr;
     archiveDateInput.min = "2026-06-19";
     archiveDateInput.max = todayStr;
+  }
+
+  // --- 手動 車両動向分析イベントハンドラ設定 ---
+  const runAnalysisBtn = document.getElementById("runAnalysisBtn");
+  const analysisResultArea = document.getElementById("analysisResultArea");
+
+  if (runAnalysisBtn && analysisResultArea) {
+    runAnalysisBtn.addEventListener("click", async () => {
+      runAnalysisBtn.disabled = true;
+      runAnalysisBtn.textContent = "⌛ 分析中...";
+      analysisResultArea.style.display = "block";
+      analysisResultArea.textContent = "データを集計し、Geminiで分析中。しばらくお待ちください...";
+
+      try {
+        // 同一オリジンのWorkers上のエンドポイントを叩く
+        const response = await fetch("./api/analyze");
+        if (!response.ok) throw new Error("分析データの取得に失敗しました。");
+        const resJson = await response.json();
+        
+        if (resJson.summary) {
+          analysisResultArea.textContent = resJson.summary;
+        } else if (resJson.error) {
+          analysisResultArea.textContent = `【エラー】${resJson.error}`;
+        } else {
+          analysisResultArea.textContent = "分析結果のパースに失敗しました。";
+        }
+      } catch (err) {
+        analysisResultArea.textContent = `【エラー】分析を実行できませんでした: ${err.message}`;
+      } finally {
+        runAnalysisBtn.disabled = false;
+        runAnalysisBtn.textContent = "🔍 車両動向を分析 (事実要約)";
+      }
+    });
   }
 
   function getYosokuKey(offset = 1, baseDate = new Date()) {
@@ -801,7 +390,6 @@
       if(errDiv) errDiv.style.display = "none";
       const cacheBuster = `?_=${Date.now()}`;
 
-      // 絶対URLから固定で読み込み
       try {
         await new Promise(r => {
           const s = document.createElement("script");
@@ -810,15 +398,10 @@
             globalUnyohyoData = window.unyohyoCallback || {};
             r();
           };
-          s.onerror = () => {
-            console.warn("運用表(unyohyo.js)の読み込みに失敗しました");
-            r();
-          };
+          s.onerror = () => { console.warn("運用表(unyohyo.js)の読み込みに失敗しました"); r(); };
           document.body.appendChild(s);
         });
-      } catch (e) {
-        console.warn("運用表処理でエラーが発生しました:", e);
-      }
+      } catch (e) { console.warn("運用表処理でエラーが発生しました:", e); }
 
       if (selectedDate === todayStr) {
         if(refreshBtn) refreshBtn.style.display = "inline-flex";
@@ -832,23 +415,17 @@
         await new Promise((resolve, reject) => {
           const oldScript = document.getElementById("yosokuScript");
           if(oldScript) oldScript.remove();
-
           const script = document.createElement("script");
           script.id = "yosokuScript";
           script.charset = "UTF-8";
           script.src = "https://nfhanyo.web.fc2.com/tokyu/tyunyoyosoku.js" + cacheBuster;
-          
           script.onload = () => resolve();
-          script.onerror = () => {
-            rawYosokuData = {};
-            reject(new Error("予測データの通信に失敗しました(404またはネットワークエラー)"));
-          };
+          script.onerror = () => { rawYosokuData = {}; reject(new Error("予測データの通信に失敗しました")); };
           document.body.appendChild(script);
         });
 
         const tsText = `本日分データ (${rawUnyoData.lastUpdate || ""} 時点)`;
         document.getElementById("toyokoTimestamp").textContent = tsText;
-
         startTimer();
 
       } else {
@@ -875,26 +452,19 @@
     }
   }
 
-// 確認時刻と運用表のUI表示用関数（モーダル）
   function showUpdateTime(op, updatedTime, form) {
     if(!timeModalOverlay || !modalOpTitle || !modalTimeBody || !modalFormTitle || !modalUnyohyoContainer || !modalOpHistoryBtn) return;
     
     modalOpTitle.textContent = `${op} 運用確認時刻`;
     modalTimeBody.textContent = (updatedTime && updatedTime.trim() !== "") ? updatedTime : "未登録";
     modalFormTitle.textContent = `編成: ${form && form.trim() !== "" ? form : "未登録"}`;
-
     modalUnyohyoContainer.scrollTop = 0;
-    
-    // 運用表コンテナの初期化
     modalUnyohyoContainer.innerHTML = "";
 
-    // 選択された日付文字列から曜日を安全に取得 (JST固定)
     const selectedDate = archiveDateInput ? archiveDateInput.value : todayStr;
     const dateParts = selectedDate.split("-");
     const day = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]).getDay();
     const dayKey = (day === 0 || day === 6) ? "saturdayholiday" : "weekday";
-
-    // 運番キーを大文字化・トリムして完全一致検索
     const searchOpKey = op.trim().toUpperCase();
     const unyoSchedule = (globalUnyohyoData[dayKey] && globalUnyohyoData[dayKey][searchOpKey]) ? globalUnyohyoData[dayKey][searchOpKey] : null;
 
@@ -902,32 +472,20 @@
       unyoSchedule.forEach((train) => {
         const card = document.createElement("div");
         card.className = "modal-unyo-card";
-
-        // 種別と上り下り（direction）を完全に排除し、列番と経路のみに絞り込み
         card.innerHTML = `
-          <div class="modal-unyo-card-header">
-            <span>列車番号: ${train.train_no || "不明"}</span>
-          </div>
+          <div class="modal-unyo-card-header"><span>列車番号: ${train.train_no || "不明"}</span></div>
           <div class="modal-unyo-route" style="margin-top: 4px;">
             <span>${train.from || "始発駅不明"} (${train.dep || "--:--"})</span>
             <span>➔</span>
             <span>${train.to || "終着駅不明"} (${train.arr || "--:--"})</span>
-          </div>
-        `;
-
+          </div>`;
         modalUnyohyoContainer.appendChild(card);
       });
     } else {
       modalUnyohyoContainer.innerHTML = `<div style="text-align:center; color:var(--text-sub); font-size:13px; padding:20px 0;">この日の運用表スケジュールデータはありません。</div>`;
     }
 
-    // ボタンに現在の運番を設定して、クリック時に過去履歴を呼べるようにする
-    modalOpHistoryBtn.onclick = () => {
-      closeModal();
-      showOpHistory(searchOpKey);
-    };
-
-    // 背景のスクロールを禁止
+    modalOpHistoryBtn.onclick = () => { closeModal(); showOpHistory(searchOpKey); };
     document.body.classList.add("modal-open");
     timeModalOverlay.classList.add("is-active");
   }
@@ -935,27 +493,19 @@
   function closeModal() {
     if(timeModalOverlay) {
       timeModalOverlay.classList.remove("is-active");
-      // 背景のスクロール制限を解除
       document.body.classList.remove("modal-open");
     }
   }
 
   if(modalCloseBtn) modalCloseBtn.addEventListener("click", closeModal);
-  if(timeModalOverlay) {
-    timeModalOverlay.addEventListener("click", (e) => {
-      if(e.target === timeModalOverlay) closeModal();
-    });
-  }
+  if(timeModalOverlay) { timeModalOverlay.addEventListener("click", (e) => { if(e.target === timeModalOverlay) closeModal(); }); }
 
-  // 運番履歴取得用ロジック
   async function showOpHistory(op) {
     if(!op || !formHistoryModalOverlay || !modalHistoryTitle || !modalHistoryFormTitle || !modalHistoryContainer) return;
-
     modalHistoryTitle.textContent = "運用充当履歴 (直近1週間)";
     modalHistoryFormTitle.textContent = op;
     modalHistoryContainer.innerHTML = `<div style="text-align:center; padding:20px; font-size:13px; color:var(--text-sub);">直近1週間の履歴を取得中...</div>`;
     modalHistoryContainer.scrollTop = 0;
-
     document.body.classList.add("modal-open");
     formHistoryModalOverlay.classList.add("is-active");
 
@@ -963,143 +513,77 @@
     const historyRows = [];
 
     for(let i = 0; i < 7; i++) {
-      const d = new Date();
-      d.setDate(d.getDate() - i);
+      const d = new Date(); d.setDate(d.getDate() - i);
       const dateStr = d.toLocaleDateString('sv-SE');
-
-      let fetchUrl = `./archive/${dateStr}.json` + cacheBuster;
-      if (dateStr === todayStr) {
-        fetchUrl = "./today_unyo.json" + cacheBuster;
-      }
+      let fetchUrl = dateStr === todayStr ? "./today_unyo.json" + cacheBuster : `./archive/${dateStr}.json` + cacheBuster;
 
       try {
         const res = await fetch(fetchUrl, {cache: "no-store"});
         if (res.ok) {
           const json = await res.json();
           let targetLine = json["toyoko"] || [];
-          
           targetLine = targetLine.filter(t => {
             const noStr = t.no ? String(t.no) : "";
-            if (noStr.length > 0) {
-              const firstChar = noStr.charAt(0);
-              if (["2", "3", "4", "5", "6"].includes(firstChar)) return false;
-            }
-            
-            const opStr = t.op ? String(t.op).trim().toUpperCase() : "";
-            if (opStr.startsWith("99")) return false;
-
+            if (noStr.length > 0 && ["2", "3", "4", "5", "6"].includes(noStr.charAt(0))) return false;
+            if (t.op && String(t.op).trim().toUpperCase().startsWith("99")) return false;
             return true;
           });
-
           const matchedForms = targetLine.filter(t => (t.op || "").trim().toUpperCase() === op).map(t => t.form || "-");
-          
-          if (matchedForms.length > 0) {
-            historyRows.push({ date: dateStr, displayVal: Array.from(new Set(matchedForms)).join(", ") });
-          } else {
-            historyRows.push({ date: dateStr, displayVal: "運用なし" });
-          }
-        } else {
-          historyRows.push({ date: dateStr, displayVal: "データなし" });
-        }
-      } catch (e) {
-        historyRows.push({ date: dateStr, displayVal: "エラー" });
-      }
+          historyRows.push({ date: dateStr, displayVal: matchedForms.length > 0 ? Array.from(new Set(matchedForms)).join(", ") : "運用なし" });
+        } else { historyRows.push({ date: dateStr, displayVal: "データなし" }); }
+      } catch (e) { historyRows.push({ date: dateStr, displayVal: "エラー" }); }
     }
 
     modalHistoryContainer.innerHTML = "";
     historyRows.forEach(row => {
       const rowDiv = document.createElement("div");
       rowDiv.className = "modal-history-row";
-      
-      let valStyle = 'font-weight:700; color:var(--text-main);';
-      if (row.displayVal === "運用なし" || row.displayVal === "データなし" || row.displayVal === "エラー") {
-        valStyle = 'font-weight:normal; color:var(--text-sub); opacity:0.6;';
-      }
-
-      rowDiv.innerHTML = `
-        <span style="font-weight:700;">${row.date}</span>
-        <span style="${valStyle}">${row.displayVal}</span>
-      `;
+      let valStyle = (row.displayVal === "運用なし" || row.displayVal === "データなし" || row.displayVal === "エラー") ? 'font-weight:normal; color:var(--text-sub); opacity:0.6;' : 'font-weight:700; color:var(--text-main);';
+      rowDiv.innerHTML = `<span style="font-weight:700;">${row.date}</span><span style="${valStyle}">${row.displayVal}</span>`;
       modalHistoryContainer.appendChild(rowDiv);
     });
   }
 
-  // 編成履歴取得用ロジック
   async function showFormHistory(form) {
     if(!form || form === "-" || !formHistoryModalOverlay || !modalHistoryTitle || !modalHistoryFormTitle || !modalHistoryContainer) return;
-
     modalHistoryTitle.textContent = "編成運用履歴 (直近1週間)";
     modalHistoryFormTitle.textContent = form;
     modalHistoryContainer.innerHTML = `<div style="text-align:center; padding:20px; font-size:13px; color:var(--text-sub);">直近1週間の履歴を取得中...</div>`;
     modalHistoryContainer.scrollTop = 0;
-
     document.body.classList.add("modal-open");
     formHistoryModalOverlay.classList.add("is-active");
 
     const cacheBuster = `?_=${Date.now()}`;
     const historyRows = [];
 
-    // 本日を起点に直近7日分を非同期でフェッチ
     for(let i = 0; i < 7; i++) {
-      const d = new Date();
-      d.setDate(d.getDate() - i);
+      const d = new Date(); d.setDate(d.getDate() - i);
       const dateStr = d.toLocaleDateString('sv-SE');
-
-      let fetchUrl = `./archive/${dateStr}.json` + cacheBuster;
-      if (dateStr === todayStr) {
-        fetchUrl = "./today_unyo.json" + cacheBuster;
-      }
+      let fetchUrl = dateStr === todayStr ? "./today_unyo.json" + cacheBuster : `./archive/${dateStr}.json` + cacheBuster;
 
       try {
         const res = await fetch(fetchUrl, {cache: "no-store"});
         if (res.ok) {
           const json = await res.json();
           let targetLine = json["toyoko"] || [];
-          
-          // メインテーブルと同様の運番除外ロジックを追加
           targetLine = targetLine.filter(t => {
             const noStr = t.no ? String(t.no) : "";
-            if (noStr.length > 0) {
-              const firstChar = noStr.charAt(0);
-              if (["2", "3", "4", "5", "6"].includes(firstChar)) return false;
-            }
-            
-            const opStr = t.op ? String(t.op).trim().toUpperCase() : "";
-            if (opStr.startsWith("99")) return false;
-
+            if (noStr.length > 0 && ["2", "3", "4", "5", "6"].includes(noStr.charAt(0))) return false;
+            if (t.op && String(t.op).trim().toUpperCase().startsWith("99")) return false;
             return true;
           });
-
           const matchedOps = targetLine.filter(t => (t.form || "").trim() === form).map(t => t.op || "-");
-          
-          if (matchedOps.length > 0) {
-            historyRows.push({ date: dateStr, displayVal: Array.from(new Set(matchedOps)).join(", ") });
-          } else {
-            historyRows.push({ date: dateStr, displayVal: "運用なし" });
-          }
-        } else {
-          historyRows.push({ date: dateStr, displayVal: "データなし" });
-        }
-      } catch (e) {
-        historyRows.push({ date: dateStr, displayVal: "エラー" });
-      }
+          historyRows.push({ date: dateStr, displayVal: matchedOps.length > 0 ? Array.from(new Set(matchedOps)).join(", ") : "運用なし" });
+        } else { historyRows.push({ date: dateStr, displayVal: "データなし" }); }
+      } catch (e) { historyRows.push({ date: dateStr, displayVal: "エラー" }); }
     }
 
     modalHistoryContainer.innerHTML = "";
     historyRows.forEach(row => {
       const rowDiv = document.createElement("div");
       rowDiv.className = "modal-history-row";
-      
-      // 運用があった場合の運番テキストカラーを var(--text-main)（通常の文字色）に変更
-      let valStyle = 'font-weight:700; color:var(--text-main);';
-      if (row.displayVal === "運用なし" || row.displayVal === "データなし" || row.displayVal === "エラー") {
-        valStyle = 'font-weight:normal; color:var(--text-sub); opacity:0.6;';
-      }
-
-      rowDiv.innerHTML = `
-        <span style="font-weight:700;">${row.date}</span>
-        <span style="${valStyle}">${row.displayVal}</span>
-      `;
+      let valStyle = (row.displayVal === "運用なし" || row.displayVal === "データなし" || row.displayVal === "エラー") ? 'font-weight:normal; color:var(--text-sub); opacity:0.6;' : 'font-weight:700; color:var(--text-main);';
+      rowDiv.innerHTML = `<span style="font-weight:700;">${row.date}</span><span style="${valStyle}">${row.displayVal}</span>`;
       modalHistoryContainer.appendChild(rowDiv);
     });
   }
@@ -1112,11 +596,7 @@
   }
 
   if(historyModalCloseBtn) historyModalCloseBtn.addEventListener("click", closeHistoryModal);
-  if(formHistoryModalOverlay) {
-    formHistoryModalOverlay.addEventListener("click", (e) => {
-      if(e.target === formHistoryModalOverlay) closeHistoryModal();
-    });
-  }
+  if(formHistoryModalOverlay) { formHistoryModalOverlay.addEventListener("click", (e) => { if(e.target === formHistoryModalOverlay) closeHistoryModal(); }); }
 
   function renderTable(line) {
     const tbody = document.getElementById(`${line}TableBody`);
@@ -1125,48 +605,34 @@
     tbody.innerHTML = "";
 
     let list = Array.isArray(rawUnyoData[line]) ? [...rawUnyoData[line]] : [];
-
     list = list.filter(t => {
       const noStr = t.no ? String(t.no) : "";
-      if (noStr.length > 0) {
-        const firstChar = noStr.charAt(0);
-        if (["2", "3", "4", "5", "6"].includes(firstChar)) return false;
-      }
-      
-      const opStr = t.op ? String(t.op).trim().toUpperCase() : "";
-      if (opStr.startsWith("99")) return false;
-
+      if (noStr.length > 0 && ["2", "3", "4", "5", "6"].includes(noStr.charAt(0))) return false;
+      if (t.op && String(t.op).trim().toUpperCase().startsWith("99")) return false;
       return true;
     });
 
     const opFormMap = {};
     list.forEach(t => {
-      const op = t.op || "";
-      const form = t.form || "";
+      const op = t.op || ""; const form = t.form || "";
       if (!opFormMap[op]) opFormMap[op] = new Set();
       opFormMap[op].add(form);
     });
 
     list = list.filter(t => {
-      const op = t.op || "";
-      const form = t.form || "";
+      const op = t.op || ""; const form = t.form || "";
       const allFormsForOp = opFormMap[op];
       if (form === "-" && allFormsForOp.size > 1) {
-        const hasValidForm = Array.from(allFormsForOp).some(f => f !== "-");
-        if (hasValidForm) return false;
+        if (Array.from(allFormsForOp).some(f => f !== "-")) return false;
       }
       return true;
     });
 
     const originalOpCounts = {};
-    list.forEach(t => {
-      const opKey = (t.op || "").toUpperCase();
-      originalOpCounts[opKey] = (originalOpCounts[opKey] || 0) + 1;
-    });
+    list.forEach(t => { const opKey = (t.op || "").toUpperCase(); originalOpCounts[opKey] = (originalOpCounts[opKey] || 0) + 1; });
 
     const selectedDate = archiveDateInput ? archiveDateInput.value : todayStr;
     const baseDate = new Date(selectedDate);
-
     const tomorrowKey = getYosokuKey(1, baseDate);
     const dayAfterTomorrowKey = getYosokuKey(2, baseDate);
     
@@ -1175,63 +641,37 @@
 
     list = list.map(t => {
       const op = (t.op || "").toUpperCase();
-      
-      if (selectedDate !== todayStr && t.yosoku) {
-        return t;
-      }
+      if (selectedDate !== todayStr && t.yosoku) return t;
 
       const predTomorrow = yosokuTomorrowBlock[op];
-      let tomorrowArray = [];
-      let tomorrowText = "-";
-
-      if (predTomorrow) {
-        tomorrowArray = Array.isArray(predTomorrow) ? predTomorrow : [predTomorrow];
-        tomorrowText = tomorrowArray.join(" / ");
-      }
+      let tomorrowArray = predTomorrow ? (Array.isArray(predTomorrow) ? predTomorrow : [predTomorrow]) : [];
+      let tomorrowText = tomorrowArray.length > 0 ? tomorrowArray.join(" / ") : "-";
 
       let dayAfterText = "-";
       if (tomorrowArray.length > 0) {
         let dayAfterArray = [];
-        
         tomorrowArray.forEach(tomOp => {
           const tomOpUpper = tomOp.trim().toUpperCase();
           if (tomOpUpper === "元検") return;
-
           const predDayAfter = yosokuDayAfterBlock[tomOpUpper];
           if (predDayAfter) {
-            if (Array.isArray(predDayAfter)) {
-              dayAfterArray.push(...predDayAfter);
-            } else {
-              dayAfterArray.push(predDayAfter);
-            }
+            if (Array.isArray(predDayAfter)) dayAfterArray.push(...predDayAfter);
+            else dayAfterArray.push(predDayAfter);
           }
         });
-
-        if (dayAfterArray.length > 0) {
-          dayAfterText = Array.from(new Set(dayAfterArray)).join(" / ");
-        }
+        if (dayAfterArray.length > 0) dayAfterText = Array.from(new Set(dayAfterArray)).join(" / ");
       }
-
-      const combinedYosoku = `${tomorrowText}➔${dayAfterText}`;
-      return { ...t, yosoku: combinedYosoku };
+      return { ...t, yosoku: `${tomorrowText}➔${dayAfterText}` };
     });
 
-    const searchOp = document.getElementById("searchOp");
-    const searchForm = document.getElementById("searchForm");
-    const queryOp = searchOp ? searchOp.value.trim().toLowerCase() : "";
-    const queryForm = searchForm ? searchForm.value.trim().toLowerCase() : "";
+    const queryOp = document.getElementById("searchOp")?.value.trim().toLowerCase() || "";
+    const queryForm = document.getElementById("searchForm")?.value.trim().toLowerCase() || "";
 
-    const clearOpBtn = document.getElementById("clearOpBtn");
-    const clearFormBtn = document.getElementById("clearFormBtn");
-    if(clearOpBtn) { clearOpBtn.style.display = queryOp ? "flex" : "none"; }
-    if(clearFormBtn) { clearFormBtn.style.display = queryForm ? "flex" : "none"; }
+    if(document.getElementById("clearOpBtn")) document.getElementById("clearOpBtn").style.display = queryOp ? "flex" : "none";
+    if(document.getElementById("clearFormBtn")) document.getElementById("clearFormBtn").style.display = queryForm ? "flex" : "none";
 
-    if (queryOp) {
-      list = list.filter(t => (t.op || "").toLowerCase().includes(queryOp));
-    }
-    if (queryForm) {
-      list = list.filter(t => (t.form || "").toLowerCase().includes(queryForm));
-    }
+    if (queryOp) list = list.filter(t => (t.op || "").toLowerCase().includes(queryOp));
+    if (queryForm) list = list.filter(t => (t.form || "").toLowerCase().includes(queryForm));
 
     const checkedBoxes = Array.from(document.querySelectorAll('#checkboxGroup input[type="checkbox"]:checked'));
     const selectedTypes = checkedBoxes.map(cb => cb.value);
@@ -1240,37 +680,23 @@
     const summaryText = document.getElementById("accordionSummaryText");
     if (badgesContainer) {
       badgesContainer.innerHTML = "";
-      if (checkedBoxes.length <= 3) {
-        checkedBoxes.forEach(cb => {
-          const badge = document.createElement("span");
-          badge.className = "badge-item";
-          badge.textContent = cb.getAttribute("data-label");
-          badgesContainer.appendChild(badge);
-        });
-      } else {
-        for (let i = 0; i < 3; i++) {
-          const badge = document.createElement("span");
-          badge.className = "badge-item";
-          badge.textContent = checkedBoxes[i].getAttribute("data-label");
-          badgesContainer.appendChild(badge);
-        }
-        const omitBadge = document.createElement("span");
-        omitBadge.className = "badge-item";
-        omitBadge.style.opacity = "0.7";
-        omitBadge.textContent = `+他${checkedBoxes.length - 3}件`;
+      const limit = Math.min(checkedBoxes.length, 3);
+      for(let i=0; i<limit; i++) {
+        const badge = document.createElement("span"); badge.className = "badge-item"; badge.textContent = checkedBoxes[i].getAttribute("data-label");
+        badgesContainer.appendChild(badge);
+      }
+      if(checkedBoxes.length > 3) {
+        const omitBadge = document.createElement("span"); omitBadge.className = "badge-item"; omitBadge.style.opacity = "0.7"; omitBadge.textContent = `+他${checkedBoxes.length - 3}件`;
         badgesContainer.appendChild(omitBadge);
       }
     }
-    if (summaryText) {
-      summaryText.textContent = selectedTypes.length > 0 ? `形式で絞り込み (${selectedTypes.length}つ選択中)` : "形式で絞り込み";
-    }
+    if (summaryText) summaryText.textContent = selectedTypes.length > 0 ? `形式で絞り込み (${selectedTypes.length}つ選択中)` : "形式で絞り込み";
 
     if (selectedTypes.length > 0) {
       list = list.filter(t => {
         const formStr = t.form ? String(t.form).trim() : "";
         const fNum = parseInt(formStr.match(/\d+/)?.[0] || "0", 10);
         if (!fNum) return false;
-
         return selectedTypes.some(type => {
           switch (type) {
             case "5050_4000": return fNum >= 4101 && fNum <= 4115;
@@ -1293,10 +719,7 @@
       });
     }
 
-    if(list.length === 0) {
-      if(noData) noData.style.display = "block";
-      return;
-    }
+    if(list.length === 0) { if(noData) noData.style.display = "block"; return; }
     if(noData) noData.style.display = "none";
 
     const state = sortState[line];
@@ -1307,47 +730,30 @@
       let valB = b[state.key] !== undefined ? String(b[state.key]) : "";
 
       if (state.key === "op") {
-        const matchA = valA.match(/^(\d+)([a-zA-Z]*)$/);
-        const matchB = valB.match(/^(\d+)([a-zA-Z]*)$/);
+        const matchA = valA.match(/^(\d+)([a-zA-Z]*)$/); const matchB = valB.match(/^(\d+)([a-zA-Z]*)$/);
         if (matchA && matchB) {
-          const numA = parseInt(matchA[1], 10);
-          const alphaA = matchA[2].toUpperCase();
-          const numB = parseInt(matchB[1], 10);
-          const alphaB = matchB[2].toUpperCase();
-          let idxA = alphaA ? alphaOrder.indexOf(alphaA) : 998;
-          let idxB = alphaB ? alphaOrder.indexOf(alphaB) : 998;
-          if (idxA === -1) idxA = 999;
-          if (idxB === -1) idxB = 999;
+          const numA = parseInt(matchA[1], 10); const alphaA = matchA[2].toUpperCase();
+          const numB = parseInt(matchB[1], 10); const alphaB = matchB[2].toUpperCase();
+          let idxA = alphaA ? alphaOrder.indexOf(alphaA) : 998; let idxB = alphaB ? alphaOrder.indexOf(alphaB) : 998;
+          if (idxA === -1) idxA = 999; if (idxB === -1) idxB = 999;
           if (idxA !== idxB) return state.asc ? idxA - idxB : idxB - idxA;
           return state.asc ? numA - numB : numB - numA;
         }
       }
-      const numA = parseFloat(valA);
-      const numB = parseFloat(valB);
-      if (!isNaN(numA) && !isNaN(numB)) {
-        return state.asc ? numA - numB : numB - numA;
-      } else {
-        return state.asc ? valA.localeCompare(valB, undefined, {numeric: true}) : valB.localeCompare(valA, undefined, {numeric: true});
-      }
+      const numA = parseFloat(valA); const numB = parseFloat(valB);
+      if (!isNaN(numA) && !isNaN(numB)) return state.asc ? numA - numB : numB - numA;
+      return state.asc ? valA.localeCompare(valB, undefined, {numeric: true}) : valB.localeCompare(valA, undefined, {numeric: true});
     });
 
     const opRenderCounts = {};
-
     list.forEach(t => {
-      const opKey = (t.op || "").toUpperCase();
-      const formStr = t.form ? String(t.form).trim() : "";
-      const fNum = parseInt(formStr.match(/\d+/)?.[0] || "0", 10);
-      const lastChar = opKey.slice(-1);
+      const opKey = (t.op || "").toUpperCase(); const formStr = t.form ? String(t.form).trim() : "";
+      const fNum = parseInt(formStr.match(/\d+/)?.[0] || "0", 10); const lastChar = opKey.slice(-1);
 
       opRenderCounts[opKey] = (opRenderCounts[opKey] || 0) + 1;
       const currentOpIndex = opRenderCounts[opKey];
 
-      const isTokyuOrY500 = (fNum >= 4101 && fNum <= 4115) || 
-                            (fNum >= 5118 && fNum <= 5122) || 
-                            (fNum >= 5151 && fNum <= 5178) || 
-                            formStr.toUpperCase().startsWith("Y5") || 
-                            (fNum >= 511 && fNum <= 517);
-
+      const isTokyuOrY500 = (fNum >= 4101 && fNum <= 4115) || (fNum >= 5118 && fNum <= 5122) || (fNum >= 5151 && fNum <= 5178) || formStr.toUpperCase().startsWith("Y5") || (fNum >= 511 && fNum <= 517);
       const isMetro  = (fNum >= 17101 && fNum <= 17195) || (fNum >= 10101 && fNum <= 10136);
       const isTobu   = (fNum >= 51071 && fNum <= 51077) || (fNum >= 9101 && fNum <= 9108) || (fNum >= 9151 && fNum <= 9152);
       const isSeibu  = (fNum >= 40101 && fNum <= 40106) || (fNum >= 40151 && fNum <= 40169) || (fNum >= 6101 && fNum <= 6117) || (fNum >= 6151 && fNum <= 6158);
@@ -1363,104 +769,50 @@
       }
 
       const isExchanged = (originalOpCounts[opKey] || 0) > 1;
-
       let formClass = 'clickable-form-cell';
-      if (isExchanged && currentOpIndex >= 2) {
-        formClass += ' changed-form';
-      } else if (isDaiso) {
-        formClass += ' daiso-form';
-      }
+      if (isExchanged && currentOpIndex >= 2) formClass += ' changed-form';
+      else if (isDaiso) formClass += ' daiso-form';
 
       let yosokuDisplay = t.yosoku || "-";
-      if (yosokuDisplay === "-➔-") {
-        yosokuDisplay = `<span class="yosoku-none">-➔-</span>`;
-      }
+      if (yosokuDisplay === "-➔-") yosokuDisplay = `<span class="yosoku-none">-➔-</span>`;
 
-      const safeOp = (t.op || "").replace(/'/g, "\\'");
-      const safeUpdated = (t.updated || "").replace(/'/g, "\\'");
-      const safeForm = (t.form || "").replace(/'/g, "\\'");
+      const safeOp = (t.op || "").replace(/'/g, "\\'"); const safeUpdated = (t.updated || "").replace(/'/g, "\\'"); const safeForm = (t.form || "").replace(/'/g, "\\'");
 
       const tr = document.createElement("tr");
       tr.innerHTML = `
         <td class="clickable-op" onclick="showUpdateTime('${safeOp}', '${safeUpdated}', '${safeForm}')"><b>${t.op || "-"}</b></td>
         <td class="${formClass}" onclick="showFormHistory('${safeForm}')">${t.form || "-"}</td>
-        <td class="yosoku-val">${yosokuDisplay}</td>
-      `;
+        <td class="yosoku-val">${yosokuDisplay}</td>`;
       tbody.appendChild(tr);
     });
   }
 
-  // --- タイマーとイベント監視設定 ---
-  function startTimer() {
-    stopTimer();
-    autoRefreshInterval = setInterval(() => {
-      if ((archiveDateInput ? archiveDateInput.value : todayStr) === todayStr) {
-        loadData();
-      }
-    }, 30000);
-  }
+  function startTimer() { stopTimer(); autoRefreshInterval = setInterval(() => { if ((archiveDateInput ? archiveDateInput.value : todayStr) === todayStr) loadData(); }, 30000); }
+  function stopTimer() { if (autoRefreshInterval) { clearInterval(autoRefreshInterval); autoRefreshInterval = null; } }
 
-  function stopTimer() {
-    if (autoRefreshInterval) {
-      clearInterval(autoRefreshInterval);
-      autoRefreshInterval = null;
-    }
-  }
-
-  // 検索・絞り込み関連のイベントハンドラ登録
   document.getElementById("searchOp")?.addEventListener("input", () => renderTable("toyoko"));
   document.getElementById("searchForm")?.addEventListener("input", () => renderTable("toyoko"));
-  
-  document.getElementById("clearOpBtn")?.addEventListener("click", () => {
-    const input = document.getElementById("searchOp");
-    if(input) { input.value = ""; renderTable("toyoko"); }
-  });
-  document.getElementById("clearFormBtn")?.addEventListener("click", () => {
-    const input = document.getElementById("searchForm");
-    if(input) { input.value = ""; renderTable("toyoko"); }
-  });
-
+  document.getElementById("clearOpBtn")?.addEventListener("click", () => { const input = document.getElementById("searchOp"); if(input) { input.value = ""; renderTable("toyoko"); } });
+  document.getElementById("clearFormBtn")?.addEventListener("click", () => { const input = document.getElementById("searchForm"); if(input) { input.value = ""; renderTable("toyoko"); } });
   document.getElementById("checkboxGroup")?.addEventListener("change", () => renderTable("toyoko"));
+  document.getElementById("selectAllTypes")?.addEventListener("click", () => { document.querySelectorAll('#checkboxGroup input[type="checkbox"]').forEach(cb => cb.checked = true); renderTable("toyoko"); });
+  document.getElementById("clearAllTypes")?.addEventListener("click", () => { document.querySelectorAll('#checkboxGroup input[type="checkbox"]').forEach(cb => cb.checked = false); renderTable("toyoko"); });
 
-  document.getElementById("selectAllTypes")?.addEventListener("click", () => {
-    document.querySelectorAll('#checkboxGroup input[type="checkbox"]').forEach(cb => cb.checked = true);
-    renderTable("toyoko");
-  });
-  document.getElementById("clearAllTypes")?.addEventListener("click", () => {
-    document.querySelectorAll('#checkboxGroup input[type="checkbox"]').forEach(cb => cb.checked = false);
-    renderTable("toyoko");
-  });
-
-  // テーブルソート設定
   document.querySelectorAll("th[data-sort]").forEach(th => {
     th.addEventListener("click", () => {
-      const key = th.getAttribute("data-sort");
-      const current = sortState.toyoko;
-      if (current.key === key) {
-        current.asc = !current.asc;
-      } else {
-        current.key = key;
-        current.asc = true;
-      }
-      document.querySelectorAll("th[data-sort]").forEach(item => {
-        item.classList.remove("sort-asc", "sort-desc");
-      });
+      const key = th.getAttribute("data-sort"); const current = sortState.toyoko;
+      if (current.key === key) current.asc = !current.asc;
+      else { current.key = key; current.asc = true; }
+      document.querySelectorAll("th[data-sort]").forEach(item => item.classList.remove("sort-asc", "sort-desc"));
       th.classList.add(current.asc ? "sort-asc" : "sort-desc");
       renderTable("toyoko");
     });
   });
 
-  // 日付アーカイブ管理
   archiveDateInput?.addEventListener("change", loadData);
   document.getElementById("refreshToyoko")?.addEventListener("click", loadData);
-  backToTodayBtn?.addEventListener("click", () => {
-    if(archiveDateInput) {
-      archiveDateInput.value = todayStr;
-      loadData();
-    }
-  });
+  backToTodayBtn?.addEventListener("click", () => { if(archiveDateInput) { archiveDateInput.value = todayStr; loadData(); } });
 
-  // 初回ロード実行
   window.addEventListener("DOMContentLoaded", loadData);
 </script>
 </body>
