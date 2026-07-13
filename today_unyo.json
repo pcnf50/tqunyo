@@ -2550,8 +2550,38 @@
       "kind": "普",
       "delay": "",
       "updated": "22:15"
+    },
+    {
+      "op": "29K",
+      "form": "5183F",
+      "cars": "8",
+      "no": "229-221",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:20"
+    },
+    {
+      "op": "30S",
+      "form": "-",
+      "cars": "8",
+      "no": "030-221",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:20"
+    },
+    {
+      "op": "46K",
+      "form": "3112F",
+      "cars": "8",
+      "no": "246-222",
+      "destCode": "奥沢",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:20"
     }
   ],
-  "lastUpdate": "22:15",
+  "lastUpdate": "22:20",
   "date": "2026-07-13"
 }
