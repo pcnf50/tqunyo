@@ -1967,7 +1967,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "22:00"
+      "updated": "22:05"
     }
   ],
   "meguro": [
@@ -2362,6 +2362,26 @@
       "updated": "21:55"
     },
     {
+      "op": "68S",
+      "form": "9109F",
+      "cars": "8",
+      "no": "368-221",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:05"
+    },
+    {
+      "op": "2K",
+      "form": "-",
+      "cars": "8",
+      "no": "002-211",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:05"
+    },
+    {
       "op": "21K",
       "form": "-",
       "cars": "8",
@@ -2369,7 +2389,7 @@
       "destCode": "菊名",
       "kind": "普",
       "delay": "",
-      "updated": "22:00"
+      "updated": "22:05"
     },
     {
       "op": "21K",
@@ -2379,7 +2399,17 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "22:00"
+      "updated": "22:05"
+    },
+    {
+      "op": "67",
+      "form": "-",
+      "cars": "10",
+      "no": "767-212",
+      "destCode": "副都心線直通",
+      "kind": "通",
+      "delay": "",
+      "updated": "22:05"
     },
     {
       "op": "30",
@@ -2388,8 +2418,8 @@
       "no": "130-211",
       "destCode": "元町・中華街",
       "kind": "通",
-      "delay": "1分遅れ",
-      "updated": "22:00"
+      "delay": "",
+      "updated": "22:05"
     },
     {
       "op": "18",
@@ -2399,7 +2429,7 @@
       "destCode": "渋谷",
       "kind": "急",
       "delay": "",
-      "updated": "22:00"
+      "updated": "22:05"
     },
     {
       "op": "22K",
@@ -2409,7 +2439,17 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "22:00"
+      "updated": "22:05"
+    },
+    {
+      "op": "15",
+      "form": "-",
+      "cars": "8",
+      "no": "715-211",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "22:05"
     },
     {
       "op": "82M",
@@ -2419,9 +2459,9 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "22:00"
+      "updated": "22:05"
     }
   ],
-  "lastUpdate": "22:00",
+  "lastUpdate": "22:05",
   "date": "2026-07-13"
 }
