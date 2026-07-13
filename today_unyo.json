@@ -2740,8 +2740,18 @@
       "kind": "普",
       "delay": "",
       "updated": "22:55"
+    },
+    {
+      "op": "71T",
+      "form": "6502F",
+      "cars": "8",
+      "no": "471-221",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:00"
     }
   ],
-  "lastUpdate": "22:55",
+  "lastUpdate": "23:00",
   "date": "2026-07-13"
 }
