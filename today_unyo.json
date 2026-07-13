@@ -2959,7 +2959,7 @@
       "destCode": "奥沢",
       "kind": "普",
       "delay": "",
-      "updated": "00:30"
+      "updated": "00:35"
     },
     {
       "op": "23K",
@@ -2969,9 +2969,19 @@
       "destCode": "菊名",
       "kind": "普",
       "delay": "",
-      "updated": "00:30"
+      "updated": "00:35"
+    },
+    {
+      "op": "43K",
+      "form": "5187F",
+      "cars": "8",
+      "no": "243-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "00:35"
     }
   ],
-  "lastUpdate": "00:30",
+  "lastUpdate": "00:35",
   "date": "2026-07-14"
 }
