@@ -3549,8 +3549,18 @@
       "kind": "普",
       "delay": "",
       "updated": "15:25"
+    },
+    {
+      "op": "13K",
+      "form": "-",
+      "cars": "0",
+      "no": "213-151",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "15:30"
     }
   ],
-  "lastUpdate": "15:25",
+  "lastUpdate": "15:30",
   "date": "2026-07-13"
 }
