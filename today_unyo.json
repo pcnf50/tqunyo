@@ -2780,8 +2780,18 @@
       "kind": "普",
       "delay": "",
       "updated": "23:05"
+    },
+    {
+      "op": "75T",
+      "form": "6330F",
+      "cars": "6",
+      "no": "475-231",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:10"
     }
   ],
-  "lastUpdate": "23:05",
+  "lastUpdate": "23:10",
   "date": "2026-07-13"
 }
