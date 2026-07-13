@@ -3000,18 +3000,8 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "00:45"
-    },
-    {
-      "op": "99",
-      "form": "5190F",
-      "cars": "8",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "各駅停車",
-      "delay": "",
-      "updated": "00:50"
     }
   ],
-  "lastUpdate": "00:50",
+  "lastUpdate": "00:55",
   "date": "2026-07-14"
 }
