@@ -1971,6 +1971,16 @@
       "updated": "17:55"
     },
     {
+      "op": "03S",
+      "form": "-",
+      "cars": "8",
+      "no": "703-172",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:05"
+    },
+    {
       "op": "30K",
       "form": "5118F",
       "cars": "8",
@@ -1978,7 +1988,7 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "18:00"
+      "updated": "18:05"
     }
   ],
   "meguro": [
@@ -3969,7 +3979,7 @@
       "destCode": "元住吉",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "18:00"
+      "updated": "18:05"
     },
     {
       "op": "30S",
@@ -3979,9 +3989,9 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "18:00"
+      "updated": "18:05"
     }
   ],
-  "lastUpdate": "18:00",
+  "lastUpdate": "18:05",
   "date": "2026-07-14"
 }
