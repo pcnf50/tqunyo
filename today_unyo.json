@@ -2179,6 +2179,16 @@
       "kind": "不明",
       "delay": "",
       "updated": "23:50"
+    },
+    {
+      "op": "23K",
+      "form": "-",
+      "cars": "8",
+      "no": "023-241",
+      "destCode": "菊名",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:10"
     }
   ],
   "meguro": [
@@ -4442,6 +4452,6 @@
       "updated": "23:50"
     }
   ],
-  "lastUpdate": "00:05",
+  "lastUpdate": "00:10",
   "date": "2026-07-15"
 }
