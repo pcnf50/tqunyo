@@ -1337,7 +1337,17 @@
       "destCode": "元住吉",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "08:40"
+      "updated": "08:45"
+    },
+    {
+      "op": "88",
+      "form": "-",
+      "cars": "6",
+      "no": "588-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "08:45"
     }
   ],
   "meguro": [
@@ -2713,13 +2723,13 @@
     },
     {
       "op": "73T",
-      "form": "-",
-      "cars": "0",
+      "form": "6501F",
+      "cars": "8",
       "no": "473-081",
       "destCode": "元住吉",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "08:40"
+      "updated": "08:45"
     },
     {
       "op": "35T",
@@ -2728,10 +2738,30 @@
       "no": "435-081",
       "destCode": "新横浜",
       "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "08:40"
+      "delay": "2分遅れ",
+      "updated": "08:45"
+    },
+    {
+      "op": "46S",
+      "form": "9123F",
+      "cars": "6",
+      "no": "346-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "08:45"
+    },
+    {
+      "op": "42G",
+      "form": "-",
+      "cars": "0",
+      "no": "642-081",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "2分遅れ",
+      "updated": "08:45"
     }
   ],
-  "lastUpdate": "08:40",
+  "lastUpdate": "08:45",
   "date": "2026-07-15"
 }
