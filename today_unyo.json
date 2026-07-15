@@ -3069,8 +3069,18 @@
       "kind": "特",
       "delay": "3分遅れ",
       "updated": "09:55"
+    },
+    {
+      "op": "63T",
+      "form": "6330F",
+      "cars": "6",
+      "no": "463-091",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "10:00"
     }
   ],
-  "lastUpdate": "09:55",
+  "lastUpdate": "10:00",
   "date": "2026-07-15"
 }
