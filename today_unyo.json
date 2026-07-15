@@ -1797,7 +1797,17 @@
       "destCode": "副都心線直通",
       "kind": "回",
       "delay": "",
-      "updated": "15:45"
+      "updated": "15:50"
+    },
+    {
+      "op": "41K",
+      "form": "5118F",
+      "cars": "8",
+      "no": "041-152",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "15:50"
     }
   ],
   "meguro": [
@@ -3658,9 +3668,19 @@
       "destCode": "副都心線直通",
       "kind": "回",
       "delay": "",
-      "updated": "15:45"
+      "updated": "15:50"
+    },
+    {
+      "op": "41T",
+      "form": "5188F",
+      "cars": "8",
+      "no": "041-152",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "15:50"
     }
   ],
-  "lastUpdate": "15:45",
+  "lastUpdate": "15:50",
   "date": "2026-07-15"
 }
