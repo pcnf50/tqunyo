@@ -3739,8 +3739,18 @@
       "kind": "急",
       "delay": "",
       "updated": "16:10"
+    },
+    {
+      "op": "42T",
+      "form": "-",
+      "cars": "8",
+      "no": "042-161",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "16:35"
     }
   ],
-  "lastUpdate": "16:30",
+  "lastUpdate": "16:35",
   "date": "2026-07-15"
 }
