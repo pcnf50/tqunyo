@@ -1766,8 +1766,8 @@
       "no": "803-121",
       "destCode": "武蔵小杉",
       "kind": "特",
-      "delay": "10分遅れ",
-      "updated": "13:05"
+      "delay": "11分遅れ",
+      "updated": "13:10"
     }
   ],
   "meguro": [
@@ -3549,8 +3549,28 @@
       "kind": "回",
       "delay": "2分遅れ",
       "updated": "13:00"
+    },
+    {
+      "op": "29",
+      "form": "-",
+      "cars": "10",
+      "no": "729-121",
+      "destCode": "武蔵小杉",
+      "kind": "特",
+      "delay": "35分遅れ",
+      "updated": "13:10"
+    },
+    {
+      "op": "41T",
+      "form": "-",
+      "cars": "0",
+      "no": "441-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:10"
     }
   ],
-  "lastUpdate": "13:05",
+  "lastUpdate": "13:10",
   "date": "2026-07-15"
 }
