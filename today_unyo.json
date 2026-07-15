@@ -3077,10 +3077,10 @@
       "no": "463-091",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "10:00"
+      "delay": "",
+      "updated": "10:05"
     }
   ],
-  "lastUpdate": "10:00",
+  "lastUpdate": "10:05",
   "date": "2026-07-15"
 }
