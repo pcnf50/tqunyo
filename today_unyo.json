@@ -1698,6 +1698,16 @@
       "kind": "Ｆ",
       "delay": "",
       "updated": "12:10"
+    },
+    {
+      "op": "61K",
+      "form": "4111F",
+      "cars": "10",
+      "no": "061-122",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:20"
     }
   ],
   "meguro": [
@@ -3428,9 +3438,9 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "12:15"
+      "updated": "12:20"
     }
   ],
-  "lastUpdate": "12:15",
+  "lastUpdate": "12:20",
   "date": "2026-07-15"
 }
