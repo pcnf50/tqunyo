@@ -1009,6 +1009,26 @@
       "kind": "普",
       "delay": "",
       "updated": "13:35"
+    },
+    {
+      "op": "53",
+      "form": "-",
+      "cars": "6",
+      "no": "453-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:50"
+    },
+    {
+      "op": "91G",
+      "form": "20103F",
+      "cars": "10",
+      "no": "991-131",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "13:50"
     }
   ],
   "meguro": [
@@ -2041,8 +2061,18 @@
       "kind": "普",
       "delay": "",
       "updated": "13:45"
+    },
+    {
+      "op": "70S",
+      "form": "9109F",
+      "cars": "8",
+      "no": "370-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:50"
     }
   ],
-  "lastUpdate": "13:45",
+  "lastUpdate": "13:50",
   "date": "2026-07-16"
 }
