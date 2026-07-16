@@ -2021,8 +2021,18 @@
       "kind": "普",
       "delay": "",
       "updated": "13:35"
+    },
+    {
+      "op": "85T",
+      "form": "-",
+      "cars": "0",
+      "no": "485-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:40"
     }
   ],
-  "lastUpdate": "13:35",
+  "lastUpdate": "13:40",
   "date": "2026-07-16"
 }
