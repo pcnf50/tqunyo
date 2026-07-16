@@ -1409,6 +1409,16 @@
       "kind": "普",
       "delay": "4分遅れ",
       "updated": "18:35"
+    },
+    {
+      "op": "05S",
+      "form": "17185F",
+      "cars": "8",
+      "no": "705-182",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:40"
     }
   ],
   "meguro": [
@@ -2821,8 +2831,18 @@
       "kind": "普",
       "delay": "",
       "updated": "18:35"
+    },
+    {
+      "op": "05",
+      "form": "-",
+      "cars": "8",
+      "no": "705-182",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:40"
     }
   ],
-  "lastUpdate": "18:35",
+  "lastUpdate": "18:40",
   "date": "2026-07-16"
 }
