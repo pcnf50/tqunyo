@@ -3480,8 +3480,38 @@
       "kind": "急",
       "delay": "",
       "updated": "23:05"
+    },
+    {
+      "op": "99",
+      "form": "3123F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:45"
+    },
+    {
+      "op": "82K",
+      "form": "3113F",
+      "cars": "8",
+      "no": "282-231",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "2分遅れ",
+      "updated": "23:45"
+    },
+    {
+      "op": "81K",
+      "form": "3101F",
+      "cars": "8",
+      "no": "281-231",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "2分遅れ",
+      "updated": "23:45"
     }
   ],
-  "lastUpdate": "23:40",
+  "lastUpdate": "23:45",
   "date": "2026-07-16"
 }
