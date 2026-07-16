@@ -3473,15 +3473,15 @@
     },
     {
       "op": "94M",
-      "form": "-",
-      "cars": "0",
+      "form": "9103F",
+      "cars": "6",
       "no": "594-231",
       "destCode": "新横浜",
       "kind": "急",
       "delay": "",
-      "updated": "23:00"
+      "updated": "23:05"
     }
   ],
-  "lastUpdate": "23:00",
+  "lastUpdate": "23:05",
   "date": "2026-07-16"
 }
