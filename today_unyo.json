@@ -1750,14 +1750,24 @@
       "updated": "00:45"
     },
     {
+      "op": "84K",
+      "form": "5118F",
+      "cars": "8",
+      "no": "084-241",
+      "destCode": "菊名",
+      "kind": "回",
+      "delay": "7分遅れ",
+      "updated": "00:55"
+    },
+    {
       "op": "45K",
       "form": "5159F",
       "cars": "8",
-      "no": "045-242",
-      "destCode": "武蔵小杉",
+      "no": "045-241",
+      "destCode": "元住吉",
       "kind": "回",
-      "delay": "5分遅れ",
-      "updated": "00:50"
+      "delay": "4分遅れ",
+      "updated": "00:55"
     }
   ],
   "meguro": [
@@ -3608,29 +3618,29 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "00:50"
+      "updated": "00:55"
+    },
+    {
+      "op": "84",
+      "form": "5188F",
+      "cars": "8",
+      "no": "084-241",
+      "destCode": "菊名",
+      "kind": "回",
+      "delay": "7分遅れ",
+      "updated": "00:55"
     },
     {
       "op": "45T",
       "form": "-",
       "cars": "8",
-      "no": "045-242",
-      "destCode": "武蔵小杉",
-      "kind": "回",
-      "delay": "5分遅れ",
-      "updated": "00:50"
-    },
-    {
-      "op": "44T",
-      "form": "-",
-      "cars": "8",
-      "no": "044-242",
+      "no": "045-241",
       "destCode": "元住吉",
       "kind": "回",
-      "delay": "3分遅れ",
-      "updated": "00:50"
+      "delay": "4分遅れ",
+      "updated": "00:55"
     }
   ],
-  "lastUpdate": "00:50",
+  "lastUpdate": "00:55",
   "date": "2026-07-17"
 }
