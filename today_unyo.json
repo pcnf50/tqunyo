@@ -3519,8 +3519,18 @@
       "kind": "回",
       "delay": "2分遅れ",
       "updated": "23:45"
+    },
+    {
+      "op": "01K",
+      "form": "3101F",
+      "cars": "8",
+      "no": "201-242",
+      "destCode": "目黒",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:15"
     }
   ],
-  "lastUpdate": "00:10",
+  "lastUpdate": "00:15",
   "date": "2026-07-17"
 }
