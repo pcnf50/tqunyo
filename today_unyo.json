@@ -3360,8 +3360,18 @@
       "kind": "通",
       "delay": "",
       "updated": "21:45"
+    },
+    {
+      "op": "31K",
+      "form": "3123F",
+      "cars": "8",
+      "no": "231-211",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "21:55"
     }
   ],
-  "lastUpdate": "21:50",
+  "lastUpdate": "21:55",
   "date": "2026-07-16"
 }
