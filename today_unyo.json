@@ -1189,6 +1189,16 @@
       "kind": "急",
       "delay": "",
       "updated": "16:05"
+    },
+    {
+      "op": "20",
+      "form": "-",
+      "cars": "8",
+      "no": "220-161",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "16:55"
     }
   ],
   "meguro": [
@@ -2373,6 +2383,6 @@
       "updated": "16:45"
     }
   ],
-  "lastUpdate": "16:50",
+  "lastUpdate": "16:55",
   "date": "2026-07-16"
 }
