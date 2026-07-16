@@ -1683,12 +1683,12 @@
     {
       "op": "31K",
       "form": "-",
-      "cars": "0",
+      "cars": "8",
       "no": "031-221",
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "22:40"
+      "updated": "22:45"
     }
   ],
   "meguro": [
@@ -3462,6 +3462,6 @@
       "updated": "22:35"
     }
   ],
-  "lastUpdate": "22:40",
+  "lastUpdate": "22:45",
   "date": "2026-07-16"
 }
