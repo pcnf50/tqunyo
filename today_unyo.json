@@ -1936,8 +1936,8 @@
       "no": "483-171",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "2分遅れ",
-      "updated": "17:50"
+      "delay": "1分遅れ",
+      "updated": "17:55"
     },
     {
       "op": "13S",
@@ -1947,7 +1947,17 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "17:50"
+      "updated": "17:55"
+    },
+    {
+      "op": "10K",
+      "form": "5157F",
+      "cars": "8",
+      "no": "010-171",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "17:55"
     }
   ],
   "meguro": [
@@ -3890,8 +3900,18 @@
       "kind": "普",
       "delay": "",
       "updated": "17:35"
+    },
+    {
+      "op": "60S",
+      "form": "9115F",
+      "cars": "8",
+      "no": "360-171",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:55"
     }
   ],
-  "lastUpdate": "17:50",
+  "lastUpdate": "17:55",
   "date": "2026-07-17"
 }
