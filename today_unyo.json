@@ -1845,9 +1845,19 @@
       "cars": "8",
       "no": "031-162",
       "destCode": "副都心線直通",
-      "kind": "回",
+      "kind": "普",
       "delay": "3分遅れ",
-      "updated": "17:00"
+      "updated": "17:05"
+    },
+    {
+      "op": "03T",
+      "form": "10129F",
+      "cars": "10",
+      "no": "803-171",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "2分遅れ",
+      "updated": "17:05"
     }
   ],
   "meguro": [
@@ -3707,11 +3717,11 @@
       "cars": "8",
       "no": "031-162",
       "destCode": "副都心線直通",
-      "kind": "回",
-      "delay": "3分遅れ",
-      "updated": "17:00"
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "17:05"
     }
   ],
-  "lastUpdate": "17:00",
+  "lastUpdate": "17:05",
   "date": "2026-07-17"
 }
