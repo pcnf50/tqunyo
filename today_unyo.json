@@ -3720,8 +3720,38 @@
       "kind": "普",
       "delay": "2分遅れ",
       "updated": "17:05"
+    },
+    {
+      "op": "38K",
+      "form": "3111F",
+      "cars": "8",
+      "no": "238-172",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:10"
+    },
+    {
+      "op": "18",
+      "form": "5192F",
+      "cars": "8",
+      "no": "018-161",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "7分遅れ",
+      "updated": "17:10"
+    },
+    {
+      "op": "7",
+      "form": "-",
+      "cars": "8",
+      "no": "007-161",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "6分遅れ",
+      "updated": "17:10"
     }
   ],
-  "lastUpdate": "17:05",
+  "lastUpdate": "17:10",
   "date": "2026-07-17"
 }
