@@ -1678,6 +1678,16 @@
       "kind": "急",
       "delay": "",
       "updated": "13:55"
+    },
+    {
+      "op": "99S",
+      "form": "10117F",
+      "cars": "10",
+      "no": "799-142",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "14:25"
     }
   ],
   "meguro": [
@@ -3472,6 +3482,6 @@
       "updated": "14:05"
     }
   ],
-  "lastUpdate": "14:20",
+  "lastUpdate": "14:25",
   "date": "2026-07-17"
 }
