@@ -891,6 +891,16 @@
       "updated": "07:45"
     },
     {
+      "op": "02S",
+      "form": "5162F",
+      "cars": "8",
+      "no": "702-071",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:55"
+    },
+    {
       "op": "11S",
       "form": "17183F",
       "cars": "8",
@@ -898,7 +908,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "07:50"
+      "updated": "07:55"
     },
     {
       "op": "60K",
@@ -908,7 +918,17 @@
       "destCode": "渋谷",
       "kind": "急",
       "delay": "1分遅れ",
-      "updated": "07:50"
+      "updated": "07:55"
+    },
+    {
+      "op": "55S",
+      "form": "10113F",
+      "cars": "10",
+      "no": "755-071",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "07:55"
     },
     {
       "op": "50",
@@ -918,7 +938,17 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "07:50"
+      "updated": "07:55"
+    },
+    {
+      "op": "27",
+      "form": "-",
+      "cars": "8",
+      "no": "227-071",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:55"
     }
   ],
   "meguro": [
@@ -1791,14 +1821,24 @@
       "updated": "07:45"
     },
     {
-      "op": "99",
+      "op": "03",
+      "form": "-",
+      "cars": "8",
+      "no": "703-072",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:55"
+    },
+    {
+      "op": "64S",
       "form": "-",
       "cars": "0",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "各駅停車",
+      "no": "364-071",
+      "destCode": "新横浜",
+      "kind": "普",
       "delay": "",
-      "updated": "07:50"
+      "updated": "07:55"
     },
     {
       "op": "60G",
@@ -1808,9 +1848,19 @@
       "destCode": "渋谷",
       "kind": "急",
       "delay": "1分遅れ",
-      "updated": "07:50"
+      "updated": "07:55"
+    },
+    {
+      "op": "57T",
+      "form": "6333F",
+      "cars": "6",
+      "no": "457-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:55"
     }
   ],
-  "lastUpdate": "07:50",
+  "lastUpdate": "07:55",
   "date": "2026-07-18"
 }
