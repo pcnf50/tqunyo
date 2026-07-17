@@ -4212,16 +4212,6 @@
       "updated": "19:15"
     },
     {
-      "op": "30",
-      "form": "-",
-      "cars": "10",
-      "no": "130-191",
-      "destCode": "元町・中華街",
-      "kind": "通",
-      "delay": "3分遅れ",
-      "updated": "19:20"
-    },
-    {
       "op": "64S",
       "form": "9120F",
       "cars": "6",
@@ -4229,9 +4219,9 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "19:20"
+      "updated": "19:25"
     }
   ],
-  "lastUpdate": "19:20",
+  "lastUpdate": "19:25",
   "date": "2026-07-17"
 }
