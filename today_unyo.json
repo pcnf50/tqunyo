@@ -3020,8 +3020,18 @@
       "kind": "普",
       "delay": "",
       "updated": "09:45"
+    },
+    {
+      "op": "39G",
+      "form": "-",
+      "cars": "0",
+      "no": "639-091",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:50"
     }
   ],
-  "lastUpdate": "09:45",
+  "lastUpdate": "09:50",
   "date": "2026-07-17"
 }
