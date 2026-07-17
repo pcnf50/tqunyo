@@ -1668,16 +1668,6 @@
       "kind": "Ｆ",
       "delay": "",
       "updated": "12:55"
-    },
-    {
-      "op": "04K",
-      "form": "-",
-      "cars": "8",
-      "no": "004-122",
-      "destCode": "副都心線直通",
-      "kind": "普",
-      "delay": "6分遅れ",
-      "updated": "13:20"
     }
   ],
   "meguro": [
@@ -3442,6 +3432,6 @@
       "updated": "13:05"
     }
   ],
-  "lastUpdate": "13:20",
+  "lastUpdate": "13:25",
   "date": "2026-07-17"
 }
