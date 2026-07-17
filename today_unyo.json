@@ -1816,8 +1816,28 @@
       "no": "018-161",
       "destCode": "元町・中華街",
       "kind": "急",
-      "delay": "",
-      "updated": "16:50"
+      "delay": "3分遅れ",
+      "updated": "16:55"
+    },
+    {
+      "op": "94G",
+      "form": "-",
+      "cars": "0",
+      "no": "994-161",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "16:55"
+    },
+    {
+      "op": "07K",
+      "form": "5178F",
+      "cars": "8",
+      "no": "007-161",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "16:55"
     }
   ],
   "meguro": [
@@ -3672,6 +3692,6 @@
       "updated": "16:45"
     }
   ],
-  "lastUpdate": "16:50",
+  "lastUpdate": "16:55",
   "date": "2026-07-17"
 }
