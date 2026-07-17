@@ -2048,6 +2048,16 @@
       "kind": "急",
       "delay": "",
       "updated": "18:35"
+    },
+    {
+      "op": "19K",
+      "form": "5176F",
+      "cars": "8",
+      "no": "019-181",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "18:40"
     }
   ],
   "meguro": [
@@ -4082,6 +4092,6 @@
       "updated": "18:35"
     }
   ],
-  "lastUpdate": "18:35",
+  "lastUpdate": "18:40",
   "date": "2026-07-17"
 }
