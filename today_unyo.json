@@ -1597,7 +1597,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "11:50"
+      "updated": "11:55"
     },
     {
       "op": "01",
@@ -1607,7 +1607,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "11:50"
+      "updated": "11:55"
     }
   ],
   "meguro": [
@@ -3309,9 +3309,19 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "11:50"
+      "updated": "11:55"
+    },
+    {
+      "op": "46S",
+      "form": "-",
+      "cars": "0",
+      "no": "346-111",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:55"
     }
   ],
-  "lastUpdate": "11:50",
+  "lastUpdate": "11:55",
   "date": "2026-07-17"
 }
