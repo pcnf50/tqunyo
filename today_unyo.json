@@ -1966,18 +1966,8 @@
       "no": "030-172",
       "destCode": "渋谷",
       "kind": "回",
-      "delay": "",
-      "updated": "18:00"
-    },
-    {
-      "op": "09K",
-      "form": "-",
-      "cars": "8",
-      "no": "009-162",
-      "destCode": "副都心線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "18:00"
+      "delay": "1分遅れ",
+      "updated": "18:05"
     },
     {
       "op": "63K",
@@ -1986,8 +1976,18 @@
       "no": "063-171",
       "destCode": "相鉄線直通",
       "kind": "急",
-      "delay": "4分遅れ",
-      "updated": "18:00"
+      "delay": "5分遅れ",
+      "updated": "18:05"
+    },
+    {
+      "op": "85S",
+      "form": "10104F",
+      "cars": "10",
+      "no": "785-181",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "3分遅れ",
+      "updated": "18:05"
     }
   ],
   "meguro": [
@@ -3948,10 +3948,10 @@
       "no": "030-172",
       "destCode": "渋谷",
       "kind": "回",
-      "delay": "",
-      "updated": "18:00"
+      "delay": "1分遅れ",
+      "updated": "18:05"
     }
   ],
-  "lastUpdate": "18:00",
+  "lastUpdate": "18:05",
   "date": "2026-07-17"
 }
