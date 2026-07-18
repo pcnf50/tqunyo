@@ -4112,8 +4112,28 @@
       "kind": "各駅停車",
       "delay": "",
       "updated": "23:40"
+    },
+    {
+      "op": "45",
+      "form": "-",
+      "cars": "10",
+      "no": "745-231",
+      "destCode": "横浜",
+      "kind": "特",
+      "delay": "8分遅れ",
+      "updated": "23:45"
+    },
+    {
+      "op": "24K",
+      "form": "-",
+      "cars": "8",
+      "no": "024-231",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "5分遅れ",
+      "updated": "23:45"
     }
   ],
-  "lastUpdate": "23:41",
+  "lastUpdate": "23:45",
   "date": "2026-07-18"
 }
