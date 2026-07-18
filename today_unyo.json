@@ -4187,13 +4187,23 @@
       "op": "45",
       "form": "-",
       "cars": "10",
-      "no": "745-232",
-      "destCode": "武蔵小杉",
-      "kind": "急",
-      "delay": "2分遅れ",
-      "updated": "00:15"
+      "no": "745-241",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "3分遅れ",
+      "updated": "00:20"
+    },
+    {
+      "op": "22K",
+      "form": "5192F",
+      "cars": "8",
+      "no": "022-241",
+      "destCode": "横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "00:20"
     }
   ],
-  "lastUpdate": "00:15",
+  "lastUpdate": "00:20",
   "date": "2026-07-19"
 }
