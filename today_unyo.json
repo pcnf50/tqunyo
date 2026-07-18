@@ -1308,7 +1308,7 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "10:40"
+      "updated": "10:45"
     }
   ],
   "meguro": [
@@ -2649,8 +2649,18 @@
       "kind": "Ｓ",
       "delay": "",
       "updated": "10:35"
+    },
+    {
+      "op": "67",
+      "form": "-",
+      "cars": "10",
+      "no": "767-101",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "10:45"
     }
   ],
-  "lastUpdate": "10:40",
+  "lastUpdate": "10:45",
   "date": "2026-07-18"
 }
