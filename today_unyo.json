@@ -1597,7 +1597,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "18:25"
+      "updated": "18:30"
     },
     {
       "op": "21K",
@@ -1607,7 +1607,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "18:25"
+      "updated": "18:30"
     }
   ],
   "meguro": [
@@ -3210,16 +3210,16 @@
       "updated": "18:10"
     },
     {
-      "op": "86M",
+      "op": "81",
       "form": "-",
-      "cars": "0",
-      "no": "586-181",
-      "destCode": "新横浜",
-      "kind": "普",
+      "cars": "10",
+      "no": "981-000",
+      "destCode": "",
+      "kind": "各駅停車",
       "delay": "",
-      "updated": "18:25"
+      "updated": "18:30"
     }
   ],
-  "lastUpdate": "18:25",
+  "lastUpdate": "18:30",
   "date": "2026-07-18"
 }
