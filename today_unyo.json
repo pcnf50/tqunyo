@@ -2859,8 +2859,18 @@
       "kind": "普",
       "delay": "",
       "updated": "12:05"
+    },
+    {
+      "op": "42T",
+      "form": "-",
+      "cars": "8",
+      "no": "042-121",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "12:15"
     }
   ],
-  "lastUpdate": "12:10",
+  "lastUpdate": "12:15",
   "date": "2026-07-18"
 }
