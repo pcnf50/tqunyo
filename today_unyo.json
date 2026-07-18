@@ -2949,8 +2949,18 @@
       "kind": "普",
       "delay": "1分遅れ",
       "updated": "12:45"
+    },
+    {
+      "op": "35T",
+      "form": "6510F",
+      "cars": "8",
+      "no": "435-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:45"
     }
   ],
-  "lastUpdate": "13:40",
+  "lastUpdate": "13:45",
   "date": "2026-07-18"
 }
