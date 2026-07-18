@@ -1548,6 +1548,16 @@
       "kind": "急",
       "delay": "",
       "updated": "17:00"
+    },
+    {
+      "op": "67S",
+      "form": "17192F",
+      "cars": "8",
+      "no": "767-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "17:15"
     }
   ],
   "meguro": [
@@ -3120,6 +3130,6 @@
       "updated": "15:50"
     }
   ],
-  "lastUpdate": "17:10",
+  "lastUpdate": "17:15",
   "date": "2026-07-18"
 }
