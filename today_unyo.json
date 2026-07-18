@@ -2301,7 +2301,17 @@
       "destCode": "菊名",
       "kind": "普",
       "delay": "",
-      "updated": "23:55"
+      "updated": "00:00"
+    },
+    {
+      "op": "22K",
+      "form": "5122F",
+      "cars": "8",
+      "no": "022-241",
+      "destCode": "横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:00"
     }
   ],
   "meguro": [
@@ -4144,6 +4154,6 @@
       "updated": "23:50"
     }
   ],
-  "lastUpdate": "23:55",
-  "date": "2026-07-18"
+  "lastUpdate": "00:00",
+  "date": "2026-07-19"
 }
