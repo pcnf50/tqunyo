@@ -2021,7 +2021,7 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "21:45"
+      "updated": "21:50"
     }
   ],
   "meguro": [
@@ -3774,16 +3774,16 @@
       "updated": "21:30"
     },
     {
-      "op": "25K",
+      "op": "23K",
       "form": "-",
-      "cars": "0",
-      "no": "225-211",
-      "destCode": "元住吉",
+      "cars": "8",
+      "no": "023-211",
+      "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "21:45"
+      "updated": "21:50"
     }
   ],
-  "lastUpdate": "21:45",
+  "lastUpdate": "21:50",
   "date": "2026-07-18"
 }
