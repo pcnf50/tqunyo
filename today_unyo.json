@@ -2265,13 +2265,23 @@
     },
     {
       "op": "99G",
-      "form": "5159F",
+      "form": "17192F",
       "cars": "8",
       "no": "999-990",
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "23:35"
+      "updated": "23:40"
+    },
+    {
+      "op": "13K",
+      "form": "5175F",
+      "cars": "8",
+      "no": "013-231",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:40"
     }
   ],
   "meguro": [
@@ -4101,9 +4111,9 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:35"
+      "updated": "23:40"
     }
   ],
-  "lastUpdate": "23:35",
+  "lastUpdate": "23:40",
   "date": "2026-07-18"
 }
