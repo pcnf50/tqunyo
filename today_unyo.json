@@ -1418,7 +1418,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "12:50"
+      "updated": "12:55"
     }
   ],
   "meguro": [
@@ -2929,18 +2929,8 @@
       "kind": "普",
       "delay": "1分遅れ",
       "updated": "12:45"
-    },
-    {
-      "op": "12K",
-      "form": "-",
-      "cars": "0",
-      "no": "212-121",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "12:50"
     }
   ],
-  "lastUpdate": "12:50",
+  "lastUpdate": "12:55",
   "date": "2026-07-18"
 }
