@@ -1688,6 +1688,16 @@
       "kind": "回",
       "delay": "",
       "updated": "19:10"
+    },
+    {
+      "op": "04K",
+      "form": "17189F",
+      "cars": "8",
+      "no": "004-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "19:15"
     }
   ],
   "meguro": [
@@ -3320,6 +3330,6 @@
       "updated": "19:00"
     }
   ],
-  "lastUpdate": "19:10",
+  "lastUpdate": "19:15",
   "date": "2026-07-18"
 }
