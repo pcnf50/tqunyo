@@ -2292,6 +2292,16 @@
       "kind": "普",
       "delay": "",
       "updated": "23:50"
+    },
+    {
+      "op": "16K",
+      "form": "Y511F",
+      "cars": "8",
+      "no": "016-231",
+      "destCode": "菊名",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:55"
     }
   ],
   "meguro": [
@@ -4134,6 +4144,6 @@
       "updated": "23:50"
     }
   ],
-  "lastUpdate": "23:50",
+  "lastUpdate": "23:55",
   "date": "2026-07-18"
 }
