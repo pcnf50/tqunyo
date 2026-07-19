@@ -1499,6 +1499,16 @@
       "kind": "回",
       "delay": "2分遅れ",
       "updated": "15:05"
+    },
+    {
+      "op": "42K",
+      "form": "5164F",
+      "cars": "8",
+      "no": "042-151",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "15:15"
     }
   ],
   "meguro": [
@@ -2983,6 +2993,6 @@
       "updated": "14:55"
     }
   ],
-  "lastUpdate": "15:10",
+  "lastUpdate": "15:15",
   "date": "2026-07-19"
 }
