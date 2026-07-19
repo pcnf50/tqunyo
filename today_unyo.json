@@ -1878,7 +1878,17 @@
       "destCode": "横浜",
       "kind": "特",
       "delay": "",
-      "updated": "23:25"
+      "updated": "23:30"
+    },
+    {
+      "op": "99G",
+      "form": "5152F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "23:30"
     }
   ],
   "meguro": [
@@ -3731,8 +3741,18 @@
       "kind": "急",
       "delay": "",
       "updated": "23:00"
+    },
+    {
+      "op": "99",
+      "form": "3103F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:30"
     }
   ],
-  "lastUpdate": "23:25",
+  "lastUpdate": "23:30",
   "date": "2026-07-19"
 }
