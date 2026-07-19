@@ -771,6 +771,16 @@
       "updated": "07:15"
     },
     {
+      "op": "36",
+      "form": "-",
+      "cars": "6",
+      "no": "336-071",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:25"
+    },
+    {
       "op": "51K",
       "form": "4114F",
       "cars": "10",
@@ -778,7 +788,7 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:20"
+      "updated": "07:25"
     },
     {
       "op": "05T",
@@ -788,7 +798,7 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "07:20"
+      "updated": "07:25"
     }
   ],
   "meguro": [
@@ -1563,6 +1573,6 @@
       "updated": "07:15"
     }
   ],
-  "lastUpdate": "07:20",
+  "lastUpdate": "07:25",
   "date": "2026-07-20"
 }
