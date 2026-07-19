@@ -3303,6 +3303,26 @@
       "updated": "18:25"
     },
     {
+      "op": "66S",
+      "form": "-",
+      "cars": "0",
+      "no": "366-181",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:55"
+    },
+    {
+      "op": "30",
+      "form": "-",
+      "cars": "10",
+      "no": "130-181",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "18:55"
+    },
+    {
       "op": "37G",
       "form": "21104F",
       "cars": "8",
@@ -3310,9 +3330,9 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:50"
+      "updated": "18:55"
     }
   ],
-  "lastUpdate": "18:50",
+  "lastUpdate": "18:55",
   "date": "2026-07-19"
 }
