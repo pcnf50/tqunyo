@@ -2821,8 +2821,18 @@
       "kind": "急",
       "delay": "",
       "updated": "11:45"
+    },
+    {
+      "op": "42T",
+      "form": "-",
+      "cars": "8",
+      "no": "042-111",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "3分遅れ",
+      "updated": "11:50"
     }
   ],
-  "lastUpdate": "11:45",
+  "lastUpdate": "11:50",
   "date": "2026-07-19"
 }
