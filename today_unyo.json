@@ -3001,8 +3001,18 @@
       "kind": "普",
       "delay": "",
       "updated": "15:25"
+    },
+    {
+      "op": "48S",
+      "form": "9111F",
+      "cars": "8",
+      "no": "348-151",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "15:30"
     }
   ],
-  "lastUpdate": "15:25",
+  "lastUpdate": "15:30",
   "date": "2026-07-19"
 }
