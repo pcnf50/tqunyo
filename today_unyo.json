@@ -1808,7 +1808,7 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "",
-      "updated": "22:40"
+      "updated": "22:45"
     },
     {
       "op": "05K",
@@ -1818,7 +1818,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "22:40"
+      "updated": "22:45"
     },
     {
       "op": "11T",
@@ -1828,7 +1828,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "22:40"
+      "updated": "22:45"
     }
   ],
   "meguro": [
@@ -3663,6 +3663,6 @@
       "updated": "22:25"
     }
   ],
-  "lastUpdate": "22:40",
+  "lastUpdate": "22:45",
   "date": "2026-07-19"
 }
