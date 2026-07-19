@@ -1537,8 +1537,8 @@
       "no": "596-151",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "16:10"
+      "delay": "2分遅れ",
+      "updated": "16:15"
     }
   ],
   "meguro": [
@@ -3063,6 +3063,6 @@
       "updated": "15:55"
     }
   ],
-  "lastUpdate": "16:11",
+  "lastUpdate": "16:15",
   "date": "2026-07-19"
 }
