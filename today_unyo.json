@@ -1704,7 +1704,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "23:00",
+      "updated": "23:05",
       "affiliation": "急"
     }
   ],
@@ -3445,10 +3445,10 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "23:00",
+      "updated": "23:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:00",
+  "lastUpdate": "23:05",
   "date": "2026-07-20"
 }
