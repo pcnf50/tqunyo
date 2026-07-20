@@ -991,13 +991,14 @@
       "updated": "08:15"
     },
     {
-      "op": "99",
-      "form": "Y511F",
-      "cars": "8",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "不明",
-      "delay": ""
+      "op": "39S",
+      "form": "10102F",
+      "cars": "10",
+      "no": "739-081",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "08:15"
     },
     {
       "op": "42",
@@ -3525,6 +3526,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "00:20",
+  "lastUpdate": "00:25",
   "date": "2026-07-21"
 }
