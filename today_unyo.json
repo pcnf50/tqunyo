@@ -1574,6 +1574,17 @@
       "delay": "",
       "updated": "19:17",
       "affiliation": "急"
+    },
+    {
+      "op": "17K",
+      "form": "-",
+      "cars": "0",
+      "no": "017-191",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:35",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -3160,7 +3171,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "19:35",
+      "updated": "19:34",
       "affiliation": "南"
     }
   ],
