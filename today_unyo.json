@@ -2591,8 +2591,28 @@
       "kind": "急",
       "delay": "",
       "updated": "13:35"
+    },
+    {
+      "op": "67",
+      "form": "-",
+      "cars": "10",
+      "no": "767-131",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "13:45"
+    },
+    {
+      "op": "82M",
+      "form": "-",
+      "cars": "0",
+      "no": "582-131",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "13:45"
     }
   ],
-  "lastUpdate": "13:40",
+  "lastUpdate": "13:45",
   "date": "2026-07-20"
 }
