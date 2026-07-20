@@ -3338,8 +3338,19 @@
       "delay": "",
       "updated": "21:55",
       "affiliation": ""
+    },
+    {
+      "op": "67T",
+      "form": "6337F",
+      "cars": "6",
+      "no": "467-221",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:05",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "22:00",
+  "lastUpdate": "22:05",
   "date": "2026-07-20"
 }
