@@ -1759,7 +1759,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "00:40",
+      "updated": "00:45",
       "affiliation": "み"
     }
   ],
@@ -3566,10 +3566,21 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "00:40",
+      "updated": "00:45",
+      "affiliation": "急"
+    },
+    {
+      "op": "45K",
+      "form": "3121F",
+      "cars": "8",
+      "no": "245-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "00:45",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:40",
+  "lastUpdate": "00:45",
   "date": "2026-07-21"
 }
