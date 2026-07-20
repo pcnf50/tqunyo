@@ -1640,6 +1640,17 @@
       "delay": "",
       "updated": "21:15",
       "affiliation": "西"
+    },
+    {
+      "op": "67",
+      "form": "-",
+      "cars": "6",
+      "no": "467-221",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:20",
+      "affiliation": "都"
     }
   ],
   "meguro": [
@@ -3361,6 +3372,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:15",
+  "lastUpdate": "22:20",
   "date": "2026-07-20"
 }
