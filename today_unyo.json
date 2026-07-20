@@ -8,7 +8,7 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
@@ -19,7 +19,7 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
@@ -30,18 +30,51 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
-      "op": "99G",
+      "op": "02K",
       "form": "5178F",
+      "cars": "8",
+      "no": "002-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "06K",
+      "form": "5153F",
+      "cars": "8",
+      "no": "006-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "08K",
+      "form": "Y515F",
+      "cars": "8",
+      "no": "008-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:55",
+      "affiliation": "み"
+    },
+    {
+      "op": "99G",
+      "form": "-",
       "cars": "8",
       "no": "999-000",
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     }
   ],
@@ -54,7 +87,7 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
@@ -65,7 +98,7 @@
       "destCode": "相鉄線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
@@ -76,7 +109,7 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
@@ -87,7 +120,7 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
@@ -98,21 +131,43 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "6G",
+      "form": "-",
+      "cars": "8",
+      "no": "006-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "05K",
+      "form": "5189F",
+      "cars": "8",
+      "no": "205-051",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
       "op": "99",
-      "form": "-",
+      "form": "3111F",
       "cars": "8",
       "no": "999-000",
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "04:50",
+  "lastUpdate": "04:55",
   "date": "2026-07-21"
 }
