@@ -2671,8 +2671,18 @@
       "kind": "急",
       "delay": "",
       "updated": "14:15"
+    },
+    {
+      "op": "66S",
+      "form": "9105F",
+      "cars": "6",
+      "no": "366-141",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "14:20"
     }
   ],
-  "lastUpdate": "14:15",
+  "lastUpdate": "14:20",
   "date": "2026-07-20"
 }
