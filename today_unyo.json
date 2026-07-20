@@ -3348,6 +3348,17 @@
       "delay": "",
       "updated": "22:05",
       "affiliation": "都"
+    },
+    {
+      "op": "44K",
+      "form": "3105F",
+      "cars": "8",
+      "no": "244-222",
+      "destCode": "南北線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "22:10",
+      "affiliation": "急"
     }
   ],
   "lastUpdate": "22:10",
