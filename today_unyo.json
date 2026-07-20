@@ -1585,6 +1585,17 @@
       "delay": "",
       "updated": "19:45",
       "affiliation": "急"
+    },
+    {
+      "op": "75M",
+      "form": "40102F",
+      "cars": "10",
+      "no": "175-192",
+      "destCode": "副都心線直通",
+      "kind": "Ｓ",
+      "delay": "",
+      "updated": "20:05",
+      "affiliation": "西"
     }
   ],
   "meguro": [
@@ -3204,10 +3215,10 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "20:00",
+      "updated": "20:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "20:00",
+  "lastUpdate": "20:05",
   "date": "2026-07-20"
 }
