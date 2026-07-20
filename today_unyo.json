@@ -3195,8 +3195,19 @@
       "delay": "",
       "updated": "19:45",
       "affiliation": "急"
+    },
+    {
+      "op": "02K",
+      "form": "3122F",
+      "cars": "8",
+      "no": "202-191",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:00",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:57",
+  "lastUpdate": "20:00",
   "date": "2026-07-20"
 }
