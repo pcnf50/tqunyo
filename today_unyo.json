@@ -1572,7 +1572,7 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:12",
+      "updated": "19:13",
       "affiliation": "急"
     }
   ],
@@ -3131,6 +3131,17 @@
       "affiliation": "急"
     },
     {
+      "op": "18K",
+      "form": "-",
+      "cars": "0",
+      "no": "218-191",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:13",
+      "affiliation": ""
+    },
+    {
       "op": "64G",
       "form": "-",
       "cars": "10",
@@ -3138,10 +3149,10 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:12",
+      "updated": "19:13",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:12",
+  "lastUpdate": "19:13",
   "date": "2026-07-20"
 }
