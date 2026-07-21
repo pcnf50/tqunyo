@@ -2238,8 +2238,8 @@
       "no": "813-221",
       "destCode": "元住吉",
       "kind": "急",
-      "delay": "2分遅れ",
-      "updated": "22:55",
+      "delay": "3分遅れ",
+      "updated": "23:00",
       "affiliation": "東"
     }
   ],
@@ -4745,6 +4745,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:55",
+  "lastUpdate": "23:00",
   "date": "2026-07-21"
 }
