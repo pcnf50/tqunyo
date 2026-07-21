@@ -1517,6 +1517,17 @@
       "affiliation": "都"
     },
     {
+      "op": "52K",
+      "form": "4104F",
+      "cars": "10",
+      "no": "052-091",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "09:15",
+      "affiliation": "急"
+    },
+    {
       "op": "12",
       "form": "-",
       "cars": "8",
@@ -1524,7 +1535,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "3分遅れ",
-      "updated": "09:10",
+      "updated": "09:15",
       "affiliation": "急"
     },
     {
@@ -1535,7 +1546,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "3分遅れ",
-      "updated": "09:10",
+      "updated": "09:15",
       "affiliation": "副"
     }
   ],
@@ -3101,26 +3112,26 @@
       "affiliation": "南"
     },
     {
+      "op": "85T",
+      "form": "6334F",
+      "cars": "6",
+      "no": "485-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "15分遅れ",
+      "updated": "09:15",
+      "affiliation": "都"
+    },
+    {
       "op": "81T",
       "form": "6504F",
       "cars": "8",
       "no": "481-081",
       "destCode": "新横浜",
       "kind": "普",
-      "delay": "12分遅れ",
-      "updated": "09:10",
+      "delay": "13分遅れ",
+      "updated": "09:15",
       "affiliation": "都"
-    },
-    {
-      "op": "24",
-      "form": "-",
-      "cars": "10",
-      "no": "124-081",
-      "destCode": "元町・中華街",
-      "kind": "通",
-      "delay": "2分遅れ",
-      "updated": "09:10",
-      "affiliation": "西"
     },
     {
       "op": "94M",
@@ -3129,8 +3140,8 @@
       "no": "594-081",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "13分遅れ",
-      "updated": "09:10",
+      "delay": "14分遅れ",
+      "updated": "09:15",
       "affiliation": "南"
     },
     {
@@ -3141,10 +3152,21 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "3分遅れ",
-      "updated": "09:10",
+      "updated": "09:15",
+      "affiliation": "急"
+    },
+    {
+      "op": "9",
+      "form": "-",
+      "cars": "8",
+      "no": "009-082",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:15",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "09:10",
+  "lastUpdate": "09:15",
   "date": "2026-07-21"
 }
