@@ -1,16 +1,96 @@
 {
-  "toyoko": {
-    "99": {
-      "op": "99",
+  "toyoko": [
+    {
+      "op": "05K",
       "form": "Y514F",
+      "cars": "8",
+      "no": "005-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "み"
+    },
+    {
+      "op": "13",
+      "form": "-",
+      "cars": "8",
+      "no": "213-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "99G",
+      "form": "5122F",
       "cars": "8",
       "no": "999-000",
       "destCode": "",
       "kind": "不明",
-      "delay": ""
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
     }
-  },
-  "meguro": {},
-  "lastUpdate": "04:46",
+  ],
+  "meguro": [
+    {
+      "op": "36K",
+      "form": "5188F",
+      "cars": "8",
+      "no": "236-041",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "11K",
+      "form": "3101F",
+      "cars": "8",
+      "no": "211-042",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "5M",
+      "form": "-",
+      "cars": "8",
+      "no": "005-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "み"
+    },
+    {
+      "op": "13K",
+      "form": "3102F",
+      "cars": "8",
+      "no": "213-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "99",
+      "form": "5192F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
+    }
+  ],
+  "lastUpdate": "04:50",
   "date": "2026-07-22"
 }
