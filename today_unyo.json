@@ -2142,6 +2142,17 @@
       "delay": "",
       "updated": "19:20",
       "affiliation": "急"
+    },
+    {
+      "op": "77S",
+      "form": "10124F",
+      "cars": "10",
+      "no": "777-191",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "19:30",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -4483,8 +4494,19 @@
       "delay": "2分遅れ",
       "updated": "19:20",
       "affiliation": "西"
+    },
+    {
+      "op": "63",
+      "form": "-",
+      "cars": "10",
+      "no": "763-191",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "2分遅れ",
+      "updated": "19:30",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "19:25",
+  "lastUpdate": "19:30",
   "date": "2026-07-21"
 }
