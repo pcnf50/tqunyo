@@ -4078,17 +4078,17 @@
       "affiliation": "南"
     },
     {
-      "op": "67",
-      "form": "-",
-      "cars": "10",
-      "no": "767-162",
-      "destCode": "副都心線直通",
-      "kind": "特",
+      "op": "38K",
+      "form": "3111F",
+      "cars": "8",
+      "no": "238-172",
+      "destCode": "南北線直通",
+      "kind": "普",
       "delay": "",
-      "updated": "17:05",
-      "affiliation": "副"
+      "updated": "17:10",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:05",
+  "lastUpdate": "17:10",
   "date": "2026-07-21"
 }
