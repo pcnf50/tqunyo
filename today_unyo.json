@@ -3660,8 +3660,19 @@
       "delay": "4分遅れ",
       "updated": "11:35",
       "affiliation": "急"
+    },
+    {
+      "op": "61T",
+      "form": "-",
+      "cars": "6",
+      "no": "461-111",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "11:40",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "11:35",
+  "lastUpdate": "11:40",
   "date": "2026-07-21"
 }
