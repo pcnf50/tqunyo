@@ -2052,7 +2052,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "18:15",
+      "updated": "18:20",
       "affiliation": "副"
     }
   ],
@@ -4252,8 +4252,19 @@
       "delay": "",
       "updated": "18:10",
       "affiliation": "急"
+    },
+    {
+      "op": "90M",
+      "form": "9104F",
+      "cars": "6",
+      "no": "590-181",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "18:20",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "18:15",
+  "lastUpdate": "18:20",
   "date": "2026-07-21"
 }
