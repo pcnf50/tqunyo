@@ -2032,6 +2032,17 @@
       "delay": "",
       "updated": "17:50",
       "affiliation": "都"
+    },
+    {
+      "op": "30K",
+      "form": "5170F",
+      "cars": "8",
+      "no": "030-172",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "18:00",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4208,8 +4219,19 @@
       "delay": "",
       "updated": "17:40",
       "affiliation": "副"
+    },
+    {
+      "op": "30S",
+      "form": "-",
+      "cars": "8",
+      "no": "030-172",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "18:00",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:55",
+  "lastUpdate": "18:00",
   "date": "2026-07-21"
 }
