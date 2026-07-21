@@ -1878,6 +1878,17 @@
       "delay": "",
       "updated": "12:45",
       "affiliation": "副"
+    },
+    {
+      "op": "68",
+      "form": "-",
+      "cars": "6",
+      "no": "368-121",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "12:50",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -3838,6 +3849,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "12:45",
+  "lastUpdate": "12:50",
   "date": "2026-07-21"
 }
