@@ -4743,8 +4743,19 @@
       "delay": "",
       "updated": "22:40",
       "affiliation": "急"
+    },
+    {
+      "op": "51M",
+      "form": "-",
+      "cars": "10",
+      "no": "051-232",
+      "destCode": "渋谷",
+      "kind": "通",
+      "delay": "1分遅れ",
+      "updated": "23:35",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:30",
+  "lastUpdate": "23:35",
   "date": "2026-07-21"
 }
