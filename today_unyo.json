@@ -2065,6 +2065,17 @@
       "delay": "",
       "updated": "18:30",
       "affiliation": "急"
+    },
+    {
+      "op": "90",
+      "form": "-",
+      "cars": "6",
+      "no": "590-181",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "5分遅れ",
+      "updated": "18:35",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -4320,6 +4331,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "18:30",
+  "lastUpdate": "18:35",
   "date": "2026-07-21"
 }
