@@ -4595,17 +4595,17 @@
       "affiliation": "南"
     },
     {
-      "op": "83T",
-      "form": "-",
-      "cars": "0",
-      "no": "483-201",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "2分遅れ",
-      "updated": "20:25",
-      "affiliation": ""
+      "op": "43G",
+      "form": "21103F",
+      "cars": "8",
+      "no": "643-202",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:30",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "20:25",
+  "lastUpdate": "20:30",
   "date": "2026-07-21"
 }
