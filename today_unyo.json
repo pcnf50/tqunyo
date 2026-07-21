@@ -4263,8 +4263,19 @@
       "delay": "3分遅れ",
       "updated": "18:20",
       "affiliation": "南"
+    },
+    {
+      "op": "40S",
+      "form": "9114F",
+      "cars": "6",
+      "no": "340-181",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "18:25",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "18:20",
+  "lastUpdate": "18:25",
   "date": "2026-07-21"
 }
