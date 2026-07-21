@@ -1088,15 +1088,13 @@
       "affiliation": "急"
     },
     {
-      "op": "41S",
-      "form": "10101F",
-      "cars": "10",
-      "no": "741-071",
-      "destCode": "元町・中華街",
-      "kind": "急",
-      "delay": "",
-      "updated": "07:25",
-      "affiliation": "副"
+      "op": "99",
+      "form": "5118F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
     },
     {
       "op": "55",
@@ -4800,6 +4798,6 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "00:10",
+  "lastUpdate": "00:15",
   "date": "2026-07-22"
 }
