@@ -3220,8 +3220,19 @@
       "delay": "5分遅れ",
       "updated": "09:25",
       "affiliation": "副"
+    },
+    {
+      "op": "87T",
+      "form": "6505F",
+      "cars": "8",
+      "no": "487-091",
+      "destCode": "日吉",
+      "kind": "急",
+      "delay": "17分遅れ",
+      "updated": "09:30",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:25",
+  "lastUpdate": "09:30",
   "date": "2026-07-21"
 }
