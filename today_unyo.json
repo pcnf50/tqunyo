@@ -1583,6 +1583,17 @@
       "affiliation": "都"
     },
     {
+      "op": "79S",
+      "form": "10111F",
+      "cars": "10",
+      "no": "779-091",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "5分遅れ",
+      "updated": "09:45",
+      "affiliation": "副"
+    },
+    {
       "op": "87",
       "form": "-",
       "cars": "8",
@@ -1590,7 +1601,7 @@
       "destCode": "日吉",
       "kind": "急",
       "delay": "14分遅れ",
-      "updated": "09:40",
+      "updated": "09:45",
       "affiliation": "都"
     }
   ],
@@ -3266,6 +3277,6 @@
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:40",
+  "lastUpdate": "09:45",
   "date": "2026-07-21"
 }
