@@ -1757,7 +1757,7 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "12:10",
+      "updated": "12:15",
       "affiliation": "急"
     }
   ],
@@ -3620,8 +3620,19 @@
       "delay": "",
       "updated": "12:05",
       "affiliation": "副"
+    },
+    {
+      "op": "69T",
+      "form": "6324F",
+      "cars": "6",
+      "no": "469-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:15",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "12:10",
+  "lastUpdate": "12:15",
   "date": "2026-07-22"
 }
