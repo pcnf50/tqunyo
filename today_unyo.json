@@ -2076,7 +2076,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "20:00",
+      "updated": "20:05",
       "affiliation": "副"
     },
     {
@@ -2087,7 +2087,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "20:00",
+      "updated": "20:05",
       "affiliation": "急"
     }
   ],
@@ -4421,10 +4421,21 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "20:00",
+      "updated": "20:05",
       "affiliation": "急"
+    },
+    {
+      "op": "62S",
+      "form": "9108F",
+      "cars": "6",
+      "no": "362-201",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:05",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "20:00",
+  "lastUpdate": "20:05",
   "date": "2026-07-22"
 }
