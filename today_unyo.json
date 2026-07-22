@@ -3631,8 +3631,19 @@
       "delay": "",
       "updated": "12:15",
       "affiliation": "都"
+    },
+    {
+      "op": "39G",
+      "form": "21107F",
+      "cars": "8",
+      "no": "639-122",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "12:20",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "12:15",
+  "lastUpdate": "12:20",
   "date": "2026-07-22"
 }
