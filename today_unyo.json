@@ -1741,15 +1741,13 @@
       "affiliation": "急"
     },
     {
-      "op": "99",
-      "form": "3110F",
-      "cars": "8",
-      "no": "999-000",
-      "destCode": "",
-      "kind": "各駅停車",
-      "delay": "",
-      "updated": "05:25",
-      "affiliation": "急"
+      "op": "24",
+      "form": "-",
+      "cars": "10",
+      "no": "124-081",
+      "destCode": "元町・中華街",
+      "kind": "通勤特急",
+      "delay": "1分遅れ"
     },
     {
       "op": "60G",
@@ -3039,6 +3037,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:55",
+  "lastUpdate": "09:04",
   "date": "2026-07-22"
 }
