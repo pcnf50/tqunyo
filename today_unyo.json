@@ -2749,8 +2749,41 @@
       "delay": "4分遅れ",
       "updated": "08:15",
       "affiliation": "相"
+    },
+    {
+      "op": "67T",
+      "form": "6336F",
+      "cars": "6",
+      "no": "467-081",
+      "destCode": "日吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:20",
+      "affiliation": "都"
+    },
+    {
+      "op": "1",
+      "form": "5192F",
+      "cars": "8",
+      "no": "001-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "08:20",
+      "affiliation": "急"
+    },
+    {
+      "op": "28",
+      "form": "-",
+      "cars": "10",
+      "no": "128-081",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "2分遅れ",
+      "updated": "08:20",
+      "affiliation": "西"
     }
   ],
-  "lastUpdate": "08:15",
+  "lastUpdate": "08:20",
   "date": "2026-07-23"
 }
