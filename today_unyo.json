@@ -1913,6 +1913,17 @@
       "delay": "",
       "updated": "17:35",
       "affiliation": "急"
+    },
+    {
+      "op": "83",
+      "form": "-",
+      "cars": "6",
+      "no": "483-171",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "17:50",
+      "affiliation": "都"
     }
   ],
   "meguro": [
@@ -4029,6 +4040,6 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "17:47",
+  "lastUpdate": "17:50",
   "date": "2026-07-22"
 }
