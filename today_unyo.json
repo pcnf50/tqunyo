@@ -628,6 +628,17 @@
       "affiliation": "相"
     },
     {
+      "op": "19T",
+      "form": "-",
+      "cars": "0",
+      "no": "819-061",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:25",
+      "affiliation": ""
+    },
+    {
       "op": "11S",
       "form": "17183F",
       "cars": "8",
@@ -635,8 +646,19 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "06:20",
+      "updated": "06:25",
       "affiliation": "副"
+    },
+    {
+      "op": "09",
+      "form": "-",
+      "cars": "8",
+      "no": "209-061",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:25",
+      "affiliation": "急"
     },
     {
       "op": "39",
@@ -646,19 +668,19 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "06:20",
+      "updated": "06:25",
       "affiliation": "都"
     },
     {
-      "op": "17S",
-      "form": "17184F",
+      "op": "21K",
+      "form": "5174F",
       "cars": "8",
-      "no": "717-061",
-      "destCode": "菊名",
-      "kind": "回",
+      "no": "021-062",
+      "destCode": "渋谷",
+      "kind": "普",
       "delay": "",
-      "updated": "06:20",
-      "affiliation": "副"
+      "updated": "06:25",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -1288,8 +1310,52 @@
       "delay": "",
       "updated": "06:15",
       "affiliation": "相"
+    },
+    {
+      "op": "20K",
+      "form": "3110F",
+      "cars": "8",
+      "no": "220-061",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:25",
+      "affiliation": "急"
+    },
+    {
+      "op": "09",
+      "form": "-",
+      "cars": "8",
+      "no": "709-061",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:25",
+      "affiliation": "副"
+    },
+    {
+      "op": "43K",
+      "form": "-",
+      "cars": "0",
+      "no": "243-062",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "06:25",
+      "affiliation": ""
+    },
+    {
+      "op": "21K",
+      "form": "-",
+      "cars": "8",
+      "no": "021-062",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:25",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "06:20",
+  "lastUpdate": "06:25",
   "date": "2026-07-23"
 }
