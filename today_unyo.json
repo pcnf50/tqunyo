@@ -1266,17 +1266,6 @@
       "affiliation": "南"
     },
     {
-      "op": "84",
-      "form": "-",
-      "cars": "6",
-      "no": "584-071",
-      "destCode": "元住吉",
-      "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "08:00",
-      "affiliation": "南"
-    },
-    {
       "op": "25S",
       "form": "10130F",
       "cars": "10",
@@ -1284,7 +1273,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "08:00",
+      "updated": "08:05",
       "affiliation": "副"
     },
     {
@@ -1295,8 +1284,30 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "08:00",
+      "updated": "08:05",
       "affiliation": "相"
+    },
+    {
+      "op": "01K",
+      "form": "5122F",
+      "cars": "8",
+      "no": "001-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "08:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "59",
+      "form": "-",
+      "cars": "6",
+      "no": "459-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "都"
     },
     {
       "op": "53K",
@@ -1305,8 +1316,8 @@
       "no": "053-072",
       "destCode": "副都心線直通",
       "kind": "急",
-      "delay": "3分遅れ",
-      "updated": "08:00",
+      "delay": "4分遅れ",
+      "updated": "08:05",
       "affiliation": "急"
     }
   ],
@@ -2615,8 +2626,30 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "08:00",
+      "updated": "08:05",
       "affiliation": "相"
+    },
+    {
+      "op": "27K",
+      "form": "5189F",
+      "cars": "8",
+      "no": "227-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "42S",
+      "form": "9121F",
+      "cars": "6",
+      "no": "342-081",
+      "destCode": "日吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "南"
     },
     {
       "op": "53M",
@@ -2625,11 +2658,11 @@
       "no": "053-072",
       "destCode": "副都心線直通",
       "kind": "急",
-      "delay": "3分遅れ",
-      "updated": "08:00",
+      "delay": "4分遅れ",
+      "updated": "08:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "08:00",
+  "lastUpdate": "08:05",
   "date": "2026-07-23"
 }
