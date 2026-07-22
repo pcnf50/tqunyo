@@ -573,6 +573,17 @@
       "affiliation": "都"
     },
     {
+      "op": "80",
+      "form": "-",
+      "cars": "6",
+      "no": "580-051",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:15",
+      "affiliation": "南"
+    },
+    {
       "op": "09S",
       "form": "17189F",
       "cars": "8",
@@ -580,8 +591,19 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "06:10",
+      "updated": "06:15",
       "affiliation": "副"
+    },
+    {
+      "op": "02M",
+      "form": "40156F",
+      "cars": "10",
+      "no": "102-061",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:15",
+      "affiliation": "西"
     },
     {
       "op": "55K",
@@ -591,7 +613,7 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "06:10",
+      "updated": "06:15",
       "affiliation": "急"
     },
     {
@@ -602,7 +624,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "06:10",
+      "updated": "06:15",
       "affiliation": "相"
     }
   ],
@@ -1169,6 +1191,17 @@
       "affiliation": "西"
     },
     {
+      "op": "07",
+      "form": "-",
+      "cars": "8",
+      "no": "707-061",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:15",
+      "affiliation": "副"
+    },
+    {
       "op": "55M",
       "form": "-",
       "cars": "10",
@@ -1176,8 +1209,41 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "06:10",
+      "updated": "06:15",
       "affiliation": "急"
+    },
+    {
+      "op": "82M",
+      "form": "9106F",
+      "cars": "6",
+      "no": "582-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:15",
+      "affiliation": "南"
+    },
+    {
+      "op": "10",
+      "form": "-",
+      "cars": "8",
+      "no": "010-062",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:15",
+      "affiliation": "急"
+    },
+    {
+      "op": "38G",
+      "form": "21108F",
+      "cars": "8",
+      "no": "638-062",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:15",
+      "affiliation": "相"
     },
     {
       "op": "42G",
@@ -1187,10 +1253,10 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "06:10",
+      "updated": "06:15",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "06:10",
+  "lastUpdate": "06:15",
   "date": "2026-07-23"
 }
