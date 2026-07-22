@@ -1922,7 +1922,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "1分遅れ",
-      "updated": "17:50",
+      "updated": "17:55",
       "affiliation": "都"
     }
   ],
@@ -4038,8 +4038,19 @@
       "delay": "",
       "updated": "17:45",
       "affiliation": ""
+    },
+    {
+      "op": "60S",
+      "form": "9115F",
+      "cars": "8",
+      "no": "360-171",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:55",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "17:50",
+  "lastUpdate": "17:55",
   "date": "2026-07-22"
 }
