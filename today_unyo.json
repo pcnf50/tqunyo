@@ -1748,6 +1748,17 @@
       "delay": "",
       "updated": "11:55",
       "affiliation": "副"
+    },
+    {
+      "op": "17",
+      "form": "-",
+      "cars": "8",
+      "no": "217-111",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "12:10",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3611,6 +3622,6 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "12:05",
+  "lastUpdate": "12:10",
   "date": "2026-07-22"
 }
