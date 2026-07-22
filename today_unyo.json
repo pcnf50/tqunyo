@@ -1981,15 +1981,15 @@
       "affiliation": "急"
     },
     {
-      "op": "51K",
-      "form": "-",
-      "cars": "0",
-      "no": "051-181",
-      "destCode": "相鉄線直通",
-      "kind": "急",
+      "op": "53S",
+      "form": "10116F",
+      "cars": "10",
+      "no": "753-181",
+      "destCode": "元町・中華街",
+      "kind": "通",
       "delay": "",
-      "updated": "18:40",
-      "affiliation": ""
+      "updated": "18:45",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -4194,6 +4194,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "18:40",
+  "lastUpdate": "18:45",
   "date": "2026-07-22"
 }
