@@ -4313,8 +4313,19 @@
       "delay": "",
       "updated": "19:15",
       "affiliation": "急"
+    },
+    {
+      "op": "61T",
+      "form": "-",
+      "cars": "0",
+      "no": "461-191",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:20",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "19:15",
+  "lastUpdate": "19:20",
   "date": "2026-07-22"
 }
