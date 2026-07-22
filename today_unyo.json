@@ -65,6 +65,61 @@
       "delay": "",
       "updated": "04:55",
       "affiliation": "急"
+    },
+    {
+      "op": "11K",
+      "form": "5119F",
+      "cars": "8",
+      "no": "011-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:00",
+      "affiliation": "急"
+    },
+    {
+      "op": "36",
+      "form": "-",
+      "cars": "8",
+      "no": "236-041",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:00",
+      "affiliation": "急"
+    },
+    {
+      "op": "41",
+      "form": "-",
+      "cars": "8",
+      "no": "241-051",
+      "destCode": "新横浜",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:00",
+      "affiliation": "急"
+    },
+    {
+      "op": "01S",
+      "form": "17182F",
+      "cars": "8",
+      "no": "701-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:00",
+      "affiliation": "副"
+    },
+    {
+      "op": "13",
+      "form": "-",
+      "cars": "8",
+      "no": "213-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:00",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -144,8 +199,41 @@
       "delay": "",
       "updated": "04:55",
       "affiliation": "急"
+    },
+    {
+      "op": "41K",
+      "form": "3101F",
+      "cars": "8",
+      "no": "241-051",
+      "destCode": "新横浜",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:00",
+      "affiliation": "急"
+    },
+    {
+      "op": "99",
+      "form": "3111F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "05:00",
+      "affiliation": "急"
+    },
+    {
+      "op": "13K",
+      "form": "5183F",
+      "cars": "8",
+      "no": "213-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:00",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "04:55",
+  "lastUpdate": "05:00",
   "date": "2026-07-23"
 }
