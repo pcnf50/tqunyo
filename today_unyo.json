@@ -1356,15 +1356,13 @@
       "affiliation": ""
     },
     {
-      "op": "07K",
-      "form": "5181F",
-      "cars": "8",
-      "no": "207-051",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "05:25",
-      "affiliation": "急"
+      "op": "22",
+      "form": "-",
+      "cars": "10",
+      "no": "122-071",
+      "destCode": "元町・中華街",
+      "kind": "急行",
+      "delay": ""
     },
     {
       "op": "99",
@@ -2247,6 +2245,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "07:25",
+  "lastUpdate": "07:29",
   "date": "2026-07-23"
 }
