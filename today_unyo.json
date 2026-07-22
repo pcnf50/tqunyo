@@ -3851,8 +3851,30 @@
       "delay": "",
       "updated": "15:45",
       "affiliation": "急"
+    },
+    {
+      "op": "86M",
+      "form": "-",
+      "cars": "0",
+      "no": "586-161",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "16:15",
+      "affiliation": ""
+    },
+    {
+      "op": "67",
+      "form": "-",
+      "cars": "10",
+      "no": "767-151",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "16:15",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "16:10",
+  "lastUpdate": "16:15",
   "date": "2026-07-22"
 }
