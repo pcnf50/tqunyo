@@ -1572,6 +1572,17 @@
       "delay": "",
       "updated": "09:25",
       "affiliation": "急"
+    },
+    {
+      "op": "87",
+      "form": "-",
+      "cars": "8",
+      "no": "487-091",
+      "destCode": "日吉",
+      "kind": "急",
+      "delay": "7分遅れ",
+      "updated": "09:30",
+      "affiliation": "都"
     }
   ],
   "meguro": [
@@ -3248,6 +3259,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "09:25",
+  "lastUpdate": "09:30",
   "date": "2026-07-22"
 }
