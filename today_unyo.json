@@ -3598,8 +3598,19 @@
       "delay": "",
       "updated": "11:55",
       "affiliation": "急"
+    },
+    {
+      "op": "47",
+      "form": "-",
+      "cars": "10",
+      "no": "747-111",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "12:05",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "12:00",
+  "lastUpdate": "12:05",
   "date": "2026-07-22"
 }
