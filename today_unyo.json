@@ -3200,8 +3200,19 @@
       "delay": "2分遅れ",
       "updated": "09:25",
       "affiliation": "南"
+    },
+    {
+      "op": "52M",
+      "form": "-",
+      "cars": "10",
+      "no": "052-091",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "09:30",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "09:25",
+  "lastUpdate": "09:30",
   "date": "2026-07-23"
 }
