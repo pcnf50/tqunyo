@@ -1624,8 +1624,8 @@
       "no": "785-091",
       "destCode": "元町・中華街",
       "kind": "特",
-      "delay": "1分遅れ",
-      "updated": "10:00",
+      "delay": "2分遅れ",
+      "updated": "10:05",
       "affiliation": "副"
     }
   ],
@@ -3299,19 +3299,8 @@
       "delay": "",
       "updated": "09:55",
       "affiliation": "西"
-    },
-    {
-      "op": "02K",
-      "form": "-",
-      "cars": "0",
-      "no": "202-101",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "10:00",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "10:00",
+  "lastUpdate": "10:05",
   "date": "2026-07-23"
 }
