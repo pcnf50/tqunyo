@@ -3594,21 +3594,10 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "11:40",
+      "updated": "11:45",
       "affiliation": "都"
-    },
-    {
-      "op": "31T",
-      "form": "-",
-      "cars": "0",
-      "no": "431-111",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "11:40",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "11:40",
+  "lastUpdate": "11:45",
   "date": "2026-07-23"
 }
