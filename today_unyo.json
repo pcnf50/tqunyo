@@ -2199,6 +2199,17 @@
       "delay": "",
       "updated": "20:05",
       "affiliation": "急"
+    },
+    {
+      "op": "91S",
+      "form": "10132F",
+      "cars": "10",
+      "no": "791-201",
+      "destCode": "元住吉",
+      "kind": "通",
+      "delay": "16分遅れ",
+      "updated": "20:35",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -4573,10 +4584,10 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "20:30",
+      "updated": "20:35",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "20:32",
+  "lastUpdate": "20:35",
   "date": "2026-07-23"
 }
