@@ -1990,6 +1990,17 @@
       "delay": "",
       "updated": "17:15",
       "affiliation": "急"
+    },
+    {
+      "op": "75S",
+      "form": "10117F",
+      "cars": "10",
+      "no": "775-171",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:20",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -4071,6 +4082,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:15",
+  "lastUpdate": "17:20",
   "date": "2026-07-23"
 }
