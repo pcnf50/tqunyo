@@ -2373,7 +2373,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "00:00",
+      "updated": "00:05",
       "affiliation": "急"
     },
     {
@@ -2384,7 +2384,7 @@
       "destCode": "元住吉",
       "kind": "普",
       "delay": "",
-      "updated": "00:00",
+      "updated": "00:05",
       "affiliation": "み"
     }
   ],
@@ -4826,10 +4826,10 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "00:00",
+      "updated": "00:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:00",
+  "lastUpdate": "00:05",
   "date": "2026-07-24"
 }
