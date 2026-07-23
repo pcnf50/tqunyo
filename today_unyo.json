@@ -2223,6 +2223,17 @@
       "affiliation": "副"
     },
     {
+      "op": "67S",
+      "form": "10112F",
+      "cars": "10",
+      "no": "767-211",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "4分遅れ",
+      "updated": "21:05",
+      "affiliation": "副"
+    },
+    {
       "op": "11S",
       "form": "17191F",
       "cars": "8",
@@ -2230,7 +2241,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "11分遅れ",
-      "updated": "21:00",
+      "updated": "21:05",
       "affiliation": "副"
     },
     {
@@ -2240,8 +2251,8 @@
       "no": "041-202",
       "destCode": "渋谷",
       "kind": "回",
-      "delay": "",
-      "updated": "21:00",
+      "delay": "1分遅れ",
+      "updated": "21:05",
       "affiliation": "急"
     }
   ],
@@ -4630,19 +4641,8 @@
       "delay": "",
       "updated": "20:45",
       "affiliation": ""
-    },
-    {
-      "op": "41T",
-      "form": "-",
-      "cars": "8",
-      "no": "041-202",
-      "destCode": "渋谷",
-      "kind": "回",
-      "delay": "",
-      "updated": "21:00",
-      "affiliation": "急"
     }
   ],
-  "lastUpdate": "21:00",
+  "lastUpdate": "21:05",
   "date": "2026-07-23"
 }
