@@ -2344,6 +2344,17 @@
       "affiliation": "急"
     },
     {
+      "op": "03K",
+      "form": "-",
+      "cars": "8",
+      "no": "003-231",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:55",
+      "affiliation": "急"
+    },
+    {
       "op": "99G",
       "form": "5162F",
       "cars": "8",
@@ -2351,7 +2362,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "23:50",
+      "updated": "23:55",
       "affiliation": "急"
     }
   ],
@@ -4784,19 +4795,8 @@
       "delay": "",
       "updated": "22:35",
       "affiliation": "急"
-    },
-    {
-      "op": "99",
-      "form": "3121F",
-      "cars": "8",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "各駅停車",
-      "delay": "",
-      "updated": "23:50",
-      "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:50",
+  "lastUpdate": "23:55",
   "date": "2026-07-23"
 }
