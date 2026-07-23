@@ -2195,9 +2195,9 @@
       "op": "22",
       "form": "-",
       "cars": "10",
-      "no": "122-152",
-      "destCode": "副都心線直通",
-      "kind": "F特急",
+      "no": "122-071",
+      "destCode": "元町・中華街",
+      "kind": "急行",
       "delay": ""
     },
     {
@@ -3959,8 +3959,19 @@
       "delay": "",
       "updated": "15:55",
       "affiliation": ""
+    },
+    {
+      "op": "67",
+      "form": "-",
+      "cars": "10",
+      "no": "767-151",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "16:15",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "16:14",
+  "lastUpdate": "16:15",
   "date": "2026-07-23"
 }
