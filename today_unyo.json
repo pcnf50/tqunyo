@@ -3849,8 +3849,19 @@
       "delay": "",
       "updated": "13:55",
       "affiliation": ""
+    },
+    {
+      "op": "94K",
+      "form": "-",
+      "cars": "8",
+      "no": "294-141",
+      "destCode": "",
+      "kind": "回",
+      "delay": "",
+      "updated": "14:30",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "14:25",
+  "lastUpdate": "14:30",
   "date": "2026-07-23"
 }
