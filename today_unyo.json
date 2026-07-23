@@ -2303,12 +2303,23 @@
       "op": "65K",
       "form": "4108F",
       "cars": "10",
-      "no": "065-212",
-      "destCode": "武蔵小杉",
-      "kind": "急",
+      "no": "065-221",
+      "destCode": "元住吉",
+      "kind": "回",
       "delay": "3分遅れ",
-      "updated": "22:10",
+      "updated": "22:15",
       "affiliation": "急"
+    },
+    {
+      "op": "89S",
+      "form": "-",
+      "cars": "0",
+      "no": "789-221",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "22:15",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -4723,14 +4734,14 @@
       "op": "65G",
       "form": "-",
       "cars": "10",
-      "no": "065-212",
-      "destCode": "武蔵小杉",
-      "kind": "急",
+      "no": "065-221",
+      "destCode": "元住吉",
+      "kind": "回",
       "delay": "3分遅れ",
-      "updated": "22:10",
+      "updated": "22:15",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:10",
+  "lastUpdate": "22:15",
   "date": "2026-07-23"
 }
