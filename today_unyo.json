@@ -908,10 +908,21 @@
       "cars": "8",
       "no": "007-062",
       "destCode": "渋谷",
-      "kind": "回",
+      "kind": "普",
       "delay": "",
-      "updated": "07:00",
+      "updated": "07:05",
       "affiliation": "急"
+    },
+    {
+      "op": "62",
+      "form": "-",
+      "cars": "8",
+      "no": "362-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:05",
+      "affiliation": "南"
     },
     {
       "op": "02",
@@ -921,7 +932,18 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "07:00",
+      "updated": "07:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "61K",
+      "form": "4105F",
+      "cars": "10",
+      "no": "061-071",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:05",
       "affiliation": "急"
     },
     {
@@ -930,9 +952,9 @@
       "cars": "8",
       "no": "019-061",
       "destCode": "元町・中華街",
-      "kind": "回",
+      "kind": "普",
       "delay": "",
-      "updated": "07:00",
+      "updated": "07:05",
       "affiliation": "急"
     }
   ],
@@ -1891,7 +1913,7 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "",
-      "updated": "07:00",
+      "updated": "07:05",
       "affiliation": "急"
     },
     {
@@ -1900,9 +1922,9 @@
       "cars": "8",
       "no": "007-062",
       "destCode": "渋谷",
-      "kind": "回",
+      "kind": "普",
       "delay": "",
-      "updated": "07:00",
+      "updated": "07:05",
       "affiliation": "急"
     },
     {
@@ -1913,10 +1935,54 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "07:00",
+      "updated": "07:05",
       "affiliation": "都"
+    },
+    {
+      "op": "02",
+      "form": "-",
+      "cars": "10",
+      "no": "102-062",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:05",
+      "affiliation": "西"
+    },
+    {
+      "op": "01",
+      "form": "-",
+      "cars": "8",
+      "no": "701-061",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:05",
+      "affiliation": "副"
+    },
+    {
+      "op": "53T",
+      "form": "6323F",
+      "cars": "6",
+      "no": "453-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:05",
+      "affiliation": "都"
+    },
+    {
+      "op": "40S",
+      "form": "9106F",
+      "cars": "6",
+      "no": "340-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:05",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "07:00",
+  "lastUpdate": "07:05",
   "date": "2026-07-24"
 }
