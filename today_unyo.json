@@ -4674,8 +4674,19 @@
       "delay": "",
       "updated": "20:45",
       "affiliation": ""
+    },
+    {
+      "op": "42T",
+      "form": "-",
+      "cars": "8",
+      "no": "042-211",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "21:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "21:40",
+  "lastUpdate": "21:45",
   "date": "2026-07-23"
 }
