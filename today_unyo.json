@@ -2278,15 +2278,15 @@
       "affiliation": "急"
     },
     {
-      "op": "33S",
-      "form": "-",
-      "cars": "0",
-      "no": "733-211",
+      "op": "10K",
+      "form": "17101F",
+      "cars": "10",
+      "no": "010-211",
       "destCode": "元町・中華街",
-      "kind": "通",
-      "delay": "1分遅れ",
-      "updated": "21:30",
-      "affiliation": ""
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "21:35",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -4676,6 +4676,6 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "21:30",
+  "lastUpdate": "21:35",
   "date": "2026-07-23"
 }
