@@ -3631,8 +3631,19 @@
       "delay": "",
       "updated": "11:20",
       "affiliation": "都"
+    },
+    {
+      "op": "20",
+      "form": "-",
+      "cars": "10",
+      "no": "120-111",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "3分遅れ",
+      "updated": "11:25",
+      "affiliation": "西"
     }
   ],
-  "lastUpdate": "11:20",
+  "lastUpdate": "11:25",
   "date": "2026-07-24"
 }
