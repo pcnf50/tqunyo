@@ -1288,15 +1288,13 @@
       "affiliation": ""
     },
     {
-      "op": "01K",
-      "form": "3103F",
-      "cars": "8",
-      "no": "201-051",
-      "destCode": "新横浜",
-      "kind": "回",
-      "delay": "",
-      "updated": "05:05",
-      "affiliation": "急"
+      "op": "10",
+      "form": "-",
+      "cars": "10",
+      "no": "110-082",
+      "destCode": "副都心線直通",
+      "kind": "F特急",
+      "delay": ""
     },
     {
       "op": "20K",
@@ -1442,15 +1440,13 @@
       "affiliation": "急"
     },
     {
-      "op": "7",
+      "op": "24",
       "form": "-",
-      "cars": "0",
-      "no": "007-052",
-      "destCode": "渋谷",
-      "kind": "回",
-      "delay": "",
-      "updated": "05:25",
-      "affiliation": ""
+      "cars": "10",
+      "no": "124-082",
+      "destCode": "副都心線直通",
+      "kind": "急行",
+      "delay": ""
     },
     {
       "op": "06K",
@@ -2355,6 +2351,6 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "08:35",
+  "lastUpdate": "08:38",
   "date": "2026-07-25"
 }
