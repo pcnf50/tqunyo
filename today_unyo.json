@@ -4432,19 +4432,8 @@
       "delay": "",
       "updated": "19:00",
       "affiliation": "急"
-    },
-    {
-      "op": "96M",
-      "form": "-",
-      "cars": "0",
-      "no": "596-191",
-      "destCode": "日吉",
-      "kind": "急",
-      "delay": "",
-      "updated": "19:05",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "19:05",
+  "lastUpdate": "19:10",
   "date": "2026-07-24"
 }
