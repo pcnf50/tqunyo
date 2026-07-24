@@ -3928,19 +3928,8 @@
       "delay": "",
       "updated": "15:00",
       "affiliation": "南"
-    },
-    {
-      "op": "71T",
-      "form": "-",
-      "cars": "0",
-      "no": "471-151",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "15:05",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "15:05",
+  "lastUpdate": "15:10",
   "date": "2026-07-24"
 }
