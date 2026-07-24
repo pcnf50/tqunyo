@@ -4047,8 +4047,19 @@
       "delay": "1分遅れ",
       "updated": "16:30",
       "affiliation": ""
+    },
+    {
+      "op": "47T",
+      "form": "-",
+      "cars": "10",
+      "no": "047-161",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "16:55",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "16:50",
+  "lastUpdate": "16:55",
   "date": "2026-07-24"
 }
