@@ -1464,14 +1464,25 @@
       "affiliation": "南"
     },
     {
+      "op": "14K",
+      "form": "-",
+      "cars": "8",
+      "no": "014-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "09:00",
+      "affiliation": "急"
+    },
+    {
       "op": "24M",
       "form": "6114F",
       "cars": "10",
       "no": "124-081",
       "destCode": "元町・中華街",
       "kind": "通",
-      "delay": "3分遅れ",
-      "updated": "08:55",
+      "delay": "2分遅れ",
+      "updated": "09:00",
       "affiliation": "西"
     },
     {
@@ -1480,10 +1491,32 @@
       "cars": "6",
       "no": "473-081",
       "destCode": "元住吉",
-      "kind": "普",
+      "kind": "回",
       "delay": "2分遅れ",
-      "updated": "08:55",
+      "updated": "09:00",
       "affiliation": "都"
+    },
+    {
+      "op": "46",
+      "form": "-",
+      "cars": "6",
+      "no": "346-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "09:00",
+      "affiliation": "南"
+    },
+    {
+      "op": "13S",
+      "form": "17188F",
+      "cars": "8",
+      "no": "713-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:00",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -3083,17 +3116,28 @@
       "affiliation": "急"
     },
     {
+      "op": "94M",
+      "form": "9110F",
+      "cars": "6",
+      "no": "594-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "5分遅れ",
+      "updated": "09:00",
+      "affiliation": "南"
+    },
+    {
       "op": "92M",
       "form": "9108F",
       "cars": "6",
       "no": "592-081",
       "destCode": "元住吉",
       "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "08:55",
+      "delay": "4分遅れ",
+      "updated": "09:00",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:55",
+  "lastUpdate": "09:00",
   "date": "2026-07-24"
 }
