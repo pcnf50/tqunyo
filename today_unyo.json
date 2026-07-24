@@ -4511,6 +4511,17 @@
       "affiliation": "副"
     },
     {
+      "op": "32G",
+      "form": "21109F",
+      "cars": "8",
+      "no": "632-192",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:50",
+      "affiliation": "相"
+    },
+    {
       "op": "77",
       "form": "-",
       "cars": "10",
@@ -4518,10 +4529,10 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "2分遅れ",
-      "updated": "19:45",
+      "updated": "19:50",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "19:49",
+  "lastUpdate": "19:50",
   "date": "2026-07-24"
 }
