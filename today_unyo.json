@@ -2467,13 +2467,15 @@
       "affiliation": "急"
     },
     {
-      "op": "18",
-      "form": "-",
-      "cars": "10",
-      "no": "118-201",
-      "destCode": "元町・中華街",
-      "kind": "急行",
-      "delay": "1分遅れ"
+      "op": "30K",
+      "form": "5184F",
+      "cars": "8",
+      "no": "230-052",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:25",
+      "affiliation": "急"
     },
     {
       "op": "28K",
@@ -4639,19 +4641,8 @@
       "delay": "",
       "updated": "20:50",
       "affiliation": ""
-    },
-    {
-      "op": "84M",
-      "form": "-",
-      "cars": "0",
-      "no": "584-211",
-      "destCode": "新横浜",
-      "kind": "急",
-      "delay": "",
-      "updated": "21:05",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "21:08",
+  "lastUpdate": "21:10",
   "date": "2026-07-24"
 }
