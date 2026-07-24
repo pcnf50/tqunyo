@@ -1889,7 +1889,7 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "1分遅れ",
-      "updated": "12:45",
+      "updated": "12:50",
       "affiliation": "南"
     }
   ],
@@ -3840,19 +3840,8 @@
       "delay": "",
       "updated": "12:40",
       "affiliation": "副"
-    },
-    {
-      "op": "93K",
-      "form": "-",
-      "cars": "8",
-      "no": "293-122",
-      "destCode": "大岡山",
-      "kind": "回",
-      "delay": "",
-      "updated": "12:45",
-      "affiliation": "急"
     }
   ],
-  "lastUpdate": "12:47",
+  "lastUpdate": "12:50",
   "date": "2026-07-24"
 }
