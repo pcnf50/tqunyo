@@ -2034,6 +2034,17 @@
       "delay": "",
       "updated": "16:50",
       "affiliation": "急"
+    },
+    {
+      "op": "31K",
+      "form": "5178F",
+      "cars": "8",
+      "no": "031-162",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:00",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4049,17 +4060,17 @@
       "affiliation": ""
     },
     {
-      "op": "47T",
+      "op": "31S",
       "form": "-",
-      "cars": "10",
-      "no": "047-161",
-      "destCode": "元住吉",
-      "kind": "回",
+      "cars": "8",
+      "no": "031-162",
+      "destCode": "副都心線直通",
+      "kind": "普",
       "delay": "",
-      "updated": "16:55",
+      "updated": "17:00",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "16:55",
+  "lastUpdate": "17:00",
   "date": "2026-07-24"
 }
