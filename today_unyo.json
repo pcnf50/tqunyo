@@ -4003,8 +4003,19 @@
       "delay": "",
       "updated": "15:50",
       "affiliation": "急"
+    },
+    {
+      "op": "25K",
+      "form": "-",
+      "cars": "0",
+      "no": "225-161",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "16:30",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "16:25",
+  "lastUpdate": "16:30",
   "date": "2026-07-24"
 }
