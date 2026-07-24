@@ -4069,8 +4069,19 @@
       "delay": "",
       "updated": "17:00",
       "affiliation": "急"
+    },
+    {
+      "op": "67",
+      "form": "-",
+      "cars": "10",
+      "no": "767-162",
+      "destCode": "副都心線直通",
+      "kind": "特",
+      "delay": "",
+      "updated": "17:05",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "17:00",
+  "lastUpdate": "17:05",
   "date": "2026-07-24"
 }
