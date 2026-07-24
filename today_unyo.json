@@ -2191,14 +2191,14 @@
     },
     {
       "op": "63S",
-      "form": "-",
-      "cars": "0",
+      "form": "10125F",
+      "cars": "10",
       "no": "763-191",
       "destCode": "元町・中華街",
       "kind": "通",
-      "delay": "2分遅れ",
-      "updated": "19:15",
-      "affiliation": ""
+      "delay": "",
+      "updated": "19:20",
+      "affiliation": "副"
     },
     {
       "op": "08",
@@ -2208,7 +2208,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:15",
+      "updated": "19:20",
       "affiliation": "急"
     }
   ],
@@ -4462,9 +4462,20 @@
       "no": "130-191",
       "destCode": "元町・中華街",
       "kind": "通",
-      "delay": "1分遅れ",
-      "updated": "19:15",
+      "delay": "2分遅れ",
+      "updated": "19:20",
       "affiliation": "西"
+    },
+    {
+      "op": "64S",
+      "form": "9112F",
+      "cars": "8",
+      "no": "364-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:20",
+      "affiliation": "南"
     },
     {
       "op": "08K",
@@ -4474,10 +4485,10 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:15",
+      "updated": "19:20",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:15",
+  "lastUpdate": "19:20",
   "date": "2026-07-24"
 }
