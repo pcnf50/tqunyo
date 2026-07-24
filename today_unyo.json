@@ -1657,8 +1657,19 @@
       "no": "019-091",
       "destCode": "元町・中華街",
       "kind": "普",
-      "delay": "5分遅れ",
-      "updated": "10:05",
+      "delay": "6分遅れ",
+      "updated": "10:10",
+      "affiliation": "副"
+    },
+    {
+      "op": "85S",
+      "form": "10123F",
+      "cars": "10",
+      "no": "785-091",
+      "destCode": "元住吉",
+      "kind": "特",
+      "delay": "13分遅れ",
+      "updated": "10:10",
       "affiliation": "副"
     }
   ],
@@ -3389,8 +3400,30 @@
       "delay": "",
       "updated": "10:00",
       "affiliation": "都"
+    },
+    {
+      "op": "79",
+      "form": "-",
+      "cars": "10",
+      "no": "779-091",
+      "destCode": "武蔵小杉",
+      "kind": "特",
+      "delay": "19分遅れ",
+      "updated": "10:10",
+      "affiliation": "副"
+    },
+    {
+      "op": "65T",
+      "form": "6314F",
+      "cars": "6",
+      "no": "465-101",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:10",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "10:05",
+  "lastUpdate": "10:10",
   "date": "2026-07-24"
 }
