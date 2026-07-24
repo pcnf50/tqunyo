@@ -4687,17 +4687,6 @@
       "affiliation": "急"
     },
     {
-      "op": "81T",
-      "form": "-",
-      "cars": "0",
-      "no": "481-221",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "22:35",
-      "affiliation": ""
-    },
-    {
       "op": "47K",
       "form": "3102F",
       "cars": "8",
@@ -4705,10 +4694,10 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "22:35",
+      "updated": "22:40",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:35",
+  "lastUpdate": "22:40",
   "date": "2026-07-24"
 }
