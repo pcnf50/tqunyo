@@ -1781,14 +1781,14 @@
       "affiliation": "西"
     },
     {
-      "op": "11K",
-      "form": "-",
-      "cars": "8",
-      "no": "011-191",
-      "destCode": "元町・中華街",
-      "kind": "普",
+      "op": "64K",
+      "form": "4113F",
+      "cars": "10",
+      "no": "064-192",
+      "destCode": "副都心線直通",
+      "kind": "急",
       "delay": "",
-      "updated": "19:10",
+      "updated": "19:15",
       "affiliation": "急"
     }
   ],
@@ -3612,8 +3612,30 @@
       "delay": "",
       "updated": "19:05",
       "affiliation": "急"
+    },
+    {
+      "op": "74",
+      "form": "-",
+      "cars": "10",
+      "no": "174-181",
+      "destCode": "元町・中華街",
+      "kind": "Ｓ",
+      "delay": "",
+      "updated": "19:15",
+      "affiliation": "西"
+    },
+    {
+      "op": "64G",
+      "form": "-",
+      "cars": "10",
+      "no": "064-192",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:15",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:10",
+  "lastUpdate": "19:15",
   "date": "2026-07-25"
 }
