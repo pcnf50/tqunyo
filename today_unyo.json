@@ -3370,8 +3370,19 @@
       "delay": "",
       "updated": "17:05",
       "affiliation": "急"
+    },
+    {
+      "op": "84M",
+      "form": "-",
+      "cars": "0",
+      "no": "584-171",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:20",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "17:15",
+  "lastUpdate": "17:20",
   "date": "2026-07-25"
 }
