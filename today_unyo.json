@@ -1823,6 +1823,17 @@
       "delay": "",
       "updated": "20:55",
       "affiliation": "副"
+    },
+    {
+      "op": "68",
+      "form": "-",
+      "cars": "6",
+      "no": "368-201",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "21:00",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -3722,6 +3733,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "20:55",
+  "lastUpdate": "21:00",
   "date": "2026-07-25"
 }
