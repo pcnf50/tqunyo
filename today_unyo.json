@@ -694,8 +694,19 @@
       "delay": "",
       "updated": "05:35",
       "affiliation": "都"
+    },
+    {
+      "op": "60S",
+      "form": "-",
+      "cars": "0",
+      "no": "360-051",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "05:40",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "05:35",
+  "lastUpdate": "05:40",
   "date": "2026-07-26"
 }
