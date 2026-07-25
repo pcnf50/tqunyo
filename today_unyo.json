@@ -1570,6 +1570,17 @@
       "delay": "1分遅れ",
       "updated": "14:35",
       "affiliation": "み"
+    },
+    {
+      "op": "11K",
+      "form": "Y511F",
+      "cars": "8",
+      "no": "011-132",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "14:45",
+      "affiliation": "み"
     }
   ],
   "meguro": [
@@ -3185,6 +3196,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "14:40",
+  "lastUpdate": "14:45",
   "date": "2026-07-25"
 }
