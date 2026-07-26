@@ -1090,15 +1090,13 @@
       "affiliation": "副"
     },
     {
-      "op": "43S",
-      "form": "17105F",
-      "cars": "10",
-      "no": "743-081",
-      "destCode": "元町・中華街",
-      "kind": "特",
-      "delay": "",
-      "updated": "08:25",
-      "affiliation": "副"
+      "op": "99",
+      "form": "5157F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
     },
     {
       "op": "42",
@@ -3884,6 +3882,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "00:30",
+  "lastUpdate": "00:33",
   "date": "2026-07-27"
 }
