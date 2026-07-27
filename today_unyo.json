@@ -1810,7 +1810,7 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "12:10",
+      "updated": "12:15",
       "affiliation": "西"
     }
   ],
@@ -3697,17 +3697,17 @@
       "affiliation": ""
     },
     {
-      "op": "47",
-      "form": "-",
-      "cars": "10",
-      "no": "747-111",
-      "destCode": "元町・中華街",
-      "kind": "Ｆ",
+      "op": "69T",
+      "form": "6334F",
+      "cars": "6",
+      "no": "469-121",
+      "destCode": "日吉",
+      "kind": "普",
       "delay": "",
-      "updated": "12:10",
-      "affiliation": "副"
+      "updated": "12:15",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "12:10",
+  "lastUpdate": "12:15",
   "date": "2026-07-27"
 }
