@@ -2029,8 +2029,8 @@
       "no": "753-181",
       "destCode": "元町・中華街",
       "kind": "通",
-      "delay": "3分遅れ",
-      "updated": "18:50",
+      "delay": "4分遅れ",
+      "updated": "18:55",
       "affiliation": "副"
     }
   ],
@@ -4214,17 +4214,28 @@
       "affiliation": "副"
     },
     {
-      "op": "04K",
+      "op": "89T",
       "form": "-",
       "cars": "0",
-      "no": "204-181",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "18:50",
+      "no": "489-181",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "18:55",
       "affiliation": ""
+    },
+    {
+      "op": "33K",
+      "form": "3122F",
+      "cars": "8",
+      "no": "233-182",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:55",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "18:50",
+  "lastUpdate": "18:55",
   "date": "2026-07-27"
 }
