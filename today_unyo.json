@@ -4421,8 +4421,30 @@
       "delay": "4分遅れ",
       "updated": "19:35",
       "affiliation": "急"
+    },
+    {
+      "op": "2K",
+      "form": "-",
+      "cars": "8",
+      "no": "002-192",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "19:45",
+      "affiliation": "み"
+    },
+    {
+      "op": "77",
+      "form": "-",
+      "cars": "10",
+      "no": "777-191",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "19:45",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "19:40",
+  "lastUpdate": "19:45",
   "date": "2026-07-27"
 }
