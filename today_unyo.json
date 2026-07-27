@@ -2021,6 +2021,17 @@
       "delay": "",
       "updated": "18:35",
       "affiliation": "急"
+    },
+    {
+      "op": "53S",
+      "form": "10107F",
+      "cars": "10",
+      "no": "753-181",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "3分遅れ",
+      "updated": "18:50",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -4201,8 +4212,19 @@
       "delay": "8分遅れ",
       "updated": "18:35",
       "affiliation": "副"
+    },
+    {
+      "op": "04K",
+      "form": "-",
+      "cars": "0",
+      "no": "204-181",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:50",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "18:45",
+  "lastUpdate": "18:50",
   "date": "2026-07-27"
 }
