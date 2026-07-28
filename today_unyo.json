@@ -2208,7 +2208,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "00:00",
+      "updated": "00:05",
       "affiliation": "急"
     }
   ],
@@ -4531,17 +4531,17 @@
       "affiliation": "急"
     },
     {
-      "op": "99",
-      "form": "3112F",
-      "cars": "8",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "各駅停車",
+      "op": "88M",
+      "form": "-",
+      "cars": "0",
+      "no": "588-241",
+      "destCode": "元住吉",
+      "kind": "普",
       "delay": "",
-      "updated": "00:00",
-      "affiliation": "急"
+      "updated": "00:05",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "00:00",
+  "lastUpdate": "00:05",
   "date": "2026-07-29"
 }
