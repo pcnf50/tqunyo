@@ -1869,6 +1869,17 @@
       "delay": "",
       "updated": "14:00",
       "affiliation": "南"
+    },
+    {
+      "op": "91",
+      "form": "-",
+      "cars": "8",
+      "no": "291-151",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "15:35",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3836,8 +3847,19 @@
       "delay": "",
       "updated": "15:30",
       "affiliation": ""
+    },
+    {
+      "op": "91K",
+      "form": "3109F",
+      "cars": "8",
+      "no": "291-151",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "15:35",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "15:30",
+  "lastUpdate": "15:35",
   "date": "2026-07-28"
 }
