@@ -2254,6 +2254,17 @@
       "affiliation": "南"
     },
     {
+      "op": "04K",
+      "form": "-",
+      "cars": "8",
+      "no": "004-181",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:50",
+      "affiliation": "急"
+    },
+    {
       "op": "53S",
       "form": "10120F",
       "cars": "10",
@@ -2261,7 +2272,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "18:45",
+      "updated": "18:50",
       "affiliation": "副"
     }
   ],
@@ -4441,6 +4452,6 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "18:45",
+  "lastUpdate": "18:50",
   "date": "2026-07-29"
 }
