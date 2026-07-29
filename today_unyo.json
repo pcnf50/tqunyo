@@ -1913,6 +1913,17 @@
       "affiliation": "南"
     },
     {
+      "op": "89",
+      "form": "-",
+      "cars": "6",
+      "no": "489-111",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:30",
+      "affiliation": "都"
+    },
+    {
       "op": "12K",
       "form": "Y512F",
       "cars": "8",
@@ -1920,7 +1931,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "11:25",
+      "updated": "11:30",
       "affiliation": "み"
     }
   ],
@@ -3803,17 +3814,6 @@
       "affiliation": "西"
     },
     {
-      "op": "36S",
-      "form": "-",
-      "cars": "0",
-      "no": "336-111",
-      "destCode": "新横浜",
-      "kind": "普",
-      "delay": "",
-      "updated": "11:25",
-      "affiliation": ""
-    },
-    {
       "op": "29K",
       "form": "-",
       "cars": "8",
@@ -3821,10 +3821,10 @@
       "destCode": "元町・中華街",
       "kind": "回",
       "delay": "",
-      "updated": "11:25",
+      "updated": "11:30",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "11:25",
+  "lastUpdate": "11:30",
   "date": "2026-07-29"
 }
