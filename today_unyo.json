@@ -1473,14 +1473,25 @@
       "affiliation": "急"
     },
     {
+      "op": "73",
+      "form": "-",
+      "cars": "6",
+      "no": "473-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "08:55",
+      "affiliation": "都"
+    },
+    {
       "op": "75",
       "form": "-",
       "cars": "6",
       "no": "475-081",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "08:50",
+      "delay": "2分遅れ",
+      "updated": "08:55",
       "affiliation": "都"
     }
   ],
@@ -3046,8 +3057,30 @@
       "delay": "3分遅れ",
       "updated": "08:45",
       "affiliation": "南"
+    },
+    {
+      "op": "25K",
+      "form": "-",
+      "cars": "8",
+      "no": "025-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "08:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "92M",
+      "form": "9110F",
+      "cars": "6",
+      "no": "592-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "08:55",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:50",
+  "lastUpdate": "08:55",
   "date": "2026-07-30"
 }
