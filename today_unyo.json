@@ -2448,7 +2448,7 @@
       "destCode": "菊名",
       "kind": "普",
       "delay": "",
-      "updated": "23:35",
+      "updated": "23:40",
       "affiliation": "急"
     }
   ],
@@ -4844,8 +4844,19 @@
       "delay": "",
       "updated": "22:40",
       "affiliation": "急"
+    },
+    {
+      "op": "88K",
+      "form": "5184F",
+      "cars": "8",
+      "no": "288-232",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "23:40",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:35",
+  "lastUpdate": "23:40",
   "date": "2026-07-29"
 }
