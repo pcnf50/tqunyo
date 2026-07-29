@@ -1924,15 +1924,13 @@
       "affiliation": "急"
     },
     {
-      "op": "99",
-      "form": "3112F",
-      "cars": "8",
-      "no": "999-000",
-      "destCode": "",
-      "kind": "各駅停車",
-      "delay": "",
-      "updated": "05:25",
-      "affiliation": "急"
+      "op": "24",
+      "form": "-",
+      "cars": "10",
+      "no": "124-092",
+      "destCode": "副都心線直通",
+      "kind": "特急",
+      "delay": "4分遅れ"
     },
     {
       "op": "57M",
@@ -3376,6 +3374,6 @@
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "10:00",
+  "lastUpdate": "10:04",
   "date": "2026-07-29"
 }
