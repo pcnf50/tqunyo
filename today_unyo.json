@@ -2439,6 +2439,17 @@
       "delay": "",
       "updated": "22:50",
       "affiliation": "東"
+    },
+    {
+      "op": "05K",
+      "form": "5151F",
+      "cars": "8",
+      "no": "005-231",
+      "destCode": "菊名",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:35",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4835,6 +4846,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:33",
+  "lastUpdate": "23:35",
   "date": "2026-07-29"
 }
