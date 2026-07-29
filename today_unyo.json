@@ -2054,6 +2054,17 @@
       "delay": "",
       "updated": "12:30",
       "affiliation": "み"
+    },
+    {
+      "op": "79S",
+      "form": "6114F",
+      "cars": "10",
+      "no": "779-121",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "12:40",
+      "affiliation": "西"
     }
   ],
   "meguro": [
@@ -4019,10 +4030,10 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "12:35",
+      "updated": "12:40",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "12:35",
+  "lastUpdate": "12:40",
   "date": "2026-07-29"
 }
