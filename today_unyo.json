@@ -1889,17 +1889,6 @@
       "delay": "",
       "updated": "12:55",
       "affiliation": "東"
-    },
-    {
-      "op": "74",
-      "form": "-",
-      "cars": "8",
-      "no": "274-132",
-      "destCode": "大岡山",
-      "kind": "回",
-      "delay": "",
-      "updated": "13:30",
-      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3891,10 +3880,10 @@
       "destCode": "大岡山",
       "kind": "回",
       "delay": "",
-      "updated": "13:30",
+      "updated": "13:35",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "13:30",
+  "lastUpdate": "13:35",
   "date": "2026-07-30"
 }
