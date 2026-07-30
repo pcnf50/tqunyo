@@ -1827,15 +1827,13 @@
       "affiliation": "急"
     },
     {
-      "op": "60G",
+      "op": "24",
       "form": "-",
       "cars": "10",
-      "no": "060-051",
+      "no": "124-081",
       "destCode": "元町・中華街",
-      "kind": "急",
-      "delay": "",
-      "updated": "05:25",
-      "affiliation": "急"
+      "kind": "通勤特急",
+      "delay": "5分遅れ"
     },
     {
       "op": "28K",
@@ -1871,15 +1869,13 @@
       "affiliation": "急"
     },
     {
-      "op": "89",
+      "op": "28",
       "form": "-",
       "cars": "10",
-      "no": "789-051",
-      "destCode": "菊名",
-      "kind": "回",
-      "delay": "",
-      "updated": "05:35",
-      "affiliation": "副"
+      "no": "128-082",
+      "destCode": "副都心線直通",
+      "kind": "急行",
+      "delay": ""
     },
     {
       "op": "03",
@@ -3202,6 +3198,6 @@
       "affiliation": "西"
     }
   ],
-  "lastUpdate": "09:10",
+  "lastUpdate": "09:13",
   "date": "2026-07-30"
 }
