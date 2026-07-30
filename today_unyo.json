@@ -3937,8 +3937,19 @@
       "delay": "",
       "updated": "14:25",
       "affiliation": ""
+    },
+    {
+      "op": "54K",
+      "form": "3109F",
+      "cars": "8",
+      "no": "254-142",
+      "destCode": "南北線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "15:00",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "14:55",
+  "lastUpdate": "15:00",
   "date": "2026-07-30"
 }
