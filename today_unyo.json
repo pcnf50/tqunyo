@@ -3849,8 +3849,19 @@
       "delay": "",
       "updated": "12:35",
       "affiliation": "急"
+    },
+    {
+      "op": "50S",
+      "form": "-",
+      "cars": "0",
+      "no": "350-131",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "13:15",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "13:10",
+  "lastUpdate": "13:15",
   "date": "2026-07-30"
 }
