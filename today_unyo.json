@@ -1631,15 +1631,13 @@
       "affiliation": "急"
     },
     {
-      "op": "99",
-      "form": "3113F",
-      "cars": "8",
-      "no": "999-000",
-      "destCode": "",
-      "kind": "各駅停車",
-      "delay": "",
-      "updated": "05:25",
-      "affiliation": "急"
+      "op": "22",
+      "form": "-",
+      "cars": "10",
+      "no": "122-072",
+      "destCode": "副都心線直通",
+      "kind": "通勤特急",
+      "delay": ""
     },
     {
       "op": "60G",
@@ -2863,6 +2861,6 @@
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "08:25",
+  "lastUpdate": "08:28",
   "date": "2026-07-31"
 }
