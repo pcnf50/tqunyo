@@ -2399,15 +2399,13 @@
       "affiliation": "急"
     },
     {
-      "op": "51M",
+      "op": "30",
       "form": "-",
       "cars": "10",
-      "no": "051-051",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "05:35",
-      "affiliation": "急"
+      "no": "130-191",
+      "destCode": "元町・中華街",
+      "kind": "通勤特急",
+      "delay": ""
     },
     {
       "op": "37T",
@@ -4357,6 +4355,6 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "19:10",
+  "lastUpdate": "19:11",
   "date": "2026-07-31"
 }
