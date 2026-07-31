@@ -4696,19 +4696,8 @@
       "delay": "",
       "updated": "23:50",
       "affiliation": "急"
-    },
-    {
-      "op": "88M",
-      "form": "-",
-      "cars": "0",
-      "no": "588-241",
-      "destCode": "元住吉",
-      "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "00:05",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "00:05",
+  "lastUpdate": "00:10",
   "date": "2026-08-01"
 }
