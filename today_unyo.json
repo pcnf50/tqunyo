@@ -2188,6 +2188,17 @@
       "delay": "",
       "updated": "22:50",
       "affiliation": "東"
+    },
+    {
+      "op": "18K",
+      "form": "-",
+      "cars": "8",
+      "no": "018-231",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:10",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4654,6 +4665,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:05",
+  "lastUpdate": "23:10",
   "date": "2026-07-31"
 }
