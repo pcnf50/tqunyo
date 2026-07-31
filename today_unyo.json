@@ -4731,17 +4731,28 @@
       "affiliation": "急"
     },
     {
+      "op": "99",
+      "form": "5185F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:50",
+      "affiliation": "急"
+    },
+    {
       "op": "41K",
       "form": "3122F",
       "cars": "8",
       "no": "241-242",
       "destCode": "武蔵小杉",
       "kind": "回",
-      "delay": "",
-      "updated": "00:45",
+      "delay": "5分遅れ",
+      "updated": "00:50",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:45",
+  "lastUpdate": "00:50",
   "date": "2026-08-01"
 }
