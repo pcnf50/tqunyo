@@ -1090,15 +1090,13 @@
       "affiliation": "都"
     },
     {
-      "op": "11",
-      "form": "-",
+      "op": "99",
+      "form": "5164F",
       "cars": "8",
-      "no": "211-071",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "07:25",
-      "affiliation": "急"
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
     },
     {
       "op": "02S",
@@ -4698,6 +4696,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:55",
+  "lastUpdate": "23:58",
   "date": "2026-07-31"
 }
