@@ -3809,17 +3809,17 @@
       "affiliation": "急"
     },
     {
-      "op": "23T",
-      "form": "-",
-      "cars": "0",
-      "no": "423-191",
-      "destCode": "新横浜",
+      "op": "44S",
+      "form": "9122F",
+      "cars": "6",
+      "no": "344-191",
+      "destCode": "日吉",
       "kind": "普",
-      "delay": "10分遅れ",
-      "updated": "19:50",
-      "affiliation": ""
+      "delay": "1分遅れ",
+      "updated": "19:55",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "19:50",
+  "lastUpdate": "19:55",
   "date": "2026-08-01"
 }
