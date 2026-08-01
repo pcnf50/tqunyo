@@ -3752,8 +3752,19 @@
       "delay": "",
       "updated": "19:15",
       "affiliation": "急"
+    },
+    {
+      "op": "33T",
+      "form": "3121F",
+      "cars": "8",
+      "no": "433-191",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "13分遅れ",
+      "updated": "19:20",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:15",
+  "lastUpdate": "19:20",
   "date": "2026-08-01"
 }
