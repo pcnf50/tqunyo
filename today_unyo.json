@@ -2012,6 +2012,17 @@
       "delay": "",
       "updated": "22:35",
       "affiliation": "東"
+    },
+    {
+      "op": "11T",
+      "form": "9151F",
+      "cars": "10",
+      "no": "811-221",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "22:40",
+      "affiliation": "東"
     }
   ],
   "meguro": [
@@ -4095,6 +4106,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "22:35",
+  "lastUpdate": "22:40",
   "date": "2026-08-01"
 }
