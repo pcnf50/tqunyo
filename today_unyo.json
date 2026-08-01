@@ -3433,8 +3433,19 @@
       "delay": "",
       "updated": "17:05",
       "affiliation": "急"
+    },
+    {
+      "op": "50S",
+      "form": "9118F",
+      "cars": "6",
+      "no": "350-171",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "17:30",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "17:25",
+  "lastUpdate": "17:30",
   "date": "2026-08-01"
 }
