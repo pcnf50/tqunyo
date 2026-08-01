@@ -1816,14 +1816,25 @@
       "affiliation": "西"
     },
     {
+      "op": "75S",
+      "form": "10108F",
+      "cars": "10",
+      "no": "775-181",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:45",
+      "affiliation": "副"
+    },
+    {
       "op": "30M",
       "form": "6115F",
       "cars": "10",
       "no": "130-181",
       "destCode": "元町・中華街",
       "kind": "Ｆ",
-      "delay": "",
-      "updated": "18:40",
+      "delay": "1分遅れ",
+      "updated": "18:45",
       "affiliation": "西"
     }
   ],
@@ -3620,19 +3631,8 @@
       "delay": "1分遅れ",
       "updated": "18:25",
       "affiliation": "副"
-    },
-    {
-      "op": "35T",
-      "form": "-",
-      "cars": "0",
-      "no": "435-181",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "6分遅れ",
-      "updated": "18:40",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "18:40",
+  "lastUpdate": "18:45",
   "date": "2026-08-01"
 }
