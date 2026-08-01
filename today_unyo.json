@@ -1702,19 +1702,8 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "",
-      "updated": "17:00",
+      "updated": "17:05",
       "affiliation": "急"
-    },
-    {
-      "op": "92G",
-      "form": "-",
-      "cars": "0",
-      "no": "992-171",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "17:00",
-      "affiliation": ""
     }
   ],
   "meguro": [
@@ -3420,10 +3409,10 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "",
-      "updated": "17:00",
+      "updated": "17:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:00",
+  "lastUpdate": "17:05",
   "date": "2026-08-01"
 }
