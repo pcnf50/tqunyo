@@ -2001,6 +2001,17 @@
       "delay": "",
       "updated": "22:25",
       "affiliation": "副"
+    },
+    {
+      "op": "19T",
+      "form": "9102F",
+      "cars": "10",
+      "no": "819-222",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "22:35",
+      "affiliation": "東"
     }
   ],
   "meguro": [
@@ -4084,6 +4095,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "22:30",
+  "lastUpdate": "22:35",
   "date": "2026-08-01"
 }
