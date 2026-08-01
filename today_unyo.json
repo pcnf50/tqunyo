@@ -2619,8 +2619,19 @@
       "delay": "",
       "updated": "09:35",
       "affiliation": "都"
+    },
+    {
+      "op": "53M",
+      "form": "-",
+      "cars": "10",
+      "no": "053-092",
+      "destCode": "副都心線直通",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "09:40",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "09:35",
+  "lastUpdate": "09:40",
   "date": "2026-08-01"
 }
