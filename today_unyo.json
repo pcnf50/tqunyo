@@ -1090,13 +1090,15 @@
       "affiliation": "南"
     },
     {
-      "op": "99",
-      "form": "5163F",
-      "cars": "8",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "不明",
-      "delay": ""
+      "op": "52K",
+      "form": "4101F",
+      "cars": "10",
+      "no": "052-081",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:25",
+      "affiliation": "急"
     },
     {
       "op": "43S",
@@ -4212,8 +4214,19 @@
       "delay": "",
       "updated": "00:05",
       "affiliation": "急"
+    },
+    {
+      "op": "99",
+      "form": "5184F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:35",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:31",
+  "lastUpdate": "00:35",
   "date": "2026-08-02"
 }
