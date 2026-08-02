@@ -1669,7 +1669,7 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "18:10",
+      "updated": "18:15",
       "affiliation": "副"
     }
   ],
@@ -3334,19 +3334,8 @@
       "delay": "",
       "updated": "18:05",
       "affiliation": "相"
-    },
-    {
-      "op": "49T",
-      "form": "-",
-      "cars": "0",
-      "no": "449-181",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "18:10",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "18:10",
+  "lastUpdate": "18:15",
   "date": "2026-08-02"
 }
