@@ -3796,8 +3796,19 @@
       "delay": "",
       "updated": "00:05",
       "affiliation": ""
+    },
+    {
+      "op": "46S",
+      "form": "9105F",
+      "cars": "6",
+      "no": "346-241",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:10",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "00:05",
+  "lastUpdate": "00:10",
   "date": "2026-08-03"
 }
