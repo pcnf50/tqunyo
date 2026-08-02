@@ -2533,15 +2533,13 @@
       "affiliation": "相"
     },
     {
-      "op": "08K",
-      "form": "3106F",
-      "cars": "8",
-      "no": "208-072",
-      "destCode": "目黒",
-      "kind": "回",
-      "delay": "",
-      "updated": "07:15",
-      "affiliation": "急"
+      "op": "74",
+      "form": "-",
+      "cars": "10",
+      "no": "174-181",
+      "destCode": "元町・中華街",
+      "kind": "各駅停車",
+      "delay": ""
     },
     {
       "op": "36S",
@@ -3424,6 +3422,6 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "19:10",
+  "lastUpdate": "19:15",
   "date": "2026-08-02"
 }
