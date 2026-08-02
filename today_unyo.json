@@ -3057,8 +3057,19 @@
       "delay": "1分遅れ",
       "updated": "08:45",
       "affiliation": "南"
+    },
+    {
+      "op": "92M",
+      "form": "9105F",
+      "cars": "6",
+      "no": "592-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "08:50",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:45",
+  "lastUpdate": "08:50",
   "date": "2026-08-03"
 }
