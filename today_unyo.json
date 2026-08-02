@@ -3477,8 +3477,19 @@
       "delay": "1分遅れ",
       "updated": "19:45",
       "affiliation": "急"
+    },
+    {
+      "op": "75",
+      "form": "-",
+      "cars": "10",
+      "no": "775-192",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:50",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "19:45",
+  "lastUpdate": "19:50",
   "date": "2026-08-02"
 }
