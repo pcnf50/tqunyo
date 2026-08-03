@@ -4694,8 +4694,19 @@
       "delay": "",
       "updated": "22:35",
       "affiliation": "急"
+    },
+    {
+      "op": "94M",
+      "form": "-",
+      "cars": "0",
+      "no": "594-231",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "23:00",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "22:55",
+  "lastUpdate": "23:00",
   "date": "2026-08-03"
 }
