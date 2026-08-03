@@ -3847,8 +3847,19 @@
       "delay": "",
       "updated": "12:55",
       "affiliation": "南"
+    },
+    {
+      "op": "85T",
+      "form": "-",
+      "cars": "0",
+      "no": "485-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:40",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "13:35",
+  "lastUpdate": "13:40",
   "date": "2026-08-03"
 }
