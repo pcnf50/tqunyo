@@ -3649,8 +3649,19 @@
       "delay": "",
       "updated": "11:25",
       "affiliation": "西"
+    },
+    {
+      "op": "61T",
+      "form": "6328F",
+      "cars": "6",
+      "no": "461-111",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "11:40",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "11:35",
+  "lastUpdate": "11:40",
   "date": "2026-08-03"
 }
