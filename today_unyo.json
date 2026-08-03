@@ -1805,15 +1805,13 @@
       "affiliation": "急"
     },
     {
-      "op": "99",
-      "form": "5188F",
-      "cars": "8",
-      "no": "999-000",
-      "destCode": "",
-      "kind": "各駅停車",
-      "delay": "",
-      "updated": "05:25",
-      "affiliation": "急"
+      "op": "24",
+      "form": "-",
+      "cars": "10",
+      "no": "124-081",
+      "destCode": "元町・中華街",
+      "kind": "通勤特急",
+      "delay": ""
     },
     {
       "op": "13",
@@ -3202,6 +3200,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "09:05",
+  "lastUpdate": "09:10",
   "date": "2026-08-03"
 }
