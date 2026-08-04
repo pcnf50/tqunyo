@@ -2014,17 +2014,6 @@
       "affiliation": "副"
     },
     {
-      "op": "26",
-      "form": "-",
-      "cars": "8",
-      "no": "226-182",
-      "destCode": "南北線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "19:05",
-      "affiliation": "急"
-    },
-    {
       "op": "30M",
       "form": "40159F",
       "cars": "10",
@@ -2032,7 +2021,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "19:05",
+      "updated": "19:10",
       "affiliation": "西"
     }
   ],
@@ -4307,21 +4296,10 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:05",
+      "updated": "19:10",
       "affiliation": "急"
-    },
-    {
-      "op": "53",
-      "form": "-",
-      "cars": "10",
-      "no": "753-181",
-      "destCode": "元町・中華街",
-      "kind": "通",
-      "delay": "",
-      "updated": "19:05",
-      "affiliation": "副"
     }
   ],
-  "lastUpdate": "19:05",
+  "lastUpdate": "19:10",
   "date": "2026-08-04"
 }
