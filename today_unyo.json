@@ -2109,7 +2109,7 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "21:00",
+      "updated": "21:05",
       "affiliation": "急"
     }
   ],
@@ -4531,17 +4531,28 @@
       "affiliation": "急"
     },
     {
-      "op": "88M",
+      "op": "84M",
       "form": "-",
       "cars": "0",
-      "no": "588-211",
-      "destCode": "日吉",
-      "kind": "普",
+      "no": "584-211",
+      "destCode": "新横浜",
+      "kind": "急",
       "delay": "",
-      "updated": "21:00",
+      "updated": "21:05",
       "affiliation": ""
+    },
+    {
+      "op": "31",
+      "form": "-",
+      "cars": "10",
+      "no": "731-202",
+      "destCode": "副都心線直通",
+      "kind": "通",
+      "delay": "",
+      "updated": "21:05",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "21:00",
+  "lastUpdate": "21:05",
   "date": "2026-08-04"
 }
