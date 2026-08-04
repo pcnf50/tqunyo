@@ -4034,8 +4034,19 @@
       "delay": "",
       "updated": "17:20",
       "affiliation": "急"
+    },
+    {
+      "op": "56S",
+      "form": "9102F",
+      "cars": "6",
+      "no": "356-171",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:25",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "17:20",
+  "lastUpdate": "17:25",
   "date": "2026-08-04"
 }
