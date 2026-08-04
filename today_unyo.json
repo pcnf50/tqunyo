@@ -2137,15 +2137,13 @@
       "affiliation": "急"
     },
     {
-      "op": "99",
-      "form": "5184F",
-      "cars": "8",
-      "no": "999-000",
-      "destCode": "",
-      "kind": "各駅停車",
-      "delay": "",
-      "updated": "05:25",
-      "affiliation": "急"
+      "op": "22",
+      "form": "-",
+      "cars": "10",
+      "no": "122-152",
+      "destCode": "副都心線直通",
+      "kind": "F特急",
+      "delay": ""
     },
     {
       "op": "60G",
@@ -3950,6 +3948,6 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "16:10",
+  "lastUpdate": "16:14",
   "date": "2026-08-04"
 }
