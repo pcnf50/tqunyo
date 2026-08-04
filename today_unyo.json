@@ -2153,7 +2153,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "23:50",
+      "updated": "23:55",
       "affiliation": "急"
     }
   ],
@@ -4630,17 +4630,6 @@
       "affiliation": "急"
     },
     {
-      "op": "08K",
-      "form": "-",
-      "cars": "0",
-      "no": "208-231",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "23:50",
-      "affiliation": ""
-    },
-    {
       "op": "99",
       "form": "3112F",
       "cars": "8",
@@ -4648,10 +4637,10 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:50",
+      "updated": "23:55",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:50",
+  "lastUpdate": "23:55",
   "date": "2026-08-04"
 }
