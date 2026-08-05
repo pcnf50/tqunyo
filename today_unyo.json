@@ -3345,8 +3345,19 @@
       "delay": "",
       "updated": "09:45",
       "affiliation": "急"
+    },
+    {
+      "op": "79",
+      "form": "-",
+      "cars": "10",
+      "no": "779-091",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "09:50",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "09:45",
+  "lastUpdate": "09:50",
   "date": "2026-08-05"
 }
