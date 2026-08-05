@@ -3490,17 +3490,28 @@
       "affiliation": "都"
     },
     {
-      "op": "77T",
+      "op": "50S",
       "form": "-",
       "cars": "0",
+      "no": "350-101",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "10:45",
+      "affiliation": ""
+    },
+    {
+      "op": "77T",
+      "form": "6321F",
+      "cars": "6",
       "no": "477-101",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "10:40",
-      "affiliation": ""
+      "delay": "",
+      "updated": "10:45",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "10:40",
+  "lastUpdate": "10:45",
   "date": "2026-08-05"
 }
