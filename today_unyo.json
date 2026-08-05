@@ -1,6 +1,25 @@
 {
-  "toyoko": {},
+  "toyoko": {
+    "99": {
+      "op": "99",
+      "form": "-",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
+    },
+    "45K": {
+      "op": "45K",
+      "form": "5158F",
+      "cars": "8",
+      "no": "045-042",
+      "destCode": "元住吉",
+      "kind": "回送",
+      "delay": ""
+    }
+  },
   "meguro": {},
-  "lastUpdate": "02:57",
+  "lastUpdate": "04:43",
   "date": "2026-08-06"
 }
