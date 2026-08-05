@@ -1596,6 +1596,17 @@
       "affiliation": "南"
     },
     {
+      "op": "17",
+      "form": "-",
+      "cars": "8",
+      "no": "217-092",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:45",
+      "affiliation": "急"
+    },
+    {
       "op": "79S",
       "form": "10114F",
       "cars": "10",
@@ -1603,7 +1614,7 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "09:40",
+      "updated": "09:45",
       "affiliation": "副"
     }
   ],
@@ -3323,8 +3334,19 @@
       "delay": "",
       "updated": "09:35",
       "affiliation": ""
+    },
+    {
+      "op": "17K",
+      "form": "5186F",
+      "cars": "8",
+      "no": "217-092",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "09:40",
+  "lastUpdate": "09:45",
   "date": "2026-08-05"
 }
