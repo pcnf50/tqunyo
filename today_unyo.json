@@ -1682,6 +1682,17 @@
       "delay": "",
       "updated": "10:55",
       "affiliation": "都"
+    },
+    {
+      "op": "77",
+      "form": "-",
+      "cars": "6",
+      "no": "477-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "11:00",
+      "affiliation": "都"
     }
   ],
   "meguro": [
@@ -3554,8 +3565,19 @@
       "delay": "",
       "updated": "10:55",
       "affiliation": ""
+    },
+    {
+      "op": "66S",
+      "form": "9112F",
+      "cars": "8",
+      "no": "366-101",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:00",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "10:55",
+  "lastUpdate": "11:00",
   "date": "2026-08-05"
 }
