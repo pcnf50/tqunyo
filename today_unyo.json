@@ -373,6 +373,28 @@
       "delay": "",
       "updated": "00:20",
       "affiliation": "副"
+    },
+    {
+      "op": "21",
+      "form": "-",
+      "cars": "8",
+      "no": "221-241",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:30",
+      "affiliation": "急"
+    },
+    {
+      "op": "18",
+      "form": "5119F",
+      "cars": "8",
+      "no": "218-242",
+      "destCode": "奥沢",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:30",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -694,8 +716,41 @@
       "delay": "",
       "updated": "00:25",
       "affiliation": "急"
+    },
+    {
+      "op": "20K",
+      "form": "3105F",
+      "cars": "8",
+      "no": "220-241",
+      "destCode": "奥沢",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:30",
+      "affiliation": "急"
+    },
+    {
+      "op": "18K",
+      "form": "5189F",
+      "cars": "8",
+      "no": "218-242",
+      "destCode": "奥沢",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:30",
+      "affiliation": "急"
+    },
+    {
+      "op": "23K",
+      "form": "-",
+      "cars": "8",
+      "no": "023-241",
+      "destCode": "菊名",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:30",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:25",
+  "lastUpdate": "00:30",
   "date": "2026-08-07"
 }
