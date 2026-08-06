@@ -320,6 +320,39 @@
       "affiliation": "急"
     },
     {
+      "op": "36",
+      "form": "-",
+      "cars": "8",
+      "no": "236-241",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "00:20",
+      "affiliation": "急"
+    },
+    {
+      "op": "16K",
+      "form": "5153F",
+      "cars": "8",
+      "no": "016-241",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:20",
+      "affiliation": "急"
+    },
+    {
+      "op": "88",
+      "form": "-",
+      "cars": "6",
+      "no": "588-241",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:20",
+      "affiliation": "南"
+    },
+    {
       "op": "01",
       "form": "-",
       "cars": "8",
@@ -327,8 +360,19 @@
       "destCode": "目黒",
       "kind": "普",
       "delay": "",
-      "updated": "00:15",
+      "updated": "00:20",
       "affiliation": "急"
+    },
+    {
+      "op": "11S",
+      "form": "17192F",
+      "cars": "8",
+      "no": "711-242",
+      "destCode": "武蔵小杉",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:20",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -575,6 +619,17 @@
       "affiliation": "副"
     },
     {
+      "op": "22K",
+      "form": "-",
+      "cars": "8",
+      "no": "022-241",
+      "destCode": "横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:20",
+      "affiliation": "み"
+    },
+    {
       "op": "21K",
       "form": "3109F",
       "cars": "8",
@@ -582,7 +637,18 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "00:15",
+      "updated": "00:20",
+      "affiliation": "急"
+    },
+    {
+      "op": "12K",
+      "form": "5186F",
+      "cars": "8",
+      "no": "212-241",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:20",
       "affiliation": "急"
     },
     {
@@ -593,21 +659,21 @@
       "destCode": "目黒",
       "kind": "普",
       "delay": "",
-      "updated": "00:15",
+      "updated": "00:20",
       "affiliation": "急"
     },
     {
       "op": "31S",
       "form": "-",
       "cars": "8",
-      "no": "031-232",
-      "destCode": "武蔵小杉",
-      "kind": "普",
+      "no": "031-241",
+      "destCode": "元住吉",
+      "kind": "回",
       "delay": "",
-      "updated": "00:15",
+      "updated": "00:20",
       "affiliation": "み"
     }
   ],
-  "lastUpdate": "00:15",
+  "lastUpdate": "00:20",
   "date": "2026-08-07"
 }
