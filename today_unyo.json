@@ -2087,7 +2087,7 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "18:00",
+      "updated": "18:05",
       "affiliation": "み"
     }
   ],
@@ -4320,11 +4320,11 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "18:00",
+      "updated": "18:05",
       "affiliation": "み"
     }
   ],
-  "lastUpdate": "18:00",
+  "lastUpdate": "18:05",
   "date": "2026-08-07",
   "resetDone": false
 }
