@@ -1090,15 +1090,13 @@
       "affiliation": "都"
     },
     {
-      "op": "35",
-      "form": "-",
+      "op": "99",
+      "form": "5154F",
       "cars": "8",
-      "no": "635-072",
-      "destCode": "三田線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "07:20",
-      "affiliation": "相"
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
     },
     {
       "op": "02S",
@@ -4850,7 +4848,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:10",
+  "lastUpdate": "00:12",
   "date": "2026-08-08",
   "resetDone": false
 }
