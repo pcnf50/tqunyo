@@ -8,7 +8,7 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
@@ -19,7 +19,7 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
@@ -30,7 +30,7 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
@@ -41,7 +41,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
@@ -52,18 +52,62 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "み"
     },
     {
-      "op": "99G",
+      "op": "08K",
       "form": "Y517F",
+      "cars": "8",
+      "no": "008-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "01",
+      "form": "5119F",
+      "cars": "8",
+      "no": "201-051",
+      "destCode": "新横浜",
+      "kind": "回",
+      "delay": "",
+      "updated": "04:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "20",
+      "form": "-",
+      "cars": "8",
+      "no": "220-052",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "01S",
+      "form": "17185F",
+      "cars": "8",
+      "no": "701-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:55",
+      "affiliation": "副"
+    },
+    {
+      "op": "99G",
+      "form": "5162F",
       "cars": "8",
       "no": "999-000",
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     }
   ],
@@ -76,7 +120,7 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
@@ -87,7 +131,7 @@
       "destCode": "相鉄線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
@@ -98,7 +142,7 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
@@ -109,7 +153,7 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
@@ -120,7 +164,7 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     },
     {
@@ -131,21 +175,54 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "み"
     },
     {
-      "op": "99",
+      "op": "03K",
       "form": "3102F",
+      "cars": "8",
+      "no": "203-051",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "01K",
+      "form": "5189F",
+      "cars": "8",
+      "no": "201-051",
+      "destCode": "新横浜",
+      "kind": "回",
+      "delay": "",
+      "updated": "04:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "20K",
+      "form": "3123F",
+      "cars": "8",
+      "no": "220-052",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "99",
+      "form": "5188F",
       "cars": "8",
       "no": "999-000",
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "04:50",
+      "updated": "04:55",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "04:50",
+  "lastUpdate": "04:55",
   "date": "2026-08-08"
 }
