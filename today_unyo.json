@@ -1642,15 +1642,13 @@
       "affiliation": "相"
     },
     {
-      "op": "34S",
-      "form": "9107F",
-      "cars": "6",
-      "no": "334-072",
-      "destCode": "目黒",
-      "kind": "回",
-      "delay": "",
-      "updated": "07:05",
-      "affiliation": "南"
+      "op": "71",
+      "form": "-",
+      "cars": "10",
+      "no": "171-071",
+      "destCode": "元町・中華街",
+      "kind": "回送",
+      "delay": ""
     },
     {
       "op": "61G",
@@ -1719,6 +1717,6 @@
       "affiliation": "西"
     }
   ],
-  "lastUpdate": "07:15",
+  "lastUpdate": "07:16",
   "date": "2026-08-08"
 }
