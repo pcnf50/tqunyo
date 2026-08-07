@@ -1915,6 +1915,17 @@
       "affiliation": "急"
     },
     {
+      "op": "02K",
+      "form": "5172F",
+      "cars": "8",
+      "no": "002-151",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "15:35",
+      "affiliation": "急"
+    },
+    {
       "op": "23K",
       "form": "17191F",
       "cars": "8",
@@ -1922,7 +1933,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "15:30",
+      "updated": "15:35",
       "affiliation": "副"
     }
   ],
@@ -4016,7 +4027,7 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "15:30",
+  "lastUpdate": "15:35",
   "date": "2026-08-07",
   "resetDone": false
 }
