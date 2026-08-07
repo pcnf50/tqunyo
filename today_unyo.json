@@ -2010,7 +2010,7 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "17:00",
+      "updated": "17:05",
       "affiliation": "み"
     }
   ],
@@ -4144,11 +4144,11 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "17:00",
+      "updated": "17:05",
       "affiliation": "み"
     }
   ],
-  "lastUpdate": "17:01",
+  "lastUpdate": "17:05",
   "date": "2026-08-07",
   "resetDone": false
 }
