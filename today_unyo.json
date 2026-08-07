@@ -2509,15 +2509,13 @@
       "affiliation": "都"
     },
     {
-      "op": "12",
+      "op": "30",
       "form": "-",
-      "cars": "8",
-      "no": "012-052",
-      "destCode": "副都心線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "05:35",
-      "affiliation": "急"
+      "cars": "10",
+      "no": "130-191",
+      "destCode": "元町・中華街",
+      "kind": "通勤特急",
+      "delay": "2分遅れ"
     },
     {
       "op": "51M",
@@ -4522,7 +4520,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:10",
+  "lastUpdate": "19:13",
   "date": "2026-08-07",
   "resetDone": false
 }
