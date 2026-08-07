@@ -1077,6 +1077,17 @@
       "delay": "",
       "updated": "08:05",
       "affiliation": "都"
+    },
+    {
+      "op": "39S",
+      "form": "10108F",
+      "cars": "10",
+      "no": "739-081",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "08:10",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -2144,8 +2155,19 @@
       "delay": "",
       "updated": "08:05",
       "affiliation": "副"
+    },
+    {
+      "op": "59T",
+      "form": "-",
+      "cars": "6",
+      "no": "459-081",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:10",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "08:05",
+  "lastUpdate": "08:10",
   "date": "2026-08-08"
 }
