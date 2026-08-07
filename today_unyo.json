@@ -3937,9 +3937,20 @@
       "delay": "",
       "updated": "13:55",
       "affiliation": ""
+    },
+    {
+      "op": "39G",
+      "form": "-",
+      "cars": "0",
+      "no": "639-141",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "14:30",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "14:25",
+  "lastUpdate": "14:30",
   "date": "2026-08-07",
   "resetDone": false
 }
