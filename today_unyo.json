@@ -3901,12 +3901,12 @@
       "no": "713-131",
       "destCode": "元町・中華街",
       "kind": "普",
-      "delay": "2分遅れ",
-      "updated": "13:30",
+      "delay": "1分遅れ",
+      "updated": "13:35",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "13:30",
+  "lastUpdate": "13:35",
   "date": "2026-08-07",
   "resetDone": false
 }
