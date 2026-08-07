@@ -2071,15 +2071,13 @@
       "affiliation": "南"
     },
     {
-      "op": "13",
+      "op": "22",
       "form": "-",
-      "cars": "8",
-      "no": "013-042",
-      "destCode": "副都心線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "05:25",
-      "affiliation": "急"
+      "cars": "10",
+      "no": "122-121",
+      "destCode": "元町・中華街",
+      "kind": "F特急",
+      "delay": "9分遅れ"
     },
     {
       "op": "60G",
