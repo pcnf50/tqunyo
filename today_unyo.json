@@ -1724,7 +1724,7 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "11:15",
+      "updated": "11:20",
       "affiliation": "南"
     },
     {
@@ -1735,7 +1735,7 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "11:15",
+      "updated": "11:20",
       "affiliation": "南"
     }
   ],
@@ -3633,6 +3633,17 @@
       "affiliation": ""
     },
     {
+      "op": "80M",
+      "form": "-",
+      "cars": "0",
+      "no": "580-111",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:20",
+      "affiliation": ""
+    },
+    {
       "op": "89T",
       "form": "6331F",
       "cars": "6",
@@ -3640,11 +3651,11 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "11:15",
+      "updated": "11:20",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "11:15",
+  "lastUpdate": "11:20",
   "date": "2026-08-07",
   "resetDone": false
 }
