@@ -1275,6 +1275,17 @@
       "delay": "",
       "updated": "09:05",
       "affiliation": "副"
+    },
+    {
+      "op": "49",
+      "form": "-",
+      "cars": "6",
+      "no": "449-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "09:15",
+      "affiliation": "都"
     }
   ],
   "meguro": [
@@ -2593,6 +2604,6 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "09:10",
+  "lastUpdate": "09:15",
   "date": "2026-08-08"
 }
