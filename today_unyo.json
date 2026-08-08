@@ -3033,6 +3033,17 @@
       "affiliation": "都"
     },
     {
+      "op": "65T",
+      "form": "6503F",
+      "cars": "8",
+      "no": "465-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:35",
+      "affiliation": "都"
+    },
+    {
       "op": "14",
       "form": "-",
       "cars": "8",
@@ -3040,7 +3051,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "6分遅れ",
-      "updated": "12:30",
+      "updated": "12:35",
       "affiliation": "急"
     },
     {
@@ -3051,10 +3062,10 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "1分遅れ",
-      "updated": "12:30",
+      "updated": "12:35",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "12:30",
+  "lastUpdate": "12:35",
   "date": "2026-08-08"
 }
