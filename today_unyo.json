@@ -657,7 +657,7 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "06:40",
+      "updated": "06:45",
       "affiliation": "南"
     },
     {
@@ -667,9 +667,31 @@
       "no": "731-061",
       "destCode": "元町・中華街",
       "kind": "特",
-      "delay": "",
-      "updated": "06:40",
+      "delay": "1分遅れ",
+      "updated": "06:45",
       "affiliation": "副"
+    },
+    {
+      "op": "43",
+      "form": "-",
+      "cars": "8",
+      "no": "443-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:45",
+      "affiliation": "都"
+    },
+    {
+      "op": "55K",
+      "form": "4114F",
+      "cars": "10",
+      "no": "055-062",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:45",
+      "affiliation": "急"
     },
     {
       "op": "61K",
@@ -679,7 +701,7 @@
       "destCode": "菊名",
       "kind": "回",
       "delay": "",
-      "updated": "06:40",
+      "updated": "06:45",
       "affiliation": "急"
     }
   ],
@@ -1330,8 +1352,30 @@
       "destCode": "副都心線直通",
       "kind": "特",
       "delay": "",
-      "updated": "06:40",
+      "updated": "06:45",
       "affiliation": "急"
+    },
+    {
+      "op": "55M",
+      "form": "-",
+      "cars": "10",
+      "no": "055-062",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:45",
+      "affiliation": "急"
+    },
+    {
+      "op": "47T",
+      "form": "6509F",
+      "cars": "8",
+      "no": "447-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:45",
+      "affiliation": "都"
     },
     {
       "op": "22K",
@@ -1341,21 +1385,10 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "06:40",
+      "updated": "06:45",
       "affiliation": "み"
-    },
-    {
-      "op": "61G",
-      "form": "-",
-      "cars": "10",
-      "no": "061-061",
-      "destCode": "菊名",
-      "kind": "回",
-      "delay": "",
-      "updated": "06:40",
-      "affiliation": "急"
     }
   ],
-  "lastUpdate": "06:40",
+  "lastUpdate": "06:45",
   "date": "2026-08-09"
 }
