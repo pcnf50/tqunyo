@@ -2998,8 +2998,19 @@
       "delay": "",
       "updated": "11:45",
       "affiliation": "南"
+    },
+    {
+      "op": "25",
+      "form": "-",
+      "cars": "10",
+      "no": "725-111",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "11:50",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "11:45",
+  "lastUpdate": "11:50",
   "date": "2026-08-08"
 }
