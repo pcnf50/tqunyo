@@ -3031,8 +3031,30 @@
       "delay": "",
       "updated": "12:05",
       "affiliation": "都"
+    },
+    {
+      "op": "14",
+      "form": "-",
+      "cars": "8",
+      "no": "014-121",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "6分遅れ",
+      "updated": "12:30",
+      "affiliation": "急"
+    },
+    {
+      "op": "86M",
+      "form": "2109F",
+      "cars": "6",
+      "no": "586-121",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "12:30",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "12:25",
+  "lastUpdate": "12:30",
   "date": "2026-08-08"
 }
