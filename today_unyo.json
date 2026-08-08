@@ -2373,15 +2373,13 @@
       "affiliation": "急"
     },
     {
-      "op": "33",
+      "op": "73",
       "form": "-",
       "cars": "10",
-      "no": "733-061",
+      "no": "173-161",
       "destCode": "元町・中華街",
-      "kind": "特",
-      "delay": "",
-      "updated": "07:05",
-      "affiliation": "副"
+      "kind": "回送",
+      "delay": ""
     },
     {
       "op": "92",
@@ -3220,6 +3218,6 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "16:25",
+  "lastUpdate": "16:28",
   "date": "2026-08-08"
 }
