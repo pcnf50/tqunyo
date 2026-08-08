@@ -1548,7 +1548,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "14:05",
+      "updated": "14:10",
       "affiliation": "南"
     }
   ],
@@ -3160,11 +3160,11 @@
       "no": "001-132",
       "destCode": "副都心線直通",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "14:05",
+      "delay": "",
+      "updated": "14:10",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "14:05",
+  "lastUpdate": "14:10",
   "date": "2026-08-08"
 }
