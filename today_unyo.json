@@ -2965,8 +2965,19 @@
       "delay": "",
       "updated": "11:10",
       "affiliation": ""
+    },
+    {
+      "op": "72",
+      "form": "-",
+      "cars": "10",
+      "no": "172-102",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "11:25",
+      "affiliation": "西"
     }
   ],
-  "lastUpdate": "11:20",
+  "lastUpdate": "11:25",
   "date": "2026-08-08"
 }
