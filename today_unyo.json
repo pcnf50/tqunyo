@@ -514,7 +514,18 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "06:10",
+      "updated": "06:15",
+      "affiliation": "副"
+    },
+    {
+      "op": "09S",
+      "form": "17182F",
+      "cars": "8",
+      "no": "709-061",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:15",
       "affiliation": "副"
     },
     {
@@ -525,8 +536,19 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "06:10",
+      "updated": "06:15",
       "affiliation": "南"
+    },
+    {
+      "op": "04K",
+      "form": "5178F",
+      "cars": "8",
+      "no": "004-062",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:15",
+      "affiliation": "急"
     },
     {
       "op": "41",
@@ -536,7 +558,7 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "06:10",
+      "updated": "06:15",
       "affiliation": "相"
     }
   ],
@@ -1070,6 +1092,17 @@
       "affiliation": "副"
     },
     {
+      "op": "82M",
+      "form": "9102F",
+      "cars": "6",
+      "no": "582-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:15",
+      "affiliation": "南"
+    },
+    {
       "op": "41G",
       "form": "21102F",
       "cars": "8",
@@ -1077,10 +1110,10 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "06:10",
+      "updated": "06:15",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "06:10",
+  "lastUpdate": "06:15",
   "date": "2026-08-09"
 }
