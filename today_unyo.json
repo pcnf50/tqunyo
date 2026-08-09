@@ -3669,8 +3669,41 @@
       "delay": "",
       "updated": "18:35",
       "affiliation": ""
+    },
+    {
+      "op": "2K",
+      "form": "-",
+      "cars": "8",
+      "no": "002-181",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "87",
+      "form": "-",
+      "cars": "10",
+      "no": "787-182",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:50",
+      "affiliation": "副"
+    },
+    {
+      "op": "30",
+      "form": "-",
+      "cars": "10",
+      "no": "130-181",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "18:50",
+      "affiliation": "西"
     }
   ],
-  "lastUpdate": "18:45",
+  "lastUpdate": "18:50",
   "date": "2026-08-09"
 }
