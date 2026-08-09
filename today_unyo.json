@@ -3275,8 +3275,30 @@
       "delay": "",
       "updated": "13:25",
       "affiliation": ""
+    },
+    {
+      "op": "49T",
+      "form": "-",
+      "cars": "0",
+      "no": "449-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:35",
+      "affiliation": ""
+    },
+    {
+      "op": "47T",
+      "form": "-",
+      "cars": "10",
+      "no": "047-131",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "13:35",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "13:30",
+  "lastUpdate": "13:35",
   "date": "2026-08-09"
 }
