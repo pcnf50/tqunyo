@@ -2342,15 +2342,13 @@
       "affiliation": "急"
     },
     {
-      "op": "71",
+      "op": "72",
       "form": "-",
       "cars": "10",
-      "no": "171-071",
-      "destCode": "元町・中華街",
-      "kind": "回",
-      "delay": "",
-      "updated": "07:15",
-      "affiliation": "西"
+      "no": "172-102",
+      "destCode": "武蔵小杉",
+      "kind": "回送",
+      "delay": ""
     },
     {
       "op": "36S",
@@ -3068,6 +3066,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "11:20",
+  "lastUpdate": "11:24",
   "date": "2026-08-09"
 }
