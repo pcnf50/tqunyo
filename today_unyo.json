@@ -1788,21 +1788,10 @@
       "cars": "8",
       "no": "023-162",
       "destCode": "渋谷",
-      "kind": "回",
+      "kind": "普",
       "delay": "1分遅れ",
-      "updated": "17:00",
+      "updated": "17:05",
       "affiliation": "急"
-    },
-    {
-      "op": "92G",
-      "form": "-",
-      "cars": "0",
-      "no": "992-171",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "17:00",
-      "affiliation": ""
     }
   ],
   "meguro": [
@@ -3524,23 +3513,12 @@
       "cars": "8",
       "no": "023-162",
       "destCode": "渋谷",
-      "kind": "回",
+      "kind": "普",
       "delay": "1分遅れ",
-      "updated": "17:00",
+      "updated": "17:05",
       "affiliation": "急"
-    },
-    {
-      "op": "31K",
-      "form": "-",
-      "cars": "0",
-      "no": "231-161",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "17:00",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "17:03",
+  "lastUpdate": "17:05",
   "date": "2026-08-09"
 }
