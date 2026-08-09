@@ -3451,8 +3451,19 @@
       "delay": "",
       "updated": "15:55",
       "affiliation": ""
+    },
+    {
+      "op": "88M",
+      "form": "-",
+      "cars": "0",
+      "no": "588-161",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "16:20",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "16:15",
+  "lastUpdate": "16:20",
   "date": "2026-08-09"
 }
