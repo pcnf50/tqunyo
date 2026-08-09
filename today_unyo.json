@@ -2615,8 +2615,19 @@
       "delay": "",
       "updated": "09:15",
       "affiliation": "都"
+    },
+    {
+      "op": "43G",
+      "form": "21108F",
+      "cars": "8",
+      "no": "643-092",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:20",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "09:15",
+  "lastUpdate": "09:20",
   "date": "2026-08-09"
 }
