@@ -1308,6 +1308,17 @@
       "affiliation": "南"
     },
     {
+      "op": "01K",
+      "form": "5152F",
+      "cars": "8",
+      "no": "001-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "急"
+    },
+    {
       "op": "25S",
       "form": "10131F",
       "cars": "10",
@@ -1315,8 +1326,41 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "08:00",
+      "updated": "08:05",
       "affiliation": "副"
+    },
+    {
+      "op": "28M",
+      "form": "6117F",
+      "cars": "10",
+      "no": "128-081",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "西"
+    },
+    {
+      "op": "44",
+      "form": "-",
+      "cars": "8",
+      "no": "644-072",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "相"
+    },
+    {
+      "op": "59",
+      "form": "-",
+      "cars": "6",
+      "no": "459-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "都"
     }
   ],
   "meguro": [
@@ -2681,8 +2725,41 @@
       "delay": "",
       "updated": "07:55",
       "affiliation": "南"
+    },
+    {
+      "op": "27K",
+      "form": "3113F",
+      "cars": "8",
+      "no": "227-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "42S",
+      "form": "9121F",
+      "cars": "6",
+      "no": "342-081",
+      "destCode": "日吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "南"
+    },
+    {
+      "op": "44G",
+      "form": "21102F",
+      "cars": "8",
+      "no": "644-072",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "08:01",
+  "lastUpdate": "08:05",
   "date": "2026-08-10"
 }
