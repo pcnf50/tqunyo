@@ -3744,8 +3744,19 @@
       "delay": "",
       "updated": "19:15",
       "affiliation": "西"
+    },
+    {
+      "op": "61T",
+      "form": "-",
+      "cars": "0",
+      "no": "461-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:45",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "19:40",
+  "lastUpdate": "19:45",
   "date": "2026-08-09"
 }
