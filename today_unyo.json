@@ -1541,6 +1541,17 @@
       "affiliation": "南"
     },
     {
+      "op": "33S",
+      "form": "9104F",
+      "cars": "10",
+      "no": "733-111",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "11:25",
+      "affiliation": "東"
+    },
+    {
       "op": "59K",
       "form": "4104F",
       "cars": "10",
@@ -1548,7 +1559,7 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "1分遅れ",
-      "updated": "11:20",
+      "updated": "11:25",
       "affiliation": "急"
     }
   ],
@@ -2342,13 +2353,15 @@
       "affiliation": "急"
     },
     {
-      "op": "72",
+      "op": "71",
       "form": "-",
       "cars": "10",
-      "no": "172-102",
-      "destCode": "武蔵小杉",
-      "kind": "回送",
-      "delay": ""
+      "no": "171-071",
+      "destCode": "元町・中華街",
+      "kind": "回",
+      "delay": "",
+      "updated": "07:15",
+      "affiliation": "西"
     },
     {
       "op": "36S",
@@ -3066,6 +3079,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "11:24",
+  "lastUpdate": "11:25",
   "date": "2026-08-09"
 }
