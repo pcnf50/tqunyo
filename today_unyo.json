@@ -2714,15 +2714,13 @@
       "affiliation": "南"
     },
     {
-      "op": "92",
+      "op": "74",
       "form": "-",
       "cars": "10",
-      "no": "992-072",
-      "destCode": "副都心線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "07:15",
-      "affiliation": "相"
+      "no": "174-181",
+      "destCode": "元町・中華街",
+      "kind": "各駅停車",
+      "delay": ""
     },
     {
       "op": "08K",
@@ -3748,6 +3746,6 @@
       "affiliation": "西"
     }
   ],
-  "lastUpdate": "19:15",
+  "lastUpdate": "19:16",
   "date": "2026-08-09"
 }
