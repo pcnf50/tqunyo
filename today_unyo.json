@@ -2021,8 +2021,19 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "22:50",
+      "updated": "22:55",
       "affiliation": "急"
+    },
+    {
+      "op": "05T",
+      "form": "-",
+      "cars": "0",
+      "no": "805-221",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "1分遅れ",
+      "updated": "22:55",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -4039,10 +4050,10 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "22:50",
+      "updated": "22:55",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:50",
+  "lastUpdate": "22:55",
   "date": "2026-08-09"
 }
