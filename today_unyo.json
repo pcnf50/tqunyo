@@ -2008,7 +2008,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "18:16",
+      "updated": "18:21",
       "affiliation": "副"
     }
   ],
@@ -4151,10 +4151,21 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "18:16",
+      "updated": "18:21",
+      "affiliation": "南"
+    },
+    {
+      "op": "40S",
+      "form": "9123F",
+      "cars": "6",
+      "no": "340-181",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:21",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "18:16",
+  "lastUpdate": "18:21",
   "date": "2026-08-10"
 }
