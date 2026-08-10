@@ -4472,8 +4472,19 @@
       "delay": "",
       "updated": "20:51",
       "affiliation": "急"
+    },
+    {
+      "op": "31",
+      "form": "-",
+      "cars": "10",
+      "no": "731-202",
+      "destCode": "副都心線直通",
+      "kind": "通",
+      "delay": "",
+      "updated": "21:06",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "21:01",
+  "lastUpdate": "21:06",
   "date": "2026-08-10"
 }
