@@ -2184,6 +2184,50 @@
       "delay": "",
       "updated": "00:21",
       "affiliation": "急"
+    },
+    {
+      "op": "18",
+      "form": "5118F",
+      "cars": "8",
+      "no": "218-042",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:51",
+      "affiliation": "急"
+    },
+    {
+      "op": "06K",
+      "form": "Y514F",
+      "cars": "8",
+      "no": "006-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:51",
+      "affiliation": "み"
+    },
+    {
+      "op": "02K",
+      "form": "5164F",
+      "cars": "8",
+      "no": "002-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:51",
+      "affiliation": "急"
+    },
+    {
+      "op": "05K",
+      "form": "Y511F",
+      "cars": "8",
+      "no": "005-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:51",
+      "affiliation": "み"
     }
   ],
   "meguro": [
@@ -4580,8 +4624,74 @@
       "delay": "",
       "updated": "23:46",
       "affiliation": "急"
+    },
+    {
+      "op": "18K",
+      "form": "5188F",
+      "cars": "8",
+      "no": "218-042",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:51",
+      "affiliation": "急"
+    },
+    {
+      "op": "09K",
+      "form": "5182F",
+      "cars": "8",
+      "no": "209-041",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:51",
+      "affiliation": "急"
+    },
+    {
+      "op": "11K",
+      "form": "3123F",
+      "cars": "8",
+      "no": "211-042",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:51",
+      "affiliation": "急"
+    },
+    {
+      "op": "15K",
+      "form": "3106F",
+      "cars": "8",
+      "no": "215-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:51",
+      "affiliation": "急"
+    },
+    {
+      "op": "03K",
+      "form": "3110F",
+      "cars": "8",
+      "no": "203-051",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:51",
+      "affiliation": "急"
+    },
+    {
+      "op": "99",
+      "form": "3121F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "04:51",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "04:08",
+  "lastUpdate": "04:51",
   "date": "2026-08-11"
 }
