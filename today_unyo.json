@@ -5669,8 +5669,19 @@
       "delay": "",
       "updated": "07:36",
       "affiliation": "急"
+    },
+    {
+      "op": "35G",
+      "form": "21104F",
+      "cars": "8",
+      "no": "635-072",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:41",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "07:36",
+  "lastUpdate": "07:41",
   "date": "2026-08-11"
 }
