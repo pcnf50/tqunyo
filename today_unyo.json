@@ -4340,8 +4340,30 @@
       "delay": "",
       "updated": "19:16",
       "affiliation": "南"
+    },
+    {
+      "op": "63",
+      "form": "-",
+      "cars": "10",
+      "no": "763-191",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "19:26",
+      "affiliation": "副"
+    },
+    {
+      "op": "31T",
+      "form": "-",
+      "cars": "0",
+      "no": "431-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:26",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "19:21",
+  "lastUpdate": "19:26",
   "date": "2026-08-10"
 }
