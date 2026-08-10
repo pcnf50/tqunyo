@@ -2598,10 +2598,21 @@
       "cars": "8",
       "no": "017-062",
       "destCode": "副都心線直通",
-      "kind": "回",
+      "kind": "普",
       "delay": "",
-      "updated": "06:21",
+      "updated": "06:26",
       "affiliation": "急"
+    },
+    {
+      "op": "06M",
+      "form": "40155F",
+      "cars": "10",
+      "no": "106-061",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "06:26",
+      "affiliation": "西"
     },
     {
       "op": "09S",
@@ -2610,8 +2621,8 @@
       "no": "709-061",
       "destCode": "元町・中華街",
       "kind": "普",
-      "delay": "4分遅れ",
-      "updated": "06:21",
+      "delay": "3分遅れ",
+      "updated": "06:26",
       "affiliation": "副"
     },
     {
@@ -2622,7 +2633,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "06:21",
+      "updated": "06:26",
       "affiliation": "急"
     }
   ],
@@ -5295,8 +5306,19 @@
       "delay": "",
       "updated": "06:16",
       "affiliation": "相"
+    },
+    {
+      "op": "22K",
+      "form": "3104F",
+      "cars": "8",
+      "no": "222-061",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:26",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "06:21",
+  "lastUpdate": "06:26",
   "date": "2026-08-11"
 }
