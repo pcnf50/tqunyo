@@ -5097,8 +5097,30 @@
       "delay": "",
       "updated": "05:51",
       "affiliation": "都"
+    },
+    {
+      "op": "80M",
+      "form": "9101F",
+      "cars": "6",
+      "no": "580-051",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:56",
+      "affiliation": "南"
+    },
+    {
+      "op": "3S",
+      "form": "-",
+      "cars": "8",
+      "no": "003-051",
+      "destCode": "菊名",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:56",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "05:54",
+  "lastUpdate": "05:56",
   "date": "2026-08-11"
 }
