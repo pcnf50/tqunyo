@@ -5834,8 +5834,19 @@
       "delay": "",
       "updated": "08:10",
       "affiliation": "都"
+    },
+    {
+      "op": "42S",
+      "form": "9123F",
+      "cars": "6",
+      "no": "342-081",
+      "destCode": "日吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:15",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:10",
+  "lastUpdate": "08:15",
   "date": "2026-08-11"
 }
