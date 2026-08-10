@@ -2010,6 +2010,28 @@
       "delay": "",
       "updated": "18:21",
       "affiliation": "副"
+    },
+    {
+      "op": "90",
+      "form": "-",
+      "cars": "6",
+      "no": "590-181",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "18:31",
+      "affiliation": "南"
+    },
+    {
+      "op": "10",
+      "form": "-",
+      "cars": "8",
+      "no": "210-182",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:31",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4175,8 +4197,30 @@
       "delay": "",
       "updated": "18:26",
       "affiliation": "副"
+    },
+    {
+      "op": "34S",
+      "form": "9104F",
+      "cars": "6",
+      "no": "334-181",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:31",
+      "affiliation": "南"
+    },
+    {
+      "op": "10K",
+      "form": "3111F",
+      "cars": "8",
+      "no": "210-182",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:31",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "18:26",
+  "lastUpdate": "18:31",
   "date": "2026-08-10"
 }
