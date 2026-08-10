@@ -3955,8 +3955,19 @@
       "delay": "",
       "updated": "16:56",
       "affiliation": "急"
+    },
+    {
+      "op": "38K",
+      "form": "3103F",
+      "cars": "8",
+      "no": "238-172",
+      "destCode": "南北線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "17:06",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:01",
+  "lastUpdate": "17:06",
   "date": "2026-08-10"
 }
