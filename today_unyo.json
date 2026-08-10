@@ -4164,8 +4164,19 @@
       "delay": "",
       "updated": "18:21",
       "affiliation": "南"
+    },
+    {
+      "op": "81",
+      "form": "-",
+      "cars": "10",
+      "no": "781-181",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "18:26",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "18:21",
+  "lastUpdate": "18:26",
   "date": "2026-08-10"
 }
