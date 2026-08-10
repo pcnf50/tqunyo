@@ -2809,7 +2809,18 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "07:31",
+      "updated": "07:36",
+      "affiliation": "西"
+    },
+    {
+      "op": "10M",
+      "form": "6110F",
+      "cars": "10",
+      "no": "110-071",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "07:36",
       "affiliation": "西"
     }
   ],
@@ -5634,8 +5645,19 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "07:31",
+      "updated": "07:36",
       "affiliation": "都"
+    },
+    {
+      "op": "50S",
+      "form": "9121F",
+      "cars": "6",
+      "no": "350-071",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:36",
+      "affiliation": "南"
     },
     {
       "op": "14K",
@@ -5645,10 +5667,10 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "07:31",
+      "updated": "07:36",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "07:31",
+  "lastUpdate": "07:36",
   "date": "2026-08-11"
 }
