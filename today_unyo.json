@@ -2932,6 +2932,28 @@
       "delay": "",
       "updated": "08:25",
       "affiliation": "副"
+    },
+    {
+      "op": "90",
+      "form": "4113F",
+      "cars": "10",
+      "no": "290-082",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "08:35",
+      "affiliation": "急"
+    },
+    {
+      "op": "13S",
+      "form": "17186F",
+      "cars": "8",
+      "no": "713-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:35",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -5900,8 +5922,41 @@
       "delay": "",
       "updated": "08:25",
       "affiliation": "南"
+    },
+    {
+      "op": "40K",
+      "form": "3111F",
+      "cars": "8",
+      "no": "240-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:35",
+      "affiliation": "急"
+    },
+    {
+      "op": "90K",
+      "form": "-",
+      "cars": "10",
+      "no": "290-082",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "08:35",
+      "affiliation": "急"
+    },
+    {
+      "op": "43",
+      "form": "-",
+      "cars": "10",
+      "no": "743-081",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "08:35",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "08:30",
+  "lastUpdate": "08:35",
   "date": "2026-08-11"
 }
