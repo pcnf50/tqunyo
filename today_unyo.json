@@ -3394,19 +3394,8 @@
       "delay": "",
       "updated": "09:55",
       "affiliation": "都"
-    },
-    {
-      "op": "02K",
-      "form": "-",
-      "cars": "0",
-      "no": "202-101",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "10:00",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "10:00",
+  "lastUpdate": "10:05",
   "date": "2026-08-10"
 }
