@@ -2263,6 +2263,17 @@
       "affiliation": "急"
     },
     {
+      "op": "13K",
+      "form": "5154F",
+      "cars": "8",
+      "no": "013-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:06",
+      "affiliation": "急"
+    },
+    {
       "op": "11K",
       "form": "5172F",
       "cars": "8",
@@ -2270,7 +2281,29 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "05:01",
+      "updated": "05:06",
+      "affiliation": "急"
+    },
+    {
+      "op": "14K",
+      "form": "Y517F",
+      "cars": "8",
+      "no": "014-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:06",
+      "affiliation": "急"
+    },
+    {
+      "op": "57K",
+      "form": "4109F",
+      "cars": "10",
+      "no": "057-052",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:06",
       "affiliation": "急"
     }
   ],
@@ -4745,8 +4778,19 @@
       "delay": "",
       "updated": "04:56",
       "affiliation": "急"
+    },
+    {
+      "op": "37K",
+      "form": "3109F",
+      "cars": "8",
+      "no": "237-052",
+      "destCode": "目黒",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:06",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "05:01",
+  "lastUpdate": "05:06",
   "date": "2026-08-11"
 }
