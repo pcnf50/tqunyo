@@ -3746,8 +3746,19 @@
       "delay": "",
       "updated": "12:15",
       "affiliation": "都"
+    },
+    {
+      "op": "60S",
+      "form": "-",
+      "cars": "0",
+      "no": "360-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:20",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "12:15",
+  "lastUpdate": "12:20",
   "date": "2026-08-10"
 }
