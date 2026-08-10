@@ -4789,8 +4789,19 @@
       "delay": "",
       "updated": "05:06",
       "affiliation": "急"
+    },
+    {
+      "op": "26K",
+      "form": "5187F",
+      "cars": "8",
+      "no": "226-051",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:11",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "05:06",
+  "lastUpdate": "05:11",
   "date": "2026-08-11"
 }
