@@ -4580,30 +4580,8 @@
       "delay": "",
       "updated": "23:46",
       "affiliation": "急"
-    },
-    {
-      "op": "99",
-      "form": "3103F",
-      "cars": "8",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "各駅停車",
-      "delay": "",
-      "updated": "00:46",
-      "affiliation": "急"
-    },
-    {
-      "op": "41K",
-      "form": "3106F",
-      "cars": "8",
-      "no": "241-242",
-      "destCode": "武蔵小杉",
-      "kind": "回",
-      "delay": "1分遅れ",
-      "updated": "00:46",
-      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:46",
+  "lastUpdate": "00:51",
   "date": "2026-08-11"
 }
