@@ -3966,8 +3966,19 @@
       "delay": "",
       "updated": "17:06",
       "affiliation": "急"
+    },
+    {
+      "op": "07K",
+      "form": "-",
+      "cars": "0",
+      "no": "207-171",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:11",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "17:06",
+  "lastUpdate": "17:11",
   "date": "2026-08-10"
 }
