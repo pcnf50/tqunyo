@@ -6360,8 +6360,19 @@
       "delay": "",
       "updated": "10:55",
       "affiliation": "南"
+    },
+    {
+      "op": "61",
+      "form": "-",
+      "cars": "10",
+      "no": "761-101",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "11:05",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "11:00",
+  "lastUpdate": "11:05",
   "date": "2026-08-11"
 }
