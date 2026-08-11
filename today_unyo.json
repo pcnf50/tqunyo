@@ -3020,6 +3020,17 @@
       "delay": "",
       "updated": "09:05",
       "affiliation": "急"
+    },
+    {
+      "op": "53S",
+      "form": "17101F",
+      "cars": "10",
+      "no": "753-091",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:30",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -6164,6 +6175,6 @@
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "09:25",
+  "lastUpdate": "09:30",
   "date": "2026-08-11"
 }
