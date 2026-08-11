@@ -6690,8 +6690,19 @@
       "delay": "",
       "updated": "18:05",
       "affiliation": "相"
+    },
+    {
+      "op": "49",
+      "form": "-",
+      "cars": "10",
+      "no": "749-181",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "18:20",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "18:15",
+  "lastUpdate": "18:20",
   "date": "2026-08-11"
 }
