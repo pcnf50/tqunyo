@@ -6439,6 +6439,17 @@
       "affiliation": "都"
     },
     {
+      "op": "65T",
+      "form": "6501F",
+      "cars": "8",
+      "no": "465-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:35",
+      "affiliation": "都"
+    },
+    {
       "op": "86M",
       "form": "9110F",
       "cars": "6",
@@ -6446,10 +6457,10 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "12:30",
+      "updated": "12:35",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "12:30",
+  "lastUpdate": "12:35",
   "date": "2026-08-11"
 }
