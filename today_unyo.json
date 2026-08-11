@@ -6371,8 +6371,19 @@
       "delay": "",
       "updated": "11:05",
       "affiliation": "副"
+    },
+    {
+      "op": "43T",
+      "form": "-",
+      "cars": "0",
+      "no": "443-111",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:10",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "11:05",
+  "lastUpdate": "11:10",
   "date": "2026-08-11"
 }
