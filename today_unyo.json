@@ -6941,8 +6941,19 @@
       "delay": "",
       "updated": "23:05",
       "affiliation": "急"
+    },
+    {
+      "op": "99",
+      "form": "3103F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:30",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:25",
+  "lastUpdate": "23:30",
   "date": "2026-08-11"
 }
