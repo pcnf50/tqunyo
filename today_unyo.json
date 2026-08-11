@@ -3601,13 +3601,15 @@
       "affiliation": "南"
     },
     {
-      "op": "24",
+      "op": "60G",
       "form": "-",
       "cars": "10",
-      "no": "124-222",
-      "destCode": "副都心線直通",
-      "kind": "急行",
-      "delay": ""
+      "no": "060-051",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "05:25",
+      "affiliation": "急"
     },
     {
       "op": "57M",
@@ -6915,10 +6917,10 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "23:00",
+      "updated": "23:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:03",
+  "lastUpdate": "23:05",
   "date": "2026-08-11"
 }
