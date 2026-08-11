@@ -3284,6 +3284,39 @@
       "delay": "",
       "updated": "20:00",
       "affiliation": "急"
+    },
+    {
+      "op": "47S",
+      "form": "10124F",
+      "cars": "10",
+      "no": "747-212",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:15",
+      "affiliation": "副"
+    },
+    {
+      "op": "44",
+      "form": "5119F",
+      "cars": "8",
+      "no": "244-222",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:15",
+      "affiliation": "急"
+    },
+    {
+      "op": "14M",
+      "form": "6113F",
+      "cars": "10",
+      "no": "114-212",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "22:15",
+      "affiliation": "西"
     }
   ],
   "meguro": [
@@ -6809,8 +6842,30 @@
       "delay": "",
       "updated": "19:45",
       "affiliation": "急"
+    },
+    {
+      "op": "67T",
+      "form": "6328F",
+      "cars": "6",
+      "no": "467-221",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:15",
+      "affiliation": "都"
+    },
+    {
+      "op": "44K",
+      "form": "5189F",
+      "cars": "8",
+      "no": "244-222",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:15",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "21:31",
+  "lastUpdate": "22:15",
   "date": "2026-08-11"
 }
