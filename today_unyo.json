@@ -6908,8 +6908,19 @@
       "delay": "",
       "updated": "22:25",
       "affiliation": "南"
+    },
+    {
+      "op": "13K",
+      "form": "5186F",
+      "cars": "8",
+      "no": "213-222",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "23:00",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:55",
+  "lastUpdate": "23:00",
   "date": "2026-08-11"
 }
