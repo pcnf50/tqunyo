@@ -6734,8 +6734,19 @@
       "delay": "",
       "updated": "18:25",
       "affiliation": "副"
+    },
+    {
+      "op": "66S",
+      "form": "-",
+      "cars": "0",
+      "no": "366-181",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:55",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "18:50",
+  "lastUpdate": "18:55",
   "date": "2026-08-11"
 }
