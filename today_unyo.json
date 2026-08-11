@@ -6382,8 +6382,19 @@
       "delay": "",
       "updated": "11:10",
       "affiliation": ""
+    },
+    {
+      "op": "21T",
+      "form": "6330F",
+      "cars": "6",
+      "no": "421-111",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:35",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "11:30",
+  "lastUpdate": "11:35",
   "date": "2026-08-11"
 }
