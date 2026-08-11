@@ -3067,14 +3067,14 @@
     },
     {
       "op": "72M",
-      "form": "-",
-      "cars": "0",
+      "form": "40105F",
+      "cars": "10",
       "no": "172-101",
       "destCode": "元町・中華街",
       "kind": "Ｓ",
       "delay": "",
-      "updated": "10:15",
-      "affiliation": ""
+      "updated": "10:20",
+      "affiliation": "西"
     }
   ],
   "meguro": [
@@ -6283,8 +6283,19 @@
       "delay": "",
       "updated": "10:10",
       "affiliation": "西"
+    },
+    {
+      "op": "90M",
+      "form": "9107F",
+      "cars": "6",
+      "no": "590-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:20",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "10:15",
+  "lastUpdate": "10:20",
   "date": "2026-08-11"
 }
