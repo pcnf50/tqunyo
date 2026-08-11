@@ -3273,6 +3273,17 @@
       "delay": "",
       "updated": "19:20",
       "affiliation": "急"
+    },
+    {
+      "op": "21K",
+      "form": "-",
+      "cars": "8",
+      "no": "021-182",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:00",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -6802,6 +6813,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:57",
+  "lastUpdate": "20:00",
   "date": "2026-08-11"
 }
