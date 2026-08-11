@@ -6668,8 +6668,19 @@
       "delay": "",
       "updated": "17:55",
       "affiliation": "急"
+    },
+    {
+      "op": "34G",
+      "form": "21108F",
+      "cars": "8",
+      "no": "634-172",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:05",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "18:00",
+  "lastUpdate": "18:05",
   "date": "2026-08-11"
 }
