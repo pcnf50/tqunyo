@@ -3183,19 +3183,19 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "17:40",
+      "updated": "17:45",
       "affiliation": "副"
     },
     {
-      "op": "64K",
-      "form": "4104F",
+      "op": "87S",
+      "form": "10130F",
       "cars": "10",
-      "no": "064-171",
-      "destCode": "相鉄線直通",
+      "no": "787-171",
+      "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "17:40",
-      "affiliation": "急"
+      "updated": "17:45",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -6637,6 +6637,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:40",
+  "lastUpdate": "17:45",
   "date": "2026-08-11"
 }
