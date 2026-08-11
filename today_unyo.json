@@ -3051,7 +3051,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "10:00",
+      "updated": "10:05",
       "affiliation": "西"
     }
   ],
@@ -6228,8 +6228,30 @@
       "delay": "",
       "updated": "09:55",
       "affiliation": "南"
+    },
+    {
+      "op": "41T",
+      "form": "6504F",
+      "cars": "8",
+      "no": "441-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:05",
+      "affiliation": "都"
+    },
+    {
+      "op": "02K",
+      "form": "3121F",
+      "cars": "8",
+      "no": "202-092",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "10:05",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "10:00",
+  "lastUpdate": "10:05",
   "date": "2026-08-11"
 }
