@@ -3171,20 +3171,9 @@
       "no": "023-162",
       "destCode": "渋谷",
       "kind": "普",
-      "delay": "",
-      "updated": "17:00",
+      "delay": "3分遅れ",
+      "updated": "17:05",
       "affiliation": "急"
-    },
-    {
-      "op": "92G",
-      "form": "-",
-      "cars": "0",
-      "no": "992-171",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "17:00",
-      "affiliation": ""
     }
   ],
   "meguro": [
@@ -6621,11 +6610,11 @@
       "no": "023-162",
       "destCode": "渋谷",
       "kind": "普",
-      "delay": "",
-      "updated": "17:00",
+      "delay": "3分遅れ",
+      "updated": "17:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:00",
+  "lastUpdate": "17:05",
   "date": "2026-08-11"
 }
