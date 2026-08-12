@@ -3515,8 +3515,19 @@
       "delay": "",
       "updated": "10:40",
       "affiliation": "都"
+    },
+    {
+      "op": "16",
+      "form": "-",
+      "cars": "8",
+      "no": "016-102",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "10:40",
+  "lastUpdate": "10:45",
   "date": "2026-08-12"
 }
