@@ -1711,7 +1711,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "10:35",
+      "updated": "10:40",
       "affiliation": "都"
     }
   ],
@@ -3502,10 +3502,21 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "10:35",
+      "updated": "10:40",
+      "affiliation": "都"
+    },
+    {
+      "op": "77T",
+      "form": "6317F",
+      "cars": "6",
+      "no": "477-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:40",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "10:35",
+  "lastUpdate": "10:40",
   "date": "2026-08-12"
 }
