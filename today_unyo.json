@@ -2221,6 +2221,17 @@
       "affiliation": "副"
     },
     {
+      "op": "31S",
+      "form": "10121F",
+      "cars": "10",
+      "no": "731-201",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "3分遅れ",
+      "updated": "20:05",
+      "affiliation": "副"
+    },
+    {
       "op": "29",
       "form": "-",
       "cars": "8",
@@ -2228,7 +2239,18 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "20:00",
+      "updated": "20:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "61K",
+      "form": "4101F",
+      "cars": "10",
+      "no": "061-191",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "2分遅れ",
+      "updated": "20:05",
       "affiliation": "急"
     },
     {
@@ -2238,8 +2260,8 @@
       "no": "055-191",
       "destCode": "相鉄線直通",
       "kind": "急",
-      "delay": "3分遅れ",
-      "updated": "20:00",
+      "delay": "2分遅れ",
+      "updated": "20:05",
       "affiliation": "急"
     }
   ],
@@ -4644,7 +4666,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "20:00",
+      "updated": "20:05",
       "affiliation": "急"
     },
     {
@@ -4655,10 +4677,10 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "20:00",
+      "updated": "20:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "20:00",
+  "lastUpdate": "20:05",
   "date": "2026-08-12"
 }
