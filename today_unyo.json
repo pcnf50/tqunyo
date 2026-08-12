@@ -2142,6 +2142,17 @@
       "delay": "",
       "updated": "19:05",
       "affiliation": "西"
+    },
+    {
+      "op": "54K",
+      "form": "4104F",
+      "cars": "10",
+      "no": "054-191",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:10",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4461,6 +4472,6 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "19:05",
+  "lastUpdate": "19:10",
   "date": "2026-08-12"
 }
