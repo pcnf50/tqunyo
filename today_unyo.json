@@ -3920,8 +3920,19 @@
       "delay": "",
       "updated": "13:45",
       "affiliation": "南"
+    },
+    {
+      "op": "27K",
+      "form": "-",
+      "cars": "0",
+      "no": "227-141",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "15:00",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "14:55",
+  "lastUpdate": "15:00",
   "date": "2026-08-12"
 }
