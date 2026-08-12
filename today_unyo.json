@@ -745,6 +745,39 @@
       "delay": "",
       "updated": "06:25",
       "affiliation": ""
+    },
+    {
+      "op": "82",
+      "form": "-",
+      "cars": "6",
+      "no": "582-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:30",
+      "affiliation": "南"
+    },
+    {
+      "op": "14K",
+      "form": "5154F",
+      "cars": "8",
+      "no": "014-062",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "06:30",
+      "affiliation": "急"
+    },
+    {
+      "op": "19T",
+      "form": "51076F",
+      "cars": "10",
+      "no": "819-061",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:30",
+      "affiliation": "東"
     }
   ],
   "meguro": [
@@ -1462,8 +1495,52 @@
       "delay": "",
       "updated": "06:25",
       "affiliation": "急"
+    },
+    {
+      "op": "21",
+      "form": "-",
+      "cars": "10",
+      "no": "821-062",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:30",
+      "affiliation": "副"
+    },
+    {
+      "op": "43T",
+      "form": "6513F",
+      "cars": "8",
+      "no": "443-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:30",
+      "affiliation": "都"
+    },
+    {
+      "op": "14",
+      "form": "-",
+      "cars": "8",
+      "no": "014-062",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "06:30",
+      "affiliation": "急"
+    },
+    {
+      "op": "09",
+      "form": "-",
+      "cars": "8",
+      "no": "709-061",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:30",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "06:25",
+  "lastUpdate": "06:30",
   "date": "2026-08-13"
 }
