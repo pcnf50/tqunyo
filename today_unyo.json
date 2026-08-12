@@ -3328,8 +3328,19 @@
       "delay": "",
       "updated": "09:20",
       "affiliation": "南"
+    },
+    {
+      "op": "52M",
+      "form": "-",
+      "cars": "10",
+      "no": "052-091",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:25",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "09:20",
+  "lastUpdate": "09:25",
   "date": "2026-08-12"
 }
