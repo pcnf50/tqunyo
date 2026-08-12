@@ -2074,8 +2074,19 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:40",
+      "updated": "18:45",
       "affiliation": "急"
+    },
+    {
+      "op": "53S",
+      "form": "10105F",
+      "cars": "10",
+      "no": "753-181",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "18:45",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -4351,6 +4362,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "18:40",
+  "lastUpdate": "18:45",
   "date": "2026-08-12"
 }
