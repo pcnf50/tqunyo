@@ -2287,14 +2287,25 @@
       "affiliation": "副"
     },
     {
+      "op": "29K",
+      "form": "-",
+      "cars": "0",
+      "no": "029-201",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "20:35",
+      "affiliation": ""
+    },
+    {
       "op": "22K",
       "form": "17190F",
       "cars": "8",
       "no": "022-201",
       "destCode": "元町・中華街",
       "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "20:30",
+      "delay": "2分遅れ",
+      "updated": "20:35",
       "affiliation": "副"
     }
   ],
@@ -4732,10 +4743,10 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "20:30",
+      "updated": "20:35",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "20:30",
+  "lastUpdate": "20:35",
   "date": "2026-08-12"
 }
