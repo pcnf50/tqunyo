@@ -2282,8 +2282,8 @@
       "no": "791-201",
       "destCode": "元町・中華街",
       "kind": "通",
-      "delay": "4分遅れ",
-      "updated": "20:20",
+      "delay": "3分遅れ",
+      "updated": "20:25",
       "affiliation": "副"
     }
   ],
@@ -4714,6 +4714,6 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "20:20",
+  "lastUpdate": "20:25",
   "date": "2026-08-12"
 }
