@@ -3682,6 +3682,17 @@
       "affiliation": ""
     },
     {
+      "op": "31T",
+      "form": "6506F",
+      "cars": "8",
+      "no": "431-111",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:45",
+      "affiliation": "都"
+    },
+    {
       "op": "61T",
       "form": "6319F",
       "cars": "6",
@@ -3689,10 +3700,10 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "11:40",
+      "updated": "11:45",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "11:40",
+  "lastUpdate": "11:45",
   "date": "2026-08-12"
 }
