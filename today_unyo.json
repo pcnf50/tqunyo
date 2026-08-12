@@ -2364,14 +2364,14 @@
       "affiliation": "副"
     },
     {
-      "op": "23K",
-      "form": "-",
-      "cars": "8",
-      "no": "023-202",
-      "destCode": "副都心線直通",
-      "kind": "普",
-      "delay": "2分遅れ",
-      "updated": "21:30",
+      "op": "95K",
+      "form": "4114F",
+      "cars": "10",
+      "no": "095-212",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "21:35",
       "affiliation": "急"
     }
   ],
@@ -4846,6 +4846,6 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "21:30",
+  "lastUpdate": "21:35",
   "date": "2026-08-12"
 }
