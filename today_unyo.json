@@ -2474,15 +2474,15 @@
       "affiliation": "副"
     },
     {
-      "op": "31K",
-      "form": "-",
-      "cars": "8",
-      "no": "031-221",
-      "destCode": "元町・中華街",
-      "kind": "普",
+      "op": "13T",
+      "form": "17105F",
+      "cars": "10",
+      "no": "813-221",
+      "destCode": "元住吉",
+      "kind": "急",
       "delay": "",
-      "updated": "22:45",
-      "affiliation": "急"
+      "updated": "22:50",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -5033,6 +5033,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:45",
+  "lastUpdate": "22:50",
   "date": "2026-08-12"
 }
