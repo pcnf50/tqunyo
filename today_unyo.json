@@ -1088,13 +1088,15 @@
       "affiliation": "都"
     },
     {
-      "op": "99",
-      "form": "5122F",
-      "cars": "8",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "不明",
-      "delay": ""
+      "op": "41S",
+      "form": "10136F",
+      "cars": "10",
+      "no": "741-071",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:25",
+      "affiliation": "副"
     },
     {
       "op": "11",
@@ -2516,6 +2518,17 @@
       "affiliation": "急"
     },
     {
+      "op": "03K",
+      "form": "-",
+      "cars": "8",
+      "no": "003-231",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:55",
+      "affiliation": "急"
+    },
+    {
       "op": "99G",
       "form": "5122F",
       "cars": "8",
@@ -2523,7 +2536,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "23:50",
+      "updated": "23:55",
       "affiliation": "急"
     }
   ],
@@ -5093,19 +5106,8 @@
       "delay": "1分遅れ",
       "updated": "23:45",
       "affiliation": "急"
-    },
-    {
-      "op": "99",
-      "form": "5188F",
-      "cars": "8",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "各駅停車",
-      "delay": "",
-      "updated": "23:50",
-      "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:54",
+  "lastUpdate": "23:55",
   "date": "2026-08-12"
 }
