@@ -1832,7 +1832,7 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "12:00",
+      "updated": "12:05",
       "affiliation": "急"
     }
   ],
@@ -3792,19 +3792,8 @@
       "delay": "",
       "updated": "11:55",
       "affiliation": ""
-    },
-    {
-      "op": "46T",
-      "form": "-",
-      "cars": "10",
-      "no": "046-112",
-      "destCode": "渋谷",
-      "kind": "回",
-      "delay": "",
-      "updated": "12:00",
-      "affiliation": "急"
     }
   ],
-  "lastUpdate": "12:00",
+  "lastUpdate": "12:05",
   "date": "2026-08-13"
 }
