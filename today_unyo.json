@@ -3913,8 +3913,19 @@
       "delay": "",
       "updated": "12:35",
       "affiliation": "南"
+    },
+    {
+      "op": "47T",
+      "form": "-",
+      "cars": "10",
+      "no": "047-121",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "12:50",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "12:45",
+  "lastUpdate": "12:50",
   "date": "2026-08-13"
 }
