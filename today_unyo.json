@@ -2120,6 +2120,17 @@
       "delay": "",
       "updated": "18:45",
       "affiliation": "副"
+    },
+    {
+      "op": "33",
+      "form": "5119F",
+      "cars": "8",
+      "no": "233-182",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:55",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4437,12 +4448,12 @@
       "cars": "8",
       "no": "233-182",
       "destCode": "三田線直通",
-      "kind": "回",
+      "kind": "普",
       "delay": "",
-      "updated": "18:50",
+      "updated": "18:55",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "18:50",
+  "lastUpdate": "18:55",
   "date": "2026-08-13"
 }
