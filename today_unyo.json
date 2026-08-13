@@ -2131,6 +2131,17 @@
       "delay": "",
       "updated": "18:55",
       "affiliation": "急"
+    },
+    {
+      "op": "26",
+      "form": "-",
+      "cars": "8",
+      "no": "226-182",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:00",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4454,6 +4465,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "18:55",
+  "lastUpdate": "19:00",
   "date": "2026-08-13"
 }
