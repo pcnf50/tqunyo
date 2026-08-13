@@ -1941,8 +1941,8 @@
       "no": "064-152",
       "destCode": "副都心線直通",
       "kind": "回",
-      "delay": "1分遅れ",
-      "updated": "15:45",
+      "delay": "",
+      "updated": "15:50",
       "affiliation": "急"
     },
     {
@@ -1953,7 +1953,7 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "15:45",
+      "updated": "15:50",
       "affiliation": "西"
     }
   ],
@@ -4064,11 +4064,11 @@
       "no": "064-152",
       "destCode": "副都心線直通",
       "kind": "回",
-      "delay": "1分遅れ",
-      "updated": "15:45",
+      "delay": "",
+      "updated": "15:50",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "15:45",
+  "lastUpdate": "15:50",
   "date": "2026-08-13"
 }
