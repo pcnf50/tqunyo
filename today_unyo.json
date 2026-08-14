@@ -3880,8 +3880,19 @@
       "delay": "",
       "updated": "13:55",
       "affiliation": ""
+    },
+    {
+      "op": "87T",
+      "form": "-",
+      "cars": "0",
+      "no": "487-141",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "14:05",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "14:00",
+  "lastUpdate": "14:05",
   "date": "2026-08-14"
 }
