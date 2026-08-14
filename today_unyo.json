@@ -2129,7 +2129,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "20:00",
+      "updated": "20:05",
       "affiliation": "副"
     }
   ],
@@ -4474,8 +4474,19 @@
       "delay": "",
       "updated": "19:55",
       "affiliation": "南"
+    },
+    {
+      "op": "30",
+      "form": "-",
+      "cars": "10",
+      "no": "130-192",
+      "destCode": "副都心線直通",
+      "kind": "通",
+      "delay": "",
+      "updated": "20:05",
+      "affiliation": "西"
     }
   ],
-  "lastUpdate": "20:00",
+  "lastUpdate": "20:05",
   "date": "2026-08-14"
 }
