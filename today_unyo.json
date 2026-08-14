@@ -4520,6 +4520,17 @@
       "affiliation": "副"
     },
     {
+      "op": "77",
+      "form": "-",
+      "cars": "10",
+      "no": "777-202",
+      "destCode": "副都心線直通",
+      "kind": "通",
+      "delay": "",
+      "updated": "20:35",
+      "affiliation": "副"
+    },
+    {
       "op": "43G",
       "form": "21106F",
       "cars": "8",
@@ -4527,10 +4538,21 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "20:30",
+      "updated": "20:35",
       "affiliation": "相"
+    },
+    {
+      "op": "46K",
+      "form": "-",
+      "cars": "0",
+      "no": "246-201",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:35",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "20:30",
+  "lastUpdate": "20:35",
   "date": "2026-08-14"
 }
