@@ -1744,7 +1744,7 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "11:15",
+      "updated": "11:20",
       "affiliation": "南"
     }
   ],
@@ -3607,6 +3607,17 @@
       "affiliation": ""
     },
     {
+      "op": "20",
+      "form": "-",
+      "cars": "10",
+      "no": "120-111",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "11:20",
+      "affiliation": "西"
+    },
+    {
       "op": "89T",
       "form": "6315F",
       "cars": "6",
@@ -3614,10 +3625,10 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "11:15",
+      "updated": "11:20",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "11:15",
+  "lastUpdate": "11:20",
   "date": "2026-08-14"
 }
