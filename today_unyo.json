@@ -3889,8 +3889,19 @@
       "delay": "",
       "updated": "21:05",
       "affiliation": "副"
+    },
+    {
+      "op": "96M",
+      "form": "9104F",
+      "cars": "6",
+      "no": "596-211",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "21:20",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "21:15",
+  "lastUpdate": "21:20",
   "date": "2026-08-15"
 }
