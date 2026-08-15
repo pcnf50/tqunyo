@@ -3284,19 +3284,8 @@
       "delay": "",
       "updated": "15:30",
       "affiliation": "南"
-    },
-    {
-      "op": "31T",
-      "form": "-",
-      "cars": "0",
-      "no": "431-151",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "15:35",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "15:35",
+  "lastUpdate": "15:40",
   "date": "2026-08-15"
 }
