@@ -3273,8 +3273,19 @@
       "delay": "",
       "updated": "14:55",
       "affiliation": ""
+    },
+    {
+      "op": "48S",
+      "form": "9108F",
+      "cars": "6",
+      "no": "348-151",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "15:30",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "15:25",
+  "lastUpdate": "15:30",
   "date": "2026-08-15"
 }
