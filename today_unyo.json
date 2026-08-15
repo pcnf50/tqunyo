@@ -1590,6 +1590,17 @@
       "delay": "",
       "updated": "13:25",
       "affiliation": "東"
+    },
+    {
+      "op": "94M",
+      "form": "-",
+      "cars": "0",
+      "no": "194-141",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "13:50",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -3211,6 +3222,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "13:45",
+  "lastUpdate": "13:50",
   "date": "2026-08-15"
 }
