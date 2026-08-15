@@ -1086,15 +1086,13 @@
       "affiliation": "急"
     },
     {
-      "op": "39S",
-      "form": "10114F",
-      "cars": "10",
-      "no": "739-081",
-      "destCode": "元町・中華街",
-      "kind": "特",
-      "delay": "",
-      "updated": "08:10",
-      "affiliation": "副"
+      "op": "99",
+      "form": "5159F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
     },
     {
       "op": "57",
@@ -4111,6 +4109,6 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "23:45",
+  "lastUpdate": "23:47",
   "date": "2026-08-15"
 }
