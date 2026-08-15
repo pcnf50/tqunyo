@@ -2626,8 +2626,19 @@
       "delay": "",
       "updated": "09:20",
       "affiliation": "相"
+    },
+    {
+      "op": "1",
+      "form": "-",
+      "cars": "8",
+      "no": "001-091",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "09:25",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "09:23",
+  "lastUpdate": "09:25",
   "date": "2026-08-15"
 }
