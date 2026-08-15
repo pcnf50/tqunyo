@@ -3066,8 +3066,19 @@
       "delay": "",
       "updated": "12:05",
       "affiliation": ""
+    },
+    {
+      "op": "61T",
+      "form": "6322F",
+      "cars": "6",
+      "no": "461-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:10",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "12:05",
+  "lastUpdate": "12:10",
   "date": "2026-08-15"
 }
