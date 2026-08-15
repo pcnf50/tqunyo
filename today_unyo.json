@@ -1311,9 +1311,9 @@
       "op": "10",
       "form": "-",
       "cars": "10",
-      "no": "110-071",
-      "destCode": "元町・中華街",
-      "kind": "特急",
+      "no": "110-082",
+      "destCode": "副都心線直通",
+      "kind": "F特急",
       "delay": ""
     },
     {
@@ -1460,15 +1460,13 @@
       "affiliation": "急"
     },
     {
-      "op": "99",
-      "form": "5189F",
-      "cars": "8",
-      "no": "999-000",
-      "destCode": "",
-      "kind": "各駅停車",
-      "delay": "",
-      "updated": "05:25",
-      "affiliation": "急"
+      "op": "24",
+      "form": "-",
+      "cars": "10",
+      "no": "124-082",
+      "destCode": "副都心線直通",
+      "kind": "急行",
+      "delay": ""
     },
     {
       "op": "03",
@@ -2351,6 +2349,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "08:35",
+  "lastUpdate": "08:39",
   "date": "2026-08-16"
 }
