@@ -1962,17 +1962,6 @@
       "delay": "",
       "updated": "23:40",
       "affiliation": "急"
-    },
-    {
-      "op": "99G",
-      "form": "5153F",
-      "cars": "8",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "不明",
-      "delay": "",
-      "updated": "00:35",
-      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4131,17 +4120,17 @@
       "affiliation": "急"
     },
     {
-      "op": "40K",
-      "form": "5182F",
-      "cars": "8",
-      "no": "240-242",
-      "destCode": "武蔵小杉",
+      "op": "44K",
+      "form": "-",
+      "cars": "0",
+      "no": "244-241",
+      "destCode": "武蔵小山",
       "kind": "回",
-      "delay": "",
-      "updated": "00:35",
-      "affiliation": "急"
+      "delay": "1分遅れ",
+      "updated": "00:40",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "00:35",
+  "lastUpdate": "00:40",
   "date": "2026-08-16"
 }
