@@ -1799,6 +1799,17 @@
       "delay": "",
       "updated": "19:30",
       "affiliation": "急"
+    },
+    {
+      "op": "07",
+      "form": "-",
+      "cars": "8",
+      "no": "207-192",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:45",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3724,8 +3735,19 @@
       "delay": "",
       "updated": "19:40",
       "affiliation": "南"
+    },
+    {
+      "op": "07K",
+      "form": "3111F",
+      "cars": "8",
+      "no": "207-192",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:40",
+  "lastUpdate": "19:45",
   "date": "2026-08-15"
 }
