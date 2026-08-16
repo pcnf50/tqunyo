@@ -2906,8 +2906,19 @@
       "delay": "",
       "updated": "10:35",
       "affiliation": "急"
+    },
+    {
+      "op": "67",
+      "form": "-",
+      "cars": "10",
+      "no": "767-101",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "10:45",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "10:40",
+  "lastUpdate": "10:45",
   "date": "2026-08-16"
 }
