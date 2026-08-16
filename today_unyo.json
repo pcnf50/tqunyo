@@ -1086,15 +1086,13 @@
       "affiliation": "急"
     },
     {
-      "op": "27",
-      "form": "-",
+      "op": "99",
+      "form": "5152F",
       "cars": "8",
-      "no": "227-071",
-      "destCode": "相鉄線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "08:05",
-      "affiliation": "急"
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
     },
     {
       "op": "16K",
@@ -4015,6 +4013,6 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "23:45",
+  "lastUpdate": "23:48",
   "date": "2026-08-16"
 }
