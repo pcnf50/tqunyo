@@ -1917,8 +1917,8 @@
       "no": "213-222",
       "destCode": "三田線直通",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "23:00",
+      "delay": "",
+      "updated": "23:05",
       "affiliation": "急"
     }
   ],
@@ -3944,11 +3944,11 @@
       "no": "213-222",
       "destCode": "三田線直通",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "23:00",
+      "delay": "",
+      "updated": "23:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:00",
+  "lastUpdate": "23:05",
   "date": "2026-08-16"
 }
