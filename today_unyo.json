@@ -1797,7 +1797,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "20:15",
+      "updated": "20:20",
       "affiliation": "副"
     }
   ],
@@ -2620,13 +2620,15 @@
       "affiliation": "急"
     },
     {
-      "op": "75",
+      "op": "71",
       "form": "-",
       "cars": "10",
-      "no": "175-192",
-      "destCode": "副都心線直通",
-      "kind": "各駅停車",
-      "delay": ""
+      "no": "171-071",
+      "destCode": "元町・中華街",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "07:15",
+      "affiliation": "西"
     },
     {
       "op": "92",
@@ -3692,10 +3694,10 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "20:15",
+      "updated": "20:20",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "20:19",
+  "lastUpdate": "20:20",
   "date": "2026-08-16"
 }
