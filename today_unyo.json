@@ -4055,19 +4055,8 @@
       "delay": "",
       "updated": "00:40",
       "affiliation": "急"
-    },
-    {
-      "op": "45K",
-      "form": "3110F",
-      "cars": "8",
-      "no": "245-242",
-      "destCode": "武蔵小杉",
-      "kind": "回",
-      "delay": "",
-      "updated": "00:45",
-      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:45",
+  "lastUpdate": "00:50",
   "date": "2026-08-17"
 }
