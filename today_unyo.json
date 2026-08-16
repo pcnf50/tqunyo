@@ -1312,8 +1312,8 @@
       "no": "449-081",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "09:15",
+      "delay": "",
+      "updated": "09:20",
       "affiliation": "都"
     }
   ],
@@ -2602,17 +2602,17 @@
       "affiliation": "都"
     },
     {
-      "op": "73",
-      "form": "-",
-      "cars": "10",
-      "no": "773-081",
-      "destCode": "元町・中華街",
+      "op": "43G",
+      "form": "21108F",
+      "cars": "8",
+      "no": "643-092",
+      "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "09:15",
-      "affiliation": "副"
+      "updated": "09:20",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "09:15",
+  "lastUpdate": "09:20",
   "date": "2026-08-16"
 }
