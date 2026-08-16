@@ -3443,7 +3443,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "17:50",
+      "updated": "17:55",
       "affiliation": "南"
     },
     {
@@ -3454,7 +3454,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:50",
+      "updated": "17:55",
       "affiliation": "急"
     },
     {
@@ -3465,10 +3465,10 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "17:50",
+      "updated": "17:55",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "17:50",
+  "lastUpdate": "17:55",
   "date": "2026-08-16"
 }
