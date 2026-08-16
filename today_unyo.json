@@ -3137,8 +3137,19 @@
       "delay": "",
       "updated": "12:35",
       "affiliation": "南"
+    },
+    {
+      "op": "49T",
+      "form": "-",
+      "cars": "0",
+      "no": "449-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:35",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "13:30",
+  "lastUpdate": "13:35",
   "date": "2026-08-16"
 }
