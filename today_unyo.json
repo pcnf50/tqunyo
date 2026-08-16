@@ -1693,15 +1693,13 @@
       "affiliation": "急"
     },
     {
-      "op": "57M",
+      "op": "22",
       "form": "-",
       "cars": "10",
-      "no": "057-052",
+      "no": "122-072",
       "destCode": "副都心線直通",
-      "kind": "回",
-      "delay": "",
-      "updated": "05:30",
-      "affiliation": "急"
+      "kind": "通勤特急",
+      "delay": ""
     },
     {
       "op": "60G",
@@ -2925,6 +2923,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:25",
+  "lastUpdate": "08:28",
   "date": "2026-08-17"
 }
