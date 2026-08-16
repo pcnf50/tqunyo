@@ -1447,6 +1447,17 @@
       "delay": "",
       "updated": "10:35",
       "affiliation": "都"
+    },
+    {
+      "op": "91G",
+      "form": "20104F",
+      "cars": "10",
+      "no": "991-102",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "10:40",
+      "affiliation": "相"
     }
   ],
   "meguro": [
@@ -2897,6 +2908,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "10:35",
+  "lastUpdate": "10:40",
   "date": "2026-08-16"
 }
