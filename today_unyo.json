@@ -1087,7 +1087,7 @@
     },
     {
       "op": "99",
-      "form": "5152F",
+      "form": "Y517F",
       "cars": "8",
       "no": "999-990",
       "destCode": "",
@@ -4035,6 +4035,6 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "00:30",
+  "lastUpdate": "00:32",
   "date": "2026-08-17"
 }
