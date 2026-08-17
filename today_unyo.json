@@ -3546,8 +3546,19 @@
       "delay": "1分遅れ",
       "updated": "10:50",
       "affiliation": "相"
+    },
+    {
+      "op": "85",
+      "form": "-",
+      "cars": "10",
+      "no": "785-102",
+      "destCode": "副都心線直通",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "10:55",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "10:50",
+  "lastUpdate": "10:55",
   "date": "2026-08-17"
 }
