@@ -1145,15 +1145,13 @@
       "affiliation": "急"
     },
     {
-      "op": "34K",
-      "form": "3102F",
-      "cars": "8",
-      "no": "234-052",
-      "destCode": "南北線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "05:20",
-      "affiliation": "急"
+      "op": "18",
+      "form": "-",
+      "cars": "10",
+      "no": "118-061",
+      "destCode": "元町・中華街",
+      "kind": "急行",
+      "delay": ""
     },
     {
       "op": "28K",
@@ -1926,7 +1924,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "06:55",
+  "lastUpdate": "06:57",
   "date": "2026-08-18",
   "resetDone": false
 }
