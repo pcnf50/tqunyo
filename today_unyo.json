@@ -1385,15 +1385,13 @@
       "affiliation": "急"
     },
     {
-      "op": "60G",
+      "op": "22",
       "form": "-",
       "cars": "10",
-      "no": "060-051",
+      "no": "122-071",
       "destCode": "元町・中華街",
-      "kind": "急",
-      "delay": "",
-      "updated": "05:25",
-      "affiliation": "急"
+      "kind": "急行",
+      "delay": ""
     },
     {
       "op": "07K",
@@ -2298,7 +2296,7 @@
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "07:25",
+  "lastUpdate": "07:27",
   "date": "2026-08-18",
   "resetDone": false
 }
