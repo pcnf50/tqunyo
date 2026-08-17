@@ -1588,8 +1588,8 @@
       "op": "10",
       "form": "-",
       "cars": "10",
-      "no": "110-071",
-      "destCode": "元町・中華街",
+      "no": "110-082",
+      "destCode": "副都心線直通",
       "kind": "急行",
       "delay": ""
     },
@@ -3099,7 +3099,7 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:45",
+  "lastUpdate": "08:46",
   "date": "2026-08-18",
   "resetDone": false
 }
