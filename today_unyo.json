@@ -1636,15 +1636,13 @@
       "affiliation": "急"
     },
     {
-      "op": "60G",
+      "op": "22",
       "form": "-",
       "cars": "10",
-      "no": "060-051",
-      "destCode": "元町・中華街",
-      "kind": "急",
-      "delay": "",
-      "updated": "05:25",
-      "affiliation": "急"
+      "no": "122-072",
+      "destCode": "副都心線直通",
+      "kind": "通勤特急",
+      "delay": ""
     },
     {
       "op": "07K",
@@ -1702,15 +1700,13 @@
       "affiliation": "都"
     },
     {
-      "op": "03",
+      "op": "28",
       "form": "-",
-      "cars": "8",
-      "no": "703-051",
+      "cars": "10",
+      "no": "128-081",
       "destCode": "元町・中華街",
-      "kind": "普",
-      "delay": "",
-      "updated": "05:30",
-      "affiliation": "副"
+      "kind": "急行",
+      "delay": ""
     },
     {
       "op": "88K",
