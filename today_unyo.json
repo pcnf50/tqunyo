@@ -2393,15 +2393,13 @@
       "affiliation": "急"
     },
     {
-      "op": "37T",
-      "form": "6501F",
-      "cars": "8",
-      "no": "437-051",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "05:30",
-      "affiliation": "都"
+      "op": "28",
+      "form": "-",
+      "cars": "10",
+      "no": "128-182",
+      "destCode": "副都心線直通",
+      "kind": "通勤特急",
+      "delay": ""
     },
     {
       "op": "58M",
@@ -4318,6 +4316,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "18:50",
+  "lastUpdate": "18:55",
   "date": "2026-08-17"
 }
