@@ -3678,8 +3678,19 @@
       "delay": "",
       "updated": "11:35",
       "affiliation": "都"
+    },
+    {
+      "op": "81K",
+      "form": "3105F",
+      "cars": "8",
+      "no": "281-112",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "11:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "11:40",
+  "lastUpdate": "11:45",
   "date": "2026-08-17"
 }
