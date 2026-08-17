@@ -3480,8 +3480,19 @@
       "delay": "",
       "updated": "10:20",
       "affiliation": "副"
+    },
+    {
+      "op": "71T",
+      "form": "6510F",
+      "cars": "8",
+      "no": "471-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:25",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "10:20",
+  "lastUpdate": "10:25",
   "date": "2026-08-17"
 }
