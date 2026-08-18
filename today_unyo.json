@@ -2455,9 +2455,9 @@
       "op": "18",
       "form": "-",
       "cars": "10",
-      "no": "118-072",
+      "no": "118-232",
       "destCode": "副都心線直通",
-      "kind": "通勤特急",
+      "kind": "急行",
       "delay": ""
     },
     {
@@ -4725,7 +4725,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:30",
+  "lastUpdate": "23:31",
   "date": "2026-08-18",
   "resetDone": false
 }
