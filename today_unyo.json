@@ -2574,8 +2574,8 @@
       "op": "30",
       "form": "-",
       "cars": "10",
-      "no": "130-192",
-      "destCode": "副都心線直通",
+      "no": "130-222",
+      "destCode": "渋谷",
       "kind": "通勤特急",
       "delay": ""
     },
@@ -4714,7 +4714,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:50",
+  "lastUpdate": "22:53",
   "date": "2026-08-18",
   "resetDone": false
 }
