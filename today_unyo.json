@@ -2422,9 +2422,9 @@
       "op": "18",
       "form": "-",
       "cars": "10",
-      "no": "118-072",
-      "destCode": "副都心線直通",
-      "kind": "通勤特急",
+      "no": "118-212",
+      "destCode": "渋谷",
+      "kind": "急行",
       "delay": ""
     },
     {
@@ -2552,8 +2552,8 @@
       "op": "30",
       "form": "-",
       "cars": "10",
-      "no": "130-192",
-      "destCode": "副都心線直通",
+      "no": "130-211",
+      "destCode": "元町・中華街",
       "kind": "通勤特急",
       "delay": ""
     },
@@ -4670,7 +4670,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:00",
+  "lastUpdate": "22:01",
   "date": "2026-08-18",
   "resetDone": false
 }
