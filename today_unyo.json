@@ -1713,6 +1713,17 @@
       "delay": "",
       "updated": "11:00",
       "affiliation": "都"
+    },
+    {
+      "op": "84",
+      "form": "-",
+      "cars": "6",
+      "no": "584-102",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "11:05",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -3594,7 +3605,7 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "11:00",
+  "lastUpdate": "11:05",
   "date": "2026-08-18",
   "resetDone": false
 }
