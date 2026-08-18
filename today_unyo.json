@@ -1605,15 +1605,13 @@
       "affiliation": "急"
     },
     {
-      "op": "99",
-      "form": "5190F",
-      "cars": "8",
-      "no": "999-000",
-      "destCode": "",
-      "kind": "各駅停車",
-      "delay": "",
-      "updated": "05:00",
-      "affiliation": "急"
+      "op": "10",
+      "form": "-",
+      "cars": "10",
+      "no": "110-082",
+      "destCode": "副都心線直通",
+      "kind": "急行",
+      "delay": ""
     },
     {
       "op": "26K",
@@ -3066,6 +3064,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:45",
+  "lastUpdate": "08:48",
   "date": "2026-08-19"
 }
