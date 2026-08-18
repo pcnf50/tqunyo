@@ -2516,15 +2516,13 @@
       "affiliation": ""
     },
     {
-      "op": "58M",
+      "op": "30",
       "form": "-",
       "cars": "10",
-      "no": "058-052",
-      "destCode": "渋谷",
-      "kind": "急",
-      "delay": "",
-      "updated": "05:40",
-      "affiliation": "急"
+      "no": "130-192",
+      "destCode": "副都心線直通",
+      "kind": "通勤特急",
+      "delay": ""
     },
     {
       "op": "12",
@@ -4573,7 +4571,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "20:05",
+  "lastUpdate": "20:09",
   "date": "2026-08-18",
   "resetDone": false
 }
