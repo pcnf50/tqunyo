@@ -4602,9 +4602,20 @@
       "delay": "",
       "updated": "20:35",
       "affiliation": "相"
+    },
+    {
+      "op": "48K",
+      "form": "-",
+      "cars": "0",
+      "no": "248-201",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:50",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "20:45",
+  "lastUpdate": "20:50",
   "date": "2026-08-18",
   "resetDone": false
 }
