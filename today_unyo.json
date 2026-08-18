@@ -1495,6 +1495,17 @@
       "affiliation": "都"
     },
     {
+      "op": "15S",
+      "form": "17193F",
+      "cars": "8",
+      "no": "715-091",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "09:05",
+      "affiliation": "副"
+    },
+    {
       "op": "33S",
       "form": "17104F",
       "cars": "10",
@@ -1502,7 +1513,7 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "09:00",
+      "updated": "09:05",
       "affiliation": "副"
     },
     {
@@ -1513,7 +1524,7 @@
       "destCode": "元住吉",
       "kind": "普",
       "delay": "",
-      "updated": "09:00",
+      "updated": "09:05",
       "affiliation": "副"
     }
   ],
@@ -3176,6 +3187,28 @@
       "affiliation": "南"
     },
     {
+      "op": "24",
+      "form": "-",
+      "cars": "10",
+      "no": "124-081",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "09:05",
+      "affiliation": "西"
+    },
+    {
+      "op": "85T",
+      "form": "6318F",
+      "cars": "6",
+      "no": "485-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "09:05",
+      "affiliation": "都"
+    },
+    {
       "op": "94M",
       "form": "9102F",
       "cars": "6",
@@ -3183,7 +3216,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "09:00",
+      "updated": "09:05",
       "affiliation": "南"
     },
     {
@@ -3194,11 +3227,11 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "09:00",
+      "updated": "09:05",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:01",
+  "lastUpdate": "09:05",
   "date": "2026-08-18",
   "resetDone": false
 }
