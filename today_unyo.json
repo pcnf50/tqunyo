@@ -1088,13 +1088,15 @@
       "affiliation": ""
     },
     {
-      "op": "99",
-      "form": "17183F",
-      "cars": "8",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "不明",
-      "delay": ""
+      "op": "41S",
+      "form": "17103F",
+      "cars": "10",
+      "no": "741-071",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:20",
+      "affiliation": "副"
     },
     {
       "op": "02S",
@@ -2272,6 +2274,17 @@
       "delay": "",
       "updated": "00:35",
       "affiliation": "副"
+    },
+    {
+      "op": "99G",
+      "form": "5160F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "00:45",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4778,18 +4791,18 @@
       "affiliation": "急"
     },
     {
-      "op": "38K",
-      "form": "-",
-      "cars": "0",
-      "no": "238-241",
-      "destCode": "武蔵小山",
+      "op": "41K",
+      "form": "3109F",
+      "cars": "8",
+      "no": "241-242",
+      "destCode": "武蔵小杉",
       "kind": "回",
-      "delay": "1分遅れ",
-      "updated": "00:40",
-      "affiliation": ""
+      "delay": "",
+      "updated": "00:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:43",
+  "lastUpdate": "00:45",
   "date": "2026-08-19",
   "resetDone": false
 }
