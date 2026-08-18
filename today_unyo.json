@@ -3746,9 +3746,20 @@
       "delay": "",
       "updated": "11:55",
       "affiliation": "急"
+    },
+    {
+      "op": "81T",
+      "form": "-",
+      "cars": "0",
+      "no": "481-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:05",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "12:00",
+  "lastUpdate": "12:05",
   "date": "2026-08-18",
   "resetDone": false
 }
