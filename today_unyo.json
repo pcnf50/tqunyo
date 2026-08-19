@@ -1264,6 +1264,17 @@
       "affiliation": "都"
     },
     {
+      "op": "25S",
+      "form": "10104F",
+      "cars": "10",
+      "no": "725-071",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "2分遅れ",
+      "updated": "08:00",
+      "affiliation": "副"
+    },
+    {
       "op": "50",
       "form": "-",
       "cars": "8",
@@ -1271,7 +1282,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "1分遅れ",
-      "updated": "07:55",
+      "updated": "08:00",
       "affiliation": "南"
     },
     {
@@ -1281,9 +1292,20 @@
       "no": "053-072",
       "destCode": "副都心線直通",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "07:55",
+      "delay": "",
+      "updated": "08:00",
       "affiliation": "急"
+    },
+    {
+      "op": "84",
+      "form": "-",
+      "cars": "6",
+      "no": "584-071",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:00",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -1486,13 +1508,15 @@
       "affiliation": "急"
     },
     {
-      "op": "18",
-      "form": "-",
-      "cars": "10",
-      "no": "118-072",
-      "destCode": "副都心線直通",
-      "kind": "通勤特急",
-      "delay": ""
+      "op": "2K",
+      "form": "5192F",
+      "cars": "8",
+      "no": "002-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:20",
+      "affiliation": "急"
     },
     {
       "op": "18K",
@@ -2613,7 +2637,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "07:55",
+      "updated": "08:00",
       "affiliation": "南"
     },
     {
@@ -2623,8 +2647,8 @@
       "no": "053-072",
       "destCode": "副都心線直通",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "07:55",
+      "delay": "",
+      "updated": "08:00",
       "affiliation": "急"
     },
     {
@@ -2634,8 +2658,8 @@
       "no": "745-071",
       "destCode": "元町・中華街",
       "kind": "通",
-      "delay": "",
-      "updated": "07:55",
+      "delay": "1分遅れ",
+      "updated": "08:00",
       "affiliation": "副"
     },
     {
@@ -2646,10 +2670,10 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:55",
+      "updated": "08:00",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "07:58",
+  "lastUpdate": "08:00",
   "date": "2026-08-20"
 }
