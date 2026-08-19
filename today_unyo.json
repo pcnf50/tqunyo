@@ -1662,15 +1662,13 @@
       "affiliation": "み"
     },
     {
-      "op": "07K",
-      "form": "3121F",
-      "cars": "8",
-      "no": "207-051",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "05:25",
-      "affiliation": "急"
+      "op": "22",
+      "form": "-",
+      "cars": "10",
+      "no": "122-072",
+      "destCode": "副都心線直通",
+      "kind": "通勤特急",
+      "delay": ""
     },
     {
       "op": "99",
@@ -2905,6 +2903,6 @@
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "08:25",
+  "lastUpdate": "08:27",
   "date": "2026-08-20"
 }
