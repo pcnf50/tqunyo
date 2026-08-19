@@ -1585,15 +1585,13 @@
       "affiliation": "急"
     },
     {
-      "op": "34K",
-      "form": "3110F",
-      "cars": "8",
-      "no": "234-052",
-      "destCode": "南北線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "05:05",
-      "affiliation": "急"
+      "op": "10",
+      "form": "-",
+      "cars": "10",
+      "no": "110-082",
+      "destCode": "副都心線直通",
+      "kind": "急行",
+      "delay": "1分遅れ"
     },
     {
       "op": "99",
@@ -3068,6 +3066,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:45",
+  "lastUpdate": "08:49",
   "date": "2026-08-20"
 }
