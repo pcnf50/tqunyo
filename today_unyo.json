@@ -1,6 +1,53 @@
 {
-  "toyoko": {},
-  "meguro": {},
-  "lastUpdate": "04:22",
+  "toyoko": {
+    "99": {
+      "op": "99",
+      "form": "5122F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
+    },
+    "05K": {
+      "op": "05K",
+      "form": "Y513F",
+      "cars": "8",
+      "no": "005-042",
+      "destCode": "副都心線直通",
+      "kind": "各駅停車",
+      "delay": ""
+    }
+  },
+  "meguro": {
+    "36K": {
+      "op": "36K",
+      "form": "5182F",
+      "cars": "8",
+      "no": "236-041",
+      "destCode": "相鉄線直通",
+      "kind": "各駅停車",
+      "delay": ""
+    },
+    "11K": {
+      "op": "11K",
+      "form": "3105F",
+      "cars": "8",
+      "no": "211-042",
+      "destCode": "三田線直通",
+      "kind": "各駅停車",
+      "delay": ""
+    },
+    "16K": {
+      "op": "16K",
+      "form": "5188F",
+      "cars": "8",
+      "no": "216-042",
+      "destCode": "南北線直通",
+      "kind": "各駅停車",
+      "delay": ""
+    }
+  },
+  "lastUpdate": "04:49",
   "date": "2026-08-20"
 }
