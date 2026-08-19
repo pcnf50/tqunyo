@@ -2259,7 +2259,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "23:50",
+      "updated": "23:55",
       "affiliation": "急"
     }
   ],
@@ -4712,19 +4712,8 @@
       "delay": "",
       "updated": "23:45",
       "affiliation": "急"
-    },
-    {
-      "op": "08K",
-      "form": "-",
-      "cars": "0",
-      "no": "208-231",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "23:50",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "23:50",
+  "lastUpdate": "23:55",
   "date": "2026-08-19"
 }
