@@ -2342,13 +2342,15 @@
       "affiliation": "急"
     },
     {
-      "op": "10",
-      "form": "-",
-      "cars": "10",
-      "no": "110-222",
-      "destCode": "副都心線直通",
-      "kind": "急行",
-      "delay": ""
+      "op": "99",
+      "form": "5190F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "05:00",
+      "affiliation": "急"
     },
     {
       "op": "26K",
@@ -4644,8 +4646,30 @@
       "delay": "",
       "updated": "22:10",
       "affiliation": "急"
+    },
+    {
+      "op": "47K",
+      "form": "3106F",
+      "cars": "8",
+      "no": "247-222",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:35",
+      "affiliation": "急"
+    },
+    {
+      "op": "81T",
+      "form": "-",
+      "cars": "0",
+      "no": "481-221",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:35",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "22:32",
+  "lastUpdate": "22:35",
   "date": "2026-08-19"
 }
