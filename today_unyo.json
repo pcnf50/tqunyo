@@ -2281,6 +2281,17 @@
       "delay": "",
       "updated": "00:35",
       "affiliation": "副"
+    },
+    {
+      "op": "99G",
+      "form": "-",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "00:45",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4732,8 +4743,19 @@
       "delay": "",
       "updated": "23:45",
       "affiliation": "急"
+    },
+    {
+      "op": "99",
+      "form": "3110F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:40",
+  "lastUpdate": "00:45",
   "date": "2026-08-20"
 }
