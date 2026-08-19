@@ -1887,6 +1887,17 @@
       "delay": "",
       "updated": "13:55",
       "affiliation": "南"
+    },
+    {
+      "op": "99S",
+      "form": "10118F",
+      "cars": "10",
+      "no": "799-142",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "14:25",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -3878,6 +3889,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "14:20",
+  "lastUpdate": "14:25",
   "date": "2026-08-19"
 }
