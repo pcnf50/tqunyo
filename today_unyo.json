@@ -2259,6 +2259,17 @@
       "delay": "",
       "updated": "23:55",
       "affiliation": "急"
+    },
+    {
+      "op": "85K",
+      "form": "Y512F",
+      "cars": "8",
+      "no": "085-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "00:25",
+      "affiliation": "み"
     }
   ],
   "meguro": [
@@ -4712,6 +4723,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:20",
+  "lastUpdate": "00:25",
   "date": "2026-08-20"
 }
