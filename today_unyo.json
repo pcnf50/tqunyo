@@ -340,6 +340,61 @@
       "delay": "",
       "updated": "05:30",
       "affiliation": "急"
+    },
+    {
+      "op": "08K",
+      "form": "-",
+      "cars": "8",
+      "no": "008-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:35",
+      "affiliation": "急"
+    },
+    {
+      "op": "96",
+      "form": "-",
+      "cars": "6",
+      "no": "596-052",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:35",
+      "affiliation": "南"
+    },
+    {
+      "op": "28K",
+      "form": "5171F",
+      "cars": "8",
+      "no": "028-052",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "05:35",
+      "affiliation": "急"
+    },
+    {
+      "op": "06K",
+      "form": "5165F",
+      "cars": "8",
+      "no": "006-052",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:35",
+      "affiliation": "急"
+    },
+    {
+      "op": "57K",
+      "form": "4114F",
+      "cars": "10",
+      "no": "057-052",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "6分遅れ",
+      "updated": "05:35",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -683,8 +738,41 @@
       "delay": "",
       "updated": "05:30",
       "affiliation": "副"
+    },
+    {
+      "op": "12",
+      "form": "-",
+      "cars": "8",
+      "no": "012-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:35",
+      "affiliation": "急"
+    },
+    {
+      "op": "51M",
+      "form": "-",
+      "cars": "10",
+      "no": "051-051",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "05:35",
+      "affiliation": "急"
+    },
+    {
+      "op": "57M",
+      "form": "-",
+      "cars": "10",
+      "no": "057-052",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "6分遅れ",
+      "updated": "05:35",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "05:30",
+  "lastUpdate": "05:35",
   "date": "2026-08-21"
 }
