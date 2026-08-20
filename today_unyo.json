@@ -2153,6 +2153,17 @@
       "delay": "",
       "updated": "21:35",
       "affiliation": "急"
+    },
+    {
+      "op": "95G",
+      "form": "-",
+      "cars": "0",
+      "no": "995-211",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "21:50",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -4617,6 +4628,6 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "21:45",
+  "lastUpdate": "21:50",
   "date": "2026-08-20"
 }
