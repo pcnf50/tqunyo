@@ -1611,9 +1611,20 @@
       "no": "779-091",
       "destCode": "元町・中華街",
       "kind": "特",
-      "delay": "",
-      "updated": "09:40",
+      "delay": "1分遅れ",
+      "updated": "09:45",
       "affiliation": "副"
+    },
+    {
+      "op": "17",
+      "form": "-",
+      "cars": "8",
+      "no": "217-092",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:45",
+      "affiliation": "急"
     },
     {
       "op": "70",
@@ -1623,7 +1634,7 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "7分遅れ",
-      "updated": "09:40",
+      "updated": "09:45",
       "affiliation": "南"
     }
   ],
@@ -3363,6 +3374,6 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "09:40",
+  "lastUpdate": "09:45",
   "date": "2026-08-20"
 }
