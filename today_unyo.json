@@ -1898,7 +1898,7 @@
       "destCode": "副都心線直通",
       "kind": "回",
       "delay": "",
-      "updated": "15:45",
+      "updated": "15:50",
       "affiliation": "急"
     }
   ],
@@ -3975,7 +3975,7 @@
       "destCode": "新横浜",
       "kind": "急",
       "delay": "",
-      "updated": "15:45",
+      "updated": "15:50",
       "affiliation": "南"
     },
     {
@@ -3986,10 +3986,10 @@
       "destCode": "副都心線直通",
       "kind": "回",
       "delay": "",
-      "updated": "15:45",
+      "updated": "15:50",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "15:45",
+  "lastUpdate": "15:50",
   "date": "2026-08-20"
 }
