@@ -1856,6 +1856,17 @@
       "delay": "",
       "updated": "12:55",
       "affiliation": "東"
+    },
+    {
+      "op": "86",
+      "form": "-",
+      "cars": "6",
+      "no": "586-142",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "14:35",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -3902,6 +3913,6 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "14:30",
+  "lastUpdate": "14:35",
   "date": "2026-08-20"
 }
