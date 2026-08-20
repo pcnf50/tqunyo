@@ -3372,8 +3372,19 @@
       "delay": "3分遅れ",
       "updated": "09:35",
       "affiliation": ""
+    },
+    {
+      "op": "17K",
+      "form": "3104F",
+      "cars": "8",
+      "no": "217-092",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:50",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "09:45",
+  "lastUpdate": "09:50",
   "date": "2026-08-20"
 }
