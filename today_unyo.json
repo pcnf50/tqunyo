@@ -1431,15 +1431,13 @@
       "affiliation": "急"
     },
     {
-      "op": "28K",
+      "op": "22",
       "form": "-",
-      "cars": "0",
-      "no": "028-052",
-      "destCode": "渋谷",
-      "kind": "回",
-      "delay": "",
-      "updated": "05:20",
-      "affiliation": ""
+      "cars": "10",
+      "no": "122-071",
+      "destCode": "元町・中華街",
+      "kind": "急行",
+      "delay": ""
     },
     {
       "op": "99",
@@ -2344,6 +2342,6 @@
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "07:25",
+  "lastUpdate": "07:26",
   "date": "2026-08-21"
 }
