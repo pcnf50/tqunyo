@@ -1823,6 +1823,17 @@
       "delay": "1分遅れ",
       "updated": "12:35",
       "affiliation": "都"
+    },
+    {
+      "op": "80K",
+      "form": "-",
+      "cars": "0",
+      "no": "080-121",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "12:40",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -3792,6 +3803,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "12:35",
+  "lastUpdate": "12:40",
   "date": "2026-08-20"
 }
