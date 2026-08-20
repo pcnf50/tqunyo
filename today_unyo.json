@@ -2131,17 +2131,6 @@
       "delay": "",
       "updated": "20:20",
       "affiliation": "副"
-    },
-    {
-      "op": "30K",
-      "form": "-",
-      "cars": "8",
-      "no": "030-192",
-      "destCode": "副都心線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "20:35",
-      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4580,10 +4569,10 @@
       "destCode": "副都心線直通",
       "kind": "通",
       "delay": "",
-      "updated": "20:35",
+      "updated": "20:40",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "20:35",
+  "lastUpdate": "20:40",
   "date": "2026-08-20"
 }
