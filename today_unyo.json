@@ -3328,8 +3328,19 @@
       "delay": "7分遅れ",
       "updated": "09:30",
       "affiliation": "南"
+    },
+    {
+      "op": "38K",
+      "form": "-",
+      "cars": "0",
+      "no": "238-091",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "09:35",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "09:30",
+  "lastUpdate": "09:35",
   "date": "2026-08-20"
 }
