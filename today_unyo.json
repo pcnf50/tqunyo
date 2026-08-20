@@ -296,6 +296,39 @@
       "delay": "",
       "updated": "05:20",
       "affiliation": "急"
+    },
+    {
+      "op": "04S",
+      "form": "17191F",
+      "cars": "8",
+      "no": "704-051",
+      "destCode": "横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25",
+      "affiliation": "副"
+    },
+    {
+      "op": "11K",
+      "form": "5118F",
+      "cars": "8",
+      "no": "011-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25",
+      "affiliation": "急"
+    },
+    {
+      "op": "38",
+      "form": "-",
+      "cars": "8",
+      "no": "238-051",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -562,8 +595,30 @@
       "delay": "",
       "updated": "05:20",
       "affiliation": "急"
+    },
+    {
+      "op": "07K",
+      "form": "3110F",
+      "cars": "8",
+      "no": "207-051",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25",
+      "affiliation": "急"
+    },
+    {
+      "op": "99",
+      "form": "3102F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "05:25",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "05:20",
+  "lastUpdate": "05:25",
   "date": "2026-08-21"
 }
