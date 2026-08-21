@@ -3977,8 +3977,19 @@
       "delay": "",
       "updated": "12:35",
       "affiliation": "急"
+    },
+    {
+      "op": "75T",
+      "form": "-",
+      "cars": "0",
+      "no": "475-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:05",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "13:04",
+  "lastUpdate": "13:05",
   "date": "2026-08-21"
 }
