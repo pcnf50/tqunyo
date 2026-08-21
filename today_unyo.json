@@ -1706,15 +1706,15 @@
       "affiliation": "都"
     },
     {
-      "op": "21K",
+      "op": "70",
       "form": "-",
-      "cars": "8",
-      "no": "021-091",
-      "destCode": "元町・中華街",
+      "cars": "6",
+      "no": "370-091",
+      "destCode": "新横浜",
       "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "09:30",
-      "affiliation": "急"
+      "delay": "",
+      "updated": "09:35",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -3480,10 +3480,10 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "5分遅れ",
-      "updated": "09:30",
+      "updated": "09:35",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "09:30",
+  "lastUpdate": "09:35",
   "date": "2026-08-21"
 }
