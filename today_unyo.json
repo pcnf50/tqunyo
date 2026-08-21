@@ -1091,7 +1091,7 @@
     },
     {
       "op": "99",
-      "form": "Y513F",
+      "form": "5122F",
       "cars": "8",
       "no": "999-990",
       "destCode": "",
@@ -4943,6 +4943,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:40",
+  "lastUpdate": "00:44",
   "date": "2026-08-22"
 }
