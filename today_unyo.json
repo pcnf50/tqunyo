@@ -2109,7 +2109,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "1分遅れ",
-      "updated": "18:30",
+      "updated": "18:35",
       "affiliation": "南"
     },
     {
@@ -2119,20 +2119,9 @@
       "no": "210-182",
       "destCode": "南北線直通",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "18:30",
+      "delay": "",
+      "updated": "18:35",
       "affiliation": "急"
-    },
-    {
-      "op": "67S",
-      "form": "-",
-      "cars": "0",
-      "no": "767-181",
-      "destCode": "元町・中華街",
-      "kind": "通",
-      "delay": "1分遅れ",
-      "updated": "18:30",
-      "affiliation": ""
     }
   ],
   "meguro": [
@@ -4470,7 +4459,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "18:30",
+      "updated": "18:35",
       "affiliation": "副"
     },
     {
@@ -4481,7 +4470,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "18:30",
+      "updated": "18:35",
       "affiliation": "南"
     },
     {
@@ -4491,11 +4480,11 @@
       "no": "210-182",
       "destCode": "南北線直通",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "18:30",
+      "delay": "",
+      "updated": "18:35",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "18:30",
+  "lastUpdate": "18:35",
   "date": "2026-08-21"
 }
