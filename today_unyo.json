@@ -1143,15 +1143,13 @@
       "affiliation": "急"
     },
     {
-      "op": "20K",
-      "form": "3106F",
-      "cars": "8",
-      "no": "220-052",
-      "destCode": "南北線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "05:05",
-      "affiliation": "急"
+      "op": "10",
+      "form": "-",
+      "cars": "10",
+      "no": "110-071",
+      "destCode": "元町・中華街",
+      "kind": "特急",
+      "delay": ""
     },
     {
       "op": "99",
