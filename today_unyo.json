@@ -3757,8 +3757,30 @@
       "delay": "",
       "updated": "11:15",
       "affiliation": "都"
+    },
+    {
+      "op": "80M",
+      "form": "-",
+      "cars": "0",
+      "no": "580-111",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:20",
+      "affiliation": ""
+    },
+    {
+      "op": "20",
+      "form": "-",
+      "cars": "10",
+      "no": "120-111",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "11:20",
+      "affiliation": "西"
     }
   ],
-  "lastUpdate": "11:15",
+  "lastUpdate": "11:20",
   "date": "2026-08-21"
 }
