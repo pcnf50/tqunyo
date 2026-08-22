@@ -1873,8 +1873,8 @@
       "no": "175-192",
       "destCode": "副都心線直通",
       "kind": "Ｓ",
-      "delay": "14分遅れ",
-      "updated": "20:20",
+      "delay": "15分遅れ",
+      "updated": "20:25",
       "affiliation": "西"
     }
   ],
@@ -3803,6 +3803,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "20:20",
+  "lastUpdate": "20:25",
   "date": "2026-08-22"
 }
