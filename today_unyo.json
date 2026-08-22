@@ -2061,6 +2061,17 @@
       "delay": "",
       "updated": "23:35",
       "affiliation": "急"
+    },
+    {
+      "op": "99G",
+      "form": "5165F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "00:30",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4142,6 +4153,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "00:25",
+  "lastUpdate": "00:30",
   "date": "2026-08-23"
 }
