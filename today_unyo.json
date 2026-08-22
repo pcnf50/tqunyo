@@ -1086,15 +1086,13 @@
       "affiliation": "南"
     },
     {
-      "op": "57",
-      "form": "-",
-      "cars": "6",
-      "no": "457-071",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "08:05",
-      "affiliation": "都"
+      "op": "99",
+      "form": "5164F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
     },
     {
       "op": "16K",
@@ -4144,6 +4142,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "00:15",
+  "lastUpdate": "00:18",
   "date": "2026-08-23"
 }
