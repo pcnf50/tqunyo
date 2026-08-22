@@ -1095,8 +1095,19 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "08:20",
+      "updated": "08:25",
       "affiliation": "急"
+    },
+    {
+      "op": "43S",
+      "form": "10131F",
+      "cars": "10",
+      "no": "743-081",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "08:25",
+      "affiliation": "副"
     },
     {
       "op": "64",
@@ -1105,8 +1116,8 @@
       "no": "364-071",
       "destCode": "新横浜",
       "kind": "普",
-      "delay": "4分遅れ",
-      "updated": "08:20",
+      "delay": "3分遅れ",
+      "updated": "08:25",
       "affiliation": "南"
     }
   ],
@@ -2172,8 +2183,8 @@
       "no": "635-072",
       "destCode": "三田線直通",
       "kind": "普",
-      "delay": "5分遅れ",
-      "updated": "08:20",
+      "delay": "6分遅れ",
+      "updated": "08:25",
       "affiliation": "急"
     },
     {
@@ -2184,7 +2195,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "08:20",
+      "updated": "08:25",
       "affiliation": "急"
     },
     {
@@ -2195,7 +2206,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "08:20",
+      "updated": "08:25",
       "affiliation": "相"
     },
     {
@@ -2206,7 +2217,7 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "08:20",
+      "updated": "08:25",
       "affiliation": "副"
     },
     {
@@ -2216,11 +2227,22 @@
       "no": "457-071",
       "destCode": "奥沢",
       "kind": "普",
-      "delay": "26分遅れ",
-      "updated": "08:20",
+      "delay": "28分遅れ",
+      "updated": "08:25",
       "affiliation": "都"
+    },
+    {
+      "op": "22K",
+      "form": "3101F",
+      "cars": "8",
+      "no": "222-072",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "08:25",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "08:20",
+  "lastUpdate": "08:25",
   "date": "2026-08-23"
 }
