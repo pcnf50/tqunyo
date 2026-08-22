@@ -2637,15 +2637,13 @@
       "affiliation": "南"
     },
     {
-      "op": "08K",
-      "form": "5188F",
-      "cars": "8",
-      "no": "208-072",
-      "destCode": "目黒",
-      "kind": "回",
-      "delay": "",
-      "updated": "07:15",
-      "affiliation": "急"
+      "op": "74",
+      "form": "-",
+      "cars": "10",
+      "no": "174-181",
+      "destCode": "元町・中華街",
+      "kind": "各駅停車",
+      "delay": "7分遅れ"
     },
     {
       "op": "92",
