@@ -907,8 +907,8 @@
       "no": "018-072",
       "destCode": "副都心線直通",
       "kind": "普",
-      "delay": "",
-      "updated": "07:30",
+      "delay": "1分遅れ",
+      "updated": "07:35",
       "affiliation": "み"
     },
     {
@@ -919,7 +919,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "07:30",
+      "updated": "07:35",
       "affiliation": "西"
     }
   ],
@@ -1798,8 +1798,8 @@
       "no": "018-072",
       "destCode": "副都心線直通",
       "kind": "普",
-      "delay": "",
-      "updated": "07:30",
+      "delay": "1分遅れ",
+      "updated": "07:35",
       "affiliation": "み"
     },
     {
@@ -1810,10 +1810,10 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:30",
+      "updated": "07:35",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "07:30",
+  "lastUpdate": "07:35",
   "date": "2026-08-23"
 }
