@@ -866,6 +866,28 @@
       "delay": "",
       "updated": "07:15",
       "affiliation": "相"
+    },
+    {
+      "op": "05T",
+      "form": "9102F",
+      "cars": "10",
+      "no": "805-071",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "07:20",
+      "affiliation": "東"
+    },
+    {
+      "op": "51K",
+      "form": "4112F",
+      "cars": "10",
+      "no": "051-071",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:20",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -1715,6 +1737,6 @@
       "affiliation": "西"
     }
   ],
-  "lastUpdate": "07:19",
+  "lastUpdate": "07:20",
   "date": "2026-08-23"
 }
