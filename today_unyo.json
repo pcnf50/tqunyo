@@ -1990,15 +1990,13 @@
       "affiliation": "都"
     },
     {
-      "op": "12",
+      "op": "28",
       "form": "-",
-      "cars": "8",
-      "no": "012-052",
+      "cars": "10",
+      "no": "128-162",
       "destCode": "副都心線直通",
-      "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "05:40",
-      "affiliation": "急"
+      "kind": "特急",
+      "delay": ""
     },
     {
       "op": "04",
@@ -3420,6 +3418,6 @@
       "affiliation": "み"
     }
   ],
-  "lastUpdate": "17:10",
+  "lastUpdate": "17:12",
   "date": "2026-08-22"
 }
