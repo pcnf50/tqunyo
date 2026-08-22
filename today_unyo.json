@@ -2903,6 +2903,17 @@
       "affiliation": ""
     },
     {
+      "op": "84M",
+      "form": "-",
+      "cars": "0",
+      "no": "584-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:50",
+      "affiliation": ""
+    },
+    {
       "op": "67",
       "form": "-",
       "cars": "10",
@@ -2910,10 +2921,10 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "10:45",
+      "updated": "10:50",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "10:45",
+  "lastUpdate": "10:50",
   "date": "2026-08-22"
 }
