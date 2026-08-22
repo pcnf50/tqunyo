@@ -2560,8 +2560,30 @@
       "delay": "",
       "updated": "09:05",
       "affiliation": "急"
+    },
+    {
+      "op": "63T",
+      "form": "6513F",
+      "cars": "8",
+      "no": "463-091",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:10",
+      "affiliation": "都"
+    },
+    {
+      "op": "25T",
+      "form": "6318F",
+      "cars": "6",
+      "no": "425-092",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:10",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:05",
+  "lastUpdate": "09:10",
   "date": "2026-08-22"
 }
