@@ -747,6 +747,17 @@
       "affiliation": "副"
     },
     {
+      "op": "33S",
+      "form": "10120F",
+      "cars": "10",
+      "no": "733-061",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "06:55",
+      "affiliation": "副"
+    },
+    {
       "op": "91S",
       "form": "10135F",
       "cars": "10",
@@ -754,8 +765,41 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "06:50",
+      "updated": "06:55",
       "affiliation": "副"
+    },
+    {
+      "op": "25",
+      "form": "5118F",
+      "cars": "8",
+      "no": "225-062",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "71M",
+      "form": "-",
+      "cars": "0",
+      "no": "171-071",
+      "destCode": "元町・中華街",
+      "kind": "回",
+      "delay": "",
+      "updated": "06:55",
+      "affiliation": ""
+    },
+    {
+      "op": "39",
+      "form": "-",
+      "cars": "6",
+      "no": "439-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "37分遅れ",
+      "updated": "06:55",
+      "affiliation": "都"
     }
   ],
   "meguro": [
@@ -1420,15 +1464,15 @@
       "affiliation": "都"
     },
     {
-      "op": "91",
-      "form": "-",
-      "cars": "10",
-      "no": "791-062",
-      "destCode": "渋谷",
-      "kind": "回",
-      "delay": "",
-      "updated": "06:50",
-      "affiliation": "副"
+      "op": "43T",
+      "form": "6513F",
+      "cars": "8",
+      "no": "443-061",
+      "destCode": "奥沢",
+      "kind": "普",
+      "delay": "23分遅れ",
+      "updated": "06:55",
+      "affiliation": "都"
     },
     {
       "op": "31",
@@ -1438,8 +1482,19 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "06:50",
+      "updated": "06:55",
       "affiliation": "副"
+    },
+    {
+      "op": "25K",
+      "form": "5188F",
+      "cars": "8",
+      "no": "225-062",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:55",
+      "affiliation": "急"
     },
     {
       "op": "01",
@@ -1449,7 +1504,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "06:50",
+      "updated": "06:55",
       "affiliation": "副"
     },
     {
@@ -1460,7 +1515,7 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "06:50",
+      "updated": "06:55",
       "affiliation": "副"
     },
     {
@@ -1471,10 +1526,10 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "06:50",
+      "updated": "06:55",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "06:54",
+  "lastUpdate": "06:55",
   "date": "2026-08-23"
 }
