@@ -3394,19 +3394,8 @@
       "delay": "",
       "updated": "13:55",
       "affiliation": "南"
-    },
-    {
-      "op": "44S",
-      "form": "-",
-      "cars": "0",
-      "no": "344-151",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "15:20",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "15:20",
+  "lastUpdate": "15:25",
   "date": "2026-08-23"
 }
