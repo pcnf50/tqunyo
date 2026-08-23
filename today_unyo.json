@@ -1559,6 +1559,17 @@
       "delay": "",
       "updated": "12:55",
       "affiliation": "都"
+    },
+    {
+      "op": "57",
+      "form": "-",
+      "cars": "6",
+      "no": "457-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:00",
+      "affiliation": "都"
     }
   ],
   "meguro": [
@@ -3306,8 +3317,19 @@
       "delay": "",
       "updated": "12:55",
       "affiliation": ""
+    },
+    {
+      "op": "82K",
+      "form": "3123F",
+      "cars": "8",
+      "no": "282-122",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "13:00",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "12:55",
+  "lastUpdate": "13:00",
   "date": "2026-08-23"
 }
