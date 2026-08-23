@@ -1343,15 +1343,13 @@
       "affiliation": "急"
     },
     {
-      "op": "34K",
-      "form": "3112F",
-      "cars": "8",
-      "no": "234-052",
-      "destCode": "南北線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "05:05",
-      "affiliation": "急"
+      "op": "10",
+      "form": "-",
+      "cars": "10",
+      "no": "110-071",
+      "destCode": "元町・中華街",
+      "kind": "急行",
+      "delay": "4分遅れ"
     },
     {
       "op": "99",
@@ -1431,15 +1429,13 @@
       "affiliation": "急"
     },
     {
-      "op": "38S",
-      "form": "9112F",
-      "cars": "8",
-      "no": "338-051",
-      "destCode": "新横浜",
-      "kind": "普",
-      "delay": "",
-      "updated": "05:15",
-      "affiliation": "南"
+      "op": "18",
+      "form": "-",
+      "cars": "10",
+      "no": "118-072",
+      "destCode": "副都心線直通",
+      "kind": "通勤特急",
+      "delay": "1分遅れ"
     },
     {
       "op": "13",
@@ -2509,6 +2505,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "07:50",
+  "lastUpdate": "07:54",
   "date": "2026-08-24"
 }
