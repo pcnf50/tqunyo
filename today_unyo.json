@@ -1479,8 +1479,8 @@
       "no": "584-101",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "11:10",
+      "delay": "4分遅れ",
+      "updated": "11:15",
       "affiliation": "南"
     }
   ],
@@ -3080,27 +3080,16 @@
     },
     {
       "op": "39T",
-      "form": "-",
-      "cars": "0",
+      "form": "6513F",
+      "cars": "8",
       "no": "439-111",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "5分遅れ",
-      "updated": "11:10",
-      "affiliation": ""
-    },
-    {
-      "op": "61",
-      "form": "-",
-      "cars": "10",
-      "no": "761-101",
-      "destCode": "元町・中華街",
-      "kind": "特",
-      "delay": "",
-      "updated": "11:10",
-      "affiliation": "東"
+      "delay": "6分遅れ",
+      "updated": "11:15",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "11:10",
+  "lastUpdate": "11:15",
   "date": "2026-08-23"
 }
