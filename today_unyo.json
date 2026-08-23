@@ -3898,8 +3898,19 @@
       "delay": "1分遅れ",
       "updated": "20:45",
       "affiliation": "南"
+    },
+    {
+      "op": "29K",
+      "form": "3108F",
+      "cars": "8",
+      "no": "229-202",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:50",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "20:45",
+  "lastUpdate": "20:50",
   "date": "2026-08-23"
 }
