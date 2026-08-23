@@ -2659,15 +2659,13 @@
       "affiliation": "急"
     },
     {
-      "op": "92",
+      "op": "75",
       "form": "-",
       "cars": "10",
-      "no": "992-072",
+      "no": "175-192",
       "destCode": "副都心線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "07:15",
-      "affiliation": "相"
+      "kind": "各駅停車",
+      "delay": ""
     },
     {
       "op": "71",
@@ -3869,6 +3867,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "20:15",
+  "lastUpdate": "20:19",
   "date": "2026-08-23"
 }
