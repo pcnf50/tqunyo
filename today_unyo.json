@@ -3000,8 +3000,30 @@
       "delay": "",
       "updated": "10:45",
       "affiliation": "副"
+    },
+    {
+      "op": "31K",
+      "form": "5181F",
+      "cars": "8",
+      "no": "231-102",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "10:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "31T",
+      "form": "6330F",
+      "cars": "6",
+      "no": "431-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "7分遅れ",
+      "updated": "10:50",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "10:45",
+  "lastUpdate": "10:50",
   "date": "2026-08-23"
 }
