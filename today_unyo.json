@@ -1308,17 +1308,6 @@
       "affiliation": "相"
     },
     {
-      "op": "49",
-      "form": "-",
-      "cars": "8",
-      "no": "449-081",
-      "destCode": "武蔵小杉",
-      "kind": "普",
-      "delay": "15分遅れ",
-      "updated": "09:30",
-      "affiliation": "都"
-    },
-    {
       "op": "53S",
       "form": "10104F",
       "cars": "10",
@@ -1326,7 +1315,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "09:30",
+      "updated": "09:35",
       "affiliation": "副"
     }
   ],
@@ -2694,17 +2683,6 @@
       "affiliation": ""
     },
     {
-      "op": "25K",
-      "form": "-",
-      "cars": "0",
-      "no": "225-091",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "09:30",
-      "affiliation": ""
-    },
-    {
       "op": "63T",
       "form": "6503F",
       "cars": "8",
@@ -2712,10 +2690,10 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "10分遅れ",
-      "updated": "09:30",
+      "updated": "09:35",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:30",
+  "lastUpdate": "09:35",
   "date": "2026-08-23"
 }
