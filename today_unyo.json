@@ -2188,15 +2188,13 @@
       "affiliation": "急"
     },
     {
-      "op": "99",
-      "form": "3105F",
-      "cars": "8",
-      "no": "999-000",
-      "destCode": "",
-      "kind": "各駅停車",
-      "delay": "",
-      "updated": "05:25",
-      "affiliation": "急"
+      "op": "24",
+      "form": "-",
+      "cars": "10",
+      "no": "124-222",
+      "destCode": "副都心線直通",
+      "kind": "急行",
+      "delay": "1分遅れ"
     },
     {
       "op": "37T",
@@ -4120,6 +4118,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:55",
+  "lastUpdate": "22:58",
   "date": "2026-08-23"
 }
