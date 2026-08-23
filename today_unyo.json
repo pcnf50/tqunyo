@@ -1682,6 +1682,17 @@
       "affiliation": "急"
     },
     {
+      "op": "87S",
+      "form": "10112F",
+      "cars": "10",
+      "no": "787-171",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:45",
+      "affiliation": "副"
+    },
+    {
       "op": "85S",
       "form": "10118F",
       "cars": "10",
@@ -1689,19 +1700,8 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "17:40",
+      "updated": "17:45",
       "affiliation": "副"
-    },
-    {
-      "op": "64K",
-      "form": "4106F",
-      "cars": "10",
-      "no": "064-171",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "17:40",
-      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3561,17 +3561,17 @@
       "affiliation": "急"
     },
     {
-      "op": "64G",
+      "op": "95K",
       "form": "-",
-      "cars": "10",
-      "no": "064-171",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "17:40",
-      "affiliation": "急"
+      "cars": "0",
+      "no": "295-171",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "2分遅れ",
+      "updated": "17:45",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "17:40",
+  "lastUpdate": "17:45",
   "date": "2026-08-23"
 }
