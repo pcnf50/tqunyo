@@ -1304,7 +1304,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "09:20",
+      "updated": "09:25",
       "affiliation": "相"
     }
   ],
@@ -2635,7 +2635,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "09:20",
+      "updated": "09:25",
       "affiliation": "相"
     },
     {
@@ -2645,11 +2645,33 @@
       "no": "231-081",
       "destCode": "元住吉",
       "kind": "普",
-      "delay": "20分遅れ",
-      "updated": "09:20",
+      "delay": "23分遅れ",
+      "updated": "09:25",
       "affiliation": "急"
+    },
+    {
+      "op": "1",
+      "form": "-",
+      "cars": "8",
+      "no": "001-091",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:25",
+      "affiliation": "急"
+    },
+    {
+      "op": "63T",
+      "form": "-",
+      "cars": "0",
+      "no": "463-091",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "15分遅れ",
+      "updated": "09:25",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "09:20",
+  "lastUpdate": "09:25",
   "date": "2026-08-23"
 }
