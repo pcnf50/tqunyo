@@ -1891,15 +1891,15 @@
       "affiliation": "急"
     },
     {
-      "op": "03T",
-      "form": "-",
-      "cars": "0",
-      "no": "803-171",
-      "destCode": "元町・中華街",
-      "kind": "通",
-      "delay": "",
-      "updated": "17:00",
-      "affiliation": ""
+      "op": "31K",
+      "form": "Y511F",
+      "cars": "8",
+      "no": "031-162",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "5分遅れ",
+      "updated": "17:05",
+      "affiliation": "み"
     }
   ],
   "meguro": [
@@ -3955,8 +3955,19 @@
       "delay": "",
       "updated": "16:55",
       "affiliation": ""
+    },
+    {
+      "op": "31S",
+      "form": "-",
+      "cars": "8",
+      "no": "031-162",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "5分遅れ",
+      "updated": "17:05",
+      "affiliation": "み"
     }
   ],
-  "lastUpdate": "17:00",
+  "lastUpdate": "17:05",
   "date": "2026-08-24"
 }
