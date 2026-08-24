@@ -4408,6 +4408,17 @@
       "affiliation": ""
     },
     {
+      "op": "77",
+      "form": "-",
+      "cars": "10",
+      "no": "777-191",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "1分遅れ",
+      "updated": "19:45",
+      "affiliation": "副"
+    },
+    {
       "op": "52S",
       "form": "9102F",
       "cars": "6",
@@ -4415,10 +4426,10 @@
       "destCode": "新横浜",
       "kind": "急",
       "delay": "",
-      "updated": "19:40",
+      "updated": "19:45",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "19:44",
+  "lastUpdate": "19:45",
   "date": "2026-08-24"
 }
