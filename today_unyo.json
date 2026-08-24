@@ -2140,7 +2140,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "22:00",
+      "updated": "22:05",
       "affiliation": "東"
     }
   ],
@@ -4591,10 +4591,21 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "22:00",
+      "updated": "22:05",
       "affiliation": "急"
+    },
+    {
+      "op": "68S",
+      "form": "9123F",
+      "cars": "6",
+      "no": "368-221",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:05",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "22:00",
+  "lastUpdate": "22:05",
   "date": "2026-08-24"
 }
