@@ -3867,8 +3867,30 @@
       "delay": "",
       "updated": "15:45",
       "affiliation": "急"
+    },
+    {
+      "op": "14",
+      "form": "-",
+      "cars": "10",
+      "no": "114-151",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "15:50",
+      "affiliation": "西"
+    },
+    {
+      "op": "01K",
+      "form": "3122F",
+      "cars": "8",
+      "no": "201-152",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "15:50",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "15:45",
+  "lastUpdate": "15:50",
   "date": "2026-08-24"
 }
