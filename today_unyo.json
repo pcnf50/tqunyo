@@ -1999,17 +1999,6 @@
       "delay": "",
       "updated": "18:35",
       "affiliation": "急"
-    },
-    {
-      "op": "19K",
-      "form": "4113F",
-      "cars": "10",
-      "no": "019-181",
-      "destCode": "元住吉",
-      "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "18:40",
-      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4232,6 +4221,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "18:40",
+  "lastUpdate": "18:45",
   "date": "2026-08-24"
 }
