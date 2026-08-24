@@ -4430,6 +4430,17 @@
       "affiliation": "南"
     },
     {
+      "op": "94M",
+      "form": "9105F",
+      "cars": "6",
+      "no": "594-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:55",
+      "affiliation": "南"
+    },
+    {
       "op": "32G",
       "form": "21108F",
       "cars": "8",
@@ -4437,10 +4448,10 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "19:50",
+      "updated": "19:55",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "19:50",
+  "lastUpdate": "19:55",
   "date": "2026-08-24"
 }
