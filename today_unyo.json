@@ -2206,6 +2206,17 @@
       "delay": "",
       "updated": "23:50",
       "affiliation": "み"
+    },
+    {
+      "op": "44K",
+      "form": "17193F",
+      "cars": "8",
+      "no": "044-242",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "00:40",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -4723,8 +4734,19 @@
       "delay": "",
       "updated": "00:35",
       "affiliation": "急"
+    },
+    {
+      "op": "38K",
+      "form": "-",
+      "cars": "0",
+      "no": "238-241",
+      "destCode": "武蔵小山",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "00:40",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "00:35",
+  "lastUpdate": "00:40",
   "date": "2026-08-25"
 }
