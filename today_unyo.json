@@ -1964,7 +1964,7 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "18:00",
+      "updated": "18:05",
       "affiliation": "急"
     }
   ],
@@ -2279,10 +2279,10 @@
       "op": "28",
       "form": "-",
       "cars": "10",
-      "no": "128-171",
+      "no": "128-081",
       "destCode": "元町・中華街",
-      "kind": "通勤特急",
-      "delay": "3分遅れ"
+      "kind": "急行",
+      "delay": ""
     },
     {
       "op": "12",
@@ -4118,10 +4118,10 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "",
-      "updated": "18:00",
+      "updated": "18:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "18:01",
+  "lastUpdate": "18:05",
   "date": "2026-08-24"
 }
