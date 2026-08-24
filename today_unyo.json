@@ -1297,6 +1297,28 @@
       "affiliation": "南"
     },
     {
+      "op": "28M",
+      "form": "6110F",
+      "cars": "10",
+      "no": "128-081",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "西"
+    },
+    {
+      "op": "01K",
+      "form": "5157F",
+      "cars": "8",
+      "no": "001-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "急"
+    },
+    {
       "op": "25S",
       "form": "10113F",
       "cars": "10",
@@ -1304,8 +1326,30 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "08:00",
+      "updated": "08:05",
       "affiliation": "副"
+    },
+    {
+      "op": "44",
+      "form": "-",
+      "cars": "8",
+      "no": "644-072",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "相"
+    },
+    {
+      "op": "59",
+      "form": "-",
+      "cars": "6",
+      "no": "459-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "08:05",
+      "affiliation": "都"
     }
   ],
   "meguro": [
@@ -2637,8 +2681,41 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "08:00",
+      "updated": "08:05",
       "affiliation": "南"
+    },
+    {
+      "op": "42S",
+      "form": "9122F",
+      "cars": "6",
+      "no": "342-081",
+      "destCode": "日吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "南"
+    },
+    {
+      "op": "27K",
+      "form": "5189F",
+      "cars": "8",
+      "no": "227-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "44G",
+      "form": "21103F",
+      "cars": "8",
+      "no": "644-072",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "相"
     },
     {
       "op": "19",
@@ -2648,10 +2725,10 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "08:00",
+      "updated": "08:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "08:00",
+  "lastUpdate": "08:05",
   "date": "2026-08-25"
 }
