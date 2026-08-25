@@ -4234,8 +4234,19 @@
       "delay": "",
       "updated": "18:15",
       "affiliation": "相"
+    },
+    {
+      "op": "40S",
+      "form": "9113F",
+      "cars": "6",
+      "no": "340-181",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:20",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "18:19",
+  "lastUpdate": "18:20",
   "date": "2026-08-25"
 }
