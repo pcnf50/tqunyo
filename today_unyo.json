@@ -2388,15 +2388,13 @@
       "affiliation": "急"
     },
     {
-      "op": "41K",
-      "form": "3113F",
-      "cars": "8",
-      "no": "241-052",
-      "destCode": "目黒",
-      "kind": "回",
-      "delay": "",
-      "updated": "05:35",
-      "affiliation": "急"
+      "op": "28",
+      "form": "-",
+      "cars": "10",
+      "no": "128-182",
+      "destCode": "副都心線直通",
+      "kind": "通勤特急",
+      "delay": ""
     },
     {
       "op": "51M",
