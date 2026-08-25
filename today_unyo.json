@@ -2,15 +2,15 @@
   "toyoko": {
     "99": {
       "op": "99",
-      "form": "5154F",
+      "form": "-",
       "cars": "8",
-      "no": "999-990",
+      "no": "999-000",
       "destCode": "",
       "kind": "不明",
       "delay": ""
     }
   },
   "meguro": {},
-  "lastUpdate": "04:02",
+  "lastUpdate": "04:41",
   "date": "2026-08-26"
 }
