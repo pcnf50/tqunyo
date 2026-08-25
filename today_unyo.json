@@ -1592,6 +1592,17 @@
       "delay": "1分遅れ",
       "updated": "09:15",
       "affiliation": "南"
+    },
+    {
+      "op": "85",
+      "form": "-",
+      "cars": "6",
+      "no": "485-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:20",
+      "affiliation": "都"
     }
   ],
   "meguro": [
@@ -3257,6 +3268,6 @@
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:15",
+  "lastUpdate": "09:20",
   "date": "2026-08-25"
 }
