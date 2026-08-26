@@ -3695,8 +3695,19 @@
       "delay": "",
       "updated": "11:35",
       "affiliation": "急"
+    },
+    {
+      "op": "91K",
+      "form": "-",
+      "cars": "0",
+      "no": "291-111",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "11:40",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "11:35",
+  "lastUpdate": "11:40",
   "date": "2026-08-26"
 }
