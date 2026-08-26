@@ -2186,6 +2186,28 @@
       "delay": "3分遅れ",
       "updated": "21:15",
       "affiliation": "急"
+    },
+    {
+      "op": "23K",
+      "form": "-",
+      "cars": "8",
+      "no": "023-202",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "21:30",
+      "affiliation": "急"
+    },
+    {
+      "op": "33S",
+      "form": "-",
+      "cars": "0",
+      "no": "733-211",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "1分遅れ",
+      "updated": "21:30",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -4654,6 +4676,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "21:25",
+  "lastUpdate": "21:30",
   "date": "2026-08-26"
 }
