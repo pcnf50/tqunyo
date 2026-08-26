@@ -1303,8 +1303,8 @@
       "no": "725-071",
       "destCode": "元町・中華街",
       "kind": "通",
-      "delay": "8分遅れ",
-      "updated": "08:10",
+      "delay": "6分遅れ",
+      "updated": "08:15",
       "affiliation": "副"
     },
     {
@@ -1315,8 +1315,30 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "08:10",
+      "updated": "08:15",
       "affiliation": "南"
+    },
+    {
+      "op": "01K",
+      "form": "5162F",
+      "cars": "8",
+      "no": "001-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "12分遅れ",
+      "updated": "08:15",
+      "affiliation": "急"
+    },
+    {
+      "op": "93G",
+      "form": "20103F",
+      "cars": "10",
+      "no": "993-082",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "08:15",
+      "affiliation": "相"
     },
     {
       "op": "17K",
@@ -1326,8 +1348,19 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "10分遅れ",
-      "updated": "08:10",
+      "updated": "08:15",
       "affiliation": "み"
+    },
+    {
+      "op": "18K",
+      "form": "5174F",
+      "cars": "8",
+      "no": "018-071",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "19分遅れ",
+      "updated": "08:15",
+      "affiliation": "急"
     },
     {
       "op": "44",
@@ -1336,8 +1369,8 @@
       "no": "644-072",
       "destCode": "南北線直通",
       "kind": "急",
-      "delay": "5分遅れ",
-      "updated": "08:10",
+      "delay": "6分遅れ",
+      "updated": "08:15",
       "affiliation": "相"
     }
   ],
@@ -2703,8 +2736,30 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "08:10",
+      "updated": "08:15",
       "affiliation": "都"
+    },
+    {
+      "op": "07K",
+      "form": "-",
+      "cars": "0",
+      "no": "207-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:15",
+      "affiliation": ""
+    },
+    {
+      "op": "93",
+      "form": "-",
+      "cars": "10",
+      "no": "993-082",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "08:15",
+      "affiliation": "相"
     },
     {
       "op": "44G",
@@ -2713,11 +2768,11 @@
       "no": "644-072",
       "destCode": "南北線直通",
       "kind": "急",
-      "delay": "5分遅れ",
-      "updated": "08:10",
+      "delay": "6分遅れ",
+      "updated": "08:15",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "08:10",
+  "lastUpdate": "08:15",
   "date": "2026-08-27"
 }
