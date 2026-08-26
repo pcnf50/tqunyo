@@ -1812,6 +1812,17 @@
       "delay": "",
       "updated": "11:35",
       "affiliation": "急"
+    },
+    {
+      "op": "91",
+      "form": "-",
+      "cars": "8",
+      "no": "291-111",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "11:45",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3699,15 +3710,15 @@
     {
       "op": "91K",
       "form": "-",
-      "cars": "0",
+      "cars": "8",
       "no": "291-111",
       "destCode": "元住吉",
       "kind": "回",
       "delay": "",
-      "updated": "11:40",
-      "affiliation": ""
+      "updated": "11:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "11:40",
+  "lastUpdate": "11:45",
   "date": "2026-08-26"
 }
