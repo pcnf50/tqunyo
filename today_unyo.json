@@ -4201,8 +4201,19 @@
       "delay": "",
       "updated": "12:35",
       "affiliation": "南"
+    },
+    {
+      "op": "50S",
+      "form": "9103F",
+      "cars": "6",
+      "no": "350-131",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "13:15",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "13:10",
+  "lastUpdate": "13:15",
   "date": "2026-08-27"
 }
