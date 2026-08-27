@@ -4707,8 +4707,19 @@
       "delay": "1分遅れ",
       "updated": "18:05",
       "affiliation": "急"
+    },
+    {
+      "op": "41T",
+      "form": "-",
+      "cars": "0",
+      "no": "441-181",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "18:10",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "18:05",
+  "lastUpdate": "18:10",
   "date": "2026-08-27"
 }
