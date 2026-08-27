@@ -4850,8 +4850,19 @@
       "delay": "",
       "updated": "19:05",
       "affiliation": "急"
+    },
+    {
+      "op": "59T",
+      "form": "-",
+      "cars": "0",
+      "no": "459-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "19:10",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "19:05",
+  "lastUpdate": "19:10",
   "date": "2026-08-27"
 }
