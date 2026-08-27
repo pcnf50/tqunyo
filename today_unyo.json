@@ -2153,6 +2153,17 @@
       "delay": "4分遅れ",
       "updated": "12:15",
       "affiliation": "西"
+    },
+    {
+      "op": "57K",
+      "form": "-",
+      "cars": "0",
+      "no": "057-121",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "12:20",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -4126,6 +4137,6 @@
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "12:15",
+  "lastUpdate": "12:20",
   "date": "2026-08-27"
 }
