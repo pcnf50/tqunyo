@@ -2728,13 +2728,13 @@
     },
     {
       "op": "99G",
-      "form": "17183F",
+      "form": "17193F",
       "cars": "8",
       "no": "999-990",
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "00:30",
+      "updated": "00:35",
       "affiliation": "副"
     }
   ],
@@ -5224,8 +5224,19 @@
       "delay": "",
       "updated": "00:15",
       "affiliation": "急"
+    },
+    {
+      "op": "43K",
+      "form": "3112F",
+      "cars": "8",
+      "no": "243-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "00:35",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:30",
+  "lastUpdate": "00:35",
   "date": "2026-08-28"
 }
