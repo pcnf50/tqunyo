@@ -2274,6 +2274,17 @@
       "delay": "",
       "updated": "14:55",
       "affiliation": "相"
+    },
+    {
+      "op": "61K",
+      "form": "4108F",
+      "cars": "10",
+      "no": "061-151",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "15:20",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4357,6 +4368,6 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "15:15",
+  "lastUpdate": "15:20",
   "date": "2026-08-27"
 }
