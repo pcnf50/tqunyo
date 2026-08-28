@@ -1737,14 +1737,14 @@
       "affiliation": "西"
     },
     {
-      "op": "12K",
-      "form": "-",
+      "op": "42K",
+      "form": "5152F",
       "cars": "8",
-      "no": "012-111",
-      "destCode": "元町・中華街",
-      "kind": "普",
+      "no": "042-111",
+      "destCode": "元住吉",
+      "kind": "回",
       "delay": "",
-      "updated": "11:20",
+      "updated": "11:25",
       "affiliation": "急"
     }
   ],
@@ -3627,11 +3627,11 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "11:20",
+      "updated": "11:25",
       "affiliation": "西"
     }
   ],
-  "lastUpdate": "11:20",
+  "lastUpdate": "11:25",
   "date": "2026-08-28",
   "resetDone": false
 }
