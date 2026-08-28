@@ -4685,9 +4685,20 @@
       "delay": "",
       "updated": "22:45",
       "affiliation": "急"
+    },
+    {
+      "op": "20K",
+      "form": "5189F",
+      "cars": "8",
+      "no": "020-231",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:40",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:35",
+  "lastUpdate": "23:40",
   "date": "2026-08-28",
   "resetDone": false
 }
