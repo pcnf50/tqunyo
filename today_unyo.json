@@ -3805,20 +3805,9 @@
       "delay": "",
       "updated": "21:25",
       "affiliation": "南"
-    },
-    {
-      "op": "14",
-      "form": "-",
-      "cars": "10",
-      "no": "114-211",
-      "destCode": "元町・中華街",
-      "kind": "急",
-      "delay": "",
-      "updated": "21:30",
-      "affiliation": "西"
     }
   ],
-  "lastUpdate": "21:30",
+  "lastUpdate": "21:35",
   "date": "2026-08-29",
   "resetDone": false
 }
