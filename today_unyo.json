@@ -789,8 +789,19 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "07:10",
+      "updated": "07:15",
       "affiliation": "南"
+    },
+    {
+      "op": "92G",
+      "form": "20107F",
+      "cars": "10",
+      "no": "992-072",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:15",
+      "affiliation": "相"
     }
   ],
   "meguro": [
@@ -1587,6 +1598,17 @@
       "affiliation": "急"
     },
     {
+      "op": "71",
+      "form": "-",
+      "cars": "10",
+      "no": "171-071",
+      "destCode": "元町・中華街",
+      "kind": "回",
+      "delay": "",
+      "updated": "07:15",
+      "affiliation": "西"
+    },
+    {
       "op": "36S",
       "form": "9112F",
       "cars": "8",
@@ -1594,19 +1616,19 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "07:10",
+      "updated": "07:15",
       "affiliation": "南"
     },
     {
-      "op": "29",
+      "op": "92",
       "form": "-",
       "cars": "10",
-      "no": "729-062",
+      "no": "992-072",
       "destCode": "副都心線直通",
-      "kind": "特",
+      "kind": "急",
       "delay": "",
-      "updated": "07:10",
-      "affiliation": "副"
+      "updated": "07:15",
+      "affiliation": "相"
     },
     {
       "op": "08K",
@@ -1616,10 +1638,10 @@
       "destCode": "目黒",
       "kind": "回",
       "delay": "",
-      "updated": "07:10",
+      "updated": "07:15",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "07:10",
+  "lastUpdate": "07:15",
   "date": "2026-08-30"
 }
