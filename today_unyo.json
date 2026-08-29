@@ -547,7 +547,7 @@
       "destCode": "渋谷",
       "kind": "急",
       "delay": "",
-      "updated": "06:20",
+      "updated": "06:25",
       "affiliation": "相"
     },
     {
@@ -558,8 +558,19 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "06:20",
+      "updated": "06:25",
       "affiliation": "都"
+    },
+    {
+      "op": "06M",
+      "form": "40151F",
+      "cars": "10",
+      "no": "106-061",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:25",
+      "affiliation": "西"
     },
     {
       "op": "17K",
@@ -567,9 +578,9 @@
       "cars": "8",
       "no": "017-062",
       "destCode": "副都心線直通",
-      "kind": "回",
+      "kind": "普",
       "delay": "",
-      "updated": "06:20",
+      "updated": "06:25",
       "affiliation": "急"
     },
     {
@@ -580,7 +591,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "06:20",
+      "updated": "06:25",
       "affiliation": "急"
     }
   ],
@@ -1143,7 +1154,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "06:20",
+      "updated": "06:25",
       "affiliation": "急"
     },
     {
@@ -1154,21 +1165,21 @@
       "destCode": "渋谷",
       "kind": "急",
       "delay": "",
-      "updated": "06:20",
+      "updated": "06:25",
       "affiliation": "相"
     },
     {
-      "op": "29",
-      "form": "-",
-      "cars": "10",
-      "no": "729-061",
-      "destCode": "元町・中華街",
-      "kind": "特",
+      "op": "22K",
+      "form": "5186F",
+      "cars": "8",
+      "no": "222-061",
+      "destCode": "相鉄線直通",
+      "kind": "急",
       "delay": "",
-      "updated": "06:20",
-      "affiliation": "副"
+      "updated": "06:25",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "06:20",
+  "lastUpdate": "06:25",
   "date": "2026-08-30"
 }
