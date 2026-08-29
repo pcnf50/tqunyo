@@ -1629,15 +1629,15 @@
       "affiliation": "急"
     },
     {
-      "op": "64K",
-      "form": "4103F",
+      "op": "87S",
+      "form": "10131F",
       "cars": "10",
-      "no": "064-171",
-      "destCode": "相鉄線直通",
+      "no": "787-171",
+      "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "17:40",
-      "affiliation": "急"
+      "updated": "17:45",
+      "affiliation": "副"
     },
     {
       "op": "85S",
@@ -1647,7 +1647,7 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "17:40",
+      "updated": "17:45",
       "affiliation": "副"
     }
   ],
@@ -3332,20 +3332,9 @@
       "delay": "",
       "updated": "17:05",
       "affiliation": "急"
-    },
-    {
-      "op": "64G",
-      "form": "-",
-      "cars": "10",
-      "no": "064-171",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "17:40",
-      "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:40",
+  "lastUpdate": "17:45",
   "date": "2026-08-29",
   "resetDone": false
 }
