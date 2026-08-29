@@ -3092,9 +3092,20 @@
       "delay": "1分遅れ",
       "updated": "12:45",
       "affiliation": "都"
+    },
+    {
+      "op": "31K",
+      "form": "-",
+      "cars": "0",
+      "no": "231-121",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "13:00",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "12:55",
+  "lastUpdate": "13:00",
   "date": "2026-08-29",
   "resetDone": false
 }
