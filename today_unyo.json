@@ -3103,9 +3103,20 @@
       "delay": "1分遅れ",
       "updated": "12:45",
       "affiliation": "都"
+    },
+    {
+      "op": "94M",
+      "form": "-",
+      "cars": "0",
+      "no": "594-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:50",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "13:45",
+  "lastUpdate": "13:50",
   "date": "2026-08-29",
   "resetDone": false
 }
