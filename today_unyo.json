@@ -4111,9 +4111,20 @@
       "delay": "",
       "updated": "00:05",
       "affiliation": "急"
+    },
+    {
+      "op": "16",
+      "form": "5192F",
+      "cars": "8",
+      "no": "016-231",
+      "destCode": "菊名",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "00:10",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:05",
+  "lastUpdate": "00:10",
   "date": "2026-08-30",
   "resetDone": false
 }
