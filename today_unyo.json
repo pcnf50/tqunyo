@@ -1748,6 +1748,28 @@
       "delay": "",
       "updated": "19:15",
       "affiliation": "急"
+    },
+    {
+      "op": "07",
+      "form": "-",
+      "cars": "8",
+      "no": "207-192",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:45",
+      "affiliation": "急"
+    },
+    {
+      "op": "75M",
+      "form": "40101F",
+      "cars": "10",
+      "no": "175-192",
+      "destCode": "",
+      "kind": "Ｓ",
+      "delay": "",
+      "updated": "19:45",
+      "affiliation": "西"
     }
   ],
   "meguro": [
@@ -3631,18 +3653,18 @@
       "affiliation": "南"
     },
     {
-      "op": "23T",
-      "form": "-",
-      "cars": "0",
-      "no": "423-191",
-      "destCode": "新横浜",
-      "kind": "普",
+      "op": "07K",
+      "form": "5185F",
+      "cars": "8",
+      "no": "207-192",
+      "destCode": "三田線直通",
+      "kind": "急",
       "delay": "",
-      "updated": "19:40",
-      "affiliation": ""
+      "updated": "19:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:40",
+  "lastUpdate": "19:45",
   "date": "2026-08-29",
   "resetDone": false
 }
