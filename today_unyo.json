@@ -1935,6 +1935,17 @@
       "delay": "",
       "updated": "23:15",
       "affiliation": "急"
+    },
+    {
+      "op": "18",
+      "form": "5118F",
+      "cars": "8",
+      "no": "218-231",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:20",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4025,7 +4036,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:15",
+  "lastUpdate": "23:20",
   "date": "2026-08-29",
   "resetDone": false
 }
