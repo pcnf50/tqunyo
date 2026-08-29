@@ -2379,15 +2379,13 @@
       "affiliation": "南"
     },
     {
-      "op": "71",
+      "op": "73",
       "form": "-",
       "cars": "10",
-      "no": "171-071",
+      "no": "173-161",
       "destCode": "元町・中華街",
-      "kind": "回",
-      "delay": "",
-      "updated": "07:15",
-      "affiliation": "西"
+      "kind": "回送",
+      "delay": ""
     },
     {
       "op": "92",
@@ -3237,7 +3235,7 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "16:25",
+  "lastUpdate": "16:27",
   "date": "2026-08-29",
   "resetDone": false
 }
