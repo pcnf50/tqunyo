@@ -3902,9 +3902,20 @@
       "delay": "",
       "updated": "22:15",
       "affiliation": "急"
+    },
+    {
+      "op": "57M",
+      "form": "-",
+      "cars": "10",
+      "no": "057-221",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "22:40",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:35",
+  "lastUpdate": "22:40",
   "date": "2026-08-29",
   "resetDone": false
 }
