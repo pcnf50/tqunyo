@@ -1972,15 +1972,13 @@
       "affiliation": "急"
     },
     {
-      "op": "57M",
+      "op": "14",
       "form": "-",
       "cars": "10",
-      "no": "057-052",
-      "destCode": "渋谷",
-      "kind": "回",
-      "delay": "",
-      "updated": "05:10",
-      "affiliation": "急"
+      "no": "114-212",
+      "destCode": "副都心線直通",
+      "kind": "急行",
+      "delay": "1分遅れ"
     },
     {
       "op": "26K",
@@ -3862,7 +3860,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:15",
+  "lastUpdate": "22:19",
   "date": "2026-08-29",
   "resetDone": false
 }
