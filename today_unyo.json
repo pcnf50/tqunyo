@@ -3665,17 +3665,17 @@
     },
     {
       "op": "44S",
-      "form": "-",
-      "cars": "0",
+      "form": "9111F",
+      "cars": "8",
       "no": "344-191",
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "19:50",
-      "affiliation": ""
+      "updated": "19:55",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "19:50",
+  "lastUpdate": "19:55",
   "date": "2026-08-29",
   "resetDone": false
 }
