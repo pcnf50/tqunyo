@@ -1614,7 +1614,7 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "",
-      "updated": "17:00",
+      "updated": "17:05",
       "affiliation": "急"
     }
   ],
@@ -3279,6 +3279,17 @@
       "affiliation": ""
     },
     {
+      "op": "53T",
+      "form": "-",
+      "cars": "0",
+      "no": "453-171",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:05",
+      "affiliation": ""
+    },
+    {
       "op": "23K",
       "form": "-",
       "cars": "8",
@@ -3286,11 +3297,11 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "",
-      "updated": "17:00",
+      "updated": "17:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:00",
+  "lastUpdate": "17:05",
   "date": "2026-08-29",
   "resetDone": false
 }
