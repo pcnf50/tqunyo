@@ -4100,9 +4100,20 @@
       "delay": "",
       "updated": "23:45",
       "affiliation": "急"
+    },
+    {
+      "op": "37K",
+      "form": "3102F",
+      "cars": "8",
+      "no": "237-242",
+      "destCode": "目黒",
+      "kind": "回",
+      "delay": "",
+      "updated": "00:05",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:00",
+  "lastUpdate": "00:05",
   "date": "2026-08-30",
   "resetDone": false
 }
