@@ -1911,7 +1911,7 @@
       "destCode": "元住吉",
       "kind": "急",
       "delay": "",
-      "updated": "23:10",
+      "updated": "23:15",
       "affiliation": "急"
     },
     {
@@ -1922,8 +1922,19 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "23:10",
+      "updated": "23:15",
       "affiliation": "西"
+    },
+    {
+      "op": "14K",
+      "form": "5177F",
+      "cars": "8",
+      "no": "014-231",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:15",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4014,7 +4025,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:10",
+  "lastUpdate": "23:15",
   "date": "2026-08-29",
   "resetDone": false
 }
