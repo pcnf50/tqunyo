@@ -1825,6 +1825,17 @@
       "delay": "",
       "updated": "22:25",
       "affiliation": "都"
+    },
+    {
+      "op": "06K",
+      "form": "5162F",
+      "cars": "8",
+      "no": "006-222",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "22:30",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3871,7 +3882,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:25",
+  "lastUpdate": "22:30",
   "date": "2026-08-29",
   "resetDone": false
 }
