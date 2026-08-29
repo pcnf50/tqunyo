@@ -3341,11 +3341,33 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "17:50",
+      "updated": "17:55",
       "affiliation": "南"
+    },
+    {
+      "op": "33K",
+      "form": "3112F",
+      "cars": "8",
+      "no": "233-172",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "17:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "85",
+      "form": "-",
+      "cars": "10",
+      "no": "785-171",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "17:55",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "17:50",
+  "lastUpdate": "17:55",
   "date": "2026-08-29",
   "resetDone": false
 }
