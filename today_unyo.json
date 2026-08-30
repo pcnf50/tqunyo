@@ -243,6 +243,17 @@
       "affiliation": "南"
     },
     {
+      "op": "40",
+      "form": "-",
+      "cars": "8",
+      "no": "240-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "00:35",
+      "affiliation": "急"
+    },
+    {
       "op": "03",
       "form": "-",
       "cars": "8",
@@ -250,7 +261,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "00:30",
+      "updated": "00:35",
       "affiliation": "急"
     },
     {
@@ -261,7 +272,7 @@
       "destCode": "奥沢",
       "kind": "普",
       "delay": "",
-      "updated": "00:30",
+      "updated": "00:35",
       "affiliation": "急"
     }
   ],
@@ -454,6 +465,17 @@
       "affiliation": "東"
     },
     {
+      "op": "40K",
+      "form": "3101F",
+      "cars": "8",
+      "no": "240-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "00:35",
+      "affiliation": "急"
+    },
+    {
       "op": "02K",
       "form": "3102F",
       "cars": "8",
@@ -461,7 +483,7 @@
       "destCode": "奥沢",
       "kind": "普",
       "delay": "",
-      "updated": "00:30",
+      "updated": "00:35",
       "affiliation": "急"
     },
     {
@@ -472,7 +494,7 @@
       "destCode": "奥沢",
       "kind": "普",
       "delay": "",
-      "updated": "00:30",
+      "updated": "00:35",
       "affiliation": "急"
     },
     {
@@ -483,10 +505,21 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "00:30",
+      "updated": "00:35",
+      "affiliation": "急"
+    },
+    {
+      "op": "4T",
+      "form": "-",
+      "cars": "8",
+      "no": "004-242",
+      "destCode": "武蔵小杉",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:35",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:30",
+  "lastUpdate": "00:35",
   "date": "2026-08-31"
 }
