@@ -1482,7 +1482,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "12:20",
+      "updated": "12:25",
       "affiliation": "都"
     }
   ],
@@ -3039,17 +3039,17 @@
       "affiliation": "都"
     },
     {
-      "op": "80M",
+      "op": "86M",
       "form": "-",
       "cars": "0",
-      "no": "580-121",
-      "destCode": "日吉",
+      "no": "586-121",
+      "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "12:20",
+      "updated": "12:25",
       "affiliation": ""
     }
   ],
-  "lastUpdate": "12:20",
+  "lastUpdate": "12:25",
   "date": "2026-08-30"
 }
