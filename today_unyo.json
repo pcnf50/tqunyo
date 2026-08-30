@@ -1431,14 +1431,36 @@
       "affiliation": "西"
     },
     {
+      "op": "75",
+      "form": "-",
+      "cars": "6",
+      "no": "475-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:45",
+      "affiliation": "都"
+    },
+    {
+      "op": "88",
+      "form": "-",
+      "cars": "6",
+      "no": "588-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:45",
+      "affiliation": "南"
+    },
+    {
       "op": "25K",
       "form": "Y512F",
       "cars": "8",
       "no": "025-081",
       "destCode": "元住吉",
       "kind": "普",
-      "delay": "",
-      "updated": "08:40",
+      "delay": "1分遅れ",
+      "updated": "08:45",
       "affiliation": "み"
     }
   ],
@@ -3013,8 +3035,19 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "08:40",
+      "updated": "08:45",
       "affiliation": "都"
+    },
+    {
+      "op": "46S",
+      "form": "-",
+      "cars": "8",
+      "no": "346-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:45",
+      "affiliation": "南"
     },
     {
       "op": "73T",
@@ -3023,11 +3056,11 @@
       "no": "473-081",
       "destCode": "元住吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "08:40",
+      "delay": "",
+      "updated": "08:45",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "08:40",
+  "lastUpdate": "08:45",
   "date": "2026-08-31"
 }
