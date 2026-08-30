@@ -8,18 +8,18 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "都"
     },
     {
       "op": "45S",
       "form": "10102F",
       "cars": "10",
-      "no": "745-232",
-      "destCode": "武蔵小杉",
-      "kind": "急",
+      "no": "745-241",
+      "destCode": "元住吉",
+      "kind": "回",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "副"
     },
     {
@@ -30,7 +30,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "急"
     },
     {
@@ -41,7 +41,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "急"
     },
     {
@@ -52,19 +52,8 @@
       "destCode": "菊名",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "急"
-    },
-    {
-      "op": "60",
-      "form": "-",
-      "cars": "8",
-      "no": "360-242",
-      "destCode": "南北線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "00:10",
-      "affiliation": "南"
     },
     {
       "op": "03K",
@@ -74,7 +63,7 @@
       "destCode": "菊名",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "急"
     },
     {
@@ -85,7 +74,7 @@
       "destCode": "武蔵小杉",
       "kind": "急",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "副"
     },
     {
@@ -96,7 +85,18 @@
       "destCode": "横浜",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
+      "affiliation": "急"
+    },
+    {
+      "op": "27",
+      "form": "-",
+      "cars": "8",
+      "no": "227-242",
+      "destCode": "目黒",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:15",
       "affiliation": "急"
     },
     {
@@ -107,7 +107,7 @@
       "destCode": "元住吉",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "急"
     },
     {
@@ -118,7 +118,7 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "副"
     },
     {
@@ -129,7 +129,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "急"
     },
     {
@@ -138,9 +138,9 @@
       "cars": "10",
       "no": "056-231",
       "destCode": "元住吉",
-      "kind": "急",
+      "kind": "回",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "急"
     },
     {
@@ -151,7 +151,7 @@
       "destCode": "元住吉",
       "kind": "急",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "東"
     },
     {
@@ -162,7 +162,7 @@
       "destCode": "武蔵小杉",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "急"
     },
     {
@@ -173,19 +173,8 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "副"
-    },
-    {
-      "op": "24K",
-      "form": "5161F",
-      "cars": "8",
-      "no": "024-231",
-      "destCode": "",
-      "kind": "普",
-      "delay": "",
-      "updated": "00:10",
-      "affiliation": "急"
     },
     {
       "op": "04K",
@@ -195,7 +184,18 @@
       "destCode": "",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
+      "affiliation": "急"
+    },
+    {
+      "op": "24K",
+      "form": "5161F",
+      "cars": "8",
+      "no": "024-242",
+      "destCode": "",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:15",
       "affiliation": "急"
     },
     {
@@ -206,7 +206,7 @@
       "destCode": "",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "み"
     }
   ],
@@ -219,29 +219,29 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "都"
     },
     {
       "op": "45",
       "form": "-",
       "cars": "10",
-      "no": "745-232",
-      "destCode": "武蔵小杉",
-      "kind": "急",
+      "no": "745-241",
+      "destCode": "元住吉",
+      "kind": "回",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "副"
     },
     {
-      "op": "13",
-      "form": "-",
+      "op": "03K",
+      "form": "3105F",
       "cars": "8",
-      "no": "013-231",
-      "destCode": "元町・中華街",
+      "no": "203-241",
+      "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "急"
     },
     {
@@ -252,7 +252,7 @@
       "destCode": "菊名",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "急"
     },
     {
@@ -263,7 +263,7 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "南"
     },
     {
@@ -272,9 +272,9 @@
       "cars": "8",
       "no": "208-232",
       "destCode": "南北線直通",
-      "kind": "普",
+      "kind": "回",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "急"
     },
     {
@@ -284,8 +284,8 @@
       "no": "222-241",
       "destCode": "新横浜",
       "kind": "普",
-      "delay": "",
-      "updated": "00:10",
+      "delay": "1分遅れ",
+      "updated": "00:15",
       "affiliation": "急"
     },
     {
@@ -296,7 +296,18 @@
       "destCode": "目黒",
       "kind": "回",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
+      "affiliation": "急"
+    },
+    {
+      "op": "27K",
+      "form": "3111F",
+      "cars": "8",
+      "no": "227-242",
+      "destCode": "目黒",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:15",
       "affiliation": "急"
     },
     {
@@ -307,7 +318,7 @@
       "destCode": "元住吉",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "南"
     },
     {
@@ -318,7 +329,7 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "副"
     },
     {
@@ -329,7 +340,7 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "急"
     },
     {
@@ -338,12 +349,12 @@
       "cars": "10",
       "no": "056-231",
       "destCode": "元住吉",
-      "kind": "急",
+      "kind": "回",
       "delay": "",
-      "updated": "00:10",
+      "updated": "00:15",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:10",
+  "lastUpdate": "00:15",
   "date": "2026-08-31"
 }
