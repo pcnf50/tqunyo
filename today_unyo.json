@@ -1635,8 +1635,8 @@
       "no": "785-091",
       "destCode": "元町・中華街",
       "kind": "特",
-      "delay": "",
-      "updated": "10:00",
+      "delay": "1分遅れ",
+      "updated": "10:05",
       "affiliation": "副"
     }
   ],
@@ -3400,6 +3400,6 @@
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "10:00",
+  "lastUpdate": "10:05",
   "date": "2026-08-31"
 }
