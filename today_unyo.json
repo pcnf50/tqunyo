@@ -1944,7 +1944,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "18:30",
+      "updated": "18:35",
       "affiliation": "南"
     },
     {
@@ -1955,7 +1955,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:30",
+      "updated": "18:35",
       "affiliation": "急"
     }
   ],
@@ -4076,7 +4076,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "18:30",
+      "updated": "18:35",
       "affiliation": "南"
     },
     {
@@ -4087,7 +4087,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:30",
+      "updated": "18:35",
       "affiliation": "急"
     },
     {
@@ -4098,10 +4098,10 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "3分遅れ",
-      "updated": "18:30",
+      "updated": "18:35",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "18:30",
+  "lastUpdate": "18:35",
   "date": "2026-08-31"
 }
