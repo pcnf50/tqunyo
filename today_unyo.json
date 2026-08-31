@@ -1090,13 +1090,15 @@
       "affiliation": "副"
     },
     {
-      "op": "99",
-      "form": "5161F",
+      "op": "13",
+      "form": "-",
       "cars": "8",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "不明",
-      "delay": ""
+      "no": "213-071",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "07:35",
+      "affiliation": "急"
     },
     {
       "op": "62K",
@@ -2164,6 +2166,17 @@
       "delay": "",
       "updated": "00:25",
       "affiliation": "急"
+    },
+    {
+      "op": "99G",
+      "form": "17187F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "00:35",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -4560,8 +4573,19 @@
       "delay": "",
       "updated": "00:15",
       "affiliation": "急"
+    },
+    {
+      "op": "43K",
+      "form": "3102F",
+      "cars": "8",
+      "no": "243-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "00:35",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:31",
+  "lastUpdate": "00:35",
   "date": "2026-09-01"
 }
