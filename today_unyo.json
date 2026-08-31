@@ -2089,17 +2089,6 @@
       "delay": "",
       "updated": "20:25",
       "affiliation": ""
-    },
-    {
-      "op": "65K",
-      "form": "4102F",
-      "cars": "10",
-      "no": "065-201",
-      "destCode": "相鉄線直通",
-      "kind": "回",
-      "delay": "",
-      "updated": "20:50",
-      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4430,30 +4419,8 @@
       "delay": "",
       "updated": "20:45",
       "affiliation": ""
-    },
-    {
-      "op": "65G",
-      "form": "-",
-      "cars": "10",
-      "no": "065-201",
-      "destCode": "相鉄線直通",
-      "kind": "回",
-      "delay": "",
-      "updated": "20:50",
-      "affiliation": "急"
-    },
-    {
-      "op": "48K",
-      "form": "-",
-      "cars": "0",
-      "no": "248-201",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "20:50",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "20:50",
+  "lastUpdate": "20:55",
   "date": "2026-08-31"
 }
