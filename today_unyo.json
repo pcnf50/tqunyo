@@ -2021,7 +2021,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "19:30",
+      "updated": "19:35",
       "affiliation": "副"
     }
   ],
@@ -4256,17 +4256,17 @@
       "affiliation": "南"
     },
     {
-      "op": "63",
+      "op": "31S",
       "form": "-",
-      "cars": "10",
-      "no": "763-191",
+      "cars": "8",
+      "no": "031-191",
       "destCode": "元町・中華街",
-      "kind": "通",
+      "kind": "急",
       "delay": "",
-      "updated": "19:30",
-      "affiliation": "副"
+      "updated": "19:35",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:30",
+  "lastUpdate": "19:35",
   "date": "2026-08-31"
 }
