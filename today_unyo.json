@@ -1090,15 +1090,13 @@
       "affiliation": "副"
     },
     {
-      "op": "13",
-      "form": "-",
+      "op": "99",
+      "form": "5161F",
       "cars": "8",
-      "no": "213-071",
-      "destCode": "相鉄線直通",
-      "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "07:35",
-      "affiliation": "急"
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
     },
     {
       "op": "62K",
@@ -4564,6 +4562,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:30",
+  "lastUpdate": "00:31",
   "date": "2026-09-01"
 }
