@@ -1101,14 +1101,36 @@
       "affiliation": "南"
     },
     {
+      "op": "16",
+      "form": "-",
+      "cars": "8",
+      "no": "216-071",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "5分遅れ",
+      "updated": "07:40",
+      "affiliation": "急"
+    },
+    {
+      "op": "91G",
+      "form": "20107F",
+      "cars": "10",
+      "no": "991-072",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:40",
+      "affiliation": "相"
+    },
+    {
       "op": "10M",
       "form": "6111F",
       "cars": "10",
       "no": "110-071",
       "destCode": "元町・中華街",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "07:35",
+      "delay": "",
+      "updated": "07:40",
       "affiliation": "西"
     }
   ],
@@ -2258,6 +2280,28 @@
       "affiliation": "急"
     },
     {
+      "op": "50S",
+      "form": "9113F",
+      "cars": "6",
+      "no": "350-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "07:40",
+      "affiliation": "南"
+    },
+    {
+      "op": "62G",
+      "form": "-",
+      "cars": "10",
+      "no": "062-071",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:40",
+      "affiliation": "急"
+    },
+    {
       "op": "39G",
       "form": "21109F",
       "cars": "8",
@@ -2265,7 +2309,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:35",
+      "updated": "07:40",
       "affiliation": "相"
     },
     {
@@ -2275,23 +2319,23 @@
       "no": "354-071",
       "destCode": "新横浜",
       "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "07:35",
+      "delay": "2分遅れ",
+      "updated": "07:40",
       "affiliation": "南"
     },
     {
       "op": "57T",
-      "form": "-",
-      "cars": "0",
+      "form": "6503F",
+      "cars": "8",
       "no": "457-071",
       "destCode": "日吉",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "07:35",
-      "affiliation": ""
+      "updated": "07:40",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "07:35",
+  "lastUpdate": "07:40",
   "date": "2026-09-01",
   "resetDone": false
 }
