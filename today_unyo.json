@@ -1404,9 +1404,20 @@
       "no": "588-081",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "2分遅れ",
-      "updated": "08:45",
+      "delay": "3分遅れ",
+      "updated": "08:50",
       "affiliation": "南"
+    },
+    {
+      "op": "75",
+      "form": "-",
+      "cars": "6",
+      "no": "475-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "08:50",
+      "affiliation": "都"
     }
   ],
   "meguro": [
@@ -2925,7 +2936,7 @@
       "destCode": "元住吉",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "08:45",
+      "updated": "08:50",
       "affiliation": "都"
     },
     {
@@ -2936,22 +2947,11 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "1分遅れ",
-      "updated": "08:45",
+      "updated": "08:50",
       "affiliation": "南"
-    },
-    {
-      "op": "42G",
-      "form": "-",
-      "cars": "0",
-      "no": "642-081",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "2分遅れ",
-      "updated": "08:45",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "08:45",
+  "lastUpdate": "08:50",
   "date": "2026-09-01",
   "resetDone": false
 }
