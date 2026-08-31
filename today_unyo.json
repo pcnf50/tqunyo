@@ -2023,6 +2023,17 @@
       "delay": "",
       "updated": "19:35",
       "affiliation": "副"
+    },
+    {
+      "op": "86",
+      "form": "-",
+      "cars": "6",
+      "no": "586-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "19:55",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -4296,10 +4307,10 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "19:50",
+      "updated": "19:55",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "19:50",
+  "lastUpdate": "19:55",
   "date": "2026-08-31"
 }
