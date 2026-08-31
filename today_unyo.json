@@ -1783,15 +1783,15 @@
       "affiliation": "急"
     },
     {
-      "op": "86",
+      "op": "14",
       "form": "-",
-      "cars": "6",
-      "no": "586-162",
+      "cars": "8",
+      "no": "214-172",
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:10",
-      "affiliation": "南"
+      "updated": "17:15",
+      "affiliation": "急"
     },
     {
       "op": "67S",
@@ -1801,7 +1801,7 @@
       "destCode": "副都心線直通",
       "kind": "特",
       "delay": "",
-      "updated": "17:10",
+      "updated": "17:15",
       "affiliation": "副"
     },
     {
@@ -1812,7 +1812,7 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "17:10",
+      "updated": "17:15",
       "affiliation": "急"
     },
     {
@@ -1823,8 +1823,19 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "17:10",
+      "updated": "17:15",
       "affiliation": "東"
+    },
+    {
+      "op": "48",
+      "form": "-",
+      "cars": "8",
+      "no": "248-172",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:15",
+      "affiliation": "急"
     },
     {
       "op": "29S",
@@ -1834,7 +1845,7 @@
       "destCode": "",
       "kind": "通",
       "delay": "",
-      "updated": "17:10",
+      "updated": "17:15",
       "affiliation": "副"
     }
   ],
@@ -3739,6 +3750,17 @@
       "affiliation": "急"
     },
     {
+      "op": "14K",
+      "form": "5185F",
+      "cars": "8",
+      "no": "214-172",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:15",
+      "affiliation": "急"
+    },
+    {
       "op": "86M",
       "form": "9103F",
       "cars": "6",
@@ -3746,7 +3768,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:10",
+      "updated": "17:15",
       "affiliation": "南"
     },
     {
@@ -3757,7 +3779,7 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "17:10",
+      "updated": "17:15",
       "affiliation": "急"
     },
     {
@@ -3768,10 +3790,21 @@
       "destCode": "元住吉",
       "kind": "普",
       "delay": "",
-      "updated": "17:10",
+      "updated": "17:15",
       "affiliation": "都"
+    },
+    {
+      "op": "48K",
+      "form": "3105F",
+      "cars": "8",
+      "no": "248-172",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:15",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:10",
+  "lastUpdate": "17:15",
   "date": "2026-08-31"
 }
