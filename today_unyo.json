@@ -2177,6 +2177,17 @@
       "delay": "28分遅れ",
       "updated": "23:00",
       "affiliation": "副"
+    },
+    {
+      "op": "63K",
+      "form": "4108F",
+      "cars": "10",
+      "no": "063-221",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "23:05",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4557,7 +4568,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:00",
+  "lastUpdate": "23:05",
   "date": "2026-09-01",
   "resetDone": false
 }
