@@ -3939,9 +3939,31 @@
       "delay": "",
       "updated": "19:00",
       "affiliation": "急"
+    },
+    {
+      "op": "96M",
+      "form": "-",
+      "cars": "0",
+      "no": "596-191",
+      "destCode": "日吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:05",
+      "affiliation": ""
+    },
+    {
+      "op": "53",
+      "form": "-",
+      "cars": "10",
+      "no": "753-181",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "3分遅れ",
+      "updated": "19:05",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "19:00",
+  "lastUpdate": "19:05",
   "date": "2026-09-01",
   "resetDone": false
 }
