@@ -1928,15 +1928,13 @@
       "affiliation": "副"
     },
     {
-      "op": "9",
+      "op": "34",
       "form": "-",
-      "cars": "8",
-      "no": "009-052",
+      "cars": "10",
+      "no": "134-092",
       "destCode": "副都心線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "05:50",
-      "affiliation": "み"
+      "kind": "急行",
+      "delay": ""
     },
     {
       "op": "30S",
@@ -3215,7 +3213,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "09:30",
+  "lastUpdate": "09:35",
   "date": "2026-09-01",
   "resetDone": false
 }
