@@ -2115,15 +2115,13 @@
       "affiliation": "南"
     },
     {
-      "op": "16",
+      "op": "30",
       "form": "-",
-      "cars": "8",
-      "no": "016-052",
-      "destCode": "渋谷",
-      "kind": "普",
-      "delay": "",
-      "updated": "05:40",
-      "affiliation": "み"
+      "cars": "10",
+      "no": "130-191",
+      "destCode": "元町・中華街",
+      "kind": "通勤特急",
+      "delay": "11分遅れ"
     },
     {
       "op": "12",
@@ -3985,7 +3983,7 @@
       "affiliation": "西"
     }
   ],
-  "lastUpdate": "19:25",
+  "lastUpdate": "19:26",
   "date": "2026-09-01",
   "resetDone": false
 }
