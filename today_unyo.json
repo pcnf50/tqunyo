@@ -2267,14 +2267,36 @@
       "affiliation": "急"
     },
     {
+      "op": "20K",
+      "form": "5153F",
+      "cars": "8",
+      "no": "020-231",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "23:30",
+      "affiliation": "急"
+    },
+    {
       "op": "18K",
       "form": "5172F",
       "cars": "8",
       "no": "018-231",
       "destCode": "元町・中華街",
       "kind": "普",
-      "delay": "12分遅れ",
-      "updated": "23:25",
+      "delay": "13分遅れ",
+      "updated": "23:30",
+      "affiliation": "急"
+    },
+    {
+      "op": "08K",
+      "form": "5163F",
+      "cars": "8",
+      "no": "008-232",
+      "destCode": "",
+      "kind": "普",
+      "delay": "19分遅れ",
+      "updated": "23:30",
       "affiliation": "急"
     }
   ],
@@ -4667,7 +4689,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:25",
+  "lastUpdate": "23:30",
   "date": "2026-09-01",
   "resetDone": false
 }
