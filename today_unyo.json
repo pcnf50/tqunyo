@@ -4049,9 +4049,20 @@
       "delay": "30分遅れ",
       "updated": "20:20",
       "affiliation": "副"
+    },
+    {
+      "op": "43G",
+      "form": "21103F",
+      "cars": "8",
+      "no": "643-202",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "20:35",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "20:30",
+  "lastUpdate": "20:35",
   "date": "2026-09-01",
   "resetDone": false
 }
