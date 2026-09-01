@@ -4057,12 +4057,12 @@
       "no": "643-202",
       "destCode": "三田線直通",
       "kind": "急",
-      "delay": "3分遅れ",
-      "updated": "20:35",
+      "delay": "2分遅れ",
+      "updated": "20:40",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "20:35",
+  "lastUpdate": "20:40",
   "date": "2026-09-01",
   "resetDone": false
 }
