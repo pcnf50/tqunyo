@@ -2375,6 +2375,28 @@
       "delay": "",
       "updated": "00:10",
       "affiliation": "急"
+    },
+    {
+      "op": "99G",
+      "form": "5163F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "00:15",
+      "affiliation": "急"
+    },
+    {
+      "op": "22K",
+      "form": "17192F",
+      "cars": "8",
+      "no": "022-241",
+      "destCode": "横浜",
+      "kind": "普",
+      "delay": "9分遅れ",
+      "updated": "00:15",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -4777,7 +4799,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:10",
+  "lastUpdate": "00:15",
   "date": "2026-09-02",
   "resetDone": false
 }
