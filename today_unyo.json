@@ -2201,6 +2201,17 @@
       "affiliation": "南"
     },
     {
+      "op": "11S",
+      "form": "5165F",
+      "cars": "8",
+      "no": "711-231",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "17分遅れ",
+      "updated": "23:20",
+      "affiliation": "急"
+    },
+    {
       "op": "31K",
       "form": "Y513F",
       "cars": "8",
@@ -2208,8 +2219,30 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "26分遅れ",
-      "updated": "23:15",
+      "updated": "23:20",
       "affiliation": "み"
+    },
+    {
+      "op": "30M",
+      "form": "6116F",
+      "cars": "10",
+      "no": "130-211",
+      "destCode": "元住吉",
+      "kind": "通",
+      "delay": "91分遅れ",
+      "updated": "23:20",
+      "affiliation": "西"
+    },
+    {
+      "op": "99G",
+      "form": "4113F",
+      "cars": "10",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "23:20",
+      "affiliation": "急"
     },
     {
       "op": "17K",
@@ -2218,8 +2251,8 @@
       "no": "017-221",
       "destCode": "元町・中華街",
       "kind": "普",
-      "delay": "18分遅れ",
-      "updated": "23:15",
+      "delay": "23分遅れ",
+      "updated": "23:20",
       "affiliation": "副"
     },
     {
@@ -2229,8 +2262,8 @@
       "no": "011-222",
       "destCode": "",
       "kind": "普",
-      "delay": "19分遅れ",
-      "updated": "23:15",
+      "delay": "25分遅れ",
+      "updated": "23:20",
       "affiliation": "急"
     }
   ],
@@ -4623,7 +4656,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:15",
+  "lastUpdate": "23:20",
   "date": "2026-09-01",
   "resetDone": false
 }
