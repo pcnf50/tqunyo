@@ -2446,11 +2446,11 @@
       "op": "85K",
       "form": "17182F",
       "cars": "8",
-      "no": "085-242",
-      "destCode": "武蔵小杉",
+      "no": "085-241",
+      "destCode": "元住吉",
       "kind": "回",
-      "delay": "4分遅れ",
-      "updated": "00:35",
+      "delay": "5分遅れ",
+      "updated": "00:40",
       "affiliation": "副"
     }
   ],
@@ -4854,18 +4854,18 @@
       "affiliation": "急"
     },
     {
-      "op": "43K",
-      "form": "5183F",
+      "op": "99",
+      "form": "5189F",
       "cars": "8",
-      "no": "243-242",
-      "destCode": "武蔵小杉",
-      "kind": "回",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
       "delay": "",
-      "updated": "00:35",
+      "updated": "00:40",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:35",
+  "lastUpdate": "00:40",
   "date": "2026-09-02",
   "resetDone": false
 }
