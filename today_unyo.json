@@ -2122,6 +2122,28 @@
       "delay": "13分遅れ",
       "updated": "22:40",
       "affiliation": "急"
+    },
+    {
+      "op": "08K",
+      "form": "5119F",
+      "cars": "8",
+      "no": "008-221",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "31分遅れ",
+      "updated": "22:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "13S",
+      "form": "17184F",
+      "cars": "8",
+      "no": "713-221",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "23分遅れ",
+      "updated": "22:55",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -4502,7 +4524,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:50",
+  "lastUpdate": "22:55",
   "date": "2026-09-01",
   "resetDone": false
 }
