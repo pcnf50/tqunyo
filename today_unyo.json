@@ -3818,9 +3818,20 @@
       "delay": "",
       "updated": "17:40",
       "affiliation": "急"
+    },
+    {
+      "op": "60S",
+      "form": "-",
+      "cars": "0",
+      "no": "360-171",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "17:55",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "17:50",
+  "lastUpdate": "17:55",
   "date": "2026-09-01",
   "resetDone": false
 }
