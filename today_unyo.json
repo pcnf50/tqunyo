@@ -2001,6 +2001,17 @@
       "delay": "17分遅れ",
       "updated": "21:40",
       "affiliation": "副"
+    },
+    {
+      "op": "03T",
+      "form": "4110F",
+      "cars": "10",
+      "no": "803-211",
+      "destCode": "武蔵小杉",
+      "kind": "急",
+      "delay": "34分遅れ",
+      "updated": "21:45",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4326,7 +4337,7 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "21:40",
+  "lastUpdate": "21:45",
   "date": "2026-09-01",
   "resetDone": false
 }
