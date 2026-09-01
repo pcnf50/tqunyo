@@ -2298,6 +2298,17 @@
       "delay": "19分遅れ",
       "updated": "23:30",
       "affiliation": "急"
+    },
+    {
+      "op": "62K",
+      "form": "4106F",
+      "cars": "10",
+      "no": "062-231",
+      "destCode": "元住吉",
+      "kind": "通",
+      "delay": "39分遅れ",
+      "updated": "23:40",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4689,7 +4700,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:35",
+  "lastUpdate": "23:40",
   "date": "2026-09-01",
   "resetDone": false
 }
