@@ -3862,9 +3862,20 @@
       "delay": "1分遅れ",
       "updated": "18:20",
       "affiliation": "南"
+    },
+    {
+      "op": "49T",
+      "form": "-",
+      "cars": "10",
+      "no": "049-181",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "18:25",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "18:20",
+  "lastUpdate": "18:25",
   "date": "2026-09-01",
   "resetDone": false
 }
