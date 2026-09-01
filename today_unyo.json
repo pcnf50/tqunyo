@@ -3702,15 +3702,15 @@
       "op": "47T",
       "form": "-",
       "cars": "10",
-      "no": "047-152",
-      "destCode": "武蔵小杉",
+      "no": "047-161",
+      "destCode": "元住吉",
       "kind": "回",
-      "delay": "",
-      "updated": "15:55",
+      "delay": "1分遅れ",
+      "updated": "16:00",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "15:55",
+  "lastUpdate": "16:00",
   "date": "2026-09-01",
   "resetDone": false
 }
