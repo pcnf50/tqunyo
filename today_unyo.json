@@ -2427,8 +2427,19 @@
       "no": "023-241",
       "destCode": "菊名",
       "kind": "普",
-      "delay": "12分遅れ",
-      "updated": "00:25",
+      "delay": "11分遅れ",
+      "updated": "00:30",
+      "affiliation": "急"
+    },
+    {
+      "op": "16K",
+      "form": "5152F",
+      "cars": "8",
+      "no": "016-241",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "7分遅れ",
+      "updated": "00:30",
       "affiliation": "急"
     }
   ],
@@ -4832,7 +4843,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:25",
+  "lastUpdate": "00:30",
   "date": "2026-09-02",
   "resetDone": false
 }
