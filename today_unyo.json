@@ -4062,18 +4062,40 @@
       "affiliation": "相"
     },
     {
-      "op": "69T",
+      "op": "31",
+      "form": "-",
+      "cars": "10",
+      "no": "731-201",
+      "destCode": "武蔵小杉",
+      "kind": "通",
+      "delay": "37分遅れ",
+      "updated": "20:50",
+      "affiliation": "東"
+    },
+    {
+      "op": "65G",
+      "form": "-",
+      "cars": "10",
+      "no": "065-201",
+      "destCode": "相鉄線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "20:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "48K",
       "form": "-",
       "cars": "0",
-      "no": "469-201",
-      "destCode": "元住吉",
-      "kind": "普",
+      "no": "248-201",
+      "destCode": "相鉄線直通",
+      "kind": "急",
       "delay": "",
-      "updated": "20:45",
+      "updated": "20:50",
       "affiliation": ""
     }
   ],
-  "lastUpdate": "20:45",
+  "lastUpdate": "20:50",
   "date": "2026-09-01",
   "resetDone": false
 }
