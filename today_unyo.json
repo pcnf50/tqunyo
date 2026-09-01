@@ -2009,8 +2009,8 @@
       "no": "803-211",
       "destCode": "武蔵小杉",
       "kind": "急",
-      "delay": "34分遅れ",
-      "updated": "21:45",
+      "delay": "32分遅れ",
+      "updated": "21:50",
       "affiliation": "急"
     }
   ],
@@ -4337,7 +4337,7 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "21:45",
+  "lastUpdate": "21:50",
   "date": "2026-09-01",
   "resetDone": false
 }
