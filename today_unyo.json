@@ -3697,9 +3697,20 @@
       "delay": "",
       "updated": "15:50",
       "affiliation": "急"
+    },
+    {
+      "op": "47T",
+      "form": "-",
+      "cars": "10",
+      "no": "047-152",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "15:55",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "15:50",
+  "lastUpdate": "15:55",
   "date": "2026-09-01",
   "resetDone": false
 }
