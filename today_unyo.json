@@ -1,35 +1,107 @@
 {
-  "toyoko": {
-    "99": {
-      "op": "99",
+  "toyoko": [
+    {
+      "op": "99G",
       "form": "5174F",
       "cars": "8",
       "no": "999-990",
       "destCode": "",
       "kind": "不明",
-      "delay": ""
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
     },
-    "16K": {
+    {
       "op": "16K",
       "form": "5152F",
       "cars": "8",
       "no": "016-241",
       "destCode": "元住吉",
-      "kind": "各駅停車",
-      "delay": "14分遅れ"
+      "kind": "普",
+      "delay": "14分遅れ",
+      "updated": "04:50",
+      "affiliation": "急"
     }
-  },
-  "meguro": {
-    "01K": {
-      "op": "01K",
-      "form": "5189F",
+  ],
+  "meguro": [
+    {
+      "op": "16K",
+      "form": "5183F",
       "cars": "8",
-      "no": "201-990",
+      "no": "216-042",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "36K",
+      "form": "5190F",
+      "cars": "8",
+      "no": "236-041",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "11K",
+      "form": "5187F",
+      "cars": "8",
+      "no": "211-042",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "5M",
+      "form": "-",
+      "cars": "8",
+      "no": "005-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "13K",
+      "form": "5188F",
+      "cars": "8",
+      "no": "213-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "99",
+      "form": "-",
+      "cars": "8",
+      "no": "999-000",
       "destCode": "",
       "kind": "各駅停車",
-      "delay": ""
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "99",
+      "form": "5189F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
     }
-  },
-  "lastUpdate": "03:26",
+  ],
+  "lastUpdate": "04:50",
   "date": "2026-09-02"
 }
