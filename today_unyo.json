@@ -2102,14 +2102,25 @@
       "affiliation": "急"
     },
     {
+      "op": "29",
+      "form": "-",
+      "cars": "8",
+      "no": "229-221",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:40",
+      "affiliation": "急"
+    },
+    {
       "op": "91G",
       "form": "4102F",
       "cars": "10",
       "no": "991-222",
       "destCode": "渋谷",
       "kind": "急",
-      "delay": "12分遅れ",
-      "updated": "22:35",
+      "delay": "13分遅れ",
+      "updated": "22:40",
       "affiliation": "急"
     }
   ],
@@ -4475,12 +4486,23 @@
       "no": "002-211",
       "destCode": "元町・中華街",
       "kind": "普",
-      "delay": "27分遅れ",
-      "updated": "22:35",
+      "delay": "30分遅れ",
+      "updated": "22:40",
+      "affiliation": "急"
+    },
+    {
+      "op": "47K",
+      "form": "3106F",
+      "cars": "8",
+      "no": "247-222",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:40",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:35",
+  "lastUpdate": "22:40",
   "date": "2026-09-01",
   "resetDone": false
 }
