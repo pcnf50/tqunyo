@@ -1968,6 +1968,28 @@
       "delay": "5分遅れ",
       "updated": "21:30",
       "affiliation": "急"
+    },
+    {
+      "op": "14K",
+      "form": "17183F",
+      "cars": "8",
+      "no": "014-201",
+      "destCode": "武蔵小杉",
+      "kind": "普",
+      "delay": "72分遅れ",
+      "updated": "21:35",
+      "affiliation": "副"
+    },
+    {
+      "op": "85S",
+      "form": "10101F",
+      "cars": "10",
+      "no": "785-211",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "16分遅れ",
+      "updated": "21:35",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -4293,7 +4315,7 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "21:30",
+  "lastUpdate": "21:35",
   "date": "2026-09-01",
   "resetDone": false
 }
