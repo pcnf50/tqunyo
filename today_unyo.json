@@ -4038,9 +4038,20 @@
       "delay": "",
       "updated": "20:00",
       "affiliation": "急"
+    },
+    {
+      "op": "77",
+      "form": "-",
+      "cars": "10",
+      "no": "777-191",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "30分遅れ",
+      "updated": "20:15",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "20:10",
+  "lastUpdate": "20:15",
   "date": "2026-09-01",
   "resetDone": false
 }
