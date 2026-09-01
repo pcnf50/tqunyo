@@ -2361,8 +2361,8 @@
       "no": "003-231",
       "destCode": "元住吉",
       "kind": "普",
-      "delay": "8分遅れ",
-      "updated": "00:05",
+      "delay": "13分遅れ",
+      "updated": "00:10",
       "affiliation": "急"
     },
     {
@@ -2373,7 +2373,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "00:05",
+      "updated": "00:10",
       "affiliation": "急"
     }
   ],
@@ -4777,7 +4777,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:05",
+  "lastUpdate": "00:10",
   "date": "2026-09-02",
   "resetDone": false
 }
