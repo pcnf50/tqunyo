@@ -908,9 +908,31 @@
       "cars": "8",
       "no": "007-062",
       "destCode": "渋谷",
-      "kind": "回",
+      "kind": "普",
       "delay": "",
-      "updated": "07:00",
+      "updated": "07:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "62",
+      "form": "-",
+      "cars": "6",
+      "no": "362-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:05",
+      "affiliation": "南"
+    },
+    {
+      "op": "61K",
+      "form": "4101F",
+      "cars": "10",
+      "no": "061-071",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:05",
       "affiliation": "急"
     },
     {
@@ -921,7 +943,29 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "07:00",
+      "updated": "07:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "19K",
+      "form": "Y515F",
+      "cars": "8",
+      "no": "019-061",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:05",
+      "affiliation": "み"
+    },
+    {
+      "op": "22",
+      "form": "-",
+      "cars": "8",
+      "no": "222-061",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:05",
       "affiliation": "急"
     }
   ],
@@ -1900,9 +1944,9 @@
       "cars": "8",
       "no": "007-062",
       "destCode": "渋谷",
-      "kind": "回",
+      "kind": "普",
       "delay": "",
-      "updated": "07:00",
+      "updated": "07:05",
       "affiliation": "急"
     },
     {
@@ -1913,7 +1957,29 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "07:00",
+      "updated": "07:05",
+      "affiliation": "都"
+    },
+    {
+      "op": "01",
+      "form": "-",
+      "cars": "8",
+      "no": "701-061",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:05",
+      "affiliation": "副"
+    },
+    {
+      "op": "53T",
+      "form": "6318F",
+      "cars": "6",
+      "no": "453-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:05",
       "affiliation": "都"
     },
     {
@@ -1924,7 +1990,7 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "",
-      "updated": "07:00",
+      "updated": "07:05",
       "affiliation": "急"
     },
     {
@@ -1935,10 +2001,10 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:00",
+      "updated": "07:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "07:00",
+  "lastUpdate": "07:05",
   "date": "2026-09-02"
 }
