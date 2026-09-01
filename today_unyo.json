@@ -2378,13 +2378,13 @@
     },
     {
       "op": "99G",
-      "form": "5163F",
+      "form": "5159F",
       "cars": "8",
       "no": "999-990",
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "00:15",
+      "updated": "00:20",
       "affiliation": "急"
     },
     {
@@ -2395,8 +2395,30 @@
       "destCode": "横浜",
       "kind": "普",
       "delay": "9分遅れ",
-      "updated": "00:15",
+      "updated": "00:20",
       "affiliation": "副"
+    },
+    {
+      "op": "61K",
+      "form": "4115F",
+      "cars": "10",
+      "no": "061-231",
+      "destCode": "元住吉",
+      "kind": "通",
+      "delay": "64分遅れ",
+      "updated": "00:20",
+      "affiliation": "急"
+    },
+    {
+      "op": "64K",
+      "form": "4114F",
+      "cars": "10",
+      "no": "064-231",
+      "destCode": "武蔵小杉",
+      "kind": "急",
+      "delay": "44分遅れ",
+      "updated": "00:20",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4799,7 +4821,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:15",
+  "lastUpdate": "00:20",
   "date": "2026-09-02",
   "resetDone": false
 }
