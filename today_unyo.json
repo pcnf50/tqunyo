@@ -3859,12 +3859,12 @@
       "no": "590-181",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "",
-      "updated": "18:15",
+      "delay": "1分遅れ",
+      "updated": "18:20",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "18:15",
+  "lastUpdate": "18:20",
   "date": "2026-09-01",
   "resetDone": false
 }
