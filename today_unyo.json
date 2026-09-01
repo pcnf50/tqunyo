@@ -2320,6 +2320,17 @@
       "delay": "12分遅れ",
       "updated": "23:50",
       "affiliation": "急"
+    },
+    {
+      "op": "02K",
+      "form": "5158F",
+      "cars": "8",
+      "no": "002-231",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "11分遅れ",
+      "updated": "23:55",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4722,7 +4733,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:50",
+  "lastUpdate": "23:55",
   "date": "2026-09-01",
   "resetDone": false
 }
