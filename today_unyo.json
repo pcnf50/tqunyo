@@ -3983,9 +3983,20 @@
       "delay": "12分遅れ",
       "updated": "19:30",
       "affiliation": "西"
+    },
+    {
+      "op": "63",
+      "form": "-",
+      "cars": "10",
+      "no": "763-191",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "7分遅れ",
+      "updated": "19:35",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "19:30",
+  "lastUpdate": "19:35",
   "date": "2026-09-01",
   "resetDone": false
 }
