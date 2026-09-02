@@ -2324,6 +2324,17 @@
       "affiliation": "急"
     },
     {
+      "op": "25K",
+      "form": "3122F",
+      "cars": "8",
+      "no": "225-071",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "07:45",
+      "affiliation": "急"
+    },
+    {
       "op": "39G",
       "form": "21105F",
       "cars": "8",
@@ -2331,7 +2342,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:40",
+      "updated": "07:45",
       "affiliation": "相"
     },
     {
@@ -2342,7 +2353,18 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:40",
+      "updated": "07:45",
+      "affiliation": "急"
+    },
+    {
+      "op": "04K",
+      "form": "3111F",
+      "cars": "8",
+      "no": "204-072",
+      "destCode": "南北線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "07:45",
       "affiliation": "急"
     },
     {
@@ -2352,11 +2374,11 @@
       "no": "350-071",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "2分遅れ",
-      "updated": "07:40",
+      "delay": "",
+      "updated": "07:45",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "07:40",
+  "lastUpdate": "07:45",
   "date": "2026-09-03"
 }
