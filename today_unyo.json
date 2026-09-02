@@ -197,6 +197,17 @@
       "delay": "",
       "updated": "05:15",
       "affiliation": "急"
+    },
+    {
+      "op": "30",
+      "form": "-",
+      "cars": "8",
+      "no": "230-052",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:20",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -408,8 +419,19 @@
       "delay": "",
       "updated": "05:15",
       "affiliation": "南"
+    },
+    {
+      "op": "30K",
+      "form": "5190F",
+      "cars": "8",
+      "no": "230-052",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:20",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "05:15",
+  "lastUpdate": "05:20",
   "date": "2026-09-03"
 }
