@@ -2654,14 +2654,36 @@
       "affiliation": "急"
     },
     {
+      "op": "46S",
+      "form": "9104F",
+      "cars": "6",
+      "no": "346-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "08:45",
+      "affiliation": "南"
+    },
+    {
       "op": "73T",
-      "form": "-",
-      "cars": "0",
+      "form": "6333F",
+      "cars": "6",
       "no": "473-081",
       "destCode": "元住吉",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "08:40",
+      "updated": "08:45",
+      "affiliation": "都"
+    },
+    {
+      "op": "42G",
+      "form": "-",
+      "cars": "0",
+      "no": "642-081",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "08:45",
       "affiliation": ""
     },
     {
@@ -2671,11 +2693,11 @@
       "no": "435-081",
       "destCode": "新横浜",
       "kind": "普",
-      "delay": "2分遅れ",
-      "updated": "08:40",
+      "delay": "1分遅れ",
+      "updated": "08:45",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "08:40",
+  "lastUpdate": "08:45",
   "date": "2026-09-03"
 }
