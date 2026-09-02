@@ -4126,8 +4126,19 @@
       "delay": "",
       "updated": "15:55",
       "affiliation": ""
+    },
+    {
+      "op": "89T",
+      "form": "6332F",
+      "cars": "6",
+      "no": "489-161",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "16:10",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "16:05",
+  "lastUpdate": "16:10",
   "date": "2026-09-02"
 }
