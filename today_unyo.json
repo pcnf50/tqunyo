@@ -2364,6 +2364,17 @@
       "delay": "",
       "updated": "23:55",
       "affiliation": "急"
+    },
+    {
+      "op": "23K",
+      "form": "-",
+      "cars": "8",
+      "no": "023-241",
+      "destCode": "菊名",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:10",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4887,6 +4898,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:05",
+  "lastUpdate": "00:10",
   "date": "2026-09-03"
 }
