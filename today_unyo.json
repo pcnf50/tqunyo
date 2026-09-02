@@ -2696,8 +2696,19 @@
       "delay": "1分遅れ",
       "updated": "08:45",
       "affiliation": "都"
+    },
+    {
+      "op": "92M",
+      "form": "-",
+      "cars": "0",
+      "no": "592-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "08:50",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "08:45",
+  "lastUpdate": "08:50",
   "date": "2026-09-03"
 }
