@@ -1946,6 +1946,17 @@
       "delay": "",
       "updated": "13:55",
       "affiliation": "南"
+    },
+    {
+      "op": "49K",
+      "form": "4110F",
+      "cars": "10",
+      "no": "049-141",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "14:20",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4007,6 +4018,6 @@
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "14:15",
+  "lastUpdate": "14:20",
   "date": "2026-09-02"
 }
