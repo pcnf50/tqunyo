@@ -4016,8 +4016,19 @@
       "delay": "",
       "updated": "14:15",
       "affiliation": "都"
+    },
+    {
+      "op": "94K",
+      "form": "-",
+      "cars": "0",
+      "no": "294-141",
+      "destCode": "",
+      "kind": "回",
+      "delay": "",
+      "updated": "14:30",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "14:25",
+  "lastUpdate": "14:30",
   "date": "2026-09-02"
 }
