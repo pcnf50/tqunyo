@@ -2479,14 +2479,25 @@
     },
     {
       "op": "41T",
-      "form": "-",
-      "cars": "0",
+      "form": "6318F",
+      "cars": "6",
       "no": "441-081",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "08:10",
-      "affiliation": ""
+      "delay": "",
+      "updated": "08:15",
+      "affiliation": "都"
+    },
+    {
+      "op": "93",
+      "form": "-",
+      "cars": "10",
+      "no": "993-082",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "08:15",
+      "affiliation": "相"
     },
     {
       "op": "25",
@@ -2496,10 +2507,10 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "1分遅れ",
-      "updated": "08:10",
+      "updated": "08:15",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "08:14",
+  "lastUpdate": "08:15",
   "date": "2026-09-03"
 }
