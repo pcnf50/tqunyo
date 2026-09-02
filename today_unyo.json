@@ -2364,6 +2364,28 @@
       "delay": "",
       "updated": "23:55",
       "affiliation": "急"
+    },
+    {
+      "op": "99G",
+      "form": "5172F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "00:25",
+      "affiliation": "急"
+    },
+    {
+      "op": "85K",
+      "form": "5176F",
+      "cars": "8",
+      "no": "085-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "00:25",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4887,6 +4909,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:20",
+  "lastUpdate": "00:25",
   "date": "2026-09-03"
 }
