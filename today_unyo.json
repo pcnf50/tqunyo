@@ -2698,17 +2698,28 @@
       "affiliation": "都"
     },
     {
-      "op": "92M",
+      "op": "25K",
       "form": "-",
-      "cars": "0",
+      "cars": "8",
+      "no": "025-081",
+      "destCode": "武蔵小杉",
+      "kind": "普",
+      "delay": "6分遅れ",
+      "updated": "08:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "92M",
+      "form": "9104F",
+      "cars": "6",
       "no": "592-081",
       "destCode": "元住吉",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "08:50",
-      "affiliation": ""
+      "updated": "08:55",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:50",
+  "lastUpdate": "08:55",
   "date": "2026-09-03"
 }
