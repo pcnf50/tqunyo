@@ -4467,8 +4467,19 @@
       "delay": "",
       "updated": "18:35",
       "affiliation": "南"
+    },
+    {
+      "op": "30S",
+      "form": "-",
+      "cars": "8",
+      "no": "030-181",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "18:50",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "18:45",
+  "lastUpdate": "18:50",
   "date": "2026-09-02"
 }
