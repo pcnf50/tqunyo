@@ -2949,8 +2949,19 @@
       "delay": "",
       "updated": "10:55",
       "affiliation": "相"
+    },
+    {
+      "op": "66S",
+      "form": "9107F",
+      "cars": "6",
+      "no": "366-101",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "11:00",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "10:55",
+  "lastUpdate": "11:00",
   "date": "2026-09-03"
 }
