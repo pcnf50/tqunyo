@@ -1649,6 +1649,17 @@
       "delay": "",
       "updated": "22:35",
       "affiliation": "都"
+    },
+    {
+      "op": "29",
+      "form": "-",
+      "cars": "8",
+      "no": "229-221",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:40",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4095,6 +4106,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:35",
+  "lastUpdate": "22:40",
   "date": "2026-09-03"
 }
