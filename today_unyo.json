@@ -1475,15 +1475,15 @@
       "affiliation": "急"
     },
     {
-      "op": "10K",
-      "form": "-",
-      "cars": "8",
-      "no": "010-211",
+      "op": "85S",
+      "form": "10108F",
+      "cars": "10",
+      "no": "785-211",
       "destCode": "元町・中華街",
-      "kind": "普",
+      "kind": "通",
       "delay": "",
-      "updated": "21:10",
-      "affiliation": "急"
+      "updated": "21:15",
+      "affiliation": "副"
     },
     {
       "op": "73",
@@ -1493,7 +1493,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "21:10",
+      "updated": "21:15",
       "affiliation": "都"
     }
   ],
@@ -3897,6 +3897,6 @@
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "21:10",
+  "lastUpdate": "21:15",
   "date": "2026-09-03"
 }
