@@ -2927,8 +2927,19 @@
       "delay": "",
       "updated": "10:35",
       "affiliation": "都"
+    },
+    {
+      "op": "77T",
+      "form": "6506F",
+      "cars": "8",
+      "no": "477-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:40",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "10:35",
+  "lastUpdate": "10:40",
   "date": "2026-09-03"
 }
