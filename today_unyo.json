@@ -2872,8 +2872,19 @@
       "delay": "3分遅れ",
       "updated": "10:05",
       "affiliation": "西"
+    },
+    {
+      "op": "65T",
+      "form": "-",
+      "cars": "6",
+      "no": "465-101",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:10",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "10:09",
+  "lastUpdate": "10:10",
   "date": "2026-09-03"
 }
