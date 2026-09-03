@@ -1680,7 +1680,18 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "23:05",
+      "updated": "23:10",
+      "affiliation": "南"
+    },
+    {
+      "op": "86",
+      "form": "-",
+      "cars": "6",
+      "no": "586-221",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:10",
       "affiliation": "南"
     }
   ],
@@ -4126,8 +4137,19 @@
       "delay": "",
       "updated": "22:35",
       "affiliation": "急"
+    },
+    {
+      "op": "89K",
+      "form": "3112F",
+      "cars": "8",
+      "no": "289-232",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "23:10",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:05",
+  "lastUpdate": "23:10",
   "date": "2026-09-03"
 }
