@@ -2861,8 +2861,19 @@
       "delay": "",
       "updated": "09:55",
       "affiliation": "都"
+    },
+    {
+      "op": "24",
+      "form": "-",
+      "cars": "10",
+      "no": "124-092",
+      "destCode": "副都心線直通",
+      "kind": "特",
+      "delay": "2分遅れ",
+      "updated": "10:00",
+      "affiliation": "西"
     }
   ],
-  "lastUpdate": "09:55",
+  "lastUpdate": "10:00",
   "date": "2026-09-03"
 }
