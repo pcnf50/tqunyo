@@ -3092,8 +3092,19 @@
       "delay": "",
       "updated": "12:45",
       "affiliation": "急"
+    },
+    {
+      "op": "46T",
+      "form": "-",
+      "cars": "10",
+      "no": "046-122",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "13:00",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "12:55",
+  "lastUpdate": "13:00",
   "date": "2026-09-03"
 }
