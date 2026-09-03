@@ -3114,8 +3114,19 @@
       "delay": "",
       "updated": "14:05",
       "affiliation": ""
+    },
+    {
+      "op": "64G",
+      "form": "-",
+      "cars": "10",
+      "no": "064-152",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "15:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "15:40",
+  "lastUpdate": "15:45",
   "date": "2026-09-03"
 }
