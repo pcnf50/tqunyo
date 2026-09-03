@@ -2869,11 +2869,11 @@
       "no": "124-092",
       "destCode": "副都心線直通",
       "kind": "特",
-      "delay": "2分遅れ",
-      "updated": "10:00",
+      "delay": "3分遅れ",
+      "updated": "10:05",
       "affiliation": "西"
     }
   ],
-  "lastUpdate": "10:00",
+  "lastUpdate": "10:05",
   "date": "2026-09-03"
 }
