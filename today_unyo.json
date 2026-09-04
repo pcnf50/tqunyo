@@ -428,6 +428,17 @@
       "affiliation": "南"
     },
     {
+      "op": "99G",
+      "form": "Y513F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "06:00",
+      "affiliation": "み"
+    },
+    {
       "op": "07S",
       "form": "17195F",
       "cars": "8",
@@ -435,8 +446,19 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "05:55",
+      "updated": "06:00",
       "affiliation": "副"
+    },
+    {
+      "op": "32",
+      "form": "-",
+      "cars": "8",
+      "no": "332-052",
+      "destCode": "目黒",
+      "kind": "回",
+      "delay": "",
+      "updated": "06:00",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -866,7 +888,7 @@
       "destCode": "渋谷",
       "kind": "急",
       "delay": "",
-      "updated": "05:55",
+      "updated": "06:00",
       "affiliation": "急"
     },
     {
@@ -877,7 +899,29 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:55",
+      "updated": "06:00",
+      "affiliation": "急"
+    },
+    {
+      "op": "80M",
+      "form": "9102F",
+      "cars": "6",
+      "no": "580-051",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:00",
+      "affiliation": "南"
+    },
+    {
+      "op": "10",
+      "form": "-",
+      "cars": "8",
+      "no": "010-052",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:00",
       "affiliation": "急"
     },
     {
@@ -887,8 +931,8 @@
       "no": "003-051",
       "destCode": "菊名",
       "kind": "回",
-      "delay": "",
-      "updated": "05:55",
+      "delay": "2分遅れ",
+      "updated": "06:00",
       "affiliation": "急"
     },
     {
@@ -899,11 +943,22 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "05:55",
+      "updated": "06:00",
       "affiliation": "副"
+    },
+    {
+      "op": "32S",
+      "form": "9115F",
+      "cars": "8",
+      "no": "332-052",
+      "destCode": "目黒",
+      "kind": "回",
+      "delay": "",
+      "updated": "06:00",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "05:55",
+  "lastUpdate": "06:00",
   "date": "2026-09-05",
   "resetDone": false
 }
