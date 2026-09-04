@@ -1825,6 +1825,17 @@
       "delay": "",
       "updated": "13:05",
       "affiliation": "急"
+    },
+    {
+      "op": "47K",
+      "form": "4106F",
+      "cars": "10",
+      "no": "047-131",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "2分遅れ",
+      "updated": "13:10",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3719,6 +3730,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "13:05",
+  "lastUpdate": "13:10",
   "date": "2026-09-04"
 }
