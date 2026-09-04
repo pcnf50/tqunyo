@@ -1845,7 +1845,7 @@
       "destCode": "",
       "kind": "回",
       "delay": "",
-      "updated": "13:30",
+      "updated": "13:35",
       "affiliation": ""
     }
   ],
@@ -3750,19 +3750,8 @@
       "delay": "",
       "updated": "13:25",
       "affiliation": ""
-    },
-    {
-      "op": "80",
-      "form": "-",
-      "cars": "0",
-      "no": "080-132",
-      "destCode": "",
-      "kind": "回",
-      "delay": "",
-      "updated": "13:30",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "13:30",
+  "lastUpdate": "13:35",
   "date": "2026-09-04"
 }
