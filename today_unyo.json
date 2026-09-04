@@ -1139,7 +1139,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "08:35",
+      "updated": "08:40",
       "affiliation": "副"
     }
   ],
@@ -2267,6 +2267,17 @@
       "affiliation": "南"
     },
     {
+      "op": "35T",
+      "form": "6510F",
+      "cars": "8",
+      "no": "435-081",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:40",
+      "affiliation": "都"
+    },
+    {
       "op": "40K",
       "form": "5183F",
       "cars": "8",
@@ -2274,7 +2285,7 @@
       "destCode": "元住吉",
       "kind": "普",
       "delay": "",
-      "updated": "08:35",
+      "updated": "08:40",
       "affiliation": "急"
     },
     {
@@ -2285,11 +2296,11 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "08:35",
+      "updated": "08:40",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "08:35",
+  "lastUpdate": "08:40",
   "date": "2026-09-05",
   "resetDone": false
 }
