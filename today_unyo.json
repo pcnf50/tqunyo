@@ -1836,6 +1836,17 @@
       "delay": "1分遅れ",
       "updated": "13:15",
       "affiliation": "急"
+    },
+    {
+      "op": "80K",
+      "form": "-",
+      "cars": "0",
+      "no": "080-132",
+      "destCode": "",
+      "kind": "回",
+      "delay": "",
+      "updated": "13:30",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -3739,8 +3750,19 @@
       "delay": "",
       "updated": "13:25",
       "affiliation": ""
+    },
+    {
+      "op": "80",
+      "form": "-",
+      "cars": "0",
+      "no": "080-132",
+      "destCode": "",
+      "kind": "回",
+      "delay": "",
+      "updated": "13:30",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "13:25",
+  "lastUpdate": "13:30",
   "date": "2026-09-04"
 }
