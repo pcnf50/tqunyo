@@ -3288,20 +3288,9 @@
       "delay": "",
       "updated": "17:00",
       "affiliation": "急"
-    },
-    {
-      "op": "57T",
-      "form": "-",
-      "cars": "0",
-      "no": "457-171",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "17:35",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "17:35",
+  "lastUpdate": "17:40",
   "date": "2026-09-05",
   "resetDone": false
 }
