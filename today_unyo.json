@@ -1900,6 +1900,17 @@
       "delay": "",
       "updated": "23:10",
       "affiliation": "西"
+    },
+    {
+      "op": "45S",
+      "form": "10130F",
+      "cars": "10",
+      "no": "745-231",
+      "destCode": "横浜",
+      "kind": "特",
+      "delay": "",
+      "updated": "23:25",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -3840,7 +3851,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:20",
+  "lastUpdate": "23:25",
   "date": "2026-09-05",
   "resetDone": false
 }
