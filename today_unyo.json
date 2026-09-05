@@ -744,9 +744,20 @@
       "no": "791-062",
       "destCode": "渋谷",
       "kind": "回",
-      "delay": "8分遅れ",
-      "updated": "07:00",
+      "delay": "7分遅れ",
+      "updated": "07:05",
       "affiliation": "副"
+    },
+    {
+      "op": "15K",
+      "form": "Y515F",
+      "cars": "8",
+      "no": "015-062",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "07:05",
+      "affiliation": "み"
     },
     {
       "op": "71M",
@@ -756,7 +767,7 @@
       "destCode": "元町・中華街",
       "kind": "回",
       "delay": "",
-      "updated": "07:00",
+      "updated": "07:05",
       "affiliation": "西"
     },
     {
@@ -767,8 +778,19 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "07:00",
+      "updated": "07:05",
       "affiliation": "都"
+    },
+    {
+      "op": "52",
+      "form": "-",
+      "cars": "6",
+      "no": "352-061",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:05",
+      "affiliation": "南"
     },
     {
       "op": "03T",
@@ -778,7 +800,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "07:00",
+      "updated": "07:05",
       "affiliation": "東"
     }
   ],
@@ -1543,17 +1565,50 @@
       "affiliation": "副"
     },
     {
-      "op": "91",
+      "op": "15",
+      "form": "-",
+      "cars": "8",
+      "no": "015-062",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "07:05",
+      "affiliation": "み"
+    },
+    {
+      "op": "34S",
+      "form": "-",
+      "cars": "0",
+      "no": "334-072",
+      "destCode": "目黒",
+      "kind": "回",
+      "delay": "3分遅れ",
+      "updated": "07:05",
+      "affiliation": ""
+    },
+    {
+      "op": "61G",
       "form": "-",
       "cars": "10",
-      "no": "791-062",
-      "destCode": "渋谷",
-      "kind": "回",
-      "delay": "8分遅れ",
-      "updated": "07:00",
+      "no": "061-062",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "2分遅れ",
+      "updated": "07:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "33",
+      "form": "-",
+      "cars": "10",
+      "no": "733-061",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "07:05",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "07:00",
+  "lastUpdate": "07:05",
   "date": "2026-09-06"
 }
