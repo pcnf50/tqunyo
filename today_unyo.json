@@ -1088,13 +1088,15 @@
       "affiliation": "急"
     },
     {
-      "op": "99",
-      "form": "5152F",
-      "cars": "8",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "不明",
-      "delay": ""
+      "op": "64",
+      "form": "-",
+      "cars": "6",
+      "no": "364-071",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:20",
+      "affiliation": "南"
     },
     {
       "op": "43S",
@@ -1918,7 +1920,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "23:35",
+      "updated": "23:40",
       "affiliation": "急"
     }
   ],
@@ -3867,11 +3869,11 @@
       "destCode": "横浜",
       "kind": "特",
       "delay": "",
-      "updated": "23:35",
+      "updated": "23:40",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "23:38",
+  "lastUpdate": "23:40",
   "date": "2026-09-05",
   "resetDone": false
 }
