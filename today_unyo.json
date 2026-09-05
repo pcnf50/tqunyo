@@ -1834,6 +1834,17 @@
       "delay": "",
       "updated": "22:20",
       "affiliation": "都"
+    },
+    {
+      "op": "91G",
+      "form": "20104F",
+      "cars": "10",
+      "no": "991-222",
+      "destCode": "渋谷",
+      "kind": "急",
+      "delay": "",
+      "updated": "22:30",
+      "affiliation": "相"
     }
   ],
   "meguro": [
@@ -3752,7 +3763,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:25",
+  "lastUpdate": "22:30",
   "date": "2026-09-05",
   "resetDone": false
 }
