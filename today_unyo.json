@@ -1777,7 +1777,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:45",
+      "updated": "19:50",
       "affiliation": "急"
     }
   ],
@@ -3565,6 +3565,17 @@
       "affiliation": ""
     },
     {
+      "op": "44S",
+      "form": "-",
+      "cars": "0",
+      "no": "344-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:50",
+      "affiliation": ""
+    },
+    {
       "op": "07K",
       "form": "5182F",
       "cars": "8",
@@ -3572,11 +3583,11 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:45",
+      "updated": "19:50",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:45",
+  "lastUpdate": "19:50",
   "date": "2026-09-05",
   "resetDone": false
 }
