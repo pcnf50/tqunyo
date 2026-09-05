@@ -1469,7 +1469,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "11:05",
+      "updated": "11:10",
       "affiliation": "南"
     }
   ],
@@ -2960,29 +2960,18 @@
       "affiliation": ""
     },
     {
-      "op": "08",
+      "op": "61",
       "form": "-",
       "cars": "10",
-      "no": "108-102",
-      "destCode": "副都心線直通",
-      "kind": "急",
+      "no": "761-101",
+      "destCode": "元町・中華街",
+      "kind": "特",
       "delay": "",
-      "updated": "11:05",
-      "affiliation": "西"
-    },
-    {
-      "op": "90K",
-      "form": "3113F",
-      "cars": "8",
-      "no": "290-111",
-      "destCode": "元住吉",
-      "kind": "回",
-      "delay": "",
-      "updated": "11:05",
-      "affiliation": "急"
+      "updated": "11:10",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "11:05",
+  "lastUpdate": "11:10",
   "date": "2026-09-05",
   "resetDone": false
 }
