@@ -1611,8 +1611,8 @@
       "no": "817-162",
       "destCode": "副都心線直通",
       "kind": "回",
-      "delay": "2分遅れ",
-      "updated": "16:45",
+      "delay": "1分遅れ",
+      "updated": "16:50",
       "affiliation": "東"
     }
   ],
@@ -3235,7 +3235,7 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "16:45",
+  "lastUpdate": "16:50",
   "date": "2026-09-05",
   "resetDone": false
 }
