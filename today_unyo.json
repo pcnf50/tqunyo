@@ -1642,15 +1642,13 @@
       "affiliation": ""
     },
     {
-      "op": "61G",
+      "op": "71",
       "form": "-",
       "cars": "10",
-      "no": "061-062",
-      "destCode": "副都心線直通",
-      "kind": "急",
-      "delay": "2分遅れ",
-      "updated": "07:05",
-      "affiliation": "急"
+      "no": "171-071",
+      "destCode": "元町・中華街",
+      "kind": "回送",
+      "delay": ""
     },
     {
       "op": "33",
@@ -1719,6 +1717,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "07:20",
+  "lastUpdate": "07:21",
   "date": "2026-09-06"
 }
