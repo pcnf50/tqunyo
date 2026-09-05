@@ -1755,7 +1755,7 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:15",
+      "updated": "19:20",
       "affiliation": "急"
     }
   ],
@@ -3495,7 +3495,7 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:15",
+      "updated": "19:20",
       "affiliation": "急"
     },
     {
@@ -3505,12 +3505,12 @@
       "no": "174-181",
       "destCode": "元町・中華街",
       "kind": "Ｓ",
-      "delay": "",
-      "updated": "19:15",
+      "delay": "2分遅れ",
+      "updated": "19:20",
       "affiliation": "西"
     }
   ],
-  "lastUpdate": "19:15",
+  "lastUpdate": "19:20",
   "date": "2026-09-05",
   "resetDone": false
 }
