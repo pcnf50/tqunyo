@@ -1814,6 +1814,17 @@
       "delay": "",
       "updated": "22:05",
       "affiliation": "急"
+    },
+    {
+      "op": "44",
+      "form": "5118F",
+      "cars": "8",
+      "no": "244-222",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "22:15",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3741,8 +3752,19 @@
       "delay": "",
       "updated": "22:05",
       "affiliation": "都"
+    },
+    {
+      "op": "44K",
+      "form": "5188F",
+      "cars": "8",
+      "no": "244-222",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "22:15",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:10",
+  "lastUpdate": "22:15",
   "date": "2026-09-06"
 }
