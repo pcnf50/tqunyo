@@ -1471,7 +1471,7 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "11:40",
+      "updated": "11:45",
       "affiliation": "副"
     }
   ],
@@ -2982,8 +2982,19 @@
       "delay": "",
       "updated": "11:05",
       "affiliation": ""
+    },
+    {
+      "op": "46S",
+      "form": "9101F",
+      "cars": "6",
+      "no": "346-111",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "11:45",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "11:40",
+  "lastUpdate": "11:45",
   "date": "2026-09-06"
 }
