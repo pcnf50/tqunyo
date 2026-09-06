@@ -1845,7 +1845,7 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "1分遅れ",
-      "updated": "22:40",
+      "updated": "22:45",
       "affiliation": "東"
     }
   ],
@@ -3787,6 +3787,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:40",
+  "lastUpdate": "22:45",
   "date": "2026-09-06"
 }
