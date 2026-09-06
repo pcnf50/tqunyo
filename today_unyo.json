@@ -1913,6 +1913,17 @@
       "delay": "",
       "updated": "23:35",
       "affiliation": "急"
+    },
+    {
+      "op": "37",
+      "form": "5119F",
+      "cars": "8",
+      "no": "237-242",
+      "destCode": "目黒",
+      "kind": "回",
+      "delay": "",
+      "updated": "00:05",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3895,8 +3906,19 @@
       "delay": "",
       "updated": "23:35",
       "affiliation": "急"
+    },
+    {
+      "op": "37K",
+      "form": "5189F",
+      "cars": "8",
+      "no": "237-242",
+      "destCode": "目黒",
+      "kind": "回",
+      "delay": "",
+      "updated": "00:05",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:00",
+  "lastUpdate": "00:05",
   "date": "2026-09-07"
 }
