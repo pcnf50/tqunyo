@@ -1228,9 +1228,20 @@
       "no": "457-071",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "07:50",
+      "delay": "",
+      "updated": "07:55",
       "affiliation": "都"
+    },
+    {
+      "op": "53K",
+      "form": "4110F",
+      "cars": "10",
+      "no": "053-072",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "2分遅れ",
+      "updated": "07:55",
+      "affiliation": "急"
     },
     {
       "op": "23S",
@@ -1240,8 +1251,30 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "1分遅れ",
-      "updated": "07:50",
+      "updated": "07:55",
       "affiliation": "副"
+    },
+    {
+      "op": "50",
+      "form": "-",
+      "cars": "6",
+      "no": "350-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:55",
+      "affiliation": "南"
+    },
+    {
+      "op": "84",
+      "form": "-",
+      "cars": "6",
+      "no": "584-071",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:55",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -2500,6 +2533,17 @@
       "affiliation": "南"
     },
     {
+      "op": "53M",
+      "form": "-",
+      "cars": "10",
+      "no": "053-072",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "07:55",
+      "affiliation": "急"
+    },
+    {
       "op": "59T",
       "form": "6318F",
       "cars": "6",
@@ -2507,10 +2551,32 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "07:50",
+      "updated": "07:55",
       "affiliation": "都"
+    },
+    {
+      "op": "31G",
+      "form": "21108F",
+      "cars": "8",
+      "no": "631-072",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:55",
+      "affiliation": "相"
+    },
+    {
+      "op": "45",
+      "form": "-",
+      "cars": "10",
+      "no": "745-071",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "07:55",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "07:50",
+  "lastUpdate": "07:55",
   "date": "2026-09-07"
 }
