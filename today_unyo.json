@@ -1583,6 +1583,17 @@
       "delay": "2分遅れ",
       "updated": "16:15",
       "affiliation": "南"
+    },
+    {
+      "op": "43S",
+      "form": "-",
+      "cars": "0",
+      "no": "743-161",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "1分遅れ",
+      "updated": "16:25",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -3270,6 +3281,6 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "16:20",
+  "lastUpdate": "16:25",
   "date": "2026-09-06"
 }
