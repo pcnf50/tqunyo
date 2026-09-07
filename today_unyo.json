@@ -1910,8 +1910,8 @@
       "no": "031-162",
       "destCode": "副都心線直通",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "17:00",
+      "delay": "",
+      "updated": "17:05",
       "affiliation": "急"
     }
   ],
@@ -3925,11 +3925,11 @@
       "no": "031-162",
       "destCode": "副都心線直通",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "17:00",
+      "delay": "",
+      "updated": "17:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:00",
+  "lastUpdate": "17:05",
   "date": "2026-09-07"
 }
