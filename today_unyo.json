@@ -1662,14 +1662,25 @@
       "affiliation": "副"
     },
     {
+      "op": "65",
+      "form": "-",
+      "cars": "6",
+      "no": "465-101",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "10:20",
+      "affiliation": "都"
+    },
+    {
       "op": "63",
       "form": "-",
       "cars": "6",
       "no": "463-091",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "10:15",
+      "delay": "5分遅れ",
+      "updated": "10:20",
       "affiliation": "都"
     }
   ],
@@ -3402,17 +3413,17 @@
       "affiliation": "副"
     },
     {
-      "op": "16K",
+      "op": "71",
       "form": "-",
-      "cars": "0",
-      "no": "216-101",
-      "destCode": "相鉄線直通",
-      "kind": "急",
+      "cars": "10",
+      "no": "771-101",
+      "destCode": "元町・中華街",
+      "kind": "特",
       "delay": "",
-      "updated": "10:15",
-      "affiliation": ""
+      "updated": "10:20",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "10:15",
+  "lastUpdate": "10:20",
   "date": "2026-09-07"
 }
