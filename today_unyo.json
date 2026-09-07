@@ -3772,7 +3772,7 @@
       "destCode": "大岡山",
       "kind": "回",
       "delay": "",
-      "updated": "13:45",
+      "updated": "13:50",
       "affiliation": ""
     },
     {
@@ -3782,11 +3782,11 @@
       "no": "586-131",
       "destCode": "新横浜",
       "kind": "急",
-      "delay": "",
-      "updated": "13:45",
+      "delay": "1分遅れ",
+      "updated": "13:50",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "13:45",
+  "lastUpdate": "13:50",
   "date": "2026-09-07"
 }
