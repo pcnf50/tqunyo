@@ -4621,20 +4621,9 @@
       "delay": "",
       "updated": "22:15",
       "affiliation": "急"
-    },
-    {
-      "op": "29K",
-      "form": "-",
-      "cars": "0",
-      "no": "229-221",
-      "destCode": "相鉄線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "22:20",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "22:20",
+  "lastUpdate": "22:25",
   "date": "2026-09-08",
   "resetDone": false
 }
