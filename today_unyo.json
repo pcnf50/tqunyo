@@ -1090,15 +1090,13 @@
       "affiliation": "副"
     },
     {
-      "op": "95G",
-      "form": "20103F",
-      "cars": "10",
-      "no": "995-072",
-      "destCode": "副都心線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "07:25",
-      "affiliation": "相"
+      "op": "99",
+      "form": "5164F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
     },
     {
       "op": "62K",
@@ -4733,7 +4731,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:50",
+  "lastUpdate": "23:53",
   "date": "2026-09-08",
   "resetDone": false
 }
