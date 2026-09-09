@@ -2454,6 +2454,17 @@
       "affiliation": "急"
     },
     {
+      "op": "58K",
+      "form": "4111F",
+      "cars": "10",
+      "no": "058-052",
+      "destCode": "渋谷",
+      "kind": "急",
+      "delay": "",
+      "updated": "05:41",
+      "affiliation": "急"
+    },
+    {
       "op": "89S",
       "form": "17106F",
       "cars": "10",
@@ -2461,8 +2472,19 @@
       "destCode": "菊名",
       "kind": "回",
       "delay": "",
-      "updated": "05:36",
+      "updated": "05:41",
       "affiliation": "副"
+    },
+    {
+      "op": "16K",
+      "form": "5119F",
+      "cars": "8",
+      "no": "016-052",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:41",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -5189,10 +5211,32 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:36",
+      "updated": "05:41",
+      "affiliation": "南"
+    },
+    {
+      "op": "16",
+      "form": "5189F",
+      "cars": "8",
+      "no": "016-052",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:41",
+      "affiliation": "急"
+    },
+    {
+      "op": "60S",
+      "form": "9102F",
+      "cars": "6",
+      "no": "360-051",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "05:41",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "05:36",
+  "lastUpdate": "05:41",
   "date": "2026-09-10"
 }
