@@ -2353,6 +2353,17 @@
       "delay": "",
       "updated": "05:06",
       "affiliation": "急"
+    },
+    {
+      "op": "51K",
+      "form": "4104F",
+      "cars": "10",
+      "no": "051-052",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:11",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -5006,6 +5017,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "05:06",
+  "lastUpdate": "05:11",
   "date": "2026-09-10"
 }
