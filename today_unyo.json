@@ -3772,8 +3772,19 @@
       "delay": "",
       "updated": "12:20",
       "affiliation": "都"
+    },
+    {
+      "op": "29K",
+      "form": "-",
+      "cars": "8",
+      "no": "029-112",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:25",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "12:20",
+  "lastUpdate": "12:25",
   "date": "2026-09-09"
 }
