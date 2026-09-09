@@ -1635,9 +1635,20 @@
       "no": "779-091",
       "destCode": "元町・中華街",
       "kind": "特",
-      "delay": "",
-      "updated": "09:40",
+      "delay": "1分遅れ",
+      "updated": "09:45",
       "affiliation": "副"
+    },
+    {
+      "op": "17",
+      "form": "-",
+      "cars": "8",
+      "no": "217-092",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:45",
+      "affiliation": "急"
     },
     {
       "op": "70",
@@ -1646,8 +1657,8 @@
       "no": "370-091",
       "destCode": "新横浜",
       "kind": "普",
-      "delay": "4分遅れ",
-      "updated": "09:40",
+      "delay": "3分遅れ",
+      "updated": "09:45",
       "affiliation": "南"
     }
   ],
@@ -3345,17 +3356,17 @@
       "affiliation": "都"
     },
     {
-      "op": "45T",
-      "form": "-",
-      "cars": "0",
-      "no": "445-091",
-      "destCode": "新横浜",
-      "kind": "普",
-      "delay": "5分遅れ",
-      "updated": "09:40",
-      "affiliation": ""
+      "op": "17K",
+      "form": "3106F",
+      "cars": "8",
+      "no": "217-092",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "09:40",
+  "lastUpdate": "09:45",
   "date": "2026-09-09"
 }
