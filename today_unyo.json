@@ -2773,6 +2773,17 @@
       "affiliation": "急"
     },
     {
+      "op": "17K",
+      "form": "5122F",
+      "cars": "8",
+      "no": "017-062",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "06:51",
+      "affiliation": "急"
+    },
+    {
       "op": "92G",
       "form": "20103F",
       "cars": "10",
@@ -2780,8 +2791,19 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "06:46",
+      "updated": "06:51",
       "affiliation": "相"
+    },
+    {
+      "op": "19S",
+      "form": "17181F",
+      "cars": "8",
+      "no": "719-061",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:51",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -5754,15 +5776,48 @@
       "affiliation": "都"
     },
     {
-      "op": "89K",
-      "form": "-",
-      "cars": "0",
-      "no": "289-061",
-      "destCode": "奥沢",
+      "op": "43K",
+      "form": "3123F",
+      "cars": "8",
+      "no": "243-063",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "06:51",
+      "affiliation": "急"
+    },
+    {
+      "op": "62S",
+      "form": "9119F",
+      "cars": "6",
+      "no": "362-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:51",
+      "affiliation": "南"
+    },
+    {
+      "op": "23T",
+      "form": "6332F",
+      "cars": "6",
+      "no": "423-062",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:51",
+      "affiliation": "都"
+    },
+    {
+      "op": "17",
+      "form": "5192F",
+      "cars": "8",
+      "no": "017-062",
+      "destCode": "副都心線直通",
       "kind": "回",
       "delay": "",
-      "updated": "06:46",
-      "affiliation": ""
+      "updated": "06:51",
+      "affiliation": "急"
     },
     {
       "op": "32S",
@@ -5772,10 +5827,10 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "06:46",
+      "updated": "06:51",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "06:46",
+  "lastUpdate": "06:51",
   "date": "2026-09-10"
 }
