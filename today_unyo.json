@@ -2593,8 +2593,19 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "06:01",
+      "updated": "06:06",
       "affiliation": "急"
+    },
+    {
+      "op": "07S",
+      "form": "17195F",
+      "cars": "8",
+      "no": "707-061",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:06",
+      "affiliation": "副"
     },
     {
       "op": "27K",
@@ -2602,9 +2613,9 @@
       "cars": "8",
       "no": "027-052",
       "destCode": "副都心線直通",
-      "kind": "回",
+      "kind": "普",
       "delay": "",
-      "updated": "06:01",
+      "updated": "06:06",
       "affiliation": "急"
     },
     {
@@ -2615,8 +2626,19 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "06:01",
+      "updated": "06:06",
       "affiliation": "み"
+    },
+    {
+      "op": "55K",
+      "form": "4109F",
+      "cars": "10",
+      "no": "055-052",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:06",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -5420,8 +5442,19 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "06:01",
+      "updated": "06:06",
       "affiliation": "南"
+    },
+    {
+      "op": "39T",
+      "form": "6331F",
+      "cars": "6",
+      "no": "439-061",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:06",
+      "affiliation": "都"
     },
     {
       "op": "3S",
@@ -5429,12 +5462,23 @@
       "cars": "8",
       "no": "003-051",
       "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:06",
+      "affiliation": "み"
+    },
+    {
+      "op": "34S",
+      "form": "9116F",
+      "cars": "6",
+      "no": "334-062",
+      "destCode": "目黒",
       "kind": "回",
       "delay": "",
-      "updated": "06:01",
-      "affiliation": "み"
+      "updated": "06:06",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "06:01",
+  "lastUpdate": "06:06",
   "date": "2026-09-10"
 }
