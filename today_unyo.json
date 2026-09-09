@@ -4795,8 +4795,63 @@
       "delay": "",
       "updated": "00:40",
       "affiliation": "急"
+    },
+    {
+      "op": "11K",
+      "form": "3106F",
+      "cars": "8",
+      "no": "211-042",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:51",
+      "affiliation": "急"
+    },
+    {
+      "op": "16K",
+      "form": "3112F",
+      "cars": "8",
+      "no": "216-042",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:51",
+      "affiliation": "急"
+    },
+    {
+      "op": "13K",
+      "form": "3111F",
+      "cars": "8",
+      "no": "213-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:51",
+      "affiliation": "急"
+    },
+    {
+      "op": "05K",
+      "form": "5181F",
+      "cars": "8",
+      "no": "205-051",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "04:51",
+      "affiliation": "急"
+    },
+    {
+      "op": "99",
+      "form": "5184F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "04:51",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "03:45",
+  "lastUpdate": "04:51",
   "date": "2026-09-10"
 }
