@@ -4707,8 +4707,19 @@
       "delay": "",
       "updated": "22:35",
       "affiliation": "急"
+    },
+    {
+      "op": "75T",
+      "form": "6315F",
+      "cars": "6",
+      "no": "475-231",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:10",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "23:05",
+  "lastUpdate": "23:10",
   "date": "2026-09-09"
 }
