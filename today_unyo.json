@@ -2520,6 +2520,17 @@
       "affiliation": "副"
     },
     {
+      "op": "59K",
+      "form": "4115F",
+      "cars": "10",
+      "no": "059-052",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "05:56",
+      "affiliation": "急"
+    },
+    {
       "op": "03K",
       "form": "Y515F",
       "cars": "8",
@@ -2527,7 +2538,7 @@
       "destCode": "元町・中華街",
       "kind": "回",
       "delay": "",
-      "updated": "05:51",
+      "updated": "05:56",
       "affiliation": "み"
     },
     {
@@ -2538,8 +2549,19 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "",
-      "updated": "05:51",
+      "updated": "05:56",
       "affiliation": "急"
+    },
+    {
+      "op": "06M",
+      "form": "6109F",
+      "cars": "10",
+      "no": "106-051",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "05:56",
+      "affiliation": "西"
     },
     {
       "op": "21T",
@@ -2548,8 +2570,8 @@
       "no": "821-051",
       "destCode": "横浜",
       "kind": "回",
-      "delay": "1分遅れ",
-      "updated": "05:51",
+      "delay": "",
+      "updated": "05:56",
       "affiliation": "東"
     },
     {
@@ -2560,7 +2582,7 @@
       "destCode": "渋谷",
       "kind": "急",
       "delay": "",
-      "updated": "05:51",
+      "updated": "05:56",
       "affiliation": "急"
     }
   ],
@@ -5325,6 +5347,28 @@
       "affiliation": "南"
     },
     {
+      "op": "80M",
+      "form": "-",
+      "cars": "0",
+      "no": "580-051",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:56",
+      "affiliation": ""
+    },
+    {
+      "op": "09K",
+      "form": "5186F",
+      "cars": "8",
+      "no": "209-062",
+      "destCode": "目黒",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:56",
+      "affiliation": "急"
+    },
+    {
       "op": "31T",
       "form": "6503F",
       "cars": "8",
@@ -5332,10 +5376,10 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "05:51",
+      "updated": "05:56",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "05:51",
+  "lastUpdate": "05:56",
   "date": "2026-09-10"
 }
