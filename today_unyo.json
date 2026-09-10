@@ -3875,6 +3875,17 @@
       "affiliation": "急"
     },
     {
+      "op": "08K",
+      "form": "-",
+      "cars": "0",
+      "no": "208-231",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "23:50",
+      "affiliation": ""
+    },
+    {
       "op": "99",
       "form": "5185F",
       "cars": "8",
@@ -3882,11 +3893,22 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:45",
+      "updated": "23:50",
       "affiliation": "急"
+    },
+    {
+      "op": "40S",
+      "form": "9122F",
+      "cars": "6",
+      "no": "340-232",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:50",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "23:45",
+  "lastUpdate": "23:50",
   "date": "2026-09-10",
   "resetDone": false
 }
