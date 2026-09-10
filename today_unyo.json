@@ -1343,6 +1343,17 @@
       "affiliation": "西"
     },
     {
+      "op": "04K",
+      "form": "5170F",
+      "cars": "8",
+      "no": "004-111",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "11:30",
+      "affiliation": "急"
+    },
+    {
       "op": "44",
       "form": "-",
       "cars": "6",
@@ -1350,8 +1361,30 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "11:25",
+      "updated": "11:30",
       "affiliation": "南"
+    },
+    {
+      "op": "89",
+      "form": "-",
+      "cars": "6",
+      "no": "489-111",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:30",
+      "affiliation": "都"
+    },
+    {
+      "op": "63K",
+      "form": "4101F",
+      "cars": "10",
+      "no": "063-111",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "3分遅れ",
+      "updated": "11:30",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -2764,6 +2797,17 @@
       "affiliation": "南"
     },
     {
+      "op": "09",
+      "form": "-",
+      "cars": "8",
+      "no": "709-111",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:30",
+      "affiliation": "副"
+    },
+    {
       "op": "36S",
       "form": "9123F",
       "cars": "6",
@@ -2771,19 +2815,8 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "11:25",
+      "updated": "11:30",
       "affiliation": "南"
-    },
-    {
-      "op": "20",
-      "form": "-",
-      "cars": "10",
-      "no": "120-111",
-      "destCode": "元町・中華街",
-      "kind": "Ｆ",
-      "delay": "",
-      "updated": "11:25",
-      "affiliation": "西"
     },
     {
       "op": "44S",
@@ -2793,11 +2826,11 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "11:25",
+      "updated": "11:30",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "11:25",
+  "lastUpdate": "11:30",
   "date": "2026-09-10",
   "resetDone": false
 }
