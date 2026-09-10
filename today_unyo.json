@@ -1902,6 +1902,17 @@
       "delay": "",
       "updated": "23:10",
       "affiliation": "急"
+    },
+    {
+      "op": "99G",
+      "form": "5159F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "23:55",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3906,9 +3917,20 @@
       "delay": "",
       "updated": "23:50",
       "affiliation": "南"
+    },
+    {
+      "op": "08K",
+      "form": "3122F",
+      "cars": "8",
+      "no": "208-231",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "23:55",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:50",
+  "lastUpdate": "23:55",
   "date": "2026-09-10",
   "resetDone": false
 }
