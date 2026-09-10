@@ -2883,9 +2883,20 @@
       "delay": "",
       "updated": "11:40",
       "affiliation": ""
+    },
+    {
+      "op": "4T",
+      "form": "-",
+      "cars": "8",
+      "no": "004-111",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "11:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "11:40",
+  "lastUpdate": "11:45",
   "date": "2026-09-10",
   "resetDone": false
 }
