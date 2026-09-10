@@ -604,6 +604,50 @@
       "delay": "",
       "updated": "06:26",
       "affiliation": "急"
+    },
+    {
+      "op": "17S",
+      "form": "17189F",
+      "cars": "8",
+      "no": "717-062",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:31",
+      "affiliation": "副"
+    },
+    {
+      "op": "82",
+      "form": "-",
+      "cars": "6",
+      "no": "582-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:31",
+      "affiliation": "南"
+    },
+    {
+      "op": "14K",
+      "form": "5119F",
+      "cars": "8",
+      "no": "014-062",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "06:31",
+      "affiliation": "急"
+    },
+    {
+      "op": "33",
+      "form": "-",
+      "cars": "8",
+      "no": "633-062",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:31",
+      "affiliation": "相"
     }
   ],
   "meguro": [
@@ -1134,8 +1178,63 @@
       "delay": "",
       "updated": "06:26",
       "affiliation": "相"
+    },
+    {
+      "op": "21",
+      "form": "-",
+      "cars": "10",
+      "no": "821-062",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:31",
+      "affiliation": "東"
+    },
+    {
+      "op": "14",
+      "form": "5189F",
+      "cars": "8",
+      "no": "014-062",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "06:31",
+      "affiliation": "急"
+    },
+    {
+      "op": "54M",
+      "form": "-",
+      "cars": "10",
+      "no": "054-061",
+      "destCode": "元町・中華街",
+      "kind": "回",
+      "delay": "",
+      "updated": "06:31",
+      "affiliation": "急"
+    },
+    {
+      "op": "33G",
+      "form": "21101F",
+      "cars": "8",
+      "no": "633-062",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:31",
+      "affiliation": "相"
+    },
+    {
+      "op": "43T",
+      "form": "6503F",
+      "cars": "8",
+      "no": "443-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:31",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "06:26",
+  "lastUpdate": "06:31",
   "date": "2026-09-11"
 }
