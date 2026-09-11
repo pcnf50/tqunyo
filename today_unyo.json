@@ -1657,8 +1657,8 @@
       "no": "471-101",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "12分遅れ",
-      "updated": "10:50",
+      "delay": "14分遅れ",
+      "updated": "10:55",
       "affiliation": "都"
     }
   ],
@@ -3488,17 +3488,28 @@
       "affiliation": "都"
     },
     {
+      "op": "79T",
+      "form": "6508F",
+      "cars": "8",
+      "no": "479-101",
+      "destCode": "武蔵小杉",
+      "kind": "普",
+      "delay": "17分遅れ",
+      "updated": "10:55",
+      "affiliation": "都"
+    },
+    {
       "op": "37G",
       "form": "21102F",
       "cars": "8",
       "no": "637-102",
       "destCode": "三田線直通",
       "kind": "急",
-      "delay": "2分遅れ",
-      "updated": "10:50",
+      "delay": "1分遅れ",
+      "updated": "10:55",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "10:50",
+  "lastUpdate": "10:55",
   "date": "2026-09-11"
 }
