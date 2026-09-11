@@ -1668,8 +1668,19 @@
       "no": "477-101",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "11:01",
+      "delay": "",
+      "updated": "11:05",
+      "affiliation": "都"
+    },
+    {
+      "op": "79",
+      "form": "-",
+      "cars": "8",
+      "no": "479-101",
+      "destCode": "武蔵小杉",
+      "kind": "普",
+      "delay": "15分遅れ",
+      "updated": "11:05",
       "affiliation": "都"
     }
   ],
@@ -3527,11 +3538,11 @@
       "no": "366-101",
       "destCode": "新横浜",
       "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "11:01",
+      "delay": "6分遅れ",
+      "updated": "11:05",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "11:01",
+  "lastUpdate": "11:05",
   "date": "2026-09-11"
 }
