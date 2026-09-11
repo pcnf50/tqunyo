@@ -3246,8 +3246,19 @@
       "delay": "",
       "updated": "09:25",
       "affiliation": "南"
+    },
+    {
+      "op": "41K",
+      "form": "-",
+      "cars": "0",
+      "no": "241-091",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "27分遅れ",
+      "updated": "09:30",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "09:25",
+  "lastUpdate": "09:30",
   "date": "2026-09-11"
 }
