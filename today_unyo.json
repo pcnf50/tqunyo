@@ -2734,7 +2734,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "07:01",
+      "updated": "07:05",
       "affiliation": "東"
     },
     {
@@ -2745,7 +2745,7 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "",
-      "updated": "07:01",
+      "updated": "07:05",
       "affiliation": "急"
     }
   ],
@@ -5665,27 +5665,16 @@
     },
     {
       "op": "34S",
-      "form": "-",
-      "cars": "0",
+      "form": "9115F",
+      "cars": "8",
       "no": "334-072",
       "destCode": "目黒",
       "kind": "回",
       "delay": "",
-      "updated": "07:01",
-      "affiliation": ""
-    },
-    {
-      "op": "11K",
-      "form": "-",
-      "cars": "0",
-      "no": "211-071",
-      "destCode": "相鉄線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "07:01",
-      "affiliation": ""
+      "updated": "07:05",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "07:01",
+  "lastUpdate": "07:05",
   "date": "2026-09-12"
 }
