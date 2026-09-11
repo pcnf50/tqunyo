@@ -2012,6 +2012,17 @@
       "delay": "3分遅れ",
       "updated": "18:41",
       "affiliation": "急"
+    },
+    {
+      "op": "53S",
+      "form": "10118F",
+      "cars": "10",
+      "no": "753-181",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "4分遅れ",
+      "updated": "18:51",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -4291,6 +4302,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "18:46",
+  "lastUpdate": "18:51",
   "date": "2026-09-11"
 }
