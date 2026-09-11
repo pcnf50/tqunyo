@@ -4168,8 +4168,19 @@
       "delay": "",
       "updated": "18:06",
       "affiliation": "急"
+    },
+    {
+      "op": "46K",
+      "form": "3102F",
+      "cars": "8",
+      "no": "246-182",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:11",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "18:06",
+  "lastUpdate": "18:11",
   "date": "2026-09-11"
 }
