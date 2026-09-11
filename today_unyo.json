@@ -1944,7 +1944,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:31",
+      "updated": "17:36",
       "affiliation": "急"
     }
   ],
@@ -4100,19 +4100,19 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:31",
+      "updated": "17:36",
       "affiliation": "急"
     },
     {
-      "op": "12K",
+      "op": "75",
       "form": "-",
-      "cars": "0",
-      "no": "212-171",
-      "destCode": "相鉄線直通",
+      "cars": "10",
+      "no": "775-171",
+      "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "17:31",
-      "affiliation": ""
+      "updated": "17:36",
+      "affiliation": "副"
     },
     {
       "op": "83T",
@@ -4122,10 +4122,10 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "17:31",
+      "updated": "17:36",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "17:31",
+  "lastUpdate": "17:36",
   "date": "2026-09-11"
 }
