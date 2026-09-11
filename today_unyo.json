@@ -1773,14 +1773,14 @@
     },
     {
       "op": "22M",
-      "form": "-",
-      "cars": "0",
+      "form": "6117F",
+      "cars": "10",
       "no": "122-121",
       "destCode": "元町・中華街",
       "kind": "Ｆ",
-      "delay": "2分遅れ",
-      "updated": "12:10",
-      "affiliation": ""
+      "delay": "1分遅れ",
+      "updated": "12:15",
+      "affiliation": "西"
     }
   ],
   "meguro": [
@@ -3719,6 +3719,6 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "12:10",
+  "lastUpdate": "12:15",
   "date": "2026-09-11"
 }
