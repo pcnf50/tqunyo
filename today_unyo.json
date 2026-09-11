@@ -1090,15 +1090,13 @@
       "affiliation": "急"
     },
     {
-      "op": "23",
-      "form": "-",
+      "op": "99",
+      "form": "Y517F",
       "cars": "8",
-      "no": "223-071",
-      "destCode": "元住吉",
-      "kind": "普",
-      "delay": "2分遅れ",
-      "updated": "07:41",
-      "affiliation": "急"
+      "no": "999-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
     },
     {
       "op": "23S",
@@ -5149,6 +5147,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "05:16",
+  "lastUpdate": "05:28",
   "date": "2026-09-12"
 }
