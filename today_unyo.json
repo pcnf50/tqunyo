@@ -2846,6 +2846,17 @@
       "delay": "",
       "updated": "07:35",
       "affiliation": "西"
+    },
+    {
+      "op": "19S",
+      "form": "17188F",
+      "cars": "8",
+      "no": "719-072",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "07:45",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -3117,10 +3128,10 @@
       "op": "24",
       "form": "-",
       "cars": "10",
-      "no": "124-071",
-      "destCode": "元町・中華街",
-      "kind": "急行",
-      "delay": ""
+      "no": "124-092",
+      "destCode": "副都心線直通",
+      "kind": "特急",
+      "delay": "5分遅れ"
     },
     {
       "op": "60G",
@@ -5862,6 +5873,17 @@
       "affiliation": "急"
     },
     {
+      "op": "27K",
+      "form": "5181F",
+      "cars": "8",
+      "no": "227-071",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "07:45",
+      "affiliation": "急"
+    },
+    {
       "op": "35G",
       "form": "21108F",
       "cars": "8",
@@ -5869,10 +5891,10 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "07:40",
+      "updated": "07:45",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "07:44",
+  "lastUpdate": "07:45",
   "date": "2026-09-12"
 }
