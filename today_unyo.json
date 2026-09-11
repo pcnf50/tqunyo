@@ -5673,8 +5673,30 @@
       "delay": "",
       "updated": "07:05",
       "affiliation": "南"
+    },
+    {
+      "op": "36S",
+      "form": "9118F",
+      "cars": "6",
+      "no": "336-071",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:11",
+      "affiliation": "南"
+    },
+    {
+      "op": "08K",
+      "form": "5182F",
+      "cars": "8",
+      "no": "208-072",
+      "destCode": "目黒",
+      "kind": "回",
+      "delay": "",
+      "updated": "07:11",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "07:05",
+  "lastUpdate": "07:11",
   "date": "2026-09-12"
 }
