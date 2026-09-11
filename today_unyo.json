@@ -3367,8 +3367,19 @@
       "delay": "22分遅れ",
       "updated": "09:55",
       "affiliation": "都"
+    },
+    {
+      "op": "81T",
+      "form": "6505F",
+      "cars": "8",
+      "no": "481-092",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "17分遅れ",
+      "updated": "10:00",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:55",
+  "lastUpdate": "10:00",
   "date": "2026-09-11"
 }
