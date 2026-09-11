@@ -3827,8 +3827,30 @@
       "delay": "1分遅れ",
       "updated": "13:30",
       "affiliation": "副"
+    },
+    {
+      "op": "85T",
+      "form": "6317F",
+      "cars": "6",
+      "no": "485-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "13:45",
+      "affiliation": "都"
+    },
+    {
+      "op": "53T",
+      "form": "6321F",
+      "cars": "6",
+      "no": "453-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "6分遅れ",
+      "updated": "13:45",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "13:40",
+  "lastUpdate": "13:45",
   "date": "2026-09-11"
 }
