@@ -3574,8 +3574,30 @@
       "delay": "6分遅れ",
       "updated": "11:05",
       "affiliation": "南"
+    },
+    {
+      "op": "20",
+      "form": "-",
+      "cars": "10",
+      "no": "120-111",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "1分遅れ",
+      "updated": "11:20",
+      "affiliation": "西"
+    },
+    {
+      "op": "35G",
+      "form": "21101F",
+      "cars": "8",
+      "no": "635-112",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "11:20",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "11:15",
+  "lastUpdate": "11:20",
   "date": "2026-09-11"
 }
