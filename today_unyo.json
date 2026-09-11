@@ -4707,8 +4707,19 @@
       "delay": "",
       "updated": "22:56",
       "affiliation": ""
+    },
+    {
+      "op": "98K",
+      "form": "-",
+      "cars": "0",
+      "no": "298-231",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "23:06",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "23:01",
+  "lastUpdate": "23:06",
   "date": "2026-09-11"
 }
