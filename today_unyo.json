@@ -3717,8 +3717,30 @@
       "delay": "1分遅れ",
       "updated": "12:05",
       "affiliation": "副"
+    },
+    {
+      "op": "39G",
+      "form": "21103F",
+      "cars": "8",
+      "no": "639-122",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "12:20",
+      "affiliation": "相"
+    },
+    {
+      "op": "69T",
+      "form": "6511F",
+      "cars": "8",
+      "no": "469-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "8分遅れ",
+      "updated": "12:20",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "12:15",
+  "lastUpdate": "12:20",
   "date": "2026-09-11"
 }
