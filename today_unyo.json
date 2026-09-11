@@ -2166,6 +2166,28 @@
       "delay": "",
       "updated": "21:36",
       "affiliation": "急"
+    },
+    {
+      "op": "98",
+      "form": "-",
+      "cars": "8",
+      "no": "298-222",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "2分遅れ",
+      "updated": "22:41",
+      "affiliation": "急"
+    },
+    {
+      "op": "05T",
+      "form": "9152F",
+      "cars": "10",
+      "no": "805-222",
+      "destCode": "",
+      "kind": "通",
+      "delay": "",
+      "updated": "22:41",
+      "affiliation": "東"
     }
   ],
   "meguro": [
@@ -4641,8 +4663,30 @@
       "delay": "",
       "updated": "21:36",
       "affiliation": "急"
+    },
+    {
+      "op": "47K",
+      "form": "3106F",
+      "cars": "8",
+      "no": "247-222",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "22:41",
+      "affiliation": "急"
+    },
+    {
+      "op": "98K",
+      "form": "3107F",
+      "cars": "8",
+      "no": "298-222",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "2分遅れ",
+      "updated": "22:41",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "21:56",
+  "lastUpdate": "22:41",
   "date": "2026-09-11"
 }
