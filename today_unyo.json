@@ -2155,6 +2155,17 @@
       "delay": "2分遅れ",
       "updated": "21:16",
       "affiliation": ""
+    },
+    {
+      "op": "95",
+      "form": "-",
+      "cars": "8",
+      "no": "295-212",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "",
+      "updated": "21:36",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4619,8 +4630,19 @@
       "delay": "",
       "updated": "21:26",
       "affiliation": ""
+    },
+    {
+      "op": "95K",
+      "form": "3112F",
+      "cars": "8",
+      "no": "295-212",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "",
+      "updated": "21:36",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "21:31",
+  "lastUpdate": "21:36",
   "date": "2026-09-11"
 }
