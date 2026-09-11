@@ -5508,8 +5508,19 @@
       "delay": "",
       "updated": "06:25",
       "affiliation": "南"
+    },
+    {
+      "op": "43T",
+      "form": "6501F",
+      "cars": "8",
+      "no": "443-061",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:31",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "06:25",
+  "lastUpdate": "06:31",
   "date": "2026-09-12"
 }
