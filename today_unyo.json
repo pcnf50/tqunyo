@@ -4478,17 +4478,17 @@
       "affiliation": "副"
     },
     {
-      "op": "14K",
+      "op": "77",
       "form": "-",
-      "cars": "0",
-      "no": "214-191",
-      "destCode": "元住吉",
-      "kind": "普",
+      "cars": "10",
+      "no": "777-191",
+      "destCode": "元町・中華街",
+      "kind": "通",
       "delay": "",
-      "updated": "19:41",
-      "affiliation": ""
+      "updated": "19:46",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "19:41",
+  "lastUpdate": "19:46",
   "date": "2026-09-11"
 }
