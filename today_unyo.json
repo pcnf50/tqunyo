@@ -4564,8 +4564,30 @@
       "delay": "",
       "updated": "20:36",
       "affiliation": "相"
+    },
+    {
+      "op": "84M",
+      "form": "-",
+      "cars": "0",
+      "no": "584-211",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "21:06",
+      "affiliation": ""
+    },
+    {
+      "op": "31",
+      "form": "-",
+      "cars": "10",
+      "no": "731-202",
+      "destCode": "副都心線直通",
+      "kind": "通",
+      "delay": "",
+      "updated": "21:06",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "21:01",
+  "lastUpdate": "21:06",
   "date": "2026-09-11"
 }
