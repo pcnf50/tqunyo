@@ -4817,8 +4817,30 @@
       "delay": "1分遅れ",
       "updated": "00:36",
       "affiliation": "急"
+    },
+    {
+      "op": "38K",
+      "form": "-",
+      "cars": "0",
+      "no": "238-241",
+      "destCode": "武蔵小山",
+      "kind": "回",
+      "delay": "2分遅れ",
+      "updated": "00:41",
+      "affiliation": ""
+    },
+    {
+      "op": "99",
+      "form": "3123F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:41",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:36",
+  "lastUpdate": "00:41",
   "date": "2026-09-12"
 }
