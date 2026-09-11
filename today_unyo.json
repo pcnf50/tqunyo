@@ -1767,8 +1767,8 @@
       "no": "461-111",
       "destCode": "武蔵小杉",
       "kind": "普",
-      "delay": "10分遅れ",
-      "updated": "12:00",
+      "delay": "11分遅れ",
+      "updated": "12:05",
       "affiliation": "都"
     }
   ],
@@ -3695,8 +3695,19 @@
       "delay": "12分遅れ",
       "updated": "11:50",
       "affiliation": "都"
+    },
+    {
+      "op": "47",
+      "form": "-",
+      "cars": "10",
+      "no": "747-111",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "1分遅れ",
+      "updated": "12:05",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "12:00",
+  "lastUpdate": "12:05",
   "date": "2026-09-11"
 }
