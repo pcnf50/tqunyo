@@ -4696,8 +4696,19 @@
       "delay": "1分遅れ",
       "updated": "22:46",
       "affiliation": "急"
+    },
+    {
+      "op": "71T",
+      "form": "-",
+      "cars": "0",
+      "no": "471-221",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:56",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "22:51",
+  "lastUpdate": "22:56",
   "date": "2026-09-11"
 }
