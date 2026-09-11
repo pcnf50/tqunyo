@@ -3464,8 +3464,19 @@
       "delay": "13分遅れ",
       "updated": "10:40",
       "affiliation": "都"
+    },
+    {
+      "op": "77T",
+      "form": "6321F",
+      "cars": "6",
+      "no": "477-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "10:45",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "10:40",
+  "lastUpdate": "10:45",
   "date": "2026-09-11"
 }
