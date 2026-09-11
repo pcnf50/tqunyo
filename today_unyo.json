@@ -2001,6 +2001,17 @@
       "delay": "",
       "updated": "18:36",
       "affiliation": "急"
+    },
+    {
+      "op": "19K",
+      "form": "-",
+      "cars": "8",
+      "no": "019-181",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "18:41",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4280,6 +4291,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "18:36",
+  "lastUpdate": "18:41",
   "date": "2026-09-11"
 }
