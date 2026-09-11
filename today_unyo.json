@@ -1682,6 +1682,17 @@
       "delay": "15分遅れ",
       "updated": "11:05",
       "affiliation": "都"
+    },
+    {
+      "op": "84",
+      "form": "-",
+      "cars": "6",
+      "no": "584-102",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "4分遅れ",
+      "updated": "11:10",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -3543,6 +3554,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "11:05",
+  "lastUpdate": "11:10",
   "date": "2026-09-11"
 }
