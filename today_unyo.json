@@ -4608,8 +4608,19 @@
       "delay": "",
       "updated": "21:16",
       "affiliation": ""
+    },
+    {
+      "op": "77T",
+      "form": "-",
+      "cars": "0",
+      "no": "477-211",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "21:26",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "21:21",
+  "lastUpdate": "21:26",
   "date": "2026-09-11"
 }
