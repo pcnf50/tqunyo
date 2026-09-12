@@ -1519,8 +1519,19 @@
       "delay": "",
       "updated": "08:40",
       "affiliation": "都"
+    },
+    {
+      "op": "29K",
+      "form": "3103F",
+      "cars": "8",
+      "no": "229-081",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "08:40",
+  "lastUpdate": "08:45",
   "date": "2026-09-13"
 }
