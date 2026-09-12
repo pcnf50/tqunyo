@@ -3206,8 +3206,8 @@
       "no": "813-131",
       "destCode": "元町・中華街",
       "kind": "Ｆ",
-      "delay": "",
-      "updated": "13:25",
+      "delay": "1分遅れ",
+      "updated": "13:30",
       "affiliation": "東"
     }
   ],
@@ -6742,6 +6742,6 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "13:25",
+  "lastUpdate": "13:30",
   "date": "2026-09-12"
 }
