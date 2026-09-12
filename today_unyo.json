@@ -1332,8 +1332,19 @@
       "delay": "",
       "updated": "07:45",
       "affiliation": "急"
+    },
+    {
+      "op": "60G",
+      "form": "-",
+      "cars": "10",
+      "no": "060-072",
+      "destCode": "渋谷",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:50",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "07:45",
+  "lastUpdate": "07:50",
   "date": "2026-09-13"
 }
