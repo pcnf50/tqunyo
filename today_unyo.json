@@ -6971,8 +6971,19 @@
       "delay": "",
       "updated": "17:50",
       "affiliation": "急"
+    },
+    {
+      "op": "34G",
+      "form": "21109F",
+      "cars": "8",
+      "no": "634-172",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:05",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "18:01",
+  "lastUpdate": "18:05",
   "date": "2026-09-12"
 }
