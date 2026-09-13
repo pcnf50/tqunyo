@@ -2210,8 +2210,19 @@
       "delay": "",
       "updated": "18:40",
       "affiliation": ""
+    },
+    {
+      "op": "87",
+      "form": "-",
+      "cars": "10",
+      "no": "787-182",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:50",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "18:45",
+  "lastUpdate": "18:50",
   "date": "2026-09-13"
 }
