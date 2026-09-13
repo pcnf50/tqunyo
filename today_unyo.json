@@ -2507,8 +2507,19 @@
       "delay": "",
       "updated": "00:05",
       "affiliation": "急"
+    },
+    {
+      "op": "40K",
+      "form": "5184F",
+      "cars": "8",
+      "no": "240-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "00:35",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:30",
+  "lastUpdate": "00:35",
   "date": "2026-09-14"
 }
