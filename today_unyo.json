@@ -1818,6 +1818,17 @@
       "affiliation": "南"
     },
     {
+      "op": "30K",
+      "form": "3103F",
+      "cars": "8",
+      "no": "230-102",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "10:35",
+      "affiliation": "急"
+    },
+    {
       "op": "72",
       "form": "-",
       "cars": "10",
@@ -1825,10 +1836,10 @@
       "destCode": "元町・中華街",
       "kind": "Ｓ",
       "delay": "",
-      "updated": "10:30",
+      "updated": "10:35",
       "affiliation": "西"
     }
   ],
-  "lastUpdate": "10:30",
+  "lastUpdate": "10:35",
   "date": "2026-09-13"
 }
