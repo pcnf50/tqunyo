@@ -2122,8 +2122,19 @@
       "delay": "",
       "updated": "17:35",
       "affiliation": ""
+    },
+    {
+      "op": "64G",
+      "form": "-",
+      "cars": "10",
+      "no": "064-171",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:40",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:35",
+  "lastUpdate": "17:40",
   "date": "2026-09-13"
 }
