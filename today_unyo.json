@@ -2265,8 +2265,19 @@
       "delay": "",
       "updated": "19:05",
       "affiliation": "急"
+    },
+    {
+      "op": "56S",
+      "form": "9119F",
+      "cars": "6",
+      "no": "356-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:35",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "19:30",
+  "lastUpdate": "19:35",
   "date": "2026-09-13"
 }
