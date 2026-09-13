@@ -2389,16 +2389,16 @@
     },
     {
       "op": "96M",
-      "form": "-",
-      "cars": "0",
+      "form": "9110F",
+      "cars": "6",
       "no": "596-211",
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "21:20",
-      "affiliation": ""
+      "updated": "21:25",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "21:20",
+  "lastUpdate": "21:25",
   "date": "2026-09-13"
 }
