@@ -1224,15 +1224,13 @@
       "affiliation": "急"
     },
     {
-      "op": "20K",
+      "op": "34",
       "form": "-",
-      "cars": "8",
-      "no": "020-072",
-      "destCode": "副都心線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "08:15",
-      "affiliation": "急"
+      "cars": "10",
+      "no": "134-081",
+      "destCode": "元町・中華街",
+      "kind": "急行",
+      "delay": "2分遅れ"
     },
     {
       "op": "18",
@@ -1631,7 +1629,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "08:35",
+  "lastUpdate": "08:38",
   "date": "2026-09-14",
   "resetDone": false
 }
