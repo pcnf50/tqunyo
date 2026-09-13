@@ -2441,8 +2441,19 @@
       "delay": "",
       "updated": "22:25",
       "affiliation": "南"
+    },
+    {
+      "op": "24K",
+      "form": "-",
+      "cars": "8",
+      "no": "024-222",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "22:50",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:45",
+  "lastUpdate": "22:50",
   "date": "2026-09-13"
 }
