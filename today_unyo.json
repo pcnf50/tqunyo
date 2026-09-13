@@ -2034,8 +2034,19 @@
       "delay": "",
       "updated": "14:25",
       "affiliation": ""
+    },
+    {
+      "op": "08K",
+      "form": "9103F",
+      "cars": "6",
+      "no": "208-141",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "14:45",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "14:40",
+  "lastUpdate": "14:45",
   "date": "2026-09-13"
 }
