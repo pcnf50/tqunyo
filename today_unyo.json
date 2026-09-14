@@ -3277,9 +3277,20 @@
       "delay": "",
       "updated": "11:50",
       "affiliation": "急"
+    },
+    {
+      "op": "92",
+      "form": "-",
+      "cars": "10",
+      "no": "992-111",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "12:00",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "11:55",
+  "lastUpdate": "12:00",
   "date": "2026-09-14",
   "resetDone": false
 }
