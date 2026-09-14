@@ -1385,6 +1385,28 @@
       "delay": "",
       "updated": "10:10",
       "affiliation": "副"
+    },
+    {
+      "op": "02",
+      "form": "-",
+      "cars": "8",
+      "no": "202-101",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "10:15",
+      "affiliation": "急"
+    },
+    {
+      "op": "63",
+      "form": "-",
+      "cars": "6",
+      "no": "463-091",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:15",
+      "affiliation": "都"
     }
   ],
   "meguro": [
@@ -2839,7 +2861,7 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "10:10",
+  "lastUpdate": "10:15",
   "date": "2026-09-14",
   "resetDone": false
 }
