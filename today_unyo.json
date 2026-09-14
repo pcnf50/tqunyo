@@ -2087,7 +2087,7 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "22:35",
+      "updated": "22:40",
       "affiliation": "急"
     }
   ],
@@ -4441,11 +4441,11 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "22:35",
+      "updated": "22:40",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:35",
+  "lastUpdate": "22:40",
   "date": "2026-09-14",
   "resetDone": false
 }
