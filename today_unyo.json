@@ -1988,7 +1988,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "19:15",
+      "updated": "19:20",
       "affiliation": "副"
     },
     {
@@ -1999,7 +1999,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:15",
+      "updated": "19:20",
       "affiliation": "急"
     }
   ],
@@ -4177,22 +4177,11 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:15",
+      "updated": "19:20",
       "affiliation": "急"
-    },
-    {
-      "op": "30",
-      "form": "-",
-      "cars": "10",
-      "no": "130-191",
-      "destCode": "元町・中華街",
-      "kind": "通",
-      "delay": "",
-      "updated": "19:15",
-      "affiliation": "西"
     }
   ],
-  "lastUpdate": "19:15",
+  "lastUpdate": "19:20",
   "date": "2026-09-14",
   "resetDone": false
 }
