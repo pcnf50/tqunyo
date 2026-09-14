@@ -1431,14 +1431,36 @@
       "affiliation": "西"
     },
     {
+      "op": "94G",
+      "form": "20101F",
+      "cars": "10",
+      "no": "994-082",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "9分遅れ",
+      "updated": "08:35",
+      "affiliation": "相"
+    },
+    {
+      "op": "04M",
+      "form": "6117F",
+      "cars": "10",
+      "no": "104-081",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "08:35",
+      "affiliation": "西"
+    },
+    {
       "op": "67",
       "form": "-",
       "cars": "8",
       "no": "467-081",
       "destCode": "日吉",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "08:30",
+      "delay": "",
+      "updated": "08:35",
       "affiliation": "都"
     }
   ],
@@ -2951,17 +2973,61 @@
       "affiliation": "都"
     },
     {
-      "op": "88M",
+      "op": "34",
       "form": "-",
-      "cars": "0",
+      "cars": "10",
+      "no": "134-081",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "2分遅れ",
+      "updated": "08:35",
+      "affiliation": "西"
+    },
+    {
+      "op": "75T",
+      "form": "6329F",
+      "cars": "6",
+      "no": "475-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "08:35",
+      "affiliation": "都"
+    },
+    {
+      "op": "94",
+      "form": "-",
+      "cars": "10",
+      "no": "994-082",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "9分遅れ",
+      "updated": "08:35",
+      "affiliation": "相"
+    },
+    {
+      "op": "88M",
+      "form": "9102F",
+      "cars": "6",
       "no": "588-081",
       "destCode": "日吉",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "08:30",
-      "affiliation": ""
+      "updated": "08:35",
+      "affiliation": "南"
+    },
+    {
+      "op": "31K",
+      "form": "5184F",
+      "cars": "8",
+      "no": "231-082",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "8分遅れ",
+      "updated": "08:35",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "08:30",
+  "lastUpdate": "08:35",
   "date": "2026-09-15"
 }
