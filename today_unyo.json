@@ -1055,6 +1055,50 @@
       "delay": "2分遅れ",
       "updated": "09:00",
       "affiliation": "西"
+    },
+    {
+      "op": "12",
+      "form": "5118F",
+      "cars": "8",
+      "no": "212-082",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "15S",
+      "form": "-",
+      "cars": "0",
+      "no": "715-091",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "09:05",
+      "affiliation": ""
+    },
+    {
+      "op": "14K",
+      "form": "5158F",
+      "cars": "8",
+      "no": "014-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "09:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "33S",
+      "form": "10111F",
+      "cars": "10",
+      "no": "733-091",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "3分遅れ",
+      "updated": "09:05",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -2089,9 +2133,64 @@
       "delay": "",
       "updated": "09:00",
       "affiliation": "急"
+    },
+    {
+      "op": "38G",
+      "form": "21109F",
+      "cars": "8",
+      "no": "638-091",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "2分遅れ",
+      "updated": "09:05",
+      "affiliation": "相"
+    },
+    {
+      "op": "12K",
+      "form": "5188F",
+      "cars": "8",
+      "no": "212-082",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "15",
+      "form": "-",
+      "cars": "8",
+      "no": "015-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "09:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "17",
+      "form": "-",
+      "cars": "8",
+      "no": "717-082",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:05",
+      "affiliation": "副"
+    },
+    {
+      "op": "85T",
+      "form": "6330F",
+      "cars": "6",
+      "no": "485-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "09:05",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:00",
+  "lastUpdate": "09:05",
   "date": "2026-09-14",
   "resetDone": false
 }
