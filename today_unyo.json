@@ -1605,6 +1605,17 @@
       "delay": "",
       "updated": "11:55",
       "affiliation": "副"
+    },
+    {
+      "op": "92",
+      "form": "5175F",
+      "cars": "8",
+      "no": "292-122",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "12:05",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3286,11 +3297,33 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "12:00",
+      "updated": "12:05",
       "affiliation": "相"
+    },
+    {
+      "op": "47",
+      "form": "-",
+      "cars": "10",
+      "no": "747-111",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "12:05",
+      "affiliation": "副"
+    },
+    {
+      "op": "92K",
+      "form": "-",
+      "cars": "8",
+      "no": "292-122",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "12:05",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "12:00",
+  "lastUpdate": "12:05",
   "date": "2026-09-14",
   "resetDone": false
 }
