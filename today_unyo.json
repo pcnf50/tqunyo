@@ -3840,8 +3840,19 @@
       "delay": "",
       "updated": "12:15",
       "affiliation": "都"
+    },
+    {
+      "op": "62S",
+      "form": "9103F",
+      "cars": "6",
+      "no": "362-121",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "12:20",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "12:15",
+  "lastUpdate": "12:20",
   "date": "2026-09-15"
 }
