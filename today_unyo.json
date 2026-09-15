@@ -1706,14 +1706,36 @@
       "affiliation": "副"
     },
     {
+      "op": "20K",
+      "form": "5171F",
+      "cars": "8",
+      "no": "020-101",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:15",
+      "affiliation": "急"
+    },
+    {
       "op": "71S",
       "form": "17103F",
       "cars": "10",
       "no": "771-101",
       "destCode": "元町・中華街",
       "kind": "特",
-      "delay": "",
-      "updated": "10:10",
+      "delay": "1分遅れ",
+      "updated": "10:15",
+      "affiliation": "副"
+    },
+    {
+      "op": "09K",
+      "form": "10124F",
+      "cars": "10",
+      "no": "009-091",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "10:15",
       "affiliation": "副"
     }
   ],
@@ -3485,8 +3507,8 @@
       "no": "785-091",
       "destCode": "元町・中華街",
       "kind": "特",
-      "delay": "2分遅れ",
-      "updated": "10:10",
+      "delay": "6分遅れ",
+      "updated": "10:15",
       "affiliation": "副"
     },
     {
@@ -3497,10 +3519,10 @@
       "destCode": "元住吉",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "10:10",
+      "updated": "10:15",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "10:10",
+  "lastUpdate": "10:15",
   "date": "2026-09-15"
 }
