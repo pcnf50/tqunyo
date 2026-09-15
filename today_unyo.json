@@ -3862,8 +3862,30 @@
       "delay": "3分遅れ",
       "updated": "12:25",
       "affiliation": "南"
+    },
+    {
+      "op": "68S",
+      "form": "9105F",
+      "cars": "6",
+      "no": "368-121",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "12:30",
+      "affiliation": "南"
+    },
+    {
+      "op": "29K",
+      "form": "-",
+      "cars": "8",
+      "no": "029-112",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "12:30",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "12:25",
+  "lastUpdate": "12:30",
   "date": "2026-09-15"
 }
