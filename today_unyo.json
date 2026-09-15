@@ -2087,7 +2087,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:30",
+      "updated": "17:35",
       "affiliation": "急"
     }
   ],
@@ -4249,6 +4249,17 @@
       "affiliation": "急"
     },
     {
+      "op": "75",
+      "form": "-",
+      "cars": "10",
+      "no": "775-171",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:35",
+      "affiliation": "副"
+    },
+    {
       "op": "56S",
       "form": "9107F",
       "cars": "6",
@@ -4256,7 +4267,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "2分遅れ",
-      "updated": "17:30",
+      "updated": "17:35",
       "affiliation": "南"
     },
     {
@@ -4267,7 +4278,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "17:30",
+      "updated": "17:35",
       "affiliation": "都"
     },
     {
@@ -4278,10 +4289,10 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:30",
+      "updated": "17:35",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:30",
+  "lastUpdate": "17:35",
   "date": "2026-09-15"
 }
