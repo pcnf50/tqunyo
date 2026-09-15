@@ -3576,8 +3576,30 @@
       "delay": "2分遅れ",
       "updated": "10:25",
       "affiliation": "副"
+    },
+    {
+      "op": "71T",
+      "form": "6507F",
+      "cars": "8",
+      "no": "471-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "5分遅れ",
+      "updated": "10:30",
+      "affiliation": "都"
+    },
+    {
+      "op": "40K",
+      "form": "9101F",
+      "cars": "6",
+      "no": "240-101",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "10:30",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "10:25",
+  "lastUpdate": "10:30",
   "date": "2026-09-15"
 }
