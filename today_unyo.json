@@ -1789,9 +1789,20 @@
       "no": "994-102",
       "destCode": "副都心線直通",
       "kind": "急",
-      "delay": "",
-      "updated": "10:45",
+      "delay": "3分遅れ",
+      "updated": "10:50",
       "affiliation": "相"
+    },
+    {
+      "op": "79",
+      "form": "-",
+      "cars": "8",
+      "no": "479-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:50",
+      "affiliation": "都"
     }
   ],
   "meguro": [
@@ -3642,8 +3653,19 @@
       "delay": "",
       "updated": "10:40",
       "affiliation": "都"
+    },
+    {
+      "op": "37G",
+      "form": "21106F",
+      "cars": "8",
+      "no": "637-102",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "10:50",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "10:45",
+  "lastUpdate": "10:50",
   "date": "2026-09-15"
 }
