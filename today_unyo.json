@@ -1913,6 +1913,28 @@
       "delay": "3分遅れ",
       "updated": "12:35",
       "affiliation": "都"
+    },
+    {
+      "op": "68",
+      "form": "-",
+      "cars": "6",
+      "no": "368-121",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "12:45",
+      "affiliation": "南"
+    },
+    {
+      "op": "95G",
+      "form": "20101F",
+      "cars": "10",
+      "no": "995-122",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "12:45",
+      "affiliation": "相"
     }
   ],
   "meguro": [
@@ -3908,6 +3930,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "12:40",
+  "lastUpdate": "12:45",
   "date": "2026-09-15"
 }
