@@ -2368,15 +2368,13 @@
       "affiliation": "南"
     },
     {
-      "op": "57M",
+      "op": "28",
       "form": "-",
       "cars": "10",
-      "no": "057-052",
+      "no": "128-182",
       "destCode": "副都心線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "05:35",
-      "affiliation": "急"
+      "kind": "通勤特急",
+      "delay": ""
     },
     {
       "op": "03",
@@ -4304,6 +4302,6 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "18:50",
+  "lastUpdate": "18:53",
   "date": "2026-09-16"
 }
