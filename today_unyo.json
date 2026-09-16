@@ -1475,15 +1475,37 @@
       "affiliation": "都"
     },
     {
+      "op": "12",
+      "form": "-",
+      "cars": "8",
+      "no": "212-082",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:05",
+      "affiliation": "急"
+    },
+    {
       "op": "24M",
       "form": "6113F",
       "cars": "10",
       "no": "124-081",
       "destCode": "元町・中華街",
       "kind": "通",
-      "delay": "9分遅れ",
-      "updated": "09:00",
+      "delay": "7分遅れ",
+      "updated": "09:05",
       "affiliation": "西"
+    },
+    {
+      "op": "13S",
+      "form": "17182F",
+      "cars": "8",
+      "no": "713-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "8分遅れ",
+      "updated": "09:05",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -3105,26 +3127,37 @@
       "affiliation": ""
     },
     {
-      "op": "25K",
-      "form": "5191F",
-      "cars": "8",
-      "no": "025-081",
-      "destCode": "元住吉",
+      "op": "85T",
+      "form": "6325F",
+      "cars": "6",
+      "no": "485-081",
+      "destCode": "日吉",
       "kind": "普",
-      "delay": "7分遅れ",
-      "updated": "09:00",
+      "delay": "5分遅れ",
+      "updated": "09:05",
+      "affiliation": "都"
+    },
+    {
+      "op": "12K",
+      "form": "3101F",
+      "cars": "8",
+      "no": "212-082",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:05",
       "affiliation": "急"
     },
     {
       "op": "81T",
-      "form": "-",
-      "cars": "0",
+      "form": "6513F",
+      "cars": "8",
       "no": "481-081",
       "destCode": "新横浜",
       "kind": "普",
       "delay": "5分遅れ",
-      "updated": "09:00",
-      "affiliation": ""
+      "updated": "09:05",
+      "affiliation": "都"
     },
     {
       "op": "94M",
@@ -3133,11 +3166,11 @@
       "no": "594-081",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "5分遅れ",
-      "updated": "09:00",
+      "delay": "4分遅れ",
+      "updated": "09:05",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "09:00",
+  "lastUpdate": "09:05",
   "date": "2026-09-16"
 }
