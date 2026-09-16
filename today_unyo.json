@@ -1195,8 +1195,30 @@
       "no": "745-071",
       "destCode": "元町・中華街",
       "kind": "通",
-      "delay": "2分遅れ",
-      "updated": "07:45",
+      "delay": "",
+      "updated": "07:50",
+      "affiliation": "副"
+    },
+    {
+      "op": "57",
+      "form": "-",
+      "cars": "6",
+      "no": "457-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:50",
+      "affiliation": "都"
+    },
+    {
+      "op": "23S",
+      "form": "10120F",
+      "cars": "10",
+      "no": "723-071",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "07:50",
       "affiliation": "副"
     },
     {
@@ -1207,7 +1229,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:45",
+      "updated": "07:50",
       "affiliation": "急"
     },
     {
@@ -1218,7 +1240,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "07:45",
+      "updated": "07:50",
       "affiliation": "急"
     },
     {
@@ -1228,8 +1250,8 @@
       "no": "354-071",
       "destCode": "新横浜",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "07:45",
+      "delay": "",
+      "updated": "07:50",
       "affiliation": "南"
     }
   ],
@@ -2500,28 +2522,39 @@
       "affiliation": "南"
     },
     {
+      "op": "84M",
+      "form": "9107F",
+      "cars": "6",
+      "no": "584-071",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "07:50",
+      "affiliation": "南"
+    },
+    {
       "op": "04K",
       "form": "3107F",
       "cars": "8",
       "no": "204-072",
       "destCode": "南北線直通",
-      "kind": "回",
+      "kind": "急",
       "delay": "",
-      "updated": "07:45",
+      "updated": "07:50",
       "affiliation": "急"
     },
     {
-      "op": "56M",
-      "form": "-",
-      "cars": "10",
-      "no": "056-071",
-      "destCode": "元町・中華街",
+      "op": "31G",
+      "form": "21101F",
+      "cars": "8",
+      "no": "631-072",
+      "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:45",
-      "affiliation": "急"
+      "updated": "07:50",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "07:45",
+  "lastUpdate": "07:50",
   "date": "2026-09-17"
 }
