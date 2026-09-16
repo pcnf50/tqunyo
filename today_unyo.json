@@ -1451,6 +1451,17 @@
       "delay": "3分遅れ",
       "updated": "08:40",
       "affiliation": "急"
+    },
+    {
+      "op": "88",
+      "form": "-",
+      "cars": "6",
+      "no": "588-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "10分遅れ",
+      "updated": "08:51",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -3024,8 +3035,30 @@
       "delay": "10分遅れ",
       "updated": "08:45",
       "affiliation": "都"
+    },
+    {
+      "op": "73T",
+      "form": "6330F",
+      "cars": "6",
+      "no": "473-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "11分遅れ",
+      "updated": "08:51",
+      "affiliation": "都"
+    },
+    {
+      "op": "46S",
+      "form": "-",
+      "cars": "0",
+      "no": "346-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "10分遅れ",
+      "updated": "08:51",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "08:48",
+  "lastUpdate": "08:51",
   "date": "2026-09-17"
 }
