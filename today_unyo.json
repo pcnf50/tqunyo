@@ -2166,6 +2166,17 @@
       "delay": "",
       "updated": "20:45",
       "affiliation": "副"
+    },
+    {
+      "op": "52K",
+      "form": "-",
+      "cars": "0",
+      "no": "052-211",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "2分遅れ",
+      "updated": "21:25",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -4621,6 +4632,6 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "21:20",
+  "lastUpdate": "21:25",
   "date": "2026-09-16"
 }
