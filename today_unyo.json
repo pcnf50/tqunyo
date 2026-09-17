@@ -2199,6 +2199,17 @@
       "delay": "",
       "updated": "22:56",
       "affiliation": "東"
+    },
+    {
+      "op": "88",
+      "form": "5118F",
+      "cars": "8",
+      "no": "288-232",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "23:41",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4628,8 +4639,19 @@
       "delay": "",
       "updated": "23:01",
       "affiliation": ""
+    },
+    {
+      "op": "88K",
+      "form": "5188F",
+      "cars": "8",
+      "no": "288-232",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "23:41",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:36",
+  "lastUpdate": "23:41",
   "date": "2026-09-17"
 }
