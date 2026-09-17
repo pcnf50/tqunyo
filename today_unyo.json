@@ -2439,6 +2439,17 @@
       "delay": "",
       "updated": "05:30",
       "affiliation": "急"
+    },
+    {
+      "op": "89S",
+      "form": "10126F",
+      "cars": "10",
+      "no": "789-051",
+      "destCode": "菊名",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:35",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -5110,8 +5121,19 @@
       "delay": "",
       "updated": "05:30",
       "affiliation": ""
+    },
+    {
+      "op": "96M",
+      "form": "2109F",
+      "cars": "6",
+      "no": "596-052",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:35",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "05:30",
+  "lastUpdate": "05:35",
   "date": "2026-09-18"
 }
