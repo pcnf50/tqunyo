@@ -3816,8 +3816,19 @@
       "delay": "",
       "updated": "12:35",
       "affiliation": "副"
+    },
+    {
+      "op": "86M",
+      "form": "3111F",
+      "cars": "8",
+      "no": "586-131",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "13:46",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "13:41",
+  "lastUpdate": "13:46",
   "date": "2026-09-17"
 }
