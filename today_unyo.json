@@ -3860,8 +3860,19 @@
       "delay": "",
       "updated": "14:26",
       "affiliation": "南"
+    },
+    {
+      "op": "86M",
+      "form": "9106F",
+      "cars": "6",
+      "no": "586-142",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "14:30",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "14:26",
+  "lastUpdate": "14:30",
   "date": "2026-09-17"
 }
