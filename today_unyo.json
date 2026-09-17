@@ -4399,8 +4399,19 @@
       "delay": "",
       "updated": "19:26",
       "affiliation": "南"
+    },
+    {
+      "op": "52S",
+      "form": "9117F",
+      "cars": "6",
+      "no": "352-191",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:36",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "19:30",
+  "lastUpdate": "19:36",
   "date": "2026-09-17"
 }
