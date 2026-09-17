@@ -4697,16 +4697,16 @@
     },
     {
       "op": "99",
-      "form": "3111F",
+      "form": "5185F",
       "cars": "8",
       "no": "999-990",
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "00:36",
+      "updated": "00:40",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:36",
+  "lastUpdate": "00:40",
   "date": "2026-09-18"
 }
