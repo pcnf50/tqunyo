@@ -2241,7 +2241,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "00:46",
+      "updated": "00:50",
       "affiliation": "急"
     },
     {
@@ -2251,8 +2251,8 @@
       "no": "041-242",
       "destCode": "武蔵小杉",
       "kind": "回",
-      "delay": "5分遅れ",
-      "updated": "00:46",
+      "delay": "4分遅れ",
+      "updated": "00:50",
       "affiliation": "急"
     }
   ],
@@ -4727,8 +4727,19 @@
       "delay": "",
       "updated": "00:40",
       "affiliation": "急"
+    },
+    {
+      "op": "41T",
+      "form": "-",
+      "cars": "8",
+      "no": "041-242",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "4分遅れ",
+      "updated": "00:50",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:46",
+  "lastUpdate": "00:50",
   "date": "2026-09-18"
 }
