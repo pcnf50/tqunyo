@@ -1803,6 +1803,17 @@
       "delay": "",
       "updated": "11:56",
       "affiliation": "副"
+    },
+    {
+      "op": "57K",
+      "form": "-",
+      "cars": "0",
+      "no": "057-121",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "12:16",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -3715,10 +3726,10 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "12:11",
+      "updated": "12:16",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "12:11",
+  "lastUpdate": "12:16",
   "date": "2026-09-17"
 }
