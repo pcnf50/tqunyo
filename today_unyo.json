@@ -1484,6 +1484,17 @@
       "delay": "1分遅れ",
       "updated": "08:55",
       "affiliation": "西"
+    },
+    {
+      "op": "13S",
+      "form": "17181F",
+      "cars": "8",
+      "no": "713-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "09:01",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -3090,8 +3101,19 @@
       "delay": "11分遅れ",
       "updated": "08:55",
       "affiliation": "南"
+    },
+    {
+      "op": "92M",
+      "form": "9102F",
+      "cars": "6",
+      "no": "592-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "11分遅れ",
+      "updated": "09:01",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:55",
+  "lastUpdate": "09:01",
   "date": "2026-09-17"
 }
