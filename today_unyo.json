@@ -3706,8 +3706,19 @@
       "delay": "",
       "updated": "12:05",
       "affiliation": "副"
+    },
+    {
+      "op": "69T",
+      "form": "6318F",
+      "cars": "6",
+      "no": "469-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:11",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "12:05",
+  "lastUpdate": "12:11",
   "date": "2026-09-17"
 }
