@@ -1658,7 +1658,7 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "09:55",
+      "updated": "10:00",
       "affiliation": "副"
     }
   ],
@@ -3401,16 +3401,16 @@
     },
     {
       "op": "63T",
-      "form": "-",
-      "cars": "0",
+      "form": "6508F",
+      "cars": "8",
       "no": "463-091",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "09:55",
-      "affiliation": ""
+      "delay": "",
+      "updated": "10:00",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:55",
+  "lastUpdate": "10:00",
   "date": "2026-09-17"
 }
