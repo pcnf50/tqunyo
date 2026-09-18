@@ -1240,7 +1240,7 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "1分遅れ",
-      "updated": "10:01",
+      "updated": "10:05",
       "affiliation": "南"
     }
   ],
@@ -2522,14 +2522,25 @@
       "affiliation": "急"
     },
     {
+      "op": "85",
+      "form": "-",
+      "cars": "10",
+      "no": "785-091",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "10:05",
+      "affiliation": "副"
+    },
+    {
       "op": "63T",
       "form": "6513F",
       "cars": "8",
       "no": "463-091",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "10:01",
+      "delay": "",
+      "updated": "10:05",
       "affiliation": "都"
     },
     {
@@ -2540,7 +2551,7 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "10:01",
+      "updated": "10:05",
       "affiliation": "急"
     },
     {
@@ -2551,11 +2562,11 @@
       "destCode": "元住吉",
       "kind": "急",
       "delay": "",
-      "updated": "10:01",
+      "updated": "10:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "10:02",
+  "lastUpdate": "10:05",
   "date": "2026-09-18",
   "resetDone": false
 }
