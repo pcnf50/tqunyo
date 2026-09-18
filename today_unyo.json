@@ -164,6 +164,28 @@
       "delay": "",
       "updated": "05:05",
       "affiliation": "急"
+    },
+    {
+      "op": "15",
+      "form": "-",
+      "cars": "8",
+      "no": "215-052",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:11",
+      "affiliation": "急"
+    },
+    {
+      "op": "57K",
+      "form": "4102F",
+      "cars": "10",
+      "no": "057-052",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:11",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -320,9 +342,42 @@
       "delay": "",
       "updated": "05:05",
       "affiliation": ""
+    },
+    {
+      "op": "8",
+      "form": "-",
+      "cars": "8",
+      "no": "008-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:11",
+      "affiliation": "急"
+    },
+    {
+      "op": "57M",
+      "form": "-",
+      "cars": "10",
+      "no": "057-052",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:11",
+      "affiliation": "急"
+    },
+    {
+      "op": "26K",
+      "form": "5181F",
+      "cars": "8",
+      "no": "226-051",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:11",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "05:05",
+  "lastUpdate": "05:11",
   "date": "2026-09-19",
   "resetDone": false
 }
