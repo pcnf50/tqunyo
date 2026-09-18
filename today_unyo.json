@@ -1704,17 +1704,6 @@
       "delay": "",
       "updated": "16:56",
       "affiliation": "急"
-    },
-    {
-      "op": "01K",
-      "form": "-",
-      "cars": "8",
-      "no": "001-162",
-      "destCode": "副都心線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "17:01",
-      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3567,7 +3556,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:01",
+  "lastUpdate": "17:05",
   "date": "2026-09-18",
   "resetDone": false
 }
