@@ -1845,7 +1845,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "18:46",
+      "updated": "18:51",
       "affiliation": "副"
     }
   ],
@@ -3928,9 +3928,20 @@
       "delay": "",
       "updated": "18:41",
       "affiliation": ""
+    },
+    {
+      "op": "04K",
+      "form": "5181F",
+      "cars": "8",
+      "no": "204-181",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:51",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "18:46",
+  "lastUpdate": "18:51",
   "date": "2026-09-18",
   "resetDone": false
 }
