@@ -1053,6 +1053,17 @@
       "delay": "",
       "updated": "07:55",
       "affiliation": "急"
+    },
+    {
+      "op": "92",
+      "form": "-",
+      "cars": "6",
+      "no": "592-071",
+      "destCode": "日吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "08:01",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -2067,7 +2078,7 @@
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "07:55",
+  "lastUpdate": "08:01",
   "date": "2026-09-19",
   "resetDone": false
 }
