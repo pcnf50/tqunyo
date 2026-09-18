@@ -864,8 +864,19 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "07:21",
+      "updated": "07:25",
       "affiliation": "南"
+    },
+    {
+      "op": "18K",
+      "form": "5121F",
+      "cars": "8",
+      "no": "018-072",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "07:25",
+      "affiliation": "急"
     },
     {
       "op": "05T",
@@ -875,7 +886,7 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "07:21",
+      "updated": "07:25",
       "affiliation": "東"
     }
   ],
@@ -1737,9 +1748,20 @@
       "delay": "",
       "updated": "07:15",
       "affiliation": "相"
+    },
+    {
+      "op": "18",
+      "form": "5191F",
+      "cars": "8",
+      "no": "018-072",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "07:25",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "07:21",
+  "lastUpdate": "07:25",
   "date": "2026-09-19",
   "resetDone": false
 }
