@@ -1669,7 +1669,7 @@
       "destCode": "副都心線直通",
       "kind": "回",
       "delay": "",
-      "updated": "15:46",
+      "updated": "15:50",
       "affiliation": "急"
     }
   ],
@@ -3497,11 +3497,11 @@
       "destCode": "副都心線直通",
       "kind": "回",
       "delay": "",
-      "updated": "15:46",
+      "updated": "15:50",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "15:46",
+  "lastUpdate": "15:50",
   "date": "2026-09-18",
   "resetDone": false
 }
