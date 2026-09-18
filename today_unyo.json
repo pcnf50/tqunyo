@@ -1062,7 +1062,7 @@
       "destCode": "日吉",
       "kind": "回",
       "delay": "",
-      "updated": "08:01",
+      "updated": "08:05",
       "affiliation": "南"
     }
   ],
@@ -2076,9 +2076,42 @@
       "delay": "",
       "updated": "07:55",
       "affiliation": "都"
+    },
+    {
+      "op": "16",
+      "form": "5192F",
+      "cars": "8",
+      "no": "016-082",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "92M",
+      "form": "9102F",
+      "cars": "6",
+      "no": "592-082",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "南"
+    },
+    {
+      "op": "55",
+      "form": "-",
+      "cars": "10",
+      "no": "755-071",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "08:01",
+  "lastUpdate": "08:05",
   "date": "2026-09-19",
   "resetDone": false
 }
