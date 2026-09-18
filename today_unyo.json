@@ -142,6 +142,28 @@
       "delay": "",
       "updated": "05:00",
       "affiliation": "み"
+    },
+    {
+      "op": "37",
+      "form": "-",
+      "cars": "8",
+      "no": "237-052",
+      "destCode": "目黒",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "14K",
+      "form": "5152F",
+      "cars": "8",
+      "no": "014-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:05",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -265,9 +287,42 @@
       "delay": "",
       "updated": "05:00",
       "affiliation": ""
+    },
+    {
+      "op": "37K",
+      "form": "3101F",
+      "cars": "8",
+      "no": "237-052",
+      "destCode": "目黒",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "14",
+      "form": "-",
+      "cars": "8",
+      "no": "014-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "26K",
+      "form": "-",
+      "cars": "0",
+      "no": "226-051",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:05",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "05:00",
+  "lastUpdate": "05:05",
   "date": "2026-09-19",
   "resetDone": false
 }
