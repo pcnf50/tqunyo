@@ -2806,9 +2806,31 @@
       "delay": "",
       "updated": "10:35",
       "affiliation": "急"
+    },
+    {
+      "op": "07",
+      "form": "-",
+      "cars": "8",
+      "no": "707-101",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:41",
+      "affiliation": "副"
+    },
+    {
+      "op": "77T",
+      "form": "6336F",
+      "cars": "6",
+      "no": "477-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:41",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "10:35",
+  "lastUpdate": "10:41",
   "date": "2026-09-18",
   "resetDone": false
 }
