@@ -2186,9 +2186,20 @@
       "delay": "",
       "updated": "08:25",
       "affiliation": "南"
+    },
+    {
+      "op": "52M",
+      "form": "-",
+      "cars": "10",
+      "no": "052-081",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:31",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "08:25",
+  "lastUpdate": "08:31",
   "date": "2026-09-19",
   "resetDone": false
 }
