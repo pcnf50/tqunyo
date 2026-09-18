@@ -1779,7 +1779,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:46",
+      "updated": "17:51",
       "affiliation": "急"
     },
     {
@@ -1790,7 +1790,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "17:46",
+      "updated": "17:51",
       "affiliation": "都"
     }
   ],
@@ -3739,11 +3739,22 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:46",
+      "updated": "17:51",
       "affiliation": "急"
+    },
+    {
+      "op": "31G",
+      "form": "21109F",
+      "cars": "8",
+      "no": "631-171",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:51",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "17:46",
+  "lastUpdate": "17:51",
   "date": "2026-09-18",
   "resetDone": false
 }
