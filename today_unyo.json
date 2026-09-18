@@ -3785,9 +3785,20 @@
       "delay": "",
       "updated": "18:00",
       "affiliation": "南"
+    },
+    {
+      "op": "46K",
+      "form": "5183F",
+      "cars": "8",
+      "no": "246-182",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "18:11",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "18:05",
+  "lastUpdate": "18:11",
   "date": "2026-09-18",
   "resetDone": false
 }
