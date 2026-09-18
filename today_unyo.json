@@ -1966,7 +1966,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "20:16",
+      "updated": "20:20",
       "affiliation": "副"
     }
   ],
@@ -4183,18 +4183,18 @@
       "affiliation": "西"
     },
     {
-      "op": "31",
+      "op": "63",
       "form": "-",
       "cars": "10",
-      "no": "731-201",
-      "destCode": "元町・中華街",
+      "no": "763-192",
+      "destCode": "副都心線直通",
       "kind": "通",
       "delay": "",
-      "updated": "20:16",
+      "updated": "20:20",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "20:16",
+  "lastUpdate": "20:20",
   "date": "2026-09-18",
   "resetDone": false
 }
