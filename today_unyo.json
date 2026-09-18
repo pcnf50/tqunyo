@@ -3092,9 +3092,20 @@
       "delay": "",
       "updated": "11:35",
       "affiliation": "急"
+    },
+    {
+      "op": "4T",
+      "form": "-",
+      "cars": "8",
+      "no": "004-111",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "11:40",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "11:35",
+  "lastUpdate": "11:40",
   "date": "2026-09-18",
   "resetDone": false
 }
