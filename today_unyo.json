@@ -1922,8 +1922,19 @@
       "destCode": "新横浜",
       "kind": "急",
       "delay": "",
-      "updated": "19:46",
+      "updated": "19:50",
       "affiliation": "南"
+    },
+    {
+      "op": "41K",
+      "form": "5158F",
+      "cars": "8",
+      "no": "041-191",
+      "destCode": "菊名",
+      "kind": "回",
+      "delay": "",
+      "updated": "19:50",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4106,18 +4117,18 @@
       "affiliation": ""
     },
     {
-      "op": "77",
-      "form": "-",
-      "cars": "10",
-      "no": "777-191",
-      "destCode": "元町・中華街",
-      "kind": "通",
+      "op": "32G",
+      "form": "21109F",
+      "cars": "8",
+      "no": "632-192",
+      "destCode": "南北線直通",
+      "kind": "普",
       "delay": "",
-      "updated": "19:46",
-      "affiliation": "副"
+      "updated": "19:50",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "19:46",
+  "lastUpdate": "19:50",
   "date": "2026-09-18",
   "resetDone": false
 }
