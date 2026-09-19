@@ -2329,9 +2329,31 @@
       "delay": "1分遅れ",
       "updated": "09:05",
       "affiliation": "都"
+    },
+    {
+      "op": "73",
+      "form": "-",
+      "cars": "10",
+      "no": "773-081",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:11",
+      "affiliation": "副"
+    },
+    {
+      "op": "63T",
+      "form": "6508F",
+      "cars": "8",
+      "no": "463-091",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:11",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:05",
+  "lastUpdate": "09:11",
   "date": "2026-09-19",
   "resetDone": false
 }
