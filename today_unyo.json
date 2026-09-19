@@ -3121,9 +3121,20 @@
       "delay": "",
       "updated": "22:10",
       "affiliation": "急"
+    },
+    {
+      "op": "66S",
+      "form": "9115F",
+      "cars": "8",
+      "no": "366-221",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:21",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "22:15",
+  "lastUpdate": "22:21",
   "date": "2026-09-19",
   "resetDone": false
 }
