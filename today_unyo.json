@@ -1064,6 +1064,17 @@
       "delay": "",
       "updated": "08:05",
       "affiliation": "南"
+    },
+    null,
+    null,
+    {
+      "op": "99",
+      "form": "-",
+      "cars": "6",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
     }
   ],
   "meguro": [
@@ -3233,7 +3244,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "01:36",
+  "lastUpdate": "01:39",
   "date": "2026-09-20",
   "resetDone": false
 }
