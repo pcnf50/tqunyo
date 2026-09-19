@@ -2283,7 +2283,7 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "09:01",
+      "updated": "09:05",
       "affiliation": "急"
     },
     {
@@ -2294,7 +2294,7 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "09:01",
+      "updated": "09:05",
       "affiliation": "急"
     },
     {
@@ -2305,11 +2305,33 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "09:01",
+      "updated": "09:05",
       "affiliation": "急"
+    },
+    {
+      "op": "12K",
+      "form": "3121F",
+      "cars": "8",
+      "no": "212-082",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "25T",
+      "form": "6337F",
+      "cars": "6",
+      "no": "425-092",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "09:05",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:01",
+  "lastUpdate": "09:05",
   "date": "2026-09-19",
   "resetDone": false
 }
