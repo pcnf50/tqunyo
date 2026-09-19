@@ -3821,9 +3821,20 @@
       "delay": "",
       "updated": "08:15",
       "affiliation": "都"
+    },
+    {
+      "op": "39G",
+      "form": "21103F",
+      "cars": "8",
+      "no": "639-082",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:20",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "08:15",
+  "lastUpdate": "08:20",
   "date": "2026-09-20",
   "resetDone": false
 }
