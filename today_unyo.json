@@ -3143,9 +3143,20 @@
       "delay": "",
       "updated": "22:30",
       "affiliation": ""
+    },
+    {
+      "op": "24K",
+      "form": "-",
+      "cars": "8",
+      "no": "024-222",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "22:50",
+      "affiliation": "み"
     }
   ],
-  "lastUpdate": "22:46",
+  "lastUpdate": "22:50",
   "date": "2026-09-19",
   "resetDone": false
 }
