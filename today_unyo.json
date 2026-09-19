@@ -3044,9 +3044,20 @@
       "delay": "",
       "updated": "20:35",
       "affiliation": "副"
+    },
+    {
+      "op": "68S",
+      "form": "-",
+      "cars": "0",
+      "no": "368-201",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:41",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "20:35",
+  "lastUpdate": "20:41",
   "date": "2026-09-19",
   "resetDone": false
 }
