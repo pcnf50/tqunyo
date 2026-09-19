@@ -3088,9 +3088,20 @@
       "delay": "",
       "updated": "21:25",
       "affiliation": "南"
+    },
+    {
+      "op": "36S",
+      "form": "9116F",
+      "cars": "6",
+      "no": "336-211",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "21:56",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "21:51",
+  "lastUpdate": "21:56",
   "date": "2026-09-19",
   "resetDone": false
 }
