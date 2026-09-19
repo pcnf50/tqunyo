@@ -3165,9 +3165,20 @@
       "delay": "",
       "updated": "23:01",
       "affiliation": "急"
+    },
+    {
+      "op": "86M",
+      "form": "9103F",
+      "cars": "6",
+      "no": "586-231",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "23:25",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "23:21",
+  "lastUpdate": "23:25",
   "date": "2026-09-19",
   "resetDone": false
 }
