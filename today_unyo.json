@@ -2351,9 +2351,31 @@
       "delay": "",
       "updated": "09:11",
       "affiliation": "都"
+    },
+    {
+      "op": "1",
+      "form": "-",
+      "cars": "8",
+      "no": "001-091",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:20",
+      "affiliation": "急"
+    },
+    {
+      "op": "43G",
+      "form": "21107F",
+      "cars": "8",
+      "no": "643-092",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:20",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "09:16",
+  "lastUpdate": "09:20",
   "date": "2026-09-19",
   "resetDone": false
 }
