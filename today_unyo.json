@@ -2989,9 +2989,20 @@
       "delay": "",
       "updated": "19:36",
       "affiliation": "南"
+    },
+    {
+      "op": "07K",
+      "form": "5190F",
+      "cars": "8",
+      "no": "207-192",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:46",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:41",
+  "lastUpdate": "19:46",
   "date": "2026-09-19",
   "resetDone": false
 }
