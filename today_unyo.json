@@ -2593,9 +2593,20 @@
       "delay": "",
       "updated": "11:35",
       "affiliation": "都"
+    },
+    {
+      "op": "46S",
+      "form": "9102F",
+      "cars": "6",
+      "no": "346-111",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "11:46",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "11:40",
+  "lastUpdate": "11:46",
   "date": "2026-09-19",
   "resetDone": false
 }
