@@ -3132,9 +3132,20 @@
       "delay": "",
       "updated": "22:26",
       "affiliation": "南"
+    },
+    {
+      "op": "09K",
+      "form": "-",
+      "cars": "0",
+      "no": "209-221",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:30",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "22:26",
+  "lastUpdate": "22:30",
   "date": "2026-09-19",
   "resetDone": false
 }
