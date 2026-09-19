@@ -2758,9 +2758,20 @@
       "delay": "",
       "updated": "15:50",
       "affiliation": "南"
+    },
+    {
+      "op": "95K",
+      "form": "3123F",
+      "cars": "8",
+      "no": "295-162",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "",
+      "updated": "16:30",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "16:25",
+  "lastUpdate": "16:30",
   "date": "2026-09-19",
   "resetDone": false
 }
