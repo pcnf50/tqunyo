@@ -2890,9 +2890,20 @@
       "delay": "",
       "updated": "17:56",
       "affiliation": "副"
+    },
+    {
+      "op": "34G",
+      "form": "21105F",
+      "cars": "8",
+      "no": "634-172",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:06",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "18:01",
+  "lastUpdate": "18:06",
   "date": "2026-09-19",
   "resetDone": false
 }
