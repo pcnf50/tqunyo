@@ -2395,9 +2395,20 @@
       "delay": "",
       "updated": "09:41",
       "affiliation": "急"
+    },
+    {
+      "op": "53",
+      "form": "-",
+      "cars": "10",
+      "no": "753-091",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:46",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "09:41",
+  "lastUpdate": "09:46",
   "date": "2026-09-19",
   "resetDone": false
 }
