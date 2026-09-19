@@ -3187,9 +3187,20 @@
       "delay": "",
       "updated": "23:30",
       "affiliation": "急"
+    },
+    {
+      "op": "45",
+      "form": "-",
+      "cars": "10",
+      "no": "745-231",
+      "destCode": "横浜",
+      "kind": "特",
+      "delay": "",
+      "updated": "23:36",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "23:30",
+  "lastUpdate": "23:36",
   "date": "2026-09-19",
   "resetDone": false
 }
