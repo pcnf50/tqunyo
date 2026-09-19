@@ -2725,9 +2725,20 @@
       "delay": "",
       "updated": "15:10",
       "affiliation": ""
+    },
+    {
+      "op": "48S",
+      "form": "9119F",
+      "cars": "6",
+      "no": "348-151",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "15:31",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "15:25",
+  "lastUpdate": "15:31",
   "date": "2026-09-19",
   "resetDone": false
 }
