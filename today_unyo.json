@@ -3154,9 +3154,20 @@
       "delay": "",
       "updated": "22:50",
       "affiliation": "み"
+    },
+    {
+      "op": "13K",
+      "form": "5183F",
+      "cars": "8",
+      "no": "213-222",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "23:01",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:56",
+  "lastUpdate": "23:01",
   "date": "2026-09-19",
   "resetDone": false
 }
