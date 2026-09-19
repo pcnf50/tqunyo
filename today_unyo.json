@@ -2714,9 +2714,20 @@
       "delay": "",
       "updated": "14:45",
       "affiliation": "南"
+    },
+    {
+      "op": "55T",
+      "form": "-",
+      "cars": "0",
+      "no": "455-151",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "15:10",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "15:05",
+  "lastUpdate": "15:10",
   "date": "2026-09-19",
   "resetDone": false
 }
