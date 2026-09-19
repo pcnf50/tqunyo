@@ -2494,9 +2494,20 @@
       "delay": "",
       "updated": "10:21",
       "affiliation": "南"
+    },
+    {
+      "op": "72",
+      "form": "-",
+      "cars": "10",
+      "no": "172-101",
+      "destCode": "元町・中華街",
+      "kind": "Ｓ",
+      "delay": "",
+      "updated": "10:30",
+      "affiliation": "西"
     }
   ],
-  "lastUpdate": "10:25",
+  "lastUpdate": "10:30",
   "date": "2026-09-19",
   "resetDone": false
 }
