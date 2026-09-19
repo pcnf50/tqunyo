@@ -3405,6 +3405,17 @@
       "affiliation": "南"
     },
     {
+      "op": "37T",
+      "form": "-",
+      "cars": "0",
+      "no": "437-051",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25",
+      "affiliation": ""
+    },
+    {
       "op": "35K",
       "form": "3106F",
       "cars": "8",
@@ -3412,11 +3423,22 @@
       "destCode": "奥沢",
       "kind": "回",
       "delay": "",
-      "updated": "05:20",
+      "updated": "05:25",
+      "affiliation": "急"
+    },
+    {
+      "op": "06K",
+      "form": "3101F",
+      "cars": "8",
+      "no": "206-051",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "05:20",
+  "lastUpdate": "05:25",
   "date": "2026-09-20",
   "resetDone": false
 }
