@@ -2692,9 +2692,20 @@
       "delay": "",
       "updated": "13:25",
       "affiliation": ""
+    },
+    {
+      "op": "94M",
+      "form": "9103F",
+      "cars": "6",
+      "no": "594-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:51",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "13:46",
+  "lastUpdate": "13:51",
   "date": "2026-09-19",
   "resetDone": false
 }
