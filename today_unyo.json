@@ -3856,6 +3856,17 @@
       "affiliation": "急"
     },
     {
+      "op": "29K",
+      "form": "3111F",
+      "cars": "8",
+      "no": "229-081",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:45",
+      "affiliation": "急"
+    },
+    {
       "op": "35T",
       "form": "6505F",
       "cars": "8",
@@ -3863,11 +3874,11 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "08:40",
+      "updated": "08:45",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "08:40",
+  "lastUpdate": "08:45",
   "date": "2026-09-20",
   "resetDone": false
 }
