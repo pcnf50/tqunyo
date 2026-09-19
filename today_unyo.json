@@ -3339,6 +3339,17 @@
       "affiliation": "急"
     },
     {
+      "op": "37K",
+      "form": "3104F",
+      "cars": "8",
+      "no": "237-052",
+      "destCode": "目黒",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:05",
+      "affiliation": "急"
+    },
+    {
       "op": "20K",
       "form": "5189F",
       "cars": "8",
@@ -3346,11 +3357,11 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:00",
+      "updated": "05:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "05:00",
+  "lastUpdate": "05:05",
   "date": "2026-09-20",
   "resetDone": false
 }
