@@ -2505,9 +2505,20 @@
       "delay": "",
       "updated": "10:30",
       "affiliation": "西"
+    },
+    {
+      "op": "30K",
+      "form": "5185F",
+      "cars": "8",
+      "no": "230-102",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "10:35",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "10:30",
+  "lastUpdate": "10:35",
   "date": "2026-09-19",
   "resetDone": false
 }
