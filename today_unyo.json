@@ -1073,6 +1073,16 @@
       "destCode": "",
       "kind": "不明",
       "delay": ""
+    },
+    null,
+    {
+      "op": "99",
+      "form": "-",
+      "cars": "6",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
     }
   ],
   "meguro": [
@@ -3242,7 +3252,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "02:55",
+  "lastUpdate": "03:55",
   "date": "2026-09-20",
   "resetDone": false
 }
