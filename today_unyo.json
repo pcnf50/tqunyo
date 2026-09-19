@@ -3220,9 +3220,20 @@
       "delay": "",
       "updated": "00:16",
       "affiliation": "南"
+    },
+    {
+      "op": "99",
+      "form": "5181F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "00:36",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:30",
+  "lastUpdate": "00:36",
   "date": "2026-09-20",
   "resetDone": false
 }
