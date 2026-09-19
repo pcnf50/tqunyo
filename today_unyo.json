@@ -2835,9 +2835,20 @@
       "delay": "",
       "updated": "17:40",
       "affiliation": ""
+    },
+    {
+      "op": "95K",
+      "form": "3104F",
+      "cars": "8",
+      "no": "295-171",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "17:46",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:40",
+  "lastUpdate": "17:46",
   "date": "2026-09-19",
   "resetDone": false
 }
