@@ -1065,8 +1065,6 @@
       "updated": "08:05",
       "affiliation": "南"
     },
-    null,
-    null,
     {
       "op": "99",
       "form": "-",
@@ -3244,7 +3242,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "01:39",
+  "lastUpdate": "01:41",
   "date": "2026-09-20",
   "resetDone": false
 }
