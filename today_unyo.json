@@ -549,6 +549,50 @@
       "delay": "",
       "updated": "12:45",
       "affiliation": "み"
+    },
+    {
+      "op": "91G",
+      "form": "20104F",
+      "cars": "10",
+      "no": "991-121",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "12:50",
+      "affiliation": "相"
+    },
+    {
+      "op": "65",
+      "form": "-",
+      "cars": "8",
+      "no": "465-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:50",
+      "affiliation": "都"
+    },
+    {
+      "op": "11K",
+      "form": "5151F",
+      "cars": "8",
+      "no": "011-121",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "31",
+      "form": "-",
+      "cars": "8",
+      "no": "631-122",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "12:50",
+      "affiliation": "相"
     }
   ],
   "meguro": [
@@ -1024,9 +1068,75 @@
       "delay": "",
       "updated": "12:45",
       "affiliation": "急"
+    },
+    {
+      "op": "58M",
+      "form": "-",
+      "cars": "10",
+      "no": "058-121",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "1分遅れ",
+      "updated": "12:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "4T",
+      "form": "-",
+      "cars": "8",
+      "no": "004-122",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "99",
+      "form": "-",
+      "cars": "0",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "12:50",
+      "affiliation": ""
+    },
+    {
+      "op": "12K",
+      "form": "5188F",
+      "cars": "8",
+      "no": "212-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "01",
+      "form": "-",
+      "cars": "8",
+      "no": "701-122",
+      "destCode": "渋谷",
+      "kind": "急",
+      "delay": "",
+      "updated": "12:50",
+      "affiliation": "副"
+    },
+    {
+      "op": "31G",
+      "form": "21107F",
+      "cars": "8",
+      "no": "631-122",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "12:50",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "12:45",
+  "lastUpdate": "12:50",
   "date": "2026-09-20",
   "resetDone": false
 }
