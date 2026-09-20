@@ -2916,9 +2916,20 @@
       "delay": "",
       "updated": "19:45",
       "affiliation": "急"
+    },
+    {
+      "op": "02K",
+      "form": "5186F",
+      "cars": "8",
+      "no": "202-191",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:00",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:55",
+  "lastUpdate": "20:00",
   "date": "2026-09-20",
   "resetDone": false
 }
