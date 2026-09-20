@@ -914,6 +914,28 @@
       "affiliation": "急"
     },
     {
+      "op": "63",
+      "form": "-",
+      "cars": "8",
+      "no": "463-141",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "14:20",
+      "affiliation": "都"
+    },
+    {
+      "op": "55K",
+      "form": "4114F",
+      "cars": "10",
+      "no": "055-141",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "14:20",
+      "affiliation": "急"
+    },
+    {
       "op": "84",
       "form": "-",
       "cars": "6",
@@ -921,7 +943,7 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "1分遅れ",
-      "updated": "14:15",
+      "updated": "14:20",
       "affiliation": "南"
     }
   ],
@@ -1873,6 +1895,17 @@
       "affiliation": "副"
     },
     {
+      "op": "66S",
+      "form": "9116F",
+      "cars": "6",
+      "no": "366-141",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "14:20",
+      "affiliation": "南"
+    },
+    {
       "op": "33T",
       "form": "6331F",
       "cars": "6",
@@ -1880,11 +1913,11 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "14:15",
+      "updated": "14:20",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "14:15",
+  "lastUpdate": "14:20",
   "date": "2026-09-20",
   "resetDone": false
 }
