@@ -800,7 +800,7 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "13:40",
+      "updated": "13:45",
       "affiliation": "西"
     },
     {
@@ -811,7 +811,29 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "13:40",
+      "updated": "13:45",
+      "affiliation": "急"
+    },
+    {
+      "op": "40",
+      "form": "-",
+      "cars": "6",
+      "no": "340-131",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:45",
+      "affiliation": "南"
+    },
+    {
+      "op": "05K",
+      "form": "5162F",
+      "cars": "8",
+      "no": "005-131",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:45",
       "affiliation": "急"
     }
   ],
@@ -1620,6 +1642,17 @@
       "affiliation": "副"
     },
     {
+      "op": "35T",
+      "form": "6505F",
+      "cars": "8",
+      "no": "435-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "13:45",
+      "affiliation": "都"
+    },
+    {
       "op": "56M",
       "form": "-",
       "cars": "10",
@@ -1627,11 +1660,44 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "13:40",
+      "updated": "13:45",
       "affiliation": "急"
+    },
+    {
+      "op": "82M",
+      "form": "9110F",
+      "cars": "6",
+      "no": "582-131",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "13:45",
+      "affiliation": "南"
+    },
+    {
+      "op": "99",
+      "form": "-",
+      "cars": "0",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "13:45",
+      "affiliation": ""
+    },
+    {
+      "op": "67",
+      "form": "-",
+      "cars": "10",
+      "no": "767-131",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "13:45",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "13:40",
+  "lastUpdate": "13:45",
   "date": "2026-09-20",
   "resetDone": false
 }
