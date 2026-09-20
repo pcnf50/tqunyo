@@ -1189,6 +1189,17 @@
       "affiliation": "み"
     },
     {
+      "op": "18",
+      "form": "-",
+      "cars": "8",
+      "no": "218-172",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:35",
+      "affiliation": "急"
+    },
+    {
       "op": "15K",
       "form": "Y511F",
       "cars": "8",
@@ -1196,7 +1207,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "17:30",
+      "updated": "17:35",
       "affiliation": "み"
     }
   ],
@@ -2443,9 +2454,20 @@
       "delay": "",
       "updated": "17:15",
       "affiliation": "西"
+    },
+    {
+      "op": "18K",
+      "form": "5181F",
+      "cars": "8",
+      "no": "218-172",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:35",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:30",
+  "lastUpdate": "17:35",
   "date": "2026-09-20",
   "resetDone": false
 }
