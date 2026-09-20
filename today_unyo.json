@@ -1442,6 +1442,17 @@
       "affiliation": "急"
     },
     {
+      "op": "47S",
+      "form": "10114F",
+      "cars": "10",
+      "no": "747-201",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "20:55",
+      "affiliation": "副"
+    },
+    {
       "op": "41K",
       "form": "5176F",
       "cars": "8",
@@ -1449,7 +1460,7 @@
       "destCode": "渋谷",
       "kind": "回",
       "delay": "1分遅れ",
-      "updated": "20:50",
+      "updated": "20:55",
       "affiliation": "急"
     },
     {
@@ -1459,8 +1470,19 @@
       "no": "229-202",
       "destCode": "三田線直通",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "20:50",
+      "delay": "",
+      "updated": "20:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "95",
+      "form": "-",
+      "cars": "8",
+      "no": "295-202",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "",
+      "updated": "20:55",
       "affiliation": "急"
     }
   ],
@@ -3061,40 +3083,29 @@
       "affiliation": ""
     },
     {
-      "op": "59T",
-      "form": "-",
-      "cars": "0",
-      "no": "459-201",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "20:50",
-      "affiliation": ""
-    },
-    {
-      "op": "41T",
-      "form": "-",
-      "cars": "8",
-      "no": "041-202",
-      "destCode": "渋谷",
-      "kind": "回",
-      "delay": "1分遅れ",
-      "updated": "20:50",
-      "affiliation": "急"
-    },
-    {
       "op": "29K",
       "form": "3111F",
       "cars": "8",
       "no": "229-202",
       "destCode": "三田線直通",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "20:50",
+      "delay": "",
+      "updated": "20:55",
+      "affiliation": "急"
+    },
+    {
+      "op": "95K",
+      "form": "3122F",
+      "cars": "8",
+      "no": "295-202",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "",
+      "updated": "20:55",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "20:50",
+  "lastUpdate": "20:55",
   "date": "2026-09-20",
   "resetDone": false
 }
