@@ -1090,15 +1090,13 @@
       "affiliation": "南"
     },
     {
-      "op": "42",
-      "form": "-",
-      "cars": "6",
-      "no": "342-151",
-      "destCode": "新横浜",
-      "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "16:15",
-      "affiliation": "南"
+      "op": "99",
+      "form": "Y511F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
     },
     {
       "op": "08K",
@@ -3457,7 +3455,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:50",
+  "lastUpdate": "23:54",
   "date": "2026-09-20",
   "resetDone": false
 }
