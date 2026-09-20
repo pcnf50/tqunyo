@@ -1645,9 +1645,9 @@
       "cars": "8",
       "no": "206-232",
       "destCode": "武蔵小山",
-      "kind": "普",
+      "kind": "回",
       "delay": "",
-      "updated": "23:15",
+      "updated": "23:20",
       "affiliation": "急"
     }
   ],
@@ -3385,13 +3385,13 @@
       "cars": "8",
       "no": "206-232",
       "destCode": "武蔵小山",
-      "kind": "普",
+      "kind": "回",
       "delay": "",
-      "updated": "23:15",
+      "updated": "23:20",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:15",
+  "lastUpdate": "23:20",
   "date": "2026-09-20",
   "resetDone": false
 }
