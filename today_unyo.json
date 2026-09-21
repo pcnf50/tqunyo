@@ -1767,8 +1767,8 @@
       "no": "994-191",
       "destCode": "元住吉",
       "kind": "急",
-      "delay": "",
-      "updated": "19:50",
+      "delay": "1分遅れ",
+      "updated": "19:55",
       "affiliation": "急"
     }
   ],
@@ -3695,11 +3695,11 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:50",
+      "updated": "19:55",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "19:50",
+  "lastUpdate": "19:55",
   "date": "2026-09-21",
   "resetDone": false
 }
