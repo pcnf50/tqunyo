@@ -3479,6 +3479,17 @@
       "affiliation": "副"
     },
     {
+      "op": "16",
+      "form": "-",
+      "cars": "8",
+      "no": "016-181",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:25",
+      "affiliation": "急"
+    },
+    {
       "op": "49",
       "form": "-",
       "cars": "10",
@@ -3486,11 +3497,11 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "18:20",
+      "updated": "18:25",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "18:20",
+  "lastUpdate": "18:25",
   "date": "2026-09-21",
   "resetDone": false
 }
