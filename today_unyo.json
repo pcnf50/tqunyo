@@ -1680,7 +1680,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "18:30",
+      "updated": "18:35",
       "affiliation": "西"
     }
   ],
@@ -3510,20 +3510,9 @@
       "delay": "",
       "updated": "18:25",
       "affiliation": "副"
-    },
-    {
-      "op": "21K",
-      "form": "5188F",
-      "cars": "8",
-      "no": "021-181",
-      "destCode": "元町・中華街",
-      "kind": "急",
-      "delay": "",
-      "updated": "18:30",
-      "affiliation": "急"
     }
   ],
-  "lastUpdate": "18:30",
+  "lastUpdate": "18:35",
   "date": "2026-09-21",
   "resetDone": false
 }
