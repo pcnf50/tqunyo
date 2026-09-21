@@ -3356,20 +3356,9 @@
       "delay": "3分遅れ",
       "updated": "17:05",
       "affiliation": "み"
-    },
-    {
-      "op": "25K",
-      "form": "-",
-      "cars": "0",
-      "no": "225-171",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "17:30",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "17:30",
+  "lastUpdate": "17:35",
   "date": "2026-09-21",
   "resetDone": false
 }
