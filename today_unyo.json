@@ -1277,15 +1277,13 @@
       "affiliation": "急"
     },
     {
-      "op": "37K",
-      "form": "3105F",
-      "cars": "8",
-      "no": "237-052",
-      "destCode": "目黒",
-      "kind": "普",
-      "delay": "",
-      "updated": "05:05",
-      "affiliation": "急"
+      "op": "10",
+      "form": "-",
+      "cars": "10",
+      "no": "110-082",
+      "destCode": "副都心線直通",
+      "kind": "F特急",
+      "delay": ""
     },
     {
       "op": "20K",
@@ -2300,7 +2298,7 @@
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "08:40",
+  "lastUpdate": "08:41",
   "date": "2026-09-22",
   "resetDone": false
 }
