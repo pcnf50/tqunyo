@@ -1728,6 +1728,28 @@
       "affiliation": "副"
     },
     {
+      "op": "07",
+      "form": "-",
+      "cars": "8",
+      "no": "207-192",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:45",
+      "affiliation": "急"
+    },
+    {
+      "op": "52K",
+      "form": "4113F",
+      "cars": "10",
+      "no": "052-192",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "19:45",
+      "affiliation": "急"
+    },
+    {
       "op": "75M",
       "form": "40106F",
       "cars": "10",
@@ -1735,7 +1757,7 @@
       "destCode": "",
       "kind": "Ｓ",
       "delay": "",
-      "updated": "19:40",
+      "updated": "19:45",
       "affiliation": "西"
     }
   ],
@@ -3631,9 +3653,31 @@
       "delay": "",
       "updated": "19:35",
       "affiliation": "急"
+    },
+    {
+      "op": "61T",
+      "form": "-",
+      "cars": "0",
+      "no": "461-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:45",
+      "affiliation": ""
+    },
+    {
+      "op": "07K",
+      "form": "3101F",
+      "cars": "8",
+      "no": "207-192",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:40",
+  "lastUpdate": "19:45",
   "date": "2026-09-21",
   "resetDone": false
 }
