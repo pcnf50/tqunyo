@@ -3884,9 +3884,20 @@
       "delay": "",
       "updated": "21:45",
       "affiliation": ""
+    },
+    {
+      "op": "64G",
+      "form": "-",
+      "cars": "10",
+      "no": "064-211",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "22:00",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "21:55",
+  "lastUpdate": "22:00",
   "date": "2026-09-21",
   "resetDone": false
 }
