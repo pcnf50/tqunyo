@@ -3829,9 +3829,20 @@
       "delay": "7分遅れ",
       "updated": "21:15",
       "affiliation": "副"
+    },
+    {
+      "op": "96M",
+      "form": "-",
+      "cars": "0",
+      "no": "596-211",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "21:20",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "21:15",
+  "lastUpdate": "21:20",
   "date": "2026-09-21",
   "resetDone": false
 }
