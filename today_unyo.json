@@ -1957,6 +1957,17 @@
       "delay": "",
       "updated": "23:05",
       "affiliation": "急"
+    },
+    {
+      "op": "02M",
+      "form": "6116F",
+      "cars": "10",
+      "no": "102-232",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "23:15",
+      "affiliation": "西"
     }
   ],
   "meguro": [
@@ -4018,7 +4029,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:10",
+  "lastUpdate": "23:15",
   "date": "2026-09-21",
   "resetDone": false
 }
