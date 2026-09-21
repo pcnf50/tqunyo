@@ -3541,7 +3541,7 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "18:50",
+      "updated": "18:55",
       "affiliation": "西"
     },
     {
@@ -3552,11 +3552,11 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:50",
+      "updated": "18:55",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "18:50",
+  "lastUpdate": "18:55",
   "date": "2026-09-21",
   "resetDone": false
 }
