@@ -2030,7 +2030,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "23:30",
+      "updated": "23:35",
       "affiliation": "急"
     }
   ],
@@ -4214,6 +4214,17 @@
       "affiliation": "急"
     },
     {
+      "op": "45",
+      "form": "-",
+      "cars": "10",
+      "no": "745-231",
+      "destCode": "横浜",
+      "kind": "特",
+      "delay": "",
+      "updated": "23:35",
+      "affiliation": "副"
+    },
+    {
       "op": "99",
       "form": "5188F",
       "cars": "8",
@@ -4221,11 +4232,11 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:30",
+      "updated": "23:35",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:30",
+  "lastUpdate": "23:35",
   "date": "2026-09-22",
   "resetDone": false
 }
