@@ -1944,6 +1944,17 @@
       "delay": "4分遅れ",
       "updated": "22:05",
       "affiliation": "相"
+    },
+    {
+      "op": "67",
+      "form": "-",
+      "cars": "6",
+      "no": "467-221",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:20",
+      "affiliation": "都"
     }
   ],
   "meguro": [
@@ -4089,11 +4100,11 @@
       "destCode": "相鉄線直通",
       "kind": "普",
       "delay": "",
-      "updated": "22:15",
+      "updated": "22:20",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "22:15",
+  "lastUpdate": "22:20",
   "date": "2026-09-22",
   "resetDone": false
 }
