@@ -4025,9 +4025,20 @@
       "delay": "",
       "updated": "21:25",
       "affiliation": "相"
+    },
+    {
+      "op": "02K",
+      "form": "5183F",
+      "cars": "8",
+      "no": "202-212",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "21:50",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "21:45",
+  "lastUpdate": "21:50",
   "date": "2026-09-22",
   "resetDone": false
 }
