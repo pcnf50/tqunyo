@@ -1790,6 +1790,17 @@
       "delay": "",
       "updated": "18:45",
       "affiliation": "急"
+    },
+    {
+      "op": "75S",
+      "form": "10122F",
+      "cars": "10",
+      "no": "775-181",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "2分遅れ",
+      "updated": "18:50",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -3673,9 +3684,31 @@
       "delay": "",
       "updated": "18:35",
       "affiliation": "急"
+    },
+    {
+      "op": "80M",
+      "form": "9101F",
+      "cars": "6",
+      "no": "580-181",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:50",
+      "affiliation": "南"
+    },
+    {
+      "op": "37G",
+      "form": "5181F",
+      "cars": "8",
+      "no": "637-182",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:50",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "18:45",
+  "lastUpdate": "18:50",
   "date": "2026-09-22",
   "resetDone": false
 }
