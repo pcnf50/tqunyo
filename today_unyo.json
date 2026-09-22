@@ -1369,8 +1369,8 @@
       "no": "128-101",
       "destCode": "元町・中華街",
       "kind": "Ｆ",
-      "delay": "",
-      "updated": "10:10",
+      "delay": "2分遅れ",
+      "updated": "10:15",
       "affiliation": "西"
     }
   ],
@@ -2740,6 +2740,17 @@
       "affiliation": "都"
     },
     {
+      "op": "08",
+      "form": "-",
+      "cars": "10",
+      "no": "108-091",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "4分遅れ",
+      "updated": "10:15",
+      "affiliation": "西"
+    },
+    {
       "op": "23",
       "form": "-",
       "cars": "10",
@@ -2747,11 +2758,11 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "3分遅れ",
-      "updated": "10:10",
+      "updated": "10:15",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "10:10",
+  "lastUpdate": "10:15",
   "date": "2026-09-22",
   "resetDone": false
 }
