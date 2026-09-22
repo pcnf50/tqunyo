@@ -3189,9 +3189,20 @@
       "delay": "2分遅れ",
       "updated": "12:50",
       "affiliation": "急"
+    },
+    {
+      "op": "80K",
+      "form": "-",
+      "cars": "0",
+      "no": "280-121",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "12:55",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "12:50",
+  "lastUpdate": "12:55",
   "date": "2026-09-22",
   "resetDone": false
 }
