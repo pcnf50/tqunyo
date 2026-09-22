@@ -4278,9 +4278,20 @@
       "delay": "",
       "updated": "00:15",
       "affiliation": "南"
+    },
+    {
+      "op": "3S",
+      "form": "5191F",
+      "cars": "8",
+      "no": "003-241",
+      "destCode": "菊名",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:25",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:20",
+  "lastUpdate": "00:25",
   "date": "2026-09-23",
   "resetDone": false
 }
