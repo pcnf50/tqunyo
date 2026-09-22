@@ -1493,6 +1493,17 @@
       "delay": "",
       "updated": "11:55",
       "affiliation": "南"
+    },
+    {
+      "op": "41K",
+      "form": "5118F",
+      "cars": "8",
+      "no": "041-112",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "4分遅れ",
+      "updated": "12:00",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3046,9 +3057,31 @@
       "delay": "",
       "updated": "11:55",
       "affiliation": "副"
+    },
+    {
+      "op": "41T",
+      "form": "5188F",
+      "cars": "8",
+      "no": "041-112",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "4分遅れ",
+      "updated": "12:00",
+      "affiliation": "急"
+    },
+    {
+      "op": "61",
+      "form": "-",
+      "cars": "10",
+      "no": "761-112",
+      "destCode": "副都心線直通",
+      "kind": "Ｆ",
+      "delay": "3分遅れ",
+      "updated": "12:00",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "11:55",
+  "lastUpdate": "12:00",
   "date": "2026-09-22",
   "resetDone": false
 }
