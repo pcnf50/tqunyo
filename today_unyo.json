@@ -1501,8 +1501,8 @@
       "no": "041-112",
       "destCode": "渋谷",
       "kind": "回",
-      "delay": "4分遅れ",
-      "updated": "12:00",
+      "delay": "2分遅れ",
+      "updated": "12:05",
       "affiliation": "急"
     }
   ],
@@ -3059,14 +3059,25 @@
       "affiliation": "副"
     },
     {
+      "op": "61T",
+      "form": "6508F",
+      "cars": "8",
+      "no": "461-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:05",
+      "affiliation": "都"
+    },
+    {
       "op": "41T",
       "form": "5188F",
       "cars": "8",
       "no": "041-112",
       "destCode": "渋谷",
       "kind": "回",
-      "delay": "4分遅れ",
-      "updated": "12:00",
+      "delay": "2分遅れ",
+      "updated": "12:05",
       "affiliation": "急"
     },
     {
@@ -3076,12 +3087,12 @@
       "no": "761-112",
       "destCode": "副都心線直通",
       "kind": "Ｆ",
-      "delay": "3分遅れ",
-      "updated": "12:00",
+      "delay": "4分遅れ",
+      "updated": "12:05",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "12:00",
+  "lastUpdate": "12:05",
   "date": "2026-09-22",
   "resetDone": false
 }
