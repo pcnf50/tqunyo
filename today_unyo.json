@@ -2914,9 +2914,42 @@
       "delay": "",
       "updated": "08:35",
       "affiliation": "急"
+    },
+    {
+      "op": "35T",
+      "form": "6509F",
+      "cars": "8",
+      "no": "435-081",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "08:40",
+      "affiliation": "都"
+    },
+    {
+      "op": "34",
+      "form": "-",
+      "cars": "10",
+      "no": "134-081",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "4分遅れ",
+      "updated": "08:40",
+      "affiliation": "西"
+    },
+    {
+      "op": "73T",
+      "form": "6325F",
+      "cars": "6",
+      "no": "473-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "08:40",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "08:35",
+  "lastUpdate": "08:40",
   "date": "2026-09-24",
   "resetDone": false
 }
