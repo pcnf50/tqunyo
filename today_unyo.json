@@ -1414,8 +1414,19 @@
       "destCode": "日吉",
       "kind": "急",
       "delay": "",
-      "updated": "08:30",
+      "updated": "08:35",
       "affiliation": "都"
+    },
+    {
+      "op": "04M",
+      "form": "40157F",
+      "cars": "10",
+      "no": "104-081",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "08:35",
+      "affiliation": "西"
     }
   ],
   "meguro": [
@@ -2927,6 +2938,39 @@
       "affiliation": "副"
     },
     {
+      "op": "34",
+      "form": "-",
+      "cars": "10",
+      "no": "134-081",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:35",
+      "affiliation": "西"
+    },
+    {
+      "op": "35T",
+      "form": "-",
+      "cars": "0",
+      "no": "435-081",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:35",
+      "affiliation": ""
+    },
+    {
+      "op": "75T",
+      "form": "6319F",
+      "cars": "6",
+      "no": "475-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:35",
+      "affiliation": "都"
+    },
+    {
       "op": "88M",
       "form": "9105F",
       "cars": "6",
@@ -2934,7 +2978,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "08:30",
+      "updated": "08:35",
       "affiliation": "南"
     },
     {
@@ -2945,11 +2989,11 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "08:30",
+      "updated": "08:35",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "08:30",
+  "lastUpdate": "08:35",
   "date": "2026-09-25",
   "resetDone": false
 }
