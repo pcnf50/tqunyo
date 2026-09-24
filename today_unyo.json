@@ -2230,17 +2230,6 @@
       "delay": "",
       "updated": "22:05",
       "affiliation": "東"
-    },
-    {
-      "op": "36",
-      "form": "5118F",
-      "cars": "8",
-      "no": "236-222",
-      "destCode": "南北線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "22:15",
-      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4771,11 +4760,11 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "22:15",
+      "updated": "22:20",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:15",
+  "lastUpdate": "22:20",
   "date": "2026-09-24",
   "resetDone": false
 }
