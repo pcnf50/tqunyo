@@ -2124,13 +2124,15 @@
       "affiliation": "急"
     },
     {
-      "op": "22",
-      "form": "-",
-      "cars": "10",
-      "no": "122-151",
-      "destCode": "元町・中華街",
-      "kind": "F特急",
-      "delay": ""
+      "op": "07K",
+      "form": "3121F",
+      "cars": "8",
+      "no": "207-051",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25",
+      "affiliation": "急"
     },
     {
       "op": "99",
