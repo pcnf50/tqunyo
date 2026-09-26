@@ -1491,7 +1491,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "12:20",
+      "updated": "12:25",
       "affiliation": "都"
     }
   ],
@@ -3002,9 +3002,31 @@
       "delay": "",
       "updated": "11:45",
       "affiliation": "南"
+    },
+    {
+      "op": "86M",
+      "form": "-",
+      "cars": "0",
+      "no": "586-121",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:25",
+      "affiliation": ""
+    },
+    {
+      "op": "61T",
+      "form": "6315F",
+      "cars": "6",
+      "no": "461-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:25",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "12:20",
+  "lastUpdate": "12:25",
   "date": "2026-09-26",
   "resetDone": false
 }
