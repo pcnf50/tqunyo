@@ -3123,9 +3123,20 @@
       "delay": "",
       "updated": "14:55",
       "affiliation": "副"
+    },
+    {
+      "op": "61",
+      "form": "-",
+      "cars": "10",
+      "no": "761-141",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "15:05",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "15:00",
+  "lastUpdate": "15:05",
   "date": "2026-09-26",
   "resetDone": false
 }
