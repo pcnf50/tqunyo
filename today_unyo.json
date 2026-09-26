@@ -2892,9 +2892,20 @@
       "delay": "",
       "updated": "10:45",
       "affiliation": "副"
+    },
+    {
+      "op": "84M",
+      "form": "9106F",
+      "cars": "6",
+      "no": "584-101",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:50",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "10:47",
+  "lastUpdate": "10:50",
   "date": "2026-09-26",
   "resetDone": false
 }
