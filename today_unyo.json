@@ -1284,19 +1284,41 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "1分遅れ",
-      "updated": "08:00",
+      "updated": "08:05",
       "affiliation": "副"
     },
     {
-      "op": "84",
+      "op": "59",
       "form": "-",
       "cars": "6",
-      "no": "584-071",
-      "destCode": "元住吉",
+      "no": "459-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "08:05",
+      "affiliation": "都"
+    },
+    {
+      "op": "01K",
+      "form": "5159F",
+      "cars": "8",
+      "no": "001-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "08:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "44",
+      "form": "-",
+      "cars": "8",
+      "no": "644-072",
+      "destCode": "南北線直通",
       "kind": "急",
       "delay": "1分遅れ",
-      "updated": "08:00",
-      "affiliation": "南"
+      "updated": "08:05",
+      "affiliation": "相"
     }
   ],
   "meguro": [
@@ -2594,22 +2616,55 @@
       "no": "364-071",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "08:00",
+      "delay": "",
+      "updated": "08:05",
       "affiliation": "南"
     },
     {
-      "op": "45",
+      "op": "42S",
+      "form": "9103F",
+      "cars": "6",
+      "no": "342-081",
+      "destCode": "日吉",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "08:05",
+      "affiliation": "南"
+    },
+    {
+      "op": "27K",
+      "form": "3113F",
+      "cars": "8",
+      "no": "227-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "08:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "63G",
       "form": "-",
       "cars": "10",
-      "no": "745-071",
-      "destCode": "元町・中華街",
+      "no": "063-072",
+      "destCode": "副都心線直通",
       "kind": "通",
       "delay": "1分遅れ",
-      "updated": "08:00",
-      "affiliation": "副"
+      "updated": "08:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "44G",
+      "form": "21102F",
+      "cars": "8",
+      "no": "644-072",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "08:05",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "08:00",
+  "lastUpdate": "08:05",
   "date": "2026-09-28"
 }
