@@ -1,16 +1,30 @@
 {
-  "toyoko": {
-    "99": {
-      "op": "99",
+  "toyoko": [
+    {
+      "op": "99G",
       "form": "5122F",
       "cars": "8",
       "no": "999-990",
       "destCode": "",
       "kind": "不明",
-      "delay": ""
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
     }
-  },
-  "meguro": {},
-  "lastUpdate": "03:40",
+  ],
+  "meguro": [
+    {
+      "op": "99",
+      "form": "3105F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "04:50",
+      "affiliation": "急"
+    }
+  ],
+  "lastUpdate": "04:50",
   "date": "2026-09-28"
 }
