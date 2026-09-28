@@ -1757,7 +1757,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "11:00",
+      "updated": "11:05",
       "affiliation": "都"
     },
     {
@@ -1768,7 +1768,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "11:00",
+      "updated": "11:05",
       "affiliation": "南"
     }
   ],
@@ -3574,10 +3574,10 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "1分遅れ",
-      "updated": "11:00",
+      "updated": "11:05",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "11:00",
+  "lastUpdate": "11:05",
   "date": "2026-09-28"
 }
