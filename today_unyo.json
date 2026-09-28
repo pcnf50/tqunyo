@@ -2177,6 +2177,17 @@
       "delay": "",
       "updated": "19:45",
       "affiliation": ""
+    },
+    {
+      "op": "29",
+      "form": "-",
+      "cars": "8",
+      "no": "229-192",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:55",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4502,6 +4513,17 @@
       "affiliation": ""
     },
     {
+      "op": "29K",
+      "form": "5186F",
+      "cars": "8",
+      "no": "229-192",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:55",
+      "affiliation": "急"
+    },
+    {
       "op": "32G",
       "form": "21108F",
       "cars": "8",
@@ -4509,21 +4531,21 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "19:50",
+      "updated": "19:55",
       "affiliation": "相"
     },
     {
-      "op": "15K",
+      "op": "94M",
       "form": "-",
       "cars": "0",
-      "no": "215-191",
-      "destCode": "相鉄線直通",
+      "no": "594-191",
+      "destCode": "日吉",
       "kind": "普",
-      "delay": "5分遅れ",
-      "updated": "19:50",
+      "delay": "2分遅れ",
+      "updated": "19:55",
       "affiliation": ""
     }
   ],
-  "lastUpdate": "19:50",
+  "lastUpdate": "19:55",
   "date": "2026-09-28"
 }
