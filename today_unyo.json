@@ -6326,8 +6326,19 @@
       "delay": "",
       "updated": "08:05",
       "affiliation": "相"
+    },
+    {
+      "op": "27K",
+      "form": "5190F",
+      "cars": "8",
+      "no": "227-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "08:10",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "08:05",
+  "lastUpdate": "08:10",
   "date": "2026-09-29"
 }
