@@ -3233,6 +3233,17 @@
       "delay": "4分遅れ",
       "updated": "09:15",
       "affiliation": "急"
+    },
+    {
+      "op": "53K",
+      "form": "-",
+      "cars": "0",
+      "no": "053-091",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "4分遅れ",
+      "updated": "09:20",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -6669,6 +6680,6 @@
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:15",
+  "lastUpdate": "09:20",
   "date": "2026-09-29"
 }
