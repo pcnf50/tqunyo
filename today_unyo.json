@@ -2993,8 +2993,19 @@
       "delay": "",
       "updated": "08:45",
       "affiliation": "都"
+    },
+    {
+      "op": "04",
+      "form": "-",
+      "cars": "10",
+      "no": "104-081",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "1分遅れ",
+      "updated": "08:50",
+      "affiliation": "西"
     }
   ],
-  "lastUpdate": "08:45",
+  "lastUpdate": "08:50",
   "date": "2026-09-30"
 }
