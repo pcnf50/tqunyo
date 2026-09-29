@@ -3497,6 +3497,28 @@
       "delay": "5分遅れ",
       "updated": "17:25",
       "affiliation": "東"
+    },
+    {
+      "op": "85S",
+      "form": "10109F",
+      "cars": "10",
+      "no": "785-181",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "18:01",
+      "affiliation": "副"
+    },
+    {
+      "op": "30K",
+      "form": "Y514F",
+      "cars": "8",
+      "no": "030-172",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "18:01",
+      "affiliation": "み"
     }
   ],
   "meguro": [
@@ -7197,6 +7219,6 @@
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "17:55",
+  "lastUpdate": "18:01",
   "date": "2026-09-29"
 }
