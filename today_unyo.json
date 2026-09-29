@@ -6878,6 +6878,17 @@
       "affiliation": "都"
     },
     {
+      "op": "03",
+      "form": "5189F",
+      "cars": "8",
+      "no": "703-101",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "10:55",
+      "affiliation": "急"
+    },
+    {
       "op": "37G",
       "form": "21103F",
       "cars": "8",
@@ -6885,10 +6896,10 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "10:50",
+      "updated": "10:55",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "10:50",
+  "lastUpdate": "10:55",
   "date": "2026-09-29"
 }
