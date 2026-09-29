@@ -3585,6 +3585,17 @@
       "delay": "3分遅れ",
       "updated": "19:25",
       "affiliation": "副"
+    },
+    {
+      "op": "98",
+      "form": "-",
+      "cars": "8",
+      "no": "298-192",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "19:30",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -7393,8 +7404,19 @@
       "delay": "",
       "updated": "19:25",
       "affiliation": "南"
+    },
+    {
+      "op": "98K",
+      "form": "3105F",
+      "cars": "8",
+      "no": "298-192",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "19:30",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:25",
+  "lastUpdate": "19:30",
   "date": "2026-09-29"
 }
