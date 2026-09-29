@@ -3587,15 +3587,15 @@
       "affiliation": "副"
     },
     {
-      "op": "98",
-      "form": "-",
-      "cars": "8",
-      "no": "298-192",
-      "destCode": "大岡山",
-      "kind": "回",
+      "op": "77S",
+      "form": "10134F",
+      "cars": "10",
+      "no": "777-191",
+      "destCode": "元町・中華街",
+      "kind": "通",
       "delay": "",
-      "updated": "19:30",
-      "affiliation": "急"
+      "updated": "19:35",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -7413,10 +7413,10 @@
       "destCode": "大岡山",
       "kind": "回",
       "delay": "",
-      "updated": "19:30",
+      "updated": "19:35",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:30",
+  "lastUpdate": "19:35",
   "date": "2026-09-29"
 }
