@@ -3541,8 +3541,19 @@
       "delay": "",
       "updated": "13:55",
       "affiliation": "急"
+    },
+    {
+      "op": "01K",
+      "form": "5184F",
+      "cars": "8",
+      "no": "201-131",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "14:01",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "13:55",
+  "lastUpdate": "14:01",
   "date": "2026-09-30"
 }
