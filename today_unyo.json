@@ -4498,8 +4498,19 @@
       "delay": "",
       "updated": "23:45",
       "affiliation": "急"
+    },
+    {
+      "op": "40S",
+      "form": "9104F",
+      "cars": "6",
+      "no": "340-232",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:50",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "23:45",
+  "lastUpdate": "23:50",
   "date": "2026-09-30"
 }
