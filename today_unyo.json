@@ -6168,8 +6168,19 @@
       "delay": "2分遅れ",
       "updated": "08:40",
       "affiliation": "都"
+    },
+    {
+      "op": "46S",
+      "form": "9112F",
+      "cars": "8",
+      "no": "346-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "08:45",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:40",
+  "lastUpdate": "08:45",
   "date": "2026-10-01"
 }
