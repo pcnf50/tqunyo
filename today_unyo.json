@@ -6113,8 +6113,19 @@
       "delay": "3分遅れ",
       "updated": "08:30",
       "affiliation": "急"
+    },
+    {
+      "op": "75T",
+      "form": "6325F",
+      "cars": "6",
+      "no": "475-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "08:35",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "08:30",
+  "lastUpdate": "08:35",
   "date": "2026-10-01"
 }
