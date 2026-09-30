@@ -2309,6 +2309,17 @@
       "affiliation": "急"
     },
     {
+      "op": "04S",
+      "form": "17190F",
+      "cars": "8",
+      "no": "704-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25",
+      "affiliation": "副"
+    },
+    {
       "op": "99G",
       "form": "5161F",
       "cars": "8",
@@ -2316,18 +2327,18 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "05:20",
+      "updated": "05:25",
       "affiliation": "急"
     },
     {
       "op": "60K",
       "form": "4105F",
       "cars": "10",
-      "no": "060-052",
-      "destCode": "武蔵小杉",
-      "kind": "回",
+      "no": "060-051",
+      "destCode": "元町・中華街",
+      "kind": "急",
       "delay": "",
-      "updated": "05:20",
+      "updated": "05:25",
       "affiliation": "急"
     }
   ],
@@ -4817,17 +4828,28 @@
       "affiliation": "南"
     },
     {
-      "op": "99",
+      "op": "07K",
       "form": "3107F",
       "cars": "8",
-      "no": "999-000",
-      "destCode": "",
-      "kind": "各駅停車",
+      "no": "207-051",
+      "destCode": "日吉",
+      "kind": "普",
       "delay": "",
-      "updated": "05:20",
+      "updated": "05:25",
       "affiliation": "急"
+    },
+    {
+      "op": "37T",
+      "form": "6504F",
+      "cars": "8",
+      "no": "437-051",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:25",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "05:20",
+  "lastUpdate": "05:25",
   "date": "2026-10-01"
 }
