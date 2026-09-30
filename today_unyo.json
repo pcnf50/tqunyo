@@ -1965,8 +1965,8 @@
       "no": "030-181",
       "destCode": "元町・中華街",
       "kind": "普",
-      "delay": "",
-      "updated": "19:10",
+      "delay": "1分遅れ",
+      "updated": "19:15",
       "affiliation": "み"
     },
     {
@@ -1977,7 +1977,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "1分遅れ",
-      "updated": "19:10",
+      "updated": "19:15",
       "affiliation": "副"
     },
     {
@@ -1988,8 +1988,30 @@
       "destCode": "副都心線直通",
       "kind": "通",
       "delay": "",
-      "updated": "19:10",
+      "updated": "19:15",
       "affiliation": "副"
+    },
+    {
+      "op": "63S",
+      "form": "10114F",
+      "cars": "10",
+      "no": "763-191",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "19:15",
+      "affiliation": "副"
+    },
+    {
+      "op": "08",
+      "form": "-",
+      "cars": "8",
+      "no": "208-192",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "19:15",
+      "affiliation": "急"
     },
     {
       "op": "30M",
@@ -1999,7 +2021,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "19:10",
+      "updated": "19:15",
       "affiliation": "西"
     }
   ],
@@ -4012,7 +4034,7 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "19:10",
+      "updated": "19:15",
       "affiliation": "急"
     },
     {
@@ -4023,21 +4045,32 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:10",
+      "updated": "19:15",
       "affiliation": "急"
     },
     {
-      "op": "90M",
-      "form": "2109F",
-      "cars": "6",
-      "no": "590-182",
+      "op": "08K",
+      "form": "3112F",
+      "cars": "8",
+      "no": "208-192",
       "destCode": "南北線直通",
-      "kind": "普",
+      "kind": "急",
       "delay": "",
-      "updated": "19:10",
-      "affiliation": "南"
+      "updated": "19:15",
+      "affiliation": "急"
+    },
+    {
+      "op": "30",
+      "form": "-",
+      "cars": "10",
+      "no": "130-191",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "19:15",
+      "affiliation": "西"
     }
   ],
-  "lastUpdate": "19:10",
+  "lastUpdate": "19:15",
   "date": "2026-09-30"
 }
