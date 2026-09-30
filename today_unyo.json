@@ -6091,8 +6091,30 @@
       "delay": "",
       "updated": "08:25",
       "affiliation": "南"
+    },
+    {
+      "op": "88M",
+      "form": "9108F",
+      "cars": "6",
+      "no": "588-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "08:30",
+      "affiliation": "南"
+    },
+    {
+      "op": "31K",
+      "form": "3113F",
+      "cars": "8",
+      "no": "231-082",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "3分遅れ",
+      "updated": "08:30",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "08:25",
+  "lastUpdate": "08:30",
   "date": "2026-10-01"
 }
