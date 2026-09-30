@@ -1680,7 +1680,7 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "13:01",
+      "updated": "13:05",
       "affiliation": "都"
     }
   ],
@@ -3373,8 +3373,8 @@
       "no": "637-121",
       "destCode": "相鉄線直通",
       "kind": "急",
-      "delay": "",
-      "updated": "13:01",
+      "delay": "1分遅れ",
+      "updated": "13:05",
       "affiliation": "相"
     },
     {
@@ -3385,10 +3385,10 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "13:01",
+      "updated": "13:05",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "13:01",
+  "lastUpdate": "13:05",
   "date": "2026-09-30"
 }
