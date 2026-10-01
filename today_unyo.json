@@ -3442,6 +3442,17 @@
       "affiliation": "副"
     },
     {
+      "op": "65K",
+      "form": "4106F",
+      "cars": "10",
+      "no": "065-201",
+      "destCode": "相鉄線直通",
+      "kind": "回",
+      "delay": "5分遅れ",
+      "updated": "20:55",
+      "affiliation": "急"
+    },
+    {
       "op": "11S",
       "form": "17195F",
       "cars": "8",
@@ -3449,7 +3460,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "3分遅れ",
-      "updated": "20:50",
+      "updated": "20:55",
       "affiliation": "副"
     }
   ],
@@ -7160,6 +7171,6 @@
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "20:50",
+  "lastUpdate": "20:55",
   "date": "2026-10-01"
 }
