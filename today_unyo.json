@@ -6531,8 +6531,19 @@
       "delay": "",
       "updated": "11:10",
       "affiliation": "都"
+    },
+    {
+      "op": "44S",
+      "form": "9115F",
+      "cars": "8",
+      "no": "344-112",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:25",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "11:20",
+  "lastUpdate": "11:25",
   "date": "2026-10-01"
 }
