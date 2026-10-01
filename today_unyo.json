@@ -3242,6 +3242,17 @@
       "delay": "",
       "updated": "12:55",
       "affiliation": "東"
+    },
+    {
+      "op": "75S",
+      "form": "10123F",
+      "cars": "10",
+      "no": "775-171",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:30",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -6685,8 +6696,63 @@
       "delay": "",
       "updated": "14:25",
       "affiliation": ""
+    },
+    {
+      "op": "83T",
+      "form": "6323F",
+      "cars": "6",
+      "no": "483-171",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:30",
+      "affiliation": "都"
+    },
+    {
+      "op": "14K",
+      "form": "5187F",
+      "cars": "8",
+      "no": "214-172",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:30",
+      "affiliation": "急"
+    },
+    {
+      "op": "56S",
+      "form": "9103F",
+      "cars": "6",
+      "no": "356-171",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:30",
+      "affiliation": "南"
+    },
+    {
+      "op": "15K",
+      "form": "3101F",
+      "cars": "8",
+      "no": "215-172",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:30",
+      "affiliation": "急"
+    },
+    {
+      "op": "48K",
+      "form": "5186F",
+      "cars": "8",
+      "no": "248-172",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:30",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "15:00",
+  "lastUpdate": "17:30",
   "date": "2026-10-01"
 }
