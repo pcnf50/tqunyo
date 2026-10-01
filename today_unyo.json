@@ -3372,7 +3372,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:00",
+      "updated": "19:05",
       "affiliation": "急"
     },
     {
@@ -3383,7 +3383,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "19:00",
+      "updated": "19:05",
       "affiliation": "西"
     }
   ],
@@ -6980,10 +6980,10 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:00",
+      "updated": "19:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:00",
+  "lastUpdate": "19:05",
   "date": "2026-10-01"
 }
