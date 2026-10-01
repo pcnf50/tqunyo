@@ -3484,6 +3484,17 @@
       "delay": "",
       "updated": "22:05",
       "affiliation": "東"
+    },
+    {
+      "op": "13T",
+      "form": "9104F",
+      "cars": "10",
+      "no": "813-221",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "23:05",
+      "affiliation": "東"
     }
   ],
   "meguro": [
@@ -7237,6 +7248,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:00",
+  "lastUpdate": "23:05",
   "date": "2026-10-01"
 }
