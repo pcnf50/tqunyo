@@ -2707,9 +2707,31 @@
       "delay": "1分遅れ",
       "updated": "08:05",
       "affiliation": ""
+    },
+    {
+      "op": "27K",
+      "form": "5183F",
+      "cars": "8",
+      "no": "227-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "08:10",
+      "affiliation": "急"
+    },
+    {
+      "op": "63G",
+      "form": "-",
+      "cars": "10",
+      "no": "063-072",
+      "destCode": "副都心線直通",
+      "kind": "通",
+      "delay": "3分遅れ",
+      "updated": "08:10",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "08:05",
+  "lastUpdate": "08:10",
   "date": "2026-10-02",
   "resetDone": false
 }
