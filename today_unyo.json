@@ -7026,8 +7026,19 @@
       "delay": "",
       "updated": "19:20",
       "affiliation": "急"
+    },
+    {
+      "op": "32S",
+      "form": "9106F",
+      "cars": "6",
+      "no": "332-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:25",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "19:20",
+  "lastUpdate": "19:25",
   "date": "2026-10-01"
 }
