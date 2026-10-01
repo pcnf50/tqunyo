@@ -7268,8 +7268,19 @@
       "delay": "",
       "updated": "23:50",
       "affiliation": "急"
+    },
+    {
+      "op": "36K",
+      "form": "5185F",
+      "cars": "8",
+      "no": "236-241",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "00:00",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:55",
-  "date": "2026-10-01"
+  "lastUpdate": "00:00",
+  "date": "2026-10-02"
 }
