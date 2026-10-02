@@ -1847,6 +1847,17 @@
       "delay": "",
       "updated": "15:40",
       "affiliation": "西"
+    },
+    {
+      "op": "64K",
+      "form": "4113F",
+      "cars": "10",
+      "no": "064-152",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "15:45",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3774,9 +3785,20 @@
       "delay": "",
       "updated": "15:40",
       "affiliation": ""
+    },
+    {
+      "op": "64G",
+      "form": "-",
+      "cars": "10",
+      "no": "064-152",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "15:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "15:40",
+  "lastUpdate": "15:45",
   "date": "2026-10-02",
   "resetDone": false
 }
