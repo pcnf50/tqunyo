@@ -1605,6 +1605,17 @@
       "delay": "1分遅れ",
       "updated": "09:35",
       "affiliation": "南"
+    },
+    {
+      "op": "94G",
+      "form": "-",
+      "cars": "0",
+      "no": "994-091",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "8分遅れ",
+      "updated": "09:40",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -3303,7 +3314,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "09:35",
+  "lastUpdate": "09:40",
   "date": "2026-10-02",
   "resetDone": false
 }
