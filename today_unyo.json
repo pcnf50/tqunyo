@@ -1822,8 +1822,8 @@
       "no": "122-151",
       "destCode": "元町・中華街",
       "kind": "Ｆ",
-      "delay": "",
-      "updated": "15:10",
+      "delay": "1分遅れ",
+      "updated": "15:15",
       "affiliation": "西"
     }
   ],
@@ -3743,7 +3743,7 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "15:10",
+  "lastUpdate": "15:15",
   "date": "2026-10-02",
   "resetDone": false
 }
