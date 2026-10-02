@@ -1814,6 +1814,17 @@
       "delay": "",
       "updated": "14:35",
       "affiliation": "南"
+    },
+    {
+      "op": "22M",
+      "form": "6115F",
+      "cars": "10",
+      "no": "122-151",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "15:10",
+      "affiliation": "西"
     }
   ],
   "meguro": [
@@ -3732,7 +3743,7 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "15:05",
+  "lastUpdate": "15:10",
   "date": "2026-10-02",
   "resetDone": false
 }
