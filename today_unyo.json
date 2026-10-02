@@ -1735,7 +1735,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "10:50",
+      "updated": "10:55",
       "affiliation": "都"
     },
     {
@@ -1744,9 +1744,9 @@
       "cars": "6",
       "no": "592-101",
       "destCode": "新横浜",
-      "kind": "回",
+      "kind": "普",
       "delay": "",
-      "updated": "10:50",
+      "updated": "10:55",
       "affiliation": "南"
     }
   ],
@@ -3574,11 +3574,11 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "10:50",
+      "updated": "10:55",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "10:50",
+  "lastUpdate": "10:55",
   "date": "2026-10-02",
   "resetDone": false
 }
