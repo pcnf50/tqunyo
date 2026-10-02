@@ -4524,6 +4524,17 @@
       "affiliation": ""
     },
     {
+      "op": "46K",
+      "form": "-",
+      "cars": "0",
+      "no": "246-201",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:35",
+      "affiliation": ""
+    },
+    {
       "op": "43G",
       "form": "21103F",
       "cars": "8",
@@ -4531,11 +4542,11 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "20:30",
+      "updated": "20:35",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "20:30",
+  "lastUpdate": "20:35",
   "date": "2026-10-02",
   "resetDone": false
 }
