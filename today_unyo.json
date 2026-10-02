@@ -4379,9 +4379,20 @@
       "delay": "",
       "updated": "19:15",
       "affiliation": "急"
+    },
+    {
+      "op": "64S",
+      "form": "9103F",
+      "cars": "6",
+      "no": "364-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "19:20",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "19:15",
+  "lastUpdate": "19:20",
   "date": "2026-10-02",
   "resetDone": false
 }
