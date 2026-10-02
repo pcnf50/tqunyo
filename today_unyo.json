@@ -4445,9 +4445,20 @@
       "delay": "",
       "updated": "19:50",
       "affiliation": "相"
+    },
+    {
+      "op": "94M",
+      "form": "-",
+      "cars": "0",
+      "no": "594-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "19:55",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "19:50",
+  "lastUpdate": "19:55",
   "date": "2026-10-02",
   "resetDone": false
 }
