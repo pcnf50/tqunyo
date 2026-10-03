@@ -3158,8 +3158,19 @@
       "delay": "",
       "updated": "15:25",
       "affiliation": "南"
+    },
+    {
+      "op": "96M",
+      "form": "9108F",
+      "cars": "6",
+      "no": "596-151",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "15:55",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "15:50",
+  "lastUpdate": "15:55",
   "date": "2026-10-03"
 }
