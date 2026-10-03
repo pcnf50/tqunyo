@@ -3664,8 +3664,19 @@
       "delay": "",
       "updated": "21:45",
       "affiliation": "副"
+    },
+    {
+      "op": "49",
+      "form": "-",
+      "cars": "10",
+      "no": "749-212",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "21:50",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "21:45",
+  "lastUpdate": "21:50",
   "date": "2026-10-03"
 }
