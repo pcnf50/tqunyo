@@ -2056,6 +2056,17 @@
       "delay": "",
       "updated": "23:50",
       "affiliation": "副"
+    },
+    {
+      "op": "14K",
+      "form": "-",
+      "cars": "8",
+      "no": "014-231",
+      "destCode": "",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "00:00",
+      "affiliation": "み"
     }
   ],
   "meguro": [
@@ -3996,6 +4007,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:55",
-  "date": "2026-10-03"
+  "lastUpdate": "00:00",
+  "date": "2026-10-04"
 }
