@@ -3699,6 +3699,17 @@
       "affiliation": ""
     },
     {
+      "op": "67T",
+      "form": "6318F",
+      "cars": "6",
+      "no": "467-221",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:05",
+      "affiliation": "都"
+    },
+    {
       "op": "64G",
       "form": "-",
       "cars": "10",
@@ -3706,10 +3717,10 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "22:00",
+      "updated": "22:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:00",
+  "lastUpdate": "22:05",
   "date": "2026-10-03"
 }
