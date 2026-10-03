@@ -3576,8 +3576,19 @@
       "delay": "",
       "updated": "20:45",
       "affiliation": "南"
+    },
+    {
+      "op": "87",
+      "form": "-",
+      "cars": "10",
+      "no": "787-201",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "20:50",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "20:45",
+  "lastUpdate": "20:50",
   "date": "2026-10-03"
 }
