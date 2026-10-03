@@ -1673,17 +1673,6 @@
       "affiliation": "急"
     },
     {
-      "op": "74M",
-      "form": "40103F",
-      "cars": "10",
-      "no": "174-181",
-      "destCode": "元町・中華街",
-      "kind": "Ｓ",
-      "delay": "2分遅れ",
-      "updated": "19:30",
-      "affiliation": "西"
-    },
-    {
       "op": "12M",
       "form": "40151F",
       "cars": "10",
@@ -1691,19 +1680,19 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:30",
+      "updated": "19:35",
       "affiliation": "西"
     },
     {
-      "op": "64K",
-      "form": "4113F",
+      "op": "75S",
+      "form": "10109F",
       "cars": "10",
-      "no": "064-192",
+      "no": "775-192",
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:30",
-      "affiliation": "急"
+      "updated": "19:35",
+      "affiliation": "副"
     },
     {
       "op": "11K",
@@ -1712,8 +1701,8 @@
       "no": "011-191",
       "destCode": "元町・中華街",
       "kind": "普",
-      "delay": "",
-      "updated": "19:30",
+      "delay": "1分遅れ",
+      "updated": "19:35",
       "affiliation": "副"
     },
     {
@@ -1724,19 +1713,19 @@
       "destCode": "副都心線直通",
       "kind": "特",
       "delay": "",
-      "updated": "19:30",
+      "updated": "19:35",
       "affiliation": "西"
     },
     {
-      "op": "75S",
-      "form": "10109F",
+      "op": "74M",
+      "form": "40103F",
       "cars": "10",
-      "no": "775-192",
+      "no": "174-181",
       "destCode": "",
-      "kind": "急",
+      "kind": "Ｓ",
       "delay": "",
-      "updated": "19:30",
-      "affiliation": "副"
+      "updated": "19:35",
+      "affiliation": "西"
     }
   ],
   "meguro": [
@@ -3378,8 +3367,19 @@
       "delay": "",
       "updated": "17:00",
       "affiliation": "急"
+    },
+    {
+      "op": "56S",
+      "form": "9101F",
+      "cars": "6",
+      "no": "356-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:35",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "19:30",
+  "lastUpdate": "19:35",
   "date": "2026-10-03"
 }
