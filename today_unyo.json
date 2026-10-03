@@ -3092,8 +3092,19 @@
       "delay": "1分遅れ",
       "updated": "12:45",
       "affiliation": ""
+    },
+    {
+      "op": "94M",
+      "form": "9107F",
+      "cars": "6",
+      "no": "594-131",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "13:55",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "13:50",
+  "lastUpdate": "13:55",
   "date": "2026-10-03"
 }
