@@ -3642,8 +3642,19 @@
       "delay": "",
       "updated": "21:05",
       "affiliation": "急"
+    },
+    {
+      "op": "87",
+      "form": "-",
+      "cars": "10",
+      "no": "787-212",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "21:40",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "21:35",
+  "lastUpdate": "21:40",
   "date": "2026-10-03"
 }
