@@ -1536,8 +1536,8 @@
       "no": "594-131",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "2分遅れ",
-      "updated": "14:09",
+      "delay": "3分遅れ",
+      "updated": "14:10",
       "affiliation": "南"
     }
   ],
@@ -3116,6 +3116,6 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "14:09",
+  "lastUpdate": "14:10",
   "date": "2026-10-03"
 }
