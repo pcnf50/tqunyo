@@ -2012,6 +2012,50 @@
       "delay": "",
       "updated": "23:35",
       "affiliation": "急"
+    },
+    {
+      "op": "04K",
+      "form": "-",
+      "cars": "8",
+      "no": "004-231",
+      "destCode": "",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "01K",
+      "form": "-",
+      "cars": "8",
+      "no": "001-221",
+      "destCode": "",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:50",
+      "affiliation": "急"
+    },
+    {
+      "op": "08K",
+      "form": "-",
+      "cars": "8",
+      "no": "008-232",
+      "destCode": "",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:50",
+      "affiliation": "み"
+    },
+    {
+      "op": "33S",
+      "form": "-",
+      "cars": "10",
+      "no": "733-232",
+      "destCode": "",
+      "kind": "急",
+      "delay": "",
+      "updated": "23:50",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -3947,11 +3991,11 @@
       "no": "288-232",
       "destCode": "大岡山",
       "kind": "回",
-      "delay": "",
-      "updated": "23:45",
+      "delay": "1分遅れ",
+      "updated": "23:50",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:45",
+  "lastUpdate": "23:50",
   "date": "2026-10-03"
 }
