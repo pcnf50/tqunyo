@@ -3444,8 +3444,19 @@
       "delay": "",
       "updated": "10:55",
       "affiliation": "南"
+    },
+    {
+      "op": "90K",
+      "form": "-",
+      "cars": "0",
+      "no": "290-111",
+      "destCode": "元住吉",
+      "kind": "回",
+      "delay": "",
+      "updated": "11:00",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "10:55",
+  "lastUpdate": "11:00",
   "date": "2026-10-04"
 }
