@@ -2309,6 +2309,17 @@
       "delay": "",
       "updated": "22:20",
       "affiliation": "都"
+    },
+    {
+      "op": "68",
+      "form": "-",
+      "cars": "8",
+      "no": "368-221",
+      "destCode": "新横浜",
+      "kind": "回",
+      "delay": "",
+      "updated": "22:25",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -4225,6 +4236,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:23",
+  "lastUpdate": "22:25",
   "date": "2026-10-04"
 }
