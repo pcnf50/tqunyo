@@ -1924,6 +1924,17 @@
       "delay": "",
       "updated": "10:35",
       "affiliation": "南"
+    },
+    {
+      "op": "91G",
+      "form": "20103F",
+      "cars": "10",
+      "no": "991-102",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "2分遅れ",
+      "updated": "10:45",
+      "affiliation": "相"
     }
   ],
   "meguro": [
@@ -3378,8 +3389,19 @@
       "delay": "",
       "updated": "10:35",
       "affiliation": "急"
+    },
+    {
+      "op": "67",
+      "form": "-",
+      "cars": "10",
+      "no": "767-101",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "10:45",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "10:40",
+  "lastUpdate": "10:45",
   "date": "2026-10-04"
 }
