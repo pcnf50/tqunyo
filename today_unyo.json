@@ -2350,9 +2350,20 @@
       "no": "213-222",
       "destCode": "三田線直通",
       "kind": "急",
-      "delay": "",
-      "updated": "23:00",
+      "delay": "1分遅れ",
+      "updated": "23:05",
       "affiliation": "急"
+    },
+    {
+      "op": "68",
+      "form": "-",
+      "cars": "8",
+      "no": "368-222",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:05",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -4286,11 +4297,11 @@
       "no": "213-222",
       "destCode": "三田線直通",
       "kind": "急",
-      "delay": "",
-      "updated": "23:00",
+      "delay": "1分遅れ",
+      "updated": "23:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:00",
+  "lastUpdate": "23:05",
   "date": "2026-10-04"
 }
