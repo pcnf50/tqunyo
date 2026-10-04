@@ -2467,15 +2467,13 @@
       "affiliation": "急"
     },
     {
-      "op": "26K",
-      "form": "3101F",
-      "cars": "8",
-      "no": "226-051",
-      "destCode": "相鉄線直通",
-      "kind": "普",
-      "delay": "",
-      "updated": "05:10",
-      "affiliation": "急"
+      "op": "14",
+      "form": "-",
+      "cars": "10",
+      "no": "114-212",
+      "destCode": "副都心線直通",
+      "kind": "急行",
+      "delay": ""
     },
     {
       "op": "2K",
@@ -4227,6 +4225,6 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:20",
+  "lastUpdate": "22:23",
   "date": "2026-10-04"
 }
