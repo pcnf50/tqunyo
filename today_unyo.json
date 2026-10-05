@@ -4254,9 +4254,31 @@
       "delay": "",
       "updated": "18:16",
       "affiliation": "相"
+    },
+    {
+      "op": "40S",
+      "form": "9111F",
+      "cars": "8",
+      "no": "340-181",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "18:21",
+      "affiliation": "南"
+    },
+    {
+      "op": "90M",
+      "form": "9104F",
+      "cars": "6",
+      "no": "590-181",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "18:21",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "18:16",
+  "lastUpdate": "18:21",
   "date": "2026-10-05",
   "resetDone": false
 }
