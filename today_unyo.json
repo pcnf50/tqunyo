@@ -2824,6 +2824,39 @@
       "delay": "",
       "updated": "06:41",
       "affiliation": "東"
+    },
+    {
+      "op": "92G",
+      "form": "20104F",
+      "cars": "10",
+      "no": "992-062",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "06:46",
+      "affiliation": "相"
+    },
+    {
+      "op": "19S",
+      "form": "17193F",
+      "cars": "8",
+      "no": "719-061",
+      "destCode": "元町・中華街",
+      "kind": "回",
+      "delay": "",
+      "updated": "06:46",
+      "affiliation": "副"
+    },
+    {
+      "op": "01S",
+      "form": "17191F",
+      "cars": "8",
+      "no": "701-061",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:46",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -5728,9 +5761,31 @@
       "delay": "",
       "updated": "06:41",
       "affiliation": "南"
+    },
+    {
+      "op": "32S",
+      "form": "9108F",
+      "cars": "6",
+      "no": "332-062",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "06:46",
+      "affiliation": "南"
+    },
+    {
+      "op": "43K",
+      "form": "-",
+      "cars": "0",
+      "no": "243-061",
+      "destCode": "奥沢",
+      "kind": "回",
+      "delay": "",
+      "updated": "06:46",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "06:41",
+  "lastUpdate": "06:46",
   "date": "2026-10-06",
   "resetDone": false
 }
