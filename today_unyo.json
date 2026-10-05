@@ -3825,9 +3825,20 @@
       "delay": "",
       "updated": "12:45",
       "affiliation": "急"
+    },
+    {
+      "op": "32S",
+      "form": "5185F",
+      "cars": "8",
+      "no": "332-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:50",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "12:45",
+  "lastUpdate": "12:50",
   "date": "2026-10-05",
   "resetDone": false
 }
