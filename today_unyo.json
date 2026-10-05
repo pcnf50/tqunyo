@@ -4548,12 +4548,23 @@
       "no": "777-191",
       "destCode": "元町・中華街",
       "kind": "通",
-      "delay": "",
-      "updated": "19:46",
+      "delay": "1分遅れ",
+      "updated": "19:51",
       "affiliation": "副"
+    },
+    {
+      "op": "32G",
+      "form": "21105F",
+      "cars": "8",
+      "no": "632-192",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:51",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "19:46",
+  "lastUpdate": "19:51",
   "date": "2026-10-05",
   "resetDone": false
 }
