@@ -2034,6 +2034,17 @@
       "affiliation": "副"
     },
     {
+      "op": "19K",
+      "form": "-",
+      "cars": "8",
+      "no": "019-181",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "18:36",
+      "affiliation": "急"
+    },
+    {
       "op": "10",
       "form": "5118F",
       "cars": "8",
@@ -2041,7 +2052,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:31",
+      "updated": "18:36",
       "affiliation": "急"
     },
     {
@@ -2051,8 +2062,8 @@
       "no": "590-181",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "3分遅れ",
-      "updated": "18:31",
+      "delay": "2分遅れ",
+      "updated": "18:36",
       "affiliation": "南"
     }
   ],
@@ -4307,7 +4318,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "18:31",
+      "updated": "18:36",
       "affiliation": "急"
     },
     {
@@ -4318,7 +4329,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "18:31",
+      "updated": "18:36",
       "affiliation": "南"
     },
     {
@@ -4329,11 +4340,11 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "2分遅れ",
-      "updated": "18:31",
+      "updated": "18:36",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "18:31",
+  "lastUpdate": "18:36",
   "date": "2026-10-05",
   "resetDone": false
 }
