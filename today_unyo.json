@@ -2241,6 +2241,17 @@
       "delay": "",
       "updated": "22:56",
       "affiliation": "東"
+    },
+    {
+      "op": "99G",
+      "form": "Y517F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "23:56",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4747,11 +4758,11 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:51",
+      "updated": "23:56",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:51",
+  "lastUpdate": "23:56",
   "date": "2026-10-05",
   "resetDone": false
 }
