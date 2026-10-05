@@ -2254,6 +2254,17 @@
       "affiliation": "急"
     },
     {
+      "op": "99G",
+      "form": "17191F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "00:31",
+      "affiliation": "副"
+    },
+    {
       "op": "85K",
       "form": "Y512F",
       "cars": "8",
@@ -2261,7 +2272,7 @@
       "destCode": "武蔵小杉",
       "kind": "回",
       "delay": "",
-      "updated": "00:26",
+      "updated": "00:31",
       "affiliation": "み"
     }
   ],
@@ -4773,7 +4784,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:26",
+  "lastUpdate": "00:31",
   "date": "2026-10-06",
   "resetDone": false
 }
