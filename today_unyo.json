@@ -2945,6 +2945,28 @@
       "delay": "",
       "updated": "07:16",
       "affiliation": "副"
+    },
+    {
+      "op": "12K",
+      "form": "-",
+      "cars": "8",
+      "no": "012-071",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:21",
+      "affiliation": "急"
+    },
+    {
+      "op": "41S",
+      "form": "10114F",
+      "cars": "10",
+      "no": "741-071",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:21",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -6025,9 +6047,20 @@
       "delay": "",
       "updated": "07:16",
       "affiliation": "相"
+    },
+    {
+      "op": "36S",
+      "form": "9119F",
+      "cars": "6",
+      "no": "336-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "07:21",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "07:16",
+  "lastUpdate": "07:21",
   "date": "2026-10-06",
   "resetDone": false
 }
