@@ -2296,6 +2296,116 @@
       "delay": "",
       "updated": "00:51",
       "affiliation": "急"
+    },
+    {
+      "op": "16",
+      "form": "-",
+      "cars": "8",
+      "no": "216-042",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "05K",
+      "form": "5119F",
+      "cars": "8",
+      "no": "005-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "02K",
+      "form": "5158F",
+      "cars": "8",
+      "no": "002-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "06K",
+      "form": "5157F",
+      "cars": "8",
+      "no": "006-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "08K",
+      "form": "5160F",
+      "cars": "8",
+      "no": "008-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "01S",
+      "form": "17191F",
+      "cars": "8",
+      "no": "701-052",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "副"
+    },
+    {
+      "op": "11K",
+      "form": "5163F",
+      "cars": "8",
+      "no": "011-051",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "99G",
+      "form": "5170F",
+      "cars": "8",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "13K",
+      "form": "5172F",
+      "cars": "8",
+      "no": "013-042",
+      "destCode": "",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "12K",
+      "form": "Y513F",
+      "cars": "8",
+      "no": "012-052",
+      "destCode": "",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "み"
     }
   ],
   "meguro": [
@@ -4826,9 +4936,86 @@
       "delay": "",
       "updated": "00:51",
       "affiliation": "急"
+    },
+    {
+      "op": "16K",
+      "form": "3121F",
+      "cars": "8",
+      "no": "216-042",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "36K",
+      "form": "3122F",
+      "cars": "8",
+      "no": "236-041",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "11K",
+      "form": "3105F",
+      "cars": "8",
+      "no": "211-042",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "5M",
+      "form": "5189F",
+      "cars": "8",
+      "no": "005-042",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "05K",
+      "form": "3113F",
+      "cars": "8",
+      "no": "205-051",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "41K",
+      "form": "5185F",
+      "cars": "8",
+      "no": "241-051",
+      "destCode": "新横浜",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "34K",
+      "form": "3106F",
+      "cars": "8",
+      "no": "234-052",
+      "destCode": "南北線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:01",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "04:56",
+  "lastUpdate": "05:01",
   "date": "2026-10-06",
   "resetDone": false
 }
