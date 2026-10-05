@@ -2294,7 +2294,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "00:46",
+      "updated": "00:51",
       "affiliation": "急"
     }
   ],
@@ -4824,11 +4824,11 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "00:46",
+      "updated": "00:51",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:46",
+  "lastUpdate": "00:51",
   "date": "2026-10-06",
   "resetDone": false
 }
