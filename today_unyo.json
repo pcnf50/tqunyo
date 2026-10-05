@@ -4619,18 +4619,18 @@
       "affiliation": "相"
     },
     {
-      "op": "88M",
-      "form": "-",
-      "cars": "0",
-      "no": "588-211",
-      "destCode": "日吉",
-      "kind": "普",
+      "op": "84M",
+      "form": "5188F",
+      "cars": "8",
+      "no": "584-211",
+      "destCode": "新横浜",
+      "kind": "急",
       "delay": "",
-      "updated": "21:01",
-      "affiliation": ""
+      "updated": "21:06",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "21:01",
+  "lastUpdate": "21:06",
   "date": "2026-10-05",
   "resetDone": false
 }
