@@ -3365,9 +3365,20 @@
       "delay": "",
       "updated": "09:55",
       "affiliation": "副"
+    },
+    {
+      "op": "63T",
+      "form": "6316F",
+      "cars": "6",
+      "no": "463-091",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:00",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:55",
+  "lastUpdate": "10:00",
   "date": "2026-10-05",
   "resetDone": false
 }
