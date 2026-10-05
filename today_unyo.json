@@ -1889,6 +1889,17 @@
       "delay": "",
       "updated": "13:25",
       "affiliation": "急"
+    },
+    {
+      "op": "86",
+      "form": "-",
+      "cars": "6",
+      "no": "586-131",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "13:55",
+      "affiliation": "南"
     }
   ],
   "meguro": [
@@ -3926,7 +3937,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "13:50",
+  "lastUpdate": "13:55",
   "date": "2026-10-05",
   "resetDone": false
 }
