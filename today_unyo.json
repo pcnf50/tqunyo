@@ -1556,8 +1556,8 @@
       "no": "052-091",
       "destCode": "元町・中華街",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "09:15",
+      "delay": "",
+      "updated": "09:20",
       "affiliation": "急"
     },
     {
@@ -1568,7 +1568,18 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "3分遅れ",
-      "updated": "09:15",
+      "updated": "09:20",
+      "affiliation": "都"
+    },
+    {
+      "op": "85",
+      "form": "-",
+      "cars": "6",
+      "no": "485-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "09:20",
       "affiliation": "都"
     }
   ],
@@ -3197,8 +3208,8 @@
       "no": "487-091",
       "destCode": "日吉",
       "kind": "急",
-      "delay": "3分遅れ",
-      "updated": "09:15",
+      "delay": "2分遅れ",
+      "updated": "09:20",
       "affiliation": "都"
     },
     {
@@ -3208,12 +3219,12 @@
       "no": "733-091",
       "destCode": "元町・中華街",
       "kind": "特",
-      "delay": "1分遅れ",
-      "updated": "09:15",
+      "delay": "3分遅れ",
+      "updated": "09:20",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "09:15",
+  "lastUpdate": "09:20",
   "date": "2026-10-05",
   "resetDone": false
 }
