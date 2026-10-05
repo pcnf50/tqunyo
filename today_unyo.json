@@ -2459,7 +2459,7 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "",
-      "updated": "05:31",
+      "updated": "05:36",
       "affiliation": "み"
     },
     {
@@ -2470,8 +2470,19 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:31",
+      "updated": "05:36",
       "affiliation": "み"
+    },
+    {
+      "op": "89S",
+      "form": "10126F",
+      "cars": "10",
+      "no": "789-051",
+      "destCode": "菊名",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:36",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -5198,11 +5209,11 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:31",
+      "updated": "05:36",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "05:31",
+  "lastUpdate": "05:36",
   "date": "2026-10-06",
   "resetDone": false
 }
