@@ -3717,6 +3717,17 @@
       "affiliation": "副"
     },
     {
+      "op": "13",
+      "form": "-",
+      "cars": "8",
+      "no": "013-112",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "12:20",
+      "affiliation": "急"
+    },
+    {
       "op": "69T",
       "form": "6323F",
       "cars": "6",
@@ -3724,11 +3735,22 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "12:15",
+      "updated": "12:20",
       "affiliation": "都"
+    },
+    {
+      "op": "39G",
+      "form": "21101F",
+      "cars": "8",
+      "no": "639-122",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "12:20",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "12:15",
+  "lastUpdate": "12:20",
   "date": "2026-10-05",
   "resetDone": false
 }
