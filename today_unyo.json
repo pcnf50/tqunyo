@@ -4540,9 +4540,20 @@
       "delay": "",
       "updated": "19:41",
       "affiliation": ""
+    },
+    {
+      "op": "77",
+      "form": "-",
+      "cars": "10",
+      "no": "777-191",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "",
+      "updated": "19:46",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "19:41",
+  "lastUpdate": "19:46",
   "date": "2026-10-05",
   "resetDone": false
 }
