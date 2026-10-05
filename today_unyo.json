@@ -2084,9 +2084,20 @@
       "no": "753-181",
       "destCode": "元町・中華街",
       "kind": "通",
-      "delay": "",
-      "updated": "18:46",
+      "delay": "2分遅れ",
+      "updated": "18:51",
       "affiliation": "副"
+    },
+    {
+      "op": "04K",
+      "form": "5172F",
+      "cars": "8",
+      "no": "004-181",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "18:51",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4366,7 +4377,7 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "18:46",
+  "lastUpdate": "18:51",
   "date": "2026-10-05",
   "resetDone": false
 }
