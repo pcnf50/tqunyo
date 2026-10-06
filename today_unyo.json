@@ -2947,6 +2947,17 @@
       "delay": "1分遅れ",
       "updated": "08:20",
       "affiliation": "西"
+    },
+    {
+      "op": "94G",
+      "form": "20103F",
+      "cars": "10",
+      "no": "994-082",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:25",
+      "affiliation": "相"
     }
   ],
   "meguro": [
@@ -5798,7 +5809,7 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:20",
+  "lastUpdate": "08:25",
   "date": "2026-10-07",
   "resetDone": false
 }
