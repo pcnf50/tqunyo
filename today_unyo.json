@@ -6872,9 +6872,20 @@
       "delay": "",
       "updated": "11:51",
       "affiliation": "急"
+    },
+    {
+      "op": "69T",
+      "form": "6325F",
+      "cars": "6",
+      "no": "469-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:11",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "12:06",
+  "lastUpdate": "12:11",
   "date": "2026-10-06",
   "resetDone": false
 }
