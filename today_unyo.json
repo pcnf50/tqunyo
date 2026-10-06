@@ -1726,6 +1726,17 @@
       "delay": "",
       "updated": "20:31",
       "affiliation": "相"
+    },
+    {
+      "op": "05S",
+      "form": "17189F",
+      "cars": "8",
+      "no": "705-201",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "20:41",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -3321,11 +3332,11 @@
       "destCode": "新横浜",
       "kind": "普",
       "delay": "",
-      "updated": "20:36",
+      "updated": "20:41",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "20:36",
+  "lastUpdate": "20:41",
   "date": "2026-10-06",
   "resetDone": false
 }
