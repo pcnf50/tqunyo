@@ -3794,9 +3794,20 @@
       "delay": "",
       "updated": "23:41",
       "affiliation": "急"
+    },
+    {
+      "op": "99",
+      "form": "5189F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "23:48",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:41",
+  "lastUpdate": "23:48",
   "date": "2026-10-06",
   "resetDone": false
 }
