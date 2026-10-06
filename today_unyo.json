@@ -1922,8 +1922,19 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "22:21",
+      "updated": "22:26",
       "affiliation": "南"
+    },
+    {
+      "op": "13S",
+      "form": "17183F",
+      "cars": "8",
+      "no": "713-221",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:26",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -3684,11 +3695,11 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "22:21",
+      "updated": "22:26",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:21",
+  "lastUpdate": "22:26",
   "date": "2026-10-06",
   "resetDone": false
 }
