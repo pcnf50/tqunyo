@@ -6674,9 +6674,20 @@
       "delay": "2分遅れ",
       "updated": "09:16",
       "affiliation": "急"
+    },
+    {
+      "op": "87T",
+      "form": "6503F",
+      "cars": "8",
+      "no": "487-091",
+      "destCode": "日吉",
+      "kind": "急",
+      "delay": "10分遅れ",
+      "updated": "09:21",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:16",
+  "lastUpdate": "09:21",
   "date": "2026-10-06",
   "resetDone": false
 }
