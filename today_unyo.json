@@ -3552,15 +3552,13 @@
       "affiliation": "都"
     },
     {
-      "op": "51M",
+      "op": "28",
       "form": "-",
       "cars": "10",
-      "no": "051-051",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "",
-      "updated": "05:35",
-      "affiliation": "急"
+      "no": "128-082",
+      "destCode": "副都心線直通",
+      "kind": "急行",
+      "delay": ""
     },
     {
       "op": "89",
@@ -6687,7 +6685,7 @@
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:21",
+  "lastUpdate": "09:22",
   "date": "2026-10-06",
   "resetDone": false
 }
