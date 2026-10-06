@@ -3374,6 +3374,17 @@
       "delay": "16分遅れ",
       "updated": "13:26",
       "affiliation": "東"
+    },
+    {
+      "op": "99G",
+      "form": "4104F",
+      "cars": "10",
+      "no": "999-000",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "13:36",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -6984,7 +6995,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "13:31",
+  "lastUpdate": "13:36",
   "date": "2026-10-06",
   "resetDone": false
 }
