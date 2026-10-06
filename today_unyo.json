@@ -3488,9 +3488,20 @@
       "delay": "",
       "updated": "21:35",
       "affiliation": "急"
+    },
+    {
+      "op": "45T",
+      "form": "-",
+      "cars": "0",
+      "no": "445-211",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "21:41",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "21:35",
+  "lastUpdate": "21:41",
   "date": "2026-10-06",
   "resetDone": false
 }
