@@ -3783,9 +3783,20 @@
       "delay": "",
       "updated": "23:21",
       "affiliation": "副"
+    },
+    {
+      "op": "88K",
+      "form": "3102F",
+      "cars": "8",
+      "no": "288-232",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "23:41",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:36",
+  "lastUpdate": "23:41",
   "date": "2026-10-06",
   "resetDone": false
 }
