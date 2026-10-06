@@ -7004,9 +7004,20 @@
       "delay": "",
       "updated": "12:31",
       "affiliation": "急"
+    },
+    {
+      "op": "86M",
+      "form": "9102F",
+      "cars": "6",
+      "no": "586-131",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "13:46",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "13:40",
+  "lastUpdate": "13:46",
   "date": "2026-10-06",
   "resetDone": false
 }
