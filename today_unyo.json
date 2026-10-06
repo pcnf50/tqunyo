@@ -6753,29 +6753,18 @@
       "affiliation": "都"
     },
     {
-      "op": "40K",
-      "form": "-",
-      "cars": "0",
-      "no": "240-101",
-      "destCode": "元住吉",
-      "kind": "普",
-      "delay": "5分遅れ",
-      "updated": "10:31",
-      "affiliation": ""
-    },
-    {
       "op": "71T",
       "form": "6506F",
       "cars": "8",
       "no": "471-101",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "8分遅れ",
-      "updated": "10:31",
+      "delay": "7分遅れ",
+      "updated": "10:36",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "10:31",
+  "lastUpdate": "10:36",
   "date": "2026-10-06",
   "resetDone": false
 }
