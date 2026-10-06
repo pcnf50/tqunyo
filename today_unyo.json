@@ -3552,13 +3552,15 @@
       "affiliation": "都"
     },
     {
-      "op": "28",
+      "op": "51M",
       "form": "-",
       "cars": "10",
-      "no": "128-082",
-      "destCode": "副都心線直通",
-      "kind": "急行",
-      "delay": ""
+      "no": "051-051",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "05:35",
+      "affiliation": "急"
     },
     {
       "op": "89",
@@ -6681,11 +6683,11 @@
       "destCode": "日吉",
       "kind": "急",
       "delay": "10分遅れ",
-      "updated": "09:21",
+      "updated": "09:26",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "09:22",
+  "lastUpdate": "09:26",
   "date": "2026-10-06",
   "resetDone": false
 }
