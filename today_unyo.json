@@ -6784,9 +6784,20 @@
       "delay": "2分遅れ",
       "updated": "10:46",
       "affiliation": "都"
+    },
+    {
+      "op": "37G",
+      "form": "21102F",
+      "cars": "8",
+      "no": "637-102",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "10:51",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "10:46",
+  "lastUpdate": "10:51",
   "date": "2026-10-06",
   "resetDone": false
 }
