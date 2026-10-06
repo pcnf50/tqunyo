@@ -1858,6 +1858,39 @@
       "delay": "",
       "updated": "22:01",
       "affiliation": "都"
+    },
+    {
+      "op": "31",
+      "form": "5119F",
+      "cars": "8",
+      "no": "231-211",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "22:06",
+      "affiliation": "急"
+    },
+    {
+      "op": "30K",
+      "form": "5119F",
+      "cars": "8",
+      "no": "030-221",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:06",
+      "affiliation": "急"
+    },
+    {
+      "op": "65K",
+      "form": "4111F",
+      "cars": "10",
+      "no": "065-212",
+      "destCode": "武蔵小杉",
+      "kind": "急",
+      "delay": "",
+      "updated": "22:06",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3576,9 +3609,31 @@
       "delay": "",
       "updated": "22:01",
       "affiliation": "急"
+    },
+    {
+      "op": "68S",
+      "form": "9115F",
+      "cars": "8",
+      "no": "368-221",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:06",
+      "affiliation": "南"
+    },
+    {
+      "op": "65G",
+      "form": "-",
+      "cars": "10",
+      "no": "065-212",
+      "destCode": "武蔵小杉",
+      "kind": "急",
+      "delay": "",
+      "updated": "22:06",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:01",
+  "lastUpdate": "22:06",
   "date": "2026-10-06",
   "resetDone": false
 }
