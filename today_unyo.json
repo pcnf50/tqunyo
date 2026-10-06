@@ -1541,6 +1541,17 @@
       "affiliation": "南"
     },
     {
+      "op": "59",
+      "form": "-",
+      "cars": "6",
+      "no": "459-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:26",
+      "affiliation": "都"
+    },
+    {
       "op": "63S",
       "form": "10135F",
       "cars": "10",
@@ -1548,7 +1559,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "5分遅れ",
-      "updated": "19:21",
+      "updated": "19:26",
       "affiliation": "副"
     }
   ],
@@ -2993,9 +3004,31 @@
       "delay": "",
       "updated": "19:16",
       "affiliation": "南"
+    },
+    {
+      "op": "25T",
+      "form": "6319F",
+      "cars": "6",
+      "no": "425-192",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:26",
+      "affiliation": "都"
+    },
+    {
+      "op": "31T",
+      "form": "-",
+      "cars": "0",
+      "no": "431-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:26",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "19:21",
+  "lastUpdate": "19:26",
   "date": "2026-10-06",
   "resetDone": false
 }
