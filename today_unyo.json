@@ -1990,6 +1990,17 @@
       "delay": "",
       "updated": "23:21",
       "affiliation": "急"
+    },
+    {
+      "op": "99G",
+      "form": "5152F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": "",
+      "updated": "23:53",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -3803,11 +3814,11 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:48",
+      "updated": "23:53",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:48",
+  "lastUpdate": "23:53",
   "date": "2026-10-06",
   "resetDone": false
 }
