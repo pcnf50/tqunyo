@@ -6850,9 +6850,20 @@
       "delay": "",
       "updated": "11:36",
       "affiliation": "都"
+    },
+    {
+      "op": "01K",
+      "form": "5190F",
+      "cars": "8",
+      "no": "201-112",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "11:51",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "11:46",
+  "lastUpdate": "11:51",
   "date": "2026-10-06",
   "resetDone": false
 }
