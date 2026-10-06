@@ -835,6 +835,61 @@
       "delay": "",
       "updated": "16:56",
       "affiliation": "副"
+    },
+    {
+      "op": "31K",
+      "form": "Y512F",
+      "cars": "8",
+      "no": "031-162",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "17:01",
+      "affiliation": "み"
+    },
+    {
+      "op": "81",
+      "form": "-",
+      "cars": "8",
+      "no": "481-161",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:01",
+      "affiliation": "都"
+    },
+    {
+      "op": "56K",
+      "form": "4112F",
+      "cars": "10",
+      "no": "056-171",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "15S",
+      "form": "Y514F",
+      "cars": "8",
+      "no": "715-162",
+      "destCode": "",
+      "kind": "急",
+      "delay": "12分遅れ",
+      "updated": "17:01",
+      "affiliation": "み"
+    },
+    {
+      "op": "13K",
+      "form": "17190F",
+      "cars": "8",
+      "no": "013-162",
+      "destCode": "",
+      "kind": "普",
+      "delay": "9分遅れ",
+      "updated": "17:01",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -1541,9 +1596,53 @@
       "delay": "",
       "updated": "16:56",
       "affiliation": "南"
+    },
+    {
+      "op": "8",
+      "form": "5192F",
+      "cars": "8",
+      "no": "008-162",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "3分遅れ",
+      "updated": "17:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "31S",
+      "form": "-",
+      "cars": "8",
+      "no": "031-162",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "17:01",
+      "affiliation": "み"
+    },
+    {
+      "op": "60G",
+      "form": "-",
+      "cars": "10",
+      "no": "060-161",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "4分遅れ",
+      "updated": "17:01",
+      "affiliation": "急"
+    },
+    {
+      "op": "37G",
+      "form": "21102F",
+      "cars": "8",
+      "no": "637-161",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:01",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "16:56",
+  "lastUpdate": "17:01",
   "date": "2026-10-06",
   "resetDone": false
 }
