@@ -1206,20 +1206,31 @@
       "no": "030-172",
       "destCode": "渋谷",
       "kind": "回",
-      "delay": "1分遅れ",
-      "updated": "18:01",
+      "delay": "",
+      "updated": "18:06",
       "affiliation": "急"
     },
     {
-      "op": "63K",
+      "op": "75",
       "form": "-",
-      "cars": "0",
-      "no": "063-171",
-      "destCode": "相鉄線直通",
-      "kind": "急",
-      "delay": "7分遅れ",
-      "updated": "18:01",
-      "affiliation": ""
+      "cars": "6",
+      "no": "475-171",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "18:06",
+      "affiliation": "都"
+    },
+    {
+      "op": "85S",
+      "form": "10107F",
+      "cars": "10",
+      "no": "785-181",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "5分遅れ",
+      "updated": "18:06",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -2308,8 +2319,8 @@
       "no": "030-172",
       "destCode": "渋谷",
       "kind": "回",
-      "delay": "1分遅れ",
-      "updated": "18:01",
+      "delay": "",
+      "updated": "18:06",
       "affiliation": "急"
     },
     {
@@ -2319,12 +2330,23 @@
       "no": "064-171",
       "destCode": "武蔵小杉",
       "kind": "急",
-      "delay": "5分遅れ",
-      "updated": "18:01",
+      "delay": "7分遅れ",
+      "updated": "18:06",
       "affiliation": "急"
+    },
+    {
+      "op": "28",
+      "form": "-",
+      "cars": "10",
+      "no": "128-171",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "8分遅れ",
+      "updated": "18:06",
+      "affiliation": "西"
     }
   ],
-  "lastUpdate": "18:01",
+  "lastUpdate": "18:06",
   "date": "2026-10-06",
   "resetDone": false
 }
