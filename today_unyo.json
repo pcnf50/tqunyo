@@ -3343,14 +3343,14 @@
       "affiliation": ""
     },
     {
-      "op": "13K",
-      "form": "-",
+      "op": "42K",
+      "form": "5172F",
       "cars": "8",
-      "no": "013-112",
-      "destCode": "副都心線直通",
-      "kind": "普",
+      "no": "042-131",
+      "destCode": "元住吉",
+      "kind": "回",
       "delay": "",
-      "updated": "12:46",
+      "updated": "12:51",
       "affiliation": "急"
     }
   ],
@@ -6960,20 +6960,9 @@
       "delay": "",
       "updated": "12:31",
       "affiliation": "急"
-    },
-    {
-      "op": "44G",
-      "form": "-",
-      "cars": "0",
-      "no": "644-121",
-      "destCode": "新横浜",
-      "kind": "急",
-      "delay": "2分遅れ",
-      "updated": "12:46",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "12:46",
+  "lastUpdate": "12:51",
   "date": "2026-10-06",
   "resetDone": false
 }
