@@ -3334,9 +3334,31 @@
       "delay": "",
       "updated": "20:41",
       "affiliation": "都"
+    },
+    {
+      "op": "22K",
+      "form": "-",
+      "cars": "8",
+      "no": "022-201",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "20:46",
+      "affiliation": "副"
+    },
+    {
+      "op": "87",
+      "form": "-",
+      "cars": "10",
+      "no": "787-201",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "1分遅れ",
+      "updated": "20:46",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "20:41",
+  "lastUpdate": "20:46",
   "date": "2026-10-06",
   "resetDone": false
 }
