@@ -2166,6 +2166,17 @@
       "delay": "",
       "updated": "05:15",
       "affiliation": "急"
+    },
+    {
+      "op": "60K",
+      "form": "4108F",
+      "cars": "10",
+      "no": "060-052",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:21",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -4148,7 +4159,7 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "05:15",
+  "lastUpdate": "05:21",
   "date": "2026-10-07",
   "resetDone": false
 }
