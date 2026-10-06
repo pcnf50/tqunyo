@@ -5903,8 +5903,8 @@
       "no": "473-081",
       "destCode": "元住吉",
       "kind": "普",
-      "delay": "5分遅れ",
-      "updated": "08:46",
+      "delay": "4分遅れ",
+      "updated": "08:50",
       "affiliation": "都"
     },
     {
@@ -5914,12 +5914,12 @@
       "no": "346-081",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "4分遅れ",
-      "updated": "08:46",
+      "delay": "2分遅れ",
+      "updated": "08:50",
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:46",
+  "lastUpdate": "08:50",
   "date": "2026-10-07",
   "resetDone": false
 }
