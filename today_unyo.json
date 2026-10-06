@@ -5895,9 +5895,31 @@
       "delay": "4分遅れ",
       "updated": "08:41",
       "affiliation": "都"
+    },
+    {
+      "op": "73T",
+      "form": "6326F",
+      "cars": "6",
+      "no": "473-081",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "5分遅れ",
+      "updated": "08:46",
+      "affiliation": "都"
+    },
+    {
+      "op": "46S",
+      "form": "9117F",
+      "cars": "6",
+      "no": "346-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "4分遅れ",
+      "updated": "08:46",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:41",
+  "lastUpdate": "08:46",
   "date": "2026-10-07",
   "resetDone": false
 }
