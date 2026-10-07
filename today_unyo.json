@@ -6654,9 +6654,20 @@
       "delay": "",
       "updated": "18:15",
       "affiliation": "相"
+    },
+    {
+      "op": "46S",
+      "form": "-",
+      "cars": "0",
+      "no": "346-181",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "18:25",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "18:21",
+  "lastUpdate": "18:25",
   "date": "2026-10-07",
   "resetDone": false
 }
