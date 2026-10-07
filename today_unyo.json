@@ -3211,6 +3211,17 @@
       "delay": "1分遅れ",
       "updated": "14:01",
       "affiliation": "急"
+    },
+    {
+      "op": "52K",
+      "form": "4109F",
+      "cars": "10",
+      "no": "052-152",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "15:10",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -6480,7 +6491,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "15:05",
+  "lastUpdate": "15:10",
   "date": "2026-10-07",
   "resetDone": false
 }
