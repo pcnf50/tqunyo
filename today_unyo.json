@@ -1090,13 +1090,15 @@
       "affiliation": "急"
     },
     {
-      "op": "99",
-      "form": "5165F",
+      "op": "12",
+      "form": "-",
       "cars": "8",
-      "no": "999-990",
-      "destCode": "",
-      "kind": "不明",
-      "delay": ""
+      "no": "212-171",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "17:46",
+      "affiliation": "急"
     },
     {
       "op": "18",
@@ -3471,7 +3473,7 @@
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "00:46",
+      "updated": "00:51",
       "affiliation": "急"
     }
   ],
@@ -7050,7 +7052,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "00:48",
+  "lastUpdate": "00:51",
   "date": "2026-10-08",
   "resetDone": false
 }
