@@ -8104,9 +8104,20 @@
       "delay": "2分遅れ",
       "updated": "07:01",
       "affiliation": "都"
+    },
+    {
+      "op": "53T",
+      "form": "6331F",
+      "cars": "6",
+      "no": "453-071",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "07:05",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "07:01",
+  "lastUpdate": "07:05",
   "date": "2026-10-08",
   "resetDone": false
 }
