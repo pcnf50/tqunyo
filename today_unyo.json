@@ -6522,9 +6522,20 @@
       "delay": "1分遅れ",
       "updated": "14:01",
       "affiliation": "急"
+    },
+    {
+      "op": "38K",
+      "form": "3107F",
+      "cars": "8",
+      "no": "238-172",
+      "destCode": "南北線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "17:05",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:01",
+  "lastUpdate": "17:05",
   "date": "2026-10-07",
   "resetDone": false
 }
