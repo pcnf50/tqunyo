@@ -6929,9 +6929,20 @@
       "delay": "",
       "updated": "22:05",
       "affiliation": "急"
+    },
+    {
+      "op": "36K",
+      "form": "3112F",
+      "cars": "8",
+      "no": "236-222",
+      "destCode": "南北線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "22:11",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:05",
+  "lastUpdate": "22:11",
   "date": "2026-10-07",
   "resetDone": false
 }
