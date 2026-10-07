@@ -6841,9 +6841,20 @@
       "delay": "",
       "updated": "19:55",
       "affiliation": "相"
+    },
+    {
+      "op": "81K",
+      "form": "3109F",
+      "cars": "8",
+      "no": "281-201",
+      "destCode": "日吉",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "20:20",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "20:15",
+  "lastUpdate": "20:20",
   "date": "2026-10-07",
   "resetDone": false
 }
