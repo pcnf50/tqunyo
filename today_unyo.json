@@ -3735,7 +3735,7 @@
       "destCode": "元町・中華街",
       "kind": "回",
       "delay": "",
-      "updated": "05:50",
+      "updated": "05:55",
       "affiliation": "急"
     },
     {
@@ -3746,7 +3746,7 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "",
-      "updated": "05:50",
+      "updated": "05:55",
       "affiliation": "急"
     },
     {
@@ -3757,7 +3757,7 @@
       "destCode": "横浜",
       "kind": "回",
       "delay": "",
-      "updated": "05:50",
+      "updated": "05:55",
       "affiliation": "東"
     },
     {
@@ -3768,7 +3768,7 @@
       "destCode": "渋谷",
       "kind": "急",
       "delay": "",
-      "updated": "05:50",
+      "updated": "05:55",
       "affiliation": "急"
     },
     {
@@ -3778,8 +3778,8 @@
       "no": "106-051",
       "destCode": "元町・中華街",
       "kind": "急",
-      "delay": "",
-      "updated": "05:50",
+      "delay": "1分遅れ",
+      "updated": "05:55",
       "affiliation": "西"
     }
   ],
@@ -7565,9 +7565,20 @@
       "delay": "",
       "updated": "05:46",
       "affiliation": "南"
+    },
+    {
+      "op": "09K",
+      "form": "3121F",
+      "cars": "8",
+      "no": "209-062",
+      "destCode": "目黒",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:55",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "05:50",
+  "lastUpdate": "05:55",
   "date": "2026-10-08",
   "resetDone": false
 }
