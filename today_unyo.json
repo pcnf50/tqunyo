@@ -3055,7 +3055,7 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "5分遅れ",
-      "updated": "09:46",
+      "updated": "09:50",
       "affiliation": "副"
     }
   ],
@@ -6102,11 +6102,11 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "09:46",
+      "updated": "09:50",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "09:46",
+  "lastUpdate": "09:50",
   "date": "2026-10-07",
   "resetDone": false
 }
