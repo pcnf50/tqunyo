@@ -3164,8 +3164,8 @@
       "no": "122-121",
       "destCode": "元町・中華街",
       "kind": "Ｆ",
-      "delay": "",
-      "updated": "12:10",
+      "delay": "1分遅れ",
+      "updated": "12:15",
       "affiliation": "西"
     }
   ],
@@ -6377,11 +6377,11 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "12:10",
+      "updated": "12:15",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "12:10",
+  "lastUpdate": "12:15",
   "date": "2026-10-07",
   "resetDone": false
 }
