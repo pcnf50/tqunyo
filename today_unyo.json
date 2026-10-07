@@ -4142,7 +4142,7 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:41",
+      "updated": "07:45",
       "affiliation": "相"
     },
     {
@@ -4153,7 +4153,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "07:41",
+      "updated": "07:45",
       "affiliation": "副"
     }
   ],
@@ -8366,11 +8366,33 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "07:41",
+      "updated": "07:45",
       "affiliation": "急"
+    },
+    {
+      "op": "04K",
+      "form": "3105F",
+      "cars": "8",
+      "no": "204-072",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:45",
+      "affiliation": "急"
+    },
+    {
+      "op": "84M",
+      "form": "9102F",
+      "cars": "6",
+      "no": "584-071",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:45",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "07:41",
+  "lastUpdate": "07:45",
   "date": "2026-10-08",
   "resetDone": false
 }
