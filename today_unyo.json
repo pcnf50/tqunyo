@@ -4207,8 +4207,8 @@
       "no": "128-081",
       "destCode": "元町・中華街",
       "kind": "急",
-      "delay": "2分遅れ",
-      "updated": "08:11",
+      "delay": "1分遅れ",
+      "updated": "08:15",
       "affiliation": "西"
     },
     {
@@ -4219,8 +4219,19 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "08:11",
+      "updated": "08:15",
       "affiliation": "相"
+    },
+    {
+      "op": "87S",
+      "form": "10102F",
+      "cars": "10",
+      "no": "787-081",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "1分遅れ",
+      "updated": "08:15",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -8530,12 +8541,12 @@
       "no": "441-081",
       "destCode": "日吉",
       "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "08:11",
+      "delay": "",
+      "updated": "08:15",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "08:11",
+  "lastUpdate": "08:15",
   "date": "2026-10-08",
   "resetDone": false
 }
