@@ -3132,7 +3132,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "11:20",
+      "updated": "11:25",
       "affiliation": "副"
     }
   ],
@@ -6313,20 +6313,9 @@
       "delay": "",
       "updated": "11:05",
       "affiliation": "南"
-    },
-    {
-      "op": "80M",
-      "form": "-",
-      "cars": "0",
-      "no": "580-111",
-      "destCode": "日吉",
-      "kind": "普",
-      "delay": "1分遅れ",
-      "updated": "11:20",
-      "affiliation": ""
     }
   ],
-  "lastUpdate": "11:20",
+  "lastUpdate": "11:25",
   "date": "2026-10-07",
   "resetDone": false
 }
