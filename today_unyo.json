@@ -3200,6 +3200,17 @@
       "delay": "",
       "updated": "13:31",
       "affiliation": "急"
+    },
+    {
+      "op": "47K",
+      "form": "4103F",
+      "cars": "10",
+      "no": "047-132",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "14:01",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -6456,9 +6467,20 @@
       "delay": "",
       "updated": "13:45",
       "affiliation": "南"
+    },
+    {
+      "op": "47T",
+      "form": "-",
+      "cars": "10",
+      "no": "047-132",
+      "destCode": "武蔵小杉",
+      "kind": "回",
+      "delay": "1分遅れ",
+      "updated": "14:01",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "13:55",
+  "lastUpdate": "14:01",
   "date": "2026-10-07",
   "resetDone": false
 }
