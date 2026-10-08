@@ -6337,9 +6337,20 @@
       "delay": "",
       "updated": "07:55",
       "affiliation": "南"
+    },
+    {
+      "op": "44G",
+      "form": "21102F",
+      "cars": "8",
+      "no": "644-072",
+      "destCode": "南北線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "08:00",
+      "affiliation": "相"
     }
   ],
-  "lastUpdate": "07:55",
+  "lastUpdate": "08:00",
   "date": "2026-10-09",
   "resetDone": false
 }
