@@ -2868,7 +2868,7 @@
       "destCode": "菊名",
       "kind": "回",
       "delay": "",
-      "updated": "06:16",
+      "updated": "06:20",
       "affiliation": "急"
     },
     {
@@ -2879,7 +2879,7 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "06:16",
+      "updated": "06:20",
       "affiliation": "副"
     },
     {
@@ -2890,7 +2890,7 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "06:16",
+      "updated": "06:20",
       "affiliation": "西"
     }
   ],
@@ -5554,7 +5554,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "06:16",
+      "updated": "06:20",
       "affiliation": "南"
     },
     {
@@ -5565,11 +5565,11 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "06:16",
+      "updated": "06:20",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "06:16",
+  "lastUpdate": "06:20",
   "date": "2026-10-09",
   "resetDone": false
 }
