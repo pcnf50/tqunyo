@@ -3708,9 +3708,20 @@
       "delay": "",
       "updated": "16:10",
       "affiliation": "副"
+    },
+    {
+      "op": "25K",
+      "form": "-",
+      "cars": "0",
+      "no": "225-161",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "2分遅れ",
+      "updated": "16:31",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "16:25",
+  "lastUpdate": "16:31",
   "date": "2026-10-08",
   "resetDone": false
 }
