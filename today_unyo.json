@@ -2098,7 +2098,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "15分遅れ",
-      "updated": "19:01",
+      "updated": "19:05",
       "affiliation": "副"
     },
     {
@@ -2109,7 +2109,7 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:01",
+      "updated": "19:05",
       "affiliation": "急"
     },
     {
@@ -2120,7 +2120,18 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:01",
+      "updated": "19:05",
+      "affiliation": "急"
+    },
+    {
+      "op": "07K",
+      "form": "5122F",
+      "cars": "8",
+      "no": "007-181",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "9分遅れ",
+      "updated": "19:05",
       "affiliation": "急"
     }
   ],
@@ -4179,11 +4190,11 @@
       "destCode": "南北線直通",
       "kind": "急",
       "delay": "",
-      "updated": "19:01",
+      "updated": "19:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:01",
+  "lastUpdate": "19:05",
   "date": "2026-10-08",
   "resetDone": false
 }
