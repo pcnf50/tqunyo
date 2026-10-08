@@ -1321,14 +1321,25 @@
       "affiliation": "都"
     },
     {
+      "op": "40",
+      "form": "-",
+      "cars": "8",
+      "no": "240-101",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:45",
+      "affiliation": "急"
+    },
+    {
       "op": "09",
       "form": "-",
       "cars": "8",
       "no": "209-101",
       "destCode": "相鉄線直通",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "10:41",
+      "delay": "",
+      "updated": "10:45",
       "affiliation": "急"
     },
     {
@@ -1338,8 +1349,8 @@
       "no": "060-101",
       "destCode": "元町・中華街",
       "kind": "特",
-      "delay": "",
-      "updated": "10:41",
+      "delay": "1分遅れ",
+      "updated": "10:45",
       "affiliation": "急"
     }
   ],
@@ -2704,8 +2715,19 @@
       "no": "051-101",
       "destCode": "元町・中華街",
       "kind": "特",
-      "delay": "4分遅れ",
-      "updated": "10:41",
+      "delay": "5分遅れ",
+      "updated": "10:45",
+      "affiliation": "急"
+    },
+    {
+      "op": "6G",
+      "form": "5189F",
+      "cars": "8",
+      "no": "006-101",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "5分遅れ",
+      "updated": "10:45",
       "affiliation": "急"
     },
     {
@@ -2713,10 +2735,10 @@
       "form": "-",
       "cars": "8",
       "no": "707-101",
-      "destCode": "元住吉",
+      "destCode": "武蔵小杉",
       "kind": "普",
-      "delay": "4分遅れ",
-      "updated": "10:41",
+      "delay": "5分遅れ",
+      "updated": "10:45",
       "affiliation": "副"
     },
     {
@@ -2727,11 +2749,11 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "10:41",
+      "updated": "10:45",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "10:41",
+  "lastUpdate": "10:45",
   "date": "2026-10-08",
   "resetDone": false
 }
