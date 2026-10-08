@@ -2624,9 +2624,9 @@
       "cars": "10",
       "no": "057-052",
       "destCode": "副都心線直通",
-      "kind": "回",
+      "kind": "急",
       "delay": "",
-      "updated": "05:31",
+      "updated": "05:35",
       "affiliation": "急"
     },
     {
@@ -2637,7 +2637,7 @@
       "destCode": "渋谷",
       "kind": "普",
       "delay": "",
-      "updated": "05:31",
+      "updated": "05:35",
       "affiliation": "み"
     },
     {
@@ -2648,8 +2648,19 @@
       "destCode": "副都心線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:31",
+      "updated": "05:35",
       "affiliation": "急"
+    },
+    {
+      "op": "89S",
+      "form": "10109F",
+      "cars": "10",
+      "no": "789-051",
+      "destCode": "菊名",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:35",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -5169,11 +5180,11 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "05:31",
+      "updated": "05:35",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "05:31",
+  "lastUpdate": "05:35",
   "date": "2026-10-09",
   "resetDone": false
 }
