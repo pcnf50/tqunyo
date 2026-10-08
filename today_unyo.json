@@ -3048,9 +3048,20 @@
       "delay": "1分遅れ",
       "updated": "11:35",
       "affiliation": ""
+    },
+    {
+      "op": "61T",
+      "form": "6333F",
+      "cars": "6",
+      "no": "461-111",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "11:41",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "11:35",
+  "lastUpdate": "11:41",
   "date": "2026-10-08",
   "resetDone": false
 }
