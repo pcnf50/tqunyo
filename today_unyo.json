@@ -4313,9 +4313,20 @@
       "delay": "2分遅れ",
       "updated": "19:25",
       "affiliation": "急"
+    },
+    {
+      "op": "86M",
+      "form": "-",
+      "cars": "0",
+      "no": "586-191",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "19:31",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "19:25",
+  "lastUpdate": "19:31",
   "date": "2026-10-08",
   "resetDone": false
 }
