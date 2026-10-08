@@ -2345,14 +2345,25 @@
     },
     {
       "op": "05T",
-      "form": "-",
-      "cars": "0",
+      "form": "51077F",
+      "cars": "10",
       "no": "805-221",
       "destCode": "元町・中華街",
       "kind": "通",
-      "delay": "1分遅れ",
-      "updated": "22:01",
-      "affiliation": ""
+      "delay": "2分遅れ",
+      "updated": "22:05",
+      "affiliation": "東"
+    },
+    {
+      "op": "30K",
+      "form": "17188F",
+      "cars": "8",
+      "no": "030-221",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:05",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -4597,22 +4608,22 @@
       "destCode": "三田線直通",
       "kind": "普",
       "delay": "",
-      "updated": "22:01",
+      "updated": "22:05",
       "affiliation": "急"
     },
     {
       "op": "68S",
-      "form": "-",
-      "cars": "0",
+      "form": "9110F",
+      "cars": "6",
       "no": "368-221",
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "22:01",
-      "affiliation": ""
+      "updated": "22:05",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "22:01",
+  "lastUpdate": "22:05",
   "date": "2026-10-08",
   "resetDone": false
 }
