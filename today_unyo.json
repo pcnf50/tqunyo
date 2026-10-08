@@ -4744,18 +4744,18 @@
       "affiliation": "急"
     },
     {
-      "op": "83T",
-      "form": "-",
-      "cars": "0",
-      "no": "483-231",
-      "destCode": "新横浜",
-      "kind": "普",
+      "op": "99",
+      "form": "3106F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
       "delay": "",
-      "updated": "23:40",
-      "affiliation": ""
+      "updated": "23:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:40",
+  "lastUpdate": "23:45",
   "date": "2026-10-08",
   "resetDone": false
 }
