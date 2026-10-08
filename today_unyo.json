@@ -3930,6 +3930,17 @@
       "affiliation": "急"
     },
     {
+      "op": "60S",
+      "form": "9105F",
+      "cars": "6",
+      "no": "360-171",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "17:55",
+      "affiliation": "南"
+    },
+    {
       "op": "31G",
       "form": "21101F",
       "cars": "8",
@@ -3937,11 +3948,11 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "17:50",
+      "updated": "17:55",
       "affiliation": "相"
     }
   ],
-  "lastUpdate": "17:50",
+  "lastUpdate": "17:55",
   "date": "2026-10-08",
   "resetDone": false
 }
