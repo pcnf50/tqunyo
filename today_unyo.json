@@ -2133,6 +2133,17 @@
       "delay": "9分遅れ",
       "updated": "19:05",
       "affiliation": "急"
+    },
+    {
+      "op": "30M",
+      "form": "-",
+      "cars": "0",
+      "no": "130-191",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "12分遅れ",
+      "updated": "19:10",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -4194,7 +4205,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:05",
+  "lastUpdate": "19:10",
   "date": "2026-10-08",
   "resetDone": false
 }
