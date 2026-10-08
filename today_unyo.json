@@ -2419,6 +2419,17 @@
       "delay": "",
       "updated": "22:55",
       "affiliation": "東"
+    },
+    {
+      "op": "62K",
+      "form": "-",
+      "cars": "0",
+      "no": "062-231",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "2分遅れ",
+      "updated": "23:01",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -4722,7 +4733,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:58",
+  "lastUpdate": "23:01",
   "date": "2026-10-08",
   "resetDone": false
 }
