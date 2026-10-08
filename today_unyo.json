@@ -835,6 +835,39 @@
       "delay": "16分遅れ",
       "updated": "09:16",
       "affiliation": "急"
+    },
+    {
+      "op": "13",
+      "form": "-",
+      "cars": "8",
+      "no": "213-092",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:21",
+      "affiliation": "急"
+    },
+    {
+      "op": "85",
+      "form": "-",
+      "cars": "6",
+      "no": "485-081",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "09:21",
+      "affiliation": "都"
+    },
+    {
+      "op": "15S",
+      "form": "17186F",
+      "cars": "8",
+      "no": "715-091",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "17分遅れ",
+      "updated": "09:21",
+      "affiliation": "副"
     }
   ],
   "meguro": [
@@ -1662,9 +1695,75 @@
       "delay": "5分遅れ",
       "updated": "09:16",
       "affiliation": "相"
+    },
+    {
+      "op": "36K",
+      "form": "5187F",
+      "cars": "8",
+      "no": "236-091",
+      "destCode": "元住吉",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "09:21",
+      "affiliation": "急"
+    },
+    {
+      "op": "04",
+      "form": "-",
+      "cars": "10",
+      "no": "104-081",
+      "destCode": "元町・中華街",
+      "kind": "通",
+      "delay": "34分遅れ",
+      "updated": "09:21",
+      "affiliation": "西"
+    },
+    {
+      "op": "13K",
+      "form": "3103F",
+      "cars": "8",
+      "no": "213-092",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:21",
+      "affiliation": "急"
+    },
+    {
+      "op": "70S",
+      "form": "9109F",
+      "cars": "8",
+      "no": "370-091",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:21",
+      "affiliation": "南"
+    },
+    {
+      "op": "23K",
+      "form": "-",
+      "cars": "8",
+      "no": "023-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "12分遅れ",
+      "updated": "09:21",
+      "affiliation": "副"
+    },
+    {
+      "op": "05",
+      "form": "-",
+      "cars": "8",
+      "no": "705-082",
+      "destCode": "渋谷",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "09:21",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "09:16",
+  "lastUpdate": "09:21",
   "date": "2026-10-08",
   "resetDone": false
 }
