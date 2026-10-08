@@ -3446,15 +3446,13 @@
       "affiliation": "副"
     },
     {
-      "op": "30S",
-      "form": "9112F",
-      "cars": "8",
-      "no": "330-081",
-      "destCode": "元住吉",
-      "kind": "普",
-      "delay": "",
-      "updated": "08:31",
-      "affiliation": "南"
+      "op": "10",
+      "form": "-",
+      "cars": "10",
+      "no": "110-082",
+      "destCode": "副都心線直通",
+      "kind": "急行",
+      "delay": "5分遅れ"
     },
     {
       "op": "57T",
@@ -6614,7 +6612,7 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "08:55",
+  "lastUpdate": "08:58",
   "date": "2026-10-09",
   "resetDone": false
 }
