@@ -2384,7 +2384,7 @@
       "destCode": "元町・中華街",
       "kind": "通",
       "delay": "",
-      "updated": "22:16",
+      "updated": "22:20",
       "affiliation": "副"
     }
   ],
@@ -4654,9 +4654,20 @@
       "delay": "",
       "updated": "22:10",
       "affiliation": "急"
+    },
+    {
+      "op": "30S",
+      "form": "-",
+      "cars": "8",
+      "no": "030-221",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:20",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "22:16",
+  "lastUpdate": "22:20",
   "date": "2026-10-08",
   "resetDone": false
 }
