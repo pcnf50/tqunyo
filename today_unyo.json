@@ -8236,9 +8236,20 @@
       "delay": "",
       "updated": "05:50",
       "affiliation": "都"
+    },
+    {
+      "op": "80M",
+      "form": "9111F",
+      "cars": "8",
+      "no": "580-051",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:55",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "05:50",
+  "lastUpdate": "05:55",
   "date": "2026-10-10",
   "resetDone": false
 }
