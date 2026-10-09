@@ -8588,9 +8588,20 @@
       "delay": "",
       "updated": "07:01",
       "affiliation": ""
+    },
+    {
+      "op": "34S",
+      "form": "9105F",
+      "cars": "6",
+      "no": "334-072",
+      "destCode": "目黒",
+      "kind": "回",
+      "delay": "",
+      "updated": "07:05",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "07:01",
+  "lastUpdate": "07:05",
   "date": "2026-10-10",
   "resetDone": false
 }
