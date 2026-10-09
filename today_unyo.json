@@ -3607,6 +3607,17 @@
       "delay": "",
       "updated": "17:25",
       "affiliation": "副"
+    },
+    {
+      "op": "30K",
+      "form": "5160F",
+      "cars": "8",
+      "no": "030-172",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "18:01",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -7217,7 +7228,7 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "17:55",
+  "lastUpdate": "18:01",
   "date": "2026-10-09",
   "resetDone": false
 }
