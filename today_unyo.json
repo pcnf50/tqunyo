@@ -3913,6 +3913,17 @@
       "delay": "",
       "updated": "05:05",
       "affiliation": "急"
+    },
+    {
+      "op": "57K",
+      "form": "4102F",
+      "cars": "10",
+      "no": "057-052",
+      "destCode": "渋谷",
+      "kind": "回",
+      "delay": "",
+      "updated": "05:10",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -7873,9 +7884,20 @@
       "delay": "",
       "updated": "05:05",
       "affiliation": "急"
+    },
+    {
+      "op": "26K",
+      "form": "3110F",
+      "cars": "8",
+      "no": "226-051",
+      "destCode": "相鉄線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "05:10",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "05:05",
+  "lastUpdate": "05:10",
   "date": "2026-10-10",
   "resetDone": false
 }
