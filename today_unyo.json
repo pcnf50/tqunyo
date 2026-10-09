@@ -7127,9 +7127,20 @@
       "delay": "3分遅れ",
       "updated": "13:51",
       "affiliation": "南"
+    },
+    {
+      "op": "38K",
+      "form": "5185F",
+      "cars": "8",
+      "no": "238-172",
+      "destCode": "南北線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "17:05",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "17:01",
+  "lastUpdate": "17:05",
   "date": "2026-10-09",
   "resetDone": false
 }
