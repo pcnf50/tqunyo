@@ -3475,6 +3475,17 @@
       "delay": "",
       "updated": "11:35",
       "affiliation": "急"
+    },
+    {
+      "op": "92G",
+      "form": "-",
+      "cars": "0",
+      "no": "992-111",
+      "destCode": "相鉄線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "11:45",
+      "affiliation": ""
     }
   ],
   "meguro": [
@@ -6931,7 +6942,7 @@
       "affiliation": ""
     }
   ],
-  "lastUpdate": "11:41",
+  "lastUpdate": "11:45",
   "date": "2026-10-09",
   "resetDone": false
 }
