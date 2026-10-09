@@ -3508,6 +3508,17 @@
       "delay": "1分遅れ",
       "updated": "11:55",
       "affiliation": "相"
+    },
+    {
+      "op": "92",
+      "form": "Y515F",
+      "cars": "8",
+      "no": "292-122",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "12:06",
+      "affiliation": "み"
     }
   ],
   "meguro": [
@@ -6973,9 +6984,20 @@
       "delay": "",
       "updated": "11:55",
       "affiliation": "急"
+    },
+    {
+      "op": "92K",
+      "form": "-",
+      "cars": "8",
+      "no": "292-122",
+      "destCode": "大岡山",
+      "kind": "回",
+      "delay": "",
+      "updated": "12:06",
+      "affiliation": "み"
     }
   ],
-  "lastUpdate": "12:01",
+  "lastUpdate": "12:06",
   "date": "2026-10-09",
   "resetDone": false
 }
