@@ -7589,9 +7589,20 @@
       "delay": "",
       "updated": "22:35",
       "affiliation": "急"
+    },
+    {
+      "op": "94M",
+      "form": "9111F",
+      "cars": "8",
+      "no": "594-231",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "23:01",
+      "affiliation": "南"
     }
   ],
-  "lastUpdate": "22:55",
+  "lastUpdate": "23:01",
   "date": "2026-10-09",
   "resetDone": false
 }
