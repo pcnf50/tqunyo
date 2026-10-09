@@ -3554,6 +3554,17 @@
       "affiliation": "東"
     },
     {
+      "op": "64K",
+      "form": "4114F",
+      "cars": "10",
+      "no": "064-152",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "15:45",
+      "affiliation": "急"
+    },
+    {
       "op": "14M",
       "form": "6111F",
       "cars": "10",
@@ -3561,7 +3572,7 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "1分遅れ",
-      "updated": "15:40",
+      "updated": "15:45",
       "affiliation": "西"
     }
   ],
@@ -7096,7 +7107,7 @@
       "affiliation": "南"
     }
   ],
-  "lastUpdate": "15:40",
+  "lastUpdate": "15:45",
   "date": "2026-10-09",
   "resetDone": false
 }
