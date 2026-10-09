@@ -4525,10 +4525,10 @@
       "op": "10",
       "form": "-",
       "cars": "10",
-      "no": "110-082",
-      "destCode": "副都心線直通",
-      "kind": "急行",
-      "delay": "5分遅れ"
+      "no": "110-071",
+      "destCode": "元町・中華街",
+      "kind": "特急",
+      "delay": ""
     },
     {
       "op": "57T",
@@ -8799,7 +8799,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "07:45",
+  "lastUpdate": "07:50",
   "date": "2026-10-10",
   "resetDone": false
 }
