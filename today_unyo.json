@@ -3444,6 +3444,17 @@
       "affiliation": "副"
     },
     {
+      "op": "59K",
+      "form": "-",
+      "cars": "0",
+      "no": "059-111",
+      "destCode": "元住吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "11:15",
+      "affiliation": ""
+    },
+    {
       "op": "20M",
       "form": "40151F",
       "cars": "10",
@@ -3451,7 +3462,7 @@
       "destCode": "元町・中華街",
       "kind": "Ｆ",
       "delay": "",
-      "updated": "11:11",
+      "updated": "11:15",
       "affiliation": "西"
     }
   ],
@@ -6894,11 +6905,11 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "11:11",
+      "updated": "11:15",
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "11:11",
+  "lastUpdate": "11:15",
   "date": "2026-10-09",
   "resetDone": false
 }
