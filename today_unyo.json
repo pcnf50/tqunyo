@@ -1090,15 +1090,13 @@
       "affiliation": "都"
     },
     {
-      "op": "58K",
-      "form": "4110F",
-      "cars": "10",
-      "no": "058-091",
-      "destCode": "元住吉",
-      "kind": "急",
-      "delay": "5分遅れ",
-      "updated": "09:55",
-      "affiliation": "急"
+      "op": "99",
+      "form": "5154F",
+      "cars": "8",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "不明",
+      "delay": ""
     },
     {
       "op": "19K",
@@ -7723,7 +7721,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "02:55",
+  "lastUpdate": "03:30",
   "date": "2026-10-10",
   "resetDone": false
 }
