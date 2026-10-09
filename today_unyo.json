@@ -4333,6 +4333,28 @@
       "affiliation": "急"
     },
     {
+      "op": "24M",
+      "form": "-",
+      "cars": "0",
+      "no": "124-071",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:25",
+      "affiliation": ""
+    },
+    {
+      "op": "18K",
+      "form": "5165F",
+      "cars": "8",
+      "no": "018-072",
+      "destCode": "副都心線直通",
+      "kind": "回",
+      "delay": "",
+      "updated": "07:25",
+      "affiliation": "急"
+    },
+    {
       "op": "05T",
       "form": "9104F",
       "cars": "10",
@@ -4340,7 +4362,7 @@
       "destCode": "元町・中華街",
       "kind": "特",
       "delay": "",
-      "updated": "07:21",
+      "updated": "07:25",
       "affiliation": "東"
     }
   ],
@@ -8665,9 +8687,20 @@
       "delay": "",
       "updated": "07:15",
       "affiliation": ""
+    },
+    {
+      "op": "53T",
+      "form": "6502F",
+      "cars": "8",
+      "no": "453-071",
+      "destCode": "日吉",
+      "kind": "急",
+      "delay": "",
+      "updated": "07:25",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "07:21",
+  "lastUpdate": "07:25",
   "date": "2026-10-10",
   "resetDone": false
 }
