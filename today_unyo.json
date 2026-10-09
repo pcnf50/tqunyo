@@ -6940,9 +6940,20 @@
       "delay": "",
       "updated": "11:25",
       "affiliation": ""
+    },
+    {
+      "op": "01K",
+      "form": "3122F",
+      "cars": "8",
+      "no": "201-112",
+      "destCode": "三田線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "11:50",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "11:45",
+  "lastUpdate": "11:50",
   "date": "2026-10-09",
   "resetDone": false
 }
