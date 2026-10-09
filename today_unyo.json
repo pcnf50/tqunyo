@@ -7567,9 +7567,20 @@
       "delay": "",
       "updated": "22:11",
       "affiliation": "急"
+    },
+    {
+      "op": "47K",
+      "form": "3107F",
+      "cars": "8",
+      "no": "247-222",
+      "destCode": "三田線直通",
+      "kind": "普",
+      "delay": "",
+      "updated": "22:35",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:31",
+  "lastUpdate": "22:35",
   "date": "2026-10-09",
   "resetDone": false
 }
