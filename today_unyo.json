@@ -1178,6 +1178,17 @@
       "affiliation": "南"
     },
     {
+      "op": "36",
+      "form": "-",
+      "cars": "6",
+      "no": "336-111",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:05",
+      "affiliation": "南"
+    },
+    {
       "op": "47",
       "form": "-",
       "cars": "8",
@@ -1185,7 +1196,7 @@
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "12:01",
+      "updated": "12:05",
       "affiliation": "都"
     }
   ],
@@ -2410,9 +2421,20 @@
       "delay": "2分遅れ",
       "updated": "11:50",
       "affiliation": "急"
+    },
+    {
+      "op": "61T",
+      "form": "6336F",
+      "cars": "6",
+      "no": "461-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:05",
+      "affiliation": "都"
     }
   ],
-  "lastUpdate": "12:01",
+  "lastUpdate": "12:05",
   "date": "2026-10-10",
   "resetDone": false
 }
