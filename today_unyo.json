@@ -1009,7 +1009,7 @@
       "destCode": "相鉄線直通",
       "kind": "急",
       "delay": "",
-      "updated": "10:40",
+      "updated": "10:45",
       "affiliation": "相"
     },
     {
@@ -1020,8 +1020,30 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "10:40",
+      "updated": "10:45",
       "affiliation": "相"
+    },
+    {
+      "op": "60",
+      "form": "-",
+      "cars": "6",
+      "no": "360-101",
+      "destCode": "新横浜",
+      "kind": "普",
+      "delay": "",
+      "updated": "10:45",
+      "affiliation": "南"
+    },
+    {
+      "op": "61K",
+      "form": "4114F",
+      "cars": "10",
+      "no": "061-101",
+      "destCode": "元町・中華街",
+      "kind": "急",
+      "delay": "",
+      "updated": "10:45",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -2012,19 +2034,19 @@
       "destCode": "元町・中華街",
       "kind": "急",
       "delay": "",
-      "updated": "10:40",
+      "updated": "10:45",
       "affiliation": "副"
     },
     {
       "op": "31T",
-      "form": "-",
-      "cars": "0",
+      "form": "6508F",
+      "cars": "8",
       "no": "431-101",
       "destCode": "日吉",
       "kind": "普",
       "delay": "",
-      "updated": "10:40",
-      "affiliation": ""
+      "updated": "10:45",
+      "affiliation": "都"
     },
     {
       "op": "91",
@@ -2034,8 +2056,19 @@
       "destCode": "副都心線直通",
       "kind": "急",
       "delay": "",
-      "updated": "10:40",
+      "updated": "10:45",
       "affiliation": "相"
+    },
+    {
+      "op": "22K",
+      "form": "5184F",
+      "cars": "8",
+      "no": "222-101",
+      "destCode": "新横浜",
+      "kind": "急",
+      "delay": "",
+      "updated": "10:45",
+      "affiliation": "急"
     },
     {
       "op": "09",
@@ -2045,11 +2078,11 @@
       "destCode": "元町・中華街",
       "kind": "普",
       "delay": "",
-      "updated": "10:40",
+      "updated": "10:45",
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "10:40",
+  "lastUpdate": "10:45",
   "date": "2026-10-10",
   "resetDone": false
 }
