@@ -1547,8 +1547,8 @@
       "no": "174-181",
       "destCode": "元町・中華街",
       "kind": "Ｓ",
-      "delay": "1分遅れ",
-      "updated": "19:01",
+      "delay": "3分遅れ",
+      "updated": "19:05",
       "affiliation": "西"
     }
   ],
@@ -3094,17 +3094,6 @@
       "affiliation": "西"
     },
     {
-      "op": "75",
-      "form": "-",
-      "cars": "10",
-      "no": "775-181",
-      "destCode": "元町・中華街",
-      "kind": "急",
-      "delay": "",
-      "updated": "19:01",
-      "affiliation": "副"
-    },
-    {
       "op": "32K",
       "form": "3107F",
       "cars": "8",
@@ -3112,11 +3101,11 @@
       "destCode": "南北線直通",
       "kind": "普",
       "delay": "",
-      "updated": "19:01",
+      "updated": "19:05",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "19:01",
+  "lastUpdate": "19:05",
   "date": "2026-10-10",
   "resetDone": false
 }
