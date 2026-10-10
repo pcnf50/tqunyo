@@ -2742,18 +2742,18 @@
       "affiliation": ""
     },
     {
-      "op": "61T",
-      "form": "-",
-      "cars": "0",
-      "no": "461-161",
-      "destCode": "新横浜",
-      "kind": "普",
+      "op": "14K",
+      "form": "5189F",
+      "cars": "8",
+      "no": "214-161",
+      "destCode": "相鉄線直通",
+      "kind": "急",
       "delay": "",
-      "updated": "16:41",
-      "affiliation": ""
+      "updated": "16:45",
+      "affiliation": "急"
     }
   ],
-  "lastUpdate": "16:41",
+  "lastUpdate": "16:45",
   "date": "2026-10-10",
   "resetDone": false
 }
