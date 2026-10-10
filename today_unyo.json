@@ -1794,14 +1794,25 @@
       "affiliation": "副"
     },
     {
+      "op": "15",
+      "form": "-",
+      "cars": "8",
+      "no": "215-232",
+      "destCode": "奥沢",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:35",
+      "affiliation": "急"
+    },
+    {
       "op": "99G",
-      "form": "5164F",
+      "form": "5153F",
       "cars": "8",
       "no": "999-990",
       "destCode": "",
       "kind": "不明",
       "delay": "",
-      "updated": "23:31",
+      "updated": "23:35",
       "affiliation": "急"
     }
   ],
@@ -3611,6 +3622,28 @@
       "affiliation": "東"
     },
     {
+      "op": "45",
+      "form": "-",
+      "cars": "10",
+      "no": "745-231",
+      "destCode": "横浜",
+      "kind": "特",
+      "delay": "",
+      "updated": "23:35",
+      "affiliation": "副"
+    },
+    {
+      "op": "15K",
+      "form": "3104F",
+      "cars": "8",
+      "no": "215-232",
+      "destCode": "奥沢",
+      "kind": "普",
+      "delay": "",
+      "updated": "23:35",
+      "affiliation": "急"
+    },
+    {
       "op": "99",
       "form": "5185F",
       "cars": "8",
@@ -3618,11 +3651,11 @@
       "destCode": "",
       "kind": "各駅停車",
       "delay": "",
-      "updated": "23:31",
+      "updated": "23:35",
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "23:31",
+  "lastUpdate": "23:35",
   "date": "2026-10-10",
   "resetDone": false
 }
