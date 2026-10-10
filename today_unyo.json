@@ -1768,7 +1768,7 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "23:02",
+      "updated": "23:05",
       "affiliation": "急"
     }
   ],
@@ -3563,11 +3563,22 @@
       "destCode": "三田線直通",
       "kind": "急",
       "delay": "",
-      "updated": "23:02",
+      "updated": "23:05",
       "affiliation": "急"
+    },
+    {
+      "op": "05",
+      "form": "-",
+      "cars": "10",
+      "no": "805-221",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "",
+      "updated": "23:05",
+      "affiliation": "東"
     }
   ],
-  "lastUpdate": "23:02",
+  "lastUpdate": "23:05",
   "date": "2026-10-10",
   "resetDone": false
 }
