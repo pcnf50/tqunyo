@@ -1711,9 +1711,9 @@
       "cars": "6",
       "no": "467-221",
       "destCode": "元住吉",
-      "kind": "普",
+      "kind": "回",
       "delay": "",
-      "updated": "22:21",
+      "updated": "22:25",
       "affiliation": "都"
     }
   ],
@@ -3479,7 +3479,7 @@
       "affiliation": "急"
     }
   ],
-  "lastUpdate": "22:21",
+  "lastUpdate": "22:25",
   "date": "2026-10-10",
   "resetDone": false
 }
