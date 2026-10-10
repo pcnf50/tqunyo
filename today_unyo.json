@@ -538,6 +538,28 @@
       "delay": "",
       "updated": "09:05",
       "affiliation": "急"
+    },
+    {
+      "op": "58K",
+      "form": "4110F",
+      "cars": "10",
+      "no": "058-091",
+      "destCode": "元町・中華街",
+      "kind": "Ｆ",
+      "delay": "",
+      "updated": "09:10",
+      "affiliation": "急"
+    },
+    {
+      "op": "51K",
+      "form": "4108F",
+      "cars": "10",
+      "no": "051-092",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:10",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -903,9 +925,75 @@
       "delay": "",
       "updated": "09:05",
       "affiliation": "急"
+    },
+    {
+      "op": "11",
+      "form": "-",
+      "cars": "10",
+      "no": "811-081",
+      "destCode": "元町・中華街",
+      "kind": "特",
+      "delay": "1分遅れ",
+      "updated": "09:10",
+      "affiliation": "東"
+    },
+    {
+      "op": "63T",
+      "form": "6506F",
+      "cars": "8",
+      "no": "463-091",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "09:10",
+      "affiliation": "都"
+    },
+    {
+      "op": "99",
+      "form": "-",
+      "cars": "0",
+      "no": "999-990",
+      "destCode": "",
+      "kind": "各駅停車",
+      "delay": "",
+      "updated": "09:10",
+      "affiliation": ""
+    },
+    {
+      "op": "6G",
+      "form": "5188F",
+      "cars": "8",
+      "no": "006-081",
+      "destCode": "元町・中華街",
+      "kind": "普",
+      "delay": "1分遅れ",
+      "updated": "09:10",
+      "affiliation": "急"
+    },
+    {
+      "op": "51M",
+      "form": "-",
+      "cars": "10",
+      "no": "051-092",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "",
+      "updated": "09:10",
+      "affiliation": "急"
+    },
+    {
+      "op": "39",
+      "form": "-",
+      "cars": "10",
+      "no": "739-082",
+      "destCode": "副都心線直通",
+      "kind": "特",
+      "delay": "",
+      "updated": "09:10",
+      "affiliation": "副"
     }
   ],
-  "lastUpdate": "09:05",
+  "lastUpdate": "09:10",
   "date": "2026-10-10",
   "resetDone": false
 }
