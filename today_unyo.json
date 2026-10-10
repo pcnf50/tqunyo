@@ -1514,8 +1514,8 @@
       "no": "112-181",
       "destCode": "元町・中華街",
       "kind": "急",
-      "delay": "1分遅れ",
-      "updated": "18:31",
+      "delay": "",
+      "updated": "18:35",
       "affiliation": "西"
     }
   ],
@@ -3039,7 +3039,7 @@
       "affiliation": "副"
     }
   ],
-  "lastUpdate": "18:31",
+  "lastUpdate": "18:35",
   "date": "2026-10-10",
   "resetDone": false
 }
