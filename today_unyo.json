@@ -2432,9 +2432,20 @@
       "delay": "",
       "updated": "12:05",
       "affiliation": "都"
+    },
+    {
+      "op": "53T",
+      "form": "-",
+      "cars": "0",
+      "no": "453-121",
+      "destCode": "日吉",
+      "kind": "普",
+      "delay": "",
+      "updated": "12:10",
+      "affiliation": ""
     }
   ],
-  "lastUpdate": "12:05",
+  "lastUpdate": "12:10",
   "date": "2026-10-10",
   "resetDone": false
 }
