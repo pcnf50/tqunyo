@@ -1253,6 +1253,17 @@
       "delay": "",
       "updated": "13:05",
       "affiliation": "都"
+    },
+    {
+      "op": "21K",
+      "form": "-",
+      "cars": "8",
+      "no": "021-122",
+      "destCode": "副都心線直通",
+      "kind": "普",
+      "delay": "2分遅れ",
+      "updated": "13:15",
+      "affiliation": "急"
     }
   ],
   "meguro": [
@@ -2544,7 +2555,7 @@
       "affiliation": "都"
     }
   ],
-  "lastUpdate": "13:10",
+  "lastUpdate": "13:15",
   "date": "2026-10-10",
   "resetDone": false
 }
