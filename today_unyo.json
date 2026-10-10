@@ -1770,6 +1770,17 @@
       "delay": "",
       "updated": "23:05",
       "affiliation": "急"
+    },
+    {
+      "op": "02M",
+      "form": "40157F",
+      "cars": "10",
+      "no": "102-232",
+      "destCode": "副都心線直通",
+      "kind": "急",
+      "delay": "1分遅れ",
+      "updated": "23:11",
+      "affiliation": "西"
     }
   ],
   "meguro": [
@@ -3578,7 +3589,7 @@
       "affiliation": "東"
     }
   ],
-  "lastUpdate": "23:05",
+  "lastUpdate": "23:11",
   "date": "2026-10-10",
   "resetDone": false
 }
